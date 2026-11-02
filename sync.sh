@@ -9,7 +9,7 @@ for d in tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread; do
   (cd /home/claude/$d && find . -type f -size -2M \
      ! -name '*.jpg' ! -name '*.jpeg' ! -name '*.png' ! -name '*.gif' ! -name '*.webp' \
      ! -name '*.mp4' ! -name '*.mp3' ! -name '*.wav' ! -name '*.pkl' ! -name '*.pdf' ! -name '*.zip' \
-     ! -name 'token.json' ! -name 'client.json' ! -path '*/__pycache__/*' ! -name '*.bak*' ! -path '*/bak*/*' -print0 \
+     ! -path "./kin*" ! -name "token.json" ! -name 'client.json' ! -path '*/__pycache__/*' ! -name '*.bak*' ! -path '*/bak*/*' -print0 \
    | tar --null -cf - -T - ) | (cd $R/$d && tar -xf -)
 done
 git add -A >/dev/null
