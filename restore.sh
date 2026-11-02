@@ -4,4 +4,5 @@ R=/home/claude/nangman-work
 for d in tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread; do
   [ -d $R/$d ] || continue; mkdir -p /home/claude/$d; cp -rn $R/$d/. /home/claude/$d/
 done
+cp -n $R/root/* /home/claude/ 2>/dev/null
 echo restored
