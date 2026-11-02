@@ -1,0 +1,41 @@
+{
+ "head": [
+  "외풍차단 시공",
+  "새는 곳마다 다른 공사"
+ ],
+ "what": "창 · 현관",
+ "vintro": [
+  {
+   "kicker": "외풍차단 시공",
+   "line": "창짝 틈은 모헤어\n현관은 중문",
+   "sub": "유리 한 겹 창은 내창 추가"
+  },
+  {
+   "kicker": "셀프와 맡기기",
+   "line": "비닐 · 문풍지는\n한 철",
+   "sub": "문풍지 1,000원부터\n해마다 다시 붙임"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/oepung_sigong/nangman_interior_oepung_sigong_f1_arch.jpg",
+   "line": "현관 찬 공기는\n문 하나로",
+   "sub": "경기 시흥 은계 · NI-0557"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/oepung_sigong/nangman_interior_oepung_sigong_f2_arch_close.jpg",
+   "line": "찬 공기가\n현관에서 멈춤",
+   "sub": "경기 시흥 은계 · NI-0558"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/oepung_sigong/nangman_interior_oepung_sigong_f3_white.jpg",
+   "line": "다른 집\n화이트 틀 아치",
+   "sub": "경기 시흥 은계 · NI-0559"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/oepung_sigong/nangman_interior_oepung_sigong_f4_gansal.jpg",
+   "line": "간살 미닫이\n중문",
+   "sub": "경기 시흥 은계 · NI-0560"
+  }
+ ]
+}

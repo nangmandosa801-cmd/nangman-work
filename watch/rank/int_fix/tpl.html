@@ -1,0 +1,93 @@
+<title>낭만 인테리어 고침 1일차</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+/* 한 줄 흐름: 카드 한 장 = 네이버 수정 화면에서 하는 순서 그대로(제목 → 본문 → 태그) */
+:root{--bg:#f4f7f5;--fg:#1b2a22;--sub:#5b6a62;--line:#d5dfd8;--card:#ffffff;--accent:#03a94f;--accent-ink:#ffffff;--soft:#e8f3ec;--ok:#0b7a3b;--warn:#7a5b12;--warn-soft:#f8f0dc;
+--f-disp:"IBM Plex Sans KR","Noto Sans KR",system-ui,sans-serif;--f-body:"Noto Sans KR",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101613;--fg:#e3ebe6;--sub:#9cada4;--line:#2a372f;--card:#17201b;--accent:#2fd17a;--accent-ink:#0b1a12;--soft:#1c2c23;--ok:#5fe39b;--warn:#e8c46a;--warn-soft:#2a2414;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101613;--fg:#e3ebe6;--sub:#9cada4;--line:#2a372f;--card:#17201b;--accent:#2fd17a;--accent-ink:#0b1a12;--soft:#1c2c23;--ok:#5fe39b;--warn:#e8c46a;--warn-soft:#2a2414;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.65;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:780px;margin:0 auto;display:grid;gap:20px}
+h1{font-family:var(--f-disp);font-size:24px;line-height:1.35;margin:0;text-wrap:balance}
+h2{font-family:var(--f-disp);font-size:17px;margin:0}
+.meta{color:var(--sub);font-size:14px}
+.prog{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:grid;gap:6px;border-bottom:1px solid var(--line)}
+.prog b{font-family:var(--f-disp);font-size:20px;font-variant-numeric:tabular-nums}
+.bar{height:8px;border-radius:4px;background:var(--soft);overflow:hidden}.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+.how{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.how ol{margin:0;padding-left:22px;display:grid;gap:4px}.how li::marker{font-weight:700;color:var(--accent)}
+.rule{background:var(--soft);border-radius:8px;padding:10px 12px;font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:12px;min-width:0}
+.card.done{opacity:.55}
+.hd{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.no{font-family:var(--f-disp);font-weight:700;color:var(--accent);font-size:18px}
+.old{font-size:13px;color:var(--sub);text-decoration:line-through;overflow-wrap:anywhere;word-break:keep-all}
+.ti{font-family:var(--f-disp);font-weight:700;font-size:16px;overflow-wrap:anywhere;word-break:keep-all}
+.row{display:flex;flex-wrap:wrap;gap:8px}
+button,.lk{font:inherit;font-size:14px;font-weight:700;border-radius:8px;padding:8px 14px;cursor:pointer;text-decoration:none;border:0;background:var(--accent);color:var(--accent-ink)}
+.lk{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+button:focus-visible,.lk:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.ok{font-size:13px;color:var(--ok);min-height:1.2em}
+.note{font-size:13px;background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:8px 10px}
+.chk{display:flex;align-items:center;gap:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.chk input{width:22px;height:22px;accent-color:var(--accent)}.chk label{font-weight:700;cursor:pointer}
+details>summary{cursor:pointer;font-size:13px;color:var(--sub)}
+.pv{background:#fff;color:#222;border:1px solid var(--line);border-radius:6px;padding:12px;max-height:460px;overflow:auto;margin-top:8px}
+.pv img{max-width:100%;height:auto}.pv table{width:100%}
+</style>
+<div class="wrap">
+ <div><h1>낭만 인테리어 · 고침 1일차</h1>
+ <div class="meta">blog.naver.com/champion_chart · 색인 안 잡힌 글 8편 · 새 제목과 새 본문으로 통째 교체</div></div>
+ <div class="prog" aria-live="polite"><b id="pn">0 / 8 고침</b><div class="bar"><i id="pb"></i></div></div>
+ <section class="how"><h2>한 편 순서</h2>
+  <ol>
+   <li>「글 열기」로 글을 열고 오른쪽 위 「수정」을 누릅니다.</li>
+   <li>제목 칸을 지우고 「새 제목 복사」를 붙여 넣습니다.</li>
+   <li>본문을 한 번 누르고 Ctrl+A로 전체를 선택해 지웁니다.</li>
+   <li>「본문 통째 복사」를 누르고 본문에 Ctrl+V. 글 · 표 · 그림이 한 번에 들어갑니다.</li>
+   <li>태그 칸을 비우고 「태그 복사」를 붙여 넣습니다.</li>
+   <li>「수정 발행」을 누르고 카드 아래 「고침」에 체크합니다.</li>
+  </ol>
+  <div class="rule">하루 8편, 한 번만 고칩니다. 지우지 않고 이미 고친 글은 건너뜁니다. 그림이 회색 칸으로 보이면 수정 발행 전에 「글 열기」로 옛 글을 다른 탭에 열어 그 그림만 복사해 같은 곳에 붙입니다. 맨 위 큰 그림이 대표 사진인지도 한 번 봅니다.</div>
+ </section>
+ <div id="L" class="wrap" style="gap:14px"></div>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);let S={};
+try{S=JSON.parse(localStorage.getItem('intfix1')||'{}')}catch(e){}
+function save(){try{localStorage.setItem('intfix1',JSON.stringify(S))}catch(e){}}
+function say(el,m){el.textContent=m;setTimeout(()=>el.textContent='',2500)}
+function fallback(html,plain){const b=document.createElement('div');b.innerHTML=html;b.style.cssText='position:fixed;left:-9999px;top:0';document.body.appendChild(b);const r=document.createRange();r.selectNodeContents(b);const s=getSelection();s.removeAllRanges();s.addRange(r);const ok=document.execCommand('copy');s.removeAllRanges();b.remove();return ok}
+async function cp(k,d,ok,pv){
+ try{
+  if(k==='b'){await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([d.B],{type:'text/html'}),'text/plain':new Blob([pv.innerText],{type:'text/plain'})})])}
+  else await navigator.clipboard.writeText(k==='t'?d.T:d.G.join(','));
+  say(ok,'복사했습니다')
+ }catch(e){
+  const h=k==='b'?d.B:(k==='t'?d.T:d.G.join(','));
+  say(ok,fallback(h)?'복사했습니다':'복사하지 못했습니다. 다시 눌러 주세요')
+ }}
+const L=document.getElementById('L');
+D.forEach((d,i)=>{
+ const c=document.createElement('div');c.className='card'+(S[d.n]?' done':'');
+ c.innerHTML=`<div class="hd"><span class="no">${i+1}</span><a class="lk" href="https://blog.naver.com/champion_chart/${d.n}" target="_blank" rel="noopener">글 열기 ↗</a><span class="meta">${d.n}</span></div>
+ <div class="old"></div><div class="ti"></div><div class="note" hidden></div>
+ <div class="row"><button data-k="t" type="button">새 제목 복사</button><button data-k="b" type="button">본문 통째 복사</button><button data-k="g" type="button">태그 복사</button></div>
+ <div class="ok" aria-live="polite"></div>
+ <details><summary>본문 미리보기</summary><div class="pv"></div></details>
+ <div class="chk"><input type="checkbox" id="c${d.n}" ${S[d.n]?'checked':''}><label for="c${d.n}">고침</label></div>`;
+ c.querySelector('.old').textContent=d.old;c.querySelector('.ti').textContent=d.T;
+ if(d.note){const n=c.querySelector('.note');n.textContent=d.note;n.hidden=false}
+ const pv=c.querySelector('.pv');pv.innerHTML=d.B;const ok=c.querySelector('.ok');
+ c.querySelectorAll('button').forEach(b=>b.onclick=()=>cp(b.dataset.k,d,ok,pv));
+ c.querySelector('input').onchange=e=>{S[d.n]=e.target.checked;c.classList.toggle('done',e.target.checked);save();prog()};
+ L.appendChild(c)});
+function prog(){const n=D.filter(d=>S[d.n]).length;document.getElementById('pn').textContent=n+' / '+D.length+' 고침';document.getElementById('pb').style.width=(100*n/D.length)+'%'}prog();
+</script>

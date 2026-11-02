@@ -1,0 +1,39 @@
+{
+ "head": [
+  "유리문 번호키",
+  "샷시문 전용 슬림형"
+ ],
+ "what": "유리문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/yurimun_beonhoki/사진_출처/1.jpg",
+   "line": "유리문 번호키\n15만원부터",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/yurimun_beonhoki/사진_출처/2.jpg",
+   "line": "검은 틀 문에\n검은 몸체",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/yurimun_beonhoki/사진_출처/3.jpg",
+   "line": "얇은 샷시문\n한강로 상가",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/yurimun_beonhoki/사진_출처/4.jpg",
+   "line": "위아래로 잠기는\n구조 그대로",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/yurimun_beonhoki/사진_출처/5.jpg",
+   "line": "번호키 가까이\n유리는 그대로",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/yurimun_beonhoki/사진_출처/6.jpg",
+   "line": "제작 유리문\n힌지도 같은 날",
+   "sub": "출처 서울 24시 출장 열쇠"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "head": [
+  "드레스룸 중문 슬라이딩",
+  "벽을 따라 미는 문"
+ ],
+ "what": "안방",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_01_bed.jpg",
+   "line": "침대 쪽에서 본\n드레스룸 입구",
+   "sub": "시공 전"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_03_closed.jpg",
+   "line": "닫은\n모습",
+   "sub": "드레스룸 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_04_open_close.jpg",
+   "line": "열었을 때와\n닫았을 때",
+   "sub": "드레스룸 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_07_pattern.jpg",
+   "line": "띠 장식과\n브론즈 유리",
+   "sub": "가까이 본 모습"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_08_inside.jpg",
+   "line": "드레스룸 안에서\n본 안방",
+   "sub": "드레스룸 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_10_after.jpg",
+   "line": "시공\n후",
+   "sub": "드레스룸 중문"
+  }
+ ]
+}

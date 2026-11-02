@@ -1,0 +1,39 @@
+{
+ "head": [
+  "3연동 자동 중문",
+  "앞에 서면 열립니다"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_01_before.jpg",
+   "line": "교체 전\n접히는 문",
+   "sub": "3연동 자동 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_03_closed.jpg",
+   "line": "교체 후\n닫은 모습",
+   "sub": "3연동 자동 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_04_open.jpg",
+   "line": "교체 후\n연 모습",
+   "sub": "3연동 자동 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_05_button.jpg",
+   "line": "복도 벽의\n버튼과 간살",
+   "sub": "3연동 자동 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_08_sensor.jpg",
+   "line": "위쪽 틀 가운데\n검은 상자가 센서",
+   "sub": "3연동 자동 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_09_gansal.jpg",
+   "line": "세 짝이\n겹쳐지는 모습",
+   "sub": "3연동 자동 중문"
+  }
+ ]
+}

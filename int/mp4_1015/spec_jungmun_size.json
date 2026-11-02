@@ -1,0 +1,19 @@
+{
+ "head": [
+  "중문 사이즈 재는 법",
+  "열리는 폭은 따로"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/size_a.png",
+   "line": "3연동은\n3분의 2만 열림",
+   "sub": "현관 폭 1,200mm가 경계"
+  },
+  {
+   "src": "/home/claude/hv/cards/size_b.png",
+   "line": "줄자로\n세 군데",
+   "sub": "가장 작은 숫자로"
+  }
+ ]
+}

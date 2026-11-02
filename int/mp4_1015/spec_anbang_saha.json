@@ -1,0 +1,39 @@
+{
+ "head": [
+  "안방 중문 설치",
+  "콘센트에 걸려 3연동"
+ ],
+ "what": "안방",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_02_outlet.jpg",
+   "line": "시공 전\n드레스룸 입구",
+   "sub": "안방 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_03_closed.jpg",
+   "line": "시공 후\n드레스룸 입구",
+   "sub": "안방 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_04_inside.jpg",
+   "line": "드레스룸 안에서\n본 안방",
+   "sub": "안방 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_06_mist.jpg",
+   "line": "드레스룸 안에서\n문을 닫은 모습",
+   "sub": "안방 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_07_entrance.jpg",
+   "line": "같은 집\n현관",
+   "sub": "현관 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_10_entrance_open.jpg",
+   "line": "현관 중문\n열고 닫은 모습",
+   "sub": "현관 중문"
+  }
+ ]
+}

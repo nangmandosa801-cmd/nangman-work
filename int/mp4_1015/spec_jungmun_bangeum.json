@@ -1,0 +1,24 @@
+{
+ "head": [
+  "중문 방음",
+  "현관문 틈부터"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/jungmun_bangeum/nangman_interior_jungmun_bangeum_fig1.png",
+   "line": "모집공고 속\n옵션 중문 문장",
+   "sub": "입주자모집공고 네 곳"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jungmun_bangeum/nangman_interior_jungmun_bangeum_fig2.png",
+   "line": "방문 아래 틈과\n소리 차단 실험",
+   "sub": "중문 방음"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jungmun_bangeum/nangman_interior_jungmun_bangeum_fig3.png",
+   "line": "소리가 들어오는 곳\n확인 순서",
+   "sub": "중문 방음"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "head": [
+  "부천 인테리어",
+  "30년 된 집 순서"
+ ],
+ "what": "현관",
+ "vintro": [
+  {
+   "kicker": "부천 중동 · 상동",
+   "line": "8~9월 구축\n593집 거래",
+   "sub": "중동 346집 · 상동 247집"
+  },
+  {
+   "kicker": "서른 해 안팎 구축",
+   "line": "배관부터\n하나씩 순서대로",
+   "sub": "겨울 전에 물이 새거나\n얼 곳부터 봅니다"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/bucheon_interior/nangman_interior_bucheon_interior_01_s_after.jpg",
+   "line": "곧은 새 샷시\n앞발코니",
+   "sub": "중동 은하마을주공2단지 · NI-1340"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/bucheon_interior/nangman_interior_bucheon_interior_07_p_done.jpg",
+   "line": "물 빼고 다시 감싼\n보일러 배관",
+   "sub": "부천 · NI-1346"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/bucheon_interior/nangman_interior_bucheon_interior_13_j1_after.jpg",
+   "line": "흰 틀\n초슬림 3연동",
+   "sub": "상동 반달마을 동아 · NI-1352"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/bucheon_interior/nangman_interior_bucheon_interior_16_j2_after.jpg",
+   "line": "좁은 입구\n3연동",
+   "sub": "중동 중흥마을주공6단지 · NI-1355"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/bucheon_interior/nangman_interior_bucheon_interior_19_l_after.jpg",
+   "line": "새로 단\n열쇠 겸용 번호키",
+   "sub": "서울 홍제동 · NI-1358"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "head": [
+  "평택화양동문디이스트",
+  "줄눈 다음 날 청소"
+ ],
+ "what": "입주할 집",
+ "vintro": [
+  {
+   "kicker": "평택 화양 · 2026년 11월 입주",
+   "line": "동문 디 이스트\n753세대",
+   "sub": "입주 기간 60일"
+  },
+  {
+   "kicker": "열쇠 받은 뒤 순서",
+   "line": "줄눈 먼저\n청소는 다음 날",
+   "sub": "줄눈 가루와 자국이\n바닥에 남아서"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/hwayang_dongmun_jikjeon/nangman_interior_hwayang_dongmun_jikjeon_02_j_work.jpg",
+   "line": "줄눈 넣고 남은\n하얀 자국",
+   "sub": "이천 새 아파트 · NI-1106"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hwayang_dongmun_jikjeon/nangman_interior_hwayang_dongmun_jikjeon_04_c_rail.jpg",
+   "line": "청소 전\n창틀 레일 먼지",
+   "sub": "고양 삼송동 32평 · NI-1108"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hwayang_dongmun_jikjeon/nangman_interior_hwayang_dongmun_jikjeon_06_c_drawer.jpg",
+   "line": "서랍을 빼고\n안쪽까지",
+   "sub": "고양 삼송동 32평 · NI-1110"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hwayang_dongmun_jikjeon/nangman_interior_hwayang_dongmun_jikjeon_07_c_base.jpg",
+   "line": "붙박이장 아래\n청소기로 빨기",
+   "sub": "고양 삼송동 32평 · NI-1111"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hwayang_dongmun_jikjeon/nangman_interior_hwayang_dongmun_jikjeon_08_c_sink.jpg",
+   "line": "청소 끝낸\n주방 개수대",
+   "sub": "고양 삼송동 32평 · NI-1112"
+  }
+ ]
+}

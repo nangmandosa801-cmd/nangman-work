@@ -1,0 +1,24 @@
+{
+ "head": [
+  "입주청소 순서",
+  "탄성코트 · 줄눈 먼저"
+ ],
+ "what": "집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/cheongso_sunseo/nangman_interior_cheongso_sunseo_fig1.png",
+   "line": "입주 전 시공과\n청소 순서",
+   "sub": "입주청소 순서"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/cheongso_sunseo/nangman_interior_cheongso_sunseo_fig2.png",
+   "line": "줄눈은\n청소 전에",
+   "sub": "청소 전 · 후 비교"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/cheongso_sunseo/nangman_interior_cheongso_sunseo_fig3.png",
+   "line": "청소 당일\n집 안 순서",
+   "sub": "입주청소 순서"
+  }
+ ]
+}

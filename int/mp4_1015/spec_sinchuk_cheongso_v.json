@@ -1,0 +1,14 @@
+{
+ "head": ["신축 입주청소 34평", "청소만 37만 4천원"],
+ "what": "현관 · 욕실",
+ "vintro": [
+  {"kicker": "신축 입주청소 비용 · 34평", "line": "청소만\n37만 4천원", "sub": "새집증후군까지 하면 71만 4천원"},
+  {"kicker": "평당 1만 1천원 정찰", "line": "공사 먼지\n추가금 없음", "sub": "청소하는 날 금액이 늘지 않습니다"}
+ ],
+ "slides": [
+  {"src": "/home/claude/w/offensive/mc_cs/01.jpg", "line": "서랍 빼면\n공사 먼지", "sub": "서랍 · 선반 떼어 내고 닦기"},
+  {"src": "/home/claude/w/offensive/mc_cs/05.jpg", "line": "창틀 레일\n닦기 전", "sub": "실리콘 부스러기까지"},
+  {"src": "/home/claude/w/offensive/mc_cs/03.jpg", "line": "걸레받이\n떼어 낸 자리", "sub": "공사 뒤 아무도 안 닦은 곳"},
+  {"src": "/home/claude/w/offensive/mc_cs/08.jpg", "line": "배수구 트랩\n분리해서 세척", "sub": "끝나고 7일 안 A/S"}
+ ]
+}

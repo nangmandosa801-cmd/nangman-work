@@ -1,0 +1,19 @@
+{
+ "head": [
+  "아파트 하자보수 기간",
+  "마감공사는 2년"
+ ],
+ "what": "하자",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/haja_a.png",
+   "line": "타일 · 도배는\n2년",
+   "sub": "공동주택관리법 시행령"
+  },
+  {
+   "src": "/home/claude/hv/cards/haja_b.png",
+   "line": "2년차 점검\n집 안에서 볼 곳",
+   "sub": "타일 · 줄눈 · 도배 · 붙박이장"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "head": [
+  "노견 미끄럼 방지",
+  "다니는 길 따라 매트"
+ ],
+ "what": "거실",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_01_s_pair.jpg",
+   "line": "대리석 거실과\n매트를 깐 거실",
+   "sub": "서울 서초 주택 · NI-0208"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_03_s_dining.jpg",
+   "line": "식탁 아래까지\n깐 매트",
+   "sub": "서울 서초 주택 · NI-0210"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_04_s_hall.jpg",
+   "line": "긴 복도를 따라\n이어 깐 매트",
+   "sub": "서울 서초 주택 · NI-0211"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_07_c_living.jpg",
+   "line": "거실 전체에 깐\n브라운 매트",
+   "sub": "전남 순천 · NI-0214"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_08_c_hall.jpg",
+   "line": "현관으로 이어지는\n복도 매트",
+   "sub": "전남 순천 · NI-0215"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_09_c_kitchen.jpg",
+   "line": "좁은 주방\n바닥까지",
+   "sub": "전남 순천 · NI-0216"
+  }
+ ]
+}

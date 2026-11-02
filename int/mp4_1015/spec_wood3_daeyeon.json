@@ -1,0 +1,39 @@
+{
+ "head": [
+  "우드 중문 3연동",
+  "한 면은 문, 한 면은 유리 벽"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_01_front.jpg",
+   "line": "거실에서 본\n현관",
+   "sub": "우드 중문 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_03_after_corner.jpg",
+   "line": "시공 후\n모서리",
+   "sub": "두 면이 트인 현관"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_05_side_wall.jpg",
+   "line": "옆면은\n유리 벽",
+   "sub": "우드 중문 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_06_inside.jpg",
+   "line": "현관 안에서\n본 거실",
+   "sub": "우드 중문 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_09_door.jpg",
+   "line": "문\n세 짝",
+   "sub": "우드 중문 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_10_corner2.jpg",
+   "line": "문을 열고\n옆에서 본 모습",
+   "sub": "우드 중문 3연동"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "head": [
+  "해링턴플레이스",
+  "입주청소 견적"
+ ],
+ "what": "견적서",
+ "vintro": [],
+ "slides": [
+  {
+   "kicker": "해링턴플레이스 34평",
+   "line": "입주청소 +\n새집증후군\n71만 4천원",
+   "sub": "30평은 63만원\n따로 맡기면 77만원"
+  },
+  {
+   "kicker": "같은 34평 입주청소",
+   "line": "37만원 vs\n68만원",
+   "sub": "차이는 사람 수와\n닦는 깊이"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dongjak_signature_cheongso/nangman_interior_dongjak_signature_cheongso_01_e_drawer.jpg",
+   "line": "서랍 · 선반은\n떼어서 닦습니다",
+   "sub": "제휴팀 신축 현장"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dongjak_signature_cheongso/nangman_interior_dongjak_signature_cheongso_05_d_rail.jpg",
+   "line": "창틀 레일\n홈 안까지",
+   "sub": "제휴팀 아파트 현장"
+  },
+  {
+   "kicker": "청소 다음 날",
+   "line": "새집증후군\n시공",
+   "sub": "시공 전후\n포름알데히드 측정값을 드립니다"
+  },
+  {
+   "src": "/mnt/user-data/uploads/harr/nangman_interior_harrington_nano_01.jpg",
+   "line": "30세대 모이면\n욕실 나노코팅 무료",
+   "sub": "제휴팀 욕실 현장"
+  },
+  {
+   "kicker": "박람회 견적서 받으셨나요?",
+   "line": "사진 한 장\n보내 주세요",
+   "sub": "같은 범위로\n비교해 드립니다"
+  }
+ ]
+}

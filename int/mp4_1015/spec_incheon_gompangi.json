@@ -1,0 +1,39 @@
+{
+ "head": [
+  "인천 곰팡이 제거",
+  "닦는 대신 벽 속 단열"
+ ],
+ "what": "베란다",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_03_y_door.jpg",
+   "line": "창 둘레부터\n번진 곰팡이",
+   "sub": "인천 연수구"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_04_y_board.jpg",
+   "line": "창 둘레를 폼으로\n메운 단열재",
+   "sub": "인천 연수구"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_06_t_ceil.jpg",
+   "line": "천장 모서리에\n핀 곰팡이",
+   "sub": "인천 탑층 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_10_t_after.jpg",
+   "line": "단열을 마친\n베란다",
+   "sub": "인천 탑층 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_12_d_glass.jpg",
+   "line": "벽 속 글라스울\n떼어 낸 벽",
+   "sub": "동인천 구축 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_13_d_pink.jpg",
+   "line": "새로 붙인\n아이소핑크",
+   "sub": "동인천 구축 아파트"
+  }
+ ]
+}

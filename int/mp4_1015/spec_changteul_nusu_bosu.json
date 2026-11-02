@@ -1,0 +1,39 @@
+{
+ "head": [
+  "창틀 누수 보수",
+  "3년 안이면 하자보수부터"
+ ],
+ "what": "창틀",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_02_a_top.jpg",
+   "line": "창틀 위에서\n굳어 벌어진 실리콘",
+   "sub": "경기 용인 · NI-0541"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_04_a_pipe.jpg",
+   "line": "배관 둘레로 번진\n검은 물자국",
+   "sub": "경기 용인 · NI-0543"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_05_a_crack.jpg",
+   "line": "창틀 위 외벽의\n가는 금",
+   "sub": "경기 용인 · NI-0544"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_07_a_new.jpg",
+   "line": "창틀 위와 외벽 금\n새로 채운 줄",
+   "sub": "경기 용인 · NI-0546"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_12_b_crack.jpg",
+   "line": "부서지기 직전의\n옛 실리콘",
+   "sub": "서울 은평 · NI-0551"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_16_b_new2.jpg",
+   "line": "배관 둘레까지\n이어 막은 줄",
+   "sub": "서울 은평 · NI-0555"
+  }
+ ]
+}

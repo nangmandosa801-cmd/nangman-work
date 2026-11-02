@@ -1,0 +1,46 @@
+{
+ "head": [
+  "힐스테이트 등촌역",
+  "입주 뒤 순서"
+ ],
+ "what": "입주할 집",
+ "vintro": [
+  {
+   "kicker": "서울 강서구 등촌동",
+   "line": "힐스테이트\n등촌역 입주",
+   "sub": "543세대 · 2026년 10월 예정"
+  },
+  {
+   "kicker": "청소 뒤 한 번 더",
+   "line": "33도로 8시간\n환기는 세 번",
+   "sub": "베이크아웃 · 새 집 냄새"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/deungchon_jikjeon/nangman_interior_deungchon_jikjeon_01_z_haze.jpg",
+   "line": "줄눈 넣기 전\n하얀 가루",
+   "sub": "이천 새 아파트 · NI-1156"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/deungchon_jikjeon/nangman_interior_deungchon_jikjeon_02_z_after.jpg",
+   "line": "줄눈을 넣은 뒤\n욕실 바닥",
+   "sub": "이천 새 아파트 · NI-1157"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/deungchon_jikjeon/nangman_interior_deungchon_jikjeon_04_c_vent.jpg",
+   "line": "환풍기 덮개를\n떼고 청소",
+   "sub": "고양 삼송동 · NI-1159"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/deungchon_jikjeon/nangman_interior_deungchon_jikjeon_05_c_drain.jpg",
+   "line": "배수구 트랩까지\n빼서 닦기",
+   "sub": "고양 삼송동 · NI-1160"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/deungchon_jikjeon/nangman_interior_deungchon_jikjeon_08_c_room.jpg",
+   "line": "청소 마친 방\n오후 햇빛",
+   "sub": "고양 삼송동 · NI-1163"
+  }
+ ]
+}

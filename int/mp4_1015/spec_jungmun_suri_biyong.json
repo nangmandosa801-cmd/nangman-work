@@ -1,0 +1,19 @@
+{
+ "head": [
+  "중문 수리 비용",
+  "고장 난 부품 하나로"
+ ],
+ "what": "중문",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/suri_a.png",
+   "line": "소리 · 쏠림 · 틈으로\n부품을 짚습니다",
+   "sub": "중문 고장 증상"
+  },
+  {
+   "src": "/home/claude/hv/cards/suri_b.png",
+   "line": "레일 청소는 셀프\n바퀴는 맡김",
+   "sub": "중문 수리"
+  }
+ ]
+}

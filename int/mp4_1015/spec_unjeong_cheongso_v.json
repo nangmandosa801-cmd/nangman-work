@@ -1,0 +1,14 @@
+{
+ "head": ["운정중앙역 제일풍경채", "청소는 중문 단 다음 날"],
+ "what": "현관 · 욕실",
+ "vintro": [
+  {"kicker": "파주 운정 · 10월 2일 입주 시작", "line": "383세대\n모두 84㎡", "sub": "옵션 중문 없는 집이 많습니다"},
+  {"kicker": "날짜 두 개만 먼저", "line": "중문 다는 날\n다음 날 청소", "sub": "문 다는 먼지까지 한 번에 닦습니다"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/unjeong/clip/03.jpg", "line": "중문 먼저 달고\n청소는 다음 날", "sub": "파주 운정 새 아파트 · NI-0984"},
+  {"src": "/home/claude/v2src/t1102/unjeong/clip/12.jpg", "line": "가스레인지는\n들어 올려 닦습니다", "sub": "운정 산내마을 1단지 · NI-0987"},
+  {"src": "/home/claude/v2src/t1102/unjeong/clip/13.jpg", "line": "물빠짐 부속은\n전부 빼서 씻습니다", "sub": "운정 산내마을 1단지 · NI-0988"},
+  {"src": "/home/claude/v2src/t1102/unjeong/clip/07.jpg", "line": "걸레받이 안쪽\n꼭 열어 보세요", "sub": "운정 산내마을 1단지 · NI-0989"}
+ ]
+}

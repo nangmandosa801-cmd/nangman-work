@@ -1,0 +1,46 @@
+{
+ "head": [
+  "현관 무타공 중문",
+  "셀프냐 기둥식이냐"
+ ],
+ "what": "현관",
+ "vintro": [
+  {
+   "kicker": "현관 무타공 중문",
+   "line": "셀프\n4만~7만원대",
+   "sub": "판매 화면 표시가"
+  },
+  {
+   "kicker": "기둥식 시공",
+   "line": "폭 90cm\n25만~37만원",
+   "sub": "양옆 기둥이\n천장과 바닥을 누릅니다"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/hyeongwan_mutagong/nangman_interior_hyeongwan_mutagong_01_a_width.jpg",
+   "line": "현관 폭은\n세 군데 재기",
+   "sub": "동탄 아파트 · NI-1392"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hyeongwan_mutagong/nangman_interior_hyeongwan_mutagong_02_a_height.jpg",
+   "line": "천장 높이\n양쪽 끝 재기",
+   "sub": "동탄 아파트 · NI-1393"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hyeongwan_mutagong/nangman_interior_hyeongwan_mutagong_04_b_toprail.jpg",
+   "line": "일반 중문은\n천장에 레일",
+   "sub": "동탄 아파트 · NI-1395"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hyeongwan_mutagong/nangman_interior_hyeongwan_mutagong_06_c_shoe_before.jpg",
+   "line": "문 옆에\n신발장이 붙은 집",
+   "sub": "진해 아파트 · NI-1397"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/hyeongwan_mutagong/nangman_interior_hyeongwan_mutagong_07_c_shoe_after.jpg",
+   "line": "신발장 위를\n유리로 막고 3연동",
+   "sub": "진해 아파트 · NI-1398"
+  }
+ ]
+}

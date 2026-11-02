@@ -1,0 +1,39 @@
+{
+ "head": [
+  "방문 필름",
+  "네 짝은 필름, 네 짝은 새 문"
+ ],
+ "what": "방문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_02_groove.jpg",
+   "line": "시공 전\n방문",
+   "sub": "방문 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_03_glass_door.jpg",
+   "line": "교체 전\n유리문",
+   "sub": "새 문으로 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_05_putty.jpg",
+   "line": "홈을 퍼티로\n메우는 중",
+   "sub": "방문 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_08_after.jpg",
+   "line": "시공 후\n방문",
+   "sub": "방문 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_09_corner.jpg",
+   "line": "모서리 쪽\n방문 두 짝",
+   "sub": "방문 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_11_entrance.jpg",
+   "line": "같은 필름으로\n현관문 안쪽까지",
+   "sub": "방문 필름"
+  }
+ ]
+}

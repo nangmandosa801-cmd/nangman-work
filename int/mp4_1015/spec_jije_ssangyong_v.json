@@ -1,0 +1,14 @@
+{
+ "head": ["지제역 반도체밸리 쌍용", "사전점검 공지 전에 금액부터"],
+ "what": "현관 · 욕실",
+ "vintro": [
+  {"kicker": "평택 · 2027년 1월 입주", "line": "1,340세대\n84㎡가 1,010세대", "sub": "1월 입주 단지 중 가장 큽니다"},
+  {"kicker": "청소 + 새집증후군 묶음", "line": "33평\n69만 3천원", "sub": "따로 맡기면 30평 77만원"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/jije_ssangyong/02.jpg", "line": "에어컨 덮개 열고\n안쪽 먼지까지", "sub": "평택 제휴팀 · NI-1456"},
+  {"src": "/home/claude/v2src/t1102/jije_ssangyong/03.jpg", "line": "창틀 레일 홈\n공사 먼지", "sub": "평택 제휴팀 · NI-1457"},
+  {"src": "/home/claude/v2src/t1102/jije_ssangyong/06.jpg", "line": "서랍 빼고\n레일 안쪽까지", "sub": "평택 제휴팀 · NI-1459"},
+  {"src": "/home/claude/v2src/t1102/jije_ssangyong/07.jpg", "line": "배수구 덮개\n들어내고 닦기", "sub": "평택 제휴팀 · NI-1460"}
+ ]
+}

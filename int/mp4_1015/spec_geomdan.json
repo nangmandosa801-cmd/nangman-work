@@ -1,0 +1,42 @@
+{
+ "head": [
+  "검단 새 아파트",
+  "입주청소 맡길까?"
+ ],
+ "what": "입주할 집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_cheongso/nangman_interior_geomdan_cheongso_01_u_living.jpg",
+   "line": "검단 입주청소\n분진부터 걷어 냅니다",
+   "sub": "파주 운정 새 아파트 사례",
+   "vline": "검단 입주청소\n분진부터"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_cheongso/nangman_interior_geomdan_cheongso_02_u_floor.jpg",
+   "line": "새 바닥 위 하얀 분진\n청소 전 → 뒤",
+   "sub": "파주 운정 새 아파트 사례",
+   "vline": "하얀 분진\n청소 전 → 뒤"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_cheongso/nangman_interior_geomdan_cheongso_03_u_drawer.jpg",
+   "line": "서랍을 빼서\n레일까지",
+   "sub": "파주 운정 새 아파트 사례"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_cheongso/nangman_interior_geomdan_cheongso_05_u_parts.jpg",
+   "line": "후드 필터 · 거름망\n꺼내서 닦음",
+   "sub": "파주 운정 새 아파트 사례",
+   "vline": "후드 필터\n거름망까지"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_cheongso/nangman_interior_geomdan_cheongso_07_u_trap.jpg",
+   "line": "배수구 트랩도\n빼서 닦음",
+   "sub": "파주 운정 새 아파트 사례"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_cheongso/nangman_interior_geomdan_cheongso_10_u_sill.jpg",
+   "line": "창틀 레일 모서리\n청소 전 → 뒤",
+   "sub": "파주 운정 새 아파트 사례"
+  }
+ ]
+}

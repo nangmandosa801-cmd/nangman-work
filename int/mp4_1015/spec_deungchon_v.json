@@ -1,0 +1,45 @@
+{
+ "head": [
+  "힐스테이트 등촌역",
+  "중문만 따로 달기"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_deungchon/nangman_interior_ipju_deungchon_d1_before.jpg",
+   "line": "등촌동 현관\n시공 전",
+   "sub": "등촌동 아파트 · 시공 전",
+   "vline": "중문 달기 전\n등촌동 현관"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_deungchon/nangman_interior_ipju_deungchon_d2_closed.jpg",
+   "line": "집 안에서 본\n닫은 모습",
+   "sub": "집 안에서 본 모습",
+   "vline": "블랙 초슬림\n3연동을 달았습니다"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_deungchon/nangman_interior_ipju_deungchon_d3_closed_entrance.jpg",
+   "line": "현관 쪽에서 본\n닫은 모습",
+   "sub": "현관 쪽에서 본 모습",
+   "vline": "가운데\n가로 간살"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_deungchon/nangman_interior_ipju_deungchon_d4_open.jpg",
+   "line": "문을\n연 모습",
+   "sub": "문을 연 모습",
+   "vline": "열면 세 짝이\n왼쪽으로 겹칩니다"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "서울 강서구 등촌동",
+   "line": "힐스테이트\n등촌역 입주",
+   "sub": "2026년 10월 · 543세대"
+  },
+  {
+   "kicker": "옵션 중문 · 3연동",
+   "line": "84㎡ 169만원\n59㎡B 428만원",
+   "sub": "59㎡는 중문만\n따로 고를 수 없었습니다"
+  }
+ ]
+}

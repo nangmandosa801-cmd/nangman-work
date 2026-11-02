@@ -1,0 +1,413 @@
+{
+ "blog": "https://nangmaninterior.tistory.com/",
+ "made": "2026-10-15",
+ "categories": [
+  "입주 단지",
+  "중문",
+  "입주청소",
+  "누수 · 코킹",
+  "매트 · 필름 · 수리"
+ ],
+ "gsc": "10/15 등록 · HTML 태그 hWmj… · sitemap.xml 제출",
+ "published": [
+  {
+   "slug": "centreville_checklist",
+   "url": "https://nangmaninterior.tistory.com/1",
+   "naver": "224436072769",
+   "at": "2026-10-15 22:39",
+   "title": "신검단중앙역 센트레빌 입주 체크리스트, 열쇠 받고 이삿날까지 다섯 단계",
+   "code": "/home/claude/tistory_int/p01_centreville.py"
+  },
+  {
+   "slug": "seodaejeon",
+   "url": "https://nangmaninterior.tistory.com/2",
+   "naver": "224430196670",
+   "at": "2026-10-15 22:4x~22:56"
+  },
+  {
+   "slug": "b_cheongju_gagyeong",
+   "url": "https://nangmaninterior.tistory.com/3",
+   "naver": "224430267262",
+   "at": "2026-10-15 22:4x~22:56"
+  },
+  {
+   "slug": "jungmun_price",
+   "url": "https://nangmaninterior.tistory.com/4",
+   "naver": "224420365390",
+   "at": "2026-10-15 22:4x~22:56"
+  },
+  {
+   "slug": "b_one_sliding",
+   "url": "https://nangmaninterior.tistory.com/5",
+   "at": "2026-10-15 23:16"
+  },
+  {
+   "slug": "cleaning_pick",
+   "url": "https://nangmaninterior.tistory.com/6",
+   "at": "2026-10-16 00:08"
+  },
+  {
+   "slug": "b_cleaning_extra",
+   "url": "https://nangmaninterior.tistory.com/7",
+   "at": "2026-10-16 02:4x · 사진 4 · 유튜브 f016YyjBM6Y"
+  },
+  {
+   "slug": "veranda_leak",
+   "url": "https://nangmaninterior.tistory.com/8",
+   "at": "2026-10-16 02:5x · 사진 5 · 유튜브 J9EgHiOeGWI"
+  },
+  {
+   "slug": "b_sash_leak",
+   "url": "https://nangmaninterior.tistory.com/9",
+   "at": "2026-10-16 03:0x · 사진 4 · 유튜브 J9EgHiOeGWI"
+  },
+  {
+   "slug": "oebyeok_silicon",
+   "url": "https://nangmaninterior.tistory.com/10",
+   "naver": "224431364713",
+   "at": "2026-10-17 00:15 · 유튜브 J9EgHiOeGWI · 썸네일 1",
+   "title": "아파트 외벽 실리콘 비용, 견적 두 장 비교하는 체크리스트 7가지"
+  },
+  {
+   "slug": "b_living_mat",
+   "url": "https://nangmaninterior.tistory.com/11",
+   "at": "2026-10-17 02:5x · 유튜브 l4DNSWABdNI · 썸네일 1",
+   "title": "거실 매트 시공 비용, 34평 거실부터 방까지 110~120장 듭니다"
+  },
+  {
+   "slug": "caulk_price",
+   "url": "https://nangmaninterior.tistory.com/12",
+   "at": "2026-10-17 02:5x · 유튜브 J9EgHiOeGWI · 썸네일 1",
+   "title": "아파트 외부 코킹 비용, 34평 41만원과 204만원이 다른 이유"
+  },
+  {
+   "slug": "window_draft",
+   "url": "https://nangmaninterior.tistory.com/13",
+   "at": "2026-10-17 02:5x · 유튜브 J9EgHiOeGWI · 썸네일 1",
+   "title": "창문 외풍 차단, 새는 곳 네 군데 찾는 법과 막는 방법 다섯 가지 비교"
+  },
+  {
+   "slug": "two_year_hajabosu",
+   "url": "https://nangmaninterior.tistory.com/14",
+   "at": "2026-10-18 03:1x · 사용자 요청(입주 2년 차) · 유튜브 xL-jw7irDCk 외 · 홍보 영상",
+   "title": "아파트 하자보수 기간, 입주 2년이면 도배·타일·가구 하자 청구가 끝납니다"
+  },
+  {
+   "slug": "jinjeop_jungmun",
+   "url": "https://nangmaninterior.tistory.com/23",
+   "naver": "224430512305",
+   "at": "2026-10-19 12:5x · 유튜브 insBNwbbTvc · 홍보 _rSMVmVRhoM · 치수 그림 1",
+   "title": "진접역 신안인스빌 중문, 현관 폭으로 고르는 순서와 일곱 집 비교",
+   "code": "/home/claude/tistory_int/b1019/p1_jinjeop.py"
+  },
+  {
+   "slug": "osan_julnun",
+   "url": "https://nangmaninterior.tistory.com/24",
+   "naver": "224436127312",
+   "at": "2026-10-19 13:0x · 유튜브 O6uFW9-52xk · 홍보 · 전후 사진 1(NI-0109 재구성)",
+   "title": "오산역 금강펜테리움 센트럴파크 줄눈, 입주청소보다 하루 먼저 합니다",
+   "code": "/home/claude/tistory_int/b1019/p2_osan.py"
+  },
+  {
+   "slug": "unjeong_cheongso",
+   "url": "https://nangmaninterior.tistory.com/25",
+   "at": "2026-10-19 17:53 · 사진 1(번호 2882로 다시 그림 · alt 파주 입주청소 운정 산내마을 이사청소 전후) · 카테고리 입주청소 · 태그 10",
+   "title": "파주 입주청소, 운정 산내마을 1단지 두 집은 떼어 내고 닦았습니다"
+  },
+  {
+   "url": "https://nangmaninterior.tistory.com/26",
+   "title": "타일 기술자 제휴, 입주 단지와 2년 차 단지에서 타일 일이 생기는 때",
+   "date": "2026-10-20",
+   "category": "매트 · 필름 · 수리"
+  },
+  {
+   "slug": "dongtan_paragon3",
+   "url": "https://nangmaninterior.tistory.com/39",
+   "at": "2026-10-25 09:58 · 사진 4(썸네일 C형 + 나노코팅 3 · kakaocdn) · 유튜브 joKIV-Gp7C4 · 홍보 _rSMVmVRhoM · 카테고리 입주 단지 · 태그 10",
+   "title": "동탄 파라곤 3차 민간임대 입주청소, 박람회 전에 협의회 공동구매로 정하기",
+   "code": "/home/claude/tistory_int/b1025/posts.py",
+   "html": "/mnt/user-data/outputs/tistory/int_1025/dongtan_paragon3.html"
+  },
+  {
+   "slug": "brain_jungheung",
+   "url": "https://nangmaninterior.tistory.com/40",
+   "at": "2026-10-25 10:02 · 사진 4(썸네일 C형 + 나노코팅 3 · kakaocdn) · 유튜브 IoKFABixWh0 · 홍보 _rSMVmVRhoM · 카테고리 입주 단지 · 태그 10",
+   "title": "평택 브레인시티 중흥s클래스 사전점검, 다섯 타입 점검표와 입주청소 금액",
+   "code": "/home/claude/tistory_int/b1025/posts.py",
+   "html": "/mnt/user-data/outputs/tistory/int_1025/brain_jungheung.html"
+  },
+  {
+   "slug": "jangwi_radiuspark",
+   "url": "https://nangmaninterior.tistory.com/41",
+   "at": "2026-10-25 10:06 · 사진 4(썸네일 C형 + 나노코팅 3 · kakaocdn) · 유튜브 tlL-XzDnV-Q · 홍보 _rSMVmVRhoM · 카테고리 입주 단지 · 태그 10",
+   "title": "장위 푸르지오 라디우스파크 사전점검 전에, 조합원 집과 일반분양 집이 볼 곳",
+   "code": "/home/claude/tistory_int/b1025/posts.py",
+   "html": "/mnt/user-data/outputs/tistory/int_1025/jangwi_radiuspark.html"
+  },
+  {
+   "slug": "doorlock_moving",
+   "url": "https://nangmaninterior.tistory.com/42",
+   "at": "2026-10-25 13:02 · 사용자 12:36 「블로거 티스토리에 적어서 날려」 · 썸네일 C형(전국 연결 · 소개비 0원) · 홍보 _rSMVmVRhoM · 카테고리 매트 · 필름 · 수리 · 태그 10 · 전국 운영 문장",
+   "title": "이사후 도어락 교체, 이사 온 날 번호부터 바꾸는 순서와 고르는 법",
+   "code": "/home/claude/tistory_int/b1025/doorlock.py",
+   "html": "/mnt/user-data/outputs/tistory/int_1025/doorlock_moving_tistory.html"
+  },
+  {
+   "slug": "nusu_tamji_budam",
+   "url": "https://nangmaninterior.tistory.com/43",
+   "naver": "224432310037",
+   "naver_also": [
+    "224439530451"
+   ],
+   "at": "2026-10-26 00:47 · 사용자 00:31 요청(구글용 1편) · 사진 0(썸네일 C형 「누가 내나」 1) · 유튜브 P8fncXaSs0Y(apt_nusu_boheom_long) · 홍보 _rSMVmVRhoM · 카테고리 누수 · 코킹 · 태그 10 · 네이버 링크 7 · 티스토리 /8 /9 /12 · 네이버 152편과 같은 문장 0 · 본문 3,635자 · Browser 2(3a76e9e9)에서 발행 · 서치콘솔 색인 요청 완료(Browser 1 · 71fb172a · 4dc8f8cb는 연결 안 됨)",
+   "title": "누수탐지 비용 누가 부담, 세입자 · 집주인 · 윗집 · 관리사무소 문답 12가지",
+   "code": "/home/claude/tistory_int/b1026/nusu_tamji.py",
+   "html": "/mnt/user-data/outputs/tistory/int_1026/nusu_tamji_budam.html"
+  },
+  {
+   "slug": "mutagong_price",
+   "url": "https://nangmaninterior.tistory.com/44",
+   "naver": "224454576114",
+   "at": "2026-10-27 21:07 · 사용자 「낭만인테리어 티스토리 올려」 · 썸네일 C형(25만~37만원) 1 · 유튜브 ovw6SDIlT9s · 홍보 _rSMVmVRhoM · 카테고리 중문 · 태그 10 · 네이버 링크 7 · 티스토리 /4 /5 /23 · 본문 약 4,292자 · 링크 전부 200",
+   "title": "무타공 중문 가격, 셀프 4만원대 · 기둥식 25만원 · 3연동 75만원",
+   "code": "/home/claude/tistory_int/b1026/mutagong_price.py",
+   "html": "/mnt/user-data/outputs/tistory/int_1026/mutagong_price.json"
+  },
+  {
+   "slug": "ondo_cost",
+   "url": "https://nangmaninterior.tistory.com/46",
+   "naver": "224452074291",
+   "naver_also": [
+    "224452846011"
+   ],
+   "at": "2026-10-28 · 루틴 · 썸네일 C형(한 세트) · 유튜브 z1Xos9gMUno · 홍보 _rSMVmVRhoM · 카테고리 매트 · 필름 · 수리 · 태그 10 · 네이버 링크 8(+224452846011 코디네이터 지시) · 티스토리 /13 /42 /12 · 본문 약 3,200자 · 네이버와 같은 문장 0 · 서치콘솔 색인 요청 못 함(Browser 3은 dong.jin.kim.nangman 계정으로 속성 접근 불가)",
+   "title": "보일러 온도조절기 교체 비용, 각방 조절기 · 구동기 · 밸브 상자 문답 10가지",
+   "code": "/home/claude/tistory_int/b1026/ondo_cost.py"
+  },
+  {
+   "slug": "jungmun_sinchuk",
+   "url": "https://nangmaninterior.tistory.com/55",
+   "naver": "224462081523",
+   "at": "2026-11-02 12:5x · 사용자 「다른 채널도 동원해」 · 썸네일 피드 1장 · 유튜브 d-wHk0WC1CY · 홍보 _rSMVmVRhoM · 카테고리 중문 · 태그 10 · 네이버 링크 7 · 본문 약 3,029자 · 링크 전부 200 · Browser 2에서 발행 · 서치콘솔 색인 요청 완료",
+   "title": "신축아파트 중문 설치, 입주 박람회 전에 정하는 순서와 3연동 62만원 비교표",
+   "code": "/home/claude/tistory_int/b1102/jungmun_sinchuk.py"
+  }
+ ],
+ "plan": "10/16~10/29 사흘에 한 편 · 5편까지",
+ "queue_1015": [
+  "go_05_b_one_sliding",
+  "go_06_cleaning_pick",
+  "go_07_b_cleaning_extra",
+  "go_08_veranda_leak",
+  "go_09_b_sash_leak",
+  "go_10_caulk_price",
+  "go_11_b_living_mat",
+  "go_12_b_sash_film",
+  "go_13_bangmyochang",
+  "go_14_aircon_season",
+  "go_15_window_draft",
+  "go_16_dressroom_mold",
+  "go_17_new_apt_order",
+  "go_18_wallpaper_mold",
+  "go_19_closet_film"
+ ],
+ "ui_1015": "스킨 nm-ui CSS(두 블로그) — kit.py 인라인 스타일 문자열(#C8D2DE · border: 2px solid #2E5C8A · border-left: 4px solid #2E5C8A)을 선택자로 덮어씀. kit 상자 스타일 문자열을 바꾸지 말 것. 원본 CSS: tistory_int/nm_ui.css",
+ "talk_move_1015": "사용자 22:58 「부동산 인테리어 블로그에서 인테리어 블로그로 몇개씩 글을 옮기자 · 네이버와 중복 안 되게」 → talk7921 원글은 그대로 두고 새 각도로 다시 씀(pC_*.py · save(tk=) 로 talk7921 문장도 대조). 1차: 70 · 74 · 46 · 47 · 44 · 52. 다음 후보: 40 결로 페인트 · 14 강아지 매트 · 15 부분 인테리어 · 27 거실 매트 · 28 외부 코킹",
+ "youtube_1016": "유튜브 「낭만 인테리어」 채널 = saydjkim@gmail.com 계정의 브랜드 채널(사용자 10/16 00:21 화면). 크롬(4dc8f8cb)은 nangmandosa801(도사낭만 채널)로 로그인돼 있음 → 사용자가 채널 관리자에 nangmandosa801을 넣으면 채널 전환으로 업로드 가능. 비밀번호 입력 금지.",
+ "daily_1016": "10/16 하루 4편 다 씀(/6 · /7 · /8 · /9). 다음은 10/17 09:05부터 go_10_caulk_price.",
+ "logo_1016": "티스토리 블로그 이미지 · 유튜브 프로필 사진 = _로고/nangman_interior_profile_600.png (10/16 02:4x)",
+ "method_1016": "payload b64와 사진을 /home/claude/sns/timg/에 복사 → 글쓰기 화면에 file input 두 개(nmpay · nmstage) 만들어 file_upload → nmpay 파일 text를 __RUN · 사진은 plan.json after_text 문단 뒤에 사진 메뉴 + __fi로 하나씩 → 첫 연락처 상자 뒤 유튜브 iframe → space BackSpace → 완료 → #open20 → 공개 발행",
+ "skips": [
+  {
+   "at": "2026-10-16 21:41",
+   "why": "10/16 이미 4편(하루 한도 4) · 사흘에 한 편 규칙 — 새 글 없음"
+  },
+  {
+   "at": "2026-10-17 21:41",
+   "why": "10/17 이미 4편(/10 · /11 · /12 · /13 · RSS 확인 · 하루 한도 4) · 처음 2주 사흘에 한 편 규칙도 이미 넘음 — 새 글 없음. 다음 후보 ready_1017 jinjeop_jungmun(유튜브 시공 영상 없음 → 영상 먼저 필요)"
+  },
+  {
+   "at": "2026-10-18 21:41",
+   "why": "10/18 RSS 공개 글 이미 5편(/14 · /15 · /16 · /18 · /19 · 보호글 /17 · /20 · /21 별도) — 하루 한도 4 넘음 · 처음 2주(10/16~10/29) 5편 규칙도 이미 넘음(10/16 이후 13편) — 새 글 없음. 대기 ready_1017 jinjeop_jungmun(영상 insBNwbbTvc 있음)은 10/30 이후 후보",
+   "next": "2026-10-19 21:40 (trig_01RvLij47MdQQ1U5cWG1gKcd)"
+  }
+ ],
+ "ready_1017": [
+  {
+   "slug": "jinjeop_jungmun",
+   "title": "진접역 신안인스빌 중문, 현관 폭으로 고르는 순서와 일곱 집 비교",
+   "html": "/home/claude/tistory_int/out_jinjeop_jungmun.html",
+   "thumb": "/home/claude/tistory_int/thumb_jinjeop_jungmun.png",
+   "naver": "224430512305",
+   "category": "중문",
+   "tags": [
+    "진접역 신안인스빌",
+    "진접 신안인스빌",
+    "진접역 신안인스빌 인테리어",
+    "진접 신안인스빌 중문",
+    "남양주 중문",
+    "남양주 중문 시공",
+    "진접 중문",
+    "원슬라이딩 중문",
+    "폴딩 스윙 중문",
+    "3연동 중문"
+   ],
+   "go": "/home/claude/tistory_int/go_20_jinjeop_jungmun.b64",
+   "code": "/home/claude/tistory_int/pD_jinjeop_jungmun.py",
+   "youtube": null,
+   "note": "남양주 · 진접 중문 영상 없음 → iframe 안 넣음"
+  },
+  {
+   "slug": "oebyeok_silicon",
+   "title": "아파트 외벽 실리콘 비용, 견적 두 장 비교하는 체크리스트 7가지",
+   "html": "/home/claude/tistory_int/out_oebyeok_silicon.html",
+   "thumb": "/home/claude/tistory_int/thumb_oebyeok_silicon.png",
+   "naver": "224431364713",
+   "category": "누수 · 코킹",
+   "tags": [
+    "아파트 외벽 실리콘 비용",
+    "아파트 외벽 실리콘",
+    "아파트 외벽 실리콘 코킹",
+    "아파트 외벽 코킹 비용",
+    "외벽 실리콘 작업",
+    "외벽 실리콘 제거",
+    "창틀 실리콘 비용",
+    "창틀 코킹",
+    "외벽 코킹 견적",
+    "창틀 누수"
+   ],
+   "go": "/home/claude/tistory_int/go_21_oebyeok_silicon.b64",
+   "code": "/home/claude/tistory_int/pD_oebyeok_silicon.py",
+   "youtube": "J9EgHiOeGWI",
+   "pair_talk7921": 28,
+   "note": "iframe 본문 첫 연락처 상자 뒤에 들어 있음 · 대기 중인 go_10_caulk_price(외부 코킹 비용)와 주제가 가까워 다른 날 올릴 것"
+  }
+ ],
+ "daily_1017": "10/17 하루 4편 다 씀(/10 · /11 · /12 · /13). 다음 go_12_b_sash_film 등은 유튜브 영상 생긴 뒤.",
+ "yt_embed_1017": {
+  "2": "7sdpmYoskYI",
+  "4": "taXZP3O5T7s",
+  "5": "yw7TvcZLGJQ",
+  "7": "qBs2TH0gvkA",
+  "8": "npc7BOlnaAg",
+  "9": "EEIkBzE7pyE",
+  "10": "npc7BOlnaAg",
+  "12": "Unkcxal6uRU",
+  "13": "EEIkBzE7pyE",
+  "note": "편집 방법: manage/newpost/N → tinymce getContent split/join 또는 DOM 삽입 → 완료·공개 발행 버튼 JS 클릭",
+  "1": "f016YyjBM6Y",
+  "3": "KaswIQ-CEoE",
+  "6": "f016YyjBM6Y",
+  "11": "l4DNSWABdNI"
+ },
+ "naver_card_1017": "10/17 12시 사용자 「티스토리에서 네이버로 링크 달아줘야지 하나도 안 보여」 → /1~/13 첫 소제목 앞에 「네이버 블로그 원문 · 시공 사진 전체 보기」 초록 상자, 셋째 소제목 앞에 「같이 보면 좋은 네이버 글」 상자(글 끝 링크 목록의 1·2번째). 앞으로 새 글은 처음부터 두 상자를 넣고 올릴 것.",
+ "plan_1017": {
+  "계산기": "중문 가격 계산기 글 — 티스토리 본문에서 스크립트가 도는지 먼저 시험(HTML 모드 · <script> 남는지) → 10/18 첫 글",
+  "지역 모음": [
+   "수원 중문 시공 사례 모음",
+   "부산 중문 시공 사례 모음",
+   "창원 중문 시공 사례 모음"
+  ],
+  "사진 방식": "routine_tistory_int.txt 10/17 블록"
+ },
+ "promo_video_1017": {
+  "id": "_rSMVmVRhoM",
+  "done": [
+   "https://nangmaninterior.tistory.com/1",
+   "https://nangmaninterior.tistory.com/2",
+   "https://nangmaninterior.tistory.com/3",
+   "https://nangmaninterior.tistory.com/4",
+   "https://nangmaninterior.tistory.com/5",
+   "https://nangmaninterior.tistory.com/6",
+   "https://nangmaninterior.tistory.com/7",
+   "https://nangmaninterior.tistory.com/8",
+   "https://nangmaninterior.tistory.com/9",
+   "https://nangmaninterior.tistory.com/10",
+   "https://nangmaninterior.tistory.com/11",
+   "https://nangmaninterior.tistory.com/12",
+   "https://nangmaninterior.tistory.com/13"
+  ],
+  "skipped": [],
+  "note": "10/17 · 마지막 연락처 상자(010-7678-9967) 바로 위 · 기존 시공 영상 유지 · 본문 길이 +315~321자 · 제목·대표이미지 변동 없음 확인"
+ },
+ "video_hint": {
+  "jinjeop_jungmun": "insBNwbbTvc (진접역 신안인스빌 중문 쇼츠 · 10/17 공개)"
+ },
+ "ready_1019": [
+  {
+   "slug": "unjeong_cheongso",
+   "title": "파주 입주청소, 운정 산내마을 1단지 두 집은 떼어 내고 닦았습니다",
+   "code": "/home/claude/tistory_int/b1019/p4_unjeong.py",
+   "go": "/home/claude/sns/timg/goA_unjeong_cheongso.w.js",
+   "img": "/home/claude/sns/timg/파주-입주청소-운정-산내마을-이사청소-전후.jpg",
+   "vendor_posts": [
+    "2002yyk 224440378489",
+    "2002yyk 224441624937",
+    "2002yyk 224443049752"
+   ],
+   "note": "10/19 사용자 새 제휴 청소팀 사례 · 크롬 끊겨 대기"
+  },
+  {
+   "slug": "cat_screen",
+   "title": "고양이 방충망 뜯음, 같은 망으로 바꾸기 전에 볼 세 가지",
+   "code": "/home/claude/tistory_int/b1019/p3_bangchung.py",
+   "go": "/home/claude/sns/timg/goA_cat_screen.w.js",
+   "naver": "224426986850",
+   "youtube": "n1lPm4ilDjU",
+   "note": "10/19 3편째였으나 청소팀 사례로 바뀜 → 다음 날 후보"
+  }
+ ],
+ "edits_1019": [
+  "/16 표 입주청소 2곳→3곳 · 더 찾는 곳 파주·양주·의정부→양주·의정부 · 문장 입주청소 3곳 (17:5x)",
+  "/18 문장 입주청소 2곳→3곳 한 단어 (17:5x)"
+ ],
+ "ready_1020": [
+  {
+   "slug": "tile_recruit",
+   "title": "타일 기술자 제휴, 입주 단지와 2년 차 단지에서 타일 일이 생기는 때",
+   "html": "/mnt/user-data/outputs/tistory/tistory_tile_recruit.html",
+   "inject": "/home/claude/tistory_int/b1020/tile_recruit_tistory_inject.js",
+   "note": "10/20 13:04 공개 발행 · 머리 겹침 없음 · 본문 실명 뺌",
+   "blogger": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_261.html",
+   "published": "https://nangmaninterior.tistory.com/26"
+  }
+ ],
+ "note_1025": "10/25 사용자 「낭만 인테리어에 글 써」 → 티스토리로 정정. 입주 전 단지 3편(/39 · /40 · /41) Browser 3(3a76e9e9)에서 발행. Browser 2(4dc8f8cb)는 티스토리 로그아웃 상태.",
+ "fanout_plan": [
+  {
+   "logNo": "224452126321",
+   "why": "10/25 21:1x fanout · 하루 4편 한도 → 10/26 09:10 · 각도: 붙이기 전 두 단계 말고 새 각도(세탁실 · 겨울 물방울 · 장을 다시 달 때 주의)"
+  },
+  {
+   "logNo": "224452893456",
+   "why": "10/25 21:1x fanout · 하루 4편 한도 → 10/26 09:10 · 준비된 원고 /home/claude/watch/fanout_run/doorlock2/texts.json tistory(도어락 교체 시기 · 전국 운영 문장 들어 있음)"
+  },
+  {
+   "logNo": "224452846011",
+   "why": "10/25 13:10 fanout · 하루 한도 넘음"
+  },
+  {
+   "logNo": "224444860520",
+   "why": "10/25 13:10 fanout · 하루 한도 넘음"
+  },
+  {
+   "logNo": "224452438208",
+   "why": "10/25 16:5x fanout · 오늘 5편(/39~/42 + 16:51) · 하루 4편 한도 넘음 → 10/26 이후 · 각도: 사전점검 날 가방 · 순서 체크리스트 + 공동구매 모집 줄(가격 숫자 없음)"
+  },
+  {
+   "logNo": "224453190862",
+   "why": "10/25 17:13 fanout · 오늘 nangmaninterior 하루 4편 한도 넘음 → 10/26 오전 맨 앞(사전점검 10/30 전) · 각도: 평택 · 동탄 현장 세 집(신발장 · 스위치 · 겨울 제작) + 공동구매 모집 줄(가격 숫자 없음)"
+  }
+ ],
+ "plan_1026": [
+  {
+   "slug": "sajeon_mojip",
+   "when": "2026-10-26 08:00",
+   "title": "사전점검 대행 업체 제휴, 공동구매 세대 수로 몫을 정하는 문답 8가지",
+   "src": "/home/claude/int/sajeon_mojip_1025/tistory.json",
+   "why": "10/25 사용자 「사전점검 업체 찾는 블로그 · 네이버 말고」 — 10/25 하루 4편(/39~/42) 다 참",
+   "pair": "https://nangman-interior.blogspot.com/2026/10/blog-post_25.html"
+  }
+ ],
+ "note_1026": "10/26 00:47 /43 발행. 줄눈 재시공 비용은 네이버 줄눈 가격 글(10/28 · 11/10 예약)이 아직 안 나와 뒤로 미룸. 중문 설치 비용(/4) · 도어락(/42)은 이미 있음. 서치콘솔 nangmaninterior 속성은 Browser 1(71fb172a)에서 열림 · Browser 2는 속성 접근 권한 없는 계정."
+}

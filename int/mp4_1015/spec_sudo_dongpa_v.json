@@ -1,0 +1,56 @@
+{
+ "head": [
+  "수도 얼었을때",
+  "사진 한 장이면 됩니다"
+ ],
+ "what": "언 곳",
+ "vintro": [
+  {
+   "kicker": "아침 7시 · 부천 5층",
+   "line": "수도를 틀었는데\n물이 안 나온다",
+   "sub": "찬물도 더운물도 끊긴 집"
+  },
+  {
+   "kicker": "바로 문자 한 통",
+   "line": "알아챈 그때\n바로 맡깁니다",
+   "sub": "늦을수록 녹일 곳이 길어집니다"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_01_c_wall.jpg",
+   "line": "바깥 벽 배관\n1층까지 40m",
+   "sub": "부천 역곡동 5층"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_02_c_cut.jpg",
+   "line": "잘라 보니\n보온재 속이 꽁꽁",
+   "sub": "부천 역곡동 5층"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_04_c_after.jpg",
+   "line": "녹이고 다시 잇고\n두껍게 감쌌습니다",
+   "sub": "다시 안 얼게"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_05_a_drain.jpg",
+   "line": "물이 안 빠지는\n배수구",
+   "sub": "부천 소사 4층 · 하수관 동파"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_07_a_steam.jpg",
+   "line": "뜨거운 물 대신\n스팀으로 천천히",
+   "sub": "배관이 터지지 않게"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_09_b_meter.jpg",
+   "line": "계량기 통까지\n얼어 버린 집",
+   "sub": "인천 구축 주택"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sudo_dongpa_incheon/nangman_interior_sudo_dongpa_incheon_11_b_steam.jpg",
+   "line": "계량기 둘레부터\n조금씩 데웁니다",
+   "sub": "인천 구축 주택"
+  }
+ ]
+}

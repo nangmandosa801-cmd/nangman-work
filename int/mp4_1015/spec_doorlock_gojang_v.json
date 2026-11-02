@@ -1,0 +1,15 @@
+{
+ "head": ["도어락 고장", "건전지 바꿔도 안 되면"],
+ "what": "현관 도어락",
+ "vintro": [
+  {"kicker": "도어락 고장 네 집", "line": "경보음 · 자동잠금\n비밀번호 오류", "sub": "건전지로 안 풀리면 기판 고장"},
+  {"kicker": "자동잠금이 안 될 때", "line": "문틀부터\n봅니다", "sub": "틀어진 문틀이 센서를 망가뜨립니다"}
+ ],
+ "slides": [
+  {"src": "/home/claude/w/doorlock/A/03.jpg", "line": "경보음이\n멈추지 않던 집", "sub": "홍제동 아파트"},
+  {"src": "/home/claude/w/doorlock/A/06.jpg", "line": "비상전원도\n안 먹힐 때", "sub": "억지로 열지 말고 출장"},
+  {"src": "/home/claude/w/doorlock/A/05.jpg", "line": "즉시잠김\n푸시풀로 교체", "sub": "홍제동 아파트"},
+  {"src": "/home/claude/w/doorlock/A/02.jpg", "line": "손잡이 있는\n주키형으로", "sub": "신촌 아파트"},
+  {"src": "/home/claude/w/doorlock/A/09.jpg", "line": "옛 구멍은\n보강판으로", "sub": "잠실동 빌라"}
+ ]
+}

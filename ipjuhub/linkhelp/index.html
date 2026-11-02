@@ -1,0 +1,121 @@
+<title>꼬리 링크 도우미</title><meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--fg:#1c2430;--mut:#687384;--line:#e2e6ec;--acc:#2f5d8a;--accb:#e8eff7;--ok:#1f8a5b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161c;--card:#1a2028;--fg:#e6eaf0;--mut:#98a3b1;--line:#2a323d;--acc:#7fb0e0;--accb:#1e2b3a;--ok:#5fd39d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161c;--card:#1a2028;--fg:#e6eaf0;--mut:#98a3b1;--line:#2a323d;--acc:#7fb0e0;--accb:#1e2b3a;--ok:#5fd39d;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 "Noto Sans KR",system-ui,sans-serif}
+.w{max-width:860px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);font-size:14px;margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+.when{color:var(--mut);font-size:13px}h2{font-size:17px;margin:4px 0 10px;text-wrap:balance}h2 a{color:var(--fg)}
+.paste{display:flex;gap:8px;align-items:baseline;background:var(--accb);border-radius:8px;padding:8px 10px;font-size:14px;margin-bottom:10px;min-width:0}
+.paste span{color:var(--acc);font-weight:700;white-space:nowrap}.paste code{font-family:inherit;overflow-wrap:anywhere}
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line);padding-top:8px}
+.rt{flex:1 1 260px;min-width:0;font-size:15px}.rt a{color:var(--fg)}.pos{margin-left:6px;font-size:12px;color:var(--ok);font-weight:700}
+.act{display:flex;gap:6px}.btn{font:inherit;font-size:14px;border:1px solid var(--acc);background:var(--acc);color:var(--card);border-radius:8px;padding:6px 10px;cursor:pointer;text-decoration:none}
+.btn.ghost{background:transparent;color:var(--acc)}.row.done .rt{opacity:.45;text-decoration:line-through}
+.chk input{width:18px;height:18px}.none{color:var(--mut);font-size:14px}
+</style>
+<div class="w"><h1>꼬리 링크 도우미</h1>
+<p class="sub">새 글이 올라올 때마다 위에 쌓입니다. 기존 글 「수정 열기」 → 맨 아래 「같이 보면 좋은 글」에 「새 글 링크 복사」로 붙여 넣기 → 저장 → 체크.</p>
+<section class="card"><div class="when">11/03 08:26 새 글</div><h2><a href="https://blog.naver.com/champion_chart/224462759047" target="_blank" rel="noopener">도어락 고장,경보음 · 자동잠금 불량 · 비밀번호 오류 네 집은 이렇게 바꿨습니다</a></h2>
+<div class="paste"><span>붙일 줄</span><code>도어락 고장,경보음 · 자동잠금 불량 · 비밀번호 오류 네 집은 이렇게 바꿨습니다</code></div>
+<ol><li class="none">같이 묶을 기존 글이 없습니다</li></ol></section><section class="card"><div class="when">11/02 19:02 새 글</div><h2><a href="https://blog.naver.com/champion_chart/224462573850" target="_blank" rel="noopener">신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원</a></h2>
+<div class="paste"><span>붙일 줄</span><code>신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원</code></div>
+<ol><li class="row" data-k="224462573850-224457092805"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224457092805" target="_blank" rel="noopener">평택 입주청소 가격, 해링턴플레이스 34평 새집증후군까지 71만 4천원</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224457092805" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224461511936"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224461511936" target="_blank" rel="noopener">연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원</a><span class="pos">검색 2위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224461511936" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224457225485"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224457225485" target="_blank" rel="noopener">지제역 반도체밸리 쌍용 입주, 33평 청소와 새집증후군 묶어서 69만 3천원</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224457225485" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224451757813"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224451757813" target="_blank" rel="noopener">해링턴마레 입주기간, 입주청소와 새집증후군을 추가금 없이 90만원에 묶습니다</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224451757813" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224453405436"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224453405436" target="_blank" rel="noopener">서신더샵에피트 입주, 입주청소는 위에서 아래로 하고 다음 날 아침에 검수합니다</a><span class="pos">검색 2위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224453405436" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224446865494"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224446865494" target="_blank" rel="noopener">운정중앙역 제일풍경채 입주청소, 중문 단 다음 날 하면 먼지를 한 번만 닦습니다</a><span class="pos">검색 2위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224446865494" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224457230883"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224457230883" target="_blank" rel="noopener">브레인시티 대광로제비앙 입주, 옆 단지 모아엘가 새집증후군 포름알데히드 0.086에서 0.001로</a><span class="pos">검색 4위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224457230883" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li><li class="row" data-k="224462573850-224448301284"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224448301284" target="_blank" rel="noopener">동래 반도유보라 입주, 이삿짐 오기 전 줄눈과 입주청소를 먼저 끝냅니다</a><span class="pos">검색 4위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224448301284" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축 입주청소 비용 34평, 청소만 37만 4천원 · 새집증후군까지 하면 71만 4천원" data-u="https://blog.naver.com/champion_chart/224462573850">새 글 링크 복사</button></div></li></ol></section><section class="card"><div class="when">11/02 12:03 새 글</div><h2><a href="https://blog.naver.com/champion_chart/224462081523" target="_blank" rel="noopener">신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격</a></h2>
+<div class="paste"><span>붙일 줄</span><code>신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격</code></div>
+<ol><li class="row" data-k="224462081523-224447098672"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224447098672" target="_blank" rel="noopener">성동자이리버뷰 입주 중문, 자동을 뺀 집은 손으로 여는 문을 이사 전에 답니다</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224447098672" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224430507870"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224430507870" target="_blank" rel="noopener">운정중앙역 동문디이스트 중문, 현관 복도에 뿌연 유리 원슬라이딩을 달았습니다</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224430507870" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224448369148"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224448369148" target="_blank" rel="noopener">센트라인데시앙 인테리어, 입주 뒤 중문과 창틀 실리콘부터 봅니다</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224448369148" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224439665559"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224439665559" target="_blank" rel="noopener">래미안 레벤투스 사전점검일, 입주 45일쯤 전에 날짜가 오니 옵션 자동 중문 268만원과 청소 범위를 그날 같이 보세요</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224439665559" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224444215495"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224444215495" target="_blank" rel="noopener">힐스테이트 등촌역 중문, 84㎡ 169만원 59㎡B 428만원</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224444215495" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224444844703"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224444844703" target="_blank" rel="noopener">이천 신안인스빌 퍼스티지 중문, 옵션 3연동은 125만원이고 입주는 11월입니다</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224444844703" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224447093245"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224447093245" target="_blank" rel="noopener">상도동 힐스테이트 동작 시그니처 중문, 사전점검 끝났다면 열쇠 받고 사흘에 답니다</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224447093245" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224444860520"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224444860520" target="_blank" rel="noopener">고양 장항 제일풍경채 중문, 전 타입 3연동 180만원</a><span class="pos">검색 5위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224444860520" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224430505012"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224430505012" target="_blank" rel="noopener">힐스테이트 이천역 2단지 중문, 옵션은 3연동 280만원이고 이 집 현관에는 우드 간살 원슬라이딩을 달았습니다</a><span class="pos">검색 15위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224430505012" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li><li class="row" data-k="224462081523-224430267262"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224430267262" target="_blank" rel="noopener">청주 가경 아이파크 6단지 입주, 옵션 중문은 원슬라이딩 139만원이고 테크노폴리스 신영지웰은 3연동 165만원입니다</a><span class="pos">검색 20위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224430267262" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="신축아파트 중문, 3연동 62만원 · 원슬라이딩 55만원부터 박람회 전에 보는 가격" data-u="https://blog.naver.com/champion_chart/224462081523">새 글 링크 복사</button></div></li></ol></section><section class="card"><div class="when">11/02 11:43 새 글</div><h2><a href="https://blog.naver.com/champion_chart/224461111617" target="_blank" rel="noopener">군산 레이크시티 아이파크 사전점검,84㎡ · 114㎡ 먼저 볼 곳</a></h2>
+<div class="paste"><span>붙일 줄</span><code>군산 레이크시티 아이파크 사전점검,84㎡ · 114㎡ 먼저 볼 곳</code></div>
+<ol><li class="row" data-k="224461111617-224451706233"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224451706233" target="_blank" rel="noopener">서신더샵에피트 사전점검, 하자 보수 뒤 입주청소와 다음 날 새집증후군</a></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224451706233" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="군산 레이크시티 아이파크 사전점검,84㎡ · 114㎡ 먼저 볼 곳" data-u="https://blog.naver.com/champion_chart/224461111617">새 글 링크 복사</button></div></li><li class="row" data-k="224461111617-224453405436"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224453405436" target="_blank" rel="noopener">서신더샵에피트 입주, 입주청소는 위에서 아래로 하고 다음 날 아침에 검수합니다</a><span class="pos">검색 2위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224453405436" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="군산 레이크시티 아이파크 사전점검,84㎡ · 114㎡ 먼저 볼 곳" data-u="https://blog.naver.com/champion_chart/224461111617">새 글 링크 복사</button></div></li><li class="row" data-k="224461111617-224452438208"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224452438208" target="_blank" rel="noopener">진위역 서희스타힐스 더 파크뷰 사전점검, 59 · 71 · 84㎡ 평형마다 먼저 볼 곳</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224452438208" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="군산 레이크시티 아이파크 사전점검,84㎡ · 114㎡ 먼저 볼 곳" data-u="https://blog.naver.com/champion_chart/224461111617">새 글 링크 복사</button></div></li></ol></section><section class="card"><div class="when">11/02 11:43 새 글</div><h2><a href="https://blog.naver.com/champion_chart/224461511936" target="_blank" rel="noopener">연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원</a></h2>
+<div class="paste"><span>붙일 줄</span><code>연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원</code></div>
+<ol><li class="row" data-k="224461511936-224444875399"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224444875399" target="_blank" rel="noopener">연희공원 호반써밋 중문, 확장한 집은 3연동이 달려 나옵니다</a></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224444875399" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원" data-u="https://blog.naver.com/champion_chart/224461511936">새 글 링크 복사</button></div></li><li class="row" data-k="224461511936-224457225485"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224457225485" target="_blank" rel="noopener">지제역 반도체밸리 쌍용 입주, 33평 청소와 새집증후군 묶어서 69만 3천원</a><span class="pos">검색 1위</span></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224457225485" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원" data-u="https://blog.naver.com/champion_chart/224461511936">새 글 링크 복사</button></div></li><li class="row" data-k="224461511936-224448364385"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224448364385" target="_blank" rel="noopener">신검단중앙역 센트레빌 입주지정기간, 언제 들어가도 줄눈 다음에 입주청소</a></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224448364385" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원" data-u="https://blog.naver.com/champion_chart/224461511936">새 글 링크 복사</button></div></li><li class="row" data-k="224461511936-224443130434"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224443130434" target="_blank" rel="noopener">검단호수공원역 풍경채 어바니티 입주,10월 2일 시작됐고 옵션 중문은 84A 스윙 84B는 3연동이라 타입부터 보세요</a></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224443130434" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원" data-u="https://blog.naver.com/champion_chart/224461511936">새 글 링크 복사</button></div></li><li class="row" data-k="224461511936-224436072769"><label class="chk"><input type="checkbox"></label>
+<div class="rt"><a href="https://blog.naver.com/champion_chart/224436072769" target="_blank" rel="noopener">신검단중앙역 센트레빌 입주 기간, 열쇠 받고 이사 들어가기 전까지 할 일을 순서대로 정리했습니다</a></div>
+<div class="act"><a class="btn ghost" href="https://blog.naver.com/PostUpdateForm.naver?blogId=champion_chart&logNo=224436072769" target="_blank" rel="noopener">수정 열기</a>
+<button class="btn" data-t="연희공원 호반써밋 입주,84㎡ 입주청소 새집증후군 71만 4천원" data-u="https://blog.naver.com/champion_chart/224461511936">새 글 링크 복사</button></div></li></ol></section></div>
+<script>
+document.querySelectorAll('.btn[data-u]').forEach(b=>b.addEventListener('click',()=>{
+ const t=b.dataset.t,u=b.dataset.u,h='<a href="'+u+'">'+t.replace(/</g,'&lt;')+'</a>';
+ const done=()=>{const o=b.textContent;b.textContent='복사됨';setTimeout(()=>b.textContent=o,1500)};
+ try{navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([h],{type:'text/html'}),'text/plain':new Blob([t+' '+u],{type:'text/plain'})})]).then(done).catch(()=>navigator.clipboard.writeText(t+' '+u).then(done).catch(()=>{b.textContent='길게 눌러 복사'}))}
+ catch(e){navigator.clipboard.writeText(t+' '+u).then(done).catch(()=>{b.textContent='길게 눌러 복사'})}
+}));
+document.querySelectorAll('.row').forEach(r=>{const c=r.querySelector('input');const k='lh-'+r.dataset.k;
+ try{if(localStorage.getItem(k)){c.checked=true;r.classList.add('done')}}catch(e){}
+ c.addEventListener('change',()=>{r.classList.toggle('done',c.checked);try{c.checked?localStorage.setItem(k,1):localStorage.removeItem(k)}catch(e){}})});
+</script>

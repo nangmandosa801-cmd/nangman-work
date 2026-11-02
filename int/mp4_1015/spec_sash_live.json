@@ -1,0 +1,39 @@
+{
+ "head": [
+  "살면서 샷시 교체",
+  "가구에 비닐부터"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_02_vinyl.jpg",
+   "line": "철거 전 가구 · 가전\n비닐로 덮기",
+   "sub": "짐을 둔 채 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_03_floor.jpg",
+   "line": "바닥에는\n보양재",
+   "sub": "살면서 샷시 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_04_molding.jpg",
+   "line": "창틀과 벽지 사이\n몰딩 전과 후",
+   "sub": "살면서 샷시 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_05_room.jpg",
+   "line": "벽지는 그대로\n흰색 몰딩",
+   "sub": "방 창"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_09_rail.jpg",
+   "line": "난간을\n새로 설치한 뒤",
+   "sub": "발코니"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_11_door.jpg",
+   "line": "불투명 이중창을\n투명 단창으로",
+   "sub": "거실 분합문"
+  }
+ ]
+}

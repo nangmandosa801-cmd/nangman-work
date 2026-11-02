@@ -1,0 +1,23 @@
+{
+ "blog": "https://nangman-dosa.tistory.com/",
+ "made": "2026-10-11 13:13 사용자",
+ "categories": [
+  "사주 기초",
+  "연예인 사주",
+  "일주 풀이",
+  "삼재 · 길일",
+  "재물 · 직업 · 부동산 사주"
+ ],
+ "builder": "/home/claude/tistory/dosa/batch_d1.py (tbuild 재사용 · 출력 /mnt/user-data/outputs/tistory_dosa/)",
+ "queue": [
+  "samjae2026",
+  "deul_nul_nal",
+  "jijanggan",
+  "ilgan",
+  "gian84"
+ ],
+ "published": [],
+ "filling": "samjae2026 — 13:19 하루 15개 한도 → 임시저장 1에 넣어 둠(제목 · 본문 · 썸네일 · 카테고리 · 태그 9) · 10/12 발행",
+ "note": "티스토리 하루 발행 한도 15편은 계정 단위(talk7921 + nangman-dosa 합산)로 보임",
+ "rule": "10/11 13:21 사용자: 하루 15편 한도 가운데 낭만도사 티스토리는 최대 3편, 나머지 12편은 talk7921(부동산 · 인테리어 · 지산드림 요약)로 채움"
+}

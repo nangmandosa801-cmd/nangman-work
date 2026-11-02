@@ -1,0 +1,39 @@
+{
+ "head": [
+  "새집증후군 시공",
+  "분진부터 걷어 냅니다"
+ ],
+ "what": "새 집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_02_b_dust.jpg",
+   "line": "장갑으로 쓸어 본\n선반의 분진",
+   "sub": "방배 새 아파트 · NI-0044"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_04_b_rail.jpg",
+   "line": "서랍 레일에 쌓인\n공사 분진",
+   "sub": "방배 새 아파트 · NI-0046"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_06_a_drawer.jpg",
+   "line": "서랍을 빼고\n안까지 닦은 주방",
+   "sub": "반포 새 아파트 · NI-0048"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_08_a_uv.jpg",
+   "line": "수납장 안에 비추는\n자외선",
+   "sub": "반포 새 아파트 · NI-0049"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_01_a_fog.jpg",
+   "line": "거실 가득 퍼지는\n편백수 연무",
+   "sub": "반포 새 아파트 · NI-0043"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_10_a_fog2.jpg",
+   "line": "드레스룸까지\n채운 연무",
+   "sub": "반포 새 아파트 · NI-0051"
+  }
+ ]
+}

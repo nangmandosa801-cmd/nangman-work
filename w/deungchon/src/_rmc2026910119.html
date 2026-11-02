@@ -1,0 +1,216 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko" style="overflow: hidden;height:97%">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="icon" type="image/ico" href="/images/kabhom/common/favicon.ico" />
+
+	<link rel="stylesheet" type="text/css" href="/css/kabhom/main/hom.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/kabhom/main/scrap/virtual.css"/>
+	
+	<title>청약홈</title>
+	<script src="/js/kabhom/plugin/jquery.3.7.0.min.js"></script>
+	<script src="/js/kabhom/plugin/jquery-ui.min.js"></script>
+	<script src="/js/kabhom/main/site.js"></script>
+	<script>
+		document.domain = "applyhome.co.kr";
+	</script>
+</head>
+<body class="popBody" style="overflow:auto">
+
+<div id="printArea">
+	<h5 class="sub_square"></h5>
+	<div class="mt_30">
+		<table class="tbl_st tbl_center" id="compitTbl">
+			<caption class="blind"> 청약접수 경쟁률</caption>
+			<colgroup>
+				<col style="width:14%">
+				<col style="width:14%">
+				<col style="width:14%">
+				<col style="width:14%">
+				<col style="width:auto">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col">주택형</th>
+    				<th scope="col">공급세대수</th>
+					<th scope="col">접수건수</th>
+					<th scope="col">경쟁률</th>
+					<th scope="col">청약결과</th>
+				</tr>
+			</thead>
+			<tbody>
+
+	
+	
+														
+		
+			
+			
+					
+				
+					<tr>
+						<td>084.5300A</td>
+						<td>10</td>
+						<td>294</td>
+						<td>29.40</td>
+						<td>
+							
+								
+								
+									청약접수 종료
+								
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td>084.3200B</td>
+						<td>5</td>
+						<td>38</td>
+						<td>7.60</td>
+						<td>
+							
+								
+								
+									청약접수 종료
+								
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td>084.1000C</td>
+						<td>4</td>
+						<td>63</td>
+						<td>15.75</td>
+						<td>
+							
+								
+								
+									청약접수 종료
+								
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td>084.3300D</td>
+						<td>6</td>
+						<td>47</td>
+						<td>7.83</td>
+						<td>
+							
+								
+								
+									청약접수 종료
+								
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td>115.2200 </td>
+						<td>8</td>
+						<td>24</td>
+						<td>3.00</td>
+						<td>
+							
+								
+								
+									청약접수 종료
+								
+							
+						</td>
+					</tr>
+				
+			
+			
+		
+	
+
+			</tbody>
+		</table>
+	</div>
+
+	<ul class="inde_txt">
+	
+		
+		
+			<li>*접수 건수는 최종 접수일 19시30분 이후부터 확인 가능합니다.</li>
+		
+	
+	</ul>
+</div>
+
+<div class="btn_box">
+	<button type="button" class="btn_cancel">닫기</button>
+	<button type="button" class="btn_submit" id="btnPrint">인쇄하기</button>
+</div>
+<script>
+$(function() {
+	
+// 	var uniqHouseTyNmArr = [];
+// 	var uniqrowArr = [];
+	
+// 	$.each($('#compitTbl tbody tr'), function(idx) {
+// 		var houseTyNm = $(this).data('ty');
+// 		if ($.inArray(houseTyNm, uniqHouseTyNmArr) === -1) {
+// 			var obj = new Object();
+// 			obj.houseTy = houseTyNm;
+// 			obj.leng = $('#compitTbl tbody tr[data-ty="' + houseTyNm + '"]').length;
+// 			uniqrowArr.push(obj);
+			
+// 			uniqHouseTyNmArr.push(houseTyNm);
+// 		}
+// 	});
+	
+// 	for( var i in uniqrowArr ) {
+// 		var $tr = $('#compitTbl tbody tr[data-ty="' + uniqrowArr[i].houseTy + '"]');
+// 		$tr.find('.cpHouseTy').first().attr('rowspan', uniqrowArr[i].leng);
+// 		$tr.find('.cpHouseTy').not( $tr.find('.cpHouseTy').first() ).remove();
+// 	}
+	
+	
+	$(".btn_box .btn_cancel").on('click', function() {
+	 	$pop.closeDialog();
+	});
+	
+	
+	$('#btnPrint').on('click', function(){
+		window.print();
+	});
+});
+</script>
+
+
+<div id="divForPopup"></div>
+	
+<script>
+	var gvPgmId = "AIA03P03";
+</script>
+<script src="/js/kabhom/com/hom.core.js"></script>
+<script src="/js/kabhom/util/hom.all.js"></script>
+</body>
+</html>

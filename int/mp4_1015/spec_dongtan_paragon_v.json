@@ -1,0 +1,14 @@
+{
+ "head": ["동탄 파라곤 3차 입주", "입주 날 사진부터 남기기"],
+ "what": "현관 · 창틀",
+ "vintro": [
+  {"kicker": "동탄2 A58 · 민간임대 최장 10년", "line": "1,247세대\n나갈 때 원상복구", "sub": "입주 날 사진이 증거가 됩니다"},
+  {"kicker": "청소 + 새집증후군 묶음", "line": "33평\n69만 3천원", "sub": "38평 79만 8천원 · 43평 90만 3천원"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/dongtan_paragon/02.jpg", "line": "창틀 흠은\n짚어서 사진으로", "sub": "오산 새 아파트 · NI-1485"},
+  {"src": "/home/claude/v2src/t1102/dongtan_paragon/05.jpg", "line": "걸레받이 떼고\n안쪽 먼지까지", "sub": "오산 세교2 · NI-1484"},
+  {"src": "/home/claude/v2src/t1102/dongtan_paragon/06.jpg", "line": "싱크볼은\n덮어 두고 청소", "sub": "오산 세교2 · NI-1487"},
+  {"src": "/home/claude/v2src/t1102/dongtan_paragon/07.jpg", "line": "욕실장 서랍\n모두 빼서 닦기", "sub": "오산 세교2 · NI-1488"}
+ ]
+}

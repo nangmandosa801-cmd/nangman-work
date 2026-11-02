@@ -1,0 +1,19 @@
+{
+ "head": [
+  "창문 뽁뽁이 효과",
+  "유리 표면 2.5도"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_bbok_fig1.png",
+   "line": "붙이는 곳마다\n열손실 감소율",
+   "sub": "부산대 논문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_bbok_fig2.png",
+   "line": "뽁뽁이 · 문풍지\n비닐 · 커튼",
+   "sub": "막는 것"
+  }
+ ]
+}

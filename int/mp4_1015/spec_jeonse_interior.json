@@ -1,0 +1,19 @@
+{
+ "head": [
+  "전세집 인테리어",
+  "떼어 낼 수 있는 것부터"
+ ],
+ "what": "집",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/jeonse_int_a.png",
+   "line": "조명 · 커튼 · 러그\n그대로 들고 이사",
+   "sub": "떼기 쉬운 것부터"
+  },
+  {
+   "src": "/home/claude/hv/cards/jeonse_int_b.png",
+   "line": "들어가는 날\n사진부터",
+   "sub": "전세집에서 할 일"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "head": [
+  "현관문 결로",
+  "중문만 달면 될까?"
+ ],
+ "what": "현관문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/gyeollo/nangman_interior_gyeollo_fig1.png",
+   "line": "문 표면 12도 아래\n결로가 생깁니다",
+   "sub": "실내 온도 · 습도별 표면온도"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/gyeollo/nangman_interior_gyeollo_f1_before.jpg",
+   "line": "현관 쪽 벽까지\n단열을 새로",
+   "sub": "공사 전 거실 · NI-0564"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/gyeollo/nangman_interior_gyeollo_f2_door.jpg",
+   "line": "현관문 둘레 벽에\n단열재",
+   "sub": "NI-0565"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/gyeollo/nangman_interior_gyeollo_f3_window.jpg",
+   "line": "창 둘레 벽까지\n이어 붙임",
+   "sub": "NI-0566"
+  }
+ ]
+}

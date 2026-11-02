@@ -1,0 +1,24 @@
+{
+ "head": [
+  "입주청소 후 확인사항",
+  "잔금 전에 열어 봅니다"
+ ],
+ "what": "집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/cheongso_hwagin/nangman_interior_cheongso_hwagin_fig1.png",
+   "line": "청소 서비스\n피해 유형",
+   "sub": "입주청소 후 확인사항"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/cheongso_hwagin/nangman_interior_cheongso_hwagin_fig2.png",
+   "line": "먼저 열어 볼\n여덟 곳",
+   "sub": "서랍 · 걸레받이 · 창틀 레일"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/cheongso_hwagin/nangman_interior_cheongso_hwagin_fig3.png",
+   "line": "확인하고\n잔금",
+   "sub": "입주청소 후 순서"
+  }
+ ]
+}

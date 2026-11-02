@@ -1,0 +1,10 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 200 OK
+Date: Mon, 05 Oct 2026 05:50:50 GMT
+Content-length: 15974832
+Content-type: application/octet-stream;charset=utf-8
+Content-disposition: attachment;filename="인천계양A17_팸플릿_0930.pdf"
+X-oracle-dms-ecid: e326eb30-63f5-45d8-a912-58c4db014a06-006f9627
+X-oracle-dms-rid: 0
+

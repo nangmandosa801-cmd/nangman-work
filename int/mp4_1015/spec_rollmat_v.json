@@ -1,0 +1,41 @@
+{
+ "head": [
+  "강아지 롤매트",
+  "시공 매트로 바꾼 집"
+ ],
+ "what": "바닥",
+ "vintro": [
+  {
+   "kicker": "강아지 롤매트",
+   "line": "말리고 들뜬 롤매트\n시공 매트로",
+   "sub": "인천 송도 · 경기 고양 · 수원"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/attach/outputs/int/gangaji_rollmat/nangman_interior_gangaji_rollmat_01_s_kitchen.jpg",
+   "line": "롤매트 대신\n시공 매트로",
+   "sub": "인천 송도 · 사진 NI-0253"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/gangaji_rollmat/nangman_interior_gangaji_rollmat_03_s_hall.jpg",
+   "line": "복도 끝이\n말리지 않게",
+   "sub": "인천 송도 · 사진 NI-0255"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/gangaji_rollmat/nangman_interior_gangaji_rollmat_04_s_door.jpg",
+   "line": "방문 앞은\n모양대로 자름",
+   "sub": "인천 송도 · 사진 NI-0256"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/gangaji_rollmat/nangman_interior_gangaji_rollmat_07_g_corner.jpg",
+   "line": "ㄷ자 주방까지\n맞춰 붙임",
+   "sub": "경기 고양 · 사진 NI-0259"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/gangaji_rollmat/nangman_interior_gangaji_rollmat_08_w_living.jpg",
+   "line": "대형견 집은\n700mm 큰 판",
+   "sub": "경기 수원 · 사진 NI-0260"
+  }
+ ]
+}

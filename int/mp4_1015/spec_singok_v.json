@@ -1,0 +1,41 @@
+{
+ "head": [
+  "신곡 시그니처뷰",
+  "중문은 줄눈 다음"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/ipju_singok/nangman_interior_ipju_singok_01_j_pair.jpg",
+   "line": "짐 들이기 전\n줄눈부터",
+   "sub": "경기 이천 · NI-0066"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/ipju_singok/nangman_interior_ipju_singok_05_e_drawer.jpg",
+   "line": "서랍을 다 빼서\n닦는 입주청소",
+   "sub": "서울 은평구 · NI-0118"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/ipju_singok/nangman_interior_ipju_singok_07_a_door.jpg",
+   "line": "옆 동네 옥정에\n단 3연동 중문",
+   "sub": "양주 옥정동 · NI-0273"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/ipju_singok/nangman_interior_ipju_singok_08_m_mat.jpg",
+   "line": "청소한 바닥에\n마지막으로 매트",
+   "sub": "경기 의정부 · NI-0218"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "의정부 신곡동",
+   "line": "e편한세상 신곡\n시그니처뷰 입주",
+   "sub": "1 · 2단지 815세대"
+  },
+  {
+   "kicker": "옵션 중문",
+   "line": "245만원",
+   "sub": "안 넣은 집은\n줄눈 · 청소 뒤에 답니다"
+  }
+ ]
+}

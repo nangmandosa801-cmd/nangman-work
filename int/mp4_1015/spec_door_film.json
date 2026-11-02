@@ -1,0 +1,39 @@
+{
+ "head": [
+  "현관문 필름",
+  "메우고 다듬은 뒤에"
+ ],
+ "what": "현관문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_03_scratch.jpg",
+   "line": "현관문 표면의\n긁힌 자국",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_04_lock_hole.jpg",
+   "line": "도어락을 뗀 곳\n구멍과 얼룩",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_06_putty.jpg",
+   "line": "퍼티로\n메운 모습",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_07_after_inside.jpg",
+   "line": "시공 후\n안쪽",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_09_second.jpg",
+   "line": "둘째\n집",
+   "sub": "현관문 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_10_third.jpg",
+   "line": "셋째\n집",
+   "sub": "현관문 필름"
+  }
+ ]
+}

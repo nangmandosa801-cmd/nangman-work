@@ -1,0 +1,39 @@
+{
+ "head": [
+  "6연동 중문",
+  "폭 3m 넘는 입구 세 곳"
+ ],
+ "what": "거실",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_01_a_closed.jpg",
+   "line": "거실 베란다 앞\n닫은 모습",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_02_a_half.jpg",
+   "line": "가운데 두 짝을\n연 모습",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_04_b_closed.jpg",
+   "line": "닫은\n모습",
+   "sub": "둘째 현장"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_06_b_open.jpg",
+   "line": "다 연\n모습",
+   "sub": "둘째 현장"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_07_c_before.jpg",
+   "line": "교체 전\n나무 격자문",
+   "sub": "셋째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_10_c_open.jpg",
+   "line": "교체 후\n다 연 모습",
+   "sub": "셋째 집"
+  }
+ ]
+}

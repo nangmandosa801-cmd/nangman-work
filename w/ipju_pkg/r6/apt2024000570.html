@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko" style="height:100%;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="/css/kabhom/main/hom.css"/>
+
+		<title>한국부동산원 주택청약</title>
+		
+		<script src="/js/kabhom/plugin/jquery.3.7.0.min.js"></script>
+		<script src="/js/kabhom/plugin/jquery-ui.min.js"></script>
+		<!-- 팝업창에서 KabApplicationException 이 발생해서 이 화면이 표시되면 아래 스크립트는 cross-domain 오류 발생되어 삭제함. -->
+		<!--  <script src="/js/kabhom/util/hom.all.js"></script>-->
+		<script>
+			document.domain = "applyhome.co.kr";
+			var isInIFrame = false;
+			$(function() {
+				isInIFrame = (window.location != window.parent.location);
+				if(isInIFrame) {
+					$("#btnSubmit").text("닫기");
+				}
+			});
+			
+			function fn_btnSubmitClick() {
+				if(isInIFrame) {
+					// 팝업창일때는 hom.all.js 의 기능을 사용 못하고 각 화면에 아래 함수 추가하고 사용하도록 함.
+					//$pop.closeDialog(); 
+					window.parent.fn_closeKabExceptionDialog();
+				} else {
+					location.href='/co/coa/selectMainView.do';
+				}
+			}
+
+		</script>
+	</head>
+<body>
+	<div class="error_pg_wrap">
+		<div class="error_pg_box">
+			<div class="er_pg_content">
+				<img src="/images/kabhom/sub/ic_error_lg.png" alt="에러페이지 아이콘"/>
+				<h5>죄송합니다.</h5>
+				
+					
+					
+						해당 데이터가 없습니다.[주택관리번호:2024000570]
+					
+				
+			</div>
+			<div class="btn_box">
+	
+	
+	
+		
+		
+		
+		
+				<button type="button" id="btnSubmit" class="btn_submit" onclick="fn_btnSubmitClick()">홈으로 이동</button>
+		
+	
+	
+	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

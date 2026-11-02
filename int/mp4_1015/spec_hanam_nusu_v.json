@@ -1,0 +1,15 @@
+{
+ "head": ["하남 누수탐지 가격", "물자국에서 배관 이음부까지"],
+ "what": "천장 물자국",
+ "vintro": [
+  {"kicker": "하남 · 강동 누수탐지", "line": "점검 10만원\n장비 탐지 30만원", "sub": "난방배관까지 보면 40만원"},
+  {"kicker": "아랫집에서 연락이 오면", "line": "물자국과 새는 곳은\n다를 때가 많습니다", "sub": "가스 가압으로 범위를 좁힙니다"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/hnnusu/03.jpg", "line": "아랫집 천장\n누런 물자국", "sub": "하남 · 강동 현장 · NI-1403"},
+  {"src": "/home/claude/v2src/t1102/hnnusu/05.jpg", "line": "배관에 가스를 채워\n압력을 봅니다", "sub": "가압 시험 장비 · NI-1405"},
+  {"src": "/home/claude/v2src/t1102/hnnusu/09.jpg", "line": "감지기로\n이음부를 하나씩", "sub": "가스 누설 감지기 · NI-1409"},
+  {"src": "/home/claude/v2src/t1102/hnnusu/13.jpg", "line": "새던 곳은\n배관 이음부", "sub": "삭은 이음 부속 · NI-1413"},
+  {"src": "/home/claude/v2src/t1102/hnnusu/02.jpg", "line": "새 배관 잇고\n타일까지 복구", "sub": "세탁실 바닥 복구 · NI-1402"}
+ ]
+}

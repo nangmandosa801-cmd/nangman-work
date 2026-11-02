@@ -1,0 +1,29 @@
+{
+ "head": [
+  "평택 푸르지오 센터파인",
+  "옵션 135만원 안 넣은 집"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_centerfine/nangman_interior_ipju_centerfine_d1_closed.jpg",
+   "line": "현관 쪽에서 본\n닫은 모습",
+   "sub": "평택"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_centerfine/nangman_interior_ipju_centerfine_d2_side.jpg",
+   "line": "복도에서\n옆으로 본 모습",
+   "sub": "평택"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_centerfine/nangman_interior_ipju_centerfine_d3_open.jpg",
+   "line": "문을 연\n모습",
+   "sub": "평택"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_centerfine/nangman_interior_ipju_centerfine_d4_open_inside.jpg",
+   "line": "집 안에서\n현관을 본 모습",
+   "sub": "평택"
+  }
+ ]
+}

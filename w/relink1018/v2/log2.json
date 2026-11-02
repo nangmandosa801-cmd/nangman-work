@@ -1,0 +1,1244 @@
+[
+ {
+  "file": "[미발행] 10-31 16시 자동 중문, 전기 없이 되는 반자동이 따로 있습니다/nangman_interior_jungmun_auto_paste.html",
+  "slug": "jungmun_auto",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "링크 글자→발행 제목 224419299693"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693",
+   "224419305254",
+   "224421972563"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-01 08시 샷시 롤러 교체, 창이 뻑뻑하면 샷시를 바꾸기 전에 바퀴부터 확인합니다/nangman_interior_sash_roller_gyoche_paste.html",
+  "slug": "sash_roller_gyoche",
+  "pummok": "샷시·창",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224439530451",
+   "224439589802",
+   "224423069167"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-01 12시 전세 입주청소, 비용은 누가 낼지 계약 때 정하고 앞 세입자가 이사한 날과 내 이삿날 사이에 하루를 비워 둡니다/nangman_interior_jeonse_ipju_cheongso_paste.html",
+  "slug": "jeonse_ipju_cheongso",
+  "pummok": "입주",
+  "changes": [
+   "문장: 서울 · 경기 · 인천은 입주청소 시공팀을  → 입주청소 시공팀을 연결해 드립니다"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224433569335",
+   "224435585820"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-01 16시 중문 브랜드, 검색은 한샘인데 현장은 영림입니다/nangman_interior_jungmun_brand_paste.html",
+  "slug": "jungmun_brand",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 다루는 업체가 많아 나중에 → 다루는 곳이 많아 나중에",
+   "꼬리 묶음을 태그 앞으로 옮김",
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 동탄 중문 시공)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693"
+  ],
+  "tb_add": [
+   "224442833065"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-02 08시 강아지 슬개골 수술 후 관리, 실밥은 2주 안팎에 풀고 운동 제한은 10～12주라 그동안 미끄러운 바닥부터 막습니다/nangman_interior_seulgaegol_sulhu_paste.html",
+  "slug": "seulgaegol_sulhu",
+  "pummok": "매트",
+  "changes": [
+   "문장: 사는 지역과 연락처를 비밀댓글로 남겨 주세요 → 사는 지역과 연락처를 비밀댓글로 남겨 주세요"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224435609606",
+   "224435602789",
+   "224435585820",
+   "224433569335"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-02 12시 중문 수리 비용, 문 전체가 아니라 고장 난 부품 하나로 정해집니다/nangman_interior_jungmun_suri_biyong_paste.html",
+  "slug": "jungmun_suri_biyong",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224424135045",
+   "224430402740"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-02 16시 입주청소 후 확인사항, 잔금을 주기 전에 서랍과 걸레받이와 창틀 레일부터 열어 봅니다/nangman_interior_cheongso_hwagin_paste.html",
+  "slug": "cheongso_hwagin",
+  "pummok": "입주",
+  "changes": [],
+  "tail": 6,
+  "tb_have": [
+   "224433569335",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-03 08시 현관 조명, 중문을 달면 어두워집니다/nangman_interior_hyeongwan_light_paste.html",
+  "slug": "hyeongwan_light",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "꼬리 묶음을 태그 앞으로 옮김"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224422168377",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-03 12시 외부 코킹 셀프, 집 안에서 손 닿는 창틀까지는 직접 하고 고층 바깥 외벽은 로프를 타는 시공팀에 맡깁니다/nangman_interior_oebu_coking_self_paste.html",
+  "slug": "oebu_coking_self",
+  "pummok": "누수·코킹",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224439530451",
+   "224438517059"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-03 16시 중문 색상, 프레임과 유리 두 가지만 정하면 됩니다/nangman_interior_jungmun_color_paste.html",
+  "slug": "jungmun_color",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "꼬리 묶음을 태그 앞으로 옮김"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224424199956",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-04 08시 방충망 고양이 교체, 발톱에 버티는 망은 따로 있습니다/nangman_interior_bangchungmang_cat_paste.html",
+  "slug": "bangchungmang_cat",
+  "pummok": "방묘",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 방충망 종류, 고양이 발톱 기준으로 보면 → 방충망 종류, 고양이 발톱으로 보면",
+   "문장: 값이 가장 높습니다 → 가격이 가장 높습니다",
+   "문장: 한 업체는 24·30메시 → 한 곳은 24·30메시",
+   "문장: 「방묘창 설치, 망보다 먼저 방충망 틀이 빠 → 「방묘창 설치, 망보다 먼저 방충망 틀이 빠",
+   "문장: 「단열필름 시공, 겨울에 해 주는 것과 못  → 「단열필름 시공, 겨울에 해 주는 것과 못 ",
+   "「~십시오」→「~세요」 4곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224421379783",
+   "224419299693",
+   "224422997793"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-04 12시 샷시 등급, 같은 로이유리인데 3.6과 2.1입니다/nangman_interior_sash_grade_paste.html",
+  "slug": "sash_grade",
+  "pummok": "샷시·창",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 낭만 부동산 분석 플랫폼 · 인테리어 → 낭만 인테리어 · 샷시 등급",
+   "문장: 국토교통부 「건축물의 에너지절약설계기준」 별 → 국토교통부 고시 별표에 조합별 숫자가",
+   "문장: 국토교통부 「건축물의 에너지절약설계기준」 별 → 국토교통부 고시 별표4 · 숫자가",
+   "낭만 부동산 글 6편 꼬리 목록 뺌(인테리어 꼬리 카드만 남김)",
+   "꼬리 묶음을 태그 앞으로 옮김",
+   "꼬리 첫 화면 밖 글 1편 더함(샷시·창: 창문 외풍 차단)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224439530451"
+  ],
+  "tb_add": [
+   "224439661794"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-04 16시 인테리어 순서, 필름은 도배보다 먼저/nangman_interior_sunseo_paste.html",
+  "slug": "sunseo",
+  "pummok": "필름",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 업체가 여럿이면 한 곳이 늦을 때 → 맡긴 곳이 여럿이면 한 곳이 늦을 때"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224433582512",
+   "224420250220",
+   "224422168377",
+   "224419305254",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-05 08시 중문 방음, 방음문은 아니어서 현관문 틈부터 막고 중문은 틈을 무엇으로 메우는지 물어봅니다/nangman_interior_jungmun_bangeum_paste.html",
+  "slug": "jungmun_bangeum",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳",
+   "링크 글자→발행 제목 224424110739",
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 빌라 중문 설치)"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224419299693"
+  ],
+  "tb_add": [
+   "224430901841"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-05 12시 화정 인테리어, 구축 197집이 팔린 화정동 · 행신동의 창틀 코킹과 중문/nangman_interior_hwajeong_interior_paste.html",
+  "slug": "hwajeong_interior",
+  "pummok": "누수·코킹",
+  "changes": [],
+  "tail": 12,
+  "tb_have": [
+   "224441856630",
+   "224439589802",
+   "224439530451",
+   "224436488958",
+   "224436152107"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-05 16시 입주청소 순서, 탄성코트와 줄눈을 먼저 하고 청소한 뒤에 가전과 이삿짐이 들어옵니다/nangman_interior_cheongso_sunseo_paste.html",
+  "slug": "cheongso_sunseo",
+  "pummok": "입주",
+  "changes": [
+   "문장: 청소 업체가 출입할 수 있는지 확인하면 → 청소팀이 출입할 수 있는지 확인하면",
+   "문장: 잔금 전에 청소 업체가 출입할 수 있나요 → 잔금 전에 청소팀이 출입할 수 있나요"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224433569335",
+   "224431798053",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-06 08시 LX하우시스 샷시, KCC 이건과 뭐가 다를까요/nangman_interior_sash_brand_paste.html",
+  "slug": "sash_brand",
+  "pummok": "샷시·창",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: LX하우시스 안내 끝에는 이런 문장이 있습니 → LX하우시스 안내 끝에는 이런 내용이 있습니",
+   "문장: 모든 모델이 동일한 1등급 성능 구현이 가능 → 모든 모델이 같은 1등급 성능을 내니 디자인",
+   "꼬리 첫 화면 밖 글 1편 더함(샷시·창: 창문 외풍 차단)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224439530451"
+  ],
+  "tb_add": [
+   "224439661794"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-06 12시 창문 실리콘 곰팡이, 닦아도 다시 핀 분당 아파트 베란다 창은 금 간 실리콘을 걷어 내고 밑칠한 뒤 새로 쐈습니다/nangman_interior_changmun_silicon_gompangi_paste.html",
+  "slug": "changmun_silicon_gompangi",
+  "pummok": "누수·코킹",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224438517059",
+   "224436506476"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-06 16시 중문 설치 비용, 3연동과 원슬라이딩 가격 차이입니다/nangman_interior_jungmun_cost_paste.html",
+  "slug": "jungmun_cost",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 직접 오는 업체가 있고, 다른 팀에 넘기는  → 직접 오는 곳이 있고, 다른 팀에 넘기는 곳",
+   "꼬리 묶음을 태그 앞으로 옮김",
+   "꼬리 첫 화면 밖 글 2편 더함(중문: 중문 레일 고장 · 수원 중문 시공)"
+  ],
+  "tail": 7,
+  "tb_have": [],
+  "tb_add": [
+   "224430402740",
+   "224431798053"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-07 08시 새집증후군 시공, 청소로 분진부터 걷어 내고 광촉매 · 자외선 · 편백수 순서로 마무리한 서초 새 아파트 두 집/nangman_interior_saejip_jeunghugun_paste.html",
+  "slug": "saejip_jeunghugun",
+  "pummok": "입주",
+  "changes": [],
+  "tail": 5,
+  "tb_have": [
+   "224433569335",
+   "224435585820",
+   "224430300608",
+   "224430252652"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-07 12시 현관 풍수, 문을 열면 집 안이 다 보이는 집/nangman_interior_jungmun_pungsu_paste.html",
+  "slug": "jungmun_pungsu",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "링크 글자→발행 제목 224419299693"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693",
+   "224422168377",
+   "224435585820",
+   "224419305254"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-07 16시 아파트 현관 인테리어, 중문 색은 바닥 마루와 신발장 색을 보고 고릅니다/nangman_interior_hyeongwan_interior_paste.html",
+  "slug": "hyeongwan_interior",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 6,
+  "tb_have": [
+   "224422168377",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-08 08시 간살 중문, 수원 영통 우드 간살 3연동/nangman_interior_suwon_gansal_paste.html",
+  "slug": "suwon_gansal",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224424135045",
+   "224419299693",
+   "224422168377"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-08 12시 베란다 누수 페인트, 물이 드는 곳을 막고 들뜬 칠을 긁어낸 뒤 다시 칠합니다/nangman_interior_veranda_nusu_paint_paste.html",
+  "slug": "veranda_nusu_paint",
+  "pummok": "누수·코킹",
+  "changes": [],
+  "tail": 8,
+  "tb_have": [
+   "224441856630",
+   "224436506476",
+   "224439589802",
+   "224438517059"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-08 16시 중문 가벽, 세우는 집이 있고 뜯는 집이 있습니다/nangman_interior_jungmun_gabyeok_paste.html",
+  "slug": "jungmun_gabyeok",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "링크 글자→발행 제목 224419299693"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693",
+   "224419305254",
+   "224420250220",
+   "224421972563"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-09 08시 신축 입주청소 비용, 34평은 30만～42만원이고 계약 전에 추가 요금이 붙는 조건부터 문자로 받습니다/nangman_interior_ipju_cheongso_paste.html",
+  "slug": "ipju_cheongso",
+  "pummok": "입주",
+  "changes": [
+   "문장: 업체가 공개한 가격은 37만원입니다 → 업체 공개 가격은 37만원입니다",
+   "문장: 청소 업체가 들어올 수 있는지 → 청소팀이 들어올 수 있는지",
+   "문장: 말고 업체가 집을 직접 본 뒤에 → 말고 청소팀이 집을 직접 본 뒤에"
+  ],
+  "tail": 9,
+  "tb_have": [
+   "224430300608",
+   "224430207177",
+   "224430267262",
+   "224430196670",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-09 12시 전세집 인테리어, 재건축 이주로 몇 해 사는 집은 떼어 낼 수 있는 것부터 고릅니다/nangman_interior_jeonse_interior_paste.html",
+  "slug": "jeonse_interior",
+  "pummok": "필름",
+  "changes": [],
+  "tail": 6,
+  "tb_have": [
+   "224435839462",
+   "224424176442",
+   "224433582512",
+   "224421914315",
+   "224435596372"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-09 16시 부산 중문, 당감 동일스위트 좁은 현관에 모루유리 원슬라이딩을 달았습니다/nangman_interior_busan_danggam_paste.html",
+  "slug": "busan_danggam",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224422168377"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-10 08시 아파트 베란다 태양광, 설치 전에 난간과 보증기간부터 봅니다/nangman_interior_solar1_paste.html",
+  "slug": "solar1",
+  "pummok": "기타",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 그 업체가 집을 미리 진단한 뒤 → 그 기업이 집을 미리 진단한 뒤",
+   "문장: 설치한 업체가 없어질 수 있습니다 → 설치한 회사가 없어질 수 있습니다",
+   "문장: 업체가 와서 난간 · 방향 · 콘센트를 → 참여기업이 와서 난간 · 방향 · 콘센트를",
+   "링크 글자→발행 제목 224423069167",
+   "꼬리 첫 화면 밖 글 1편 더함(기타: 컨테이너 농막)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224423069167"
+  ],
+  "tb_add": [
+   "224435830476"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-10 12시 중문 업체 비교, 견적서 여섯 줄/nangman_interior_upche_paste.html",
+  "slug": "upche",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 나란히 놓으면 값이 다른 까닭이 보입니다 → 나란히 놓으면 가격이 다른 이유가 보입니다",
+   "문장: 그래서 업체가 집에 와서 실측해야 → 그래서 시공팀이 집에 와서 실측해야",
+   "문장: 실측 비용을 받지 않는 업체가 많습니다 → 실측 비용을 받지 않는 곳이 많습니다",
+   "문장: 브랜드 문인지 업체가 직접 만드는 문인지도 → 브랜드 문인지 직접 만드는 문인지도",
+   "문장: 업체가 집에 와서 시공하는 일이죠 → 시공팀이 집에 와서 시공하는 일이죠",
+   "문장: 시공해 본 업체는 고장 났을 때 → 시공해 본 곳은 고장 났을 때"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224422168377",
+   "224419299693",
+   "224429875441"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-10 16시 스윙 중문, 고장 날 부품이 애초에 없습니다/nangman_interior_jungmun_swing_paste.html",
+  "slug": "jungmun_swing",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 3연동 고장 1위와 2위 부품이 달려 있지  → 3연동에서 가장 많이 고장 나는 부품 두 가",
+   "링크 글자→발행 제목 224419299693"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224419305254",
+   "224420250220"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-11 08시 돈암 한신한진 인테리어, 같은 단지 두 집의 중문이 다른 이유는 입구 폭 41cm 차이였습니다/nangman_interior_donam_hansin_paste.html",
+  "slug": "donam_hansin",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224421972563",
+   "224424135045"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-11 12시 중문 교체, 살면서 하루 만에 바꿉니다/nangman_interior_jungmun_replace_paste.html",
+  "slug": "jungmun_replace",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "링크 글자→발행 제목 224419299693"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693",
+   "224419305254",
+   "224421972563",
+   "224429875441"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-11 16시 인테리어 견적서 보는법, 합계보다 먼저 「1식」이라고 적힌 줄과 「별도」 줄과 자재 이름부터 확인합니다/nangman_interior_gyeonjeokseo_paste.html",
+  "slug": "gyeonjeokseo",
+  "pummok": "중문",
+  "changes": [
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 김해 중문)"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224433569335"
+  ],
+  "tb_add": [
+   "224429875441"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-12 08시 무타공 중문, 시공 945건에 한 건도 없었습니다/nangman_interior_jungmun_mutagong_paste.html",
+  "slug": "jungmun_mutagong",
+  "pummok": "중문",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 정작 다는 업체가 없습니다 → 정작 다는 곳이 없습니다",
+   "문장: 나갈 때 원래대로 돌려놔야 → 이사할 때 원래대로 돌려놔야",
+   "문장: 고장 1위가 상부 레일과 유니트(38%)였던 → 가장 많은 고장이 상부 레일과 유니트(38%",
+   "문장: 벽이 기울어 있으면 값이 다르게 나옵니다 → 벽이 기울어 있으면 치수가 다르게 나옵니다",
+   "문장: 그만큼 자리를 먹습니다 → 그만큼 폭이 줄어듭니다",
+   "문장: 댓글이나 쪽지로 <b>동네 · 현관 사진 · → 사는 지역과 연락처를 비밀댓글로 남겨 주세요",
+   "꼬리 묶음을 태그 앞으로 옮김"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224424176442",
+   "224420250220"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-12 12시 대전 중문 설치, 대림두레 현관 파티션을 떼고 ㄱ자 초슬림 3연동을 달았습니다/nangman_interior_daejeon_dure_paste.html",
+  "slug": "daejeon_dure",
+  "pummok": "중문",
+  "changes": [
+   "문장: 대전 중문 설치 업체가 현관을 확인하고 → 대전 중문 설치 시공팀이 현관을 확인하고",
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224420250220",
+   "224421392281",
+   "224419299693",
+   "224424135045"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-12 16시 방묘창 설치, 방충망만으로는 고양이가 뚫습니다/nangman_interior_bangmyochang_paste.html",
+  "slug": "bangmyochang",
+  "pummok": "방묘",
+  "changes": [
+   "머리 수수료 고지 넣음",
+   "문장: 「방묘문, 높이보다 빠져나갈 자리를 봅니다」 → 「방묘문, 높이보다 빠져나갈 자리를 봅니다」",
+   "「~십시오」→「~세요」 2곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224421379783",
+   "224419299693",
+   "224426986850"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-13 08시 강아지 미끄럼방지 매트 시공 가격, 34평은 110～120장이 깔리고 금액은 까는 범위와 매트 종류가 정합니다/nangman_interior_gangaji_mat_gagyeok_paste.html",
+  "slug": "gangaji_mat_gagyeok",
+  "pummok": "매트",
+  "changes": [],
+  "tail": 6,
+  "tb_have": [
+   "224435609606",
+   "224435602789",
+   "224435585820",
+   "224433569335"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-13 12시 창원 중문 설치, 대원 힐스테이트 현관에 아치 원슬라이딩을 달았습니다/nangman_interior_changwon_daewon_paste.html",
+  "slug": "changwon_daewon",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224423485097"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-13 16시 24평 샷시 교체 비용, 공개된 다섯 집은 600만원에서 1,150만원이었습니다/nangman_interior_sash_24_paste.html",
+  "slug": "sash_24",
+  "pummok": "샷시·창",
+  "changes": [
+   "문장: 창호 업체가 블로그에 가격을 공개한 → 창호 대리점이 블로그에 가격을 공개한",
+   "꼬리 첫 화면 밖 글 1편 더함(샷시·창: 창문 외풍 차단)"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224423069167"
+  ],
+  "tb_add": [
+   "224439661794"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-14 08시 청주 중문 시공, 두산위브지웰시티 2차 현관에 모루유리 중문을 달았습니다/nangman_interior_cheongju_jiwell_paste.html",
+  "slug": "cheongju_jiwell",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224422168377",
+   "224424135045",
+   "224419305254"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-14 12시 인테리어 견적 비교, 어디가 싼지 보기 전에 범위·자재·수량 등 여섯 가지로 같은 공사인지부터 맞춥니다/nangman_interior_gyeonjeok_bigyo_paste.html",
+  "slug": "gyeonjeok_bigyo",
+  "pummok": "중문",
+  "changes": [
+   "문장: 낭만 인테리어도 시공 업체가 아니라 제휴 업 → 낭만 인테리어도 직접 시공하는 곳이 아니라 ",
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 양개도어 중문)"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224433569335"
+  ],
+  "tb_add": [
+   "224424199956"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-14 16시 세종 중문 설치, 수루배마을 현관에 우드 비대칭 스윙도어를 달았습니다/nangman_interior_sejong_surubae_paste.html",
+  "slug": "sejong_surubae",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224419299693",
+   "224421972563",
+   "224424199956",
+   "224422168377"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-15 08시 인천 곰팡이 제거 업체, 베란다 곰팡이를 닦는 대신 벽 속 단열을 바꾼 인천 아파트 세 집/nangman_interior_incheon_gompangi_paste.html",
+  "slug": "incheon_gompangi",
+  "pummok": "결로·곰팡이",
+  "changes": [
+   "문장: 업체가 이 집을 살펴보니 → 시공팀이 이 집을 살펴보니",
+   "문장: 그래서 업체는 창틀과 → 그래서 시공팀은 창틀과",
+   "문장: 인천 · 부천 · 김포 · 시흥 → 인천 · 김포 · 시흥",
+   "꼬리 첫 화면 밖 글 1편 더함(결로·곰팡이: 드레스룸 곰팡이)"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224423069167"
+  ],
+  "tb_add": [
+   "224435659453"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-15 12시 아치형 중문 3연동, 포천 영화아파트 현관에 화이트 틀과 세로 모루유리를 달았습니다/nangman_interior_arch_pocheon_paste.html",
+  "slug": "arch_pocheon",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224424199956",
+   "224424135045",
+   "224419305254"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-15 16시 포켓도어 중문, 진주 중흥S클래스 현관 가벽 속으로 3연동 세 짝이 들어갑니다/nangman_interior_pocket_jinju_paste.html",
+  "slug": "pocket_jinju",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224424135045",
+   "224420250220",
+   "224429875441"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-16 08시 부산 중문 설치, 사상 센트럴스타힐스 현관에 샴페인골드 원슬라이딩을 달았습니다/nangman_interior_busan_sasang_paste.html",
+  "slug": "busan_sasang",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 8,
+  "tb_have": [
+   "224419299693",
+   "224424199956"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-16 12시 창원 중문 시공, 문이 벽 속으로 들어가는 자동 3연동을 달았고 그 벽에 있던 스위치는 밖으로 꺼냈습니다/nangman_interior_changwon_gamgye_paste.html",
+  "slug": "changwon_gamgye",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224429875441",
+   "224430252652",
+   "224419299693",
+   "224422168377"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-16 16시 거실 중문 설치, 수원 천천동 삼호진덕 베란다 앞에 6연동을 달았습니다/nangman_interior_living_suwon_paste.html",
+  "slug": "living_suwon",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224424135045",
+   "224419305254"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-17 08시 드레스룸 중문 설치, 천안 호반써밋 드레스룸 입구에 모루유리 여닫이 한 짝을 달았습니다/nangman_interior_dress_cheonan_paste.html",
+  "slug": "dress_cheonan",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224421972563",
+   "224419299693",
+   "224424199956"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-17 12시 좁은 현관 중문, 수원 화서역 우드 한 짝 여닫이/nangman_interior_suwon_narrow_paste.html",
+  "slug": "suwon_narrow",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224421972563",
+   "224419299693",
+   "224422168377"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-17 16시 브론즈유리 중문, 김해 안동 푸르지오 긴 현관 벽에 블랙 원슬라이딩을 달았습니다/nangman_interior_bronze_gimhae_paste.html",
+  "slug": "bronze_gimhae",
+  "pummok": "중문",
+  "changes": [],
+  "tail": 7,
+  "tb_have": [
+   "224424199956",
+   "224419299693",
+   "224429875441"
+  ],
+  "tb_add": [],
+  "changed": false
+ },
+ {
+  "file": "[미발행] 11-18 08시 모루유리 중문 원슬라이딩, 큰 유리 한 장이 허전하다면 흰 띠로 칸을 나눕니다/nangman_interior_moru_yangsan_paste.html",
+  "slug": "moru_yangsan",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳",
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 무타공 중문)"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224419299693"
+  ],
+  "tb_add": [
+   "224424176442"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-18 12시 6연동 중문, 폭 3m가 넘는 입구 세 곳에 달았고 가운데에서 양쪽으로 세 짝씩 열립니다/nangman_interior_six_seoul_paste.html",
+  "slug": "six_seoul",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224431798053",
+   "224419305254",
+   "224430402740",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-18 16시 3연동 자동 중문, 접히는 문이 현관으로 튀어나오던 집은 앞에 서면 열리는 문으로 바꿨습니다/nangman_interior_auto3_okjeong_paste.html",
+  "slug": "auto3_okjeong",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224429875441",
+   "224424135045",
+   "224431798053",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-19 08시 현관 가벽 중문, 입구 폭이 1m뿐이라 신발장 앞 가벽을 떼고 3연동을 달았습니다/nangman_interior_gabyeok_tongyeong_paste.html",
+  "slug": "gabyeok_tongyeong",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224422168377",
+   "224419299693",
+   "224420250220"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-19 12시 주방 중문 시공, 잘 안 열리던 부엌 베란다 여닫이문을 떼고 옆으로 미는 3연동으로 바꿨습니다/nangman_interior_jubang_jinhae_paste.html",
+  "slug": "jubang_jinhae",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224430402740",
+   "224419305254",
+   "224431798053",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-19 16시 안방 중문 설치, 미는 문 한 짝은 벽 콘센트와 방문에 걸려서 3연동으로 달았습니다/nangman_interior_anbang_saha_paste.html",
+  "slug": "anbang_saha",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳",
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 3연동 중문 수리)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693"
+  ],
+  "tb_add": [
+   "224424135045"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-20 08시 우드 중문 3연동, 두 면이 거실로 트인 현관은 한 면은 문으로 한 면은 유리 벽으로 막았습니다/nangman_interior_wood3_daeyeon_paste.html",
+  "slug": "wood3_daeyeon",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224430402740",
+   "224421392281",
+   "224419299693",
+   "224422168377"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-20 12시 포켓 중문 설치, 같은 아파트 두 집이 3연동과 포켓 3연동을 달았고 열리는 폭이 이만큼 달랐습니다/nangman_interior_pocket_gimhae_paste.html",
+  "slug": "pocket_gimhae",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224430252652",
+   "224431798053",
+   "224419299693",
+   "224430402740"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-20 16시 자동 중문 설치, 닫으면 나무 벽이고 앞에 서면 열리는 문을 달았습니다/nangman_interior_auto_okjeong_paste.html",
+  "slug": "auto_okjeong",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224429875441",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-21 08시 초슬림 3연동 중문, 간살을 세 짝에 다 넣으면 답답해서 한 짝에만 넣었습니다/nangman_interior_slim3_onam_paste.html",
+  "slug": "slim3_onam",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224430402740",
+   "224424135045",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-21 12시 비대칭 여닫이 중문, 레일도 튀어나온 손잡이도 없이 흰 벽처럼 달았습니다/nangman_interior_asym_wolgye_paste.html",
+  "slug": "asym_wolgye",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224423485097",
+   "224421972563",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-21 16시 스윙 중문, 문이 도는 바닥이 아깝다면 두 짝으로 접히는 문이 있습니다/nangman_interior_swing_onam_paste.html",
+  "slug": "swing_onam",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224421972563",
+   "224423485097",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-22 08시 주택 중문설치, 옛 철제 중문을 떼어 낸 입구에는 문을 4cm 작게 만들어 답니다/nangman_interior_house_macheon_paste.html",
+  "slug": "house_macheon",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224419299693",
+   "224423485097"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-22 12시 베란다 중문 설치, 거실 샷시를 떼도 되는 집은 바깥 창이 따로 있는 집입니다/nangman_interior_veranda_masan_paste.html",
+  "slug": "veranda_masan",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224430252652",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-22 16시 드레스룸 중문 슬라이딩, 침대에서 화장대와 옷장이 다 보이던 안방에 벽을 따라 미는 문을 달았습니다/nangman_interior_dress_gimhae_paste.html",
+  "slug": "dress_gimhae",
+  "pummok": "중문",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳",
+   "꼬리 첫 화면 밖 글 1편 더함(중문: 비대칭 중문 단점)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224419299693"
+  ],
+  "tb_add": [
+   "224423485097"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-23 08시 빌라 샷시 교체, 네 집은 바꾼 창이 다 달랐고 한 집은 안쪽 나무 창을 그대로 두고 바깥 창만 바꿨습니다/nangman_interior_villa_sash_paste.html",
+  "slug": "villa_sash",
+  "pummok": "샷시·창",
+  "changes": [
+   "문장: 업체가 방문해서 창을 실측하고 → 시공팀이 방문해서 창을 실측하고",
+   "문의 상자 「업체가」→「시공팀이」 1곳",
+   "꼬리 첫 화면 밖 글 1편 더함(샷시·창: 산본 인테리어)"
+  ],
+  "tail": 6,
+  "tb_have": [
+   "224423069167"
+  ],
+  "tb_add": [
+   "224436488958"
+  ],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-23 12시 살면서 샷시 교체, 짐을 둔 채 바꾼 다섯 집은 가구에 비닐부터 씌웠고 도배를 다시 하지 않으려고 창 둘레에 몰딩을 댔습니다/nangman_interior_sash_live_paste.html",
+  "slug": "sash_live",
+  "pummok": "샷시·창",
+  "changes": [
+   "문장: 이 작업은 타일 업체가 따로 합니다 → 이 작업은 타일 시공팀이 따로 합니다",
+   "문장: 제휴 업체는 특별한 일이 없으면 → 제휴 시공팀은 특별한 일이 없으면",
+   "문장: 붙어 있는지는 업체가 방문해서 확인합니다 → 붙어 있는지는 시공팀이 방문해서 확인합니다",
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224423069167",
+   "224426986850"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-23 16시 싱크대 필름 시공, 멀쩡한 집·필름이 벗겨진 집·살고 있는 집 세 곳의 주방을 흰색으로 바꿨고 붙이기 전에 한 일이 달랐습니다/nangman_interior_sink_film_paste.html",
+  "slug": "sink_film",
+  "pummok": "필름",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 7,
+  "tb_have": [
+   "224433582512",
+   "224421914315"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-24 08시 현관문 필름, 긁히고 구멍 난 문은 메우고 다듬은 뒤에 붙였고 세 집은 색을 이렇게 골랐습니다/nangman_interior_door_film_paste.html",
+  "slug": "door_film",
+  "pummok": "필름",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224433582512",
+   "224421914315",
+   "224422168377",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-24 12시 방문 필름, 문 여덟 짝 가운데 네 짝만 필름으로 하고 네 짝은 새 문으로 바꾼 이유/nangman_interior_room_film_paste.html",
+  "slug": "room_film",
+  "pummok": "필름",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224433582512",
+   "224421914315",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-24 16시 문틀 필름, 물을 먹어 아래가 불어 터진 문틀은 도려내고 메운 뒤에 붙였습니다/nangman_interior_frame_film_paste.html",
+  "slug": "frame_film",
+  "pummok": "필름",
+  "changes": [
+   "문의 상자 「업체가」→「시공팀이」 1곳"
+  ],
+  "tail": 5,
+  "tb_have": [
+   "224433582512",
+   "224421914315",
+   "224419299693"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-25 08시 창문 누수 해결 방법, 젖는 곳이 창 위인지 옆인지 아래 턱인지부터 봅니다/nangman_interior_changmun_nusu_haegyeol_paste.html",
+  "slug": "changmun_nusu_haegyeol",
+  "pummok": "누수·코킹",
+  "changes": [
+   "문장: 로프를 타고 바깥 창 둘레를 막는 시공팀으로 → 서울 · 경기 · 인천은 로프를 타고 바깥 "
+  ],
+  "tail": 8,
+  "tb_have": [
+   "224439589802",
+   "224441856630",
+   "224439530451"
+  ],
+  "tb_add": [],
+  "changed": true
+ },
+ {
+  "file": "[미발행] 11-25 12시 노원 인테리어, 8～9월에 구축 아파트 313집이 팔린 상계동과 옆 중계동에서 창틀 코킹과 현관 중문을 한 세 집입니다/nangman_interior_nowon_interior_paste.html",
+  "slug": "nowon_interior",
+  "pummok": "누수·코킹",
+  "changes": [],
+  "tail": 10,
+  "tb_have": [
+   "224439530451",
+   "224436488958",
+   "224436152107",
+   "224438517059"
+  ],
+  "tb_add": [],
+  "changed": false
+ }
+]

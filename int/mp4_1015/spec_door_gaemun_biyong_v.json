@@ -1,0 +1,34 @@
+{
+ "head": [
+  "도어락 개문 3만원부터",
+  "부수지 않고 엽니다"
+ ],
+ "what": "도어락",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/door_gaemun_biyong/사진_출처/1.jpg",
+   "line": "도어락 개문\n3만원부터",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_gaemun_biyong/사진_출처/2.jpg",
+   "line": "과하게 크게\n뚫은 문",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_gaemun_biyong/사진_출처/3.jpg",
+   "line": "너무 조여\n부러진 나사",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_gaemun_biyong/사진_출처/4.jpg",
+   "line": "날카롭게 잘린\n타공 면",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/door_gaemun_biyong/사진_출처/5.jpg",
+   "line": "그라인더로\n뚫은 문",
+   "sub": "출처 서울 24시 출장 열쇠"
+  }
+ ]
+}

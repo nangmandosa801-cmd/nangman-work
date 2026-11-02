@@ -1,0 +1,19 @@
+{
+ "head": [
+  "동래 반도유보라",
+  "옵션 3연동 110만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_dongnae/nangman_interior_ipju_dongnae_d1_before_after.jpg",
+   "line": "시공 전과\n시공 후",
+   "sub": "부산 동래"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_dongnae/nangman_interior_ipju_dongnae_d2_open_closed.jpg",
+   "line": "문을 연 모습과\n닫은 모습",
+   "sub": "부산 동래"
+  }
+ ]
+}

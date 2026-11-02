@@ -1,0 +1,895 @@
+{
+ "made": "2026-10-26 00:31",
+ "champion_chart": {
+  "unpublished": 171,
+  "cap": 21,
+  "over": true,
+  "list": [
+   [
+    "현관 무타공 중문, 셀프는 4만~7만원대이고 기둥을 세우는 시공은 폭 90cm에 25만~37만원입니다",
+    "/mnt/user-data/outputs/int/hyeongwan_mutagong/nangman_interior_hyeongwan_mutagong_post.html"
+   ],
+   [
+    "줄눈 시공 가격 34평, 욕실 2곳과 현관은 경제형 23만 · 고급형 68만원",
+    "/mnt/user-data/outputs/int/julnun_gyeongje_gogeup/nangman_interior_julnun_gyeongje_gogeup_post.html"
+   ],
+   [
+    "힐스테이트 동작 시그니처 줄눈, 욕실 바닥과 현관은 16만원이고 두 욕실까지 하면 23만원입니다",
+    "/mnt/user-data/outputs/int/dongjak_signature_julnun/nangman_interior_dongjak_signature_julnun_post.html"
+   ],
+   [
+    "창문 단열시트,뽁뽁이 대신 붙일 창과 시공을 불러야 할 창을 나눕니다",
+    "/mnt/user-data/outputs/int/changmun_danyeol_sheet/nangman_interior_changmun_danyeol_sheet_post.html"
+   ],
+   [
+    "외벽 누수 업체,탐지와 방수와 코킹 중 누구를 부를지는 젖는 때가 정합니다",
+    "/mnt/user-data/outputs/int/oebyeok_nusu_upche/nangman_interior_oebyeok_nusu_upche_post.html"
+   ],
+   [
+    "3연동 중문 레일 교체,레일에 때가 끼고 옆 털이 해진 문은 바퀴부터 봅니다",
+    "/mnt/user-data/outputs/int/jungmun_rail_munsuri/nangman_interior_jungmun_rail_munsuri_post.html"
+   ],
+   [
+    "강동구 누수탐지 가격,아랫집 천장 물자국 하나로 10만원에 끝나는 집과 40만원까지 가는 집",
+    "/mnt/user-data/outputs/int/gangdong_nusu_gagyeok/nangman_interior_gangdong_nusu_gagyeok_post.html"
+   ],
+   [
+    "하남 누수탐지,10만원 · 30만원 · 40만원 세 단계는 찾는 배관이 다릅니다",
+    "/mnt/user-data/outputs/int/hanam_nusu_tamji/nangman_interior_hanam_nusu_tamji_post.html"
+   ],
+   [
+    "일산 누수공사,호수마을2단지 주방 창 위를 코킹 1시간 30만원에 막았습니다",
+    "/mnt/user-data/outputs/int/goyang_caulk_sigong/nangman_interior_goyang_caulk_sigong_post.html"
+   ],
+   [
+    "아파트 단열필름,유리가 차가운 집과 바람이 새는 집은 고칠 곳이 다릅니다",
+    "/mnt/user-data/outputs/int/apt_danyeol_film/nangman_interior_apt_danyeol_film_post.html"
+   ],
+   [
+    "디에이치방배 입주청소, 34평은 기본형 묶음 71만 4천원과 고급형 평당 3만원 가운데 고릅니다",
+    "/mnt/user-data/outputs/int/dhbangbae_ipju_cheongso/nangman_interior_dhbangbae_ipju_cheongso_post.html"
+   ],
+   [
+    "입주청소 추가요금, 평당 금액보다 견적서 아래쪽 다섯 줄을 먼저 읽습니다",
+    "/mnt/user-data/outputs/int/cheongso_chugayogeum/nangman_interior_cheongso_chugayogeum_post.html"
+   ],
+   [
+    "지제역 쌍용 더 플래티넘 중문, 옆 벽이 없으면 3연동이고 비어 있으면 원슬라이딩입니다",
+    "/mnt/user-data/outputs/int/jije_ssangyong_jungmun/nangman_interior_jije_ssangyong_jungmun_post.html"
+   ],
+   [
+    "계양 신혼희망타운 A3 중문, 55B는 여닫이 157만원이고 나머지는 152만원",
+    "/mnt/user-data/outputs/int/gyeyang_a3_jungmun/nangman_interior_gyeyang_a3_jungmun_post.html"
+   ],
+   [
+    "욕실 실리콘 곰팡이, 락스로 닦아도 다시 피면 걷어 내고 말린 뒤 새로 쏩니다",
+    "/mnt/user-data/outputs/int/yoksil_silicon_gompangi/nangman_interior_yoksil_silicon_gompangi_post.html"
+   ],
+   [
+    "중문 화재감지기, 중문을 달면 현관이 따로 막힌 칸이 되니 천장부터 봅니다",
+    "/mnt/user-data/outputs/int/jungmun_hwajae_gamjigi/nangman_interior_jungmun_hwajae_gamjigi_post.html"
+   ],
+   [
+    "중문 유리 교체, 쫄대로 고정한 문은 유리만 바꾸고 한 짝 10~15만원입니다",
+    "/mnt/user-data/outputs/int/jungmun_yuri_gyoche/nangman_interior_jungmun_yuri_gyoche_post.html"
+   ],
+   [
+    "폴딩 중문 단점, 접힌 문짝만큼 입구가 좁아지고 경첩이 많아 처지기 쉽습니다",
+    "/mnt/user-data/outputs/int/folding_jungmun_danjeom/nangman_interior_folding_jungmun_danjeom_post.html"
+   ],
+   [
+    "지제역 반도체밸리 쌍용 중문, 사전점검 끝났다면 현관 옆 벽부터 봅니다",
+    "/mnt/user-data/outputs/int/_bak_1024/nangman_interior_jije_ssangyong_jungmun_post.html"
+   ],
+   [
+    "입주청소 평당 가격, 1만 1천원 코스와 3만원 코스는 하는 일이 이렇게 다릅니다",
+    "/mnt/user-data/outputs/int/sudo_2course/nangman_interior_sudo_2course_post.html"
+   ],
+   [
+    "부산 누수탐지,화장실 두 곳과 베란다 한 곳은 바닥부터 방수를 다시 했습니다",
+    "/mnt/user-data/outputs/int/busan_nusu_seokcheon/nangman_interior_busan_nusu_seokcheon_post.html"
+   ],
+   [
+    "평택화양동문디이스트 입주청소, 열쇠 받은 뒤 줄눈 다음 날에 잡습니다",
+    "/mnt/user-data/outputs/int/hwayang_dongmun_jikjeon/nangman_interior_hwayang_dongmun_jikjeon_post.html"
+   ],
+   [
+    "현관 중문 디자인,원슬라이딩부터 원목 간살까지 현관 폭과 벽 색으로 고릅니다",
+    "/mnt/user-data/outputs/int/hyeongwan_jungmun_dizain/nangman_interior_hyeongwan_jungmun_dizain_post.html"
+   ],
+   [
+    "욕실 방수공사 기간, 철거부터 물을 채워 보는 날까지 5일에서 7일 넘게 잡습니다",
+    "/mnt/user-data/outputs/int/yoksil_bangsu_gongsa/nangman_interior_yoksil_bangsu_gongsa_post.html"
+   ],
+   [
+    "타일 들뜸 보수, 통통 소리 나는 한 장만 떼어 다시 붙이면 끝날까요",
+    "/mnt/user-data/outputs/int/tile_deultteum_bosu/nangman_interior_tile_deultteum_bosu_post.html"
+   ],
+   [
+    "욕실 타일 덧방 단점, 빈 소리 나는 타일 위에 붙이면 같이 떨어집니다",
+    "/mnt/user-data/outputs/int/yoksil_tile_deotbang/nangman_interior_yoksil_tile_deotbang_post.html"
+   ],
+   [
+    "외부 코킹 시공,옛 줄을 걷어 내고 밑칠한 뒤 새로 쏘며 겨울엔 한낮에 합니다",
+    "/mnt/user-data/outputs/int/oebu_coking_sigong/nangman_interior_oebu_coking_sigong_post.html"
+   ],
+   [
+    "창틀 누수 방수,실리콘 코킹 · 침투 방수 · 옥상 방수는 막는 곳이 다릅니다",
+    "/mnt/user-data/outputs/int/changteul_nusu_bangsu/nangman_interior_changteul_nusu_bangsu_post.html"
+   ],
+   [
+    "창틀 실리콘 교체,찬바람이 새면 다시 쏠 때이고 34평 41만~204만원입니다",
+    "/mnt/user-data/outputs/int/changteul_silicon_gyoche/nangman_interior_changteul_silicon_gyoche_post.html"
+   ],
+   [
+    "방충망 수리,틀은 그대로 두고 찢어진 망과 닳은 바퀴만 바꿉니다",
+    "/mnt/user-data/outputs/int/bangchungmang_suri/nangman_interior_bangchungmang_suri_post.html"
+   ],
+   [
+    "수원 인테리어 필름,호매실 한양수자인 회색 주방을 노란 싱크대로 바꿨습니다",
+    "/mnt/user-data/outputs/int/suwon_interior_film/nangman_interior_suwon_interior_film_post.html"
+   ],
+   [
+    "광명 시스템에어컨,유플래닛 데시앙 4대는 도배가 끝난 뒤 판넬을 달았습니다",
+    "/mnt/user-data/outputs/int/gwangmyeong_aircon/nangman_interior_gwangmyeong_aircon_post.html"
+   ],
+   [
+    "용인 중문,기흥 영덕신일1단지 현관에 투명유리 ㄱ자 3연동을 달았습니다",
+    "/mnt/user-data/outputs/int/yongin_jungmun_giheung/nangman_interior_yongin_jungmun_giheung_post.html"
+   ],
+   [
+    "노원구 중문 시공,상계한신3차 현관에 거실을 가리는 ㄱ자 3연동을 달았습니다",
+    "/mnt/user-data/outputs/int/nowon_jungmun_sigong/nangman_interior_nowon_jungmun_sigong_post.html"
+   ],
+   [
+    "창문 누수 해결 방법,젖는 곳이 창 위인지 옆인지 아래 턱인지부터 봅니다",
+    "/mnt/user-data/outputs/int/changmun_nusu_haegyeol/nangman_interior_changmun_nusu_haegyeol_post.html"
+   ],
+   [
+    "회천중앙역 로제비앙 그랜드센텀 중문, 옵션 121만원",
+    "/mnt/user-data/outputs/int/_restore_1017/ipju_hoecheon/nangman_interior_ipju_hoecheon_post.html"
+   ],
+   [
+    "평택 화양 동문 디 이스트 중문, 옵션은 143만원",
+    "/mnt/user-data/outputs/int/_restore_1017/ipju_hwayang_dongmun/nangman_interior_ipju_hwayang_dongmun_post.html"
+   ],
+   [
+    "평택 푸르지오 센터파인 중문, 옵션 135만원을 안 넣은 집",
+    "/mnt/user-data/outputs/int/_restore_1017/ipju_centerfine/nangman_interior_ipju_centerfine_post.html"
+   ],
+   [
+    "에코델타시티 중흥S클래스 중문, 다섯 타입 모두 130만원",
+    "/mnt/user-data/outputs/int/_restore_1017/ecodelta_jungheung_ipju/nangman_interior_ecodelta_jungheung_ipju_post.html"
+   ],
+   [
+    "힐스테이트 메디알레 입주청소, 평당 1만원대부터 3만원까지",
+    "/mnt/user-data/outputs/int/_restore_1017/medialle_cheongso/nangman_interior_medialle_cheongso_post.html"
+   ],
+   [
+    "검단호수공원역 풍경채 어바니티 중문, 84A는 스윙 84B는 3연동",
+    "/mnt/user-data/outputs/int/_restore_1017/geomdan_jeil3_ipju/nangman_interior_geomdan_jeil3_ipju_post.html"
+   ],
+   [
+    "샷시 롤러 교체,창이 뻑뻑하면 샷시를 바꾸기 전에 바퀴부터 확인합니다",
+    "/mnt/user-data/outputs/int/sash_roller_gyoche/nangman_interior_sash_roller_gyoche_post.html"
+   ],
+   [
+    "창틀 누수 보수,새 아파트는 3년 안이면 하자보수부터 청구합니다",
+    "/mnt/user-data/outputs/int/changteul_nusu_bosu/nangman_interior_changteul_nusu_bosu_post.html"
+   ],
+   [
+    "샷시 교체 시기,바꿔야 하는 신호 일곱 가지와 모헤어 · 롤러로 버티는 집",
+    "/mnt/user-data/outputs/int/_h2/sash_sigi/nangman_interior_sash_sigi_post.html"
+   ],
+   [
+    "인천계양 A2 중문, 안단테 옵션은 미서기 152만원이고 입주는 12월입니다",
+    "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_post.html"
+   ],
+   [
+    "검단 호반써밋3차 중문, 84B만 여닫이 160만원",
+    "/mnt/user-data/outputs/int/geomdan_hoban3_ipju/nangman_interior_geomdan_hoban3_ipju_post.html"
+   ],
+   [
+    "연희공원 호반써밋 중문, 확장한 집은 3연동이 달려 나옵니다",
+    "/mnt/user-data/outputs/int/ipju_yeonhui_hoban/nangman_interior_ipju_yeonhui_hoban_post.html"
+   ],
+   [
+    "아파트 누수 보험,아랫집 피해는 일상배상이 물고 외벽 금은 관리사무소 몫",
+    "/mnt/user-data/outputs/int/apt_nusu_boheom/nangman_interior_apt_nusu_boheom_post.html"
+   ],
+   [
+    "중문 수리 비용,문 전체가 아니라 고장 난 부품 하나로 정해집니다",
+    "/mnt/user-data/outputs/int/jungmun_suri_biyong/nangman_interior_jungmun_suri_biyong_post.html"
+   ],
+   [
+    "외벽 누수 공사,금을 메우고 옛 실리콘을 걷어 낸 뒤 새로 시공합니다",
+    "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa/nangman_interior_oebyeok_nusu_gongsa_post.html"
+   ],
+   [
+    "창틀 누수 실리콘,안쪽만 덧바르면 다시 새서 바깥 위 · 옆 틈부터 막습니다",
+    "/mnt/user-data/outputs/int/changteul_nusu_silicon/nangman_interior_changteul_nusu_silicon_post.html"
+   ],
+   [
+    "래미안 레벤투스 중문, 옵션은 자동 중문 268만원",
+    "/mnt/user-data/outputs/int/reventus_ipju/nangman_interior_reventus_ipju_post.html"
+   ],
+   [
+    "오산역 금강펜테리움 센트럴파크 중문, 옵션은 여닫이 126만원",
+    "/mnt/user-data/outputs/int/ipju_osan_geumgang/nangman_interior_ipju_osan_geumgang_post.html"
+   ],
+   [
+    "외부 코킹 셀프,집 안에서 손 닿는 창틀까지는 직접 하고 고층 바깥 외벽은 로프를 타는 시공팀에 맡깁니다",
+    "/mnt/user-data/outputs/int/oebu_coking_self/nangman_interior_oebu_coking_self_post.html"
+   ],
+   [
+    "창문 실리콘 곰팡이,닦아도 다시 핀 분당 아파트 베란다 창은 금 간 실리콘을 걷어 내고 밑칠한 뒤 새로 쐈습니다",
+    "/mnt/user-data/outputs/int/changmun_silicon_gompangi/nangman_interior_changmun_silicon_gompangi_post.html"
+   ],
+   [
+    "시스템에어컨 설치,인천 새 아파트 세 집은 이삿짐이 들어오기 전 빈 집일 때 천장에 4대를 달았고 실외기는 4마력 하나로 돌립니다",
+    "/mnt/user-data/outputs/int/aircon_ipju/nangman_interior_aircon_ipju_post.html"
+   ],
+   [
+    "원룸 도배,살면서 낡은 벽지는 세입자가 물어 줄 몫이 아니고 찢거나 낙서한 곳은 이사하는 날 원래대로 되돌립니다",
+    "/mnt/user-data/outputs/int/wonroom_dobae/nangman_interior_wonroom_dobae_post.html"
+   ],
+   [
+    "전세 입주청소,비용은 누가 낼지 계약 때 정하고 앞 세입자가 이사한 날과 내 이삿날 사이에 하루를 비워 둡니다",
+    "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_post.html"
+   ],
+   [
+    "퇴실 청소,평범하게 살며 생긴 때는 세입자 몫이 아니고 특약이 있다면 금액과 범위부터 읽습니다",
+    "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_post.html"
+   ],
+   [
+    "강아지 미끄럼방지 매트 시공 가격,34평은 110~120장이 깔리고 금액은 까는 범위와 매트 종류가 정합니다",
+    "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_post.html"
+   ],
+   [
+    "아쿠아유리 중문,물방울 무늬가 건너편을 흐리게 가리고 아래 칸에만 넣으면 신발장이 가려집니다",
+    "/mnt/user-data/outputs/int/aqua_glass/nangman_interior_aqua_glass_post.html"
+   ],
+   [
+    "살면서 샷시 교체,짐을 둔 채 바꾼 다섯 집은 가구에 비닐부터 씌웠고 도배를 다시 하지 않으려고 창 둘레에 몰딩을 댔습니다",
+    "/mnt/user-data/outputs/int/sash_live/nangman_interior_sash_live_post.html"
+   ],
+   [
+    "3연동 자동 중문,접히는 문이 현관으로 튀어나오던 집은 앞에 서면 열리는 문으로 바꿨습니다",
+    "/mnt/user-data/outputs/int/auto3_okjeong/nangman_interior_auto3_okjeong_post.html"
+   ],
+   [
+    "안방 중문 설치,미는 문 한 짝은 벽 콘센트와 방문에 걸려서 3연동으로 달았습니다",
+    "/mnt/user-data/outputs/int/anbang_saha/nangman_interior_anbang_saha_post.html"
+   ],
+   [
+    "주택 중문설치,옛 철제 중문을 떼어 낸 입구에는 문을 4cm 작게 만들어 답니다",
+    "/mnt/user-data/outputs/int/house_macheon/nangman_interior_house_macheon_post.html"
+   ],
+   [
+    "창원 중문 시공,문이 벽 속으로 들어가는 자동 3연동을 달았고 그 벽에 있던 스위치는 밖으로 꺼냈습니다",
+    "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_post.html"
+   ],
+   [
+    "6연동 중문,폭 3m가 넘는 입구 세 곳에 달았고 가운데에서 양쪽으로 세 짝씩 열립니다",
+    "/mnt/user-data/outputs/int/six_seoul/nangman_interior_six_seoul_post.html"
+   ],
+   [
+    "현관 가벽 중문,입구 폭이 1m뿐이라 신발장 앞 가벽을 떼고 3연동을 달았습니다",
+    "/mnt/user-data/outputs/int/gabyeok_tongyeong/nangman_interior_gabyeok_tongyeong_post.html"
+   ],
+   [
+    "포켓 중문 설치,같은 아파트 두 집이 3연동과 포켓 3연동을 달았고 열리는 폭이 이만큼 달랐습니다",
+    "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_post.html"
+   ],
+   [
+    "드레스룸 중문 슬라이딩,침대에서 화장대와 옷장이 다 보이던 안방에 벽을 따라 미는 문을 달았습니다",
+    "/mnt/user-data/outputs/int/dress_gimhae/nangman_interior_dress_gimhae_post.html"
+   ],
+   [
+    "우드 중문 3연동,두 면이 거실로 트인 현관은 한 면은 문으로 한 면은 유리 벽으로 막았습니다",
+    "/mnt/user-data/outputs/int/wood3_daeyeon/nangman_interior_wood3_daeyeon_post.html"
+   ],
+   [
+    "초슬림 3연동 중문,간살을 세 짝에 다 넣으면 답답해서 한 짝에만 넣었습니다",
+    "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_post.html"
+   ],
+   [
+    "주방 중문 시공,잘 안 열리던 부엌 베란다 여닫이문을 떼고 옆으로 미는 3연동으로 바꿨습니다",
+    "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_post.html"
+   ],
+   [
+    "방문 필름,문 여덟 짝 가운데 네 짝만 필름으로 하고 네 짝은 새 문으로 바꾼 이유",
+    "/mnt/user-data/outputs/int/room_film/nangman_interior_room_film_post.html"
+   ],
+   [
+    "문틀 필름,물을 먹어 아래가 불어 터진 문틀은 도려내고 메운 뒤에 붙였습니다",
+    "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_post.html"
+   ],
+   [
+    "현관문 필름,긁히고 구멍 난 문은 메우고 다듬은 뒤에 붙였고 세 집은 색을 이렇게 골랐습니다",
+    "/mnt/user-data/outputs/int/door_film/nangman_interior_door_film_post.html"
+   ],
+   [
+    "모루유리 중문 원슬라이딩,큰 유리 한 장이 허전하다면 흰 띠로 칸을 나눕니다",
+    "/mnt/user-data/outputs/int/moru_yangsan/nangman_interior_moru_yangsan_post.html"
+   ],
+   [
+    "싱크대 필름 시공,어두운 주방 세 곳이 문짝을 바꾸지 않고 흰색 주방이 됐습니다",
+    "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_post.html"
+   ],
+   [
+    "중문 방음,방음문은 아니어서 현관문 틈부터 막고 중문은 틈을 무엇으로 메우는지 물어봅니다",
+    "/mnt/user-data/outputs/int/jungmun_bangeum/nangman_interior_jungmun_bangeum_post.html"
+   ],
+   [
+    "LX하우시스 샷시, KCC 이건과 뭐가 다를까요",
+    "/mnt/user-data/outputs/int/_h2/sash_brand/nangman_interior_sash_brand_post.html"
+   ],
+   [
+    "현관 조명, 중문을 달면 어두워집니다",
+    "/mnt/user-data/outputs/int/_h2/hyeongwan_light/nangman_interior_hyeongwan_light_post.html"
+   ],
+   [
+    "중문 설치 비용, 3연동과 원슬라이딩 가격 차이입니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_cost/nangman_interior_jungmun_cost_post.html"
+   ],
+   [
+    "중문 색상, 프레임과 유리 두 가지만 정하면 됩니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_color/nangman_interior_jungmun_color_post.html"
+   ],
+   [
+    "중문 사이즈 재는 법, 열리는 폭은 따로 계산합니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_size/nangman_interior_jungmun_size_post.html"
+   ],
+   [
+    "중문 브랜드, 검색은 한샘인데 현장은 영림입니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_brand/nangman_interior_jungmun_brand_post.html"
+   ],
+   [
+    "중문 단열,따뜻해지는 건 맞는데 난방비는 아닙니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_danyeol/nangman_interior_jungmun_danyeol_post.html"
+   ],
+   [
+    "중문 교체, 살면서 하루 만에 바꿉니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_replace/nangman_interior_jungmun_replace_post.html"
+   ],
+   [
+    "중문 가벽, 세우는 집이 있고 뜯는 집이 있습니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_gabyeok/nangman_interior_jungmun_gabyeok_post.html"
+   ],
+   [
+    "자동 중문, 전기 없이 되는 반자동이 따로 있습니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_auto/nangman_interior_jungmun_auto_post.html"
+   ],
+   [
+    "스윙 중문, 고장 날 부품이 애초에 없습니다",
+    "/mnt/user-data/outputs/int/_h2/jungmun_swing/nangman_interior_jungmun_swing_post.html"
+   ],
+   [
+    "중문 업체 비교,견적서 여섯 줄을 나란히 놓으면 값이 다른 까닭이 보입니다",
+    "/mnt/user-data/outputs/int/_h2/upche/nangman_interior_upche_post.html"
+   ],
+   [
+    "자동 중문 설치,닫으면 나무 벽이고 앞에 서면 열리는 문을 달았습니다",
+    "/mnt/user-data/outputs/int/_h2/auto_okjeong/nangman_interior_auto_okjeong_post.html"
+   ],
+   [
+    "신축 입주청소 비용,34평은 30만~42만원이고 계약 전에 추가 요금이 붙는 조건부터 문자로 받습니다",
+    "/mnt/user-data/outputs/int/_h2/ipju_cheongso/nangman_interior_ipju_cheongso_post.html"
+   ],
+   [
+    "비대칭 여닫이 중문,레일도 튀어나온 손잡이도 없이 흰 벽처럼 달았습니다",
+    "/mnt/user-data/outputs/int/_h2/asym_wolgye/nangman_interior_asym_wolgye_post.html"
+   ],
+   [
+    "24평 샷시 교체 비용,업체가 공개한 다섯 집은 600만원에서 1,150만원이었습니다",
+    "/mnt/user-data/outputs/int/_h2/sash_24/nangman_interior_sash_24_post.html"
+   ],
+   [
+    "입주청소 순서,탄성코트와 줄눈을 먼저 하고 청소한 뒤에 가전과 이삿짐이 들어옵니다",
+    "/mnt/user-data/outputs/int/cheongso_sunseo/nangman_interior_cheongso_sunseo_post.html"
+   ],
+   [
+    "드레스룸 중문 설치,천안 호반써밋 드레스룸 입구에 모루유리 여닫이 한 짝을 달았습니다",
+    "/mnt/user-data/outputs/int/dress_cheonan/nangman_interior_dress_cheonan_post.html"
+   ],
+   [
+    "세종 중문 설치,수루배마을 현관에 우드 비대칭 스윙도어를 달았습니다",
+    "/mnt/user-data/outputs/int/sejong_surubae/nangman_interior_sejong_surubae_post.html"
+   ],
+   [
+    "청주 중문 시공,두산위브지웰시티 2차 현관에 모루유리 중문을 달았습니다",
+    "/mnt/user-data/outputs/int/cheongju_jiwell/nangman_interior_cheongju_jiwell_post.html"
+   ],
+   [
+    "대전 중문 설치,대림두레 현관 파티션을 떼고 ㄱ자 초슬림 3연동을 달았습니다",
+    "/mnt/user-data/outputs/int/daejeon_dure/nangman_interior_daejeon_dure_post.html"
+   ],
+   [
+    "창원 중문 설치,대원 힐스테이트 현관에 아치 원슬라이딩을 달았습니다",
+    "/mnt/user-data/outputs/int/changwon_daewon/nangman_interior_changwon_daewon_post.html"
+   ],
+   [
+    "부산 중문,당감 동일스위트 좁은 현관에 모루유리 원슬라이딩을 달았습니다",
+    "/mnt/user-data/outputs/int/busan_danggam/nangman_interior_busan_danggam_post.html"
+   ],
+   [
+    "부산 중문 설치,사상 센트럴스타힐스 현관에 샴페인골드 원슬라이딩을 달았습니다",
+    "/mnt/user-data/outputs/int/busan_sasang/nangman_interior_busan_sasang_post.html"
+   ],
+   [
+    "브론즈유리 중문,김해 안동 푸르지오 긴 현관 벽에 블랙 원슬라이딩을 달았습니다",
+    "/mnt/user-data/outputs/int/bronze_gimhae/nangman_interior_bronze_gimhae_post.html"
+   ],
+   [
+    "아치형 중문 3연동,포천 영화아파트 현관에 화이트 틀과 세로 모루유리를 달았습니다",
+    "/mnt/user-data/outputs/int/arch_pocheon/nangman_interior_arch_pocheon_post.html"
+   ],
+   [
+    "거실 중문 설치,수원 천천동 삼호진덕 베란다 앞에 6연동을 달았습니다",
+    "/mnt/user-data/outputs/int/living_suwon/nangman_interior_living_suwon_post.html"
+   ],
+   [
+    "포켓도어 중문,진주 중흥S클래스 현관 가벽 속으로 3연동 세 짝이 들어갑니다",
+    "/mnt/user-data/outputs/int/pocket_jinju/nangman_interior_pocket_jinju_post.html"
+   ],
+   [
+    "3연동 간살 중문,수원 영통 아파트 현관에 우드 간살을 촘촘히 넣었습니다",
+    "/mnt/user-data/outputs/int/suwon_gansal/nangman_interior_suwon_gansal_post.html"
+   ],
+   [
+    "좁은 현관 중문 스윙도어,수원 화서역 아파트 현관에 우드 한 짝 여닫이를 달았습니다",
+    "/mnt/user-data/outputs/int/suwon_narrow/nangman_interior_suwon_narrow_post.html"
+   ],
+   [
+    "입주청소 후 확인사항,잔금을 주기 전에 서랍과 걸레받이와 창틀 레일부터 열어 봅니다",
+    "/mnt/user-data/outputs/int/cheongso_hwagin/nangman_interior_cheongso_hwagin_post.html"
+   ],
+   [
+    "구축 아파트 인테리어 순서, 안 뜯는 집은 누수부터 청소까지 일곱 단계",
+    "/mnt/user-data/outputs/int/gucuk_sunseo/nangman_interior_gucuk_sunseo_post.html"
+   ],
+   [
+    "병점 인테리어, 구축 153집이 팔린 병점동, 20년 된 집은 현관과 창틀부터",
+    "/mnt/user-data/outputs/int/byeongjeom_interior/nangman_interior_byeongjeom_interior_post.html"
+   ],
+   [
+    "부천 인테리어, 중동 · 상동 구축 593집, 30년 된 집은 배관부터 봅니다",
+    "/mnt/user-data/outputs/int/bucheon_interior/nangman_interior_bucheon_interior_post.html"
+   ],
+   [
+    "한강풍경채어바니티 사전점검 끝나면, 새집증후군만은 카페 공동구매 · 청소까지는 묶음이 낫습니다",
+    "/mnt/user-data/outputs/int/hangang_pkc_sjjh/nangman_interior_hangang_pkc_sjjh_post.html"
+   ],
+   [
+    "현관 도어락 추천,송파 다섯 집이 지문 · 번호 · 보조형을 고른 이유",
+    "/mnt/user-data/outputs/int/doorlock_songpa/nangman_interior_doorlock_songpa_post.html"
+   ],
+   [
+    "위례 a2-7 입주, 사전점검 11월 6일 전에 중문 옵션부터 봅니다",
+    "/mnt/user-data/outputs/int/wirye_a27_sajeon/nangman_interior_wirye_a27_sajeon_post.html"
+   ],
+   [
+    "계양 신혼희망타운 A3 사전점검, 박람회 견적은 사진 한 장으로 다시 비교",
+    "/mnt/user-data/outputs/int/gyeyang_a3_sajeon/nangman_interior_gyeyang_a3_sajeon_post.html"
+   ],
+   [
+    "보일러 동파 방지 온도,보일러가 돌아도 아래 배관은 얼어서 보온재부터 감쌉니다",
+    "/mnt/user-data/outputs/int/dongpa_boiler_ondo/nangman_interior_dongpa_boiler_ondo_post.html"
+   ],
+   [
+    "영통역 자이 프라시엘 사전점검, 지정 업체 견적서 옆에 한 장 더 놓고 보세요",
+    "/mnt/user-data/outputs/int/yeongtong_xi_sajeon/nangman_interior_yeongtong_xi_sajeon_post.html"
+   ],
+   [
+    "하남 싱크대막힘,기본 작업 5만~10만원에 오래된 수전까지 바꾸면 15만원부터",
+    "/mnt/user-data/outputs/int/hanam_sink_makhim/nangman_interior_hanam_sink_makhim_post.html"
+   ],
+   [
+    "하남 하수구막힘,5만~10만원 기본 작업에 내시경 점검이 들어갑니다",
+    "/mnt/user-data/outputs/int/hanam_hasugu_makhim/nangman_interior_hanam_hasugu_makhim_post.html"
+   ],
+   [
+    "지제역 반도체밸리 쌍용 입주, 1월 한겨울이라 새집증후군 시공 뒤 측정 숫자를 받아 둡니다",
+    "/mnt/user-data/outputs/int/jije_sjjh/nangman_interior_jije_sjjh_post.html"
+   ],
+   [
+    "신검단 센트레빌 입주일, 날짜를 받으면 이삿짐 앞에 사흘을 비워 청소와 새집증후군을 넣습니다",
+    "/mnt/user-data/outputs/int/singeomdan_centreville_ipjuil/nangman_interior_singeomdan_centreville_ipjuil_post.html"
+   ],
+   [
+    "창문 외풍 차단 방법, 창 종류부터 보고 돈 안 드는 손질 세 가지를 먼저 합니다",
+    "/mnt/user-data/outputs/int/changmun_oepung_bangbeop/nangman_interior_changmun_oepung_bangbeop_post.html"
+   ],
+   [
+    "검단 호반써밋3차 입주 예정일, 12월 열쇠 받는 주 월요일 하자 확인부터 목요일 새집증후군까지",
+    "/mnt/user-data/outputs/int/geomdan3_sjjh/nangman_interior_geomdan3_sjjh_post.html"
+   ],
+   [
+    "새집증후군 시공 가격, 힐스테이트 동작 시그니처 34평 묶음은 34만원입니다",
+    "/mnt/user-data/outputs/int/dongjak_sjjh_price/nangman_interior_dongjak_sjjh_price_post.html"
+   ],
+   [
+    "연희공원 호반써밋 사전점검 다음, 입주청소 새집증후군 84㎡ 71만 4천원",
+    "/mnt/user-data/outputs/int/yeonhui_sjjh/nangman_interior_yeonhui_sjjh_post.html"
+   ],
+   [
+    "인천계양 A2 입주, 안단테 사전방문은 11월 13일부터 사흘이고 현관부터 잽니다",
+    "/mnt/user-data/outputs/int/gyeyang_a2_sajeon/nangman_interior_gyeyang_a2_sajeon_post.html"
+   ],
+   [
+    "포항 새집증후군, 이벤트 평당 1만 2천원이고 전후 수치를 재서 보여 드립니다",
+    "/mnt/user-data/outputs/int/pohang_sjjh_event/nangman_interior_pohang_sjjh_event_post.html"
+   ],
+   [
+    "수도 동파 방지 커버,마당 수도는 커버를 씌우기 전에 부동전 안의 물부터 뺍니다",
+    "/mnt/user-data/outputs/int/dongpa_sudo_cover/nangman_interior_dongpa_sudo_cover_post.html"
+   ],
+   [
+    "배관 해빙,바깥 배관은 언 곳을 잘라 스팀으로 녹이고 다시 이어 감쌉니다",
+    "/mnt/user-data/outputs/int/dongpa_baegwan_haebing/nangman_interior_dongpa_baegwan_haebing_post.html"
+   ],
+   [
+    "계량기 동파 방지,함은 마른 보온재로 채우고 영하 10도 밤엔 물을 틉니다",
+    "/mnt/user-data/outputs/int/dongpa_gyeryanggi_bangji/nangman_interior_dongpa_gyeryanggi_bangji_post.html"
+   ],
+   [
+    "세탁기 동파방지 예방법,수도를 잠그고 호스 물을 빼면 5분이면 끝납니다",
+    "/mnt/user-data/outputs/int/dongpa_setakgi/nangman_interior_dongpa_setakgi_post.html"
+   ],
+   [
+    "수도계량기 동파,유리가 깨지면 수도사업소에 알리고 열선 감은 계량기도 업니다",
+    "/mnt/user-data/outputs/int/dongpa_gyeryanggi/nangman_interior_dongpa_gyeryanggi_post.html"
+   ],
+   [
+    "화장실 결로, 천장 물방울은 환풍기로 줄이고 옆방 벽이 젖으면 누수부터 봅니다",
+    "/mnt/user-data/outputs/int/hwajangsil_gyeollo/nangman_interior_hwajangsil_gyeollo_post.html"
+   ],
+   [
+    "폼벽지 곰팡이, 차가운 바깥 벽에 폼블럭을 붙이면 그 뒤에서 물이 맺힙니다",
+    "/mnt/user-data/outputs/int/pombyeokji_gompangi/nangman_interior_pombyeokji_gompangi_post.html"
+   ],
+   [
+    "천장 벽지 곰팡이, 핑크 곰팡이도 검은 곰팡이도 바깥 벽 쪽 모서리부터 핍니다",
+    "/mnt/user-data/outputs/int/cheonjang_byeokji_gompangi/nangman_interior_cheonjang_byeokji_gompangi_post.html"
+   ],
+   [
+    "서신더샵에피트 입주, 입주청소는 위에서 아래로 하고 다음 날 아침에 검수합니다",
+    "/mnt/user-data/outputs/int/_bak_1024/nangman_interior_seosin_cheongso_post.html"
+   ],
+   [
+    "에코델타시티 중흥S클래스 입주, 탄성코트와 줄눈은 청소 전에 합니다",
+    "/mnt/user-data/outputs/int/_bak_1024/nangman_interior_ecodelta_d30_post.html"
+   ],
+   [
+    "대연디아이엘 입주장, 입주청소 새집증후군은 4,488세대가 몰리기 전에 날짜부터",
+    "/mnt/user-data/outputs/int/daeyeondil_sjjh/nangman_interior_daeyeondil_sjjh_post.html"
+   ],
+   [
+    "일광 노르웨이숲 입주일, 입주청소 새집증후군 90만원은 34평까지 같은 금액",
+    "/mnt/user-data/outputs/int/ilgwang_norway_sjjh/nangman_interior_ilgwang_norway_sjjh_post.html"
+   ],
+   [
+    "에코델타시티 중흥S클래스 사전점검, 새집증후군은 입주청소 다음 날에 합니다",
+    "/mnt/user-data/outputs/int/ecodelta_jh_sjjh/nangman_interior_ecodelta_jh_sjjh_post.html"
+   ],
+   [
+    "서신더샵에피트 사전점검, 하자 보수 뒤 입주청소와 다음 날 새집증후군",
+    "/mnt/user-data/outputs/int/seosin_epit_sjjh/nangman_interior_seosin_epit_sjjh_post.html"
+   ],
+   [
+    "신축 입주 인테리어, 중문 · 청소 · 줄눈 · 이사를 문자 한 통으로 맡깁니다",
+    "/mnt/user-data/outputs/int/ipju_service/nangman_interior_ipju_service_post.html"
+   ],
+   [
+    "인테리어협력업체모집,광고비 0원에 인테리어 영업 없이 지역 손님을 받는 시공팀",
+    "/mnt/user-data/outputs/int/hyeopryeok_mojip/nangman_interior_hyeopryeok_mojip_post.html"
+   ],
+   [
+    "동래 반도유보라 입주, 이삿짐 오기 전 줄눈과 입주청소를 먼저 끝냅니다",
+    "/mnt/user-data/outputs/int/dongnae_yubora_jikjeon/nangman_interior_dongnae_yubora_jikjeon_post.html"
+   ],
+   [
+    "구축 아파트 인테리어,두 집은 필름으로 고쳤고 한 집은 샷시를 바꿨습니다",
+    "/mnt/user-data/outputs/int/guchuk_apt_interior/nangman_interior_guchuk_apt_interior_post.html"
+   ],
+   [
+    "인테리어 업체 선정 방법,동네마다 두 팀만 두고 품목별 견적서로 맞춰 봅니다",
+    "/mnt/user-data/outputs/int/upche_seonjeong/nangman_interior_upche_seonjeong_post.html"
+   ],
+   [
+    "노원 인테리어,8~9월에 구축 아파트 313집이 팔린 상계동과 옆 중계동에서 창틀 코킹과 현관 중문을 한 세 집입니다",
+    "/mnt/user-data/outputs/int/_simple_1017/nowon_interior/nangman_interior_nowon_interior_post.html"
+   ],
+   [
+    "결로 페인트 시공,곰팡이는 늦춰도 차가운 벽은 못 고칩니다",
+    "/mnt/user-data/outputs/int/_h2/gyeollo_paint/nangman_interior_gyeollo_paint_post.html"
+   ],
+   [
+    "보일러 동파 세입자,수리비는 집주인이 먼저 내고 세입자 잘못이면 보일러 나이만큼 나눕니다",
+    "/mnt/user-data/outputs/int/_h2/boiler_dongpa/nangman_interior_boiler_dongpa_post.html"
+   ],
+   [
+    "화정 인테리어,구축 197집이 팔린 화정동 · 행신동의 창틀 코킹과 중문",
+    "/mnt/user-data/outputs/int/hwajeong_interior/nangman_interior_hwajeong_interior_post.html"
+   ],
+   [
+    "아파트 현관 인테리어,중문 색은 바닥 마루와 신발장 색을 보고 고릅니다",
+    "/mnt/user-data/outputs/int/hyeongwan_interior/nangman_interior_hyeongwan_interior_post.html"
+   ],
+   [
+    "인테리어 블로그 대행,이웃 · 공감 작업 없이 검색어와 시공 사진으로만 쓰고 한 달 8편 15만원부터입니다",
+    "/mnt/user-data/outputs/int/blog_daehaeng/nangman_interior_blog_daehaeng_post.html"
+   ],
+   [
+    "전세집 인테리어,재건축 이주로 몇 해 사는 집은 떼어 낼 수 있는 것부터 고릅니다",
+    "/mnt/user-data/outputs/int/jeonse_interior/nangman_interior_jeonse_interior_post.html"
+   ],
+   [
+    "강아지 슬개골 수술 후 관리,실밥은 2주 안팎에 풀고 운동 제한은 10~12주라 그동안 미끄러운 바닥부터 막습니다",
+    "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_post.html"
+   ],
+   [
+    "노견 미끄럼 방지 방법,일어날 때 버둥거리던 대리석 집과 낡은 마루 집은 다니는 길을 따라 매트를 이었습니다",
+    "/mnt/user-data/outputs/int/nogyeon_mikkeureom/nangman_interior_nogyeon_mikkeureom_post.html"
+   ],
+   [
+    "강아지 바닥 시공,업체를 찾기 전에 우리 집 바닥과 강아지가 다니는 길, 빈집인지부터 봅니다",
+    "/mnt/user-data/outputs/int/gangaji_badak_sigong/nangman_interior_gangaji_badak_sigong_post.html"
+   ],
+   [
+    "새집증후군 시공,청소로 분진부터 걷어 내고 광촉매 · 자외선 · 편백수 순서로 마무리한 서초 새 아파트 두 집",
+    "/mnt/user-data/outputs/int/saejip_jeunghugun/nangman_interior_saejip_jeunghugun_post.html"
+   ],
+   [
+    "인천 곰팡이 제거 업체,베란다 곰팡이를 닦는 대신 벽 속 단열을 바꾼 인천 아파트 세 집",
+    "/mnt/user-data/outputs/int/incheon_gompangi/nangman_interior_incheon_gompangi_post.html"
+   ],
+   [
+    "주방 상판 코팅,입주청소 뒤에 상판·싱크볼·포세린 타일 바닥을 코팅한 집과 코팅으로 안 되는 것",
+    "/mnt/user-data/outputs/int/sangpan_coating/nangman_interior_sangpan_coating_post.html"
+   ],
+   [
+    "로이유리 뜻,샷시를 바꾼 두 집 모두 베란다 창에는 넣었고 복도 쪽 창은 한 집만 넣었습니다",
+    "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_post.html"
+   ],
+   [
+    "돈암 한신한진 인테리어,같은 단지 두 집의 중문이 다른 이유는 입구 폭 41cm 차이였습니다",
+    "/mnt/user-data/outputs/int/donam_hansin/nangman_interior_donam_hansin_post.html"
+   ],
+   [
+    "재건축 인테리어 비용,재건축 단계부터 확인하고 공사비를 남은 햇수로 나눠 교체와 필름과 실리콘을 비교합니다",
+    "/mnt/user-data/outputs/int/rebuild_interior/nangman_interior_rebuild_interior_post.html"
+   ],
+   [
+    "현관 풍수, 문을 열면 집 안이 다 보이는 집",
+    "/mnt/user-data/outputs/int/_h2/jungmun_pungsu/nangman_interior_jungmun_pungsu_post.html"
+   ],
+   [
+    "창문 뽁뽁이 효과,유리 표면 2.5도 오르고 창틀에 붙이면 열손실 30%인데 남향 창은 빼세요",
+    "/mnt/user-data/outputs/int/_h2/bbok/nangman_interior_bbok_post.html"
+   ],
+   [
+    "인테리어 순서,필름은 도배보다 먼저이고 싱크대와 중문은 맨 마지막입니다",
+    "/mnt/user-data/outputs/int/_h2/sunseo/nangman_interior_sunseo_post.html"
+   ],
+   [
+    "아파트 베란다 태양광,설치 전에 난간과 보증기간부터 봅니다",
+    "/mnt/user-data/outputs/int/_h2/solar1/nangman_interior_solar1_post.html"
+   ],
+   [
+    "곰방 뜻,자재를 사람이 계단으로 져서 나르는 일이고 양중과 차이는 장비를 쓰느냐이며 견적서의 양중비 별도는 따로 낸다는 말입니다",
+    "/mnt/user-data/outputs/int/_h2/gombang/nangman_interior_gombang_post.html"
+   ],
+   [
+    "인테리어 견적서 보는법,합계보다 먼저 「1식」이라고 적힌 줄과 「별도」 줄과 자재 이름부터 확인합니다",
+    "/mnt/user-data/outputs/int/gyeonjeokseo/nangman_interior_gyeonjeokseo_post.html"
+   ],
+   [
+    "인테리어 견적 비교,어디가 싼지 보기 전에 범위·자재·수량 등 여섯 가지로 같은 공사인지부터 맞춥니다",
+    "/mnt/user-data/outputs/int/gyeonjeok_bigyo/nangman_interior_gyeonjeok_bigyo_post.html"
+   ]
+  ],
+  "sell_first": true
+ },
+ "dong_jin_kim": {
+  "unpublished": 37,
+  "cap": 14,
+  "over": true,
+  "list": [
+   [
+    "한강풍경채어바니티 전세, 옆 킨텍스원시티 84㎡ 새 전세는 7억 5천만원",
+    "/mnt/user-data/outputs/nangman_new/nangman_hangang_pkc_jeonse_post.html"
+   ],
+   [
+    "은계에피트 분양가, 59㎡ 4억 6,700만원은 옆 단지보다 9,800만원 쌉니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_eungye_epit_bunyang_post.html"
+   ],
+   [
+    "5차 국가철도망 공청회 일정, 10월에서 11월로 밀렸습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_rail5_post.html"
+   ],
+   [
+    "버팀목 소득기준, 부부 합쳐 5천만원이고 신혼부부는 7,500만원입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_beotimmok_sodeuk_1019_post.html"
+   ],
+   [
+    "서울 급매 아파트, 중앙값보다 10% 싼 거래 절반 넘게는 1~3층입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_seoul_geupmae_1019_post.html"
+   ],
+   [
+    "엘리프 검단 포레듀 분양가, 84㎡ 7층 위가 마전동 신축보다 5천만원 높습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_elif_geomdan_foredu_post.html"
+   ],
+   [
+    "개포주공6단지 이주, 5억 이하 개포동 전세는 대부분 52㎡ 아래",
+    "/mnt/user-data/outputs/nangman_new/nangman_gaepo67_iju_post.html"
+   ],
+   [
+    "공인중개사 마케팅, 입주 준비 묻는 손님께 쿠폰을 보내면 소개비가 매달 정산됩니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_gongin_marketing_1018_post.html"
+   ],
+   [
+    "검단호수공원역 풍경채 어바니티 분양가, 옆 호반써밋 84㎡ 매매와 같은 5억대",
+    "/mnt/user-data/outputs/nangman_new/nangman_geomdan_urbanity_post.html"
+   ],
+   [
+    "e편한세상 신곡 시그니처뷰 분양가, 59A 분양권은 3천만원 넘게 붙었습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_singok_sigview_post.html"
+   ],
+   [
+    "흑석동 아파트 시세, 리버파크자이 84㎡와 2011년 센트레빌이 같은 23억대",
+    "/mnt/user-data/outputs/nangman_new/nangman_heukseok_sise_post.html"
+   ],
+   [
+    "래미안 레벤투스 분양가, 84㎡ 입주권이 분양가보다 3억 8천만원 높게 팔렸습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_reventus_bunyang_post.html"
+   ],
+   [
+    "아파트 외벽 누수 책임, 외벽 금이면 윗집이 아니라 관리주체 일입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_oebyeok_nusu_chaegim_post.html"
+   ],
+   [
+    "계획관리지역 건폐율, 40%인데 산업·유통개발진흥지구가 되면 60%입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_gongbeop_yongdo_post.html"
+   ],
+   [
+    "오산역 금강펜테리움 분양가, 84㎡ 4억 6천은 옆 에듀파크보다 1억 낮습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_osan_geumgang_post.html"
+   ],
+   [
+    "e편한세상 평촌 어반밸리 분양가, 59㎡ 7억 3천은 올해 분양권 8억 2천에 팔렸고 옆 어바인퍼스트보다 2억 낮습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_pyeongchon_urbanvalley_post.html"
+   ],
+   [
+    "송도 대장 아파트 순위, 84㎡ 실거래 1위는 송도더샵파크애비뉴 13억 8,500만원이고 10위와 4억 6천 차이입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_songdo_daejang_post.html"
+   ],
+   [
+    "송내역 푸르지오 센트비엔 분양가, 59㎡ 분양권 36건 가운데 23건이 같은 층 분양가보다 낮게 팔렸고 옆 래미안어반비스타는 6억 4천입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_songnae_centvien_post.html"
+   ],
+   [
+    "서울 6억대 아파트 매매, 7~9월 1,099건 가운데 노원구가 300건이고 열에 아홉은 2010년 전에 지은 집입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_seoul_6eok_1014_post.html"
+   ],
+   [
+    "공인중개사 시험일정 2026, 10월 31일 토요일 하루에 1차와 2차를 다 보고 합격자 발표는 12월 2일입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_junggae_sihum_1014_post.html"
+   ],
+   [
+    "의왕 센트라인 데시앙 분양가, 84A 분양권 34건은 모두 같은 층 분양가보다 3천만원 넘게 붙었고 옆 의왕더샵캐슬 84㎡보다는 2천만원 낮습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_uiwang_centline_post.html"
+   ],
+   [
+    "디에이치 방배 분양가, 84㎡는 분양 때 옆 방배그랑자이보다 4억 쌌고 2년 뒤에는 10억 넘게 쌉니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_dhbangbae2_post.html"
+   ],
+   [
+    "산본 아파트 매매, 같은 59㎡라도 세종 · 우륵은 1년 새 26~39% 오르고 한라주공4-2 · 개나리주공13은 8~10% 올랐습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_sanbon_maemae_post.html"
+   ],
+   [
+    "아파트 직거래 가격, 서울에서 같은 단지 같은 면적 20건을 비교하니 직거래가 중개거래 중앙값보다 27% 낮았습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_jikgeorae_1012_post.html"
+   ],
+   [
+    "신검단중앙역 센트레빌 분양가, 84㎡ 4억 7천만원대는 같은 역 새 아파트 매매보다 4천만원에서 3억 7천만원까지 낮습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_sgj_centreville_post.html"
+   ],
+   [
+    "힐스테이트 이천역 2단지 분양가, 84㎡ 6억원대였는데 입주 뒤 매매 중앙값은 5억 2,450만원이고 같은 층 분양가보다 대부분 1억원 넘게 낮습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_icheon2_sise_post.html"
+   ],
+   [
+    "단독주택 부지, 5억원이면 판교는 19평 과천은 24평인데 화성 새솔동은 95평 양주 옥정은 110평입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_dandok_buji_post.html"
+   ],
+   [
+    "매교역 팰루시드 시세, 84㎡ 분양권 10억 1,780만원은 분양가보다 1억 2천 높고 옆 단지보다 8천 낮습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_maegyo_palucid_post.html"
+   ],
+   [
+    "창릉역, GTX-A는 2030년 고양은평선은 2031년인데 창릉 첫 입주는 2027년 12월입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_changneung_yeok_post.html"
+   ],
+   [
+    "서울 전세 매물, 11월부터 석 달 동안 2년 전세 2만 3천 건이 끝나고 송파구가 2,283건으로 가장 많습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_jeonse_yebo_1011_post.html"
+   ],
+   [
+    "서울 7억대 아파트, 작년에 84㎡가 7억대였던 단지 110곳 가운데 60곳이 올해 8억을 넘었고 같은 7억 4천으로 강북은 84㎡ 노원은 59㎡를 삽니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_seoul7_post.html"
+   ],
+   [
+    "월세 수익률 계산, 1억을 예금에 두면 연 3.45%이고 별내역 원룸 1억 500만원은 세전 8%인데 빠지는 돈이 다섯 가지입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_wolse_suikryul_post.html"
+   ],
+   [
+    "구리 토평2지구 보상, LH가 설명한 시작은 2028년 하반기이고 보상금은 지구 지정 전 공시지가에서 출발합니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_topyeong2_bosang_post.html"
+   ],
+   [
+    "별내역 아파트, 6억대 84㎡는 거의 다 별내별가람역 쪽이고 역 앞 84㎡는 11억 3천만원 한 곳입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_byeolnae_yeok_post.html"
+   ],
+   [
+    "부천 중동 재건축, 같은 날 선도지구가 된 은하마을은 26% 반달마을A는 16% 올랐고 2021~2022년 가격을 넘은 곳은 은하마을뿐입니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_jungdong_re_post.html"
+   ],
+   [
+    "공인중개사 공법 출제문항, 40문항 가운데 12문항이 국토계획법이고 37회 시험 10월 31일 전에 올해 부동산 뉴스로 여섯 법을 다시 봅니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_gongbeop37_post.html"
+   ],
+   [
+    "서울 6억대 아파트, 작년에 84㎡가 6억대였던 단지 81곳 가운데 46곳이 올해 7억을 넘었고 남은 곳은 노원·구로·중랑·도봉에 몰려 있습니다",
+    "/mnt/user-data/outputs/nangman_new/nangman_seoul6_post.html"
+   ]
+  ],
+  "sell_first": false
+ },
+ "jisandream01": {
+  "unpublished": 9,
+  "cap": 7,
+  "over": true,
+  "list": [
+   [
+    "임업후계자 자격요건, 55세 미만이 3ha 넘는 산을 갖고 산림경영계획을 세우면 되고 가평 매물 다섯 건 가운데 세 건이 넓이를 채웁니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_imeop_hugyeja_post.html"
+   ],
+   [
+    "임야 매매 세금, 살 때는 4.6%이고 팔 때는 임야 근처에 살았는지에 따라 6~45%와 16~55%로 나뉩니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_imya_segeum_post.html"
+   ],
+   [
+    "산림경영관리사 설치 기준, 임업인만 짓고 부지는 200㎡ 미만이며 쉬는 공간은 바닥의 4분의 1까지입니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_sanrim_gwanrisa_post.html"
+   ],
+   [
+    "남양주 토지 매매, 1억 이하로 팔린 땅은 1,136건인데 100평 넘는 것은 171건이고 그중 104건이 임야입니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_nyj_land_post.html"
+   ],
+   [
+    "다산 상가 매매, 1층은 전용 평당 6,500만원으로 2층의 네 배이고 1년 새 1층 거래는 38건에서 12건으로 줄었습니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_dasan_sangga_post.html"
+   ],
+   [
+    "구리 오피스텔 월세, 올해 539건의 절반이 갈매동이고 30㎡ 미만 원룸은 보증금 800만원에 60만원입니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_guri_op_post.html"
+   ],
+   [
+    "강동하남남양주선, 2031년 개통 목표인데 여섯 공구 가운데 셋만 시공사가 정해졌고 진접 84㎡는 1년에 1% 올랐습니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_gdhn_line_post.html"
+   ],
+   [
+    "구리 규제지역 대출, 한도가 4억으로 줄어도 갈매는 그대로인데 규제 밖 다산은 내 돈이 2억 더 듭니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_guri_loan_post.html"
+   ],
+   [
+    "구리 토평2지구 청약 일정, 날짜는 없고 2026년 12월 지구계획 승인 신청과 2029년 착공까지만 발표됐습니다",
+    "/mnt/user-data/outputs/jisandream/jisandream_topyeong2b_post.html"
+   ]
+  ],
+  "sell_first": false
+ }
+}

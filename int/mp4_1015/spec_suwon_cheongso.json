@@ -1,0 +1,24 @@
+{
+ "head": [
+  "수원 입주청소",
+  "84타입 37만～185만원"
+ ],
+ "what": "집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/suwon_cheongso/nangman_interior_suwon_cheongso_fig1.png",
+   "line": "34평 가격표\n패키지 여섯 개",
+   "sub": "수원 입주청소 비용"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/suwon_cheongso/nangman_interior_suwon_cheongso_fig2.png",
+   "line": "업체 비교표\n일곱 줄",
+   "sub": "수원 입주청소"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/suwon_cheongso/nangman_interior_suwon_cheongso_fig3.png",
+   "line": "열쇠 받은 뒤\n순서",
+   "sub": "하자 보수부터 이사까지"
+  }
+ ]
+}

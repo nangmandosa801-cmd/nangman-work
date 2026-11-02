@@ -1,0 +1,39 @@
+{
+ "head": [
+  "포켓 중문 설치",
+  "같은 아파트 두 집"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_01_open_two.jpg",
+   "line": "문을 다 연\n두 집",
+   "sub": "3연동과 포켓 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_02_closed.jpg",
+   "line": "첫째 집\n닫은 모습",
+   "sub": "포켓 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_05_second.jpg",
+   "line": "둘째\n집",
+   "sub": "포켓 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_06_second_open.jpg",
+   "line": "둘째 집\n연 모습",
+   "sub": "포켓 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_08_pocket.jpg",
+   "line": "문이 들어가는\n벽",
+   "sub": "포켓 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/pocket_gimhae/nangman_interior_pocket_gimhae_10_two.jpg",
+   "line": "문을 닫은\n두 집",
+   "sub": "포켓 중문"
+  }
+ ]
+}

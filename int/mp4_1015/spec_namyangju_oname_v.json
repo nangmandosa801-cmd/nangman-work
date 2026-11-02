@@ -1,0 +1,35 @@
+{
+ "head": [
+  "남양주 오남",
+  "파라다이스빌 중문"
+ ],
+ "what": "현관",
+ "vintro": [],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/namyangju_jungmun_seolchi/nangman_interior_namyangju_jungmun_seolchi_01_a_close.jpg",
+   "line": "남양주 오남\n파라다이스빌 중문",
+   "sub": "세로 모루유리 3연동 · NI-0871"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/namyangju_jungmun_seolchi/nangman_interior_namyangju_jungmun_seolchi_02_a_half.jpg",
+   "line": "세 짝이 겹치며\n열립니다",
+   "sub": "한 짝을 밀면 따라옵니다 · NI-0872"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/namyangju_jungmun_seolchi/nangman_interior_namyangju_jungmun_seolchi_03_a_open.jpg",
+   "line": "다 열면\n한쪽에 모입니다",
+   "sub": "짐 들고 지나가기 넉넉 · NI-0873"
+  },
+  {
+   "kicker": "입구 가로 1,420mm",
+   "line": "흰 틀\n초슬림 3연동",
+   "sub": "옆 벽이 넓지 않아도\n달 수 있습니다"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/namyangju_jungmun_seolchi/nangman_interior_namyangju_jungmun_seolchi_05_a_front.jpg",
+   "line": "현관에서 본\n닫힌 흰 틀",
+   "sub": "안쪽이 흐릿하게 가려집니다 · NI-0875"
+  }
+ ]
+}

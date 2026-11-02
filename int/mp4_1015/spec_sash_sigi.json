@@ -1,0 +1,19 @@
+{
+ "head": [
+  "샷시 교체 시기",
+  "바꿔야 하는 신호 일곱"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_sash_sigi_fig1.png",
+   "line": "샷시 교체\n신호 일곱 가지",
+   "sub": "샷시 교체 시기"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_sash_sigi_fig2.png",
+   "line": "계약부터\n시공까지",
+   "sub": "샷시 교체 기간"
+  }
+ ]
+}

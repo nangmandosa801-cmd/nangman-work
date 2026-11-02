@@ -1,0 +1,46 @@
+{
+ "head": [
+  "현관 도어락 교체",
+  "송파 다섯 집"
+ ],
+ "what": "현관문",
+ "vintro": [
+  {
+   "kicker": "서울 송파 문정 · 가락 · 장지",
+   "line": "도어락\n다섯 집",
+   "sub": "지문 · 번호 · 보조형"
+  },
+  {
+   "kicker": "고르기 전에 볼 것",
+   "line": "제품 이름보다\n우리 집 문과 식구",
+   "sub": "짐 든 날 · 아이 · 어르신"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_songpa/nangman_interior_doorlock_songpa_01_d_after.jpg",
+   "line": "가락동 방화문에\n차콜그레이",
+   "sub": "송파 가락동 · NI-1087"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_songpa/nangman_interior_doorlock_songpa_03_c_in.jpg",
+   "line": "푸시풀\n실내 쪽 모습",
+   "sub": "송파 문정동 · NI-1089"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_songpa/nangman_interior_doorlock_songpa_05_b_out.jpg",
+   "line": "손잡이는 두고\n번호키만",
+   "sub": "송파 문정동 · NI-1091"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_songpa/nangman_interior_doorlock_songpa_08_a_chain.jpg",
+   "line": "이중잠금\n안전고리",
+   "sub": "송파 가락동 · NI-1094"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_songpa/nangman_interior_doorlock_songpa_09_e_pair.jpg",
+   "line": "손잡이 일체형\n교체 전후",
+   "sub": "송파 장지동 · NI-1095"
+  }
+ ]
+}

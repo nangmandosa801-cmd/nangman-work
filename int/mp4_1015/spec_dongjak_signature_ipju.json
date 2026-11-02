@@ -1,0 +1,39 @@
+{
+ "head": [
+  "힐스테이트 동작 시그니처",
+  "중문, 집마다 따로"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_01_a_after.jpg",
+   "line": "세로 줄무늬 유리\n화이트 3연동",
+   "sub": "영등포 대림동 · NI-0159"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_03_b_pair.jpg",
+   "line": "신발장 앞에 단\n화이트 3연동",
+   "sub": "영등포 신길동 · NI-0161"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_04_b_corner.jpg",
+   "line": "천장과 신발장 위\n모서리를 잽니다",
+   "sub": "영등포 신길동 · NI-0162"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_06_c_pair.jpg",
+   "line": "긴 복도에 단\n아쿠아 유리 3연동",
+   "sub": "영등포 신길동 · NI-0164"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_07_c_open.jpg",
+   "line": "한 짝을 연\n3연동",
+   "sub": "영등포 신길동 · NI-0165"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_08_m_pair.jpg",
+   "line": "거실 마루에\n마블 화이트 매트",
+   "sub": "강서 우장산 · NI-0166"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+[10/19 남은 크롬 작업 — 12:5x 크롬 확장 끊김으로 멈춤 · 원고 다 됨]
+1) 티스토리 /16 (편집 /manage/newpost/16?type=post&returnURL=ENTRY): 표 「입주청소」 줄 → 지금 제휴 「3곳」 · 더 찾는 곳 「양주 · 의정부」. 표 아래 문장의 「입주청소 2곳」 → 「입주청소 3곳」. 본문 키(space BackSpace) → 완료 → 공개 그대로 → 발행. (12:47에 표 구성 · 문장은 이미 반영됨 · 고치기 전 본문 /home/claude/tistory/partner_1018/p16_before_1019.html)
+2) 티스토리 /18: 문장 「…입주청소 2곳…」의 「2곳」 한 단어만 「3곳」. 고치기 전 공개 본문 /home/claude/tistory/partner_1018/p18_before_1019_public.html.
+3) 티스토리 새 글(오늘 3편째): /home/claude/sns/timg/goA_unjeong_cheongso.w.js — 글쓰기 화면에서 file input(#nmpay) 만들어 file_upload → eval(text). 다음 #nmstage에 /home/claude/sns/timg/파주-입주청소-운정-산내마을-이사청소-전후.jpg 넣고 [사진] 문단 비우고 커서 → 사진 메뉴 → __fi로 넣기 (10/19 /23 · /24와 같은 방법) · alt 「파주 입주청소 운정 산내마을 이사청소 전후」 → 본문 키 → 완료 → 공개 → 공개 발행. 카테고리 입주청소.
+4) 낭만 이사(Blogger /u/1 · blog 2364709415225710007) 새 글 2편: /home/claude/sns/timg/isa_bogwan_biyong.js · isa_ipju_order.js (본문 주입 · 사진 없음) · 제목 · 라벨은 /home/claude/isa_1019/b2/*.json.
+5) 낭만 명함(Blogger /u/0 · blog 6881288676569694880) 업체 소개 「ㅊㄱ ㅋㄹㅂ 청소」: 새 글 편집기 → file input(#nmimgs)에 ckb_thumb · ckb_01~05.jpg(/home/claude/sns/timg) → ckb_drop.js(편집기에 drop · window._m) → ckb_inject.w.js → 제목 · 라벨(제휴 업체 · 입주청소 · 경기 · 서울) /home/claude/blogger/ckb/post.json → 게시 → 피드 확인. 그다음 blog-post_889 「입주청소」 · 「경기」 · 「서울」 줄 끝에 「 · ㅊㄱ ㅋㄹㅂ 청소」 링크 하나씩 더함(다른 줄은 그대로).

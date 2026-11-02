@@ -1,0 +1,23 @@
+O='/mnt/user-data/outputs/int/'
+NEW=[
+('e편한세상 신곡 시그니처뷰 입주',O+'_h2/ipju_singok/nangman_interior_ipju_singok_post.html','e편한세상 신곡 시그니처뷰 중문, 옵션 중문은 245만원이었습니다'),
+('검단호수공원역 풍경채 어바니티 입주',O+'geomdan_jeil3_ipju/nangman_interior_geomdan_jeil3_ipju_post.html','검단호수공원역 풍경채 어바니티 중문, 84A는 스윙 84B는 3연동'),
+('운정중앙역 제일풍경채 입주',O+'unjeong_jeil_ipju/nangman_interior_unjeong_jeil_ipju_post.html','운정중앙역 제일풍경채 중문, 청소와 매트보다 먼저 답니다'),
+('검단 입주청소',O+'geomdan_cheongso/nangman_interior_geomdan_cheongso_post.html','검단 입주청소, 10월 1,834세대 분진은 레일에 남습니다'),
+('오산역 금강펜테리움 센트럴파크 입주',O+'ipju_osan_geumgang/nangman_interior_ipju_osan_geumgang_post.html','오산역 금강펜테리움 센트럴파크 중문, 옵션은 여닫이 126만원'),
+('힐스테이트 등촌역 입주',O+'ipju_deungchon/nangman_interior_ipju_deungchon_post.html','힐스테이트 등촌역 중문, 84㎡ 169만원 59㎡B 428만원'),
+('래미안 레벤투스 사전점검일',O+'reventus_ipju/nangman_interior_reventus_ipju_post.html','래미안 레벤투스 중문, 옵션은 자동 중문 268만원'),
+('서산 센트럴 아이파크 입주일',O+'seosan_ipark_ipju/nangman_interior_seosan_ipark_ipju_post.html','서산 센트럴 아이파크 중문, 84A 132만원 84B 196만원'),
+('e편한세상 서대전역 센트로 사전점검',O+'seodaejeon_ipju/nangman_interior_seodaejeon_ipju_post.html','e편한세상 서대전역 센트로 중문, 유리부터 정합니다'),
+('수원 입주청소 업체 비교',O+'suwon_cheongso/nangman_interior_suwon_cheongso_post.html','수원 입주청소 업체 비교, 84타입이 37만~185만원'),
+('힐스테이트 동작 시그니처 사전점검',O+'dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_post.html','힐스테이트 동작 시그니처 중문, 집마다 따로 잽니다'),
+('에코델타시티 중흥S클래스 입주',O+'ecodelta_jungheung_ipju/nangman_interior_ecodelta_jungheung_ipju_post.html','에코델타시티 중흥S클래스 중문, 다섯 타입 모두 130만원'),
+('동래 반도유보라 입주',O+'ipju_dongnae/nangman_interior_ipju_dongnae_post.html','동래 반도유보라 중문, 옵션 3연동 110만원이었습니다'),
+('평택 푸르지오 센터파인 입주',O+'ipju_centerfine/nangman_interior_ipju_centerfine_post.html','평택 푸르지오 센터파인 중문, 옵션 135만원을 안 넣은 집'),
+('평택 화양 동문 디 이스트 입주',O+'ipju_hwayang_dongmun/nangman_interior_ipju_hwayang_dongmun_post.html','평택 화양 동문 디 이스트 중문, 옵션은 143만원'),
+('서신더샵비발디 사전점검',O+'_h2/seosin_jeomgeom/nangman_interior_seosin_jeomgeom_post.html','서신더샵비발디 중문, 사전점검 날 현관 세 군데를 잽니다'),
+('고양 장항 제일풍경채 입주',O+'ipju_janghang_jeil/nangman_interior_ipju_janghang_jeil_post.html','고양 장항 제일풍경채 중문, 전 타입 3연동 180만원'),
+('회천중앙역 로제비앙 그랜드센텀 사전점검',O+'ipju_hoecheon/nangman_interior_ipju_hoecheon_post.html','회천중앙역 로제비앙 그랜드센텀 중문, 옵션 121만원'),
+('연희공원 호반써밋 중문',O+'ipju_yeonhui_hoban/nangman_interior_ipju_yeonhui_hoban_post.html','연희공원 호반써밋 중문, 확장한 집은 3연동이 달려 나옵니다'),
+('성동자이리버뷰 입주일',O+'ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_post.html','성동자이리버뷰 중문, 옵션은 자동 240만원이었습니다'),
+]

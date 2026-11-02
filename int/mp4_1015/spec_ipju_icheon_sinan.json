@@ -1,0 +1,39 @@
+{
+ "head": [
+  "이천 신안인스빌 퍼스티지",
+  "옵션 3연동 125만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_icheon_sinan/nangman_interior_ipju_icheon_sinan_01_a_open.jpg",
+   "line": "월넛 간살\n원슬라이딩",
+   "sub": "이천 중리동 · NI-0528"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_icheon_sinan/nangman_interior_ipju_icheon_sinan_02_a_closed.jpg",
+   "line": "위 레일이\n옆 벽까지",
+   "sub": "이천 중리동 · NI-0529"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_icheon_sinan/nangman_interior_ipju_icheon_sinan_03_a_laser.jpg",
+   "line": "실측 날\n바닥에 레이저 선",
+   "sub": "이천 중리동 · NI-0530"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_icheon_sinan/nangman_interior_ipju_icheon_sinan_04_a_side.jpg",
+   "line": "집 안에서 본\n투명 유리",
+   "sub": "이천 중리동 · NI-0531"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_icheon_sinan/nangman_interior_ipju_icheon_sinan_05_m_kitchen.jpg",
+   "line": "주방까지 깐\n1.4cm 매트",
+   "sub": "여주 천송동 · NI-0532"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_icheon_sinan/nangman_interior_ipju_icheon_sinan_06_m_hall.jpg",
+   "line": "복도와\n현관 앞까지",
+   "sub": "여주 천송동 · NI-0533"
+  }
+ ]
+}

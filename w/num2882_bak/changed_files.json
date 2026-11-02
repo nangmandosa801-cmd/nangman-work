@@ -1,0 +1,847 @@
+{
+ "made": "2026-10-19 17:25",
+ "generators_rules": [
+  {
+   "file": "/home/claude/blogger/card/c00_shop.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/c00_shop.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/c01_budongsan.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/c01_budongsan.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/c02_daehaeng.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/c02_daehaeng.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/c03_jejak.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/c03_jejak.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/c04_batch.py",
+   "count": 2,
+   "backup": "/home/claude/blogger/card/c04_batch.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/c05_batch.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/c05_batch.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/my_cards.py",
+   "count": 2,
+   "backup": "/home/claude/blogger/card/my_cards.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/my_intro.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/my_intro.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/shop_imgs.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/shop_imgs.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/thumb1015.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/thumb1015.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/ckb/inject.w.js",
+   "count": 2,
+   "backup": "/home/claude/blogger/ckb/inject.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/ckb/thumb.py",
+   "count": 1,
+   "backup": "/home/claude/blogger/ckb/thumb.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/dream/inject.js",
+   "count": 1,
+   "backup": "/home/claude/blogger/dream/inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/iryuk/inject.js",
+   "count": 1,
+   "backup": "/home/claude/blogger/iryuk/inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/pkk/inject.js",
+   "count": 1,
+   "backup": "/home/claude/blogger/pkk/inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/bnfig.py",
+   "count": 1,
+   "backup": "/home/claude/bnfig.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/clip_int16.py",
+   "count": 1,
+   "backup": "/home/claude/clip_int16.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/clipgen.py",
+   "count": 2,
+   "backup": "/home/claude/clipgen.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/clips_int_sulhu_nogyeon.py",
+   "count": 1,
+   "backup": "/home/claude/clips_int_sulhu_nogyeon.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/clips_nm_matracc.py",
+   "count": 2,
+   "backup": "/home/claude/clips_nm_matracc.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/clips_short3_remake.py",
+   "count": 1,
+   "backup": "/home/claude/clips_short3_remake.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/gs/gongin_marketing_1018.py",
+   "count": 1,
+   "backup": "/home/claude/gs/gongin_marketing_1018.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/gs/intbanner.py",
+   "count": 1,
+   "backup": "/home/claude/gs/intbanner.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/hpfig.py",
+   "count": 1,
+   "backup": "/home/claude/hpfig.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/blogmp4.py",
+   "count": 1,
+   "backup": "/home/claude/int/blogmp4.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/card.py",
+   "count": 2,
+   "backup": "/home/claude/int/card.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/caulk_price.py",
+   "count": 1,
+   "backup": "/home/claude/int/caulk_price.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/clover.py",
+   "count": 1,
+   "backup": "/home/claude/int/clover.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/free/contact_free.py",
+   "count": 1,
+   "backup": "/home/claude/int/free/contact_free.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/free/nangman_interior_profile.txt",
+   "count": 1,
+   "backup": "/home/claude/int/free/nangman_interior_profile.txt.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/guide_aircon.py",
+   "count": 1,
+   "backup": "/home/claude/int/guide_aircon.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/guide_card.py",
+   "count": 2,
+   "backup": "/home/claude/int/guide_card.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/modern.py",
+   "count": 1,
+   "backup": "/home/claude/int/modern.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/mp4_1015/clipinfo.py",
+   "count": 3,
+   "backup": "/home/claude/int/mp4_1015/clipinfo.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/mp4_1015/land.py",
+   "count": 1,
+   "backup": "/home/claude/int/mp4_1015/land.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/mp4_1015/vert.py",
+   "count": 2,
+   "backup": "/home/claude/int/mp4_1015/vert.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/n1008/p29_bubun_interior.py",
+   "count": 1,
+   "backup": "/home/claude/int/n1008/p29_bubun_interior.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/n1018/p_guchuk_apt_interior.py",
+   "count": 1,
+   "backup": "/home/claude/int/n1018/p_guchuk_apt_interior.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/n1018/p_hyeopryeok_mojip.py",
+   "count": 2,
+   "backup": "/home/claude/int/n1018/p_hyeopryeok_mojip.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/n1019/bangchungmang_suri.py",
+   "count": 1,
+   "backup": "/home/claude/int/n1019/bangchungmang_suri.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/partner/flyer.py",
+   "count": 2,
+   "backup": "/home/claude/int/partner/flyer.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/post_banner.py",
+   "count": 1,
+   "backup": "/home/claude/int/post_banner.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/promo/promo.py",
+   "count": 3,
+   "backup": "/home/claude/int/promo/promo.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/sash_nusu.py",
+   "count": 1,
+   "backup": "/home/claude/int/sash_nusu.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/sash_nusu_v1_1006.py",
+   "count": 1,
+   "backup": "/home/claude/int/sash_nusu_v1_1006.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/sigong.py",
+   "count": 1,
+   "backup": "/home/claude/int/sigong.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/title_banner.py",
+   "count": 1,
+   "backup": "/home/claude/int/title_banner.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/title_banner_caulk.py",
+   "count": 1,
+   "backup": "/home/claude/int/title_banner_caulk.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/title_banner_film.py",
+   "count": 1,
+   "backup": "/home/claude/int/title_banner_film.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/title_banner_sash.py",
+   "count": 1,
+   "backup": "/home/claude/int/title_banner_sash.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/witjip_nusu.py",
+   "count": 1,
+   "backup": "/home/claude/int/witjip_nusu.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/bogwan_biyong_inject.js",
+   "count": 4,
+   "backup": "/home/claude/isa_1019/b2/bogwan_biyong_inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/build.py",
+   "count": 3,
+   "backup": "/home/claude/isa_1019/b2/build.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/ipju_order_inject.js",
+   "count": 4,
+   "backup": "/home/claude/isa_1019/b2/ipju_order_inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/inject.js",
+   "count": 1,
+   "backup": "/home/claude/isa_1019/inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/clipdrive/info_doc.txt",
+   "count": 10,
+   "backup": "/home/claude/sns/clipdrive/info_doc.txt.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/dhbb/inject.js",
+   "count": 1,
+   "backup": "/home/claude/sns/dhbb/inject.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/recruit/recruit.py",
+   "count": 1,
+   "backup": "/home/claude/sns/recruit/recruit.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/shorts1018/mk_shorts1018.py",
+   "count": 1,
+   "backup": "/home/claude/sns/shorts1018/mk_shorts1018.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/ckb_inject.w.js",
+   "count": 2,
+   "backup": "/home/claude/sns/timg/ckb_inject.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/goA_cat_screen.w.js",
+   "count": 4,
+   "backup": "/home/claude/sns/timg/goA_cat_screen.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/goA_jinjeop_jungmun.w.js",
+   "count": 4,
+   "backup": "/home/claude/sns/timg/goA_jinjeop_jungmun.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/goA_osan_julnun.w.js",
+   "count": 4,
+   "backup": "/home/claude/sns/timg/goA_osan_julnun.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/goA_unjeong_cheongso.w.js",
+   "count": 4,
+   "backup": "/home/claude/sns/timg/goA_unjeong_cheongso.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/inject.w.js",
+   "count": 2,
+   "backup": "/home/claude/sns/timg/inject.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/isa_bogwan_biyong.js",
+   "count": 4,
+   "backup": "/home/claude/sns/timg/isa_bogwan_biyong.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/timg/isa_ipju_order.js",
+   "count": 4,
+   "backup": "/home/claude/sns/timg/isa_ipju_order.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/w10/build.py",
+   "count": 8,
+   "backup": "/home/claude/sns/w10/build.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/ytlong/build_meta.py",
+   "count": 1,
+   "backup": "/home/claude/sns/ytlong/build_meta.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns_carousel.py",
+   "count": 1,
+   "backup": "/home/claude/sns_carousel.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/go_int_two_year.js",
+   "count": 4,
+   "backup": "/home/claude/tistory/two_year_1018/go_int_two_year.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/go_nm_two_year.js",
+   "count": 2,
+   "backup": "/home/claude/tistory/two_year_1018/go_nm_two_year.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/int_build.py",
+   "count": 2,
+   "backup": "/home/claude/tistory/two_year_1018/int_build.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/nm_build.py",
+   "count": 2,
+   "backup": "/home/claude/tistory/two_year_1018/nm_build.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/common.py",
+   "count": 2,
+   "backup": "/home/claude/tistory_int/b1019/common.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_cat_screen.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_cat_screen.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_cat_screen.w.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_cat_screen.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_jinjeop_jungmun.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_jinjeop_jungmun.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_jinjeop_jungmun.w.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_jinjeop_jungmun.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_osan_julnun.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_osan_julnun.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_osan_julnun.w.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_osan_julnun.w.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/goA_unjeong_cheongso.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/goA_unjeong_cheongso.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/kit.py",
+   "count": 3,
+   "backup": "/home/claude/tistory_int/kit.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/p01_centreville.py",
+   "count": 2,
+   "backup": "/home/claude/tistory_int/p01_centreville.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/p01_set.js",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/p01_set.js.bak1019num"
+  },
+  {
+   "file": "/home/claude/vid/vidkit.py",
+   "count": 2,
+   "backup": "/home/claude/vid/vidkit.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/w/fieldrep/dhbb_quote.py",
+   "count": 1,
+   "backup": "/home/claude/w/fieldrep/dhbb_quote.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/w/mail1018/build1019.py",
+   "count": 1,
+   "backup": "/home/claude/w/mail1018/build1019.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/w/mail1018/coupon.py",
+   "count": 2,
+   "backup": "/home/claude/w/mail1018/coupon.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/w/mail1018/letter.py",
+   "count": 1,
+   "backup": "/home/claude/w/mail1018/letter.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/w/screen1019/gen/make.py",
+   "count": 1,
+   "backup": "/home/claude/w/screen1019/gen/make.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/watch/routine_clip_sigong.txt",
+   "count": 1,
+   "backup": "/home/claude/watch/routine_clip_sigong.txt.bak1019num"
+  },
+  {
+   "file": "/home/claude/watch/routine_insta_int.txt",
+   "count": 3,
+   "backup": "/home/claude/watch/routine_insta_int.txt.bak1019num"
+  },
+  {
+   "file": "/home/claude/watch/routine_suri.txt",
+   "count": 1,
+   "backup": "/home/claude/watch/routine_suri.txt.bak1019num"
+  },
+  {
+   "file": "/home/claude/watch/routine_tistory_int.txt",
+   "count": 2,
+   "backup": "/home/claude/watch/routine_tistory_int.txt.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/chk.py",
+   "note": "010-(?!7678) → 010-(?!2882) 검사식",
+   "backup": "/home/claude/int/chk.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/card/c04_batch.py",
+   "note": "BAN 목록에서 '2882' 뺌",
+   "backup": "/home/claude/blogger/card/c04_batch.py.bak1019num"
+  },
+  {
+   "file": "/home/claude/int/guide_card.py",
+   "note": "문의 띠 예시가 길 때 「전화」 글자와 겹치던 것 고침",
+   "backup": "/home/claude/int/guide_card.py.bak1019num"
+  }
+ ],
+ "drafts": [
+  {
+   "file": "/mnt/attach/outputs/_pc_1019/bangchungmang_suri/nangman_interior_bangchungmang_suri_paste.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/_pc_1019/bangchungmang_suri/nangman_interior_bangchungmang_suri_paste.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/free/nangman_interior_profile.txt",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/free/nangman_interior_profile.txt"
+  },
+  {
+   "file": "/mnt/attach/outputs/int/_simple_1018/guchuk_apt_interior/nangman_interior_guchuk_apt_interior_paste.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/int/_simple_1018/guchuk_apt_interior/nangman_interior_guchuk_apt_interior_paste.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/int/bangchungmang_suri/nangman_interior_bangchungmang_suri_post.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/int/bangchungmang_suri/nangman_interior_bangchungmang_suri_post.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/int/guchuk_apt_interior/nangman_interior_guchuk_apt_interior_post.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/int/guchuk_apt_interior/nangman_interior_guchuk_apt_interior_post.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham_1018/myeongham_partner_recruit.html",
+   "count": 2,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham_1018/myeongham_partner_recruit.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham_daily_1017/myeongham_sangho_jakmyeong.html",
+   "count": 2,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham_daily_1017/myeongham_sangho_jakmyeong.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/card_blog_daehaeng.html",
+   "count": 2,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/card_blog_daehaeng.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/card_budongsan.html",
+   "count": 2,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/card_budongsan.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/card_budongsan_jejak.html",
+   "count": 2,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/card_budongsan_jejak.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/myeongham_my_jisandream_intro.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/myeongham_my_jisandream_intro.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/myeongham_my_nangman_budongsan_intro.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/myeongham_my_nangman_budongsan_intro.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/myeongham_my_nangman_dosa_intro.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/myeongham_my_nangman_dosa_intro.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/myeongham_my_nangman_interior_intro.html",
+   "count": 1,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/myeongham_my_nangman_interior_intro.html"
+  },
+  {
+   "file": "/mnt/attach/outputs/myeongham/myeongham_shop_page.html",
+   "count": 2,
+   "backup": "/home/claude/w/num2882_bak/outputs/myeongham/myeongham_shop_page.html"
+  },
+  {
+   "file": "/home/claude/blogger/card/calc_gadget.html",
+   "count": 1,
+   "backup": "/home/claude/blogger/card/calc_gadget.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/ckb/post.html",
+   "count": 2,
+   "backup": "/home/claude/blogger/ckb/post.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/ckb/post.json",
+   "count": 2,
+   "backup": "/home/claude/blogger/ckb/post.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/dhbb/84a_new.html",
+   "count": 1,
+   "backup": "/home/claude/blogger/dhbb/84a_new.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/pkk/post.json",
+   "count": 1,
+   "backup": "/home/claude/blogger/pkk/post.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/blogger/queue.json",
+   "count": 1,
+   "backup": "/home/claude/blogger/queue.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/bogwan_biyong.html",
+   "count": 4,
+   "backup": "/home/claude/isa_1019/b2/bogwan_biyong.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/bogwan_biyong.json",
+   "count": 4,
+   "backup": "/home/claude/isa_1019/b2/bogwan_biyong.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/ipju_order.html",
+   "count": 4,
+   "backup": "/home/claude/isa_1019/b2/ipju_order.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/ipju_order.json",
+   "count": 4,
+   "backup": "/home/claude/isa_1019/b2/ipju_order.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/isa_1019/post.html",
+   "count": 1,
+   "backup": "/home/claude/isa_1019/post.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/clip1019/texts.json",
+   "count": 3,
+   "backup": "/home/claude/sns/clip1019/texts.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/dhbb/dhbb_post.json",
+   "count": 1,
+   "backup": "/home/claude/sns/dhbb/dhbb_post.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/recruit/captions.json",
+   "count": 2,
+   "backup": "/home/claude/sns/recruit/captions.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/shorts1018/nangman_interior_cheonggye_short.json",
+   "count": 1,
+   "backup": "/home/claude/sns/shorts1018/nangman_interior_cheonggye_short.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/shorts1018/nangman_interior_dhbb84a_short.json",
+   "count": 1,
+   "backup": "/home/claude/sns/shorts1018/nangman_interior_dhbb84a_short.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/shorts1018/nangman_interior_medialle_short.json",
+   "count": 1,
+   "backup": "/home/claude/sns/shorts1018/nangman_interior_medialle_short.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/sns/ytlong/yt_queue.json",
+   "count": 118,
+   "backup": "/home/claude/sns/ytlong/yt_queue.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/partner_1018/a1.json",
+   "count": 2,
+   "backup": "/home/claude/tistory/partner_1018/a1.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/partner_1018/a2_myeongham.html",
+   "count": 2,
+   "backup": "/home/claude/tistory/partner_1018/a2_myeongham.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/partner_1018/posts.json",
+   "count": 2,
+   "backup": "/home/claude/tistory/partner_1018/posts.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/int_post.html",
+   "count": 4,
+   "backup": "/home/claude/tistory/two_year_1018/int_post.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/nm_post.html",
+   "count": 2,
+   "backup": "/home/claude/tistory/two_year_1018/nm_post.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory/two_year_1018/out_two_year_hajabosu.json",
+   "count": 4,
+   "backup": "/home/claude/tistory/two_year_1018/out_two_year_hajabosu.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/cat_screen.html",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/cat_screen.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/jinjeop_jungmun.html",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/jinjeop_jungmun.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/osan_julnun.html",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/osan_julnun.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/out_cat_screen.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/out_cat_screen.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/out_jinjeop_jungmun.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/out_jinjeop_jungmun.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/out_osan_julnun.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/out_osan_julnun.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/out_unjeong_cheongso.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/out_unjeong_cheongso.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/b1019/unjeong_cheongso.html",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/b1019/unjeong_cheongso.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_aircon_season.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_aircon_season.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_b_cheongju_gagyeong.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_b_cheongju_gagyeong.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_b_cleaning_extra.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_b_cleaning_extra.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_b_living_mat.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_b_living_mat.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_b_one_sliding.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_b_one_sliding.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_b_sash_film.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_b_sash_film.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_b_sash_leak.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_b_sash_leak.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_bangmyochang.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_bangmyochang.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_caulk_price.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_caulk_price.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_cleaning_pick.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_cleaning_pick.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_closet_film.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_closet_film.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_dressroom_mold.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_dressroom_mold.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_jinjeop_jungmun.html",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_jinjeop_jungmun.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_jinjeop_jungmun.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_jinjeop_jungmun.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_jungmun_price.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_jungmun_price.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_new_apt_order.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_new_apt_order.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_oebyeok_silicon.html",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_oebyeok_silicon.html.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_oebyeok_silicon.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_oebyeok_silicon.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_seodaejeon.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_seodaejeon.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_veranda_leak.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_veranda_leak.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_wallpaper_mold.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_wallpaper_mold.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/out_window_draft.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/out_window_draft.json.bak1019num"
+  },
+  {
+   "file": "/home/claude/tistory_int/p01.json",
+   "count": 4,
+   "backup": "/home/claude/tistory_int/p01.json.bak1019num"
+  }
+ ]
+}

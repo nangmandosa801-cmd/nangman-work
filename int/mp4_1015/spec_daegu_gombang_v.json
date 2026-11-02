@@ -1,0 +1,12 @@
+{
+ "head": ["대구 곰팡이 제거", "벽 속 단열까지 바꿔야 끝"],
+ "what": "곰팡이 핀 벽",
+ "vintro": [
+  {"kicker": "락스로 닦으면 그해만 하얗다", "line": "다음 겨울\n같은 자리에 또", "sub": "다시 피는 곰팡이는 벽이 차가워서"},
+  {"kicker": "대구 북구 아이 방", "line": "단열재\n20mm → 50mm", "sub": "물 안 먹는 아이소핑크 · 이음새는 폼으로"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/daegu_gombang/01.jpg", "line": "시공 순서\n5단계", "sub": "철거 → 약품 → 코팅 → 단열 → 마감"},
+  {"src": "/home/claude/v2src/t1102/daegu_gombang/02.jpg", "line": "1헤베 10만원 선", "sub": "작은 방 바깥 벽 두 면 약 127만원"}
+ ]
+}

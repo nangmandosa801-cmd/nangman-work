@@ -1,0 +1,14 @@
+{
+ "head": ["신축아파트 중문", "박람회 전에 가격부터"],
+ "what": "현관",
+ "vintro": [
+  {"kicker": "신축 입주 중문 가격", "line": "3연동 65만원\n원슬라이딩 55만원", "sub": "스윙폴딩 83만원부터"},
+  {"kicker": "옵션 3연동은 121만~180만원", "line": "옵션보다\n56만원 넘게 낮게", "sub": "2년 무상 A/S · 전부 강화유리"}
+ ],
+ "slides": [
+  {"src": "/home/claude/promo_jungmun/out/jungmun_promo_01.jpg", "line": "슬림 3연동\n아치형 유리", "sub": "평택 화양 새 아파트 · NI-1498"},
+  {"src": "/home/claude/promo_jungmun/out/jungmun_promo_02.jpg", "line": "원슬라이딩\n아치형", "sub": "평택 화양 새 아파트 · NI-1499"},
+  {"src": "/home/claude/promo_jungmun/out/jungmun_promo_05.jpg", "line": "슬림 3연동\n브론즈 유리", "sub": "브레인시티 새 아파트 · NI-1502"},
+  {"src": "/home/claude/promo_jungmun/out/jungmun_promo_07.jpg", "line": "원슬라이딩\n반투명 유리", "sub": "브레인시티 새 아파트 · NI-1504"}
+ ]
+}

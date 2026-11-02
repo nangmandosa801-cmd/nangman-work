@@ -1,0 +1,29 @@
+{
+ "head": [
+  "성동자이리버뷰",
+  "옵션 자동 중문 240만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d1_closed.jpg",
+   "line": "복도에서 본\n닫은 모습",
+   "sub": "청량리"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d2_open.jpg",
+   "line": "문을 연\n모습",
+   "sub": "청량리"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d3_from_entrance.jpg",
+   "line": "현관 쪽에서 본\n닫은 모습",
+   "sub": "청량리"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d4_open_entrance.jpg",
+   "line": "현관 쪽에서 본\n연 모습",
+   "sub": "청량리"
+  }
+ ]
+}

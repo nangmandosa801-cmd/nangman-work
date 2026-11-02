@@ -1,0 +1,41 @@
+{
+ "head": [
+  "힐스테이트 동작 시그니처",
+  "중문은 집마다 따로"
+ ],
+ "what": "현관",
+ "vintro": [
+  {
+   "kicker": "서울 동작구 상도동",
+   "line": "힐스테이트 동작\n시그니처 입주",
+   "sub": "2026년 12월 1일 · 608세대"
+  },
+  {
+   "kicker": "옵션 중문",
+   "line": "계약서로\n확인",
+   "sub": "없으면 사전점검 날 치수\n제작 2일 · 설치 2시간"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_01_a_after.jpg",
+   "line": "화이트 3연동\n줄무늬 유리",
+   "sub": "영등포 대림동 · NI-0159"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_04_b_corner.jpg",
+   "line": "천장 · 신발장\n모서리부터",
+   "sub": "영등포 신길동 · NI-0162"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_05_b_side.jpg",
+   "line": "모루 유리\n밖은 흐릿하게",
+   "sub": "영등포 신길동 · NI-0163"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dongjak_signature_ipju/nangman_interior_dongjak_signature_ipju_07_c_open.jpg",
+   "line": "아쿠아 유리\n빛은 들고 가림",
+   "sub": "신길동 다른 집 · NI-0165"
+  }
+ ]
+}

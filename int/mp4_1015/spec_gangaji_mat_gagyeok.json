@@ -1,0 +1,39 @@
+{
+ "head": [
+  "강아지 미끄럼방지 매트",
+  "34평은 110～120장"
+ ],
+ "what": "거실",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_01_c_pair.jpg",
+   "line": "카펫을 접어 쓰던 거실\n매트를 깐 거실",
+   "sub": "파주 34평 · NI-0187"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_02_c_hall.jpg",
+   "line": "현관 쪽 복도까지\n이어 깐 매트",
+   "sub": "파주 34평 · NI-0188"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_06_p_window.jpg",
+   "line": "창가 끝선까지\n잘라 맞춘 매트",
+   "sub": "파주 34평 · NI-0192"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_07_y_pair.jpg",
+   "line": "마루 거실에\n브라운 매트",
+   "sub": "평촌 아파트 · NI-0193"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_08_y_dog.jpg",
+   "line": "매트 위를 걷는\n그레이하운드",
+   "sub": "평촌 아파트 · NI-0194"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok/nangman_interior_gangaji_mat_gagyeok_10_b_pair.jpg",
+   "line": "노후 마루 거실에\n매트를 깐 모습",
+   "sub": "부평 아파트 · NI-0196"
+  }
+ ]
+}

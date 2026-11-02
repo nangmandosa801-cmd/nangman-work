@@ -1,0 +1,39 @@
+{
+ "head": [
+  "로이유리 뜻",
+  "두 집은 어디에 넣었나"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_fig2.png",
+   "line": "두 집의\n창별 유리",
+   "sub": "샷시를 바꾼 두 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_01_guro_veranda.jpg",
+   "line": "첫째 집\n베란다 창",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_03_guro_bunhap.jpg",
+   "line": "거실과 베란다\n사이 문",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_05_guro_bokdo.jpg",
+   "line": "첫째 집\n복도 쪽 창",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_06_sanbon_veranda.jpg",
+   "line": "둘째 집\n거실 베란다 창",
+   "sub": "둘째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/lowe/nangman_interior_lowe_09_sanbon_bokdo.jpg",
+   "line": "둘째 집\n복도 쪽 작은방 창",
+   "sub": "둘째 집"
+  }
+ ]
+}

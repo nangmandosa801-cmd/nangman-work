@@ -1,0 +1,41 @@
+{
+ "head": [
+  "동탄 중문 시공",
+  "네 집 네 가지"
+ ],
+ "what": "현관",
+ "vintro": [
+  {
+   "kicker": "동탄 중문 시공",
+   "line": "네 집 중 두 집은\n원슬라이딩",
+   "sub": "좁은 입구는 한 짝 여닫이"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/attach/outputs/int/dongtan_jungmun/nangman_interior_dongtan_jungmun_01_i_closed.jpg",
+   "line": "동탄역 쪽\n원슬라이딩",
+   "sub": "동탄역 쪽 아파트 · 짙은 밤색 틀"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/dongtan_jungmun/nangman_interior_dongtan_jungmun_02_i_open.jpg",
+   "line": "열면 입구가\n통째로 열림",
+   "sub": "동탄역 쪽 아파트"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/dongtan_jungmun/nangman_interior_dongtan_jungmun_05_g_closed.jpg",
+   "line": "흰 살로\n칸을 나눔",
+   "sub": "동탄호수공원 쪽 아파트"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/dongtan_jungmun/nangman_interior_dongtan_jungmun_09_b_closed.jpg",
+   "line": "신발장 앞까지\n넓힌 3연동",
+   "sub": "동탄2 목동 아파트 · 모루유리"
+  },
+  {
+   "src": "/mnt/attach/outputs/int/dongtan_jungmun/nangman_interior_dongtan_jungmun_14_d_open.jpg",
+   "line": "좁은 입구는\n한 짝 여닫이",
+   "sub": "동탄 아파트 · 바닥 레일 없음"
+  }
+ ]
+}

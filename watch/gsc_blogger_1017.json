@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-17",
+  "account": "dong.jin.kim.nangman@gmail.com",
+  "blogs": [
+    {
+      "property": "https://nangmanbusinesscards.blogspot.com/",
+      "verified": true,
+      "sitemap": {"path": "/sitemap.xml", "submitted": "2026-10-15", "last_read": "2026-10-17", "status": "성공", "discovered_pages": 39},
+      "index_requested": [
+        "https://nangmanbusinesscards.blogspot.com/",
+        "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_747.html",
+        "https://nangmanbusinesscards.blogspot.com/2026/10/3-30000.html"
+      ],
+      "note": "이미 등록·확인된 속성이었음(새로 추가하지 않음). 사이트맵은 10/15 제출분이 성공 상태라 다시 제출하지 않음. 세 주소 모두 검사 시 'Google에 등록되어 있지 않음'(크롤링됨/발견됨-색인 미생성) → 색인 생성 요청 완료."
+    },
+    {
+      "property": "https://nangmancoffeebean.blogspot.com/",
+      "verified": true,
+      "sitemap": {"path": "/sitemap.xml", "submitted": "2026-10-17", "last_read": "2026-10-17", "status": "성공", "discovered_pages": 10},
+      "index_requested": [
+        "https://nangmancoffeebean.blogspot.com/",
+        "https://nangmancoffeebean.blogspot.com/2026/10/blog-post_83.html",
+        "https://nangmancoffeebean.blogspot.com/2026/10/blog-post_316.html"
+      ],
+      "note": "오늘 URL 접두어 속성으로 새로 추가, '소유권이 자동으로 확인됨'(제휴된 제공업체 = Blogger). 홈 주소 색인 요청 첫 시도는 '제출 중 문제 발생' 오류 → 한 번 다시 눌러 성공. 하루 한도 안내는 뜨지 않음."
+    }
+  ]
+}

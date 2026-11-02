@@ -1,0 +1,29 @@
+{
+ "head": [
+  "3연동 중문",
+  "고장 1위는 와이어"
+ ],
+ "what": "중문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/uploads/블로그/interior/[미발행] 10-18 16시 3연동 중문, 고장 신고 1위는 끊어진 와이어입니다/사진/1-1.png",
+   "line": "위에서 잡고\n와이어로 잇는 문",
+   "sub": "상부 레일 · 호차 · 와이어"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/jungmun_3yeondong/nangman_interior_jungmun_3yeondong_f1_close.jpg",
+   "line": "화이트 틀\n세로 모루유리",
+   "sub": "초슬림 3연동 · NI-0567"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/jungmun_3yeondong/nangman_interior_jungmun_3yeondong_f2_open.jpg",
+   "line": "세 짝을 모으는\n와이어",
+   "sub": "NI-0568"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/jungmun_3yeondong/nangman_interior_jungmun_3yeondong_f3_side.jpg",
+   "line": "손잡이는\n매립형",
+   "sub": "복도에서 본 모습 · NI-0569"
+  }
+ ]
+}

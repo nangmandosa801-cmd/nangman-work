@@ -1,0 +1,79 @@
+<title>네이버 예약 큐</title>
+<style>
+:root{--bg:#f6f5f1;--fg:#1f2a24;--mut:#6b746e;--line:#dcd9cf;--ok:#2f6b4f;--card:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16191a;--fg:#e8ece9;--mut:#9aa39e;--line:#2e3432;--ok:#7fc4a0;--card:#1e2224;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#16191a;--fg:#e8ece9;--mut:#9aa39e;--line:#2e3432;--ok:#7fc4a0;--card:#1e2224;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Noto Sans KR",sans-serif;padding-block:24px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:860px;margin:0 auto;display:grid;gap:16px}
+h1{font-size:22px;margin:0}
+p{margin:0;color:var(--mut)}
+.wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:13px;color:var(--mut);font-weight:600}
+td.st{white-space:nowrap;color:var(--ok);font-weight:600}
+a{color:var(--ok)}
+</style>
+<main>
+<h1>네이버 예약 큐</h1>
+<p>날짜순이 아니라 위에서부터 「대기」인 줄만 예약합니다. 한 줄 = 날짜·시간 | 글 제목 | 도우미. 예약이 끝나면 채팅에 「예약 완료: 날짜·시간·제목」을 남겨 주세요.</p>
+<div class="wrap"><table id="queue">
+<thead><tr><th>상태</th><th>날짜 · 시간 | 카테고리</th><th>글 제목</th><th>도우미</th></tr></thead>
+<tbody>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-03 14:00 | 인테리어 지식</td><td>보일러 동파 방지 온도, 보일러가 돌아도 아래 배관은 얼어서 보온재부터 감쌉니다</td><td><a href="https://claude.ai/artifact/S3mxG7FgGiCKKNEk43mRHZ">동파 1 보일러</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-04 14:00 | 인테리어 지식</td><td>수도계량기 동파, 유리가 깨지면 수도사업소에 알리고 열선 감은 계량기도 업니다</td><td><a href="https://claude.ai/artifact/JSUgbecBHmTh3f8gQbzC6X">동파 2 수도계량기</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-05 14:00 | 인테리어 지식</td><td>계량기 동파 방지, 함은 마른 보온재로 채우고 영하 10도 밤엔 물을 틉니다</td><td><a href="https://claude.ai/artifact/2gTLtEXtoRAkgbPB21qoWE">동파 3 계량기 방지</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-06 14:00 | 인테리어 지식</td><td>세탁기 동파방지 예방법, 수도를 잠그고 호스 물을 빼면 5분이면 끝납니다</td><td><a href="https://claude.ai/artifact/Y9YpqCPcG4YauEW5oFPxW1">동파 4 세탁기</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-07 14:00 | 인테리어 지식</td><td>수도 동파 방지 커버, 마당 수도는 커버를 씌우기 전에 부동전 안의 물부터 뺍니다</td><td><a href="https://claude.ai/artifact/8qKfHhbjRZpvZgfPcE1Cg6">동파 5 수도 커버</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-08 14:00 | 인테리어 지식</td><td>배관 해빙, 바깥 배관은 언 곳을 잘라 스팀으로 녹이고 다시 이어 감쌉니다</td><td><a href="https://claude.ai/artifact/NjomfMkFfj5t7VB4sxFFkV">동파 6 배관 해빙</a></td></tr>
+<tr data-state="wait"><td class="st">대기</td><td>2026-11-05 10:00 | 중문</td><td>오산세교 힐데스하임 중문, 69㎡ · 72㎡ · 84㎡ 현관에 맞는 문 · 원슬라이딩 55만원부터</td><td><a href="https://claude.ai/artifact/3Jn894dVUvM5Vk3QnxoJky">힐데스하임 중문</a></td></tr>
+<tr data-state="wait"><td class="st">대기</td><td>2026-11-06 10:00 | 중문</td><td>검단 아테라자이 사전점검 전에 중문, 59㎡ 468세대 현관에 맞는 문 · 원슬라이딩 55만원 · 3연동 65만원</td><td><a href="https://claude.ai/artifact/BAaBkX6jVjFNqbHvG2witX">아테라자이 중문</a></td></tr>
+<tr data-state="wait"><td class="st">대기</td><td>2026-11-06 20:00 | 도어락</td><td>현관문 도어락 교체, 열쇠 손잡이는 그대로 두고 번호키만 바꾼 의정부 · 양주 집</td><td><a href="https://claude.ai/artifact/Ke3VjtP8uuyqiH5jCf2z5B">현관문 도어락</a></td></tr>
+<tr data-state="wait"><td class="st">대기</td><td>2026-11-08 20:00 | 도어락</td><td>치매 도어락 설치, 집 안에서도 카드를 대야 열리는 양방향 번호키를 단 부산 두 집</td><td><a href="https://claude.ai/artifact/3MyEcdCrCMTekvBRwaE4P1">치매 도어락</a></td></tr>
+<tr data-state="wait"><td class="st">대기</td><td>2026-11-09 10:00 | 입주청소</td><td>오산 입주청소, 오산세교 힐데스하임 34평 청소만 37만 4천원 · 715세대 첫 주말이 먼저 찹니다</td><td><a href="https://claude.ai/artifact/HSHNdnpyBpV74Vitn8DCqn">힐데스하임 입주청소</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-03 12:00 | 하루에 한사람<br><small style="color:var(--mut)">블로그: give_me_travel (낭만도사)</small></td><td>김유정 사주, 네 살에 데뷔한 정축일주는 끝까지 남는 묘에 앉았고 올해 丙午에 없던 도화가 들어왔습니다</td><td><a href="https://claude.ai/artifact/ChXJi4KspTffEMpWWyFZuX">김유정 사주</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-04 12:00 | 사주 이야기<br><small style="color:var(--mut)">블로그: give_me_travel (낭만도사)</small></td><td>수능운세, 2008년생 쥐띠 수험생은 올해 子午충이 들고 공부 책상은 남서쪽을 봅니다</td><td><a href="https://claude.ai/artifact/RkoLLZAENPTCc1vEzcZLkF">수능운세</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-05 12:00 | 사주 이야기<br><small style="color:var(--mut)">블로그: give_me_travel (낭만도사)</small></td><td>2027 신년운세, 양띠 해 未가 내 띠와 합인지 충인지로 보는 12띠 운세</td><td><a href="https://claude.ai/artifact/5FgbKtfoujtFLwq3b7krHk">2027 신년운세</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-06 12:00 | 하루에 한사람<br><small style="color:var(--mut)">블로그: give_me_travel (낭만도사)</small></td><td>정해인 사주, 백호가 둘인 병술일주가 백호의 해 2024년에 청룡 트로피 두 개를 들었습니다</td><td><a href="https://claude.ai/artifact/PSdwZUiJDvXozdFz33v7cn">정해인 사주</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-09 12:00 | 사주 이야기<br><small style="color:var(--mut)">블로그: give_me_travel (낭만도사)</small></td><td>입시운 사주 보는 법, 수능 날 일진보다 올해 운이 팔구 할입니다</td><td><a href="https://claude.ai/artifact/KRACmf3c5iRnge1tCydvew">입시운 사주</a></td></tr>
+<tr data-state="done"><td class="st">완료</td><td>2026-11-10 12:00 | 사주 이야기<br><small style="color:var(--mut)">블로그: give_me_travel (낭만도사)</small></td><td>합격운 타로, 수능 전 붙을지 묻고 싶은 한 가지를 직관력이 뛰어난 김수아 상담가와 카드로 봅니다</td><td><a href="https://claude.ai/artifact/LqofrLBetuW7H8J1CnGRjk">합격운 타로</a></td></tr>
+<tr data-state="wait"><td class="st">대기</td><td>2026-11-09 14:00 | 중문</td><td>3연동 중문 스토퍼, 위치 · 교체 · 설치 — 문이 쾅 닫히는 집에서 바꾼 순서</td><td><a href="https://claude.ai/artifact/9hK7ZLe5sVGRBiwRPTmZTQ">3연동 스토퍼</a></td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-10 10:00 | 입주청소</td><td>청주 입주청소 가격, 33평 · 34평 청소만 맡기면 얼마이고 어디까지 닦나<br><small style="color:var(--mut)">stats: 「청주 입주청소」 자연 유입 · 자동완성 가격 · 비용 · 업체</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-10 14:00 | 인테리어 지식</td><td>베이크아웃 방법, 셀프로 할 때와 맡길 때 · 새집 베이크아웃 순서<br><small style="color:var(--mut)">stats: 「베이크아웃」 · 자동완성 방법 · 셀프 · 새집</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-11 10:00 | 입주 단지</td><td>힐스테이트 등촌역 사전점검 · 줄눈, 입주 전에 할 순서<br><small style="color:var(--mut)">stats: 「힐스테이트등촌역 이사」 · 자동완성 사전점검 · 줄눈</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-11 14:00 | 줄눈</td><td>케라폭시 가격, 폴리우레아와 차이 · 거실 바닥 평수별 금액<br><small style="color:var(--mut)">stats: 「거실케라폭시가격」 · 자동완성 「케라폭시 가격 차이」</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-12 10:00 | 입주 단지</td><td>군산 레이크시티 아이파크 입주일, 84a 줄눈 · 입주청소 순서<br><small style="color:var(--mut)">stats: 「군산 레이크시티 아이파크」 · 「군산 줄눈」 · 자동완성 84a · 입주일</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-12 14:00 | 중문</td><td>3연동 중문 부품 명칭, 레일 · 롤러 · 스토퍼 · 연동 줄 고장 나는 곳<br><small style="color:var(--mut)">stats: 3연동 부품 유입 · 자동완성 「부품 명칭 · 판매」</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-13 10:00 | 입주청소</td><td>매교역 팰루시드 입주청소, 39타입 · 민간임대 나갈 때까지 생각할 것<br><small style="color:var(--mut)">stats: 「매교역 팰루시드」 · 자동완성 39타입 · 민간임대</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-13 14:00 | 중문</td><td>중문 원상복구, 전세 나갈 때 3연동 중문 떼는 비용과 구멍 메우기<br><small style="color:var(--mut)">stats: 10/28 이전 「원상복구 · 하자보수」 유입</small></td><td>도우미 만들면 링크</td></tr><tr data-state="plan"><td class="st" style="color:var(--mut)">원고 준비</td><td>2026-11-14 14:00 | 결로</td><td>신축아파트 유리결로, 이중창 안쪽 물방울이 생기는 집과 막는 순서<br><small style="color:var(--mut)">stats: 「신축아파트 유리결로 · 이중창 결로」 · 공감 상위 곰팡이 · 결로 시리즈</small></td><td>도우미 만들면 링크</td></tr></tbody></table></div>
+<p>「원고 준비」 줄은 아직 예약하지 않습니다. 도우미가 붙으면 「대기」로 바꿉니다.</p>
+<p>이미 사용자가 직접 예약한 글(이 큐에서 다루지 않음): 11/3 08:00 도어락 고장 · 11/4 10:00 아파트 도어락 교체 · 11/7 08:00 제일풍경채 검단 4차 중문.</p>
+
+<h1>Aside 작업 규칙</h1>
+<div class="wrap" style="padding:14px 16px;min-width:0"><ul style="margin:0;padding-left:20px;display:grid;gap:6px">
+<li><b>본문</b>: 도우미의 「본문 복사」 버튼을 쓰거나, h0를 읽을 때 <code>img[data-real]</code>의 src를 data-real 주소로 바꾼 뒤 붙입니다. data: 그림을 그대로 넣지 않습니다.</li>
+<li><b>썸네일</b>: 「썸네일 복사」 그림 한 장만 네이버에 직접 올려 대표로 지정합니다.</li>
+<li><b>카테고리</b>: id="when"의 두 번째 칸 이름이 네이버에 있으면 그것, 없으면 「인테리어 지식」. 단 「블로그: give_me_travel (낭만도사)」로 적힌 줄은 champion_chart가 아니라 give_me_travel 블로그에 올리고, 카테고리가 없으면 「인테리어 지식」을 쓰지 말고 카테고리 없이 둡니다.</li>
+<li><b>태그</b>: 본문 맨 끝 # 줄을 태그 칸으로 옮깁니다.</li>
+<li><b>보고</b>: 예약이 끝나면 채팅에 「예약 완료: 날짜·시간·제목」 한 줄.</li>
+<li><b>하지 않을 것</b>: 지목하지 않은 글 수정 · 여러 글 한꺼번에 수정 · 댓글/이웃 작업.</li>
+</ul></div>
+
+
+<h1>티스토리 발행 · 수정 (이 표에 줄이 있을 때만)</h1>
+<div class="wrap"><table id="tistory">
+<thead><tr><th>상태</th><th>블로그 · 글</th><th>할 일</th><th>도우미</th></tr></thead>
+<tbody><tr data-state="none"><td class="st">없음</td><td>—</td><td>지금은 할 일이 없습니다. 생기면 Claude가 한 줄씩 넣습니다.</td><td>—</td></tr></tbody>
+</table></div>
+<p>티스토리도 같은 방식입니다. 도우미의 제목 t0 · 본문 h0 · 맨 위 when 줄을 따르고, 끝나면 「티스토리 완료: 블로그 /글 번호」를 채팅에 남겨 주세요.</p>
+<p><b>역할</b>: 무엇을 언제 올리고 고칠지는 Claude가 정해 이 페이지에 적습니다. Aside는 이 페이지에 적힌 줄만 네이버 · 티스토리에서 실행하고 결과를 보고합니다. 유튜브 · 틱톡 · 인스타 · 스레드 · 블로거 · 예약 작업은 Claude가 직접 합니다.</p>
+
+<h1>통계 읽기 (매일 23시 · 한 번에 하나)</h1>
+<div class="wrap" style="padding:14px 16px;min-width:0"><p style="color:inherit">champion_chart 블로그 관리 → 통계에서 아래를 읽고, 채팅에 「통계 보고 날짜」로 시작하는 표 한 덩어리로 남겨 주세요. 숫자만, 설명 없이.</p>
+<ol style="margin:8px 0 0;padding-left:20px;display:grid;gap:4px">
+<li>일간 현황: 최근 7일 날짜별 조회수 · 방문 횟수</li>
+<li>유입 검색어: 최근 7일 상위 30개 (검색어 | 유입 수)</li>
+<li>게시물 순위: 최근 7일 조회수 상위 30개 (제목 | 조회수 | logNo)</li>
+<li>유입 경로: 최근 7일 (네이버 통합검색 · 블로그 검색 · 구글 · 기타 | 비율)</li>
+<li>월요일만: 최근 30일 게시물 순위 상위 50개</li>
+</ol></div>
+
+<h1>링크 수정 (이 표에 줄이 있을 때만)</h1>
+<div class="wrap"><table id="links">
+<thead><tr><th>상태</th><th>고칠 글 (logNo)</th><th>할 일</th></tr></thead>
+<tbody><tr data-state="none"><td class="st">없음</td><td>—</td><td>지금은 고칠 글이 없습니다. 생기면 Claude가 여기에 한 줄씩 넣습니다.</td></tr></tbody>
+</table></div>
+<p>링크 수정은 줄마다 그 글 하나만 엽니다. 「할 일」에 적힌 문장 · 링크만 넣고 저장한 뒤 「링크 완료: logNo」를 채팅에 남겨 주세요.</p>
+</main>

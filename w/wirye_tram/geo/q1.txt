@@ -1,0 +1,10 @@
+[out:json][timeout:60];
+(
+  node(37.455,127.105,37.505,127.165)[railway~"tram_stop|station|halt|stop|construction|proposed"];
+  node(37.455,127.105,37.505,127.165)[public_transport~"stop_position|platform|station"][~"tram|light_rail|train|subway"~"yes"];
+  node(37.455,127.105,37.505,127.165)["construction:railway"];
+  node(37.455,127.105,37.505,127.165)["proposed:railway"];
+  way(37.455,127.105,37.505,127.165)[railway~"tram|construction|light_rail|proposed"];
+  relation(37.455,127.105,37.505,127.165)[route~"tram|light_rail"];
+);
+out tags center;

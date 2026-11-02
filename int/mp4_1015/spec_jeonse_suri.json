@@ -1,0 +1,24 @@
+{
+ "head": [
+  "전세집 수리 범위",
+  "누가 고칠까?"
+ ],
+ "what": "고장 난 곳",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_suri/nangman_interior_jeonse_suri_fig1.png",
+   "line": "집주인이 고칠 것\n세입자가 고칠 것",
+   "sub": "전세집 수리 범위"
+  },
+  {
+   "src": "/home/claude/hv/cards/jeonse_suri_a.png",
+   "line": "살 수 없으면\n집주인 몫",
+   "sub": "법제처 생활법령정보"
+  },
+  {
+   "src": "/home/claude/hv/cards/jeonse_suri_b.png",
+   "line": "먼저 알리고\n사진과 날짜",
+   "sub": "민법 제634조"
+  }
+ ]
+}

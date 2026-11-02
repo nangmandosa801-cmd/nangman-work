@@ -1,0 +1,19 @@
+{
+ "head": [
+  "곰방 뜻",
+  "양중비 별도는 무슨 돈?"
+ ],
+ "what": "견적서",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/gombang_a.png",
+   "line": "사람이 나르면 곰방\n장비면 양중",
+   "sub": "곰방 · 양중 차이"
+  },
+  {
+   "src": "/home/claude/hv/cards/gombang_b.png",
+   "line": "곰방비는\n인건비",
+   "sub": "층수 · 자재 · 거리"
+  }
+ ]
+}

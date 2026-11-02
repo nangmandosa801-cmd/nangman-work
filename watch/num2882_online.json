@@ -1,0 +1,1222 @@
+{
+ "made": "2026-10-19 17:15",
+ "why": "10/19 16:43 사용자 「2882로 해 당분간」 — 손님 번호 010-7678-9967 → 010-2882-8165. 크롬 작업이 아래를 고친다(이 서버에서는 못 바꿈). 고칠 때 「010-7678-9967」만 「010-2882-8165」로, tel:/sms: 링크의 01076789967도 01028828165로.",
+ "how_checked": "티스토리: sitemap.xml 전체 글 주소를 curl로 받아 본문에서 번호 검색 · 구글 블로그: feeds/posts/default JSON 본문 + 블로그 첫 화면(가젯) · 유튜브: 영상 페이지 curl이 막혀 sns 기록 json의 설명(desc)으로 판단 · 인스타 · 스레드 · 카카오 · 크몽: 이 서버에서 확인 못 함(목록만)",
+ "tistory": {
+  "nangmaninterior": {
+   "checked_posts": 20,
+   "with_7678": [
+    {
+     "no": 1,
+     "url": "https://nangmaninterior.tistory.com/1",
+     "title": "신검단중앙역 센트레빌 입주 체크리스트, 열쇠 받고 이삿날까지 다섯 단계",
+     "count": 4
+    },
+    {
+     "no": 2,
+     "url": "https://nangmaninterior.tistory.com/2",
+     "title": "e편한세상 서대전역 센트로, 중문 옵션 안 한 집이 입주 전 볼 네 가지",
+     "count": 4
+    },
+    {
+     "no": 3,
+     "url": "https://nangmaninterior.tistory.com/3",
+     "title": "청주 가경 아이파크 6단지 입주, 옵션 중문 139만원 넣을까 말까",
+     "count": 4
+    },
+    {
+     "no": 4,
+     "url": "https://nangmaninterior.tistory.com/4",
+     "title": "아파트 현관 중문 가격, 총액을 정하는 다섯 가지와 견적서 점검표",
+     "count": 4
+    },
+    {
+     "no": 5,
+     "url": "https://nangmaninterior.tistory.com/5",
+     "title": "원슬라이딩 중문 가격, 50만~130만원대에 추가금 붙는 4곳",
+     "count": 4
+    },
+    {
+     "no": 6,
+     "url": "https://nangmaninterior.tistory.com/6",
+     "title": "입주청소 업체 고르는 법, 전화로 먼저 물을 네 가지와 단계 고르기",
+     "count": 4
+    },
+    {
+     "no": 7,
+     "url": "https://nangmaninterior.tistory.com/7",
+     "title": "입주청소 추가금 요구, 청소 피해 5건 중 1건은 더 달라는 돈입니다",
+     "count": 4
+    },
+    {
+     "no": 8,
+     "url": "https://nangmaninterior.tistory.com/8",
+     "title": "베란다 누수 책임, 윗집과 관리사무소 중 누가 고치나 원인 네 곳별 정리",
+     "count": 4
+    },
+    {
+     "no": 9,
+     "url": "https://nangmaninterior.tistory.com/9",
+     "title": "아파트 샷시 누수, 창호 하자는 3년 안이면 분양한 회사가 고칩니다",
+     "count": 4
+    },
+    {
+     "no": 10,
+     "url": "https://nangmaninterior.tistory.com/10",
+     "title": "아파트 외벽 실리콘 비용, 견적 두 장 비교하는 체크리스트 7가지",
+     "count": 4
+    },
+    {
+     "no": 11,
+     "url": "https://nangmaninterior.tistory.com/11",
+     "title": "거실 매트 시공 비용, 34평 거실부터 방까지 110~120장 듭니다",
+     "count": 4
+    },
+    {
+     "no": 12,
+     "url": "https://nangmaninterior.tistory.com/12",
+     "title": "아파트 외부 코킹 비용, 34평 41만원과 204만원이 다른 이유",
+     "count": 4
+    },
+    {
+     "no": 13,
+     "url": "https://nangmaninterior.tistory.com/13",
+     "title": "창문 외풍 차단, 새는 곳 네 군데 찾는 법과 막는 방법 다섯 가지 비교",
+     "count": 4
+    },
+    {
+     "no": 14,
+     "url": "https://nangmaninterior.tistory.com/14",
+     "title": "아파트 하자보수 기간, 입주 2년이면 도배·타일·가구 하자 청구가 끝납니다",
+     "count": 4
+    },
+    {
+     "no": 16,
+     "url": "https://nangmaninterior.tistory.com/16",
+     "title": "인테리어협력업체모집, 광고비 없이 계약된 건만 수수료를 내는 낭만 인테리어 제휴",
+     "count": 2
+    },
+    {
+     "no": 23,
+     "url": "https://nangmaninterior.tistory.com/23",
+     "title": "진접역 신안인스빌 중문, 현관 폭으로 고르는 순서와 일곱 집 비교",
+     "count": 4
+    },
+    {
+     "no": 24,
+     "url": "https://nangmaninterior.tistory.com/24",
+     "title": "오산역 금강펜테리움 센트럴파크 줄눈, 입주청소보다 하루 먼저 합니다",
+     "count": 4
+    }
+   ]
+  },
+  "talk7921": {
+   "checked_posts": 71,
+   "with_7678": [
+    {
+     "no": 82,
+     "url": "https://talk7921.tistory.com/82",
+     "title": "트리우스광명 전세, 첫 만기는 12월부터이고 경기 입주 2년 차 7개 단지는 1만 5,806세대입니다",
+     "count": 2
+    }
+   ]
+  },
+  "nangman-dosa": {
+   "checked_posts": 40,
+   "with_7678": []
+  }
+ },
+ "tistory_note": "본문 글자만 셈. 글 속 그림(전후 사진 오른쪽 아래 「낭만 인테리어 010-7678-9967」 등)에 박힌 번호는 확인하지 못함. 로컬 원고(tistory_int/out_*.json · b1019 · two_year_1018 · partner_1018)는 2882로 바꿔 둠 — 다시 붙여넣을 때 그 원고를 쓰면 됨.",
+ "blogger": {
+  "nangmanbusinesscards": {
+   "posts_with_7678": [
+    {
+     "id": "6351484848751806410",
+     "title": "전단지 제작, 디자인부터 인쇄까지 2,000매 99,000원 · 인터넷 전단은 무료",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/2000-99000.html",
+     "count": 2
+    },
+    {
+     "id": "8008619371026318626",
+     "title": "명함 예절 순서, 아랫사람이 먼저 건네고 받은 명함은 테이블에 둡니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_301.html",
+     "count": 1
+    },
+    {
+     "id": "4129879277007023466",
+     "title": "조후용신 억부용신 뜻, 겨울생은 불을 찾고 힘센 사주는 덜어 냅니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_636.html",
+     "count": 1
+    },
+    {
+     "id": "7230268614232785234",
+     "title": "보험설계사 명함, 이름과 하는 일 한 줄이 먼저 보이게 · 견본 5종",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/5.html",
+     "count": 2
+    },
+    {
+     "id": "585281550164256164",
+     "title": "용신 색깔, 명함 뒷면에 용신 상징물까지 넣어 드립니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_18.html",
+     "count": 2
+    },
+    {
+     "id": "7498908595199640217",
+     "title": "ㅍㄲㅅ · 포장이사 · 보관이사 · 기업이전 · 서울 · 경기",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_663.html",
+     "count": 1
+    },
+    {
+     "id": "1879942920833010969",
+     "title": "ㅇㄹㅌㅇ · 포장이사 · 보관이사 · 사무실이사 · 서울 강남 · 서초",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_647.html",
+     "count": 1
+    },
+    {
+     "id": "5992090421672002152",
+     "title": "ㄷㄹㅎㅇㅅ · 줄눈 · 입주청소 · 탄성코트 · 새집증후군 · 서울 · 경기 · 인천",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_481.html",
+     "count": 1
+    },
+    {
+     "id": "8180267911793054158",
+     "title": "디에이치 방배 84A 입주 견적, 중문 · 입주청소 · 줄눈 · 매트를 한 장에 모아 품목별로 고릅니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/84a.html",
+     "count": 1
+    },
+    {
+     "id": "6375198744537607561",
+     "title": "인테리어업체 홍보, 제휴 시공팀에 구글 블로그 소개 글과 디지털 명함을",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_5593.html",
+     "count": 2
+    },
+    {
+     "id": "8388987176263404883",
+     "title": "상호작명 하는법, 운이 따라와야 이름이 불리고 간판은 역마 쪽에 답니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_747.html",
+     "count": 2
+    },
+    {
+     "id": "1787798364616623569",
+     "title": "사주 상담 가격, 질문 3개 30,000원에 낭만도사가 리포트 두 판으로 답합니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/3-30000.html",
+     "count": 2
+    },
+    {
+     "id": "4143504247489704911",
+     "title": "꽃집 명함, 당일 배송 마감 시간과 꽃 사진 QR을 뒷면에 넣습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/qr.html",
+     "count": 2
+    },
+    {
+     "id": "1634538705056550015",
+     "title": "명함 종이 종류, 낭만 명함은 스노우지 250g 무광 코팅 한 가지로 만듭니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/250g.html",
+     "count": 2
+    },
+    {
+     "id": "8123941208475940111",
+     "title": "명함 QR코드, 뒷면 구석에 2cm 넘게 넣고 주소는 하나만 담습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/qr-2cm.html",
+     "count": 2
+    },
+    {
+     "id": "1097731746699165184",
+     "title": "명함 앞뒷면 차이, 앞면은 누구인지 · 뒷면은 다시 연락할 이유를 넣습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_16.html",
+     "count": 2
+    },
+    {
+     "id": "5673970430791972505",
+     "title": "명함 사이즈, 우리나라 기본은 90 × 50mm이고 픽셀은 1063 × 591",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/90-50mm-1063-591.html",
+     "count": 2
+    },
+    {
+     "id": "4995458375038722466",
+     "title": "ㅇㅇ 클린 · 에어컨 청소 · 인천 · 부천 · 시흥",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_948.html",
+     "count": 1
+    },
+    {
+     "id": "2270072672046764128",
+     "title": "ㅂㅅㅋ 배관케어 · 누수 · 배관 · 하남 · 강동",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_830.html",
+     "count": 1
+    },
+    {
+     "id": "6972891393173725788",
+     "title": "ㄷㅇ 창호 · 샷시 · 군포 · 용인 · 수원 · 서울",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_440.html",
+     "count": 1
+    },
+    {
+     "id": "1391120323714026697",
+     "title": "ㄷㅂ 필름 · 인테리어 필름 · 수원 · 용인 · 동탄",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_406.html",
+     "count": 1
+    },
+    {
+     "id": "8728307013329940485",
+     "title": "ㄷㅎ 인테리어필름 · 인테리어 필름 · 남양주 · 구리 · 서울",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_85.html",
+     "count": 1
+    },
+    {
+     "id": "260303922696030778",
+     "title": "ㅈㅇ 클리닝 · 에어컨 청소 · 소파 · 상가 청소 · 부천 · 경기 · 서울",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_8055.html",
+     "count": 1
+    },
+    {
+     "id": "2172872819641757343",
+     "title": "ㅈㅇㅇ 시스템 · 시스템에어컨 · 서울 · 경기 · 인천",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_927.html",
+     "count": 1
+    },
+    {
+     "id": "3186576143613967131",
+     "title": "ㅇㅋㅊㅈ · 전기차 충전기 · 서울 · 경기 · 인천",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_628.html",
+     "count": 1
+    },
+    {
+     "id": "138545123838354343",
+     "title": "농막 · 체류형쉼터 제작 · 컨테이너 농막 · 전국 출고",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_7675.html",
+     "count": 1
+    },
+    {
+     "id": "6135543414988456078",
+     "title": "ㄷㅇ 단열 · 단열 · 결로 · 인천 · 부천 · 김포",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_257.html",
+     "count": 1
+    },
+    {
+     "id": "1515335975732759419",
+     "title": "ㅂㄹㅆ 매트 · 반려견 매트 · 층간소음 매트 · 전국",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_294.html",
+     "count": 1
+    },
+    {
+     "id": "8887658279868768278",
+     "title": "ㅍㄱㅇㅌ · 방묘문 · 반려동물 안전문 · 파주 운정 · 전국",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_462.html",
+     "count": 1
+    },
+    {
+     "id": "7314595092786009586",
+     "title": "ㅅㅆ 종합청소 · 입주청소 · 수원",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_402.html",
+     "count": 1
+    },
+    {
+     "id": "7004780657145189099",
+     "title": "ㅁㅅㄹ ㅇㅂㅈ · 문 수리 · 서울 · 경기 · 인천",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_478.html",
+     "count": 1
+    },
+    {
+     "id": "8382739691274717850",
+     "title": "ㅇㅊㅅㅎ 중문 · 현관 중문 · 경기도 · 인천",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_960.html",
+     "count": 1
+    },
+    {
+     "id": "3529744034136826747",
+     "title": "ㅆ 중문 · 현관 중문 · 경기 · 서울 · 인천",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_709.html",
+     "count": 1
+    },
+    {
+     "id": "3858485367920020656",
+     "title": "ㅁㄷ 중문 · 현관 중문 · 부산 · 창원 · 김해",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_92.html",
+     "count": 1
+    },
+    {
+     "id": "9156050964016935404",
+     "title": "ㅋㄹㅂ 중문 · 현관 중문 · 대전 · 세종 · 청주",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_945.html",
+     "count": 1
+    },
+    {
+     "id": "9166264171410792428",
+     "title": "사주 색깔, 조후용신은 행복과 건강의 색 · 억부용신은 성공의 색으로 명함에 두 가지 색을 넣습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_15.html",
+     "count": 3
+    },
+    {
+     "id": "8222413286583403622",
+     "title": "명함 로고 제작 비용, 로고가 없으면 같이 만들고 있으면 파일 확보 방법부터 봅니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_232.html",
+     "count": 2
+    },
+    {
+     "id": "8516824642220413807",
+     "title": "명함 소량 제작, 200매부터 시안을 먼저 보고 주문하고 그보다 적게는 따로 안내합니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/50-100.html",
+     "count": 2
+    },
+    {
+     "id": "1839522878729879281",
+     "title": "네일 명함 디자인, 1인 네일숍은 예약 방법과 아트 사진 주소를 뒷면에 넣습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/1.html",
+     "count": 2
+    },
+    {
+     "id": "7287836363575896986",
+     "title": "카페 명함, 원두 · 케이크 예약 문구와 영업시간을 넣는 카페 명함 제작방법과 견본 7종",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/2.html",
+     "count": 2
+    },
+    {
+     "id": "720986622589828838",
+     "title": "식당 명함 디자인, 포장 · 단체 예약 번호와 영업시간을 한눈에 보이게 넣습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_318.html",
+     "count": 2
+    },
+    {
+     "id": "8241051394146884675",
+     "title": "미용실 명함 디자인, 예약 방법과 휴무일을 뒷면에 넣으면 손님이 다음 달에 다시 연락합니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_357.html",
+     "count": 2
+    },
+    {
+     "id": "7541553951242975693",
+     "title": "청소업체 명함, 입주청소 명함은 평형별 견적 문구와 청소 전후 사진 주소가 손님을 다시 부릅니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_36.html",
+     "count": 2
+    },
+    {
+     "id": "6279945125164868944",
+     "title": "인테리어 명함, 시공 업체 명함은 하는 일 세 가지와 시공 사진 블로그 주소를 같이 넣습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_117.html",
+     "count": 2
+    },
+    {
+     "id": "8497363510322649806",
+     "title": "명함 디자인 샘플, 부동산 명함 견본 24종을 앞면과 뒷면으로 모았습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/24.html",
+     "count": 2
+    },
+    {
+     "id": "462842293162373154",
+     "title": "ㅈㄴㅊ · ㅈㄴ 코킹 · 외벽 · 창틀 코킹 · 줄눈 · 수도권",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_673.html",
+     "count": 1
+    },
+    {
+     "id": "4223332517730144233",
+     "title": "ㅂㅊㅇ 종합클린 · 입주청소 · 새집증후군 · 코팅 · 서울 · 경기",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_137.html",
+     "count": 1
+    },
+    {
+     "id": "4176942123649125478",
+     "title": "ㅅㅅㄹ 중문 · 현관 중문 · 남양주 인근",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_494.html",
+     "count": 1
+    },
+    {
+     "id": "31750058227563701",
+     "title": "제휴 업체 모아 보기 · 하는 일 · 지역별",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_889.html",
+     "count": 1
+    },
+    {
+     "id": "8436746740157035613",
+     "title": "낭만도사 명함, 사주 용어를 쉽게 풀고 인물로 명리를 읽는 블로그 소개",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_164.html",
+     "count": 1
+    },
+    {
+     "id": "3018833623372737792",
+     "title": "지산드림 명함, 지식산업센터 · 상가 · 토지 매물과 시세를 숫자로 보는 블로그 소개",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_209.html",
+     "count": 1
+    },
+    {
+     "id": "1070252322241912724",
+     "title": "낭만 인테리어 명함, 중문 · 샷시 · 누수 · 결로 시공을 사진과 사례로 푸는 블로그 소개",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_317.html",
+     "count": 1
+    },
+    {
+     "id": "5621087601978835420",
+     "title": "낭만 부동산 분석 플랫폼 명함, 실거래 숫자로 경기 · 서울 아파트를 읽는 블로그 소개",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_243.html",
+     "count": 1
+    },
+    {
+     "id": "2957898209660018454",
+     "title": "부동산 명함 제작, 손님이 버리지 않는 부동산 명함은 번호가 크고 동네가 보이고 뒷면이 쓸모 있습니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_920.html",
+     "count": 2
+    },
+    {
+     "id": "4556712119625613623",
+     "title": "부동산 블로그 대행, 낭만 부동산 분석 플랫폼을 샘플로 보여 드리고 검색어와 실거래 숫자로 써 드립니다",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_862.html",
+     "count": 2
+    },
+    {
+     "id": "3350115393299292929",
+     "title": "부동산 명함 디자인, 공인중개사 명함 규정에 맞춰 꼭 넣을 다섯 가지와 시안 · 로고 · 제작 순서",
+     "url": "https://nangmanbusinesscards.blogspot.com/2026/10/blog-post_599.html",
+     "count": 2
+    }
+   ],
+   "layout": "블로그 첫 화면 가젯(HTML/JavaScript)에 「전화 · 문자 010-7678-9967」(주문서 · 계산기 가젯 — 로컬 원본 blogger/card/calc_gadget.html은 2882로 바꿔 둠) — 레이아웃 > 가젯 확인"
+  },
+  "nangmanisa": {
+   "posts_with_7678": [
+    {
+     "id": "3474050044537959460",
+     "title": "강남 포장이사, 서초 · 반포까지 짐 정리와 청소를 한 팀이 끝냅니다",
+     "url": "https://nangmanisa.blogspot.com/2026/10/blog-post_614.html",
+     "count": 1
+    },
+    {
+     "id": "2159173423950258516",
+     "title": "반포장이사 포장이사 차이, 일반이사 · 용달이사까지 누가 무엇을 싸는지 한 장으로 봅니다",
+     "url": "https://nangmanisa.blogspot.com/2026/10/blog-post_18.html",
+     "count": 1
+    },
+    {
+     "id": "5535481065081181388",
+     "title": "손없는날 2026 · 2027, 이사하기 좋은 날을 달마다 요일까지 정리했습니다",
+     "url": "https://nangmanisa.blogspot.com/2026/10/2026-2027.html",
+     "count": 1
+    },
+    {
+     "id": "2451120896046099652",
+     "title": "이사 날짜 안맞을 때, 짐은 보관이사로 맡기고 전입신고는 보증금 받은 뒤에 옮깁니다",
+     "url": "https://nangmanisa.blogspot.com/2026/10/blog-post.html",
+     "count": 1
+    }
+   ],
+   "layout": "블로그 첫 화면에 「문의 010-7678-9967」 상자 — 가젯인지 글인지 확인"
+  },
+  "nangmancoffeebean": {
+   "posts_with_7678": [
+    {
+     "id": "9195535215285397917",
+     "title": "커피 로스팅 단계, 초록 생두가 갈색 원두가 되기까지 12분",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/blog-post_83.html",
+     "count": 1
+    },
+    {
+     "id": "1824488708011651815",
+     "title": "커피 산미 이유, 커피콩은 원래 빨간 열매의 씨앗이었다",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/blog-post_316.html",
+     "count": 1
+    },
+    {
+     "id": "5725338480542931740",
+     "title": "게이샤 커피 유래, 에티오피아 숲에서 파나마 산비탈까지 건너온 한 그루",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/blog-post_497.html",
+     "count": 1
+    },
+    {
+     "id": "6676453505190592039",
+     "title": "에티오피아 예가체프 특징, 꽃향 나는 커피가 자라는 남쪽 고원 마을",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/blog-post_15.html",
+     "count": 1
+    },
+    {
+     "id": "7400904554994590001",
+     "title": "과테말라 안티구아 원두 특징, 세 화산이 둘러싼 골짜기의 초콜릿 맛",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/blog-post.html",
+     "count": 1
+    },
+    {
+     "id": "5520944594889097135",
+     "title": "만델링 원두 특징, 수마트라 토바 호숫가의 묵직하고 흙내 나는 커피",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/mandheling.html",
+     "count": 1
+    },
+    {
+     "id": "7354169742863697198",
+     "title": "케냐 AA 원두 특징, 적도 고원의 붉은 흙이 만든 자몽 같은 산미",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/aa.html",
+     "count": 1
+    },
+    {
+     "id": "4300712027776597492",
+     "title": "콜롬비아 수프리모 특징, 안데스 산맥 비탈에서 한 해 두 번 열리는 커피",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/colombia-supremo.html",
+     "count": 1
+    },
+    {
+     "id": "2959965747944641465",
+     "title": "브라질 원두 특징, 세계 커피의 3분의 1이 자라는 넓은 고원",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/brazil-coffee-beans.html",
+     "count": 1
+    },
+    {
+     "id": "4387886138748373346",
+     "title": "원두 종류 특징, 아라비카와 로부스타부터 나라별 맛까지 한눈에",
+     "url": "https://nangmancoffeebean.blogspot.com/2026/10/coffee-bean-types.html",
+     "count": 1
+    }
+   ]
+  },
+  "nangmanreal": {
+   "posts_with_7678": [],
+   "note": "글 9편 · 번호 없음"
+  }
+ },
+ "youtube": {
+  "channel": "낭만 인테리어 UCoQVaXh4WEoQKnkjJQa7CJQ @nangman_interior (nangmandosa801)",
+  "videos_desc_7678": [
+   {
+    "key": "geomdan",
+    "id": "f016YyjBM6Y",
+    "url": "https://youtu.be/f016YyjBM6Y",
+    "title": "검단 입주청소, 새 아파트 분진은 서랍 레일과 창틀 레일에 남습니다"
+   },
+   {
+    "key": "osan",
+    "id": "O6uFW9-52xk",
+    "url": "https://youtu.be/O6uFW9-52xk",
+    "title": ""
+   },
+   {
+    "key": "urbanity",
+    "id": "KaswIQ-CEoE",
+    "url": "https://youtu.be/KaswIQ-CEoE",
+    "title": ""
+   },
+   {
+    "key": "unjeong",
+    "id": "hGVcHhb-STo",
+    "url": "https://youtu.be/hGVcHhb-STo",
+    "title": ""
+   },
+   {
+    "key": "deungchon",
+    "id": "mMHvpF-c73Y",
+    "url": "https://youtu.be/mMHvpF-c73Y",
+    "title": ""
+   },
+   {
+    "key": "reventus",
+    "id": "xPlhuuCtabM",
+    "url": "https://youtu.be/xPlhuuCtabM",
+    "title": ""
+   },
+   {
+    "key": "seosan",
+    "id": "E2-AD9u0fEE",
+    "url": "https://youtu.be/E2-AD9u0fEE",
+    "title": ""
+   },
+   {
+    "key": "seodaejeon",
+    "id": "WxvCcNRrf4I",
+    "url": "https://youtu.be/WxvCcNRrf4I",
+    "title": ""
+   },
+   {
+    "key": "urbanity_short",
+    "id": "RZGJCdruwc0",
+    "url": "https://youtu.be/RZGJCdruwc0",
+    "title": ""
+   },
+   {
+    "key": "osan_short",
+    "id": "WfGq4cBlsiA",
+    "url": "https://youtu.be/WfGq4cBlsiA",
+    "title": ""
+   },
+   {
+    "key": "dongtan_short",
+    "id": "Ci5IbBsXs-c",
+    "url": "https://youtu.be/Ci5IbBsXs-c",
+    "title": ""
+   },
+   {
+    "key": "oebu_coking_self_short",
+    "id": "Unkcxal6uRU",
+    "url": "https://youtu.be/Unkcxal6uRU",
+    "title": ""
+   },
+   {
+    "key": "oebyeok_nusu_short",
+    "id": "npc7BOlnaAg",
+    "url": "https://youtu.be/npc7BOlnaAg",
+    "title": ""
+   },
+   {
+    "key": "changteul_nusu_short",
+    "id": "EEIkBzE7pyE",
+    "url": "https://youtu.be/EEIkBzE7pyE",
+    "title": ""
+   },
+   {
+    "key": "hyeongwan_interior_short",
+    "id": "taXZP3O5T7s",
+    "url": "https://youtu.be/taXZP3O5T7s",
+    "title": ""
+   },
+   {
+    "key": "geomdan_hoban3_short",
+    "id": "yw7TvcZLGJQ",
+    "url": "https://youtu.be/yw7TvcZLGJQ",
+    "title": ""
+   },
+   {
+    "key": "seodaejeon_short",
+    "id": "7sdpmYoskYI",
+    "url": "https://youtu.be/7sdpmYoskYI",
+    "title": ""
+   },
+   {
+    "key": "medialle_cheongso_short",
+    "id": "qBs2TH0gvkA",
+    "url": "https://youtu.be/qBs2TH0gvkA",
+    "title": ""
+   },
+   {
+    "key": "ijungchang_gyeollo_long",
+    "id": "WIGIG6WlbJs",
+    "url": "https://youtu.be/WIGIG6WlbJs",
+    "title": "이중창 결로, 두 창 사이에 고인 물과 안쪽 창에 맺힌 물은 원인이 다릅니다"
+   },
+   {
+    "key": "ipju_icheon_sinan_long",
+    "id": "DnI-qS4aX1g",
+    "url": "https://youtu.be/DnI-qS4aX1g",
+    "title": "이천 신안인스빌 퍼스티지 중문, 옵션 3연동은 125만원이고 입주는 11월입니다"
+   },
+   {
+    "key": "gombang_long",
+    "id": "Ix-wkxNUVPo",
+    "url": "https://youtu.be/Ix-wkxNUVPo",
+    "title": "곰방 뜻, 자재를 사람이 계단으로 져서 나르는 일이고 양중과 차이는 장비를 쓰느냐이며 견적서의 양중비 별도는 따로 낸다는 말입니다"
+   },
+   {
+    "key": "suwon_cheongso_long",
+    "id": "5viuCXuKdfs",
+    "url": "https://youtu.be/5viuCXuKdfs",
+    "title": "수원 입주청소 업체 비교, 84타입이 37만～185만원"
+   },
+   {
+    "key": "moonpung_long",
+    "id": "yxmbjMEt_JU",
+    "url": "https://youtu.be/yxmbjMEt_JU",
+    "title": "문풍지 붙이는 법,틈 크기부터 재고 물구멍은 막지 않습니다"
+   },
+   {
+    "key": "ipju_janghang_jeil_long",
+    "id": "DzU8xAyWLZI",
+    "url": "https://youtu.be/DzU8xAyWLZI",
+    "title": "고양 장항 제일풍경채 중문, 전 타입 3연동 180만원"
+   },
+   {
+    "key": "toesil_cheongso_long",
+    "id": "xL-jw7irDCk",
+    "url": "https://youtu.be/xL-jw7irDCk",
+    "title": "퇴실 청소, 평범하게 살며 생긴 때는 세입자 몫이 아니고 특약이 있다면 금액과 범위부터 읽습니다"
+   },
+   {
+    "key": "ipju_hoecheon_long",
+    "id": "ffK-0ljC6-c",
+    "url": "https://youtu.be/ffK-0ljC6-c",
+    "title": "회천중앙역 로제비앙 그랜드센텀 중문, 옵션 121만원"
+   },
+   {
+    "key": "boiler_dongpa_long",
+    "id": "Ox_m3Gdg2sg",
+    "url": "https://youtu.be/Ox_m3Gdg2sg",
+    "title": "보일러 동파 세입자, 수리비는 집주인이 먼저 내고 세입자 잘못이면 보일러 나이만큼 나눕니다"
+   },
+   {
+    "key": "ipju_yeonhui_hoban_long",
+    "id": "7kKs43ditxw",
+    "url": "https://youtu.be/7kKs43ditxw",
+    "title": "연희공원 호반써밋 중문, 발코니를 확장한 집은 3연동이 달려 나와서 사전점검 날 세 가지만 보면 됩니다"
+   },
+   {
+    "key": "promo_land",
+    "id": "_rSMVmVRhoM",
+    "url": "https://youtu.be/_rSMVmVRhoM",
+    "title": "인테리어 견적 비교, 사진 한 장이면 시공 사례 금액과 무료로 맞춰 봐 드립니다 · 낭만 인테리어"
+   },
+   {
+    "key": "promo_vert",
+    "id": "uq_lCxeCsYM",
+    "url": "https://youtu.be/uq_lCxeCsYM",
+    "title": "인테리어 견적 비교, 사진 한 장 보내 주세요 #shorts"
+   },
+   {
+    "key": "jungmun_size_long",
+    "id": "IF8JvAZ86jw",
+    "url": "https://youtu.be/IF8JvAZ86jw",
+    "title": "중문 사이즈 재는 법, 열리는 폭은 따로 계산합니다"
+   },
+   {
+    "key": "veranda_tanseong_long",
+    "id": "w2-6tQ9EK44",
+    "url": "https://youtu.be/w2-6tQ9EK44",
+    "title": "베란다 곰팡이 탄성코트, 곰팡이 위에 바로 바르면 벗겨지니 영하 오기 전에 순서대로 합니다"
+   },
+   {
+    "key": "geomdan_hoban3_ipju_long",
+    "id": "9NvCFaeic1Y",
+    "url": "https://youtu.be/9NvCFaeic1Y",
+    "title": "검단 호반써밋3차 중문, 84B만 여닫이 160만원"
+   },
+   {
+    "key": "changteul_nusu_bosu_long",
+    "id": "2eE2uYfjUPQ",
+    "url": "https://youtu.be/2eE2uYfjUPQ",
+    "title": "창틀 누수 보수, 새 아파트는 3년 안이면 하자보수부터 청구합니다"
+   },
+   {
+    "key": "ipju_gyeyang_a2_long",
+    "id": "xSCGyXSGCmM",
+    "url": "https://youtu.be/xSCGyXSGCmM",
+    "title": "인천계양 A2 중문, 안단테 옵션은 미서기 152만원이고 입주는 12월입니다"
+   },
+   {
+    "key": "bbok_long",
+    "id": "LTL2CSrXg-U",
+    "url": "https://youtu.be/LTL2CSrXg-U",
+    "title": "창문 뽁뽁이 효과,유리 표면 2.5도 오르고 창틀에 붙이면 열손실 30%인데 남향 창은 빼세요"
+   },
+   {
+    "key": "nogyeon_mikkeureom_long",
+    "id": "q2z0j7Syhbc",
+    "url": "https://youtu.be/q2z0j7Syhbc",
+    "title": "노견 미끄럼 방지 방법, 일어날 때 버둥거리던 대리석 집과 낡은 마루 집은 다니는 길을 따라 매트를 이었습니다"
+   },
+   {
+    "key": "gyeollo_paint_long",
+    "id": "gbyCuIIZSL8",
+    "url": "https://youtu.be/gbyCuIIZSL8",
+    "title": "결로 페인트 시공, 곰팡이는 늦춰도 차가운 벽은 못 고칩니다"
+   },
+   {
+    "key": "ipju_seongdong_xi_long",
+    "id": "usCppyylZ6M",
+    "url": "https://youtu.be/usCppyylZ6M",
+    "title": "성동자이리버뷰 입주일, 모집공고는 2027년 2월 청약홈 입주 정보는 2026년 12월이고 옵션 중문은 자동 240만원이었습니다"
+   },
+   {
+    "key": "apt_nusu_boheom_long",
+    "id": "P8fncXaSs0Y",
+    "url": "https://youtu.be/P8fncXaSs0Y",
+    "title": "아파트 누수 보험, 아랫집 피해는 일상배상이 물고 외벽 금은 관리사무소 몫"
+   },
+   {
+    "key": "gangaji_rollmat_short",
+    "id": "vt9cN77Qyck",
+    "url": "https://youtu.be/vt9cN77Qyck",
+    "title": "롤매트가 말리고 들뜬 송도 집은 이음새를 맞춰 붙이는 시공 매트로 바꿨습니다"
+   },
+   {
+    "key": "changmun_silicon_gompangi_long",
+    "id": "Zf1VvmoHtU4",
+    "url": "https://youtu.be/Zf1VvmoHtU4",
+    "title": "창문 실리콘 곰팡이, 닦아도 다시 핀 분당 아파트 베란다 창은 금 간 실리콘을 걷어 내고 밑칠한 뒤 새로 쐈습니다"
+   },
+   {
+    "key": "jungmun_cost_long",
+    "id": "QXAD2GMhyls",
+    "url": "https://youtu.be/QXAD2GMhyls",
+    "title": "중문 설치 비용, 3연동과 원슬라이딩 가격 차이입니다"
+   },
+   {
+    "key": "saejip_jeunghugun_long",
+    "id": "IoKFABixWh0",
+    "url": "https://youtu.be/IoKFABixWh0",
+    "title": "새집증후군 시공, 청소로 분진부터 걷어 내고 광촉매 · 자외선 · 편백수 순서로 마무리한 서초 새 아파트 두 집"
+   },
+   {
+    "key": "jungmun_pungsu_long",
+    "id": "Jh2jU3wdYLw",
+    "url": "https://youtu.be/Jh2jU3wdYLw",
+    "title": "현관 풍수, 문을 열면 집 안이 다 보이는 집"
+   },
+   {
+    "key": "hyeongwan_interior_long",
+    "id": "mApcwAgCXy4",
+    "url": "https://youtu.be/mApcwAgCXy4",
+    "title": "아파트 현관 인테리어, 중문 색은 바닥 마루와 신발장 색을 보고 고릅니다"
+   },
+   {
+    "key": "suwon_gansal_long",
+    "id": "kPMlDwzkniM",
+    "url": "https://youtu.be/kPMlDwzkniM",
+    "title": "간살 중문, 수원 영통 우드 간살 3연동"
+   },
+   {
+    "key": "veranda_nusu_paint_long",
+    "id": "oklkCmjOEVo",
+    "url": "https://youtu.be/oklkCmjOEVo",
+    "title": "베란다 누수 페인트, 물이 드는 곳을 막고 들뜬 칠을 긁어낸 뒤 다시 칠합니다"
+   },
+   {
+    "key": "jungmun_gabyeok_long",
+    "id": "cyjmtsQ50Os",
+    "url": "https://youtu.be/cyjmtsQ50Os",
+    "title": "중문 가벽, 세우는 집이 있고 뜯는 집이 있습니다"
+   },
+   {
+    "key": "ipju_cheongso_long",
+    "id": "tlL-XzDnV-Q",
+    "url": "https://youtu.be/tlL-XzDnV-Q",
+    "title": "신축 입주청소 비용, 34평은 30만～42만원이고 계약 전에 추가 요금이 붙는 조건부터 문자로 받습니다"
+   },
+   {
+    "key": "jeonse_interior_long",
+    "id": "d_m9-EKn_CY",
+    "url": "https://youtu.be/d_m9-EKn_CY",
+    "title": "전세집 인테리어, 재건축 이주로 몇 해 사는 집은 떼어 낼 수 있는 것부터 고릅니다"
+   },
+   {
+    "key": "busan_danggam_long",
+    "id": "-cURB3a0cSY",
+    "url": "https://youtu.be/-cURB3a0cSY",
+    "title": "부산 중문, 당감 동일스위트 좁은 현관에 모루유리 원슬라이딩을 달았습니다"
+   },
+   {
+    "key": "solar1_long",
+    "id": "jqY1hxhB6WU",
+    "url": "https://youtu.be/jqY1hxhB6WU",
+    "title": "아파트 베란다 태양광, 설치 전에 난간과 보증기간부터 봅니다"
+   },
+   {
+    "key": "upche_long",
+    "id": "pfvZcTLQK1Q",
+    "url": "https://youtu.be/pfvZcTLQK1Q",
+    "title": "중문 업체 비교, 견적서 여섯 줄"
+   },
+   {
+    "key": "jungmun_swing_long",
+    "id": "MDs_1WFPyms",
+    "url": "https://youtu.be/MDs_1WFPyms",
+    "title": "스윙 중문, 고장 날 부품이 애초에 없습니다"
+   },
+   {
+    "key": "donam_hansin_long",
+    "id": "Tk7rP61UCDA",
+    "url": "https://youtu.be/Tk7rP61UCDA",
+    "title": "돈암 한신한진 인테리어, 같은 단지 두 집의 중문이 다른 이유는 입구 폭 41cm 차이였습니다"
+   },
+   {
+    "key": "jungmun_replace_long",
+    "id": "SH1Yn-JADEc",
+    "url": "https://youtu.be/SH1Yn-JADEc",
+    "title": "중문 교체, 살면서 하루 만에 바꿉니다"
+   },
+   {
+    "key": "gyeonjeokseo_long",
+    "id": "7FqVXsgxSy0",
+    "url": "https://youtu.be/7FqVXsgxSy0",
+    "title": "인테리어 견적서 보는법, 합계보다 먼저 「1식」이라고 적힌 줄과 「별도」 줄과 자재 이름부터 확인합니다"
+   },
+   {
+    "key": "jungmun_mutagong_long",
+    "id": "ovw6SDIlT9s",
+    "url": "https://youtu.be/ovw6SDIlT9s",
+    "title": "무타공 중문, 시공 945건에 한 건도 없었습니다"
+   },
+   {
+    "key": "daejeon_dure_long",
+    "id": "7ZP25Bt82KE",
+    "url": "https://youtu.be/7ZP25Bt82KE",
+    "title": "대전 중문 설치, 대림두레 현관 파티션을 떼고 ㄱ자 초슬림 3연동을 달았습니다"
+   },
+   {
+    "key": "bangmyochang_long",
+    "id": "n1lPm4ilDjU",
+    "url": "https://youtu.be/n1lPm4ilDjU",
+    "title": "방묘창 설치, 방충망만으로는 고양이가 뚫습니다"
+   },
+   {
+    "key": "seongdong_xi_sigong_clip",
+    "id": "HGDFc9DH1pE",
+    "url": "https://youtu.be/HGDFc9DH1pE",
+    "title": "성동자이리버뷰 중문, 옵션은 자동 240만원 · 수동이면 입주 뒤 원슬라이딩"
+   },
+   {
+    "key": "dongjak_signature_sigong_clip",
+    "id": "P8keiPV0FNo",
+    "url": "https://youtu.be/P8keiPV0FNo",
+    "title": "힐스테이트 동작 시그니처 중문, 같은 평수도 집마다 따로 잽니다"
+   },
+   {
+    "key": "oepung_sigong_sigong_clip",
+    "id": "0nPvmzv1QjU",
+    "url": "https://youtu.be/0nPvmzv1QjU",
+    "title": "외풍차단 시공, 창짝 틈은 모헤어 · 유리 한 겹 창은 내창 · 현관은 중문"
+   }
+  ],
+  "desc_unknown": [
+   {
+    "key": "ipju_jungmun_moeum_long",
+    "id": "GIleIFo6L60",
+    "url": "https://youtu.be/GIleIFo6L60",
+    "title": ""
+   }
+  ],
+  "desc_without_7678": [
+   {
+    "key": "silicon",
+    "id": "J9EgHiOeGWI",
+    "url": "https://youtu.be/J9EgHiOeGWI",
+    "title": ""
+   },
+   {
+    "key": "rollmat",
+    "id": "l4DNSWABdNI",
+    "url": "https://youtu.be/l4DNSWABdNI",
+    "title": ""
+   },
+   {
+    "key": "jinjeop",
+    "id": "insBNwbbTvc",
+    "url": "https://youtu.be/insBNwbbTvc",
+    "title": "진접역 신안인스빌 중문, 같은 단지 일곱 집 일곱 가지"
+   }
+  ],
+  "note": "설명은 기록(sns/w5 · w6 · w7 · w8 · ytlong · shorts1018 · watch/yt_sigong_1017.json)으로 판단 — 올린 뒤 고친 것은 반영 안 됨. 숏폼 · 가로 영상 화면 안(끝 장면 「문의 010-7678-9967」 띠)은 설명으로 못 고침 — 다시 만들지 않음. 채널 정보(설명 · 링크)도 확인할 것."
+ },
+ "instagram": {
+  "profile": "kimdongjin24 (통합 「낭만 인테리어 · 집 이야기」) 소개 · 연락처 버튼",
+  "captions_with_7678": [
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h1_unjeong_jeil",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h2_seosan_ipark",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h3_singok",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h4_pyeongchon",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h5_dongtan",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h6_geomdan_urbanity",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h7_hoecheon",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w10/captions.json",
+    "key": "h8_sanbon",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w2/captions.json",
+    "key": "d1_film",
+    "title": "붙박이장 필름, 버리지 않고 새 가구처럼"
+   },
+   {
+    "file": "/home/claude/sns/w2/captions.json",
+    "key": "d2_mat",
+    "title": "강아지 매트, 거실부터 복도까지"
+   },
+   {
+    "file": "/home/claude/sns/w2/captions.json",
+    "key": "d3_coking",
+    "title": "외부 코킹, 옛 실리콘부터 걷어 냅니다"
+   },
+   {
+    "file": "/home/claude/sns/w2/captions.json",
+    "key": "d4_aircon",
+    "title": "에어컨 분해청소, 안쪽 곰팡이까지"
+   },
+   {
+    "file": "/home/claude/sns/w2/captions.json",
+    "key": "d5_cheongso",
+    "title": "입주청소, 떼어 내서 안쪽까지"
+   },
+   {
+    "file": "/home/claude/sns/w3/captions.json",
+    "key": "e1_silicon",
+    "title": "창틀 실리콘 곰팡이, 걷어 내고 새로"
+   },
+   {
+    "file": "/home/claude/sns/w3/captions.json",
+    "key": "e2_veranda",
+    "title": "베란다 누수, 샷시 위 외벽부터"
+   },
+   {
+    "file": "/home/claude/sns/w3/captions.json",
+    "key": "e3_aircon",
+    "title": "시스템에어컨, 입주 전에 천장 속으로"
+   },
+   {
+    "file": "/home/claude/sns/w3/captions.json",
+    "key": "e4_nongmak",
+    "title": "컨테이너 농막, 단열부터 화장실까지"
+   },
+   {
+    "file": "/home/claude/sns/w3/captions.json",
+    "key": "e5_catmat",
+    "title": "고양이 매트, 거실부터 캣타워 방까지"
+   },
+   {
+    "file": "/home/claude/sns/w3/captions.json",
+    "key": "e6_jungmun",
+    "title": "새 아파트 중문, 달기 전과 단 뒤"
+   },
+   {
+    "file": "/home/claude/sns/w4/captions.json",
+    "key": "f1_veranda_ceil",
+    "title": "베란다 천장 곰팡이, 긁어 내고 단열까지"
+   },
+   {
+    "file": "/home/claude/sns/w4/captions.json",
+    "key": "f2_toesil",
+    "title": "퇴실청소, 떼어 내서 안쪽까지"
+   },
+   {
+    "file": "/home/claude/sns/w4/captions.json",
+    "key": "f3_rollmat",
+    "title": "강아지 롤매트 대신 시공 매트"
+   },
+   {
+    "file": "/home/claude/sns/w4/captions.json",
+    "key": "f4_sash",
+    "title": "알루미늄 샷시 교체, 발코니부터 방범창까지"
+   },
+   {
+    "file": "/home/claude/sns/w4/captions.json",
+    "key": "f5_daejeon",
+    "title": "대전 아파트 중문, 달기 전과 단 뒤"
+   },
+   {
+    "file": "/home/claude/sns/w4/captions.json",
+    "key": "f6_busan",
+    "title": "부산 · 김해 중문, 달기 전과 단 뒤"
+   },
+   {
+    "file": "/home/claude/sns/w5/captions.json",
+    "key": "osan",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w5/captions.json",
+    "key": "geomdan",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w5/captions.json",
+    "key": "rollmat",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w5/captions.json",
+    "key": "silicon",
+    "title": ""
+   },
+   {
+    "file": "/home/claude/sns/w8/captions.json",
+    "key": "f1_jinjeop",
+    "title": "진접 신안인스빌 중문, 일곱 집 일곱 가지"
+   },
+   {
+    "file": "/home/claude/sns/w8/captions.json",
+    "key": "f2_osan",
+    "title": "오산역 금강펜테리움, 옵션은 여닫이 3연동은 시공"
+   },
+   {
+    "file": "/home/claude/sns/w8/captions.json",
+    "key": "f3_reventus",
+    "title": "래미안 레벤투스 사전점검, 중문과 청소 같이"
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g1_incheon",
+    "title": "인천 중문 시공, 부평·구월은 옆 벽이 없어 가벽을 세운 ㄱ자였고 청라는 스윙도어 검단은 원슬라이딩이었습니다"
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g2_geomdan_cheongso",
+    "title": "검단 입주청소, 10월 신검단중앙역 센트레빌과 풍경채 어바니티 1,834세대가 들어가고 분진은 서랍 레일과 "
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g3_mangpo",
+    "title": "수원 중문 시공, 망포 쌍용아파트의 검은 옛 중문을 떼고 흰 틀 초슬림 3연동으로 바꿨습니다"
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g4_changteul",
+    "title": "창틀 누수, 밖에서 보니 한 집은 실리콘이 아예 없었고 한 집은 굳어서 벌어져 있었습니다"
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g5_songnae",
+    "title": "송내역 푸르지오 센트비엔 입주일, 공고에 중문 옵션이 없어서 사전방문 날 현관부터 재야 합니다"
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g6_yeongtong",
+    "title": "영통 인테리어, 8~9월에 구축 아파트 371집이 팔린 영통동에서 샷시 · 코킹 · 중문을 한 여섯 집입니다"
+   },
+   {
+    "file": "/home/claude/sns/w9/captions.json",
+    "key": "g7_singeomdan",
+    "title": "신검단중앙역 센트레빌 입주 기간, 열쇠 받고 이사 들어가기 전까지 할 일을 순서대로 정리했습니다"
+   }
+  ],
+  "note": "예약 · 게시된 캐러셀 캡션과 마지막 문의 장(그림)에 7678. 사용자가 직접 할 것: 예약 게시물 그림. 캡션은 크롬으로 수정 가능."
+ },
+ "threads": {
+  "profile": "스레드 프로필 소개 · 링크",
+  "note": "확인 못 함 — 프로필과 고정 글 확인"
+ },
+ "kakao_openchat": {
+  "url": "https://open.kakao.com/o/gCXu4ZSi",
+  "note": "「카톡 입주 준비방」 소개 · 공지에 번호가 있는지 확인"
+ },
+ "kmong": {
+  "note": "크몽 판매자 소개 · 상품 설명 확인(로컬 메모 /home/claude/kmong_note.md)"
+ },
+ "naver_user": [
+  "네이버 블로그 프로필(champion_chart 등)",
+  "네이버 「내 템플릿」 연락처 그림(새 그림: /mnt/user-data/outputs/int/nangman_interior_contact_966x330_2882.png)",
+  "네이버 클립 고정 댓글",
+  "인스타 예약 게시물 그림",
+  "이미 발행 · 예약된 네이버 글은 손대지 않음"
+ ],
+ "counts": {
+  "tistory": {
+   "nangmaninterior": 17,
+   "talk7921": 1,
+   "nangman-dosa": 0
+  },
+  "blogger": {
+   "nangmanbusinesscards": 56,
+   "nangmanisa": 4,
+   "nangmancoffeebean": 10,
+   "nangmanreal": 0
+  },
+  "youtube": 64,
+  "instagram_captions": 39
+ }
+}

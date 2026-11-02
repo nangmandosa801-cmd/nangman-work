@@ -1,0 +1,19 @@
+{
+ "head": [
+  "단열필름 시공",
+  "로이유리 집은 먼저 유리부터"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_danyeol_film_fig1.png",
+   "line": "로이유리\n확인하는 법",
+   "sub": "단열필름 시공 전"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_danyeol_film_fig2.png",
+   "line": "단열필름\n1㎡ 공개 가격",
+   "sub": "단열필름 시공 비용"
+  }
+ ]
+}

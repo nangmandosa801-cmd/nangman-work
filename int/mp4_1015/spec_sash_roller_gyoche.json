@@ -1,0 +1,19 @@
+{
+ "head": [
+  "샷시 롤러 교체",
+  "바퀴부터 확인합니다"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/roller_a.png",
+   "line": "소리와 무게로\n먼저 짚습니다",
+   "sub": "샷시 롤러 고장"
+  },
+  {
+   "src": "/home/claude/hv/cards/roller_b.png",
+   "line": "큰 창 · 고층은\n맡깁니다",
+   "sub": "샷시 롤러 교체"
+  }
+ ]
+}

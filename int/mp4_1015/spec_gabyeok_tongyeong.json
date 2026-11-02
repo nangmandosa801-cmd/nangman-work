@@ -1,0 +1,34 @@
+{
+ "head": [
+  "현관 가벽 중문",
+  "입구 폭 1m뿐인 집"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/gabyeok_tongyeong/nangman_interior_gabyeok_tongyeong_04_wall_before.jpg",
+   "line": "철거 전\n가벽",
+   "sub": "신발장 앞 가벽"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gabyeok_tongyeong/nangman_interior_gabyeok_tongyeong_05_after.jpg",
+   "line": "가벽을 떼고\n단 3연동",
+   "sub": "시공 후"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gabyeok_tongyeong/nangman_interior_gabyeok_tongyeong_06_open_close.jpg",
+   "line": "열었을 때와\n닫았을 때",
+   "sub": "현관 가벽 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gabyeok_tongyeong/nangman_interior_gabyeok_tongyeong_08_inside.jpg",
+   "line": "현관 안에서\n본 거실",
+   "sub": "현관 가벽 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gabyeok_tongyeong/nangman_interior_gabyeok_tongyeong_10_shoe.jpg",
+   "line": "문 너머로\n신발장이 비침",
+   "sub": "현관 가벽 중문"
+  }
+ ]
+}

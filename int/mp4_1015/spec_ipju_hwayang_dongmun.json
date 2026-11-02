@@ -1,0 +1,29 @@
+{
+ "head": [
+  "평택 화양 동문 디 이스트",
+  "중문 옵션 143만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hwayang_dongmun/nangman_interior_ipju_hwayang_dongmun_d1_before.jpg",
+   "line": "시공 전\n현관",
+   "sub": "평택 화양지구"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hwayang_dongmun/nangman_interior_ipju_hwayang_dongmun_d2_closed.jpg",
+   "line": "3연동을\n닫은 모습",
+   "sub": "평택 화양지구"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hwayang_dongmun/nangman_interior_ipju_hwayang_dongmun_d3_open.jpg",
+   "line": "문을 연\n모습",
+   "sub": "평택 화양지구"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hwayang_dongmun/nangman_interior_ipju_hwayang_dongmun_d4_inside.jpg",
+   "line": "집 안에서\n본 모습",
+   "sub": "평택 화양지구"
+  }
+ ]
+}

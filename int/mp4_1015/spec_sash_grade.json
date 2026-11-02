@@ -1,0 +1,19 @@
+{
+ "head": [
+  "샷시 등급",
+  "같은 로이유리, 3.6과 2.1"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/grade_a.png",
+   "line": "열관류율\n낮을수록 1등급",
+   "sub": "샷시 등급"
+  },
+  {
+   "src": "/home/claude/hv/cards/grade_b.png",
+   "line": "창틀과 공기층이\n숫자를 만듭니다",
+   "sub": "로이유리 열관류율"
+  }
+ ]
+}

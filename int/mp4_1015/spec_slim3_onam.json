@@ -1,0 +1,39 @@
+{
+ "head": [
+  "초슬림 3연동 중문",
+  "간살은 한 짝에만"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_01_closed.jpg",
+   "line": "거실에서 본\n닫힌 모습",
+   "sub": "초슬림 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_03_gansal.jpg",
+   "line": "간살을 넣은\n문짝",
+   "sub": "가까이 본 모습"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_04_half.jpg",
+   "line": "반쯤\n연 모습",
+   "sub": "초슬림 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_06_stack.jpg",
+   "line": "겹친 문\n세 짝",
+   "sub": "초슬림 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_07_entrance.jpg",
+   "line": "현관에서\n본 모습",
+   "sub": "초슬림 3연동"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/slim3_onam/nangman_interior_slim3_onam_08_entrance_open.jpg",
+   "line": "문을 다 열고\n본 거실",
+   "sub": "현관에서"
+  }
+ ]
+}

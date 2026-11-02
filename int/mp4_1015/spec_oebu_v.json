@@ -1,0 +1,41 @@
+{
+ "head": [
+  "외부 코킹 셀프",
+  "어디까지 직접?"
+ ],
+ "what": "창틀",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/oebu_coking_self/nangman_interior_oebu_coking_self_01_a_ba.jpg",
+   "line": "창틀 위 틈\n공사 전과 뒤",
+   "sub": "경기 광주 · NI-0359"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebu_coking_self/nangman_interior_oebu_coking_self_02_a_gap.jpg",
+   "line": "덧바른 실리콘 아래\n틈은 그대로",
+   "sub": "경기 광주 · NI-0360"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebu_coking_self/nangman_interior_oebu_coking_self_06_a_rope.jpg",
+   "line": "고층 바깥은\n로프를 탑니다",
+   "sub": "경기 광주 · NI-0364"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebu_coking_self/nangman_interior_oebu_coking_self_10_b_hard.jpg",
+   "line": "굳어서 터진\n창틀 위 실리콘",
+   "sub": "서울 강남구 · NI-0368"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebu_coking_self/nangman_interior_oebu_coking_self_17_c_after.jpg",
+   "line": "새기 전에\n새로 막은 모서리",
+   "sub": "서울 성북구 · NI-0375"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "외부 코킹 셀프",
+   "line": "손 닿는 창틀까지만\n직접 합니다",
+   "sub": "고층 바깥은\n로프 시공팀이 합니다"
+  }
+ ]
+}

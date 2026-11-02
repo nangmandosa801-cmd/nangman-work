@@ -1,0 +1,1359 @@
+{
+ "made": "2026-10-19 17:20",
+ "note": "미발행 네이버 원고 가운데 그림에 010-7678-9967이 박힌 것(글자 인식 tesseract로 찾음 · 놓친 그림이 있을 수 있음). 사흘 안 글(7편)은 다시 그렸고 여기 없음. 다시 그리기: 인테리어는 그 글 생성기(int/n10xx/*.py)를 다시 돌리면 사진 액자 · 배너 · 문의 띠가 2882로 나옴(생성기는 이미 바뀜). 낭만 부동산 글 끝 인테리어 배너는 gs/intbanner.make(slug,title).",
+ "interior": [
+  {
+   "dir": "/mnt/user-data/outputs/int/_h2/bbok",
+   "title": "창문 뽁뽁이 효과,유리 표면 2.5도 오르고 창틀에 붙이면 열손실 30%인데 남향 창은 빼세요",
+   "images": [
+    "nangman_interior_contact_966x330.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_h2/boiler_dongpa",
+   "title": "보일러 동파 세입자,수리비는 집주인이 먼저 내고 세입자 잘못이면 보일러 나이만큼 나눕니다",
+   "images": [
+    "nangman_interior_contact_966x330.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_h2/gyeollo_paint",
+   "title": "결로 페인트 시공,곰팡이는 늦춰도 차가운 벽은 못 고칩니다",
+   "images": [
+    "nangman_interior_contact_966x330.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_h2/ijungchang_gyeollo",
+   "title": "이중창 결로,두 창 사이에 고인 물과 안쪽 창에 맺힌 물은 원인이 다릅니다",
+   "images": [
+    "nangman_interior_contact_966x330.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_h2/moonpung",
+   "title": "문풍지 붙이는 법,틈 크기부터 재고 물구멍은 막지 않습니다",
+   "images": [
+    "nangman_interior_contact_966x330.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_h2/sash_sigi",
+   "title": "샷시 교체 시기,바꿔야 하는 신호 일곱 가지와 모헤어 · 롤러로 버티는 집",
+   "images": [
+    "nangman_interior_contact_966x330.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/ecodelta_jungheung_ipju",
+   "title": "에코델타시티 중흥S클래스 중문, 다섯 타입 모두 130만원",
+   "images": [
+    "nangman_interior_ecodelta_jungheung_ipju_01_a_both.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_02_a_front.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_03_a_three.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_04_b_both.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_05_b_open.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_06_c_both.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_07_d_both.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_08_m_pair.jpg",
+    "nangman_interior_ecodelta_jungheung_ipju_ask.png",
+    "nangman_interior_ecodelta_jungheung_ipju_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/geomdan_jeil3_ipju",
+   "title": "검단호수공원역 풍경채 어바니티 중문, 84A는 스윙 84B는 3연동",
+   "images": [
+    "nangman_interior_geomdan_jeil3_ipju_01_a_pair.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_02_a_side.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_03_a_front.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_04_b_pair.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_05_b_laser.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_06_b_rail.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_07_m_pair.jpg",
+    "nangman_interior_geomdan_jeil3_ipju_ask.png",
+    "nangman_interior_geomdan_jeil3_ipju_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/ipju_centerfine",
+   "title": "평택 푸르지오 센터파인 중문, 옵션 135만원을 안 넣은 집",
+   "images": [
+    "nangman_interior_ipju_centerfine_ask.png",
+    "nangman_interior_ipju_centerfine_banner.png",
+    "nangman_interior_ipju_centerfine_d1_closed.jpg",
+    "nangman_interior_ipju_centerfine_d2_side.jpg",
+    "nangman_interior_ipju_centerfine_d4_open_inside.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/ipju_dongnae",
+   "title": "동래 반도유보라 중문, 옵션 3연동 110만원이었습니다",
+   "images": [
+    "nangman_interior_ipju_dongnae_ask.png",
+    "nangman_interior_ipju_dongnae_banner.png",
+    "nangman_interior_ipju_dongnae_d1_before_after.jpg",
+    "nangman_interior_ipju_dongnae_d2_open_closed.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/ipju_hoecheon",
+   "title": "회천중앙역 로제비앙 그랜드센텀 중문, 옵션 121만원",
+   "images": [
+    "nangman_interior_ipju_hoecheon_ask.png",
+    "nangman_interior_ipju_hoecheon_banner.png",
+    "nangman_interior_ipju_hoecheon_d1_closed.jpg",
+    "nangman_interior_ipju_hoecheon_d2_open.jpg",
+    "nangman_interior_ipju_hoecheon_d3_from_entrance.jpg",
+    "nangman_interior_ipju_hoecheon_d4_closed_entrance.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/ipju_hwayang_dongmun",
+   "title": "평택 화양 동문 디 이스트 중문, 옵션은 143만원",
+   "images": [
+    "nangman_interior_ipju_hwayang_dongmun_ask.png",
+    "nangman_interior_ipju_hwayang_dongmun_banner.png",
+    "nangman_interior_ipju_hwayang_dongmun_d1_before.jpg",
+    "nangman_interior_ipju_hwayang_dongmun_d2_closed.jpg",
+    "nangman_interior_ipju_hwayang_dongmun_d3_open.jpg",
+    "nangman_interior_ipju_hwayang_dongmun_d4_inside.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/ipju_janghang_jeil",
+   "title": "고양 장항 제일풍경채 중문, 전 타입 3연동 180만원",
+   "images": [
+    "nangman_interior_ipju_janghang_jeil_ask.png",
+    "nangman_interior_ipju_janghang_jeil_banner.png",
+    "nangman_interior_ipju_janghang_jeil_d1_closed.jpg",
+    "nangman_interior_ipju_janghang_jeil_d2_open_in.jpg",
+    "nangman_interior_ipju_janghang_jeil_d3_open.jpg",
+    "nangman_interior_ipju_janghang_jeil_d4_closed2.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/medialle_cheongso",
+   "title": "힐스테이트 메디알레 입주청소, 평당 1만원대부터 3만원까지",
+   "images": [
+    "nangman_interior_medialle_cheongso_01_a_kitchen.jpg",
+    "nangman_interior_medialle_cheongso_02_a_hand.jpg",
+    "nangman_interior_medialle_cheongso_03_a_drawer.jpg",
+    "nangman_interior_medialle_cheongso_04_a_under.jpg",
+    "nangman_interior_medialle_cheongso_05_a_kitchen_after.jpg",
+    "nangman_interior_medialle_cheongso_06_a_trap.jpg",
+    "nangman_interior_medialle_cheongso_08_a_bath_after.jpg",
+    "nangman_interior_medialle_cheongso_09_a_sill.jpg",
+    "nangman_interior_medialle_cheongso_10_a_shoe.jpg",
+    "nangman_interior_medialle_cheongso_11_a_shoe_after.jpg",
+    "nangman_interior_medialle_cheongso_12_a_living.jpg",
+    "nangman_interior_medialle_cheongso_13_a_mist.jpg",
+    "nangman_interior_medialle_cheongso_14_a_uvc.jpg",
+    "nangman_interior_medialle_cheongso_15_b_parts.jpg",
+    "nangman_interior_medialle_cheongso_17_b_base.jpg",
+    "nangman_interior_medialle_cheongso_ask.png",
+    "nangman_interior_medialle_cheongso_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/_restore_1017/suwon_cheongso",
+   "title": "수원 입주청소 업체 비교, 84타입이 37만~185만원",
+   "images": [
+    "nangman_interior_suwon_cheongso_ask.png",
+    "nangman_interior_suwon_cheongso_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/aircon_ipju",
+   "title": "시스템에어컨 설치,인천 새 아파트 세 집은 이삿짐이 들어오기 전 빈 집일 때 천장에 4대를 달았고 실외기는 4마력 하나로 돌립니다",
+   "images": [
+    "nangman_interior_aircon_ipju_01_d_living.jpg",
+    "nangman_interior_aircon_ipju_02_d_room.jpg",
+    "nangman_interior_aircon_ipju_03_d_room2.jpg",
+    "nangman_interior_aircon_ipju_04_d_room3.jpg",
+    "nangman_interior_aircon_ipju_05_d_outdoor.jpg",
+    "nangman_interior_aircon_ipju_06_p_room.jpg",
+    "nangman_interior_aircon_ipju_07_p_room2.jpg",
+    "nangman_interior_aircon_ipju_08_p_outdoor.jpg",
+    "nangman_interior_aircon_ipju_09_o_living.jpg",
+    "nangman_interior_aircon_ipju_10_o_living2.jpg",
+    "nangman_interior_aircon_ipju_11_o_room.jpg",
+    "nangman_interior_aircon_ipju_12_o_done.jpg",
+    "nangman_interior_aircon_ipju_ask.png",
+    "nangman_interior_aircon_ipju_banner.png",
+    "nangman_interior_aircon_ipju_check.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/anbang_saha",
+   "title": "안방 중문 설치,미는 문 한 짝은 벽 콘센트와 방문에 걸려서 3연동으로 달았습니다",
+   "images": [
+    "nangman_interior_anbang_saha_01_before_after.jpg",
+    "nangman_interior_anbang_saha_02_outlet.jpg",
+    "nangman_interior_anbang_saha_03_closed.jpg",
+    "nangman_interior_anbang_saha_04_inside.jpg",
+    "nangman_interior_anbang_saha_05_inside_open.jpg",
+    "nangman_interior_anbang_saha_06_mist.jpg",
+    "nangman_interior_anbang_saha_07_entrance.jpg",
+    "nangman_interior_anbang_saha_08_entrance_in.jpg",
+    "nangman_interior_anbang_saha_09_entrance_side.jpg",
+    "nangman_interior_anbang_saha_10_entrance_open.jpg",
+    "nangman_interior_anbang_saha_11_open_close.jpg",
+    "nangman_interior_anbang_saha_ask.png",
+    "nangman_interior_anbang_saha_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/apt_nusu_boheom",
+   "title": "아파트 누수 보험,아랫집 피해는 일상배상이 물고 외벽 금은 관리사무소 몫",
+   "images": [
+    "nangman_interior_apt_nusu_boheom_01_c_top.jpg",
+    "nangman_interior_apt_nusu_boheom_02_c_corner.jpg",
+    "nangman_interior_apt_nusu_boheom_03_c_gap.jpg",
+    "nangman_interior_apt_nusu_boheom_04_c_rail.jpg",
+    "nangman_interior_apt_nusu_boheom_05_c_corner2.jpg",
+    "nangman_interior_apt_nusu_boheom_08_c_after.jpg",
+    "nangman_interior_apt_nusu_boheom_09_a_roof.jpg",
+    "nangman_interior_apt_nusu_boheom_10_a_peel.jpg",
+    "nangman_interior_apt_nusu_boheom_11_a_side.jpg",
+    "nangman_interior_apt_nusu_boheom_12_a_top.jpg",
+    "nangman_interior_apt_nusu_boheom_13_a_top2.jpg",
+    "nangman_interior_apt_nusu_boheom_14_a_parapet.jpg",
+    "nangman_interior_apt_nusu_boheom_15_b_low.jpg",
+    "nangman_interior_apt_nusu_boheom_16_b_rail.jpg",
+    "nangman_interior_apt_nusu_boheom_ask.png",
+    "nangman_interior_apt_nusu_boheom_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/aqua_glass",
+   "title": "아쿠아유리 중문,물방울 무늬가 건너편을 흐리게 가리고 아래 칸에만 넣으면 신발장이 가려집니다",
+   "images": [
+    "nangman_interior_aqua_glass_01_a_after.jpg",
+    "nangman_interior_aqua_glass_02_a_pair.jpg",
+    "nangman_interior_aqua_glass_03_a_side.jpg",
+    "nangman_interior_aqua_glass_04_a_open.jpg",
+    "nangman_interior_aqua_glass_05_b_pair.jpg",
+    "nangman_interior_aqua_glass_06_b_before.jpg",
+    "nangman_interior_aqua_glass_07_c_pair.jpg",
+    "nangman_interior_aqua_glass_08_c_open.jpg",
+    "nangman_interior_aqua_glass_09_c_close.jpg",
+    "nangman_interior_aqua_glass_10_c_front.jpg",
+    "nangman_interior_aqua_glass_ask.png",
+    "nangman_interior_aqua_glass_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/arch_pocheon",
+   "title": "아치형 중문 3연동,포천 영화아파트 현관에 화이트 틀과 세로 모루유리를 달았습니다",
+   "images": [
+    "nangman_interior_arch_pocheon_ask.png",
+    "nangman_interior_arch_pocheon_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/auto3_okjeong",
+   "title": "3연동 자동 중문,접히는 문이 현관으로 튀어나오던 집은 앞에 서면 열리는 문으로 바꿨습니다",
+   "images": [
+    "nangman_interior_auto3_okjeong_01_before.jpg",
+    "nangman_interior_auto3_okjeong_02_before_living.jpg",
+    "nangman_interior_auto3_okjeong_04_open.jpg",
+    "nangman_interior_auto3_okjeong_05_button.jpg",
+    "nangman_interior_auto3_okjeong_06_entrance_half.jpg",
+    "nangman_interior_auto3_okjeong_07_entrance_open.jpg",
+    "nangman_interior_auto3_okjeong_08_sensor.jpg",
+    "nangman_interior_auto3_okjeong_09_gansal.jpg",
+    "nangman_interior_auto3_okjeong_ask.png",
+    "nangman_interior_auto3_okjeong_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/bangmyo_jejak",
+   "title": "방묘문 제작,기성품은 폭 54cm부터 247cm까지 맞고 맞춤 제작은 양옆이 유리나 가벽인 현관에서 맡깁니다",
+   "images": [
+    "nangman_interior_bangmyo_jejak_ask.png",
+    "nangman_interior_bangmyo_jejak_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/blog_daehaeng",
+   "title": "인테리어 블로그 대행,이웃 · 공감 작업 없이 검색어와 시공 사진으로만 쓰고 한 달 8편 15만원부터입니다",
+   "images": [
+    "nangman_interior_blog_daehaeng_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/bronze_gimhae",
+   "title": "브론즈유리 중문,김해 안동 푸르지오 긴 현관 벽에 블랙 원슬라이딩을 달았습니다",
+   "images": [
+    "nangman_interior_bronze_gimhae_ask.png",
+    "nangman_interior_bronze_gimhae_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/busan_danggam",
+   "title": "부산 중문,당감 동일스위트 좁은 현관에 모루유리 원슬라이딩을 달았습니다",
+   "images": [
+    "nangman_interior_busan_danggam_ask.png",
+    "nangman_interior_busan_danggam_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/busan_sasang",
+   "title": "부산 중문 설치,사상 센트럴스타힐스 현관에 샴페인골드 원슬라이딩을 달았습니다",
+   "images": [
+    "nangman_interior_busan_sasang_ask.png",
+    "nangman_interior_busan_sasang_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/changmun_nusu_haegyeol",
+   "title": "창문 누수 해결 방법,젖는 곳이 창 위인지 옆인지 아래 턱인지부터 봅니다",
+   "images": [
+    "nangman_interior_changmun_nusu_haegyeol_01_d_pair.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_02_d_top.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_03_d_top2.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_04_d_corner.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_07_d_streak.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_08_d_sill.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_09_d_sill2.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_10_d_after.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_13_g_corner.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_14_g_patch.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_15_g_new.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_16_g_side.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_17_g_after.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_18_g_pipe.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_19_g_after2.jpg",
+    "nangman_interior_changmun_nusu_haegyeol_ask.png",
+    "nangman_interior_changmun_nusu_haegyeol_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/changmun_silicon_gompangi",
+   "title": "창문 실리콘 곰팡이,닦아도 다시 핀 분당 아파트 베란다 창은 금 간 실리콘을 걷어 내고 밑칠한 뒤 새로 쐈습니다",
+   "images": [
+    "nangman_interior_changmun_silicon_gompangi_01_a_ba.jpg",
+    "nangman_interior_changmun_silicon_gompangi_02_a_corner.jpg",
+    "nangman_interior_changmun_silicon_gompangi_03_a_side.jpg",
+    "nangman_interior_changmun_silicon_gompangi_04_a_down.jpg",
+    "nangman_interior_changmun_silicon_gompangi_05_a_sill.jpg",
+    "nangman_interior_changmun_silicon_gompangi_06_a_after.jpg",
+    "nangman_interior_changmun_silicon_gompangi_07_a_sill2.jpg",
+    "nangman_interior_changmun_silicon_gompangi_08_a_long.jpg",
+    "nangman_interior_changmun_silicon_gompangi_09_a_side2.jpg",
+    "nangman_interior_changmun_silicon_gompangi_10_a_corner2.jpg",
+    "nangman_interior_changmun_silicon_gompangi_11_a_top.jpg",
+    "nangman_interior_changmun_silicon_gompangi_12_a_side3.jpg",
+    "nangman_interior_changmun_silicon_gompangi_13_a_vent.jpg",
+    "nangman_interior_changmun_silicon_gompangi_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/changteul_nusu_bosu",
+   "title": "창틀 누수 보수,새 아파트는 3년 안이면 하자보수부터 청구합니다",
+   "images": [
+    "nangman_interior_changteul_nusu_bosu_01_a_pair.jpg",
+    "nangman_interior_changteul_nusu_bosu_04_a_pipe.jpg",
+    "nangman_interior_changteul_nusu_bosu_06_a_corner.jpg",
+    "nangman_interior_changteul_nusu_bosu_07_a_new.jpg",
+    "nangman_interior_changteul_nusu_bosu_09_a_after.jpg",
+    "nangman_interior_changteul_nusu_bosu_10_b_top.jpg",
+    "nangman_interior_changteul_nusu_bosu_11_b_side.jpg",
+    "nangman_interior_changteul_nusu_bosu_12_b_crack.jpg",
+    "nangman_interior_changteul_nusu_bosu_13_b_sill.jpg",
+    "nangman_interior_changteul_nusu_bosu_14_b_pipe.jpg",
+    "nangman_interior_changteul_nusu_bosu_15_b_new.jpg",
+    "nangman_interior_changteul_nusu_bosu_16_b_new2.jpg",
+    "nangman_interior_changteul_nusu_bosu_17_b_after.jpg",
+    "nangman_interior_changteul_nusu_bosu_ask.png",
+    "nangman_interior_changteul_nusu_bosu_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/changteul_nusu_silicon",
+   "title": "창틀 누수 실리콘,안쪽만 덧바르면 다시 새서 바깥 위 · 옆 틈부터 막습니다",
+   "images": [
+    "nangman_interior_changteul_nusu_silicon_01_s_top.jpg",
+    "nangman_interior_changteul_nusu_silicon_02_s_lip.jpg",
+    "nangman_interior_changteul_nusu_silicon_03_s_side.jpg",
+    "nangman_interior_changteul_nusu_silicon_04_s_wall.jpg",
+    "nangman_interior_changteul_nusu_silicon_05_s_sill.jpg",
+    "nangman_interior_changteul_nusu_silicon_06_s_fill.jpg",
+    "nangman_interior_changteul_nusu_silicon_07_s_fill2.jpg",
+    "nangman_interior_changteul_nusu_silicon_08_s_new.jpg",
+    "nangman_interior_changteul_nusu_silicon_09_s_after.jpg",
+    "nangman_interior_changteul_nusu_silicon_10_h_top.jpg",
+    "nangman_interior_changteul_nusu_silicon_11_h_sill.jpg",
+    "nangman_interior_changteul_nusu_silicon_12_h_pipe.jpg",
+    "nangman_interior_changteul_nusu_silicon_13_h_corner.jpg",
+    "nangman_interior_changteul_nusu_silicon_14_h_new.jpg",
+    "nangman_interior_changteul_nusu_silicon_17_h_after2.jpg",
+    "nangman_interior_changteul_nusu_silicon_ask.png",
+    "nangman_interior_changteul_nusu_silicon_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/changwon_daewon",
+   "title": "창원 중문 설치,대원 힐스테이트 현관에 아치 원슬라이딩을 달았습니다",
+   "images": [
+    "nangman_interior_changwon_daewon_ask.png",
+    "nangman_interior_changwon_daewon_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/changwon_gamgye",
+   "title": "창원 중문 시공,문이 벽 속으로 들어가는 자동 3연동을 달았고 그 벽에 있던 스위치는 밖으로 꺼냈습니다",
+   "images": [
+    "nangman_interior_changwon_gamgye_01_front.jpg",
+    "nangman_interior_changwon_gamgye_02_after.jpg",
+    "nangman_interior_changwon_gamgye_03_pocket.jpg",
+    "nangman_interior_changwon_gamgye_04_wall_before.jpg",
+    "nangman_interior_changwon_gamgye_05_wall_after.jpg",
+    "nangman_interior_changwon_gamgye_06_inside.jpg",
+    "nangman_interior_changwon_gamgye_07_sensor.jpg",
+    "nangman_interior_changwon_gamgye_08_open.jpg",
+    "nangman_interior_changwon_gamgye_09_side.jpg",
+    "nangman_interior_changwon_gamgye_10_side2.jpg",
+    "nangman_interior_changwon_gamgye_ask.png",
+    "nangman_interior_changwon_gamgye_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/cheongju_jiwell",
+   "title": "청주 중문 시공,두산위브지웰시티 2차 현관에 모루유리 중문을 달았습니다",
+   "images": [
+    "nangman_interior_cheongju_jiwell_ask.png",
+    "nangman_interior_cheongju_jiwell_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/cheongso_hwagin",
+   "title": "입주청소 후 확인사항,잔금을 주기 전에 서랍과 걸레받이와 창틀 레일부터 열어 봅니다",
+   "images": [
+    "nangman_interior_cheongso_hwagin_ask.png",
+    "nangman_interior_cheongso_hwagin_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/cheongso_sunseo",
+   "title": "입주청소 순서,탄성코트와 줄눈을 먼저 하고 청소한 뒤에 가전과 이삿짐이 들어옵니다",
+   "images": [
+    "nangman_interior_cheongso_sunseo_ask.png",
+    "nangman_interior_cheongso_sunseo_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/daejeon_dure",
+   "title": "대전 중문 설치,대림두레 현관 파티션을 떼고 ㄱ자 초슬림 3연동을 달았습니다",
+   "images": [
+    "nangman_interior_daejeon_dure_ask.png",
+    "nangman_interior_daejeon_dure_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/donam_hansin",
+   "title": "돈암 한신한진 인테리어,같은 단지 두 집의 중문이 다른 이유는 입구 폭 41cm 차이였습니다",
+   "images": [
+    "nangman_interior_donam_hansin_ask.png",
+    "nangman_interior_donam_hansin_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/door_film",
+   "title": "현관문 필름,긁히고 구멍 난 문은 메우고 다듬은 뒤에 붙였고 세 집은 색을 이렇게 골랐습니다",
+   "images": [
+    "nangman_interior_door_film_01_inside.jpg",
+    "nangman_interior_door_film_02_outside.jpg",
+    "nangman_interior_door_film_04_lock_hole.jpg",
+    "nangman_interior_door_film_05_frame_peel.jpg",
+    "nangman_interior_door_film_06_putty.jpg",
+    "nangman_interior_door_film_07_after_inside.jpg",
+    "nangman_interior_door_film_08_frame_corner.jpg",
+    "nangman_interior_door_film_09_second.jpg",
+    "nangman_interior_door_film_10_third.jpg",
+    "nangman_interior_door_film_ask.png",
+    "nangman_interior_door_film_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/dress_cheonan",
+   "title": "드레스룸 중문 설치,천안 호반써밋 드레스룸 입구에 모루유리 여닫이 한 짝을 달았습니다",
+   "images": [
+    "nangman_interior_dress_cheonan_01_closed.jpg",
+    "nangman_interior_dress_cheonan_02_side.jpg",
+    "nangman_interior_dress_cheonan_03_closed2.jpg",
+    "nangman_interior_dress_cheonan_04_open.jpg",
+    "nangman_interior_dress_cheonan_ask.png",
+    "nangman_interior_dress_cheonan_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/dress_gimhae",
+   "title": "드레스룸 중문 슬라이딩,침대에서 화장대와 옷장이 다 보이던 안방에 벽을 따라 미는 문을 달았습니다",
+   "images": [
+    "nangman_interior_dress_gimhae_01_bed.jpg",
+    "nangman_interior_dress_gimhae_02_side.jpg",
+    "nangman_interior_dress_gimhae_03_closed.jpg",
+    "nangman_interior_dress_gimhae_04_open_close.jpg",
+    "nangman_interior_dress_gimhae_05_open.jpg",
+    "nangman_interior_dress_gimhae_06_near.jpg",
+    "nangman_interior_dress_gimhae_07_pattern.jpg",
+    "nangman_interior_dress_gimhae_08_inside.jpg",
+    "nangman_interior_dress_gimhae_09_inside_open.jpg",
+    "nangman_interior_dress_gimhae_10_after.jpg",
+    "nangman_interior_dress_gimhae_ask.png",
+    "nangman_interior_dress_gimhae_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/frame_film",
+   "title": "문틀 필름,물을 먹어 아래가 불어 터진 문틀은 도려내고 메운 뒤에 붙였습니다",
+   "images": [
+    "nangman_interior_frame_film_01_frames.jpg",
+    "nangman_interior_frame_film_02_swollen.jpg",
+    "nangman_interior_frame_film_03_swollen2.jpg",
+    "nangman_interior_frame_film_04_swollen3.jpg",
+    "nangman_interior_frame_film_05_bath.jpg",
+    "nangman_interior_frame_film_06_bath_frame.jpg",
+    "nangman_interior_frame_film_07_after.jpg",
+    "nangman_interior_frame_film_09_pillar.jpg",
+    "nangman_interior_frame_film_10_sash.jpg",
+    "nangman_interior_frame_film_11_entrance.jpg",
+    "nangman_interior_frame_film_ask.png",
+    "nangman_interior_frame_film_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/gabyeok_tongyeong",
+   "title": "현관 가벽 중문,입구 폭이 1m뿐이라 신발장 앞 가벽을 떼고 3연동을 달았습니다",
+   "images": [
+    "nangman_interior_gabyeok_tongyeong_01_front.jpg",
+    "nangman_interior_gabyeok_tongyeong_02_side.jpg",
+    "nangman_interior_gabyeok_tongyeong_03_wall.jpg",
+    "nangman_interior_gabyeok_tongyeong_04_wall_before.jpg",
+    "nangman_interior_gabyeok_tongyeong_05_after.jpg",
+    "nangman_interior_gabyeok_tongyeong_06_open_close.jpg",
+    "nangman_interior_gabyeok_tongyeong_07_open.jpg",
+    "nangman_interior_gabyeok_tongyeong_08_inside.jpg",
+    "nangman_interior_gabyeok_tongyeong_09_inside_after.jpg",
+    "nangman_interior_gabyeok_tongyeong_10_shoe.jpg",
+    "nangman_interior_gabyeok_tongyeong_ask.png",
+    "nangman_interior_gabyeok_tongyeong_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/gangaji_badak_sigong",
+   "title": "강아지 바닥 시공,업체를 찾기 전에 우리 집 바닥과 강아지가 다니는 길, 빈집인지부터 봅니다",
+   "images": [
+    "nangman_interior_gangaji_badak_sigong_01_u_pair.jpg",
+    "nangman_interior_gangaji_badak_sigong_02_u_kitchen.jpg",
+    "nangman_interior_gangaji_badak_sigong_03_u_room.jpg",
+    "nangman_interior_gangaji_badak_sigong_04_g_pair.jpg",
+    "nangman_interior_gangaji_badak_sigong_05_g_door.jpg",
+    "nangman_interior_gangaji_badak_sigong_06_g_living.jpg",
+    "nangman_interior_gangaji_badak_sigong_07_w_pair.jpg",
+    "nangman_interior_gangaji_badak_sigong_08_w_kitchen.jpg",
+    "nangman_interior_gangaji_badak_sigong_09_w_hall.jpg",
+    "nangman_interior_gangaji_badak_sigong_10_w_corner.jpg",
+    "nangman_interior_gangaji_badak_sigong_ask.png",
+    "nangman_interior_gangaji_badak_sigong_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/gangaji_mat_gagyeok",
+   "title": "강아지 미끄럼방지 매트 시공 가격,34평은 110~120장이 깔리고 금액은 까는 범위와 매트 종류가 정합니다",
+   "images": [
+    "nangman_interior_gangaji_mat_gagyeok_01_c_pair.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_02_c_hall.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_03_c_kitchen.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_04_p_living.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_05_p_door.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_06_p_window.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_07_y_pair.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_08_y_dog.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_09_y_dog2.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_10_b_pair.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_11_b_hall.jpg",
+    "nangman_interior_gangaji_mat_gagyeok_ask.png",
+    "nangman_interior_gangaji_mat_gagyeok_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/geomdan_hoban3_ipju",
+   "title": "검단 호반써밋3차 중문, 84B만 여닫이 160만원",
+   "images": [
+    "nangman_interior_geomdan_hoban3_ipju_01_j_window.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_02_f_closet.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_03_c_room.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_05_s_fog.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_06_y_frame.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_07_m_pair.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_08_m_open.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_09_y_after.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_10_t_kitchen.jpg",
+    "nangman_interior_geomdan_hoban3_ipju_ask.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/goyangi_mat",
+   "title": "",
+   "images": [
+    "nangman_interior_goyangi_mat_01_c_after.jpg",
+    "nangman_interior_goyangi_mat_02_c_pair.jpg",
+    "nangman_interior_goyangi_mat_03_c_pair2.jpg",
+    "nangman_interior_goyangi_mat_04_c_tower.jpg",
+    "nangman_interior_goyangi_mat_05_c_door.jpg",
+    "nangman_interior_goyangi_mat_06_c_hall.jpg",
+    "nangman_interior_goyangi_mat_07_g_pair.jpg",
+    "nangman_interior_goyangi_mat_08_g_pair2.jpg",
+    "nangman_interior_goyangi_mat_09_g_edge.jpg",
+    "nangman_interior_goyangi_mat_10_g_entry.jpg",
+    "nangman_interior_goyangi_mat_11_y_pair.jpg",
+    "nangman_interior_goyangi_mat_12_y_dining.jpg",
+    "nangman_interior_goyangi_mat_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/guchuk_apt_interior",
+   "title": "구축 아파트 인테리어,두 집은 필름으로 고쳤고 한 집은 샷시를 바꿨습니다",
+   "images": [
+    "nangman_interior_guchuk_apt_interior_01_a_sash.jpg",
+    "nangman_interior_guchuk_apt_interior_02_a_door.jpg",
+    "nangman_interior_guchuk_apt_interior_03_a_closet.jpg",
+    "nangman_interior_guchuk_apt_interior_04_a_closet2.jpg",
+    "nangman_interior_guchuk_apt_interior_05_a_utility.jpg",
+    "nangman_interior_guchuk_apt_interior_06_a_wall.jpg",
+    "nangman_interior_guchuk_apt_interior_07_a_arch.jpg",
+    "nangman_interior_guchuk_apt_interior_08_a_frame.jpg",
+    "nangman_interior_guchuk_apt_interior_09_b_room.jpg",
+    "nangman_interior_guchuk_apt_interior_10_b_room2.jpg",
+    "nangman_interior_guchuk_apt_interior_11_b_front.jpg",
+    "nangman_interior_guchuk_apt_interior_12_c_living.jpg",
+    "nangman_interior_guchuk_apt_interior_13_c_balcony.jpg",
+    "nangman_interior_guchuk_apt_interior_14_c_corner.jpg",
+    "nangman_interior_guchuk_apt_interior_15_c_kitchen.jpg",
+    "nangman_interior_guchuk_apt_interior_ask.png",
+    "nangman_interior_guchuk_apt_interior_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/gyeonjeok_bigyo",
+   "title": "인테리어 견적 비교,어디가 싼지 보기 전에 범위·자재·수량 등 여섯 가지로 같은 공사인지부터 맞춥니다",
+   "images": [
+    "nangman_interior_gyeonjeok_bigyo_ask.png",
+    "nangman_interior_gyeonjeok_bigyo_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/gyeonjeokseo",
+   "title": "인테리어 견적서 보는법,합계보다 먼저 「1식」이라고 적힌 줄과 「별도」 줄과 자재 이름부터 확인합니다",
+   "images": [
+    "nangman_interior_gyeonjeokseo_ask.png",
+    "nangman_interior_gyeonjeokseo_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/haja_gigan",
+   "title": "아파트 하자보수 기간,타일과 도배 같은 마감공사는 2년이라 입주 2년 차 전세 만기 전에 봅니다",
+   "images": [
+    "nangman_interior_haja_gigan_ask.png",
+    "nangman_interior_haja_gigan_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/house_macheon",
+   "title": "주택 중문설치,옛 철제 중문을 떼어 낸 입구에는 문을 4cm 작게 만들어 답니다",
+   "images": [
+    "nangman_interior_house_macheon_ask.png",
+    "nangman_interior_house_macheon_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/hwajeong_interior",
+   "title": "화정 인테리어,구축 197집이 팔린 화정동 · 행신동의 창틀 코킹과 중문",
+   "images": [
+    "nangman_interior_hwajeong_interior_03_c_old.jpg",
+    "nangman_interior_hwajeong_interior_05_c_new.jpg",
+    "nangman_interior_hwajeong_interior_07_c_slab.jpg",
+    "nangman_interior_hwajeong_interior_08_c_slab2.jpg",
+    "nangman_interior_hwajeong_interior_10_j1_before.jpg",
+    "nangman_interior_hwajeong_interior_11_j1_rail.jpg",
+    "nangman_interior_hwajeong_interior_12_j1_panel.jpg",
+    "nangman_interior_hwajeong_interior_13_j2_before.jpg",
+    "nangman_interior_hwajeong_interior_14_j2_side.jpg",
+    "nangman_interior_hwajeong_interior_15_j2_open.jpg",
+    "nangman_interior_hwajeong_interior_16_j2_closed.jpg",
+    "nangman_interior_hwajeong_interior_17_j2_wall.jpg",
+    "nangman_interior_hwajeong_interior_18_j2_front.jpg",
+    "nangman_interior_hwajeong_interior_ask.png",
+    "nangman_interior_hwajeong_interior_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/hyeongwan_interior",
+   "title": "아파트 현관 인테리어,중문 색은 바닥 마루와 신발장 색을 보고 고릅니다",
+   "images": [
+    "nangman_interior_hyeongwan_interior_01_a_pair.jpg",
+    "nangman_interior_hyeongwan_interior_02_a_hall.jpg",
+    "nangman_interior_hyeongwan_interior_03_a_side.jpg",
+    "nangman_interior_hyeongwan_interior_04_b_pair.jpg",
+    "nangman_interior_hyeongwan_interior_05_b_open.jpg",
+    "nangman_interior_hyeongwan_interior_06_c_pair.jpg",
+    "nangman_interior_hyeongwan_interior_07_c_side.jpg",
+    "nangman_interior_hyeongwan_interior_08_c_hall.jpg",
+    "nangman_interior_hyeongwan_interior_09_d_pair.jpg",
+    "nangman_interior_hyeongwan_interior_10_d_shoe.jpg",
+    "nangman_interior_hyeongwan_interior_11_d_front.jpg",
+    "nangman_interior_hyeongwan_interior_ask.png",
+    "nangman_interior_hyeongwan_interior_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/incheon_gompangi",
+   "title": "인천 곰팡이 제거 업체,베란다 곰팡이를 닦는 대신 벽 속 단열을 바꾼 인천 아파트 세 집",
+   "images": [
+    "nangman_interior_incheon_gompangi_01_y_after.jpg",
+    "nangman_interior_incheon_gompangi_02_y_pair.jpg",
+    "nangman_interior_incheon_gompangi_03_y_door.jpg",
+    "nangman_interior_incheon_gompangi_04_y_board.jpg",
+    "nangman_interior_incheon_gompangi_05_t_long.jpg",
+    "nangman_interior_incheon_gompangi_06_t_ceil.jpg",
+    "nangman_interior_incheon_gompangi_07_t_sill.jpg",
+    "nangman_interior_incheon_gompangi_08_t_store.jpg",
+    "nangman_interior_incheon_gompangi_09_t_board.jpg",
+    "nangman_interior_incheon_gompangi_10_t_after.jpg",
+    "nangman_interior_incheon_gompangi_11_d_before.jpg",
+    "nangman_interior_incheon_gompangi_12_d_glass.jpg",
+    "nangman_interior_incheon_gompangi_13_d_pink.jpg",
+    "nangman_interior_incheon_gompangi_14_d_after.jpg",
+    "nangman_interior_incheon_gompangi_ask.png",
+    "nangman_interior_incheon_gompangi_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/ipju_osan_geumgang",
+   "title": "오산역 금강펜테리움 센트럴파크 중문, 옵션은 여닫이 126만원",
+   "images": [
+    "nangman_interior_ipju_osan_geumgang_ask.png",
+    "nangman_interior_ipju_osan_geumgang_banner.png",
+    "nangman_interior_ipju_osan_geumgang_d1_closed.jpg",
+    "nangman_interior_ipju_osan_geumgang_d2_open.jpg",
+    "nangman_interior_ipju_osan_geumgang_d3_from_entrance.jpg",
+    "nangman_interior_ipju_osan_geumgang_d4_open_entrance.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/ipju_yeonhui_hoban",
+   "title": "연희공원 호반써밋 중문, 확장한 집은 3연동이 달려 나옵니다",
+   "images": [
+    "nangman_interior_ipju_yeonhui_hoban_ask.png",
+    "nangman_interior_ipju_yeonhui_hoban_banner.png",
+    "nangman_interior_ipju_yeonhui_hoban_d1_closed.jpg",
+    "nangman_interior_ipju_yeonhui_hoban_d2_open.jpg",
+    "nangman_interior_ipju_yeonhui_hoban_d3_inside.jpg"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jeonse_interior",
+   "title": "전세집 인테리어,재건축 이주로 몇 해 사는 집은 떼어 낼 수 있는 것부터 고릅니다",
+   "images": [
+    "nangman_interior_jeonse_interior_ask.png",
+    "nangman_interior_jeonse_interior_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso",
+   "title": "전세 입주청소,비용은 누가 낼지 계약 때 정하고 앞 세입자가 이사한 날과 내 이삿날 사이에 하루를 비워 둡니다",
+   "images": [
+    "nangman_interior_jeonse_ipju_cheongso_01_g_cooktop.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_02_g_drawer.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_03_g_drain.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_04_g_vent.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_05_g_closet.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_06_g_sill.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_07_g_shoe.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_08_g_living.jpg",
+    "nangman_interior_jeonse_ipju_cheongso_ask.png",
+    "nangman_interior_jeonse_ipju_cheongso_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jeonse_suri",
+   "title": "전세집 수리 범위,보일러 고장과 비 새는 벽은 집주인이 고치고 별 비용 없이 손쉽게 고칠 사소한 것은 세입자가 고칩니다",
+   "images": [
+    "nangman_interior_jeonse_suri_ask.png",
+    "nangman_interior_jeonse_suri_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jubang_jinhae",
+   "title": "주방 중문 시공,잘 안 열리던 부엌 베란다 여닫이문을 떼고 옆으로 미는 3연동으로 바꿨습니다",
+   "images": [
+    "nangman_interior_jubang_jinhae_01_before.jpg",
+    "nangman_interior_jubang_jinhae_02_before_open.jpg",
+    "nangman_interior_jubang_jinhae_03_after.jpg",
+    "nangman_interior_jubang_jinhae_04_after_open.jpg",
+    "nangman_interior_jubang_jinhae_05_side.jpg",
+    "nangman_interior_jubang_jinhae_06_before_side.jpg",
+    "nangman_interior_jubang_jinhae_07_ent_before.jpg",
+    "nangman_interior_jubang_jinhae_08_ent_after.jpg",
+    "nangman_interior_jubang_jinhae_09_ent_open.jpg",
+    "nangman_interior_jubang_jinhae_10_gosi.jpg",
+    "nangman_interior_jubang_jinhae_ask.png",
+    "nangman_interior_jubang_jinhae_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jungmun_bangeum",
+   "title": "중문 방음,방음문은 아니어서 현관문 틈부터 막고 중문은 틈을 무엇으로 메우는지 물어봅니다",
+   "images": [
+    "nangman_interior_jungmun_bangeum_ask.png",
+    "nangman_interior_jungmun_bangeum_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jungmun_suri_biyong",
+   "title": "중문 수리 비용,문 전체가 아니라 고장 난 부품 하나로 정해집니다",
+   "images": [
+    "nangman_interior_jungmun_suri_biyong_ask.png",
+    "nangman_interior_jungmun_suri_biyong_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/jungmun_yuri_gyoche",
+   "title": "중문 유리 교체 비용,문을 바꾸기 전에 유리만 빠지는 문인지 봅니다",
+   "images": [
+    "nangman_interior_jungmun_yuri_gyoche_ask.png",
+    "nangman_interior_jungmun_yuri_gyoche_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/living_suwon",
+   "title": "거실 중문 설치,수원 천천동 삼호진덕 베란다 앞에 6연동을 달았습니다",
+   "images": [
+    "nangman_interior_living_suwon_ask.png",
+    "nangman_interior_living_suwon_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/lowe",
+   "title": "로이유리 뜻,샷시를 바꾼 두 집 모두 베란다 창에는 넣었고 복도 쪽 창은 한 집만 넣었습니다",
+   "images": [
+    "nangman_interior_lowe_01_guro_veranda.jpg",
+    "nangman_interior_lowe_03_guro_bunhap.jpg",
+    "nangman_interior_lowe_04_guro_room.jpg",
+    "nangman_interior_lowe_05_guro_bokdo.jpg",
+    "nangman_interior_lowe_06_sanbon_veranda.jpg",
+    "nangman_interior_lowe_07_sanbon_veranda2.jpg",
+    "nangman_interior_lowe_08_sanbon_bunhap.jpg",
+    "nangman_interior_lowe_09_sanbon_bokdo.jpg",
+    "nangman_interior_lowe_10_sanbon_anbang.jpg",
+    "nangman_interior_lowe_ask.png",
+    "nangman_interior_lowe_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/moru_yangsan",
+   "title": "모루유리 중문 원슬라이딩,큰 유리 한 장이 허전하다면 흰 띠로 칸을 나눕니다",
+   "images": [
+    "nangman_interior_moru_yangsan_ask.png",
+    "nangman_interior_moru_yangsan_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/nogyeon_mikkeureom",
+   "title": "노견 미끄럼 방지 방법,일어날 때 버둥거리던 대리석 집과 낡은 마루 집은 다니는 길을 따라 매트를 이었습니다",
+   "images": [
+    "nangman_interior_nogyeon_mikkeureom_01_s_pair.jpg",
+    "nangman_interior_nogyeon_mikkeureom_02_s_pair2.jpg",
+    "nangman_interior_nogyeon_mikkeureom_03_s_dining.jpg",
+    "nangman_interior_nogyeon_mikkeureom_04_s_hall.jpg",
+    "nangman_interior_nogyeon_mikkeureom_05_s_kitchen.jpg",
+    "nangman_interior_nogyeon_mikkeureom_06_s_door.jpg",
+    "nangman_interior_nogyeon_mikkeureom_07_c_living.jpg",
+    "nangman_interior_nogyeon_mikkeureom_08_c_hall.jpg",
+    "nangman_interior_nogyeon_mikkeureom_09_c_kitchen.jpg",
+    "nangman_interior_nogyeon_mikkeureom_10_c_room.jpg",
+    "nangman_interior_nogyeon_mikkeureom_ask.png",
+    "nangman_interior_nogyeon_mikkeureom_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/oebu_coking_self",
+   "title": "외부 코킹 셀프,집 안에서 손 닿는 창틀까지는 직접 하고 고층 바깥 외벽은 로프를 타는 시공팀에 맡깁니다",
+   "images": [
+    "nangman_interior_oebu_coking_self_01_a_ba.jpg",
+    "nangman_interior_oebu_coking_self_02_a_gap.jpg",
+    "nangman_interior_oebu_coking_self_03_a_pile.jpg",
+    "nangman_interior_oebu_coking_self_04_a_crack.jpg",
+    "nangman_interior_oebu_coking_self_05_a_fill.jpg",
+    "nangman_interior_oebu_coking_self_06_a_rope.jpg",
+    "nangman_interior_oebu_coking_self_07_a_side.jpg",
+    "nangman_interior_oebu_coking_self_08_b_ba.jpg",
+    "nangman_interior_oebu_coking_self_09_b_side.jpg",
+    "nangman_interior_oebu_coking_self_10_b_hard.jpg",
+    "nangman_interior_oebu_coking_self_11_b_rail.jpg",
+    "nangman_interior_oebu_coking_self_13_c_ba.jpg",
+    "nangman_interior_oebu_coking_self_14_c_corner.jpg",
+    "nangman_interior_oebu_coking_self_15_c_wall.jpg",
+    "nangman_interior_oebu_coking_self_16_c_top.jpg",
+    "nangman_interior_oebu_coking_self_17_c_after.jpg",
+    "nangman_interior_oebu_coking_self_18_c_rail.jpg",
+    "nangman_interior_oebu_coking_self_ask.png",
+    "nangman_interior_oebu_coking_self_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa",
+   "title": "외벽 누수 공사,금을 메우고 옛 실리콘을 걷어 낸 뒤 새로 시공합니다",
+   "images": [
+    "nangman_interior_oebyeok_nusu_gongsa_01_a_top.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_02_a_crack.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_03_a_corner.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_04_a_joint.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_05_a_fill.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_06_a_panel.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_07_a_coat.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_08_a_after.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_10_b_top.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_11_b_joint.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_12_b_sill.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_15_c_split.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_16_c_corner.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_17_c_after.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_18_c_after2.jpg",
+    "nangman_interior_oebyeok_nusu_gongsa_ask.png",
+    "nangman_interior_oebyeok_nusu_gongsa_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/oebyeok_nusu_upche",
+   "title": "외벽 누수 업체,탐지와 방수와 코킹 중 누구를 부를지는 젖는 때가 정합니다",
+   "images": [
+    "nangman_interior_oebyeok_nusu_upche_01_s_pair.jpg",
+    "nangman_interior_oebyeok_nusu_upche_02_s_peel.jpg",
+    "nangman_interior_oebyeok_nusu_upche_04_s_front.jpg",
+    "nangman_interior_oebyeok_nusu_upche_06_s_corner.jpg",
+    "nangman_interior_oebyeok_nusu_upche_07_s_old.jpg",
+    "nangman_interior_oebyeok_nusu_upche_09_s_pipe2.jpg",
+    "nangman_interior_oebyeok_nusu_upche_12_h_top.jpg",
+    "nangman_interior_oebyeok_nusu_upche_13_h_corner.jpg",
+    "nangman_interior_oebyeok_nusu_upche_14_h_vent.jpg",
+    "nangman_interior_oebyeok_nusu_upche_15_h_rail.jpg",
+    "nangman_interior_oebyeok_nusu_upche_16_h_new.jpg",
+    "nangman_interior_oebyeok_nusu_upche_17_h_new2.jpg",
+    "nangman_interior_oebyeok_nusu_upche_18_h_vent2.jpg",
+    "nangman_interior_oebyeok_nusu_upche_19_h_rail2.jpg",
+    "nangman_interior_oebyeok_nusu_upche_20_h_after.jpg",
+    "nangman_interior_oebyeok_nusu_upche_ask.png",
+    "nangman_interior_oebyeok_nusu_upche_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/pocket_gimhae",
+   "title": "포켓 중문 설치,같은 아파트 두 집이 3연동과 포켓 3연동을 달았고 열리는 폭이 이만큼 달랐습니다",
+   "images": [
+    "nangman_interior_pocket_gimhae_01_open_two.jpg",
+    "nangman_interior_pocket_gimhae_02_closed.jpg",
+    "nangman_interior_pocket_gimhae_03_first.jpg",
+    "nangman_interior_pocket_gimhae_04_first_side.jpg",
+    "nangman_interior_pocket_gimhae_05_second.jpg",
+    "nangman_interior_pocket_gimhae_06_second_open.jpg",
+    "nangman_interior_pocket_gimhae_07_second_side.jpg",
+    "nangman_interior_pocket_gimhae_08_pocket.jpg",
+    "nangman_interior_pocket_gimhae_09_second_closed.jpg",
+    "nangman_interior_pocket_gimhae_10_two.jpg",
+    "nangman_interior_pocket_gimhae_ask.png",
+    "nangman_interior_pocket_gimhae_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/pocket_jinju",
+   "title": "포켓도어 중문,진주 중흥S클래스 현관 가벽 속으로 3연동 세 짝이 들어갑니다",
+   "images": [
+    "nangman_interior_pocket_jinju_ask.png",
+    "nangman_interior_pocket_jinju_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/rebuild_interior",
+   "title": "재건축 인테리어 비용,재건축 단계부터 확인하고 공사비를 남은 햇수로 나눠 교체와 필름과 실리콘을 비교합니다",
+   "images": [
+    "nangman_interior_rebuild_interior_ask.png",
+    "nangman_interior_rebuild_interior_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/reventus_ipju",
+   "title": "래미안 레벤투스 중문, 옵션은 자동 중문 268만원",
+   "images": [
+    "nangman_interior_reventus_ipju_01_c_sink.jpg",
+    "nangman_interior_reventus_ipju_02_c_rail.jpg",
+    "nangman_interior_reventus_ipju_03_c_shoe.jpg",
+    "nangman_interior_reventus_ipju_04_c_glass.jpg",
+    "nangman_interior_reventus_ipju_05_c_kitchen.jpg",
+    "nangman_interior_reventus_ipju_06_w_pair.jpg",
+    "nangman_interior_reventus_ipju_ask.png",
+    "nangman_interior_reventus_ipju_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/room_film",
+   "title": "방문 필름,문 여덟 짝 가운데 네 짝만 필름으로 하고 네 짝은 새 문으로 바꾼 이유",
+   "images": [
+    "nangman_interior_room_film_01_door.jpg",
+    "nangman_interior_room_film_02_groove.jpg",
+    "nangman_interior_room_film_03_glass_door.jpg",
+    "nangman_interior_room_film_04_pattern_door.jpg",
+    "nangman_interior_room_film_05_putty.jpg",
+    "nangman_interior_room_film_06_putty2.jpg",
+    "nangman_interior_room_film_07_putty3.jpg",
+    "nangman_interior_room_film_08_after.jpg",
+    "nangman_interior_room_film_09_corner.jpg",
+    "nangman_interior_room_film_11_entrance.jpg",
+    "nangman_interior_room_film_ask.png",
+    "nangman_interior_room_film_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/saejip_jeunghugun",
+   "title": "새집증후군 시공,청소로 분진부터 걷어 내고 광촉매 · 자외선 · 편백수 순서로 마무리한 서초 새 아파트 두 집",
+   "images": [
+    "nangman_interior_saejip_jeunghugun_01_a_fog.jpg",
+    "nangman_interior_saejip_jeunghugun_02_b_dust.jpg",
+    "nangman_interior_saejip_jeunghugun_03_b_out.jpg",
+    "nangman_interior_saejip_jeunghugun_04_b_rail.jpg",
+    "nangman_interior_saejip_jeunghugun_08_a_uv.jpg",
+    "nangman_interior_saejip_jeunghugun_09_b_uv.jpg",
+    "nangman_interior_saejip_jeunghugun_10_a_fog2.jpg",
+    "nangman_interior_saejip_jeunghugun_11_b_fog.jpg",
+    "nangman_interior_saejip_jeunghugun_ask.png",
+    "nangman_interior_saejip_jeunghugun_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/sangpan_coating",
+   "title": "주방 상판 코팅,입주청소 뒤에 상판·싱크볼·포세린 타일 바닥을 코팅한 집과 코팅으로 안 되는 것",
+   "images": [
+    "nangman_interior_sangpan_coating_01_k_top.jpg",
+    "nangman_interior_sangpan_coating_03_c_sink.jpg",
+    "nangman_interior_sangpan_coating_05_k_sink.jpg",
+    "nangman_interior_sangpan_coating_07_k_faucet2.jpg",
+    "nangman_interior_sangpan_coating_08_f_pair.jpg",
+    "nangman_interior_sangpan_coating_09_f_before.jpg",
+    "nangman_interior_sangpan_coating_10_f_after.jpg",
+    "nangman_interior_sangpan_coating_11_f_after2.jpg",
+    "nangman_interior_sangpan_coating_12_f_after3.jpg",
+    "nangman_interior_sangpan_coating_ask.png",
+    "nangman_interior_sangpan_coating_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/sash_live",
+   "title": "살면서 샷시 교체,짐을 둔 채 바꾼 다섯 집은 가구에 비닐부터 씌웠고 도배를 다시 하지 않으려고 창 둘레에 몰딩을 댔습니다",
+   "images": [
+    "nangman_interior_sash_live_01_balcony.jpg",
+    "nangman_interior_sash_live_02_vinyl.jpg",
+    "nangman_interior_sash_live_03_floor.jpg",
+    "nangman_interior_sash_live_04_molding.jpg",
+    "nangman_interior_sash_live_05_room.jpg",
+    "nangman_interior_sash_live_06_kitchen.jpg",
+    "nangman_interior_sash_live_07_cabinet.jpg",
+    "nangman_interior_sash_live_09_rail.jpg",
+    "nangman_interior_sash_live_10_bars.jpg",
+    "nangman_interior_sash_live_11_door.jpg",
+    "nangman_interior_sash_live_ask.png",
+    "nangman_interior_sash_live_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/sash_roller_gyoche",
+   "title": "샷시 롤러 교체,창이 뻑뻑하면 샷시를 바꾸기 전에 바퀴부터 확인합니다",
+   "images": [
+    "nangman_interior_sash_roller_gyoche_ask.png",
+    "nangman_interior_sash_roller_gyoche_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/sejong_surubae",
+   "title": "세종 중문 설치,수루배마을 현관에 우드 비대칭 스윙도어를 달았습니다",
+   "images": [
+    "nangman_interior_sejong_surubae_ask.png",
+    "nangman_interior_sejong_surubae_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/seulgaegol_sulhu",
+   "title": "강아지 슬개골 수술 후 관리,실밥은 2주 안팎에 풀고 운동 제한은 10~12주라 그동안 미끄러운 바닥부터 막습니다",
+   "images": [
+    "nangman_interior_seulgaegol_sulhu_01_g_pair.jpg",
+    "nangman_interior_seulgaegol_sulhu_02_g_hall.jpg",
+    "nangman_interior_seulgaegol_sulhu_03_g_kitchen.jpg",
+    "nangman_interior_seulgaegol_sulhu_04_m_pair.jpg",
+    "nangman_interior_seulgaegol_sulhu_05_m_living.jpg",
+    "nangman_interior_seulgaegol_sulhu_06_m_hall.jpg",
+    "nangman_interior_seulgaegol_sulhu_07_g_kitchen2.jpg",
+    "nangman_interior_seulgaegol_sulhu_08_g_room.jpg",
+    "nangman_interior_seulgaegol_sulhu_10_m_table.jpg",
+    "nangman_interior_seulgaegol_sulhu_ask.png",
+    "nangman_interior_seulgaegol_sulhu_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/sink_film",
+   "title": "싱크대 필름 시공,어두운 주방 세 곳이 문짝을 바꾸지 않고 흰색 주방이 됐습니다",
+   "images": [
+    "nangman_interior_sink_film_01_dark_sink.jpg",
+    "nangman_interior_sink_film_02_island.jpg",
+    "nangman_interior_sink_film_03_corner.jpg",
+    "nangman_interior_sink_film_05_peel_lower.jpg",
+    "nangman_interior_sink_film_06_whole.jpg",
+    "nangman_interior_sink_film_07_lower_after.jpg",
+    "nangman_interior_sink_film_08_live_sink.jpg",
+    "nangman_interior_sink_film_10_fridge_a.jpg",
+    "nangman_interior_sink_film_ask.png",
+    "nangman_interior_sink_film_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/six_seoul",
+   "title": "6연동 중문,폭 3m가 넘는 입구 세 곳에 달았고 가운데에서 양쪽으로 세 짝씩 열립니다",
+   "images": [
+    "nangman_interior_six_seoul_01_a_closed.jpg",
+    "nangman_interior_six_seoul_02_a_half.jpg",
+    "nangman_interior_six_seoul_03_a_open.jpg",
+    "nangman_interior_six_seoul_04_b_closed.jpg",
+    "nangman_interior_six_seoul_05_b_half.jpg",
+    "nangman_interior_six_seoul_06_b_open.jpg",
+    "nangman_interior_six_seoul_08_c_closed.jpg",
+    "nangman_interior_six_seoul_09_c_half.jpg",
+    "nangman_interior_six_seoul_10_c_open.jpg",
+    "nangman_interior_six_seoul_11_c_side.jpg",
+    "nangman_interior_six_seoul_ask.png",
+    "nangman_interior_six_seoul_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/slim3_onam",
+   "title": "초슬림 3연동 중문,간살을 세 짝에 다 넣으면 답답해서 한 짝에만 넣었습니다",
+   "images": [
+    "nangman_interior_slim3_onam_01_closed.jpg",
+    "nangman_interior_slim3_onam_03_gansal.jpg",
+    "nangman_interior_slim3_onam_08_entrance_open.jpg",
+    "nangman_interior_slim3_onam_ask.png",
+    "nangman_interior_slim3_onam_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/suwon_gansal",
+   "title": "3연동 간살 중문,수원 영통 아파트 현관에 우드 간살을 촘촘히 넣었습니다",
+   "images": [
+    "nangman_interior_suwon_gansal_ask.png",
+    "nangman_interior_suwon_gansal_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/suwon_narrow",
+   "title": "좁은 현관 중문 스윙도어,수원 화서역 아파트 현관에 우드 한 짝 여닫이를 달았습니다",
+   "images": [
+    "nangman_interior_suwon_narrow_ask.png",
+    "nangman_interior_suwon_narrow_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/toesil_cheongso",
+   "title": "퇴실 청소,평범하게 살며 생긴 때는 세입자 몫이 아니고 특약이 있다면 금액과 범위부터 읽습니다",
+   "images": [
+    "nangman_interior_toesil_cheongso_01_d_range.jpg",
+    "nangman_interior_toesil_cheongso_02_d_drawer.jpg",
+    "nangman_interior_toesil_cheongso_03_d_toilet.jpg",
+    "nangman_interior_toesil_cheongso_04_d_vent.jpg",
+    "nangman_interior_toesil_cheongso_05_d_drain.jpg",
+    "nangman_interior_toesil_cheongso_06_d_sill.jpg",
+    "nangman_interior_toesil_cheongso_07_f_cooktop.jpg",
+    "nangman_interior_toesil_cheongso_08_f_sill.jpg",
+    "nangman_interior_toesil_cheongso_09_f_living.jpg",
+    "nangman_interior_toesil_cheongso_10_f_sink.jpg",
+    "nangman_interior_toesil_cheongso_ask.png",
+    "nangman_interior_toesil_cheongso_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/upche_seonjeong",
+   "title": "인테리어 업체 선정 방법,동네마다 두 팀만 두고 품목별 견적서로 맞춰 봅니다",
+   "images": [
+    "nangman_interior_upche_seonjeong_ask.png",
+    "nangman_interior_upche_seonjeong_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/wonroom_dobae",
+   "title": "원룸 도배,살면서 낡은 벽지는 세입자가 물어 줄 몫이 아니고 찢거나 낙서한 곳은 이사하는 날 원래대로 되돌립니다",
+   "images": [
+    "nangman_interior_wonroom_dobae_ask.png",
+    "nangman_interior_wonroom_dobae_banner.png"
+   ]
+  },
+  {
+   "dir": "/mnt/user-data/outputs/int/wood3_daeyeon",
+   "title": "우드 중문 3연동,두 면이 거실로 트인 현관은 한 면은 문으로 한 면은 유리 벽으로 막았습니다",
+   "images": [
+    "nangman_interior_wood3_daeyeon_01_front.jpg",
+    "nangman_interior_wood3_daeyeon_02_corner.jpg",
+    "nangman_interior_wood3_daeyeon_03_after_corner.jpg",
+    "nangman_interior_wood3_daeyeon_04_side.jpg",
+    "nangman_interior_wood3_daeyeon_05_side_wall.jpg",
+    "nangman_interior_wood3_daeyeon_06_inside.jpg",
+    "nangman_interior_wood3_daeyeon_07_open_close.jpg",
+    "nangman_interior_wood3_daeyeon_08_living_open.jpg",
+    "nangman_interior_wood3_daeyeon_09_door.jpg",
+    "nangman_interior_wood3_daeyeon_10_corner2.jpg",
+    "nangman_interior_wood3_daeyeon_ask.png",
+    "nangman_interior_wood3_daeyeon_banner.png"
+   ]
+  }
+ ],
+ "interior_count": {
+  "posts": 90,
+  "images": 671
+ },
+ "nangman_intbanner": [
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_beotimmok_sodeuk_1019_interior.png",
+   "title": "버팀목 소득기준, 부부 합쳐 5천만원이고 신혼부부는 7,500만원입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_blog_daehaeng_nm_interior.png",
+   "title": "부동산 블로그 대행, 이웃 · 공감 작업 없이 검색어와 실거래 숫자로만 쓰고 한 달 8편 15만원부터입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_changneung_yeok_interior.png",
+   "title": "창릉역, GTX-A는 2030년 고양은평선은 2031년인데 창릉 첫 입주는 2027년 12월입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_daegyo_iju_interior.png",
+   "title": "여의도 대교아파트 이주, 여의도 구축 전세는 4억 2천만~8억 2천만원입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_dandok_buji_interior.png",
+   "title": "단독주택 부지, 5억원이면 판교는 19평 과천은 24평인데 화성 새솔동은 95평 양주 옥정은 110평입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_dhbangbae2_interior.png",
+   "title": "디에이치 방배 분양가, 84㎡는 분양 때 옆 방배그랑자이보다 4억 쌌고 2년 뒤에는 10억 넘게 쌉니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_dongjak_signature_jeonse_interior.png",
+   "title": "상도동 아파트 전세, 새 아파트 입주 때는 옆 단지보다 1억 낮았습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_elif_geomdan_foredu_interior.png",
+   "title": "엘리프 검단 포레듀 분양가, 84㎡ 7층 위가 마전동 신축보다 5천만원 높습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_gaepo67_iju_interior.png",
+   "title": "개포주공6단지 이주, 5억 이하 개포동 전세는 대부분 52㎡ 아래"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_geomdan_urbanity_interior.png",
+   "title": "검단호수공원역 풍경채 어바니티 분양가, 옆 호반써밋 84㎡ 매매와 같은 5억대"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_gongbeop_yongdo_interior.png",
+   "title": "계획관리지역 건폐율, 40%인데 산업·유통개발진흥지구가 되면 60%입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_heukseok_sise_interior.png",
+   "title": "흑석동 아파트 시세, 리버파크자이 84㎡와 2011년 센트레빌이 같은 23억대"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_icheon2_sise_interior.png",
+   "title": "힐스테이트 이천역 2단지 분양가, 84㎡ 6억원대였는데 입주 뒤 매매 중앙값은 5억 2,450만원이고 같은 층 분양가보다 대부분 1억원 넘게 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_icheon_yemiji_interior.png",
+   "title": "이천 금성백조 예미지 분양가, 옆 우미린 84㎡ 매매보다 1천만원 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_jeonse_yebo_1011_interior.png",
+   "title": "서울 전세 매물, 11월부터 석 달 동안 2년 전세 2만 3천 건이 끝나고 송파구가 2,283건으로 가장 많습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_jikgeorae_1012_interior.png",
+   "title": "아파트 직거래 가격, 서울에서 같은 단지 같은 면적 20건을 비교하니 직거래가 중개거래 중앙값보다 27% 낮았습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_junggae_sihum_1014_interior.png",
+   "title": "공인중개사 시험일정 2026, 10월 31일 토요일 하루에 1차와 2차를 다 보고 합격자 발표는 12월 2일입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_maegyo_palucid_interior.png",
+   "title": "매교역 팰루시드 시세, 84㎡ 분양권 10억 1,780만원은 분양가보다 1억 2천 높고 옆 단지보다 8천 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_mapo_interior.png",
+   "title": "마포 아파트 시세, 1년 동안 구축은 22% 새 아파트는 8% 올라 공덕자이와 옆 단지 차이가 5억에서 2억으로 줄었습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_oebyeok_nusu_chaegim_interior.png",
+   "title": "아파트 외벽 누수 책임, 외벽 금이면 윗집이 아니라 관리주체 일입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_osan_geumgang_interior.png",
+   "title": "오산역 금강펜테리움 분양가, 84㎡ 4억 6천은 옆 에듀파크보다 1억 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_pyeongchon_urbanvalley_interior.png",
+   "title": "e편한세상 평촌 어반밸리 분양가, 59㎡ 7억 3천은 올해 분양권 8억 2천에 팔렸고 옆 어바인퍼스트보다 2억 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_reventus_bunyang_interior.png",
+   "title": "래미안 레벤투스 분양가, 84㎡ 입주권이 분양가보다 3억 8천만원 높게 팔렸습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_sanbon_maemae_interior.png",
+   "title": "산본 아파트 매매, 같은 59㎡라도 세종 · 우륵은 1년 새 26~39% 오르고 한라주공4-2 · 개나리주공13은 8~10% 올랐습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_seoul_6eok_1014_interior.png",
+   "title": "서울 6억대 아파트 매매, 7~9월 1,099건 가운데 노원구가 300건이고 열에 아홉은 2010년 전에 지은 집입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_seoul_georae_1018_interior.png",
+   "title": "서울 아파트 거래량 9월, 1년 전 절반인데 노원 · 도봉은 줄지 않았습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_seoul_geupmae_1019_interior.png",
+   "title": "서울 급매 아파트, 중앙값보다 10% 싼 거래 절반 넘게는 1~3층입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_sgj_centreville_interior.png",
+   "title": "신검단중앙역 센트레빌 분양가, 84㎡ 4억 7천만원대는 같은 역 새 아파트 매매보다 4천만원에서 3억 7천만원까지 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_singok_sigview_interior.png",
+   "title": "e편한세상 신곡 시그니처뷰 분양가, 59A 분양권은 3천만원 넘게 붙었습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_snredev_interior.png",
+   "title": "수진1구역 이주, 8월 예정이 이주비 대출에 막혀 4분기로 밀렸습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_songnae_centvien_interior.png",
+   "title": "송내역 푸르지오 센트비엔 분양가, 59㎡ 분양권 36건 가운데 23건이 같은 층 분양가보다 낮게 팔렸고 옆 래미안어반비스타는 6억 4천입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_songdo_daejang_interior.png",
+   "title": "송도 대장 아파트 순위, 84㎡ 실거래 1위는 송도더샵파크애비뉴 13억 8,500만원이고 10위와 4억 6천 차이입니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_uiwang_centline_interior.png",
+   "title": "의왕 센트라인 데시앙 분양가, 84A 분양권 34건은 모두 같은 층 분양가보다 3천만원 넘게 붙었고 옆 의왕더샵캐슬 84㎡보다는 2천만원 낮습니다"
+  },
+  {
+   "image": "/mnt/user-data/outputs/nangman_new/nangman_unjeong_jeil_bunyang_interior.png",
+   "title": "운정중앙역 제일풍경채 분양가, 옆 우미린 매매보다 3,800만원 낮습니다"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "head": [
+  "인테리어 견적 비교",
+  "같은 공사인지부터"
+ ],
+ "what": "견적서",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/gyeonjeok_bigyo/nangman_interior_gyeonjeok_bigyo_fig1.png",
+   "line": "금액보다 먼저\n맞출 여섯 가지",
+   "sub": "인테리어 견적 비교"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gyeonjeok_bigyo/nangman_interior_gyeonjeok_bigyo_fig2.png",
+   "line": "인테리어\n피해구제 유형",
+   "sub": "한국소비자원"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gyeonjeok_bigyo/nangman_interior_gyeonjeok_bigyo_fig3.png",
+   "line": "표준계약서에\n적는 내용",
+   "sub": "공정거래위원회"
+  }
+ ]
+}

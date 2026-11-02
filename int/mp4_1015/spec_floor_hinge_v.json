@@ -1,0 +1,34 @@
+{
+ "head": [
+  "플로어 힌지 교체",
+  "바닥 안 깨고 몸통만"
+ ],
+ "what": "유리문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/floor_hinge/사진_출처/a.jpg",
+   "line": "플로어 힌지\n몸통만 교체",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/floor_hinge/사진_출처/b.jpg",
+   "line": "하우징은\n그대로 둡니다",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/floor_hinge/사진_출처/c.jpg",
+   "line": "같은 규격\n새 힌지 몸통",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/floor_hinge/사진_출처/d.jpg",
+   "line": "바닥을 깨지\n않습니다",
+   "sub": "출처 서울 24시 출장 열쇠"
+  },
+  {
+   "kicker": "플로어 힌지",
+   "line": "문이 처지면\n사진 한 장",
+   "sub": "하우징 사진이 중요합니다"
+  }
+ ]
+}

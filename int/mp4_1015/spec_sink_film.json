@@ -1,0 +1,39 @@
+{
+ "head": [
+  "싱크대 필름 시공",
+  "세 집 주방을 흰색으로"
+ ],
+ "what": "주방",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_01_dark_sink.jpg",
+   "line": "어두운 회색 하부장\n흰색으로",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_03_corner.jpg",
+   "line": "시공 후\nㄱ자 싱크대",
+   "sub": "첫째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_04_peel_upper.jpg",
+   "line": "상부장 아래\n들떠 벗겨진 필름",
+   "sub": "둘째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_07_lower_after.jpg",
+   "line": "시공 후\n하부장",
+   "sub": "둘째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_08_live_sink.jpg",
+   "line": "살고 있는 집의\n주방",
+   "sub": "셋째 집"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/sink_film/nangman_interior_sink_film_09_fridge.jpg",
+   "line": "냉장고장과\n옆 벽",
+   "sub": "셋째 집"
+  }
+ ]
+}

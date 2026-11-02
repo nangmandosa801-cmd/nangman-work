@@ -1,0 +1,47 @@
+{
+ "head": [
+  "검단 호반써밋3차",
+  "중문 달기"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_hoban3_ipju/nangman_interior_geomdan_hoban3_ipju_07_m_pair.jpg",
+   "line": "84B만 여닫이\n옵션 160만원",
+   "sub": "검단 원당동 · NI-0080",
+   "vline": "옵션 안 넣은 집\n원당동 여닫이"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_hoban3_ipju/nangman_interior_geomdan_hoban3_ipju_08_m_open.jpg",
+   "line": "한 짝을 연\n흰 틀 여닫이",
+   "sub": "검단 원당동 · NI-0085"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_hoban3_ipju/nangman_interior_geomdan_hoban3_ipju_06_y_frame.jpg",
+   "line": "틀을 먼저 세운\n블랙 3연동",
+   "sub": "검단 당하동 · NI-0083"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_hoban3_ipju/nangman_interior_geomdan_hoban3_ipju_09_y_after.jpg",
+   "line": "아래 칸에만\n무늬 유리",
+   "sub": "검단 당하동 · NI-0084"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/geomdan_hoban3_ipju/nangman_interior_geomdan_hoban3_ipju_04_e_dust.jpg",
+   "line": "청소 전 서랍 밑\n공사 먼지",
+   "sub": "서울 은평구 · NI-0117"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "인천 서구 원당동",
+   "line": "검단\n호반써밋3차 입주",
+   "sub": "2026년 12월 · 905세대"
+  },
+  {
+   "kicker": "옵션 중문",
+   "line": "84B만 여닫이\n160만원",
+   "sub": "기본형은 중문 미설치"
+  }
+ ]
+}

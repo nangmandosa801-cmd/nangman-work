@@ -1,0 +1,41 @@
+{
+ "head": [
+  "이천 금성백조 예미지",
+  "중문 달기"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/yemizi_src/nangman_interior_ipju_icheon_yemizi_d1_before.jpg",
+   "line": "중문 달기 전\n현관",
+   "sub": "여주 아파트 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/yemizi_src/nangman_interior_ipju_icheon_yemizi_d2_closed.jpg",
+   "line": "아쿠아유리 3연동\n닫은 모습",
+   "sub": "빛은 들어오고 안은 흐리게"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/yemizi_src/nangman_interior_ipju_icheon_yemizi_d3_open.jpg",
+   "line": "열면 세 짝이\n왼쪽으로 겹침",
+   "sub": "여주 아파트 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/yemizi_src/nangman_interior_ipju_icheon_yemizi_d4_inside.jpg",
+   "line": "집 안에서 본\n닫은 모습",
+   "sub": "여주 아파트 시공 사례"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "이천 중리지구",
+   "line": "이천 금성백조\n예미지 입주",
+   "sub": "2026년 11월 · 1,009세대"
+  },
+  {
+   "kicker": "옵션 중문",
+   "line": "154만~176만원",
+   "sub": "타입에 따라 다릅니다"
+  }
+ ]
+}

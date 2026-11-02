@@ -1,0 +1,14 @@
+{
+ "head": ["힐스테이트 동작 시그니처", "열쇠 받은 다음 날 줄눈"],
+ "what": "욕실 바닥",
+ "vintro": [
+  {"kicker": "상도동 · 12월 1일부터 입주", "line": "608세대\n줄눈이 첫 순서", "sub": "줄눈 다음에 입주청소"},
+  {"kicker": "경제형 줄눈(폴리우레아)", "line": "욕실 1곳 + 현관\n16만원", "sub": "욕실 2곳 + 현관 23만원"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/dongjak_julnun/02.jpg", "line": "새 타일인데\n줄 사이가 하얗게", "sub": "이천 새 아파트 · NI-1212"},
+  {"src": "/home/claude/v2src/t1102/dongjak_julnun/03.jpg", "line": "시멘트 줄눈은\n물을 빨아들입니다", "sub": "이천 새 아파트 · NI-1213"},
+  {"src": "/home/claude/v2src/t1102/dongjak_julnun/05.jpg", "line": "물 닿는 욕실부터\n색이 변합니다", "sub": "이천 새 아파트 · NI-1215"},
+  {"src": "/home/claude/v2src/t1102/dongjak_julnun/06.jpg", "line": "베란다 · 세탁실\n20만원", "sub": "이천 새 아파트 · NI-1216"}
+ ]
+}

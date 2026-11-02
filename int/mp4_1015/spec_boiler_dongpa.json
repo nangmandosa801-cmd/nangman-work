@@ -1,0 +1,19 @@
+{
+ "head": [
+  "보일러 동파 세입자",
+  "수리비는 누가?"
+ ],
+ "what": "보일러",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_boiler_dongpa_fig1.png",
+   "line": "70만원 보일러\n세입자 몫",
+   "sub": "보일러 나이만큼 나눔"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_boiler_dongpa_fig2.png",
+   "line": "동파방지 기능\n8도와 5도",
+   "sub": "보일러 동파방지"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "head": [
+  "현관 도어락 교체",
+  "옛 구멍은 보강판"
+ ],
+ "what": "현관문",
+ "vintro": [
+  {
+   "kicker": "이사 온 날",
+   "line": "번호부터\n바꿉니다",
+   "sub": "예전 번호와 카드가\n그대로 남아 있어서"
+  },
+  {
+   "kicker": "양주 옥정 · 의정부",
+   "line": "뗀 자리의 구멍은\n보강판으로 덮기",
+   "sub": "푸시풀 · 보조키형 · 지문"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_uijeongbu/nangman_interior_doorlock_uijeongbu_02_a_pair.jpg",
+   "line": "푸시풀\n교체 전후",
+   "sub": "양주 옥정동 · NI-1077"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_uijeongbu/nangman_interior_doorlock_uijeongbu_04_b_pair.jpg",
+   "line": "보조키형\n번호키 교체",
+   "sub": "의정부 금오동 · NI-1079"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_uijeongbu/nangman_interior_doorlock_uijeongbu_07_c_hole.jpg",
+   "line": "떼고 나니\n옛 구멍이 드러남",
+   "sub": "의정부 신곡동 · NI-1082"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_uijeongbu/nangman_interior_doorlock_uijeongbu_08_c_after.jpg",
+   "line": "보강판을 덮고\n새 도어락",
+   "sub": "의정부 신곡동 · NI-1083"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/doorlock_uijeongbu/nangman_interior_doorlock_uijeongbu_11_d_after.jpg",
+   "line": "보강판 위\n새 번호판",
+   "sub": "의정부 호원동 · NI-1086"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "head": [
+  "창원 중문 시공",
+  "벽 속으로 들어가는 자동 3연동"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_01_front.jpg",
+   "line": "거실에서 본\n현관",
+   "sub": "창원"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_03_pocket.jpg",
+   "line": "문이 들어가는\n벽",
+   "sub": "창원"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_04_wall_before.jpg",
+   "line": "시공 전\n벽",
+   "sub": "창원"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_05_wall_after.jpg",
+   "line": "시공 후\n벽",
+   "sub": "스위치는 밖으로"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_07_sensor.jpg",
+   "line": "닫힌\n문",
+   "sub": "창원"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/changwon_gamgye/nangman_interior_changwon_gamgye_08_open.jpg",
+   "line": "열린\n문",
+   "sub": "창원"
+  }
+ ]
+}

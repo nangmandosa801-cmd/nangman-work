@@ -1,0 +1,39 @@
+{
+ "head": [
+  "퇴실 청소",
+  "세입자 몫은 어디까지?"
+ ],
+ "what": "집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_01_d_range.jpg",
+   "line": "가스레인지 상판을\n들어 올린 곳",
+   "sub": "남양주 다산 · NI-0263"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_02_d_drawer.jpg",
+   "line": "서랍을 빼낸\n수납장 레일",
+   "sub": "남양주 다산 · NI-0264"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_04_d_vent.jpg",
+   "line": "욕실 환풍구\n커버를 떼고",
+   "sub": "남양주 다산 · NI-0266"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_06_d_sill.jpg",
+   "line": "창틀 레일\n모서리",
+   "sub": "남양주 다산 · NI-0268"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_10_f_sink.jpg",
+   "line": "거름망까지 꺼내\n닦은 싱크대",
+   "sub": "남양주 다산 · NI-0272"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/toesil_cheongso/nangman_interior_toesil_cheongso_09_f_living.jpg",
+   "line": "청소를 마친\n빈 거실",
+   "sub": "남양주 다산 · NI-0271"
+  }
+ ]
+}

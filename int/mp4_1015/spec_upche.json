@@ -1,0 +1,19 @@
+{
+ "head": [
+  "중문 업체 비교",
+  "견적서 여섯 줄"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/home/claude/hv/cards/upche_a.png",
+   "line": "총액 말고\n같은 줄끼리",
+   "sub": "중문 견적서"
+  },
+  {
+   "src": "/home/claude/hv/cards/upche_b.png",
+   "line": "실측 비용부터\n물어봅니다",
+   "sub": "견적 받을 때"
+  }
+ ]
+}

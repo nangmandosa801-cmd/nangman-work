@@ -1,0 +1,41 @@
+{
+ "head": [
+  "외벽 누수 공사",
+  "어떤 순서로 할까?"
+ ],
+ "what": "외벽",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa/nangman_interior_oebyeok_nusu_gongsa_01_a_top.jpg",
+   "line": "외벽 위쪽 금\n흰 물자국이 신호",
+   "sub": "벽돌 주택 · 사진 NI-0397"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa/nangman_interior_oebyeok_nusu_gongsa_05_a_fill.jpg",
+   "line": "금을 따라\n먼저 메웁니다",
+   "sub": "벽돌 주택 · 사진 NI-0401"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa/nangman_interior_oebyeok_nusu_gongsa_07_a_coat.jpg",
+   "line": "벽돌 줄 메우고\n발수 코팅",
+   "sub": "벽돌 주택 · 사진 NI-0403"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa/nangman_interior_oebyeok_nusu_gongsa_09_b_arch.jpg",
+   "line": "들뜬 옛 실리콘\n걷어 냅니다",
+   "sub": "경기 과천 상가 · 사진 NI-0405"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/oebyeok_nusu_gongsa/nangman_interior_oebyeok_nusu_gongsa_13_b_arch2.jpg",
+   "line": "프라이머 뒤\n끊김 없이 새로",
+   "sub": "경기 과천 상가 · 사진 NI-0409"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "외벽 누수",
+   "line": "금부터 메우고\n실리콘은 새로",
+   "sub": "공사 순서대로 봅니다"
+  }
+ ]
+}

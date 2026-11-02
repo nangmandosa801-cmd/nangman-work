@@ -1,0 +1,17 @@
+{
+ "why": "10/17 02:56 사용자 「이겨야 하는데 낭만 인테리어 티스토리에 유튜브 올리라니깐 시공 동영상」 — 티스토리 글마다 그 공사의 실제 시공 영상을 넣는다",
+ "upload_first": "유튜브 「낭만 인테리어」 채널(nangmandosa801) · 일일 한도 풀리면(10/17 09:3x 이후) 아래 클립부터 올림 · 파일 /mnt/user-data/outputs/int/clip_sigong/ (PC 사본 필요하면 C:\\블로그 아래에서 stage) · 설명 = _info.txt 캡션 + 티스토리 글 주소 + 010-7678-9967",
+ "clips": {
+  "oebu_coking_self": {"file": "nangman_interior_oebu_coking_self_clip.mp4", "tistory": ["/12 외부 코킹 비용"]},
+  "oebyeok_nusu": {"file": "nangman_interior_oebyeok_nusu_clip.mp4", "tistory": ["/10 외벽 실리콘 비용", "/8 베란다 누수"]},
+  "changteul_nusu": {"file": "nangman_interior_changteul_nusu_clip.mp4", "tistory": ["/9 샷시 누수", "/13 창문 외풍"]},
+  "medialle_cheongso": {"file": "nangman_interior_medialle_cheongso_clip.mp4", "tistory": ["/7 입주청소 추가금"]},
+  "geomdan_cheongso": {"file": "nangman_interior_geomdan_cheongso_clip.mp4", "tistory": ["/6 입주청소 고르기"]},
+  "hyeongwan_interior": {"file": "nangman_interior_hyeongwan_interior_clip.mp4", "tistory": ["/4 중문 가격"]},
+  "geomdan_hoban3_jungmun": {"file": "nangman_interior_geomdan_hoban3_jungmun_clip.mp4", "tistory": ["/5 원슬라이딩 중문"]},
+  "jinjeop_sinan": {"file": "/mnt/user-data/outputs/int/clip_jinjeop_sinan/nangman_interior_jinjeop_sinan_short.mp4", "tistory": ["go_20 진접 중문 (미발행 · 영상 생기면 발행)"]}
+ },
+ "swap": "올린 뒤 각 티스토리 글 편집(/manage/newpost/<번호>) → 첫 연락처 상자 뒤 iframe의 영상 id를 시공 영상으로 바꾸거나, 이미 다른 영상이 있으면 시공 영상을 그 위에 하나 더 넣음 → space BackSpace → 완료 → 공개 발행 → curl로 id 확인",
+ "mat": "/11 거실 매트: 시공 클립이 아직 없음 → 제휴 매트 업체 시공 사진·영상으로 시공 클립을 새로 만든 뒤 넣음",
+ "rule": "앞으로 티스토리 새 글은 시공 영상이 있는 글만 올린다 (정보형 너구리 숏폼만으로는 올리지 않음)"
+}

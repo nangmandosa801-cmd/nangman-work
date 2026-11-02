@@ -1,0 +1,46 @@
+{
+ "head": [
+  "힐스테이트 메디알레",
+  "입주청소"
+ ],
+ "what": "주방",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/medialle_cheongso/nangman_interior_medialle_cheongso_02_a_hand.jpg",
+   "line": "새 집 수납장\n장갑에 흰 가루",
+   "sub": "서울 은평구 새 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/medialle_cheongso/nangman_interior_medialle_cheongso_04_a_under.jpg",
+   "line": "서랍 밑에\n쌓인 분진",
+   "sub": "서울 은평구 새 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/medialle_cheongso/nangman_interior_medialle_cheongso_06_a_trap.jpg",
+   "line": "욕실 배수구\n트랩까지 꺼냅니다",
+   "sub": "서울 은평구 새 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/medialle_cheongso/nangman_interior_medialle_cheongso_09_a_sill.jpg",
+   "line": "창틀 레일\n청소 전과 뒤",
+   "sub": "서울 은평구 새 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/medialle_cheongso/nangman_interior_medialle_cheongso_11_a_shoe_after.jpg",
+   "line": "신발장 선반도\n닦아 다시 끼움",
+   "sub": "서울 은평구 새 아파트"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "서울 은평구 대조동",
+   "line": "힐스테이트\n메디알레 입주",
+   "sub": "2026년 10월 · 2,451세대"
+  },
+  {
+   "kicker": "입주청소",
+   "line": "평당 1만원대\n~3만원",
+   "sub": "서비스 수준에 따라\n천차만별"
+  }
+ ]
+}

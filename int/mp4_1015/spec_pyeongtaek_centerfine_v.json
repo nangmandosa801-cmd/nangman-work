@@ -1,0 +1,14 @@
+{
+ "head": ["평택 푸르지오 센터파인", "입주청소 날짜 거꾸로 세기"],
+ "what": "현관 · 주방",
+ "vintro": [
+  {"kicker": "평택 · 2026년 11월 입주", "line": "열쇠 받는 날을\nD로 적기", "sub": "청소 날짜는 거꾸로 세면 나옵니다"},
+  {"kicker": "먼지 나는 일 다음 날", "line": "D+1~2 줄눈·중문\nD+3 입주청소", "sub": "D+4는 하루 비우고 다시 보기"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/ptf/02.jpg", "line": "개수대 · 상부장\n사전점검 날 찍어 두기", "sub": "입주청소 범위 · NI-0896"},
+  {"src": "/home/claude/v2src/t1102/ptf/04.jpg", "line": "중문은 D+1~2\n청소보다 먼저", "sub": "평택 고덕동 · NI-0893"},
+  {"src": "/home/claude/v2src/t1102/ptf/07.jpg", "line": "사전점검 날\n현관 폭 재기", "sub": "평택 고덕동 · NI-0892"},
+  {"src": "/home/claude/v2src/t1102/ptf/08.jpg", "line": "매트는\n맨 마지막 칸", "sub": "경기 안양 호계동 · NI-0897"}
+ ]
+}

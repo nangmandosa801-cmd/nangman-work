@@ -1,0 +1,19 @@
+{
+ "head": [
+  "결로 페인트 시공",
+  "차가운 벽은 못 고칩니다"
+ ],
+ "what": "벽",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_gyeollo_paint_fig1.png",
+   "line": "결로 페인트로\n될 집과 안 될 집",
+   "sub": "결로 페인트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_gyeollo_paint_fig2.png",
+   "line": "세탁실 벽 10㎡\n셀프와 업체",
+   "sub": "결로 페인트 가격"
+  }
+ ]
+}

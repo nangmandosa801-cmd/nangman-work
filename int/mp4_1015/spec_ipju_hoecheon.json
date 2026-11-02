@@ -1,0 +1,29 @@
+{
+ "head": [
+  "회천중앙역 로제비앙",
+  "중문 옵션 121만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hoecheon/nangman_interior_ipju_hoecheon_d1_closed.jpg",
+   "line": "복도에서 본\n닫은 모습",
+   "sub": "양주"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hoecheon/nangman_interior_ipju_hoecheon_d2_open.jpg",
+   "line": "넓은 문짝을\n연 모습",
+   "sub": "양주"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hoecheon/nangman_interior_ipju_hoecheon_d3_from_entrance.jpg",
+   "line": "현관에서\n집 안을 본 모습",
+   "sub": "양주"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_hoecheon/nangman_interior_ipju_hoecheon_d4_closed_entrance.jpg",
+   "line": "현관 쪽에서 본\n닫은 모습",
+   "sub": "양주"
+  }
+ ]
+}

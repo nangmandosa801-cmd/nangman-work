@@ -1,0 +1,39 @@
+{
+ "head": [
+  "전세 입주청소",
+  "하루 비워 두고 합니다"
+ ],
+ "what": "집",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_01_g_cooktop.jpg",
+   "line": "쿡탑을 들어 올린\n주방 상판",
+   "sub": "서울 은평 · NI-0280"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_02_g_drawer.jpg",
+   "line": "서랍을 빼낸\n주방 수납장",
+   "sub": "서울 은평 · NI-0281"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_04_g_vent.jpg",
+   "line": "욕실 환풍구\n커버를 떼고",
+   "sub": "서울 은평 · NI-0283"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_06_g_sill.jpg",
+   "line": "청소 전 창틀 레일\n쌓인 먼지",
+   "sub": "서울 은평 · NI-0285"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_07_g_shoe.jpg",
+   "line": "선반과 서랍을 비운\n신발장",
+   "sub": "서울 은평 · NI-0286"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jeonse_ipju_cheongso/nangman_interior_jeonse_ipju_cheongso_08_g_living.jpg",
+   "line": "청소를 마친\n빈 거실",
+   "sub": "서울 은평 · NI-0287"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "head": [
+  "래미안 레벤투스",
+  "사전점검 · 입주청소"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/reventus_ipju/nangman_interior_reventus_ipju_fig1.png",
+   "line": "옵션 자동 중문\n268만 · 278만원",
+   "sub": "입주자모집공고",
+   "vline": "옵션 자동 중문\n268만원부터"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/reventus_ipju/nangman_interior_reventus_ipju_01_c_sink.jpg",
+   "line": "새 아파트도\n배수구 거름망부터",
+   "sub": "청담동 새 아파트 · NI-0124"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/reventus_ipju/nangman_interior_reventus_ipju_02_c_rail.jpg",
+   "line": "창틀 레일\n검은 먼지",
+   "sub": "청담동 새 아파트 · NI-0125"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/reventus_ipju/nangman_interior_reventus_ipju_03_c_shoe.jpg",
+   "line": "현관 수납장\n아래 칸까지",
+   "sub": "청담동 새 아파트 · NI-0126"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/reventus_ipju/nangman_interior_reventus_ipju_06_w_pair.jpg",
+   "line": "청소한 바닥에\n밝은 매트",
+   "sub": "위례 아파트 · NI-0129"
+  }
+ ]
+}

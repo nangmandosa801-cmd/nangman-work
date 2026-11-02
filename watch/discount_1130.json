@@ -1,0 +1,108 @@
+{
+ "made": "2026-10-19 17:20",
+ "rule": "10/19 17:01 사용자 「견적 금액의 할인으로 가자」 — 「11월 30일까지 연락한 집은 견적 금액에서 5% 할인」 · 11/30까지",
+ "switch": "/home/claude/blogkit/discount1130.py — END=2026-11-30이 지나면 ON=False가 되어 생성기에서 줄이 저절로 빠짐. 지우려면 각 생성기의 「# DISCOUNT1130」 표시 줄을 지우거나 discount1130.ON=False.",
+ "generators": [
+  {
+   "file": "/home/claude/isa_1019/b2/build.py",
+   "line": 13
+  },
+  {
+   "file": "/home/claude/isa_1019/b2/build.py",
+   "line": 16
+  },
+  {
+   "file": "/home/claude/w/mail1018/coupon.py",
+   "line": 6
+  },
+  {
+   "file": "/home/claude/w/mail1018/coupon.py",
+   "line": 17
+  },
+  {
+   "file": "/home/claude/w/mail1018/coupon.py",
+   "line": 30
+  },
+  {
+   "file": "/home/claude/tistory_int/kit.py",
+   "line": 5
+  },
+  {
+   "file": "/home/claude/tistory_int/kit.py",
+   "line": 6
+  },
+  {
+   "file": "/home/claude/int/n1019/bangchungmang_suri.py",
+   "line": 71
+  },
+  {
+   "file": "/home/claude/int/partner/flyer.py",
+   "line": 50
+  },
+  {
+   "file": "/home/claude/int/partner/flyer.py",
+   "line": 70
+  },
+  {
+   "file": "/home/claude/int/n1009/ipju_pkg_kit.py",
+   "line": 37
+  },
+  {
+   "file": "/home/claude/int/n1009/ipju_pkg_kit.py",
+   "line": 44
+  },
+  {
+   "file": "/home/claude/int/nk.py",
+   "line": 78
+  },
+  {
+   "file": "/home/claude/int/nk.py",
+   "line": 96
+  },
+  {
+   "file": "/home/claude/int/mp4_1015/vert.py",
+   "line": 48
+  },
+  {
+   "file": "/home/claude/int/mp4_1015/vert.py",
+   "line": 61
+  }
+ ],
+ "outputs_text": [
+  "/mnt/user-data/outputs/int/namyangju_jungmun_seolchi/nangman_interior_namyangju_jungmun_seolchi_post.html",
+  "/mnt/user-data/outputs/int/suwon_interior_film/nangman_interior_suwon_interior_film_post.html",
+  "/mnt/user-data/outputs/int/goyang_caulk_sigong/nangman_interior_goyang_caulk_sigong_post.html",
+  "/mnt/user-data/outputs/int/dongjak_signature_cheongso/nangman_interior_dongjak_signature_cheongso_post.html",
+  "/mnt/user-data/outputs/int/bangchungmang_suri/nangman_interior_bangchungmang_suri_post.html",
+  "/mnt/user-data/outputs/int/centerfine_cheongso/nangman_interior_centerfine_cheongso_post.html",
+  "/mnt/user-data/outputs/int/veranda_nusujaguk/nangman_interior_veranda_nusujaguk_post.html",
+  "/mnt/user-data/outputs/int/dongjak_signature_cheongso/nangman_interior_dongjak_signature_cheongso_paste.html",
+  "/mnt/user-data/outputs/int/centerfine_cheongso/nangman_interior_centerfine_cheongso_paste.html",
+  "/mnt/user-data/outputs/_pc_1019/bangchungmang_suri/nangman_interior_bangchungmang_suri_paste.html",
+  "/mnt/user-data/outputs/_pc_1019/centerfine_cheongso/nangman_interior_centerfine_cheongso_paste.html",
+  "/mnt/user-data/outputs/_pc_1019/veranda_nusujaguk/nangman_interior_veranda_nusujaguk_paste.html",
+  "/home/claude/tistory_int/b1019/cat_screen.html",
+  "/home/claude/tistory_int/b1019/unjeong_cheongso.html",
+  "/home/claude/tistory_int/b1019/out_cat_screen.json",
+  "/home/claude/tistory_int/b1019/goA_cat_screen.js",
+  "/home/claude/tistory_int/b1019/goA_cat_screen.w.js",
+  "/home/claude/tistory_int/b1019/out_unjeong_cheongso.json",
+  "/home/claude/tistory_int/b1019/goA_unjeong_cheongso.js",
+  "/home/claude/isa_1019/b2/bogwan_biyong.html",
+  "/home/claude/isa_1019/b2/bogwan_biyong.json",
+  "/home/claude/isa_1019/b2/bogwan_biyong_inject.js",
+  "/home/claude/isa_1019/b2/ipju_order.html",
+  "/home/claude/isa_1019/b2/ipju_order.json",
+  "/home/claude/isa_1019/b2/ipju_order_inject.js"
+ ],
+ "outputs_text_find": "11월 30일까지 연락한 집은 견적 금액에서 5% 할인해 드립니다.",
+ "outputs_images": [
+  "/mnt/user-data/outputs/mail1019/*.pdf (4쪽 전단 아래 자르는 카드 두 줄) · 50개",
+  "/mnt/user-data/outputs/mail1018/coupon/nangman_coupon_PJ01.jpg"
+ ],
+ "not_added": [
+  "/mnt/user-data/outputs/mail1018/coupon/nangman_coupon_SC-IY-KTAQ.jpg (디에이치방배인연 전용 쿠폰 · 따로 정한 할인 정산 구조가 있어 그대로 둠)",
+  "네이버 발행 · 예약 글 · 이미 올린 티스토리 · 구글 블로그 글",
+  "사흘 밖 미발행 원고(생성기를 다시 돌리면 들어감)"
+ ]
+}

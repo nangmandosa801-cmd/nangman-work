@@ -1,0 +1,36 @@
+{
+ "2026-10-17": {
+  "nangmaninterior": "색인 데이터 처리 중(새 속성) · 사이트맵 10/15 읽음 · 15쪽 발견",
+  "talk7921": "색인됨 34 · 안 됨 61(표준 태그 대체 27 · 리디렉션 11 · 발견-미색인 21 · robots 1 · 크롤링-미색인 1)"
+ },
+ "requested": {
+  "2026-10-17": [
+   "https://nangmaninterior.tistory.com/12",
+   "https://nangmaninterior.tistory.com/13",
+   "https://nangmaninterior.tistory.com/11",
+   "https://nangmaninterior.tistory.com/10",
+   "https://nangmaninterior.tistory.com/9",
+   "https://nangmaninterior.tistory.com/8"
+  ],
+  "2026-10-18": [
+   "https://nangmaninterior.tistory.com/1",
+   "https://nangmaninterior.tistory.com/2",
+   "https://nangmaninterior.tistory.com/3",
+   "https://nangmaninterior.tistory.com/4",
+   "https://nangmaninterior.tistory.com/5",
+   "https://nangmaninterior.tistory.com/6",
+   "https://nangmaninterior.tistory.com/7",
+   "https://nangmaninterior.tistory.com/14"
+  ]
+ },
+ "note": "/7은 10/18 다시 요청 완료",
+ "2026-10-18": {
+  "nangmaninterior": "페이지 보고서 아직 「데이터 처리 중」(숫자 없음)",
+  "talk7921": "색인됨 34 · 안 됨 61(표준 태그 대체 27 · 리디렉션 11 · 발견-미색인 21 · robots 1 · 크롤링-미색인 1) · 최종 업데이트 10/12",
+  "nangman-dosa": "「데이터 처리 중」(숫자 없음)",
+  "note": "nangmaninterior URL 검사: /1·/3·/4 발견-미색인, /2·/14 Google이 아직 모름, /5·/6·/7 「리디렉션 오류」"
+ },
+ "2026-10-19": {
+  "note": "13:06 채널 매일 점검 — 크롬이 90분 동안 비지 않아(browser_free_1019 없음) 서치 콘솔 · 색인 요청 건너뜀"
+ }
+}

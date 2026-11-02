@@ -1,0 +1,39 @@
+{
+ "head": [
+  "인천계양 A2 중문",
+  "안단테 미서기 152만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_01_b_corner.jpg",
+   "line": "화이트\nㄱ자 3연동",
+   "sub": "계양구 병방동 · NI-0534"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_02_b_laser.jpg",
+   "line": "실측 날\n바닥에 레이저 선",
+   "sub": "계양구 병방동 · NI-0535"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_03_b_rail.jpg",
+   "line": "바닥에 깐\n세 줄 레일",
+   "sub": "계양구 병방동 · NI-0536"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_04_c_frost.jpg",
+   "line": "한 칸만\n불투명 유리",
+   "sub": "계양구 박촌동 · NI-0537"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_05_c_clear.jpg",
+   "line": "초슬림 3연동\n투명 유리",
+   "sub": "계양구 박촌동 · NI-0538"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_gyeyang_a2/nangman_interior_ipju_gyeyang_a2_06_m_pair.jpg",
+   "line": "대리석 위에 깐\n2.2cm 매트",
+   "sub": "인천 계양구 · NI-0539"
+  }
+ ]
+}

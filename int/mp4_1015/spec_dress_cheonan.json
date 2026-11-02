@@ -1,0 +1,29 @@
+{
+ "head": [
+  "드레스룸 중문",
+  "천안 호반써밋 여닫이"
+ ],
+ "what": "드레스룸",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/dress_cheonan/nangman_interior_dress_cheonan_01_closed.jpg",
+   "line": "화이트 틀에\n모루유리",
+   "sub": "닫은 모습"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_cheonan/nangman_interior_dress_cheonan_02_side.jpg",
+   "line": "옆에서 본\n모습",
+   "sub": "천안 호반써밋"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_cheonan/nangman_interior_dress_cheonan_03_closed2.jpg",
+   "line": "반대쪽에서 본\n닫은 모습",
+   "sub": "천안 호반써밋"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/dress_cheonan/nangman_interior_dress_cheonan_04_open.jpg",
+   "line": "바닥에\n레일이 없습니다",
+   "sub": "연 모습"
+  }
+ ]
+}

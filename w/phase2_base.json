@@ -1,0 +1,417 @@
+{
+"bangmyo_jejak": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{}",
+"gy": "1",
+"seo": [],
+"blocked": false
+},
+"bbok": {
+"local": false
+},
+"sejong_surubae": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{}",
+"gy": "0",
+"seo": [
+"✘ ⑥ 그림 설명 6개 검색어가 없는 것: 시공 전, 수납장 사이로 복도가 뚫려 / 시공 뒤 닫은 모습, 큰 문과 작은  / ",
+"▶ ✘ 1곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"cheongju_jiwell": {
+"local": true,
+"bad": "['값이']",
+"q": "0",
+"old": "{}",
+"gy": "0",
+"seo": [
+"✘ ⑥ 그림 설명 6개 검색어가 없는 것: 시공 전, 복도 끝에 현관문이 그대로 / 시공 뒤 닫은 모습, 모루유리 너머로 / ",
+"▶ ✘ 1곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"gojang10": {
+"local": false
+},
+"gombang": {
+"local": false
+},
+"gyeollo": {
+"local": false
+},
+"ipju_centerfine": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_cheongso": {
+"local": false
+},
+"ipju_deungchon": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_dongnae": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_gwanjeo": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_hoecheon": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '달기 전': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_hwayang_dongmun": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_icheon_yemizi": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_janghang_jeil": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_medialle": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "1",
+"seo": [],
+"blocked": false
+},
+"ipju_osan_geumgang": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_dhbangbae": {
+"local": false
+},
+"ipju_singok": {
+"local": false
+},
+"ipju_seongdong_xi": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '달기 전': 1, '뿌연 유리': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"ipju_yeonhui_hoban": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"busan_danggam": {
+"local": true,
+"bad": "['값이']",
+"q": "0",
+"old": "{'달기 전': 1}",
+"gy": "0",
+"seo": [
+"✘ ③ 소제목 5개 자동완성에 없는 앞머리: 중문 레일과 댐퍼",
+"✘ ⑥ 그림 설명 5개 검색어가 없는 것: 시공 전 현관문 쪽과 시공 뒤 닫은  / 좁은 현관, 여닫이와 원슬라이딩이 쓰 / ",
+"▶ ✘ 2곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"changwon_daewon": {
+"local": true,
+"bad": "['값이']",
+"q": "0",
+"old": "{}",
+"gy": "1",
+"seo": [
+"✘ ⑥ 그림 설명 5개 검색어가 없는 것: 시공 전 긴 벽과 시공 뒤 문을 열어 / 시공 전 현관문 쪽과 시공 뒤 닫은  / ",
+"▶ ✘ 1곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"mohair": {
+"local": false
+},
+"moonpung": {
+"local": false
+},
+"sash_24": {
+"local": false
+},
+"sash_nusu": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '쏜 뒤': 2, '옛 실리콘': 5}",
+"gy": "1",
+"seo": [],
+"blocked": false
+},
+"seosin_jeomgeom": {
+"local": false
+},
+"arch_pocheon": {
+"local": true,
+"bad": "['값은', '값을', '값이', '견주는', '까닭', '까닭은']",
+"q": "0",
+"old": "{}",
+"gy": "5",
+"seo": [
+"✘ ② 리드에 「아치형 중문」 없음",
+"✘ ③ 소제목 5개 자동완성에 없는 앞머리: 세로 모루유리 / 도배 전에 달 때",
+"✘ ⑥ 그림 설명 6개 검색어가 없는 것: 닫은 모습, 세 짝이 이어져 아치 하 / 시공 전, 공사 중인 모습 / 현관 쪽에서",
+"▶ ✘ 3곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"asym_wolgye": {
+"local": false
+},
+"auto_okjeong": {
+"local": false
+},
+"bronze_gimhae": {
+"local": true,
+"bad": "['값은', '값이', '견줘']",
+"q": "0",
+"old": "{}",
+"gy": "4",
+"seo": [
+"✘ ② 리드에 「브론즈유리 중문」 없음",
+"✘ ③ 소제목 5개 자동완성에 없는 앞머리: 블랙 틀에 검은 살을 붙여 칸을 나눴습니다",
+"✘ ⑥ 그림 설명 4개 검색어가 없는 것: 복도에서 본 현관, 시공 전과 시공  / 현관에서 본 모습, 시공 전과 시공  / ",
+"▶ ✘ 3곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"donam_hansin": {
+"local": true,
+"bad": "[]",
+"q": "1",
+"old": "{'이어 드립니다': 1, '달기 전': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"dress_cheonan": {
+"local": true,
+"bad": "['값은', '값을']",
+"q": "0",
+"old": "{'달기 전': 1}",
+"gy": "2",
+"seo": [
+"✘ ② 리드에 「드레스룸 중문」 없음",
+"✘ ⑥ 그림 설명 4개 검색어가 없는 것: 닫은 모습, 화이트 틀에 모루유리 / 옆에서 본 모습 / 반대쪽에서 본 닫은 모습 ",
+"▶ ✘ 2곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"house_macheon": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '옛 중문': 2}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"living_suwon": {
+"local": true,
+"bad": "['값은', '값이', '견줘', '까닭', '까닭은']",
+"q": "0",
+"old": "{'달기 전': 1}",
+"gy": "4",
+"seo": [
+"✘ ② 리드에 「거실 중문」 없음",
+"✘ ③ 소제목 5개 자동완성에 없는 앞머리: 투명 유리와 화이트 틀을 고른 까닭",
+"✘ ⑥ 그림 설명 4개 검색어가 없는 것: 거실에서 본 6연동 중문 / 옆에서 본 모습, 문 세 짝이 겹쳐  / 바닥 레일 /",
+"▶ ✘ 3곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"moru_yangsan": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '단 뒤': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"pocket_jinju": {
+"local": true,
+"bad": "['값', '값은', '값이', '견줘서', '까닭은']",
+"q": "2",
+"old": "{}",
+"gy": "6",
+"seo": [
+"✘ ⑥ 그림 설명 7개 검색어가 없는 것: 시공 뒤 닫은 모습, 베이지 틀에 투 / 시공 전, 복도에서 본 현관 / 시공 전 ",
+"▶ ✘ 1곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"sash_live": {
+"local": true,
+"bad": "['나갈']",
+"q": "0",
+"old": "{'이어 드립니다': 1, '밑칠': 1, '달기 전': 1, '단 뒤': 3, '뿌연 유리': 1}",
+"gy": "1",
+"seo": [],
+"blocked": false
+},
+"sink_film": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '밑칠': 6, '바꾼 뒤': 2, '붙이기 전': 8, '붙인 뒤': 1, '옛 필름': 8}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"swing_onam": {
+"local": true,
+"bad": "[]",
+"q": "0",
+"old": "{'이어 드립니다': 1, '닫히는 장치': 1}",
+"gy": "1",
+"seo": [],
+"blocked": false
+},
+"veranda_masan": {
+"local": true,
+"bad": "[]",
+"q": "1",
+"old": "{'이어 드립니다': 1}",
+"gy": "0",
+"seo": [],
+"blocked": false
+},
+"solar1": {
+"local": false
+},
+"suwon_gansal": {
+"local": true,
+"bad": "['값」이', '값이', '견줘', '까닭', '까닭은', '까닭입니다.']",
+"q": "0",
+"old": "{}",
+"gy": "2",
+"seo": [
+"✘ ② 리드에 「3연동 간살」 없음",
+"✘ ⑥ 그림 설명 4개 검색어가 없는 것: 복도에서 본 닫은 모습, 세로 살 사 / 문을 연 모습, 세 짝이 왼쪽에 겹쳐 / ",
+"▶ ✘ 2곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"suwon_narrow": {
+"local": true,
+"bad": "['값이', '견줘', '까닭']",
+"q": "0",
+"old": "{}",
+"gy": "2",
+"seo": [
+"✘ ⑥ 그림 설명 4개 검색어가 없는 것: 복도에서 본 닫은 모습, 우드 틀 / 문을 연 모습, 입구를 다 씁니다 / 현관에서",
+"▶ ✘ 1곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"sunseo": {
+"local": false
+},
+"suwon_cheongso": {
+"local": true,
+"bad": "[]",
+"q": "3",
+"old": "{'이어 드립니다': 1, '옛 중문': 1, '견적을 뽑아': 1}",
+"gy": "15",
+"seo": [],
+"blocked": false
+},
+"upche": {
+"local": false
+},
+"busan_sasang": {
+"local": true,
+"bad": "['갈색이', '값은']",
+"q": "0",
+"old": "{'달기 전': 1}",
+"gy": "0",
+"seo": [
+"✘ ⑥ 그림 설명 5개 검색어가 없는 것: 시공 전 현관 옆과 시공 뒤 닫은 문 / 원슬라이딩과 여닫이, 위에서 본 모습 / ",
+"▶ ✘ 1곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"daejeon_dure": {
+"local": true,
+"bad": "['값은', '차례로']",
+"q": "0",
+"old": "{}",
+"gy": "0",
+"seo": [
+"✘ ③ 소제목 5개 자동완성에 없는 앞머리: ㄱ자 중문",
+"✘ ⑥ 그림 설명 7개 검색어가 없는 것: 시공 전, 현관 옆에 서 있던 남색  / 시공 뒤, 같은 곳에 선 ㄱ자 초슬림 / ",
+"▶ ✘ 2곳 — 고친 뒤에 건넵니다"
+],
+"blocked": false
+},
+"veranda": {
+"local": false
+}
+}

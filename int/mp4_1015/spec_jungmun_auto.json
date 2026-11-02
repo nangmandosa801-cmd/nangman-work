@@ -1,0 +1,24 @@
+{
+ "head": [
+  "자동 중문",
+  "전기 없는 반자동도 있습니다"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/uploads/블로그/interior/[미발행] 10-31 16시 자동 중문, 전기 없이 되는 반자동이 따로 있습니다/사진/1-1.png",
+   "line": "자동과 반자동\n무엇이 다른가",
+   "sub": "자동 중문"
+  },
+  {
+   "src": "/home/claude/hv/cards/auto_a.png",
+   "line": "반자동은\n전기를 안 씀",
+   "sub": "닫는 것은 둘 다 저절로"
+  },
+  {
+   "src": "/home/claude/hv/cards/auto_b.png",
+   "line": "여는 것까지\n자동이 필요한 집",
+   "sub": "양손 짐 · 휠체어 · 유모차"
+  }
+ ]
+}

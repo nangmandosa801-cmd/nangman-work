@@ -1,0 +1,39 @@
+{
+ "head": [
+  "주방 중문 시공",
+  "여닫이를 3연동으로"
+ ],
+ "what": "주방",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_01_before.jpg",
+   "line": "교체 전\n부엌 베란다 문",
+   "sub": "주방 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_02_before_open.jpg",
+   "line": "잘 안 열리던\n여닫이문",
+   "sub": "교체 전"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_03_after.jpg",
+   "line": "옆으로 미는\n3연동",
+   "sub": "교체 후"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_04_after_open.jpg",
+   "line": "교체 후\n문을 연 모습",
+   "sub": "주방 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_08_ent_after.jpg",
+   "line": "같은 집 현관에도\n3연동",
+   "sub": "현관 중문"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/jubang_jinhae/nangman_interior_jubang_jinhae_10_gosi.jpg",
+   "line": "노란색 표시가\n하부고시",
+   "sub": "주방 중문"
+  }
+ ]
+}

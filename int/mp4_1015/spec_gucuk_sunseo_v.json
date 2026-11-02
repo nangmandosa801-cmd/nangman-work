@@ -1,0 +1,46 @@
+{
+ "head": [
+  "구축 아파트 인테리어",
+  "안 뜯는 집 순서"
+ ],
+ "what": "현관",
+ "vintro": [
+  {
+   "kicker": "올해 8~9월 수도권 매매",
+   "line": "구축이\n두 채 중 한 채",
+   "sub": "3만 2,177채 중 1만 6,478채"
+  },
+  {
+   "kicker": "안 뜯고 사는 집 · 일곱 단계",
+   "line": "누수 · 보일러\n줄눈 · 샷시",
+   "sub": "다음은 도어락 · 필름\n맨 끝이 입주청소"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/gucuk_sunseo/nangman_interior_gucuk_sunseo_01_a_pipe.jpg",
+   "line": "1 누수 · 배관\n벽 속 이음새",
+   "sub": "욕실 벽을 연 모습 · NI-1378"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gucuk_sunseo/nangman_interior_gucuk_sunseo_04_c_grout.jpg",
+   "line": "3 욕실 줄눈\n짙은 타일 밝은 줄",
+   "sub": "이천 구축 욕실 · NI-1381"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gucuk_sunseo/nangman_interior_gucuk_sunseo_06_d_sash.jpg",
+   "line": "4 샷시\n복도식 구축",
+   "sub": "산본 구축 · NI-1383"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gucuk_sunseo/nangman_interior_gucuk_sunseo_12_f_white.jpg",
+   "line": "6 필름\n딥그레이를 화이트로",
+   "sub": "방문 필름 · NI-1388"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/gucuk_sunseo/nangman_interior_gucuk_sunseo_14_g_rail.jpg",
+   "line": "7 입주청소\n창틀 레일 속까지",
+   "sub": "청소 · NI-1390"
+  }
+ ]
+}

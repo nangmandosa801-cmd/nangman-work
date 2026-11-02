@@ -1,0 +1,14 @@
+{
+ "head": ["e편한세상 서대전역 센트로", "중문, 유리부터 정합니다"],
+ "what": "현관",
+ "vintro": [
+  {"kicker": "대전 중구 · 749세대", "line": "서대전역 센트로\n10월 입주", "sub": "옵션 중문 안 고른 집은\n이제 직접 고릅니다"},
+  {"kicker": "옵션 중문 3연동", "line": "수동 225만원\n자동 365만원", "sub": "모양보다 먼저 정할 것은 유리"}
+ ],
+ "slides": [
+  {"src": "/home/claude/int/mp4_1015/sdj_clip/p2.jpg", "line": "투명 유리\n넓고 밝게", "sub": "대전 문화동 · NI-0130"},
+  {"src": "/home/claude/int/mp4_1015/sdj_clip/p5.jpg", "line": "아쿠아 유리\n신발은 형체만", "sub": "대전 선화동 · NI-0135"},
+  {"src": "/home/claude/int/mp4_1015/sdj_clip/p6.jpg", "line": "모루 유리\n밖이 거의 안 보임", "sub": "대전 도마동 · NI-0133"},
+  {"src": "/home/claude/int/mp4_1015/sdj_clip/p10.jpg", "line": "긴 복도는\n밝은 문으로", "sub": "대전 중구 · NI-0137"}
+ ]
+}

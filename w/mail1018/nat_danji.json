@@ -1,0 +1,1230 @@
+[
+ {
+  "id": "N001",
+  "danji": "진위역서희스타힐스더파크뷰",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "평택시",
+  "dong": [
+   "진위면"
+  ],
+  "ipju_month": "2027-02",
+  "units": 1659,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "진위역서희스타힐스"
+ },
+ {
+  "id": "N002",
+  "danji": "평택브레인시티중흥S-클래스",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "평택시",
+  "dong": [
+   "도일동",
+   "장당동",
+   "가곡동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 1980,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "브레인시티중흥S클래스"
+ },
+ {
+  "id": "N003",
+  "danji": "지제역반도체밸리해링턴플레이스",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "평택시",
+  "dong": [
+   "가재동",
+   "지제동",
+   "장당동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 1209,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "지제역해링턴플레이스"
+ },
+ {
+  "id": "N004",
+  "danji": "e편한세상일산메이포레",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "고양시 일산동구",
+  "dong": [
+   "풍동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 1342,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "e편한세상일산메이포레"
+ },
+ {
+  "id": "N005",
+  "danji": "두산위브더제니스센트럴용인",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "용인시 처인구",
+  "dong": [
+   "삼가동",
+   "역북동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 568,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "두산위브더제니스센트럴용인"
+ },
+ {
+  "id": "N006",
+  "danji": "역북서희스타힐스프라임시티",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "용인시 처인구",
+  "dong": [
+   "역북동",
+   "삼가동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 912,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "역북서희스타힐스"
+ },
+ {
+  "id": "N007",
+  "danji": "안성당왕경남아너스빌하이스트",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "안성시",
+  "dong": [
+   "당왕동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 976,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "당왕경남아너스빌"
+ },
+ {
+  "id": "N008",
+  "danji": "영통자이센트럴파크",
+  "kind": "입주",
+  "sido": "경기",
+  "sigungu": "수원시 영통구",
+  "dong": [
+   "영통동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 580,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B2%BD%EA%B8%B0%EB%8F%84",
+  "kakao_name": "영통자이센트럴파크"
+ },
+ {
+  "id": "N009",
+  "danji": "푸르지오라디우스파크",
+  "kind": "입주",
+  "sido": "서울",
+  "sigungu": "성북구",
+  "dong": [
+   "장위동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 1637,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%84%9C%EC%9A%B8%EC%8B%9C",
+  "kakao_name": "푸르지오라디우스파크"
+ },
+ {
+  "id": "N010",
+  "danji": "제일풍경채검단Ⅳ",
+  "kind": "입주",
+  "sido": "인천",
+  "sigungu": "서구",
+  "dong": [
+   "불로동",
+   "당하동",
+   "원당동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 1048,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%9D%B8%EC%B2%9C%EC%8B%9C",
+  "kakao_name": "제일풍경채검단4"
+ },
+ {
+  "id": "N011",
+  "danji": "검단아테라자이",
+  "kind": "입주",
+  "sido": "인천",
+  "sigungu": "서구",
+  "dong": [
+   "불로동",
+   "당하동",
+   "원당동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 709,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%9D%B8%EC%B2%9C%EC%8B%9C",
+  "kakao_name": "검단아테라자이"
+ },
+ {
+  "id": "N012",
+  "danji": "부산에코델타시티16블록중흥S-클래스",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "강서구",
+  "dong": [
+   "강동동",
+   "명지동",
+   "대저2동"
+  ],
+  "ipju_month": "2026-11",
+  "units": 1067,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%B6%80%EC%82%B0%EC%8B%9C",
+  "kakao_name": "에코델타시티중흥S클래스"
+ },
+ {
+  "id": "N013",
+  "danji": "해링턴마레",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "남구",
+  "dong": [
+   "우암동",
+   "감만동"
+  ],
+  "ipju_month": "2026-12",
+  "units": 2205,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%B6%80%EC%82%B0%EC%8B%9C",
+  "kakao_name": "해링턴마레"
+ },
+ {
+  "id": "N014",
+  "danji": "부산장안지구디에트르디오션",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "기장군",
+  "dong": [
+   "장안읍"
+  ],
+  "ipju_month": "2027-02",
+  "units": 507,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%B6%80%EC%82%B0%EC%8B%9C",
+  "kakao_name": "장안 디에트르"
+ },
+ {
+  "id": "N015",
+  "danji": "더샵금정위버시티",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "금정구",
+  "dong": [
+   "부곡동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 994,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%B6%80%EC%82%B0%EC%8B%9C",
+  "kakao_name": "더샵금정위버시티"
+ },
+ {
+  "id": "N016",
+  "danji": "양정롯데캐슬프론티엘",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "부산진구",
+  "dong": [
+   "양정동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 903,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%B6%80%EC%82%B0%EC%8B%9C",
+  "kakao_name": "양정롯데캐슬"
+ },
+ {
+  "id": "N017",
+  "danji": "일광노르웨이숲오션포레",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "기장군",
+  "dong": [
+   "일광읍",
+   "일광면"
+  ],
+  "ipju_month": "2027-03",
+  "units": 1294,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%B6%80%EC%82%B0%EC%8B%9C",
+  "kakao_name": "일광노르웨이숲"
+ },
+ {
+  "id": "N018",
+  "danji": "동래 반도유보라",
+  "kind": "입주",
+  "sido": "부산",
+  "sigungu": "동래구",
+  "dong": [],
+  "ipju_month": null,
+  "units": null,
+  "src": "/home/claude/watch/ipju_pub_plan.json",
+  "kakao_name": "동래반도유보라"
+ },
+ {
+  "id": "N019",
+  "danji": "더샵광양레이크센텀",
+  "kind": "입주",
+  "sido": "전남",
+  "sigungu": "광양시",
+  "dong": [
+   "광양읍",
+   "마동",
+   "중동"
+  ],
+  "ipju_month": "2027-01",
+  "units": 925,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84",
+  "kakao_name": "더샵광양레이크센텀"
+ },
+ {
+  "id": "N020",
+  "danji": "첨단제일풍경채A2블록",
+  "kind": "입주",
+  "sido": "전남",
+  "sigungu": "장성군",
+  "dong": [
+   "진원면"
+  ],
+  "ipju_month": "2026-10",
+  "units": 1845,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84",
+  "kakao_name": "첨단제일풍경채"
+ },
+ {
+  "id": "N021",
+  "danji": "힐스테이트첨단센트럴",
+  "kind": "입주",
+  "sido": "전남",
+  "sigungu": "장성군",
+  "dong": [
+   "진원면"
+  ],
+  "ipju_month": "2026-10",
+  "units": 1520,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84",
+  "kakao_name": "힐스테이트첨단센트럴"
+ },
+ {
+  "id": "N022",
+  "danji": "위파크일곡공원",
+  "kind": "입주",
+  "sido": "광주",
+  "sigungu": "북구",
+  "dong": [
+   "삼각동",
+   "일곡동"
+  ],
+  "ipju_month": "2026-10",
+  "units": 1004,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B4%91%EC%A3%BC%EC%8B%9C",
+  "kakao_name": "위파크일곡공원"
+ },
+ {
+  "id": "N023",
+  "danji": "힐스테이트중외공원",
+  "kind": "입주",
+  "sido": "광주",
+  "sigungu": "북구",
+  "dong": [
+   "매곡동",
+   "운암동",
+   "삼각동"
+  ],
+  "ipju_month": "2026-12",
+  "units": 1466,
+  "src": "https://www.apartsearcher.ai/move-in/%EA%B4%91%EC%A3%BC%EC%8B%9C",
+  "kakao_name": "힐스테이트중외공원"
+ },
+ {
+  "id": "N024",
+  "danji": "영주자이시그니처",
+  "kind": "입주",
+  "sido": "경북",
+  "sigungu": "영주시",
+  "dong": [
+   "상망동",
+   "휴천동",
+   "가흥동"
+  ],
+  "ipju_month": "2026-11",
+  "units": 763,
+  "src": "https://listup24.com/2026%EB%85%84-%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84-%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "영주자이시그니처"
+ },
+ {
+  "id": "N025",
+  "danji": "위파크안동호반",
+  "kind": "입주",
+  "sido": "경북",
+  "sigungu": "안동시",
+  "dong": [
+   "옥동",
+   "정하동"
+  ],
+  "ipju_month": "2027-01",
+  "units": 820,
+  "src": "https://listup24.com/2027%EB%85%84-%EA%B2%BD%EC%83%81%EB%8F%84-%EA%B2%BD%EB%B6%81-%EA%B2%BD%EB%82%A8-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "위파크안동호반"
+ },
+ {
+  "id": "N026",
+  "danji": "더샵탕정인피니티시티(1·2차)",
+  "kind": "입주",
+  "sido": "충남",
+  "sigungu": "아산시",
+  "dong": [
+   "탕정면"
+  ],
+  "ipju_month": "2026-12",
+  "units": 2354,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+  "kakao_name": "더샵탕정인피니티시티"
+ },
+ {
+  "id": "N027",
+  "danji": "보령엘리체헤리티지",
+  "kind": "입주",
+  "sido": "충남",
+  "sigungu": "보령시",
+  "dong": [
+   "동대동",
+   "명천동"
+  ],
+  "ipju_month": "2026-12",
+  "units": 971,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+  "kakao_name": "보령엘리체헤리티지"
+ },
+ {
+  "id": "N028",
+  "danji": "배방필하우스리버시티",
+  "kind": "입주",
+  "sido": "충남",
+  "sigungu": "아산시",
+  "dong": [
+   "배방읍"
+  ],
+  "ipju_month": "2027-02",
+  "units": 1083,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+  "kakao_name": "배방필하우스"
+ },
+ {
+  "id": "N029",
+  "danji": "서산 센트럴 아이파크",
+  "kind": "입주",
+  "sido": "충남",
+  "sigungu": "서산시",
+  "dong": [
+   "석림동",
+   "예천동"
+  ],
+  "ipju_month": null,
+  "units": null,
+  "src": "/home/claude/watch/ipju_pub_plan.json",
+  "kakao_name": "서산센트럴아이파크"
+ },
+ {
+  "id": "N030",
+  "danji": "신영지웰푸르지오테크노폴리스센트럴",
+  "kind": "입주",
+  "sido": "충북",
+  "sigungu": "청주시 흥덕구",
+  "dong": [
+   "송절동",
+   "외북동"
+  ],
+  "ipju_month": "2027-01",
+  "units": 1034,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84",
+  "kakao_name": "지웰푸르지오테크노폴리스"
+ },
+ {
+  "id": "N031",
+  "danji": "청주가경아이파크6단지",
+  "kind": "입주",
+  "sido": "충북",
+  "sigungu": "청주시 흥덕구",
+  "dong": [
+   "가경동"
+  ],
+  "ipju_month": "2027-01",
+  "units": 946,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84",
+  "kakao_name": "가경아이파크6단지"
+ },
+ {
+  "id": "N032",
+  "danji": "울산다운2지구우미린더시그니처",
+  "kind": "입주",
+  "sido": "울산",
+  "sigungu": "울주군",
+  "dong": [
+   "범서읍",
+   "다운동"
+  ],
+  "ipju_month": "2026-11",
+  "units": 1430,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%9A%B8%EC%82%B0%EC%8B%9C",
+  "kakao_name": "다운우미린더시그니처"
+ },
+ {
+  "id": "N033",
+  "danji": "울산우정에피트",
+  "kind": "입주",
+  "sido": "울산",
+  "sigungu": "중구",
+  "dong": [
+   "우정동"
+  ],
+  "ipju_month": "2027-01",
+  "units": 533,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%9A%B8%EC%82%B0%EC%8B%9C",
+  "kakao_name": "우정에피트"
+ },
+ {
+  "id": "N034",
+  "danji": "힐스테이트문수로센트럴",
+  "kind": "입주",
+  "sido": "울산",
+  "sigungu": "남구",
+  "dong": [
+   "신정동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 602,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%9A%B8%EC%82%B0%EC%8B%9C",
+  "kakao_name": "힐스테이트문수로센트럴"
+ },
+ {
+  "id": "N035",
+  "danji": "관저푸르지오센트럴파크",
+  "kind": "입주",
+  "sido": "대전",
+  "sigungu": "서구",
+  "dong": [
+   "관저동",
+   "가수원동"
+  ],
+  "ipju_month": "2026-11",
+  "units": 660,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%8C%80%EC%A0%84%EC%8B%9C",
+  "kakao_name": "관저푸르지오센트럴파크"
+ },
+ {
+  "id": "N036",
+  "danji": "e편한세상서대전역센트로",
+  "kind": "입주",
+  "sido": "대전",
+  "sigungu": "중구",
+  "dong": [
+   "문화동",
+   "유천동"
+  ],
+  "ipju_month": "2026-12",
+  "units": 749,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%8C%80%EC%A0%84%EC%8B%9C",
+  "kakao_name": "e편한세상서대전역센트로"
+ },
+ {
+  "id": "N037",
+  "danji": "힐스테이트선화더와이즈",
+  "kind": "입주",
+  "sido": "대전",
+  "sigungu": "중구",
+  "dong": [
+   "선화동",
+   "용두동"
+  ],
+  "ipju_month": "2027-02",
+  "units": 851,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%8C%80%EC%A0%84%EC%8B%9C",
+  "kakao_name": "힐스테이트선화더와이즈"
+ },
+ {
+  "id": "N038",
+  "danji": "도마포레나해모로",
+  "kind": "입주",
+  "sido": "대전",
+  "sigungu": "서구",
+  "dong": [
+   "도마동",
+   "정림동"
+  ],
+  "ipju_month": "2027-03",
+  "units": 818,
+  "src": "https://www.apartsearcher.ai/move-in/%EB%8C%80%EC%A0%84%EC%8B%9C",
+  "kakao_name": "도마포레나해모로"
+ },
+ {
+  "id": "N039",
+  "danji": "서신더샵비발디",
+  "kind": "입주",
+  "sido": "전북",
+  "sigungu": "전주시 완산구",
+  "dong": [
+   "서신동"
+  ],
+  "ipju_month": "2026-11",
+  "units": 1225,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84",
+  "kakao_name": "서신더샵비발디"
+ },
+ {
+  "id": "N040",
+  "danji": "군산레이크시티아이파크",
+  "kind": "입주",
+  "sido": "전북",
+  "sigungu": "군산시",
+  "dong": [
+   "지곡동",
+   "미룡동"
+  ],
+  "ipju_month": "2026-12",
+  "units": 722,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84",
+  "kakao_name": "군산레이크시티아이파크"
+ },
+ {
+  "id": "N041",
+  "danji": "익산부송아이파크",
+  "kind": "입주",
+  "sido": "전북",
+  "sigungu": "익산시",
+  "dong": [
+   "부송동"
+  ],
+  "ipju_month": "2026-12",
+  "units": 511,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84",
+  "kakao_name": "익산부송아이파크"
+ },
+ {
+  "id": "N042",
+  "danji": "에코시티더샵4차",
+  "kind": "입주",
+  "sido": "전북",
+  "sigungu": "전주시 덕진구",
+  "dong": [
+   "송천동"
+  ],
+  "ipju_month": "2027-01",
+  "units": 576,
+  "src": "https://www.apartsearcher.ai/move-in/%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84",
+  "kakao_name": "에코시티더샵4차"
+ },
+ {
+  "id": "N043",
+  "danji": "진천교성지구풍림아이원트리니움",
+  "kind": "2년차",
+  "sido": "충북",
+  "sigungu": "진천군",
+  "dong": [
+   "진천읍"
+  ],
+  "ipju_month": "2025-03",
+  "units": 2450,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "진천풍림아이원트리니움"
+ },
+ {
+  "id": "N044",
+  "danji": "음성푸르지오더퍼스트",
+  "kind": "2년차",
+  "sido": "충북",
+  "sigungu": "음성군",
+  "dong": [
+   "대소면"
+  ],
+  "ipju_month": "2024-10",
+  "units": 1048,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84-%EC%B6%A9%EB%B6%81-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C/",
+  "kakao_name": "음성푸르지오더퍼스트"
+ },
+ {
+  "id": "N045",
+  "danji": "오송역파라곤센트럴시티3차",
+  "kind": "2년차",
+  "sido": "충북",
+  "sigungu": "청주시 흥덕구",
+  "dong": [
+   "오송읍"
+  ],
+  "ipju_month": "2024-10",
+  "units": 1754,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84-%EC%B6%A9%EB%B6%81-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C/",
+  "kakao_name": "오송역파라곤센트럴시티"
+ },
+ {
+  "id": "N046",
+  "danji": "천안극동스타클래스더퍼스트",
+  "kind": "2년차",
+  "sido": "충남",
+  "sigungu": "천안시 동남구",
+  "dong": [],
+  "ipju_month": "2024-10",
+  "units": 1225,
+  "src": "https://mobile.newsis.com/view/NISX20240923_0002894767",
+  "kakao_name": "천안극동스타클래스"
+ },
+ {
+  "id": "N047",
+  "danji": "내포신도시중흥S-클래스더시티",
+  "kind": "2년차",
+  "sido": "충남",
+  "sigungu": "예산군",
+  "dong": [
+   "삽교읍"
+  ],
+  "ipju_month": "2024-10",
+  "units": 1120,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84-%EC%B6%A9%EB%82%A8-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C/",
+  "kakao_name": "내포중흥S클래스더시티"
+ },
+ {
+  "id": "N048",
+  "danji": "한화포레나천안노태",
+  "kind": "2년차",
+  "sido": "충남",
+  "sigungu": "천안시 서북구",
+  "dong": [
+   "백석동",
+   "업성동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 1608,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84-%EC%B6%A9%EB%82%A8-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C/",
+  "kakao_name": "포레나천안노태"
+ },
+ {
+  "id": "N049",
+  "danji": "당진푸르지오클라테르",
+  "kind": "2년차",
+  "sido": "충남",
+  "sigungu": "당진시",
+  "dong": [
+   "송악읍"
+  ],
+  "ipju_month": "2024-12",
+  "units": null,
+  "src": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02036886639089328",
+  "kakao_name": "당진푸르지오클라테르"
+ },
+ {
+  "id": "N050",
+  "danji": "힐스테이트두정역",
+  "kind": "2년차",
+  "sido": "충남",
+  "sigungu": "천안시 서북구",
+  "dong": [
+   "두정동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 997,
+  "src": "https://listup24.com/2025%EB%85%84-%EC%B6%A9%EB%B6%81-%EC%B6%A9%EB%82%A8-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "힐스테이트두정역"
+ },
+ {
+  "id": "N051",
+  "danji": "구미푸르지오엘리포레시티",
+  "kind": "2년차",
+  "sido": "경북",
+  "sigungu": "구미시",
+  "dong": [
+   "거의동"
+  ],
+  "ipju_month": "2024-10",
+  "units": 1722,
+  "src": "https://listup24.com/2024%eb%85%84-%ea%b2%bd%eb%b6%81-%ea%b2%bd%ec%83%81%eb%b6%81%eb%8f%84-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c/",
+  "kakao_name": "구미푸르지오엘리포레시티"
+ },
+ {
+  "id": "N052",
+  "danji": "포항한신더휴펜타시티",
+  "kind": "2년차",
+  "sido": "경북",
+  "sigungu": "포항시 북구",
+  "dong": [
+   "흥해읍"
+  ],
+  "ipju_month": "2024-12",
+  "units": 2192,
+  "src": "https://listup24.com/2024%eb%85%84-%ea%b2%bd%eb%b6%81-%ea%b2%bd%ec%83%81%eb%b6%81%eb%8f%84-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c/",
+  "kakao_name": "한신더휴펜타시티"
+ },
+ {
+  "id": "N053",
+  "danji": "포항펜타시티대방엘리움퍼스티지",
+  "kind": "2년차",
+  "sido": "경북",
+  "sigungu": "포항시 북구",
+  "dong": [
+   "흥해읍"
+  ],
+  "ipju_month": "2024-11",
+  "units": 1328,
+  "src": "https://listup24.com/2024%eb%85%84-%ea%b2%bd%eb%b6%81-%ea%b2%bd%ec%83%81%eb%b6%81%eb%8f%84-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c/",
+  "kakao_name": "펜타시티대방엘리움"
+ },
+ {
+  "id": "N054",
+  "danji": "김해율하더스카이시티제니스&프라우",
+  "kind": "2년차",
+  "sido": "경남",
+  "sigungu": "김해시",
+  "dong": [
+   "신문동",
+   "율하동"
+  ],
+  "ipju_month": "2025-02",
+  "units": 3764,
+  "src": "https://www.newsis.com/view/NISX20250123_0003043205",
+  "kakao_name": "율하더스카이시티"
+ },
+ {
+  "id": "N055",
+  "danji": "둔산더샵엘리프",
+  "kind": "2년차",
+  "sido": "대전",
+  "sigungu": "서구",
+  "dong": [
+   "용문동"
+  ],
+  "ipju_month": "2025-02",
+  "units": 2763,
+  "src": "https://listup24.com/2025%EB%85%84-%EB%8C%80%EC%A0%84-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "둔산더샵엘리프"
+ },
+ {
+  "id": "N056",
+  "danji": "호반써밋그랜드센트럴",
+  "kind": "2년차",
+  "sido": "대전",
+  "sigungu": "서구",
+  "dong": [
+   "도마동"
+  ],
+  "ipju_month": "2025-01",
+  "units": 1558,
+  "src": "https://listup24.com/2025%EB%85%84-%EB%8C%80%EC%A0%84-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "호반써밋그랜드센트럴"
+ },
+ {
+  "id": "N057",
+  "danji": "리더스시티5블록",
+  "kind": "2년차",
+  "sido": "대전",
+  "sigungu": "동구",
+  "dong": [
+   "천동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 2135,
+  "src": "https://listup24.com/2024%EB%85%84-%EB%8C%80%EC%A0%84-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C%EC%84%B8/",
+  "kakao_name": "리더스시티"
+ },
+ {
+  "id": "N058",
+  "danji": "익산자이그랜드파크",
+  "kind": "2년차",
+  "sido": "전북",
+  "sigungu": "익산시",
+  "dong": [
+   "마동",
+   "동산동"
+  ],
+  "ipju_month": "2025-02",
+  "units": 1431,
+  "src": "https://www.newsis.com/view/NISX20250123_0003043205",
+  "kakao_name": "익산자이그랜드파크"
+ },
+ {
+  "id": "N059",
+  "danji": "익산역하늘채더퍼스트",
+  "kind": "2년차",
+  "sido": "전북",
+  "sigungu": "익산시",
+  "dong": [
+   "평화동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 1382,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "익산역하늘채더퍼스트"
+ },
+ {
+  "id": "N060",
+  "danji": "백양산부암서희스타힐스",
+  "kind": "2년차",
+  "sido": "부산",
+  "sigungu": "부산진구",
+  "dong": [
+   "부암동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 1295,
+  "src": "https://listup24.com/2024%EB%85%84-%EB%B6%80%EC%82%B0-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "백양산서희스타힐스"
+ },
+ {
+  "id": "N061",
+  "danji": "양정자이더샵SK뷰",
+  "kind": "2년차",
+  "sido": "부산",
+  "sigungu": "부산진구",
+  "dong": [
+   "양정동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 2276,
+  "src": "https://listup24.com/2025%EB%85%84-%EB%B6%80%EC%82%B0-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EB%A6%AC%EC%8A%A4%ED%8A%B8/",
+  "kakao_name": "양정자이더샵SK뷰"
+ },
+ {
+  "id": "N062",
+  "danji": "트리마제순천",
+  "kind": "2년차",
+  "sido": "전남",
+  "sigungu": "순천시",
+  "dong": [
+   "조례동"
+  ],
+  "ipju_month": "2024-11",
+  "units": 2019,
+  "src": "https://listup24.com/2024%eb%85%84-%ec%a0%84%eb%9d%bc%eb%82%a8%eb%8f%84-%ec%a0%84%eb%82%a8-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c/",
+  "kakao_name": "트리마제순천"
+ },
+ {
+  "id": "N063",
+  "danji": "광양와우지구중흥S-클래스",
+  "kind": "2년차",
+  "sido": "전남",
+  "sigungu": "광양시",
+  "dong": [
+   "마동"
+  ],
+  "ipju_month": "2024-10",
+  "units": 902,
+  "src": "https://listup24.com/2024%eb%85%84-%ec%a0%84%eb%9d%bc%eb%82%a8%eb%8f%84-%ec%a0%84%eb%82%a8-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c/",
+  "kakao_name": "광양와우중흥S클래스"
+ },
+ {
+  "id": "N064",
+  "danji": "강릉롯데캐슬시그니처",
+  "kind": "2년차",
+  "sido": "강원",
+  "sigungu": "강릉시",
+  "dong": [
+   "교동"
+  ],
+  "ipju_month": "2024-11",
+  "units": 1305,
+  "src": "https://listup24.com/2024%eb%85%84-%ea%b0%95%ec%9b%90%eb%8f%84-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c%ec%84%b8/",
+  "kakao_name": "강릉롯데캐슬시그니처"
+ },
+ {
+  "id": "N065",
+  "danji": "교대역푸르지오트레힐즈",
+  "kind": "2년차",
+  "sido": "대구",
+  "sigungu": "남구",
+  "dong": [
+   "이천동",
+   "대봉동"
+  ],
+  "ipju_month": "2024-10",
+  "units": 924,
+  "src": "https://listup24.com/2024%EB%85%84-%EB%8C%80%EA%B5%AC-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "교대역푸르지오트레힐즈"
+ },
+ {
+  "id": "N066",
+  "danji": "힐스테이트대명센트럴",
+  "kind": "2년차",
+  "sido": "대구",
+  "sigungu": "남구",
+  "dong": [
+   "대명동"
+  ],
+  "ipju_month": "2024-11",
+  "units": 861,
+  "src": "https://listup24.com/2024%EB%85%84-%EB%8C%80%EA%B5%AC-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "힐스테이트대명센트럴"
+ },
+ {
+  "id": "N067",
+  "danji": "송도자이더스타",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "연수구",
+  "dong": [
+   "송도동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 1533,
+  "src": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02036886639089328",
+  "kakao_name": "송도자이더스타"
+ },
+ {
+  "id": "N068",
+  "danji": "e편한세상부평역센트럴파크",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "부평구",
+  "dong": [
+   "부평동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 1500,
+  "src": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02036886639089328",
+  "kakao_name": "e편한세상부평역센트럴파크"
+ },
+ {
+  "id": "N069",
+  "danji": "부평역해링턴플레이스",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "부평구",
+  "dong": [
+   "부평동"
+  ],
+  "ipju_month": "2024-11",
+  "units": 1909,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%9D%B8%EC%B2%9C-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "부평역해링턴플레이스"
+ },
+ {
+  "id": "N070",
+  "danji": "제일풍경채검단Ⅰ",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "서구",
+  "dong": [
+   "불로동",
+   "당하동",
+   "원당동"
+  ],
+  "ipju_month": "2024-11",
+  "units": 1425,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%9D%B8%EC%B2%9C-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "제일풍경채검단"
+ },
+ {
+  "id": "N071",
+  "danji": "힐스테이트검단웰카운티",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "서구",
+  "dong": [
+   "불로동",
+   "당하동",
+   "원당동"
+  ],
+  "ipju_month": "2025-01",
+  "units": null,
+  "src": "https://kbthink.com/main/real-estate/real-estate-issue/our-house-issues/2024/our-house-issues-241202.html",
+  "kakao_name": "힐스테이트검단웰카운티"
+ },
+ {
+  "id": "N072",
+  "danji": "시티오씨엘3단지",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "미추홀구",
+  "dong": [
+   "학익동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 977,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%9D%B8%EC%B2%9C-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "시티오씨엘"
+ },
+ {
+  "id": "N073",
+  "danji": "송도럭스오션SK뷰",
+  "kind": "2년차",
+  "sido": "인천",
+  "sigungu": "연수구",
+  "dong": [
+   "송도동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 1114,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "송도럭스오션SK뷰"
+ },
+ {
+  "id": "N074",
+  "danji": "장위자이레디언트",
+  "kind": "2년차",
+  "sido": "서울",
+  "sigungu": "성북구",
+  "dong": [
+   "장위동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 2840,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "장위자이레디언트"
+ },
+ {
+  "id": "N075",
+  "danji": "롯데캐슬이스트폴",
+  "kind": "2년차",
+  "sido": "서울",
+  "sigungu": "광진구",
+  "dong": [
+   "자양동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 1063,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "롯데캐슬이스트폴"
+ },
+ {
+  "id": "N076",
+  "danji": "강동밀레니얼중흥S-클래스",
+  "kind": "2년차",
+  "sido": "서울",
+  "sigungu": "강동구",
+  "dong": [
+   "천호동"
+  ],
+  "ipju_month": "2024",
+  "units": null,
+  "src": "/home/claude/watch/lease_end.json",
+  "kakao_name": "강동밀레니얼중흥"
+ },
+ {
+  "id": "N077",
+  "danji": "아크로베스티뉴",
+  "kind": "2년차",
+  "sido": "경기",
+  "sigungu": "안양시 동안구",
+  "dong": [
+   "호계동"
+  ],
+  "ipju_month": "2025-02",
+  "units": 1011,
+  "src": "https://www.newsis.com/view/NISX20250123_0003043205",
+  "kakao_name": "아크로베스티뉴"
+ },
+ {
+  "id": "N078",
+  "danji": "영통푸르지오트레센츠·파인베르",
+  "kind": "2년차",
+  "sido": "경기",
+  "sigungu": "수원시 영통구",
+  "dong": [
+   "망포동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 1566,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "영통푸르지오"
+ },
+ {
+  "id": "N079",
+  "danji": "오산세교2한신더휴",
+  "kind": "2년차",
+  "sido": "경기",
+  "sigungu": "오산시",
+  "dong": [
+   "궐동",
+   "서동",
+   "금암동"
+  ],
+  "ipju_month": "2025-03",
+  "units": 844,
+  "src": "https://biz.sbs.co.kr/amp/article/20000219477",
+  "kakao_name": "세교한신더휴"
+ },
+ {
+  "id": "N080",
+  "danji": "군산신역세권한라비발디센트로",
+  "kind": "2년차",
+  "sido": "전북",
+  "sigungu": "군산시",
+  "dong": [
+   "내흥동"
+  ],
+  "ipju_month": "2024-10",
+  "units": 848,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84-%EC%A0%84%EB%B6%81-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C/",
+  "kakao_name": "한라비발디센트로"
+ },
+ {
+  "id": "N081",
+  "danji": "학곡지구모아엘가그랑데",
+  "kind": "2년차",
+  "sido": "강원",
+  "sigungu": "춘천시",
+  "dong": [
+   "동내면"
+  ],
+  "ipju_month": "2024-10",
+  "units": 762,
+  "src": "https://listup24.com/2024%eb%85%84-%ea%b0%95%ec%9b%90%eb%8f%84-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c%ec%84%b8/",
+  "kakao_name": "학곡모아엘가"
+ },
+ {
+  "id": "N082",
+  "danji": "서충주신도시삼일파라뷰2차그랜드시티",
+  "kind": "2년차",
+  "sido": "충북",
+  "sigungu": "충주시",
+  "dong": [
+   "주덕읍",
+   "대소원면"
+  ],
+  "ipju_month": "2024-12",
+  "units": 930,
+  "src": "https://listup24.com/2024%EB%85%84-%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84-%EC%B6%A9%EB%B6%81-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C/",
+  "kakao_name": "서충주 삼일파라뷰"
+ },
+ {
+  "id": "N083",
+  "danji": "대광로제비앙장성센텀스카이",
+  "kind": "2년차",
+  "sido": "전남",
+  "sigungu": "장성군",
+  "dong": [
+   "장성읍"
+  ],
+  "ipju_month": "2024-11",
+  "units": 793,
+  "src": "https://listup24.com/2024%eb%85%84-%ec%a0%84%eb%9d%bc%eb%82%a8%eb%8f%84-%ec%a0%84%eb%82%a8-%ec%9e%85%ec%a3%bc-%ec%98%88%ec%a0%95-%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc%eb%ac%bc%eb%9f%89-%eb%b0%8f-%ec%8b%9c/",
+  "kakao_name": "장성 대광로제비앙"
+ },
+ {
+  "id": "N084",
+  "danji": "힐스테이트월산",
+  "kind": "2년차",
+  "sido": "광주",
+  "sigungu": "남구",
+  "dong": [
+   "월산동"
+  ],
+  "ipju_month": "2024-12",
+  "units": 741,
+  "src": "https://listup24.com/2024%EB%85%84-%EA%B4%91%EC%A3%BC-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9E%85%EC%A3%BC%EB%AC%BC%EB%9F%89-%EB%B0%8F-%EC%8B%9C%EC%84%B8/",
+  "kakao_name": "힐스테이트월산"
+ },
+ {
+  "id": "N085",
+  "danji": "당진수청1지구하이앤",
+  "kind": "2년차",
+  "sido": "충남",
+  "sigungu": "당진시",
+  "dong": [
+   "수청동"
+  ],
+  "ipju_month": "2025-02",
+  "units": 824,
+  "src": "https://listup24.com/2025%EB%85%84-%EC%B6%A9%EB%B6%81-%EC%B6%A9%EB%82%A8-%EC%9E%85%EC%A3%BC-%EC%98%88%EC%A0%95-%EC%95%84%ED%8C%8C%ED%8A%B8-%EB%AC%BC%EB%9F%89-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+  "kakao_name": "당진 하이앤"
+ }
+]

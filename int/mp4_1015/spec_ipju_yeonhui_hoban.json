@@ -1,0 +1,24 @@
+{
+ "head": [
+  "연희공원 호반써밋",
+  "중문, 점검 날 세 가지"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_yeonhui_hoban/nangman_interior_ipju_yeonhui_hoban_d1_closed.jpg",
+   "line": "안방 입구에 단\n3연동",
+   "sub": "검단"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_yeonhui_hoban/nangman_interior_ipju_yeonhui_hoban_d2_open.jpg",
+   "line": "문을 연\n모습",
+   "sub": "검단"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_yeonhui_hoban/nangman_interior_ipju_yeonhui_hoban_d3_inside.jpg",
+   "line": "안쪽에서 본\n닫은 모습",
+   "sub": "검단"
+  }
+ ]
+}

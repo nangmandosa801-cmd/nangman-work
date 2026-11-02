@@ -1,0 +1,41 @@
+{
+ "head": [
+  "서산 센트럴 아이파크",
+  "중문 달기"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/seosan_ipark_ipju/nangman_interior_seosan_ipark_ipju_02_b_sill.jpg",
+   "line": "현관 턱과 마루\n경계부터 잽니다",
+   "sub": "서산 성연면 · NI-0139"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seosan_ipark_ipju/nangman_interior_seosan_ipark_ipju_03_b_switch.jpg",
+   "line": "전등 스위치를\n피해 세운 틀",
+   "sub": "서산 성연면 · NI-0140"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seosan_ipark_ipju/nangman_interior_seosan_ipark_ipju_04_b_after.jpg",
+   "line": "샴페인색 얇은 틀\n3연동",
+   "sub": "투명 강화유리 · NI-0141"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seosan_ipark_ipju/nangman_interior_seosan_ipark_ipju_06_c_side.jpg",
+   "line": "옆에서 본\n흰 틀 3연동",
+   "sub": "서산테크노밸리 · NI-0143"
+  }
+ ],
+ "vintro": [
+  {
+   "kicker": "충남 서산 석림동",
+   "line": "서산 센트럴\n아이파크 입주",
+   "sub": "10월 입주 · 410세대"
+  },
+  {
+   "kicker": "옵션 중문",
+   "line": "84A 132만원\n84B 196만원",
+   "sub": "타입마다 문이 다릅니다"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "head": [
+  "강아지 슬개골 수술 후",
+  "미끄러운 바닥부터"
+ ],
+ "what": "거실",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_01_g_pair.jpg",
+   "line": "짙은 마루 거실에\n밝은 매트",
+   "sub": "광주 아파트 · NI-0198"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_02_g_hall.jpg",
+   "line": "방문 앞 복도까지\n이어 깐 매트",
+   "sub": "광주 아파트 · NI-0199"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_04_m_pair.jpg",
+   "line": "나무 마루 주방에\n매트를 깔고",
+   "sub": "하남 미사 · NI-0201"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_05_m_living.jpg",
+   "line": "거실 벽 끝까지\n맞춰 깐 매트",
+   "sub": "하남 미사 · NI-0202"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_06_m_hall.jpg",
+   "line": "주방에서 현관 쪽\n복도까지",
+   "sub": "하남 미사 · NI-0203"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seulgaegol_sulhu/nangman_interior_seulgaegol_sulhu_10_m_table.jpg",
+   "line": "식탁 아래까지\n깐 매트",
+   "sub": "하남 미사 · NI-0207"
+  }
+ ]
+}

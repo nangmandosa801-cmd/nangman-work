@@ -1,0 +1,36 @@
+{
+ "head": [
+  "오산 새 아파트 현관",
+  "중문 달까?"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/osan_src/nangman_interior_ipju_osan_geumgang_d1_closed.jpg",
+   "line": "오산 새 아파트 중문\n초슬림 3연동",
+   "sub": "화이트 틀 · 투명 강화유리",
+   "vline": "오산 새 아파트\n초슬림 3연동"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/osan_src/nangman_interior_ipju_osan_geumgang_d2_open.jpg",
+   "line": "옆으로 밀어\n연 모습",
+   "sub": "오산 중문 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/osan_src/nangman_interior_ipju_osan_geumgang_d3_from_entrance.jpg",
+   "line": "현관 쪽에서 본\n닫은 모습",
+   "sub": "오산 중문 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/osan_src/nangman_interior_ipju_osan_geumgang_d4_open_entrance.jpg",
+   "line": "현관 쪽에서 본\n연 모습",
+   "sub": "오산 중문 시공 사례"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_osan_geumgang/nangman_interior_ipju_osan_geumgang_fig1.png",
+   "line": "옵션 중문\n84A · C · D 126만원",
+   "sub": "84B는 두 곳 230만원 · 모집공고",
+   "vline": "옵션 중문\n126만원"
+  }
+ ]
+}

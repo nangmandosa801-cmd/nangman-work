@@ -1,0 +1,39 @@
+{
+ "head": [
+  "빌라 샷시 교체",
+  "네 집 모두 다른 창"
+ ],
+ "what": "창문",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/villa_sash/nangman_interior_villa_sash_01_round.jpg",
+   "line": "첫째 집\n거실 베란다",
+   "sub": "빌라 샷시 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/villa_sash/nangman_interior_villa_sash_04_jubang.jpg",
+   "line": "첫째 집\n주방 베란다",
+   "sub": "빌라 샷시 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/villa_sash/nangman_interior_villa_sash_05_neung.jpg",
+   "line": "둘째 집\n베란다 바깥 창",
+   "sub": "빌라 샷시 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/villa_sash/nangman_interior_villa_sash_06_old.jpg",
+   "line": "셋째 집\n교체 전",
+   "sub": "빌라 샷시 교체"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/villa_sash/nangman_interior_villa_sash_09_wood.jpg",
+   "line": "넷째 집\n거실",
+   "sub": "안쪽 나무 창은 그대로"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/villa_sash/nangman_interior_villa_sash_11_out.jpg",
+   "line": "넷째 집\n베란다 바깥 창",
+   "sub": "빌라 샷시 교체"
+  }
+ ]
+}

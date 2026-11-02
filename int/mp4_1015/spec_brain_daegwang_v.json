@@ -1,0 +1,14 @@
+{
+ "head": ["브레인시티 대광로제비앙", "새집증후군 숫자로 확인"],
+ "what": "현관 · 거실",
+ "vintro": [
+  {"kicker": "브레인시티 · 2027년 1월 입주", "line": "1,182세대\n84㎡가 844세대", "sub": "청소 + 새집증후군 34평 71만 4천원"},
+  {"kicker": "옆 단지 모아엘가에서 잰 숫자", "line": "포름알데히드\n0.086 → 0.001", "sub": "같은 평택 제휴팀이 세 번 쟀습니다"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/brain/03.jpg", "line": "시공 전 1차 측정\n0.086", "sub": "모아엘가 · NI-1470"},
+  {"src": "/home/claude/v2src/t1102/brain/04.jpg", "line": "붙박이장 잘린 면\n코팅부터", "sub": "MDF 차폐 코팅 · NI-1469"},
+  {"src": "/home/claude/v2src/t1102/brain/05.jpg", "line": "방마다 오존기\n켜 두고 퇴실", "sub": "오존기 · 서큘레이터 · NI-1471"},
+  {"src": "/home/claude/v2src/t1102/brain/06.jpg", "line": "마무리 3차 측정\n0.001", "sub": "모아엘가 · NI-1472"}
+ ]
+}

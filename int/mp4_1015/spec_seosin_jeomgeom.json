@@ -1,0 +1,24 @@
+{
+ "head": [
+  "서신더샵비발디 중문",
+  "점검 날 세 군데"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/seosin_jeomgeom/nangman_interior_seosin_jeomgeom_fig1.png",
+   "line": "현관에서\n잴 세 곳",
+   "sub": "사전점검 날"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seosin_jeomgeom/nangman_interior_seosin_jeomgeom_fig2.png",
+   "line": "타입마다 다른\n옵션 중문",
+   "sub": "사전점검 전"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/seosin_jeomgeom/nangman_interior_seosin_jeomgeom_fig3.png",
+   "line": "사전점검과\n입주일",
+   "sub": "공고에 적힌 순서"
+  }
+ ]
+}

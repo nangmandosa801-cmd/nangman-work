@@ -1,0 +1,41 @@
+{
+ "head": [
+  "성동자이리버뷰 중문",
+  "옵션 자동 240만원"
+ ],
+ "what": "현관",
+ "vintro": [
+  {
+   "kicker": "서울 성동구 용답동",
+   "line": "성동자이리버뷰\n입주",
+   "sub": "2026년 12월(청약홈) · 1,670세대"
+  },
+  {
+   "kicker": "옵션 중문",
+   "line": "자동 3연동\n240만원",
+   "sub": "59 · 73 · 78㎡\n수동이면 입주 뒤 시공"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d1_closed.jpg",
+   "line": "큰 문 한 짝이\n입구를 가림",
+   "sub": "서울 청량리동 · 원슬라이딩"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d2_open.jpg",
+   "line": "밀면 문짝이\n옆 벽 앞으로",
+   "sub": "서울 청량리동 · 새 아파트"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d3_from_entrance.jpg",
+   "line": "빛은 들고\n안은 안 보임",
+   "sub": "패브릭유리 · 화이트 틀"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/ipju_seongdong_xi/nangman_interior_ipju_seongdong_xi_d4_open_entrance.jpg",
+   "line": "큰 짐도\n걸리지 않음",
+   "sub": "서울 청량리동 · 새 아파트"
+  }
+ ]
+}

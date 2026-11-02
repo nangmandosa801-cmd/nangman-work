@@ -1,0 +1,39 @@
+{
+ "head": [
+  "고양이 매트 두께",
+  "세 집 모두 2.2cm"
+ ],
+ "what": "거실",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/goyangi_mat/nangman_interior_goyangi_mat_01_c_after.jpg",
+   "line": "매트를 깐\n거실",
+   "sub": "아산 아파트 · NI-0053"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/goyangi_mat/nangman_interior_goyangi_mat_04_c_tower.jpg",
+   "line": "캣타워가 있는\n방까지",
+   "sub": "아산 아파트 · NI-0056"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/goyangi_mat/nangman_interior_goyangi_mat_09_g_edge.jpg",
+   "line": "현관 턱 따라\n모양대로 자름",
+   "sub": "구로 아파트 · NI-0061"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/goyangi_mat/nangman_interior_goyangi_mat_10_g_entry.jpg",
+   "line": "현관까지\n이어 깐 매트",
+   "sub": "구로 아파트 · NI-0062"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/goyangi_mat/nangman_interior_goyangi_mat_12_y_dining.jpg",
+   "line": "식탁 쪽\n놀이 공간",
+   "sub": "안양 아파트 · NI-0064"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/goyangi_mat/nangman_interior_goyangi_mat_13_y_hall.jpg",
+   "line": "방으로 가는\n복도까지",
+   "sub": "안양 아파트 · NI-0065"
+  }
+ ]
+}

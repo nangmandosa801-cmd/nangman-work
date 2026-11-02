@@ -1,0 +1,39 @@
+{
+ "head": [
+  "문틀 필름",
+  "불어 터진 문틀은 도려내고"
+ ],
+ "what": "문틀",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_01_frames.jpg",
+   "line": "방 문틀\n두 곳",
+   "sub": "문틀 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_02_swollen.jpg",
+   "line": "물을 먹어 불은\n문틀 아래쪽",
+   "sub": "문틀 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_05_bath.jpg",
+   "line": "욕실 문틀\n아래쪽",
+   "sub": "문틀 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_07_after.jpg",
+   "line": "시공 후\n문틀",
+   "sub": "문틀 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_09_pillar.jpg",
+   "line": "같은 집\n거실 기둥",
+   "sub": "문틀 필름"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/frame_film/nangman_interior_frame_film_11_entrance.jpg",
+   "line": "현관문과\n신발장까지",
+   "sub": "같은 집"
+  }
+ ]
+}

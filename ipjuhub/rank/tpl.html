@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>블로그 검색 순위판</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--fg:#1c2430;--mut:#6b7684;--line:#e3e7ec;--acc:#2f5d8a;
+--top:#1f8a5b;--topb:#e3f4ec;--mid:#a6730a;--midb:#fbf1d9;--low:#c0392b;--lowb:#fbe6e3;--none:#7a8594;--noneb:#eef0f3;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161c;--card:#1a2028;--fg:#e6eaf0;--mut:#98a3b1;--line:#2a323d;--acc:#7fb0e0;
+--top:#5fd39d;--topb:#173327;--mid:#e8bd5a;--midb:#3a2f14;--low:#f08a7e;--lowb:#3d1f1c;--none:#9aa5b3;--noneb:#252c35;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161c;--card:#1a2028;--fg:#e6eaf0;--mut:#98a3b1;--line:#2a323d;--acc:#7fb0e0;
+--top:#5fd39d;--topb:#173327;--mid:#e8bd5a;--midb:#3a2f14;--low:#f08a7e;--lowb:#3d1f1c;--none:#9aa5b3;--noneb:#252c35;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 "Noto Sans KR",system-ui,sans-serif}
+.w{max-width:1080px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-size:24px;margin:0 0 4px;text-wrap:balance}.sub{color:var(--mut);font-size:13px;margin-bottom:18px}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.k{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer}
+.k b{display:block;font-size:26px}.k span{color:var(--mut);font-size:13px}.k.on{outline:2px solid var(--acc)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 14px;cursor:pointer;font:inherit}
+.tab.on{background:var(--acc);color:var(--card);border-color:var(--acc)}
+input{flex:1;min-width:180px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:10px;padding:8px 12px;font:inherit}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:500;font-size:12px;white-space:nowrap}tr:last-child td{border-bottom:0}
+.p{display:inline-block;min-width:44px;text-align:center;border-radius:8px;padding:2px 8px;font-weight:700}
+.top{color:var(--top);background:var(--topb)}.mid{color:var(--mid);background:var(--midb)}.low{color:var(--low);background:var(--lowb)}.out,.none{color:var(--none);background:var(--noneb)}
+.up{color:var(--top)}.dn{color:var(--low)}.m{color:var(--mut);font-size:12px}a{color:var(--acc)}
+.grp td{background:var(--bg);font-weight:700}
+.help{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:16px;font-size:14px}
+.help h3{margin:0 0 8px;font-size:15px}.help li{margin:4px 0}
+</style></head><body><div class="w">
+<h1>블로그 검색 순위판</h1>
+<div class="sub" id="sub"></div>
+<div class="kpi" id="kpi"></div>
+<div class="bar"><button class="tab on" data-v="kw">키워드별</button><button class="tab" data-v="cx">단지별</button><button class="tab" data-v="todo">할 일</button><button class="tab" data-v="pre">1000세대 선점</button>
+<input id="q" placeholder="단지 · 검색어 찾기 (예: 등촌역, 중문)"></div>
+<div class="tw"><table id="t"></table></div>
+<div class="help"><h3>순위 밑에 있는 글 올리는 법</h3><ul>
+<li><b>순위 밖(우리 글 있음)</b> — 제목 앞 검색어가 자동완성에 실제로 뜨는 말인지 다시 잽니다. 안 뜨면 제목 앞머리만 바꿉니다.</li>
+<li><b>11위 아래</b> — 소제목과 첫 문단에 검색어를 그대로 다시 넣습니다. /53 · /54 · 같은 단지 다른 글에서 이 글로 링크를 겁니다.</li>
+<li><b>4~10위</b> — 스레드 · 쇼츠 첫 댓글로 손님을 보냅니다. 클릭이 붙으면 위로 올라옵니다.</li>
+<li><b>우리 글 없음</b> — 검색은 있는데 우리 글이 없는 칸입니다. 새 글 소재로 씁니다.</li>
+</ul><div class="m">매주 월요일 아침에 다시 잽니다. 네이버 모바일 블로그 검색 첫 화면(약 30위) 기준 · 600세대 이상 단지만.</div></div>
+</div>
+<script>
+const D=__DATA__;
+const G={top:'1~3위',mid:'4~10위',low:'11위 아래',out:'순위 밖',none:'우리 글 없음'};
+let view='kw',flt=null;
+const $=s=>document.querySelector(s);
+$('#sub').textContent=D.day+' 측정'+(D.prev?' · 지난 측정 '+D.prev+'과 비교':' · 첫 측정(다음 주부터 오르내림 표시)');
+function cnt(g){return D.rows.filter(r=>r.g===g).length}
+function kpi(){$('#kpi').innerHTML=Object.keys(G).map(g=>`<div class="k${flt===g?' on':''}" data-g="${g}"><b class="${g==='top'?'up':g==='low'?'dn':''}">${cnt(g)}</b><span>${G[g]}</span></div>`).join('');
+document.querySelectorAll('.k').forEach(e=>e.onclick=()=>{flt=flt===e.dataset.g?null:e.dataset.g;kpi();draw()})}
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function pos(r){return `<span class="p ${r.g}">${r.p?r.p+'위':(r.g==='none'?'없음':'밖')}</span>`}
+function mv(r){if(r.o===undefined||r.o===null&&!D.prev)return '<span class="m">—</span>';if(!r.o&&r.p)return '<span class="up">새로 진입</span>';if(r.o&&!r.p)return '<span class="dn">빠짐</span>';if(!r.o)return '<span class="m">—</span>';const d=r.o-r.p;return d>0?`<span class="up">▲${d}</span>`:d<0?`<span class="dn">▼${-d}</span>`:'<span class="m">그대로</span>'}
+function link(r){return r.u?`<a href="${r.u}" target="_blank">${esc(r.b)}</a>`:'<span class="m">—</span>'}
+function rows(){const s=$('#q').value.trim();return D.rows.filter(r=>(!flt||r.g===flt)&&(!s||(r.c+' '+r.q).includes(s)))}
+function draw(){const R=rows();let h='';
+if(view==='kw'){const S=[...R].sort((a,b)=>(a.p||99)-(b.p||99)||a.q.localeCompare(b.q));
+h='<tr><th>검색어</th><th>순위</th><th>지난주</th><th>잡힌 글</th><th>단지 · 입주</th></tr>'+S.map(r=>`<tr><td>${esc(r.q)}${r.m?' <span class="m">(제목 검색어)</span>':''}</td><td>${pos(r)}</td><td>${mv(r)}</td><td>${link(r)}</td><td class="m">${esc(r.c)} · ${r.s}세대 · ${r.d}</td></tr>`).join('')}
+else if(view==='cx'){const by={};R.forEach(r=>(by[r.c]=by[r.c]||[]).push(r));
+const C=Object.keys(by).sort((a,b)=>by[a][0].d.localeCompare(by[b][0].d));
+h='<tr><th>검색어</th><th>순위</th><th>지난주</th><th>잡힌 글</th></tr>'+C.map(c=>{const L=by[c].sort((a,b)=>(a.p||99)-(b.p||99));const t=L.filter(r=>r.p&&r.p<=10).length;
+return `<tr class="grp"><td colspan="4">${esc(c)} <span class="m">${L[0].s}세대 · 입주 ${L[0].d} · 10위 안 ${t}/${L.length}</span></td></tr>`+L.map(r=>`<tr><td>${esc(r.q)}</td><td>${pos(r)}</td><td>${mv(r)}</td><td>${link(r)}</td></tr>`).join('')}).join('')}
+else if(view==='pre'){const s=$('#q').value.trim();const P=D.pre.filter(r=>!s||r.c.includes(s));
+h='<tr><th>입주</th><th>단지</th><th>세대</th><th>네이버 글</th></tr>'+P.map(r=>`<tr><td>${r.d}</td><td>${esc(r.c)}<div class="m">${esc(r.a)}</div></td><td>${r.s.toLocaleString()}</td><td>${r.n?`<a href="${r.u}" target="_blank">${r.n}편</a>`:'<span class="p low">없음 · 먼저 쓰기</span>'}</td></tr>`).join('')}
+else{const O=['out','low','mid','none','top'];const S=[...R].sort((a,b)=>O.indexOf(a.g)-O.indexOf(b.g)||a.d.localeCompare(b.d));
+h='<tr><th>할 일</th><th>검색어</th><th>순위</th><th>글</th></tr>'+S.map(r=>`<tr><td>${esc(r.t)}</td><td>${esc(r.q)}<div class="m">${esc(r.c)}</div></td><td>${pos(r)}</td><td>${link(r)}</td></tr>`).join('')}
+$('#t').innerHTML=h||'<tr><td>해당 없음</td></tr>'}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));view=b.dataset.v;draw()});
+$('#q').oninput=draw;kpi();draw();
+</script></body></html>

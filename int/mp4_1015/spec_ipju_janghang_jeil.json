@@ -1,0 +1,29 @@
+{
+ "head": [
+  "고양 장항 제일풍경채",
+  "전 타입 3연동 180만원"
+ ],
+ "what": "현관",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_janghang_jeil/nangman_interior_ipju_janghang_jeil_d1_closed.jpg",
+   "line": "간살 중문\n닫은 모습",
+   "sub": "일산"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_janghang_jeil/nangman_interior_ipju_janghang_jeil_d2_open_in.jpg",
+   "line": "문을 열고\n집 안쪽을 본 모습",
+   "sub": "일산"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_janghang_jeil/nangman_interior_ipju_janghang_jeil_d3_open.jpg",
+   "line": "두 짝을 다\n연 모습",
+   "sub": "일산"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_restore_1017/ipju_janghang_jeil/nangman_interior_ipju_janghang_jeil_d4_closed2.jpg",
+   "line": "닫은 모습을\n옆에서",
+   "sub": "일산"
+  }
+ ]
+}

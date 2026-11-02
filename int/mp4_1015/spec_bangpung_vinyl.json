@@ -1,0 +1,29 @@
+{
+ "head": [
+  "베란다 방풍비닐",
+  "벨크로식 · 타카식"
+ ],
+ "what": "베란다 창",
+ "slides": [
+  {
+   "src": "/mnt/user-data/outputs/int/_changgo/changgo_8/nangman_interior_bangpung_vinyl_fig2.png",
+   "line": "벨크로식과\n타카식 차이",
+   "sub": "베란다 방풍비닐"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/bangpung_vinyl/nangman_interior_bangpung_vinyl_f1_before.jpg",
+   "line": "보일러 옆\n바깥 벽",
+   "sub": "겨울에 차가운 면 · NI-0561"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/bangpung_vinyl/nangman_interior_bangpung_vinyl_f2_window.jpg",
+   "line": "창 둘레 벽\n단열 전",
+   "sub": "NI-0562"
+  },
+  {
+   "src": "/mnt/user-data/outputs/int/_h2/bangpung_vinyl/nangman_interior_bangpung_vinyl_f3_after.jpg",
+   "line": "비닐 대신\n벽 속 단열",
+   "sub": "단열을 마친 베란다 · NI-0563"
+  }
+ ]
+}

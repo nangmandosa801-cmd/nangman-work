@@ -1,0 +1,36 @@
+import json
+P='<p style="font-size:17px;color:#333;line-height:1.9;">'
+H='<h2 style="font-size:23px;color:#1F3864;margin:34px 0 12px;">'
+BOX='<div style="border-left:4px solid #2E5C8A;background:#F4F6F9;padding:16px 18px;margin:20px 0;font-size:17px;line-height:1.85;color:#333;">'
+N='https://blog.naver.com/champion_chart/'
+title="진위역 서희스타힐스 사전점검, 옵션 안 고른 집이 줄자로 재 둘 다섯 곳"
+h=[]
+h.append('<p style="font-size:17px;color:#333;line-height:1.9;"><span style="color:#777;font-size:14px;">낭만 인테리어는 시공을 하지 않고 집마다 맞는 시공팀을 이어 드립니다. 손님이 내는 소개비는 0원입니다.</span></p>')
+h.append(P+'<b>물음.</b> 진위역 서희스타힐스 더 파크뷰를 계약할 때 중문과 시스템 에어컨 옵션을 넣지 않았습니다. 11월 사전점검 날 무엇을 재 와야 하나요?</p>')
+h.append(P+'<b>답.</b> 점검 날은 하자만 찾는 날이 아닙니다. 옵션을 뺀 집은 나중에 달 물건의 치수를 이날 받아 와야 합니다. 입주는 2027년 2월이라 이날을 놓치면 열쇠를 받을 때까지 집 안에 다시 들어가기 어렵습니다.</p>')
+h.append(H+'진위역 서희스타힐스 사전점검 날 줄자로 재 둘 다섯 곳</h2>')
+h.append(BOX+'▸ 현관 · 바닥에서 문틀 위까지 높이, 양쪽 벽 사이 폭<br>▸ 신발장 옆 벽 · 중문 레일이 붙을 벽의 길이<br>▸ 실외기실 · 문이 끝까지 열리는지, 배관 구멍이 어느 벽에 났는지<br>▸ 냉장고 · 세탁기 칸 · 폭과 깊이<br>▸ 발코니 · 물을 조금 부어 배수구로 흐르는지</div>')
+h.append(P+'줄자를 벽에 댄 채로 사진을 한 장씩 찍으세요. 숫자와 위치가 같이 남아서 견적을 받을 때 다시 잴 일이 없습니다.</p>')
+h.append(H+'59 · 71 · 84㎡, 점검 시간이 더 드는 곳</h2>')
+h.append(P+'59㎡는 846세대로 단지 세대 수의 절반을 넘습니다. 수납 칸이 많아서 팬트리와 드레스룸 사진이 늘어납니다. 71㎡는 욕실이 두 곳이라 점검이 더 오래 걸립니다. 84㎡ C타입은 창이 꺾이는 모서리 실리콘을 가까이서 찍어 두세요.</p>')
+h.append('<div style="background:#FFF8E6;border:2px solid #E0A100;border-radius:12px;padding:16px 18px;margin:24px 0;font-size:18px;line-height:1.85;text-align:center;color:#222;"><b>세대를 모으면 사전점검 공동구매 단가로 안내 · 문자 <a href="tel:01028828165" style="color:#C0392B;">010-2882-8165</a></b><br>문자 한 줄 · 「진위역 서희 / 동 · 타입 / 사전점검 날」<br><b style="color:#C0392B;">수도권은 11월 30일까지 연락하면 견적 금액에서 5% 할인해 드립니다.</b></div>')
+h.append(P+'평형별 표와 옵션별 볼 곳, 점검 가방 목록은 네이버 원문에 있습니다. → <a href="'+N+'224452438208" target="_blank"><b>네이버 원문 · 진위역 서희스타힐스 사전점검, 59 · 71 · 84㎡ 평형마다 먼저 볼 곳이 다릅니다</b></a></p>')
+links=[(N+'224452438208','진위역 서희스타힐스 사전점검, 59 · 71 · 84㎡ 평형마다 먼저 볼 곳이 다릅니다 (네이버 원문)'),
+(N+'224430183023','평택 중문 시공, 화양지구 서희스타힐스 현관에 블랙 비대칭 여닫이 중문을 달았습니다'),
+(N+'224430190408','중문 옵션 사제 차이, 입주 단지 19곳 옵션 중문 비교'),
+(N+'224436220073','힐스테이트 등촌역 사전점검, 새 집에도 공사 먼지가 남아 있어서 점검 날 서랍 안과 창틀 레일까지 열어 봐야 합니다'),
+(N+'224447120353','평택 푸르지오 센터파인 입주청소, 열쇠 받는 날에서 거꾸로 날짜를 셉니다'),
+(N+'224437487580','신축 입주 순서, 먼지 나는 일을 먼저 하고 청소는 그다음, 이삿짐은 맨 마지막입니다'),
+('https://nangman-ipju.blogspot.com/2026/10/59-3-5616.html','진위역 서희스타힐스 분양가 · 진위면 전세 (입주 노트)'),
+('https://blog.naver.com/champion_chart','네이버 블로그 · 낭만 인테리어 전체 글')]
+h.append(H+'같이 보면 좋은 글</h2><ul style="font-size:17px;color:#333;line-height:1.9;">'+''.join(f'<li><a href="{u}" target="_blank">{t}</a></li>' for u,t in links)+'</ul>')
+html=''.join(h)
+json.dump({'title':title,'html':html,'labels':['사전점검','입주 단지','평택','진위역 서희스타힐스']},open('blogger.json','w'),ensure_ascii=False)
+import re
+txt=re.sub('<[^>]+>',' ',html)
+print(len(re.sub(r'\s+','',txt)))
+src=open('post.txt').read()
+sents=[s.strip() for s in re.split(r'(?<=[.?!])\s+',txt) if len(s.strip())>8]
+print('overlap',[s for s in sents if s in src])
+bad=['값','자리','갈','어요','예요','고요','최고','프리미엄','가능성','헷갈','놓습니다','가정','기준','나갈','까닭','견줘','차례로','%p','업체는','업체가']
+print('bad',[b for b in bad if b in txt])

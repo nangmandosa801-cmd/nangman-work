@@ -1,0 +1,14 @@
+{
+ "head": ["힐스테이트 동작 시그니처", "입주청소는 줄눈 다음"],
+ "what": "현관 · 욕실",
+ "vintro": [
+  {"kicker": "상도동 · 12월 1일 입주", "line": "입주지정기간\n45일", "sub": "첫 주말은 청소 예약이 겹칩니다"},
+  {"kicker": "순서를 거꾸로 하면", "line": "같은 집을\n두 번 닦습니다", "sub": "중문 · 줄눈 · 탄성 → 다음 날 청소"}
+ ],
+ "slides": [
+  {"src": "/home/claude/v2src/t1102/djs/03.jpg", "line": "현관 바닥 · 문턱 홈\n가루부터", "sub": "새 아파트 현관 · NI-0865"},
+  {"src": "/home/claude/v2src/t1102/djs/07.jpg", "line": "중문은\n청소보다 먼저", "sub": "서울 은평뉴타운 · NI-0866"},
+  {"src": "/home/claude/v2src/t1102/djs/09.jpg", "line": "중문 레일 홈도\n닦아 달라고", "sub": "레일 바닥 · NI-0868"},
+  {"src": "/home/claude/v2src/t1102/djs/04.jpg", "line": "가전 · 매트는\n청소 끝난 바닥에", "sub": "새 아파트 · NI-0869"}
+ ]
+}
