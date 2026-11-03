@@ -27,3 +27,27 @@
 - **구글 블로그(낭만 부동산 · 낭만 창고 · 입주 노트)**: 「블로그 우체통」(Apps Script 웹 앱). `/home/claude/gas/conf.json`({"url","key"})이 있으면 `python3 /home/claude/helper/gas.py post|append|get|list|image …` (사용법은 파일 맨 위). 없으면 예전처럼 크롬, 크롬도 없으면 원고만 남기고 건너뜀.
 - **PC 폴더 C:\블로그**: 사용자가 Google Drive 데스크톱으로 동기화하면 `gas.py ls|fget|fput|flink "블로그/…"` 로 읽고 씀. 영상은 `flink` 주소를 Upload-Post videoPathOrUrl로.
 - 설정 페이지: https://claude.ai/artifact/6Q9PUosF9n3JCDdpNdGuuw
+- **11/3 10:53 설정 끝 · 작동 확인**(글 초안 · 그림 · 드라이브 폴더). Cloud 프로젝트는 nangman-contacts(87451722112, Blogger API 켬). gas.py 블로그 이름: budongsan · changgo · interior · dosa · bunyang · isa · study. **입주 노트(nangman-ipju)는 nangmandosa801 블로그 목록에 없음** → 다른 계정 블로그라 아직 크롬으로(사용자가 nangmandosa801을 작성자로 초대하면 우체통으로).
+
+## PC 없이 · 산출물은 구글 드라이브 (11/3 10:04 사용자 「pc 연결 안되어도 워크플로우 타게」 · 「산출물도 피씨에 저장 안하고 구글 드라이브에」)
+- PC(C:\블로그)에 저장하지 않는다. 결과 파일(영상 · 커버 · info · 원고 txt · 그림)은 구글 드라이브 「블로그/…」 폴더에 `python3 /home/claude/helper/gas.py fput "블로그/<폴더>" <파일>` 로 올린다. 영상: 「블로그/shorts」 · 원고: 「블로그/텍스트/<블로그>」.
+- SNS 영상은 `gas.py flink <id>` 주소를 Upload-Post videoPathOrUrl 로 넘긴다(PC에서 받아 오지 않음).
+- 낭만 창고 그림은 `gas.py image <파일>`(브라우저 없음). 발행 도우미는 `mkhelper.py auto <md> <tag> '<when>'` 한 번.
+- 블로그 우체통 설정 파일 /home/claude/gas/conf.json 이 없으면(사용자 설정 전) 브라우저 방식으로 하고, 그것도 안 되면 결과를 대화로 보내고 「드라이브 미저장」을 보고에 적는다.
+- 네이버 · 티스토리 발행은 그대로 Aside.
+
+## 발행 도우미 파일은 드라이브에 (11/3 13:2x 사용자 「도우미 위치도 다 클라우드에 올려」)
+- 도우미 html(그림 주소 박힌 큰 파일)은 저장소에 못 담으니 드라이브 「블로그/도우미」에 있다. 목록은 「블로그/장부/도우미_목록.json」 (제목 · 파일 이름 · 드라이브 id).
+- 새 도우미를 만들면 `python3 /home/claude/tools/followup/helper_cloud.py up` 한 번(이미 올린 것은 건너뜀).
+- 이 창에 파일이 없으면 `python3 /home/claude/tools/followup/helper_cloud.py get "<제목 일부>"` → 경로 출력. post_followup.py 는 로컬에 없으면 알아서 받아 온다.
+
+## 지산드림 (jisandream01 · 11/3)
+- 작업 폴더 /home/claude/jisan (원고 · 그림 스크립트 · master/ 겹침 검사 · 장부), /home/claude/jisan_move (발행 글 목록 fetch_list.py).
+- 한 번에: `python3 /home/claude/jisan/make_jisan.py <글.py> <폴더> <slug> <예약일> --helper` → 빌드 · SEO · 금지어 · 겹침 · 원고 txt · 도우미 (JSON 한 줄).
+- 하남 땅값 자료 hanam_land.pkl 은 저장소에 없음 — /mnt/attach/outputs/부동산DB.parquet 에서 다시 만든다(자료=='토지' · 시군구에 하남 · 해제사유발생일 '-').
+- 방향: 하남 토지 집중 · 땅 팔 사람 · 살 사람 둘 다 (프로젝트 문서 claude/지산드림_하남토지_집중_1031.md · claude/지산드림_매물부스팅_마스터.md).
+
+## 틱톡 중단 (11/3 22:43 사용자 「낭만도사만 빼고 틱톡 다 죽여」)
+- 낭만 인테리어(Upload-Post default · champion_chart) · 낭만 부동산(nangman_budongsan · dong_jin_kim) 틱톡에는 올리지 않는다. 어떤 작업이든 platforms 에 "tiktok" 을 넣지 않는다.
+- 낭만도사(nangman_dosa · hidjkim2000) 틱톡만 계속 쓴다.
+- 계정 삭제는 사용자가 틱톡 앱에서 직접(Claude는 하지 않음).
