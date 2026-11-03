@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""발행 도우미 만들기 한 줄 (사용자 11/3 「도우미 만들기를 명령 한 줄로 줄이기」)
+"""발행 도우미 만들기 한 줄
+0) auto   python3 mkhelper.py auto <원고.md> <tag> '<YYYY-MM-DD HH:MM | 카테고리>'   ← PC · 브라우저 없이(11/3)
+          /home/claude/gas/conf.json(블로그 우체통)이 있으면 사진을 하나씩 낭만 창고에 올려 주소를 받고 build까지 한 번에.
+          conf.json 이 없으면 아래 1)~4) 브라우저 방식으로. (사용자 11/3 「도우미 만들기를 명령 한 줄로 줄이기」)
 원고 md 하나 → 사진 창고 주소 → 도우미 html + 큐 줄. 도구 호출 약 25번 → 약 8번.
 
 1) prep   python3 mkhelper.py prep <원고.md> <tag>
@@ -72,7 +75,20 @@ def queue(when, title, url, label):
     else:
         k = q.find('<tr data-state="plan">'); k = k if k > 0 else q.find('</tbody>'); q = q[:k] + row + '\n' + q[k:]
     open(QUEUE, 'w', encoding='utf8').write(q); print(json.dumps({'queue': QUEUE, 'row': w}, ensure_ascii=False))
+def auto(md, tag, when):
+    sys.path.insert(0, '/home/claude/helper')
+    if not os.path.exists('/home/claude/gas/conf.json'):
+        print(json.dumps({'error': 'no_gas_conf', 'next': 'prep → put → js → build (브라우저 방식)'})); return
+    from gas import image
+    d = f'{W}/{tag}'; os.makedirs(d, exist_ok=True); L = imgs(md); lines = []
+    for k, p in enumerate(L, 1):
+        n = f'{tag}_{k:02d}.jpg'; q = f'{d}/{n}'; Image.open(p).convert('RGB').save(q, quality=90)
+        u = image(q); u = u.get('url') if isinstance(u, dict) else u
+        tok = re.search(r'R29vZ2xl/([^/]+)/', u)
+        lines.append(f'{n} {tok.group(1)}' if tok else f'{n} {u}')
+    json.dump({'boxes': [], 'n': len(L)}, open(f'{d}/sp.json', 'w'))
+    open(f'{d}/tokens.txt', 'w').write('\n'.join(lines)); build(md, tag, when, f'{d}/tokens.txt')
 if __name__ == '__main__':
     a = sys.argv[1:]
-    {'prep': lambda: prep(a[1], a[2]), 'put': lambda: put(a[1], a[2]), 'js': lambda: js(a[1], a[2:]),
+    {'auto': lambda: auto(a[1], a[2], a[3]), 'prep': lambda: prep(a[1], a[2]), 'put': lambda: put(a[1], a[2]), 'js': lambda: js(a[1], a[2:]),
      'build': lambda: build(a[1], a[2], a[3], a[4]), 'queue': lambda: queue(a[1], a[2], a[3], a[4])}[a[0]]()

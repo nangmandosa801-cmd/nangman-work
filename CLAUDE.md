@@ -27,3 +27,10 @@
 - **구글 블로그(낭만 부동산 · 낭만 창고 · 입주 노트)**: 「블로그 우체통」(Apps Script 웹 앱). `/home/claude/gas/conf.json`({"url","key"})이 있으면 `python3 /home/claude/helper/gas.py post|append|get|list|image …` (사용법은 파일 맨 위). 없으면 예전처럼 크롬, 크롬도 없으면 원고만 남기고 건너뜀.
 - **PC 폴더 C:\블로그**: 사용자가 Google Drive 데스크톱으로 동기화하면 `gas.py ls|fget|fput|flink "블로그/…"` 로 읽고 씀. 영상은 `flink` 주소를 Upload-Post videoPathOrUrl로.
 - 설정 페이지: https://claude.ai/artifact/6Q9PUosF9n3JCDdpNdGuuw
+
+## PC 없이 · 산출물은 구글 드라이브 (11/3 10:04 사용자 「pc 연결 안되어도 워크플로우 타게」 · 「산출물도 피씨에 저장 안하고 구글 드라이브에」)
+- PC(C:\블로그)에 저장하지 않는다. 결과 파일(영상 · 커버 · info · 원고 txt · 그림)은 구글 드라이브 「블로그/…」 폴더에 `python3 /home/claude/helper/gas.py fput "블로그/<폴더>" <파일>` 로 올린다. 영상: 「블로그/shorts」 · 원고: 「블로그/텍스트/<블로그>」.
+- SNS 영상은 `gas.py flink <id>` 주소를 Upload-Post videoPathOrUrl 로 넘긴다(PC에서 받아 오지 않음).
+- 낭만 창고 그림은 `gas.py image <파일>`(브라우저 없음). 발행 도우미는 `mkhelper.py auto <md> <tag> '<when>'` 한 번.
+- 블로그 우체통 설정 파일 /home/claude/gas/conf.json 이 없으면(사용자 설정 전) 브라우저 방식으로 하고, 그것도 안 되면 결과를 대화로 보내고 「드라이브 미저장」을 보고에 적는다.
+- 네이버 · 티스토리 발행은 그대로 Aside.

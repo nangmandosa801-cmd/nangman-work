@@ -97,7 +97,16 @@ def make_clip(no, title, slug):
             '\n'.join(f'{i+1}  {x["line"].replace(chr(10), " ")}' for i, x in enumerate(spec['vintro'] + pick)) +
             f'\n\n[ 자료 ]\n시공 사진은 제휴 업체 사례(NI 번호)\n')
     open(f'{OUT}/nangman_interior_{slug}_clip_info.txt', 'w').write(info)
-    return 'ok'
+    up = drive_put(slug)
+    return 'ok' + (' · drive' if up else '')
+def drive_put(slug):
+    """PC 대신 구글 드라이브 「블로그/shorts」에 저장(11/3 사용자 「산출물은 구글 드라이브」). 블로그 우체통 conf 없으면 건너뜀."""
+    if not os.path.exists('/home/claude/gas/conf.json'): return False
+    sys.path.insert(0, '/home/claude/helper'); from gas import call
+    for ext in ('_clip.mp4', '_clip_cover.jpg', '_clip_info.txt'):
+        f = f'{OUT}/nangman_interior_{slug}{ext}'
+        if os.path.exists(f): call('fput', path='블로그/shorts', name=os.path.basename(f), b64=base64.b64encode(open(f, 'rb').read()).decode())
+    return True
 def slug_of(f):
     b = os.path.basename(f).replace('.html', '')
     return re.sub(r'[^a-z0-9_]', '', b.lower()) or 'post'

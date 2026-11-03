@@ -14,4 +14,4 @@ for d in tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread gas; do
 done
 mkdir -p root && find /home/claude -maxdepth 1 -type f \( -name "*.py" -o -name "*.sh" -o -name "*.md" \) -size -2M -exec cp -p {} root/ \;
 git add -A >/dev/null
-git -c user.name=nangman -c user.email=nangmandosa801@users.noreply.github.com commit -qm "작업 파일 동기화 $(TZ=Asia/Seoul date +%m%d_%H%M)" && git push -q origin HEAD:main && echo pushed || echo nochange
+git -c user.name=nangman -c user.email=nangmandosa801@users.noreply.github.com commit -qm "작업 파일 동기화 $(TZ=Asia/Seoul date +%m%d_%H%M)" && git pull -q --rebase -X ours origin main && git push -q origin HEAD:main && echo pushed || echo nochange
