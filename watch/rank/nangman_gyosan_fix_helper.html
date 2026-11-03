@@ -1,0 +1,153 @@
+<title>교산 글 고침</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+/* 한 줄 흐름: 일차별로 내려가며 한 편씩 고침 — 카드 안 순서가 곧 네이버 편집기 작업 순서 */
+:root{--bg:#f3f5f8;--fg:#17223a;--sub:#5a6578;--line:#d3dae5;--card:#ffffff;--accent:#1f3864;--accent-ink:#ffffff;--soft:#e6ecf5;--new:#e4f1ea;--new-ink:#0d5c33;--del:#a8401d;--del-soft:#fbebe4;--ok:#0b7a3b;--dup:#7a5b12;--dup-soft:#f8f0dc;
+--f-disp:"IBM Plex Sans KR","Noto Sans KR",system-ui,sans-serif;--f-body:"Noto Sans KR",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141d;--fg:#e2e8f2;--sub:#9aa6b8;--line:#2a3445;--card:#161e2b;--accent:#8fb2ec;--accent-ink:#0f141d;--soft:#1d2738;--new:#15291f;--new-ink:#7fdca6;--del:#f08a64;--del-soft:#2c1c16;--ok:#5fe39b;--dup:#e8c46a;--dup-soft:#2a2414;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f141d;--fg:#e2e8f2;--sub:#9aa6b8;--line:#2a3445;--card:#161e2b;--accent:#8fb2ec;--accent-ink:#0f141d;--soft:#1d2738;--new:#15291f;--new-ink:#7fdca6;--del:#f08a64;--del-soft:#2c1c16;--ok:#5fe39b;--dup:#e8c46a;--dup-soft:#2a2414;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.65;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+.wrap{max-width:780px;margin:0 auto;display:grid;gap:22px}
+h1{font-family:var(--f-disp);font-size:24px;line-height:1.35;margin:0;text-wrap:balance}
+h2{font-family:var(--f-disp);font-size:18px;margin:0;text-wrap:balance}
+.meta{color:var(--sub);font-size:14px}
+a{color:var(--accent)}
+.prog{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:grid;gap:6px;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.prog .num{font-family:var(--f-disp);font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+.bar{height:8px;border-radius:4px;background:var(--soft);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+.how{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.how ol{margin:0;padding-left:22px;display:grid;gap:4px}
+.how li::marker{font-weight:700;color:var(--accent)}
+.rule{background:var(--soft);border-radius:8px;padding:10px 12px;font-size:14px}
+details.day{display:grid;gap:12px}
+details.day>summary{cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px;padding:12px 0;border-top:2px solid var(--fg)}
+details.day>summary::-webkit-details-marker{display:none}
+details.day>summary::before{content:"▸";color:var(--accent);font-weight:700}
+details.day[open]>summary::before{content:"▾"}
+.daycount{color:var(--sub);font-size:14px;font-variant-numeric:tabular-nums}
+.list{display:grid;gap:14px;padding-bottom:8px}
+.post{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:14px;min-width:0}
+.post.done{opacity:.55}
+.post.done .oldt{text-decoration:line-through}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12px;border-radius:999px;padding:2px 9px;background:var(--soft);color:var(--fg)}
+.oldt{font-size:14px;color:var(--sub);margin:0;overflow-wrap:anywhere;word-break:keep-all}
+.step{display:grid;gap:6px;min-width:0}
+.lab{font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--sub)}
+.val{border:1px solid var(--line);border-radius:6px;padding:10px 12px;overflow-wrap:anywhere;word-break:keep-all}
+.val.new{background:var(--new);color:var(--fg);border-color:transparent}
+.val.t{font-family:var(--f-disp);font-weight:700;font-size:16px}
+.val.old{background:var(--bg);font-size:14px;color:var(--sub)}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+button{font:inherit;font-size:14px;font-weight:700;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent);padding:5px 10px;font-size:13px}
+button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.copied{font-size:13px;color:var(--ok);min-height:1em}
+ul.bp{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+ul.bp li{border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:6px;min-width:0}
+.bpold{font-size:14px;overflow-wrap:anywhere}
+.delpill{display:inline-block;font-size:13px;font-weight:700;color:var(--del);background:var(--del-soft);border-radius:6px;padding:2px 9px}
+.note{font-size:13px;color:var(--sub)}
+.shared{font-size:12px;color:var(--sub);font-variant-numeric:tabular-nums}
+.tags{font-size:14px;color:var(--sub);overflow-wrap:anywhere}
+.done-box{display:flex;align-items:center;gap:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.done-box input{width:22px;height:22px;accent-color:var(--accent)}
+.done-box label{font-weight:700;cursor:pointer}
+.dupbox{background:var(--dup-soft);border-radius:10px;padding:14px 16px;display:grid;gap:10px}
+.dupbox h2{color:var(--dup)}
+.dupbox .it{display:grid;gap:2px;font-size:14px}
+</style>
+<div class="wrap">
+  <div style="display:grid;gap:8px">
+    <h1>교산 글 고침</h1>
+    <div class="meta">blog.naver.com/dong_jin_kim · 교산신도시 조회가 늘어 자동완성 검색어(청약일정 · 입주일정 · 분양권)에 맞춰 고칠 글 3편 · 10월 25일</div>
+  </div>
+  <div class="prog" aria-live="polite">
+    <div class="row"><span class="num" id="pnum">0 / 0 고침</span><span class="meta" id="pnext"></span></div>
+    <div class="bar"><i id="pbar"></i></div>
+  </div>
+  <section class="how" aria-labelledby="howh">
+    <h2 id="howh">이렇게 고치세요</h2>
+    <ol>
+      <li>「글 열기」로 글을 열고 「수정」을 누릅니다.</li>
+      <li>「새 제목 복사」로 제목 칸을 덮어씁니다.</li>
+      <li>본문 첫 문단(회색 칸의 문장)을 지우고 「새 첫 문단 복사」로 붙여 넣습니다.</li>
+      
+      <li>태그 칸을 비우고 「태그 복사」로 붙여 넣습니다.</li>
+      <li>「수정 발행」을 누르고 카드 아래 「고침」에 체크합니다.</li>
+    </ol>
+    <div class="rule">같은 글을 두 번 고치지 않습니다. 고친 뒤 1주 기다렸다가 다시 잽니다. 그림 · 표 · 링크 제목은 그대로 둡니다.</div>
+    
+  </section>
+  <div id="days"></div>
+  <section class="dupbox" id="dups"></section>
+</div>
+<script id="data" type="application/json">{"posts": [{"day": "교산신도시 · 검색어 맞추기", "logNo": "224426361340", "keyword": "교산신도시 청약일정", "new_title": "교산신도시 청약일정, 청약을 받은 곳은 2025년 5월 A2블록 한 곳이고 A9 · A11은 아직 공고 전입니다", "hook_type": "자동완성 1번 검색어", "intro": "교산신도시 청약일정을 블록별로 정리했습니다. 지금까지 청약을 받은 곳은 2025년 5월 A2블록(교산 푸르지오 더 퍼스트) 1,115가구 한 곳입니다. 59㎡ 평균 분양가는 5억 6,848만원이었습니다. 다음 후보로 A9 · A11이 거론되지만 모집공고는 아직 나오지 않았습니다.", "url": "https://blog.naver.com/dong_jin_kim/224426361340", "old_title": "하남 교산신도시 청약 일정과 분양가, 첫 분양 5억 6,800만원 옆 아파트는 지금 10억 9천입니다", "old_intro": "하남 교산신도시 첫 분양은 2025년 5월이었습니다. A2블록 59㎡ 평균 분양가가 5억 6,848만원이었습니다.", "boilerplate": [], "tags": ["교산신도시청약일정", "하남교산신도시청약일정", "교산신도시청약", "교산신도시분양일정", "교산신도시분양가", "교산a2", "하남교산신도시", "낭만부동산"]}, {"day": "교산신도시 · 검색어 맞추기", "logNo": "224416484050", "keyword": "교산신도시 입주일정", "new_title": "교산신도시 입주일정, 첫 입주 A2블록은 2029년 6월로 3기 신도시 다섯 곳 중 가장 늦습니다", "hook_type": "다른 신도시와 날짜 비교", "intro": "교산신도시 입주일정은 A2블록 2029년 6월이 처음입니다. 인천 계양 2025년 말, 부천 대장 2027년 11월, 고양 창릉 2027년 12월, 남양주 왕숙 2028년 5월보다 늦습니다. 토지보상은 2022년 말에 끝났습니다. 부지의 56%가 유물 분포지라 땅속 조사가 길어지고 있습니다.", "url": "https://blog.naver.com/dong_jin_kim/224416484050", "old_title": "교산신도시, 선호도 1위인데 입주는 3기 신도시 중 꼴찌입니다", "old_intro": "청약 경쟁률 263대 1로 3기 신도시 최고였습니다. 그런데 첫 입주가 2029년 6월이라 다섯 곳 중 가장 늦어요.", "boilerplate": [], "tags": ["교산신도시입주일정", "교산신도시입주시기", "교산신도시입주", "하남교산신도시", "교산신도시", "3기신도시입주", "낭만부동산"]}, {"day": "교산신도시 · 검색어 맞추기", "logNo": "224381460159", "keyword": "교산신도시 분양권", "new_title": "교산신도시 분양권, A2블록은 전매제한이 풀리는 2028년 4월부터 사고팔 수 있습니다", "hook_type": "언제부터", "intro": "교산신도시 분양권은 아직 한 건도 거래되지 않았습니다. A2블록은 2025년 4월 계약에 전매제한 3년이라 2028년 4월부터 팔 수 있습니다. 입주 1년 전입니다. 옆 미사에서는 분양권이 4,133건 오갔습니다. 교산은 거주의무 3년이 붙어 들어가 살 사람만 살 수 있습니다.", "url": "https://blog.naver.com/dong_jin_kim/224381460159", "old_title": "하남 교산신도시, 분양권은 언제부터인지 미사 4,133건으로 봤습니다", "old_intro": "교산신도시 분양이 시작됐습니다. 2025년 4월 A-2블록(교산 푸르지오 더퍼스트) 1,115가구가 본청약을 받았고, 올해부터 여섯 개 블록이 더 나올 예정이에요.", "boilerplate": [], "tags": ["교산신도시분양권", "교산신도시분양권매매", "교산분양권", "하남교산분양권", "교산신도시전매제한", "미사분양권", "낭만부동산"]}], "dups": []}</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const KEY='nm_fix_1025';
+let done={};try{done=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(done))}catch(e){}}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+async function copy(text,el){
+  try{await navigator.clipboard.writeText(text);el.textContent='복사했습니다';}
+  catch(e){const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}t.remove();el.textContent=ok?'복사했습니다':'복사가 막혔습니다. 글자를 길게 눌러 복사하세요';}
+  setTimeout(()=>{el.textContent=''},2500);
+}
+const days=[...new Set(D.posts.map(p=>p.day))];
+const root=document.getElementById('days');
+days.forEach((d,di)=>{
+  const ps=D.posts.filter(p=>p.day===d);
+  const det=document.createElement('details');det.className='day';det.dataset.day=d;
+  det.innerHTML=`<summary><h2>${esc(d)}</h2><span class="daycount"></span></summary><div class="list"></div>`;
+  const list=det.querySelector('.list');
+  ps.forEach(p=>{
+    const c=document.createElement('article');c.className='post';c.id='p'+p.logNo;
+    const bp=p.boilerplate.map((b,i)=>`<li><div class="row"><span class="delpill">지우기</span><span class="shared">${b.shared}편에 같은 줄</span></div><div class="bpold">${esc(b.old)}</div><div class="note">${esc(b.note)}</div><div class="row"><button type="button" class="ghost" data-c="f${i}">찾기 문구 복사</button><span class="copied"></span></div></li>`).join('');
+    c.innerHTML=`<div class="chips"><span class="chip">${esc(p.keyword)}</span><span class="chip">${esc(p.hook_type)}</span></div>
+      <p class="oldt">지금 제목 · ${esc(p.old_title)}</p>
+      <div class="row"><a href="${esc(p.url)}" target="_blank" rel="noopener">글 열기 ↗</a></div>
+      <div class="step"><span class="lab">1 · 새 제목</span><div class="val new t">${esc(p.new_title)}</div><div class="row"><button type="button" data-c="t">새 제목 복사</button><span class="copied"></span></div></div>
+      <div class="step"><span class="lab">2 · 첫 문단 바꾸기</span><div class="val old">지울 문단 · ${esc(p.old_intro)}</div><div class="val new">${esc(p.intro)}</div><div class="row"><button type="button" data-c="i">새 첫 문단 복사</button><span class="copied"></span></div></div>
+      <div class="step"><span class="lab">3 · 지울 줄 ${p.boilerplate.length}개</span>${p.boilerplate.length?`<ul class="bp">${bp}</ul>`:'<div class="note">겹치는 줄이 없습니다.</div>'}</div>
+      <div class="step"><span class="lab">4 · 태그</span><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div><div class="row"><button type="button" class="ghost" data-c="g">태그 복사</button><span class="copied"></span></div></div>
+      <div class="done-box"><input type="checkbox" id="d${p.logNo}"><label for="d${p.logNo}">고침 (수정 발행까지 했습니다)</label></div>`;
+    c.addEventListener('click',e=>{
+      const b=e.target.closest('button[data-c]');if(!b)return;
+      const k=b.dataset.c,out=b.parentElement.querySelector('.copied');
+      let t='';
+      if(k==='t')t=p.new_title;else if(k==='i')t=p.intro;else if(k==='g')t=p.tags.join(',');
+      else{t=p.boilerplate[+k.slice(1)].old.replace(/…$/,'').split(' · ')[0];}
+      copy(t,out);
+    });
+    const cb=c.querySelector('input');cb.checked=!!done[p.logNo];c.classList.toggle('done',cb.checked);
+    cb.addEventListener('change',()=>{if(cb.checked)done[p.logNo]=new Date().toISOString().slice(0,10);else delete done[p.logNo];save();c.classList.toggle('done',cb.checked);refresh();});
+    list.appendChild(c);
+  });
+  root.appendChild(det);
+});
+const dupEl=document.getElementById('dups');
+if(D.dups.length)dupEl.innerHTML='<h2>겹치는 글 — 새 글로 통째 바꿉니다</h2>'+D.dups.map(d=>`<div class="it"><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.old_title)} ↗</a><span class="note">${esc(d.note)}</span></div>`).join('');
+function refresh(){
+  const n=D.posts.length,k=D.posts.filter(p=>done[p.logNo]).length;
+  document.getElementById('pnum').textContent=`${k} / ${n} 고침`;
+  document.getElementById('pbar').style.width=(100*k/n)+'%';
+  const today=new Date().toISOString().slice(0,10);const t=Object.values(done).filter(v=>v===today).length;
+  document.getElementById('pnext').textContent=``;
+  let opened=false;
+  document.querySelectorAll('details.day').forEach(det=>{
+    const ps=D.posts.filter(p=>p.day===det.dataset.day),dn=ps.filter(p=>done[p.logNo]).length;
+    det.querySelector('.daycount').textContent=`${dn} / ${ps.length}`;
+    if(!opened&&dn<ps.length&&!det.dataset.touched){det.open=true;opened=true;}
+  });
+}
+document.querySelectorAll('details.day>summary').forEach(s=>s.addEventListener('click',()=>{s.parentElement.dataset.touched='1'}));
+refresh();
+</script>
