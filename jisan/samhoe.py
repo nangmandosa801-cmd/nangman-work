@@ -1,0 +1,174 @@
+# -*- coding: utf-8 -*-
+exec(open('/home/claude/jisan/jkit.py').read())
+def TABLE(ws,hs,rows):
+    o=['<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;">','<tr>']
+    for i,(w,h) in enumerate(zip(ws,hs)):
+        bg='#0D3B5C' if i%2==0 else '#1B7A9E'
+        o.append('<td width="%s" style="background-color:%s;padding:13px 8px;text-align:center;"><span style="font-size:18px;font-weight:700;color:#FFFFFF;">%s</span></td>'%(w,bg,h))
+    o.append('</tr>')
+    for cells in rows:
+        tr=['<tr>']
+        for c in cells:
+            al='left'; txt=c
+            if isinstance(c,tuple): txt,al=c
+            tr.append('<td style="border:1px solid #D6DDE3;padding:11px 8px;text-align:%s;"><span style="font-size:19px;font-weight:700;color:#1B7A9E;">%s</span></td>'%(al,txt))
+        tr.append('</tr>'); o.append(''.join(tr))
+    o.append('</table>'); return '\n'.join(o)
+def KV(pairs):
+    o=['<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;">']
+    for k,v in pairs:
+        o.append('<tr><td width="28%%" style="background-color:#EEF3F6;border-bottom:1px solid #FFFFFF;padding:13px 12px;"><span style="font-size:19px;font-weight:700;color:#0D3B5C;">%s</span></td><td style="border-bottom:1px solid #D6DDE3;padding:13px 12px;"><span style="font-size:20px;color:#333;">%s</span></td></tr>'%(k,v))
+    o.append('</table>'); return '\n'.join(o)
+
+A('<p style="font-size:17px;color:#1B7A9E;letter-spacing:1px;">지산드림 · 가평 토지 매물</p>')
+A(BR)
+A('<p style="font-size:34px;font-weight:700;color:#0D3B5C;">가평 토지 매물, 청평 삼회리 임야 2,962평 2억 4천, 포장도로 붙은 계곡 앞입니다</p>')
+A(BR)
+A(P('가평군 청평면 삼회리 산 25-2입니다. 청평시내에서 차로 5분, 북한강로 벚꽃길 안쪽 삼회1리 마을 뒤에 있는 임야 2,962평입니다.'))
+A(BR)
+A(P('땅 앞으로 3m 포장 법정도로가 붙어 있고, 그 앞으로 계곡이 흐릅니다. 매도가는 '+HL('총 2억 4,000만원')+'입니다. 평당 약 8만 1천원입니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('30초 요약'))
+A(BR)
+for n,t in [('하나','가평군 청평면 삼회리 산 25-2, 임야 2,962평(약 9,792㎡)입니다.'),
+            ('둘','매도가는 총 2억 4,000만원, 평당 약 8만 1천원입니다.'),
+            ('셋','3m 포장 법정도로에 붙어 있어 진입로를 새로 낼 필요가 없습니다. 땅 앞이 계곡입니다.'),
+            ('넷','용도지역은 계획관리지역과 보전관리지역이 섞여 있습니다. 두 곳 모두 단독주택을 지을 수 있습니다.'),
+            ('다섯','가평군은 2025년 접경지역이 됐고, 같은 해 산지전용 경사도 기준을 25도에서 30도로 완화했습니다.'),
+            ('여섯','땅 오른쪽 경계 끝에 분묘 1기가 있습니다.')]:
+    A(P('%s · %s'%(B(n),t))); A(BR)
+A(BR); A(DIV); A(BR)
+
+A(H('가평 토지 매물, 삼회리 산 25-2는 어디인가'))
+A(BR)
+A(FIG('jisandream_samhoe_map1_frame.png','가평 토지 매물 위치 · 청평면 삼회리 산 25-2와 북한강, 수풀로 삼회리'))
+A(BR)
+A(P('청평에서 북한강을 건너 북한강로(391번 지방도)를 타고 내려오면 삼회1리 마을이 나옵니다. 이 땅은 '+B('삼회1리 마을회관과 삼회보건진료소 바로 뒤쪽')+'입니다. 큰골계곡으로 들어가는 마을길이 땅 앞을 지납니다.'))
+A(BR)
+A(P('걸어서 닿는 곳에 가평군 관광지 수풀로 삼회리와 캠핑장, 펜션이 있습니다. 북한강로 건너편이 바로 북한강입니다.'))
+A(BR)
+A(FIG('jisandream_samhoe_map2_frame.png','가평 토지 매물 위성사진 · 삼회리 산 25-2 경계와 포장도로 연결부'))
+A(BR)
+A(P('위성사진에서 파란 선이 땅의 경계입니다. 아래쪽으로 좁게 내려온 부분이 마을 포장도로에 닿는 곳입니다. 주변은 마을과 펜션, 밭이고 뒤로는 산입니다.'))
+A(BR)
+A(KV([('주소','경기도 가평군 청평면 삼회리 산 25-2'),
+      ('지목·면적','임야 · 2,962평 (약 9,792㎡)'),
+      ('용도지역','계획관리지역 · 보전관리지역'),
+      ('도로','3m 포장 법정도로 접함'),
+      ('주변','전면 계곡 · 북한강 인접 · 청평시내 차량 5분'),
+      ('매도가','총 2억 4,000만원 (평당 약 8만 1천원)'),
+      ('참고','오른쪽 경계선 끝 분묘 1기')]))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('가평 전원주택 가려면, 청평역 ITX로 청량리 35분'))
+A(BR)
+A(P('청평역에서 ITX-청춘을 타면 청량리까지 약 34~36분, 용산까지 약 50~56분입니다. 일반 전철로는 청량리까지 약 56분입니다. ITX는 청평에 하루 몇 번만 서니 시간표를 보고 움직여야 합니다.'))
+A(BR)
+A(P('차로는 북한강로를 따라 서울양양고속도로 서종IC로 나갑니다. 다만 금요일 저녁과 일요일 오후에는 화도·서종 구간이 자주 막힙니다. 주말마다 오갈 분이라면 이 시간대를 피하는 쪽으로 계획을 세우십시오.'))
+A(BR)
+A(P('봄에는 신청평대교에서 삼회리 큰골까지 약 4.5km 북한강로 벚꽃길이 이어집니다. 삼회리는 가평 표고버섯이 유명한 마을이기도 합니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('가평임야가격, 평당 8만 1천원은 어떤 수준인가'))
+A(BR)
+A(TABLE(['40%','30%','30%'],['가평 토지 (호가)','평당 가격','조건'],
+ [['청평면 상천리 임야 3만 평대',('약 4만~7만원','right'),'대형 원형 임야'],
+  ['가평 상면 임야 5,700평',('약 5만원','right'),'선산용 임야'],
+  [B('삼회리 산 25-2 · 2,962평'),(B('약 8만 1천원'),'right'),B('포장도로·계곡·계획관리 포함')],
+  ['청평면 계획관리 토지 (개울 옆)',('약 70만원','right'),'바로 쓸 수 있는 땅'],
+  ['삼회리 전·계획관리 77.8평',('약 296만원','right'),'완성된 소형 필지']]))
+A(CAP('공개된 매물 호가를 평당으로 나눈 값입니다. 실거래가가 아니며 날짜와 조건이 다릅니다'))
+A(BR)
+A(P('가평에서 넓은 원형 임야는 평당 2만~7만원대에 매물이 나옵니다. 이 땅은 그보다 조금 높습니다. 대신 조건이 다릅니다. 싼 임야는 대부분 '+B('도로가 없거나 깊은 산속')+'입니다. 이 땅은 포장도로에 붙어 있고 청평시내가 5분 거리입니다.'))
+A(BR)
+A(P('반대로 이미 다 만들어진 전원주택지는 평당 70만~300만원입니다. 그 차이는 산지전용허가, 토목공사, 부담금, 그리고 시간값입니다. 그 일을 직접 할 수 있는 분에게는 총 2억 4천만원으로 3천 평 가까운 땅을 잡는 조건입니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('가평 전원주택 짓는다면, 계획관리와 보전관리에 지을 수 있는 것'))
+A(BR)
+A(TABLE(['30%','35%','35%'],['구분','계획관리지역','보전관리지역'],
+ [['건폐율 · 용적률','40% · 100%','20% · 80%'],
+  ['단독주택 · 전원주택','가능','가능 (4층 이하)'],
+  ['카페 (휴게음식점)','검토 가능','안 됨'],
+  ['개발행위 규모','3만㎡ 미만','5천㎡ 미만']]))
+A(CAP('국토의 계획 및 이용에 관한 법률 시행령 별표 18·20, 가평군 군계획 조례 기준 · 개별 허가는 설계 후 군 심사'))
+A(BR)
+A(P('한 필지에 두 용도지역이 섞여 있고 각 부분이 330㎡를 넘으면, 부분마다 그 지역의 규칙을 따로 적용합니다(국토계획법 제84조). 그래서 보통 '+B('계획관리 쪽에 집이나 카페를, 보전관리 쪽은 마당·녹지·산책로로')+' 나눠 설계합니다.'))
+A(BR)
+A(P('임야에 집을 지으려면 산지전용허가를 받고 대체산림자원조성비를 냅니다. 2026년 기준 준보전산지는 ㎡당 8,340원입니다. 집 한 채 부지로 200평(660㎡)을 쓰면 약 550만원입니다. 보전산지라면 ㎡당 10,840원입니다. 이 땅의 산지 구분은 토지이용계획확인원으로 함께 확인해 드립니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('가평 세컨하우스와 가평접경지역, 2025년에 바뀐 두 가지'))
+A(BR)
+A(P(B('첫째, 가평접경지역 지정입니다.')+' 가평군은 2025년 3월 11일 「접경지역 지원 특별법」상 접경지역이 됐습니다. 그래서 세컨드홈 과세특례 지역에 들어갔습니다. 다른 곳에 집이 한 채 있는 분이 2025년 3월 11일 이후 가평 주택(공시가격 4억원 이하)을 한 채 더 사면, 종부세·양도세·재산세를 1주택자 기준으로 봅니다.'))
+A(BR)
+A(P('다만 이 특례는 '+HL('땅이 아니라 주택')+'에 붙습니다. 땅을 사서 집을 지은 뒤에 적용되는 혜택입니다. 세금 적용은 세무사와 확인하십시오.'))
+A(BR)
+A(P(B('둘째, 가평군 산지전용 기준 완화입니다.')+' 가평군은 인구감소지역 특례로 2025년 2월 17일 조례를 고쳤습니다. 산지전용허가의 평균경사도 기준이 25도 이하에서 '+HL('30도 이하')+'로, 입목축적 기준은 군 평균의 150%에서 180%로 늘었습니다. 예전에는 경사 때문에 허가가 어려웠던 산지도 다시 검토할 수 있게 됐습니다.'))
+A(BR)
+A(P('이 땅의 실제 경사도와 허가 가능 여부는 측량과 설계를 거쳐 군청이 판단합니다. 일정 규모 이상은 경기도 협의도 필요합니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('청평전원주택토지매매 전에 확인할 것, 분묘 1기와 계곡'))
+A(BR)
+A(P('땅 오른쪽 경계선 끝에 분묘 1기가 있습니다. 2001년 1월 13일 이전에 설치된 분묘라면 분묘기지권이 인정될 수 있어 마음대로 옮길 수 없습니다. 그 이후 소유자 동의 없이 설치된 것이라면 군수 허가를 받아 개장할 수 있습니다.'))
+A(BR)
+A(P('분묘가 경계 끝에 있으니 건물을 반대쪽에 앉히면 그대로 두고도 설계할 수 있습니다. 설치 시기와 연고자는 매도인을 통해 계약 전에 확인해 드립니다.'))
+A(BR)
+A(P('앞의 계곡이 하천으로 지정돼 있으면 이격 거리나 점용 허가가 필요할 수 있습니다. 이 부분도 계약 전에 함께 확인합니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('이 가평 토지 매물이 맞는 분'))
+A(BR)
+for n,t in [('하나','서울에 집이 있고 주말마다 머물 가평 세컨하우스를 직접 짓고 싶은 분'),
+            ('둘','계곡 앞 넓은 땅에 집 한 채와 큰 마당, 텃밭을 두고 싶은 분'),
+            ('셋','진입로 걱정 없는 임야를 2억원대로 장기 보유하고 싶은 분')]:
+    A(P('%s · %s'%(B(n),t))); A(BR)
+A(P('대출을 크게 끼고 사기보다는 현금 여력이 있는 분께 맞습니다. 현장은 직접 보셔야 판단이 섭니다. 연락 주시면 토지이용계획확인원과 지적도를 준비해 현장에서 함께 봐 드립니다. 가격은 제가 합리적인 선에서 안내해 드립니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('함께 보면 좋은 글'))
+A(BR)
+for t in [
+ LK('https://blog.naver.com/jisandream01/224405117181','여주 산북면 토지 956평 | 개발행위허가가 이미 나 있습니다','지산드림의 다른 토지 매물입니다'),
+ LK('https://blog.naver.com/jisandream01/224401655781','송산그린시티 단독주택용지 94평 | 같은 크기가 작년에 5.4억에 팔렸습니다','집 지을 땅을 찾는 분께 드리는 다른 물건입니다'),
+ LK('https://blog.naver.com/jisandream01/224394305872','구리 토지 투자 | 땅에도 종류가 넷 있습니다','땅을 살 때 먼저 볼 용도지역 이야기입니다'),
+ LK('https://blog.naver.com/jisandream01/224413312449','공장 창고 시세는 도로가 정합니다 | 8m 넘으면 1,357만원, 못 미치면 808만원','땅값에서 도로가 차지하는 몫입니다'),
+ LK('https://blog.naver.com/dong_jin_kim/224413642108','개발행위허가 기준, 다섯 가지이고 규모는 1만·3만·5천입니다','보전관리 5천㎡, 계획관리 3만㎡ 기준을 정리한 글입니다'),
+ LK('https://blog.naver.com/dong_jin_kim/224410258088','개발행위허가 대상, 다섯 가지뿐입니다','임야에 집을 지을 때 받는 허가입니다'),
+]:
+    A(t); A(BR)
+A(BR)
+A(CAP('매물 정보는 매도인 제공 자료 기준이며 현장 확인 전 변경될 수 있습니다. 용도지역별 건축 기준은 국토의 계획 및 이용에 관한 법률과 가평군 군계획 조례, 산지전용 기준은 가평군 산지전용허가 기준 조례(2025년 2월 17일 공포), 접경지역과 세컨드홈 특례는 가평군청 안내(2025년 3월 11일 공포)를 기준으로 정리했습니다. 대체산림자원조성비는 산림청 2026년 고시 단가입니다. 주변 가격은 공개된 매물 호가이며 실거래가가 아닙니다. 인허가와 세금은 개별 조건에 따라 달라지므로 설계사무소와 세무 전문가 확인이 필요합니다.'))
+A(BR)
+A('<p style="font-size:14px;color:#9AA4AE;">지산드림공인중개사사무소 · 대표 김미호 · 등록번호 41310-2022-00061 · 경기도 구리시 갈매동 540-5, 101호</p>')
+A(BR)
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:2px solid #1B7A9E;font-size:1px;line-height:1px;">&nbsp;</td></tr></table>')
+A(BR)
+A('<p style="font-size:19px;font-weight:700;color:#0D3B5C;text-align:center;">지산드림</p>')
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;"><tr>')
+A('<td width="100%" style="border-left:3px solid #0D3B5C;background-color:#F4F6F8;padding:22px 24px;">')
+A('<p style="font-size:15px;color:#1B7A9E;letter-spacing:1px;">JISANDREAM</p>')
+A(BR)
+A('<p style="font-size:21px;font-weight:700;color:#0D3B5C;">구리 갈매동에서 지식산업센터·창고·아파트·토지를 다룹니다</p>')
+A(BR)
+A('<p style="font-size:17px;color:#333;">현장을 직접 보고 확인한 것만 씁니다.</p>')
+A('<p style="font-size:17px;color:#333;">되팔 때 걸릴 것까지 미리 말씀드립니다.</p>')
+A(BR)
+A('<p style="height:1px;background-color:#DDD8CE;margin:6px 0 14px 0;"></p>')
+A('<p style="font-size:17px;font-weight:700;"><a href="https://blog.naver.com/jisandream01/224387498556" style="color:#1B7A9E;text-decoration:none;border-bottom:1px solid #9CBBCC;">구리 갈매동 공인중개사 | 지산드림 지식산업센터 공장 창고 전문 ›</a><br>')
+A('<span style="font-size:15px;color:#7A8590;">구리와 남양주, 가평에서 다루는 물건들입니다</span></p>')
+A('</td></tr></table>')
+A(BR)
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;">')
+A('<tr><td style="border-left:3px solid #1B7A9E;background-color:#F4F6F8;padding:16px 18px;">')
+A('<span style="font-size:15px;color:#8A8578;">태그</span><br>')
+A('<span style="font-size:17px;color:#555;line-height:1.9;">#가평토지매물 #가평임야가격 #가평땅값 #가평전원주택 #가평세컨하우스 #가평접경지역 #청평전원주택토지매매 #청평삼회리 #삼회리 #지산드림</span>')
+A('</td></tr></table>')
+
+x='\n'.join(A_)+'\n'
+open('/mnt/user-data/outputs/jisandream/jisandream_samhoe_post.html','w',encoding='utf-8').write(x)
+import re
+t=re.sub(r'<[^>]+>',' ',x)
+print('본문',len(re.sub(r'\s','',t)), re.findall(r'\S*(?:갈[라랐렸리]|자리|고요|프리미엄|%p|어요|예요|헷갈|제자리|최고)\S*',t))

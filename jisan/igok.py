@@ -1,0 +1,156 @@
+# -*- coding: utf-8 -*-
+exec(open('/home/claude/jisan/jkit.py').read())
+def TABLE(ws,hs,rows):
+    o=['<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;">','<tr>']
+    for i,(w,h) in enumerate(zip(ws,hs)):
+        bg='#0D3B5C' if i%2==0 else '#1B7A9E'
+        o.append('<td width="%s" style="background-color:%s;padding:13px 8px;text-align:center;"><span style="font-size:18px;font-weight:700;color:#FFFFFF;">%s</span></td>'%(w,bg,h))
+    o.append('</tr>')
+    for cells in rows:
+        tr=['<tr>']
+        for c in cells:
+            al='left'; txt=c
+            if isinstance(c,tuple): txt,al=c
+            tr.append('<td style="border:1px solid #D6DDE3;padding:11px 8px;text-align:%s;"><span style="font-size:19px;font-weight:700;color:#1B7A9E;">%s</span></td>'%(al,txt))
+        tr.append('</tr>'); o.append(''.join(tr))
+    o.append('</table>'); return '\n'.join(o)
+def KV(pairs):
+    o=['<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;">']
+    for k,v in pairs:
+        o.append('<tr><td width="28%%" style="background-color:#EEF3F6;border-bottom:1px solid #FFFFFF;padding:13px 12px;"><span style="font-size:19px;font-weight:700;color:#0D3B5C;">%s</span></td><td style="border-bottom:1px solid #D6DDE3;padding:13px 12px;"><span style="font-size:20px;color:#333;">%s</span></td></tr>'%(k,v))
+    o.append('</table>'); return '\n'.join(o)
+
+A('<p style="font-size:17px;color:#1B7A9E;letter-spacing:1px;">지산드림 · 가평 토지 매물</p>')
+A(BR)
+A('<p style="font-size:34px;font-weight:700;color:#0D3B5C;">가평 토지 매물, 북면 이곡리 임야 2만 평 7억, 6m 임도와 계곡이 붙은 임업용 땅입니다</p>')
+A(BR)
+A(P('가평군 북면 이곡리 산 104, 산 105, 산 105-1 세 필지입니다. 합쳐서 임야 '+HL('20,070평')+'입니다. 가평시내에서 차로 10분 거리입니다.'))
+A(BR)
+A(P('땅 앞으로 폭 6m 임도가 붙어 있어 승용차와 SUV, 화물차, 대형 덤프까지 드나듭니다. 앞에는 계곡이 흐릅니다. 매도가는 '+HL('총 7억원')+', 평당 약 3만 5천원입니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('30초 요약'))
+A(BR)
+for n,t in [('하나','가평군 북면 이곡리 산 104·105·105-1, 임야 세 필지 20,070평(약 6.6ha)입니다.'),
+            ('둘','매도가 총 7억원, 평당 약 3만 5천원입니다.'),
+            ('셋','폭 6m 임도가 붙어 대형 덤프까지 드나들고, 앞에 계곡이 있습니다.'),
+            ('넷','용도지역은 농림지역입니다. 전원주택 부지가 아니라 임업 경영용 땅입니다.'),
+            ('다섯','6.6ha라 임업인 면적 요건(3ha 이상)을 넘습니다. 산림경영관리사(임야의 농막)와 임산물 창고를 검토할 수 있습니다.'),
+            ('여섯','가평군은 2025년 접경지역이 됐고, 산지전용 경사도 기준을 30도로 완화했습니다.')]:
+    A(P('%s · %s'%(B(n),t))); A(BR)
+A(BR); A(DIV); A(BR)
+
+A(H('가평 토지 매물, 북면 이곡리 임야 2만 평'))
+A(BR)
+A(FIG('jisandream_igok_map2.png','가평 토지 매물 3필지 · 이곡리 산 104, 산 105, 산 105-1이 6m 임도를 따라 붙어 있습니다'))
+A(BR)
+A(FIG('jisandream_igok_map1.png','가평 토지 매물 위치 · 북면 이곡리, 가평시내에서 차로 10분'))
+A(BR)
+A(P('가평읍 시내에서 가평천을 따라 북쪽으로 올라가면 북면 이곡리가 나옵니다. 가평역(경춘선·ITX)과 가평군청이 있는 시내까지 차로 10분입니다. 이곡리는 가평천이 휘돌아 나가는 산골 마을입니다.'))
+A(BR)
+A(KV([('주소','경기도 가평군 북면 이곡리 산 104, 산 105, 산 105-1 (3필지)'),
+      ('지목·면적','임야 · 20,070평 (약 66,347㎡, 6.6ha)'),
+      ('용도지역','농림지역'),
+      ('도로','폭 6m 임도 접함 · 차량 교차 가능 · 대형 덤프 출입'),
+      ('주변','전면 계곡 · 가평시내 차량 10분'),
+      ('매도가','총 7억원 (평당 약 3만 5천원)')]))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('가평임야가격, 평당 3만 5천원은 어떤 수준인가'))
+A(BR)
+A(TABLE(['40%','30%','30%'],['가평 임야 (호가·감정)','평당 가격','조건'],
+ [['북면 적목리 대형 임야 (경매 감정가)',('약 2만원','right'),'깊은 산속'],
+  [B('북면 이곡리 · 20,070평'),(B('약 3만 5천원'),'right'),B('6m 임도 · 계곡 · 시내 10분')],
+  ['청평면 상천리 임야 3만 평대',('약 4만~7만원','right'),'대형 원형 임야'],
+  ['청평 삼회리 임야 2,962평',('약 8만 1천원','right'),'포장도로 · 계획관리 포함']]))
+A(CAP('공개된 매물 호가와 경매 감정가를 평당으로 나눈 값입니다. 실거래가가 아니며 날짜와 조건이 다릅니다'))
+A(BR)
+A(P('가평 대형 임야는 평당 2만~7만원대에 나옵니다. 이 땅은 그 범위 안쪽입니다. 같은 가격대의 대형 임야는 대부분 '+B('차가 못 들어가는 산속')+'입니다. 이 땅은 6m 임도에 붙어 있어 덤프와 화물차가 드나들 수 있습니다. 임야에서 가장 비싸고 어려운 것이 길을 내는 일입니다.'))
+A(BR)
+A(P('집을 지을 땅을 찾는 분이라면 포장도로에 붙은 「가평 토지 매물, 청평 삼회리 임야 2,962평 2억 4천, 포장도로 붙은 계곡 앞입니다」가 맞습니다. 이곡리는 규모가 크고 임업을 할 분께 맞는 땅입니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('농림지역 임야 활용, 산림경영관리사와 농막'))
+A(BR)
+A(P('이 땅의 용도지역은 농림지역입니다. 농림지역은 건폐율 20%, 용적률 80%이고, 일반 전원주택이나 펜션을 짓는 곳이 아닙니다. 농림지역 임야는 보전산지인 경우가 많습니다. 정확한 산지 구분은 토지이용계획확인원으로 함께 확인해 드립니다.'))
+A(BR)
+A(P('대신 '+HL('임업인이 쓰는 시설')+'은 지을 수 있습니다. 산양삼, 표고, 산나물, 밤처럼 산에서 키우는 임산물을 재배하고 보관·가공하는 시설입니다.'))
+A(BR)
+A(TABLE(['36%','64%'],['농림지역 임야에서','요건'],
+ [['산림경영관리사 (임야 농막)',('임업인 · 부지 200㎡ 미만 · 주거용 아님 · 휴식공간은 바닥면적의 25% 이하','left')],
+  ['임산물 창고 · 가공시설',('임업인 · 산지전용 허가 또는 신고','left')],
+  ['작업로',('산림경영에 필요한 길 · 신고 대상','left')]]))
+A(CAP('산지관리법 시행령 별표 3의3 등 · 개별 설치 가능 여부는 가평군 산림 부서 확인'))
+A(BR)
+A(P('임야 농막을 찾는 분이 많은데, 임야에서는 농막 대신 '+B('산림경영관리사')+'라는 이름으로 짓습니다. 농지의 농막처럼 작업하다 쉬고 장비와 자재를 두는 관리용 건물입니다. 잠을 자는 집은 아닙니다.'))
+A(BR)
+A(P('임야 농막 설치 방법은 순서가 있습니다. 먼저 임업인 요건을 갖추고, 산지일시사용 신고나 산지전용 허가를 받은 뒤 짓습니다. 이 땅은 6m 임도가 붙어 있어 자재 차량이 들어갈 수 있다는 점이 설치에 유리합니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('임업인 조건과 임업직불금, 6.6ha면 면적 요건을 넘습니다'))
+A(BR)
+A(P('임업인이 되는 길은 여러 가지입니다. 그중 하나가 '+B('3ha 이상 산림에서 산림경영계획을 인가받아 임업을 경영')+'하는 것입니다. 이곡리 임야는 6.6ha라 이 면적 요건을 넘습니다.'))
+A(BR)
+A(P('임업인이 되면 산림경영관리사, 임산물 시설을 검토할 수 있고, 임업후계자 교육과 정책자금으로 이어질 수 있습니다. 임업직불금은 육림업의 경우 3ha 이상 요건이 있고, 연간 종사일수·판매액·등록 기준일 같은 조건을 모두 갖춰야 받습니다. 받을 수 있는지와 금액은 산림조합이나 가평군 산림과에서 확인하셔야 합니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('가평접경지역과 산지관리법 완화, 2025년에 바뀐 것'))
+A(BR)
+A(P('가평군은 2025년 3월 11일 접경지역이 됐습니다. 군 예산과 국비 지원이 늘어나는 변화이고, 세컨드홈 세금 특례는 주택에 붙는 혜택입니다.'))
+A(BR)
+A(P('같은 해 2월 가평군은 인구감소지역 특례로 산지전용허가 기준을 완화했습니다. 평균경사도 기준이 25도 이하에서 30도 이하로, 입목축적 기준은 군 평균의 150%에서 180%로 늘었습니다. 임산물 시설이나 작업로를 낼 때 예전보다 허가를 검토할 수 있는 범위가 넓어졌습니다. 실제 허가는 측량과 설계를 거쳐 군청이 판단합니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('이 가평 토지 매물이 맞는 분'))
+A(BR)
+for n,t in [('하나','산양삼·표고·산나물 같은 임산물 재배를 시작하려는 분'),
+            ('둘','임업인 등록과 임업후계자를 준비하며 3ha 이상 산림이 필요한 분'),
+            ('셋','덤프가 드나드는 길이 붙은 큰 임야를 7억원에 장기 보유하려는 분')]:
+    A(P('%s · %s'%(B(n),t))); A(BR)
+A(P('세 필지를 합친 경계와 경사, 임도가 닿는 지점은 현장에서 지적도와 함께 보셔야 판단이 섭니다. 연락 주시면 토지이용계획확인원과 지적도를 준비해 현장에서 함께 봐 드립니다. 가격은 제가 합리적인 선에서 안내해 드립니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('함께 보면 좋은 글'))
+A(BR)
+for t in [
+ LK('https://blog.naver.com/jisandream01/224427398219','가평 토지 매물, 청평 삼회리 임야 2,962평 2억 4천, 포장도로 붙은 계곡 앞입니다','지산드림 가평 토지 매물 1번 · 집 지을 땅입니다'),
+ LK('https://blog.naver.com/jisandream01/224405117181','여주 산북면 토지 956평 | 개발행위허가가 이미 나 있습니다','지산드림의 다른 토지 매물입니다'),
+ LK('https://blog.naver.com/jisandream01/224394305872','구리 토지 투자 | 땅에도 종류가 넷 있습니다','땅을 살 때 먼저 볼 용도지역 이야기입니다'),
+ LK('https://blog.naver.com/jisandream01/224413312449','공장 창고 시세는 도로가 정합니다 | 8m 넘으면 1,357만원, 못 미치면 808만원','땅값에서 도로가 차지하는 몫입니다'),
+ LK('https://blog.naver.com/dong_jin_kim/224410258088','개발행위허가 대상, 다섯 가지뿐입니다','임야에 시설을 지을 때 받는 허가입니다'),
+ LK('https://blog.naver.com/dong_jin_kim/224413642108','개발행위허가 기준, 다섯 가지이고 규모는 1만·3만·5천입니다','농림지역 개발 규모 기준입니다'),
+]:
+    A(t); A(BR)
+A(BR)
+A(CAP('매물 정보는 매도인 제공 자료 기준이며 현장 확인 전 변경될 수 있습니다. 농림지역 건폐율·용적률은 국토의 계획 및 이용에 관한 법률, 산림경영관리사 설치 조건은 산지관리법 시행령 별표 3의3, 임업인 면적 요건은 임업 및 산촌 진흥촉진에 관한 법률 시행령, 산지전용 기준은 가평군 산지전용허가 기준 조례(2025년 2월 17일 공포), 접경지역은 가평군청 안내(2025년 3월 11일 공포)를 기준으로 정리했습니다. 임업직불금 요건과 금액은 해마다 바뀌므로 산림청·산림조합에 확인이 필요합니다. 주변 가격은 공개 매물 호가와 경매 감정가이며 실거래가가 아닙니다.'))
+A(BR)
+A('<p style="font-size:14px;color:#9AA4AE;">지산드림공인중개사사무소 · 대표 김미호 · 등록번호 41310-2022-00061 · 경기도 구리시 갈매동 540-5, 101호</p>')
+A(BR)
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:2px solid #1B7A9E;font-size:1px;line-height:1px;">&nbsp;</td></tr></table>')
+A(BR)
+A('<p style="font-size:19px;font-weight:700;color:#0D3B5C;text-align:center;">지산드림</p>')
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;"><tr>')
+A('<td width="100%" style="border-left:3px solid #0D3B5C;background-color:#F4F6F8;padding:22px 24px;">')
+A('<p style="font-size:15px;color:#1B7A9E;letter-spacing:1px;">JISANDREAM</p>')
+A(BR)
+A('<p style="font-size:21px;font-weight:700;color:#0D3B5C;">구리 갈매동에서 지식산업센터·창고·아파트·토지를 다룹니다</p>')
+A(BR)
+A('<p style="font-size:17px;color:#333;">현장을 직접 보고 확인한 것만 씁니다.</p>')
+A('<p style="font-size:17px;color:#333;">되팔 때 걸릴 것까지 미리 말씀드립니다.</p>')
+A(BR)
+A('<p style="height:1px;background-color:#DDD8CE;margin:6px 0 14px 0;"></p>')
+A('<p style="font-size:17px;font-weight:700;"><a href="https://blog.naver.com/jisandream01/224387498556" style="color:#1B7A9E;text-decoration:none;border-bottom:1px solid #9CBBCC;">구리 갈매동 공인중개사 | 지산드림 지식산업센터 공장 창고 전문 ›</a><br>')
+A('<span style="font-size:15px;color:#7A8590;">구리와 남양주, 가평에서 다루는 물건들입니다</span></p>')
+A('</td></tr></table>')
+A(BR)
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;">')
+A('<tr><td style="border-left:3px solid #1B7A9E;background-color:#F4F6F8;padding:16px 18px;">')
+A('<span style="font-size:15px;color:#8A8578;">태그</span><br>')
+A('<span style="font-size:17px;color:#555;line-height:1.9;">#가평토지매물 #가평임야가격 #임야매매 #농림지역임야 #산림경영관리사 #임업인 #임업직불금 #임업후계자 #임야농막 #가평이곡리 #지산드림</span>')
+A('</td></tr></table>')
+
+x='\n'.join(A_)+'\n'
+open('/mnt/user-data/outputs/jisandream/jisandream_igok_post.html','w',encoding='utf-8').write(x)
+import re
+t=re.sub(r'<[^>]+>',' ',x)
+print('본문',len(re.sub(r'\s','',t)), re.findall(r'\S*(?:갈[라랐렸리]|자리|고요|프리미엄|%p|어요|예요|헷갈|제자리|최고)\S*',t))

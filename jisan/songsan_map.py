@@ -1,0 +1,10 @@
+exec(open('draw.py').read().split("O='/mnt/user-data/outputs/jisandream/'")[0])
+O='/mnt/user-data/outputs/jisandream/songsan/'
+im,f=basemap(37.335,126.62,37.17,126.87,12)
+d=ImageDraw.Draw(im,'RGBA')
+x,y=f(37.2814,126.8189); d.ellipse((x-110,y-110,x+110,y+110),fill=(27,122,158,50),outline=(13,59,92,255),width=6)
+d.ellipse((x-18,y-18,x+18,y+18),fill=(13,59,92),outline='white',width=5); label(d,x,y-160,'동측 · 새솔동 (입주 끝)',36,(13,59,92))
+x2,y2=f(37.2972,126.6694); label(d,x2,y2,'시화호',34,(80,90,100))
+x3,y3=f(37.2212,126.7292); label(d,x3,y3+40,'송산면',30,(80,90,100))
+frame(im,O+'jisandream_songsan_map2.png','지산드림 · 송산그린시티','시화호 남쪽 신도시, 가장 먼저 지은 동측이 새솔동','파란 원이 새솔동 · 남측 · 서측 지구 경계는 한국수자원공사 사업 안내로 확인')
+print('ok')

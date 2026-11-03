@@ -1,0 +1,70 @@
+exec(open('/home/claude/jisan/clips/jclip.py').read())
+O='/mnt/user-data/outputs/shorts/jisandream/gasan_sangga'; os.makedirs(O,exist_ok=True); os.chdir(O)
+def sv(im,n): im.save(f's{n}.png')
+def foot2(d,c=SAND): ctext(d,1830,'지산드림 · 가산동 상가',F(40,False),c)
+ORG=(214,120,60); CREAM=(250,240,225)
+def gimbap(d,x,y,s=1.0):
+    r=int(70*s); d.ellipse((x-r,y-r,x+r,y+r),fill=(30,40,30)); d.ellipse((x-r+14,y-r+14,x+r-14,y+r-14),fill=WH)
+    for dx,dy,c in ((-18,-14,(240,200,40)),(16,-10,(60,150,70)),(0,18,(220,90,60))): d.ellipse((x+dx-12,y+dy-12,x+dx+12,y+dy+12),fill=c)
+def tower(d,x,y,w,h,shop=True,label=''):
+    d.rectangle((x,y,x+w,y+h),fill=(170,180,195))
+    for i in range(8):
+        for j in range(3): d.rectangle((x+16+j*(w-32)//3,y+16+i*(h-120)//8,x+8+(j+1)*(w-32)//3,y+8+(i+1)*(h-120)//8),fill=GLASS)
+    d.rectangle((x,y+h-100,x+w,y+h),fill=ORG if shop else (130,140,150))
+    if label: ctext(d,y+h-80,label,F(40),WH,x=x+w//2)
+# 1
+im,d=jb(CREAM); cap(d,['김밥집 열고 싶은 이 사장','가산디지털단지 1층'],size=74)
+gimbap(d,820,820,1.3)
+person(d,400,980,0.9,face='o',shirt=ORG)
+bubble(d,90,1450,900,220,['살까?','빌릴까?'],size=72,fill=(255,243,196))
+foot2(d); sv(im,1)
+# 2
+im,d=jb(); cap(d,['가산동 1층 11평','사면 얼마?'],size=84)
+d.rounded_rectangle((70,440,1010,800),40,fill=WH,outline=RED,width=10)
+ctext(d,480,'최근 1년 · 금액 중앙값',F(58),SAND); ctext(d,580,'3억 7,500만원',F(116),RED)
+ctext(d,880,'1층 8건 · 전용 11.8평',F(64),DEEP)
+person(d,540,1300,0.65,face='shock',shirt=ORG)
+foot2(d); sv(im,2)
+# 3
+im,d=jb(); cap(d,['빌리면?','하우스디 가산 퍼스타 105호'],size=74)
+tower(d,290,420,500,620,True,'105호 · 1층 11평')
+ctext(d,1110,'보증금 3,000만원',F(80),DEEP); ctext(d,1220,'월세 200만원',F(100),GRN)
+person(d,540,1530,0.5,face='smile',shirt=ORG)
+foot2(d); sv(im,3)
+# 4
+im,d=jb(); cap(d,['1층은','2층보다 두 배'],size=88)
+for i,(fl,v,c) in enumerate((('1층','2,753만원',RED),('2층','1,395만원',CY),('3층 위','1,133만원',SAND))):
+    y=430+i*250
+    d.rounded_rectangle((70,y,1010,y+225),36,fill=WH,outline=c,width=8)
+    ctext(d,y+18,f'{fl} · 전용 평당',F(52),SAND); ctext(d,y+92,v,F(80),c)
+ctext(d,1250,'1층은 작은 칸을 비싸게',F(66),DEEP); ctext(d,1340,'위층은 넓은 칸을 싸게',F(66),DEEP)
+foot2(d); sv(im,4)
+# 5
+im,d=jb(CREAM); cap(d,['여기는','주 5일 상권'],size=88)
+d.rounded_rectangle((70,440,520,980),36,fill=WH,outline=GRN,width=8); ctext(d,470,'평일 점심',F(60),GRN,x=295)
+for k in range(3): person(d,180+k*120,720,0.38,face='smile',shirt=DEEP)
+d.rounded_rectangle((560,440,1010,980),36,fill=WH,outline=SAND,width=8); ctext(d,470,'주말',F(60),SAND,x=785)
+person(d,785,720,0.38,face='worry',shirt=GR)
+ctext(d,1080,'매출은 평일 닷새로',F(78),DEEP); ctext(d,1180,'계산합니다',F(78),DEEP)
+gimbap(d,540,1450,1.0)
+foot2(d); sv(im,5)
+# 6
+im,d=jb(); cap(d,['70m 앞 건물엔','상가가 없습니다'],size=84)
+tower(d,110,440,380,620,True,'퍼스타')
+tower(d,590,440,380,620,False,'모비우스타워')
+ctext(d,1110,'두 건물 모두 기숙사',F(70),DEEP)
+person(d,540,1350,0.55,face='smile',shirt=ORG)
+bubble(d,90,1560,900,200,['김밥은 우리 1층에서!'],size=66,fill=(255,243,196))
+foot2(d); sv(im,6)
+# 7
+im,d=jb(DEEP); cap(d,['가산동 상가','살까 빌릴까'],c=WH,size=88)
+gimbap(d,540,700,1.4)
+person(d,540,960,0.7,face='smile',shirt=ORG)
+ctext(d,1380,'지산드림 블로그',F(80),GOLD)
+ctext(d,1490,'blog.naver.com/jisandream01',F(52),WH)
+reg(d,(170,190,205)); foot2(d,(170,190,205)); sv(im,7)
+assemble([f's{i}.png' for i in range(1,8)],[3.2,3.8,3.8,3.8,3.6,3.6,3.4],'jisandream_gasan_sangga_short.mp4')
+Image.open('s2.png').save('jisandream_gasan_sangga_cover.png')
+ims=[Image.open(f's{i}.png').resize((270,480)) for i in range(1,8)]
+c=Image.new('RGB',(1080,960),'white');[c.paste(x,((i%4)*270,(i//4)*480)) for i,x in enumerate(ims)];c.save('/tmp/claude-0/-home-claude/cbfac2e5-e5d5-531e-ad5d-28b72a0f7fcf/scratchpad/sheet_gasan.png')
+print('ok')

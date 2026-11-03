@@ -1,0 +1,78 @@
+exec(open('/home/claude/jisan/clips/jclip.py').read())
+O='/mnt/user-data/outputs/jisandream/clip_choi'; os.makedirs(O,exist_ok=True); os.chdir(O)
+def sv(im,n): im.save(f's{n}.png')
+def foot2(d,c=SAND): ctext(d,1830,'지산드림 · 하남 토지',F(40,False),c)
+def field(d,x,y,w,h,c=(150,185,120)):
+    d.rectangle((x,y,x+w,y+h),fill=c,outline=WH,width=5)
+    for yy in range(y+30,y+h-10,40): d.line((x+15,yy,x+w-15,yy),fill=(120,160,95),width=4)
+def road(d,x,y,w,h,c=(120,125,130)):
+    d.rectangle((x,y,x+w,y+h),fill=c)
+    if w>h:
+        for xx in range(x+20,x+w,140): d.rectangle((xx,y+h//2-5,xx+70,y+h//2+5),fill=(245,235,160))
+    else:
+        for yy in range(y+20,y+h,140): d.rectangle((x+w//2-5,yy,x+w//2+5,yy+70),fill=(245,235,160))
+def bar(d,y,label,v,vmax,c,note):
+    w=int(760*v/vmax); d.rounded_rectangle((160,y,160+max(w,60),y+90),20,fill=c)
+    ctext(d,y+100,label,F(50),DEEP); ctext(d,y+18,note,F(52),WH if w>300 else DEEP,x=160+max(w,60)//2 if w>300 else 160+max(w,60)+140)
+# 1
+im,d=jb(); cap(d,['하남 초이동 밭 두 필지','같은 그린벨트입니다'],size=74)
+field(d,110,560,400,420); field(d,570,560,400,420)
+ctext(d,1030,'둘 다 밭 · 둘 다 그린벨트',F(58),SAND)
+person(d,540,1400,0.7,face='o',shirt=DEEP)
+bubble(d,120,1620,840,150,['값도 같겠지?'],size=60,fill=(255,243,196))
+foot2(d); sv(im,1)
+# 2
+im,d=jb(); cap(d,['다른 점은','길 하나'],size=92)
+field(d,110,620,400,420); field(d,570,620,400,420)
+road(d,0,1050,1080,90)
+d.line((570,1050,970,1050),fill=CY,width=14)
+ctext(d,1180,'왼쪽은 길이 안 닿고',F(56),SAND); ctext(d,1260,'오른쪽은 12m 도로에 붙었습니다',F(56),DEEP)
+person(d,540,1520,0.55,face='o',shirt=DEEP)
+foot2(d); sv(im,2)
+# 3
+im,d=jb(); cap(d,['평당 중간값을 보니'],size=86)
+bar(d,520,'도로 표시 없음',170,733,GR,'170만원')
+bar(d,740,'8m 미만 도로',282,733,LCY,'282만원')
+bar(d,960,'12m 미만 도로',478,733,CY,'478만원')
+bar(d,1180,'25m 이상 도로',733,733,DEEP,'733만원')
+ctext(d,1420,'초이동 그린벨트 밭·논 · 2019년 이후 통째 거래',F(42),SAND)
+person(d,540,1620,0.45,face='shock',shirt=DEEP)
+foot2(d); sv(im,3)
+# 4
+im,d=jb(); cap(d,['길 하나로','세 배 차이'],size=96)
+d.rounded_rectangle((90,520,500,900),36,fill=WH,outline=GR,width=8); ctext(d,600,'길 없음',F(56),SAND,x=295); ctext(d,720,'170만원',F(76),SAND,x=295)
+d.rounded_rectangle((580,520,990,900),36,fill=(232,244,249),outline=CY,width=10); ctext(d,600,'12m 도로',F(56),CY,x=785); ctext(d,720,'478만원',F(76),DEEP,x=785)
+ctext(d,1000,'그린벨트는 새 길을 내기 어렵습니다',F(56),DEEP)
+ctext(d,1090,'그래서 처음부터 값이 다르게 매겨집니다',F(52),SAND)
+person(d,540,1450,0.6,face='o',shirt=DEEP)
+foot2(d); sv(im,4)
+# 5
+im,d=jb(); cap(d,['초이동 거래 세 건 중 두 건은','지분거래입니다'],size=66)
+d.rectangle((190,560,890,1000),fill=(150,185,120),outline=WH,width=6)
+for x in (365,540,715): d.line((x,560,x,1000),fill=WH,width=6)
+for y in (780,): d.line((190,y,890,y),fill=WH,width=6)
+ctext(d,1060,'산 하나를 여럿이 나눠 삽니다',F(58),DEEP)
+ctext(d,1150,'2010년 이후 2,285건 중 66%',F(52),SAND)
+ctext(d,1290,'내 마음대로 길을 낼 수 없습니다',F(56),RED)
+person(d,540,1560,0.5,face='worry',shirt=DEEP)
+foot2(d); sv(im,5)
+# 6
+im,d=jb(); cap(d,['초이동은 역보다','도로가 가까운 동네'],size=72)
+card(d,470,'초이IC','세종포천고속도로 · 동네 안',CY)
+card(d,750,'서하남IC','수도권제1순환 · 남쪽 경계 밖',CY)
+card(d,1030,'5호선 강일역','직선 2.8㎞',SAND)
+ctext(d,1340,'공장·창고·물류로 쓰는 필지가 많습니다',F(50),DEEP)
+person(d,540,1540,0.5,face='smile',shirt=DEEP)
+foot2(d); sv(im,6)
+# 7
+im,d=jb(DEEP); cap(d,['초이동 땅 보실 때'],c=WH,size=84)
+for i,t in enumerate(['도로조건부터 확인','지분인지 통째인지','그린벨트 · 군 항공부대 고도제한']):
+    ctext(d,380+i*130,t,F(60),GOLD if i<2 else WH)
+person(d,540,900,0.75,face='smile',shirt=CY)
+ctext(d,1260,'지도 들고',F(66),WH); ctext(d,1350,'현장 같이 봐 드립니다',F(66),WH)
+reg(d,(170,190,205)); foot2(d,(170,190,205)); sv(im,7)
+assemble([f's{i}.png' for i in range(1,8)],[3.2,3.4,4.0,3.6,3.6,3.4,3.8],'jisandream_choi_short.mp4')
+Image.open('s4.png').save('jisandream_choi_cover.png')
+ims=[Image.open(f's{i}.png').resize((270,480)) for i in range(1,8)]
+c=Image.new('RGB',(1080,960),'white');[c.paste(x,((i%4)*270,(i//4)*480)) for i,x in enumerate(ims)];c.save('/tmp/claude-0/sheet_choi.png')
+print('ok')

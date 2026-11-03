@@ -1,0 +1,144 @@
+# -*- coding: utf-8 -*-
+exec(open('/home/claude/jisan/jkit.py').read())
+def TABLE(ws,hs,rows):
+    o=['<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;">','<tr>']
+    for i,(w,h) in enumerate(zip(ws,hs)):
+        bg='#0D3B5C' if i%2==0 else '#1B7A9E'
+        o.append('<td width="%s" style="background-color:%s;padding:13px 8px;text-align:center;"><span style="font-size:18px;font-weight:700;color:#FFFFFF;">%s</span></td>'%(w,bg,h))
+    o.append('</tr>')
+    for cells in rows:
+        tr=['<tr>']
+        for c in cells:
+            al='left'; txt=c
+            if isinstance(c,tuple): txt,al=c
+            tr.append('<td style="border:1px solid #D6DDE3;padding:11px 8px;text-align:%s;"><span style="font-size:19px;font-weight:700;color:#1B7A9E;">%s</span></td>'%(al,txt))
+        tr.append('</tr>'); o.append(''.join(tr))
+    o.append('</table>'); return '\n'.join(o)
+R=lambda t:(t,'right')
+
+A('<p style="font-size:17px;color:#1B7A9E;letter-spacing:1px;">지산드림 · 구리 갈매</p>')
+A(BR)
+A('<p style="font-size:34px;font-weight:700;color:#0D3B5C;">구리 아파트 매매, 규제 뒤 한 달 415건이 79건으로 줄었고 옆 별내는 141건으로 늘었습니다</p>')
+A(BR)
+A(P('구리시는 2026년 7월 1일부터 투기과열지구와 조정대상지역, 7월 5일부터 토지거래허가구역입니다. 세 겹으로 묶인 지 석 달이 됐습니다.'))
+A(BR)
+A(P('구리 아파트 매매는 6월 415건에서 7월 '+HL('79건')+'으로 줄었습니다. 같은 7월 바로 옆 남양주 별내동은 '+HL('141건')+'으로 올해 가장 많았습니다. 구리 가격은 거래가 줄어든 뒤에도 올랐습니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('30초 요약'))
+A(BR)
+for n,t in [('하나','구리 아파트 매매는 6월 415건, 7월 79건입니다. 한 달 사이 81% 줄었습니다.'),
+            ('둘','갈매동은 6월 68건에서 7월 18건, 인창동은 169건에서 36건으로 줄었습니다.'),
+            ('셋','가격은 올랐습니다. 같은 단지·같은 면적으로 4~6월과 7~8월을 비교하면 구리는 4.8%, 갈매동은 3.5% 올랐습니다.'),
+            ('넷','남양주는 7월 1,034건으로 올해 가장 많았습니다. 별내동 141건은 1년 전 7월 35건의 네 배입니다.'),
+            ('다섯','별내동 가격은 같은 기간 2.6%, 다산동은 6.9% 올랐습니다.'),
+            ('여섯','구리 아파트를 사려면 시청 허가를 받고 2년을 직접 살아야 합니다. 토지거래허가는 2027년 12월 31일까지입니다.')]:
+    A(P('%s · %s'%(B(n),t))); A(BR)
+A(BR); A(DIV); A(BR)
+
+A(H('구리 아파트 매매, 6월 415건에서 7월 79건'))
+A(BR)
+A(TABLE(['22%','26%','26%','26%'],['2026년','구리시','남양주시','별내동'],
+ [['4월',R('351건'),R('756건'),R('87건')],
+  ['5월',R('308건'),R('904건'),R('86건')],
+  ['6월',R('415건'),R('967건'),R('116건')],
+  [B('7월 (규제 뒤)'),R(B('79건')),R(B('1,034건')),R(B('141건'))],
+  ['8월',R('91건'),R('791건'),R('73건')]]))
+A(CAP('국토교통부 아파트 매매 실거래 · 해제 거래 제외 · 8월은 9월 중순까지 신고분이라 더 늘 수 있습니다'))
+A(BR)
+A(FIG('jisandream_guri3m_fig1.png','구리 아파트 매매 월별 건수, 2026년 6월 415건에서 7월 79건'))
+A(BR)
+A(P('구리는 규제 직전에 거래가 몰렸습니다. 1월 592건, 6월 415건으로 2025년 같은 달(1월 70건, 6월 236건)보다 많았습니다. 그리고 7월에 79건으로 줄었습니다. 2025년 7월 132건보다도 적습니다.'))
+A(BR)
+A(P('동마다 줄어든 폭은 비슷합니다. 인창동은 6월 169건에서 7월 36건, 수택동은 106건에서 12건, '+B('갈매동은 68건에서 18건')+', 교문동은 45건에서 8건, 토평동은 27건에서 5건입니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('구리 아파트 시세, 거래는 줄었는데 가격은 4.8% 올랐습니다'))
+A(BR)
+A(P('규제 앞뒤로 같은 아파트, 같은 면적이 모두 거래된 경우만 비교했습니다. 4~6월과 7~8월 사이 구리 93쌍의 가격 변화 중간값은 '+HL('4.8%')+'입니다. 93쌍 중 81%가 올랐습니다. 인창동은 6.9%, 갈매동은 3.5% 올랐습니다.'))
+A(BR)
+A(TABLE(['40%','20%','20%','20%'],['갈매동 84㎡','4~6월','7~8월','변화'],
+ [['갈매역아이파크',R('8억 4,900만'),R('8억 8,350만'),R('+4.1%')],
+  ['한라비발디',R('7억 4,800만'),R('7억 9,000만'),R('+5.6%')],
+  ['구리갈매스타힐스',R('7억 3,000만'),R('7억 6,500만'),R('+4.8%')],
+  ['갈매더샵나인힐스',R('7억 2,700만'),R('7억 5,800만'),R('+4.3%')],
+  ['갈매6단지',R('7억 2,500만'),R('7억 3,750만'),R('+1.7%')]]))
+A(CAP('같은 단지·같은 전용면적 거래의 기간별 중간값 · 7~8월은 거래가 2~4건이라 한두 건으로 값이 바뀔 수 있습니다'))
+A(BR)
+A(FIG('jisandream_guri3m_fig3.png','구리 갈매동 아파트 시세 84㎡, 규제 전 4~6월과 뒤 7~8월'))
+A(BR)
+A(P('거래가 적어 한두 건이 중간값을 정합니다. 1년 전과 비교하면 구리 아파트는 같은 단지·같은 면적 기준 9.5% 올랐습니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('별내 아파트 매매, 규제 밖이라 거래가 몰렸습니다'))
+A(BR)
+A(P('남양주는 규제지역이 아닙니다. 7월 남양주 아파트 매매는 1,034건으로 올해 가장 많았습니다. 2025년 7월 447건의 2.3배입니다. 별내동은 141건으로 1년 전 35건의 네 배, 다산동은 271건으로 1년 전 96건의 2.8배입니다.'))
+A(BR)
+A(FIG('jisandream_guri3m_fig2.png','별내 아파트 매매 월별 건수, 2026년 7월 141건'))
+A(BR)
+A(P('가격도 올랐지만 구리보다 덜 올랐습니다. 4~6월과 7~8월 사이 별내동은 '+HL('2.6%')+'(61쌍), 다산동은 6.9%(103쌍) 올랐습니다. 별내자이더스타 84㎡는 11억 1,000만원에서 11억 5,000만원, 신안인스빌 84㎡는 7억 1,500만원에서 7억 5,000만원, 포레나별내 84㎡는 7억 1,000만원에서 7억 2,700만원이 됐습니다.'))
+A(BR)
+A(TABLE(['34%','33%','33%'],['사는 조건','구리 (7월부터)','남양주 별내·다산'],
+ [['아파트 살 때 허가',('시청 허가 필요','left'),('필요 없음','left')],
+  ['직접 거주',('2년','left'),('의무 없음','left')],
+  ['무주택자 주택담보대출',('LTV 40% · 최대 6억원','left'),('LTV 70%','left')],
+  ['전세 끼고 사기',('안 됨','left'),('됨','left')]]))
+A(CAP('국토교통부 2026년 6월 30일 발표, 금융위원회 규제지역 대출 기준 · 개인 조건에 따라 달라집니다'))
+A(BR)
+A(P('갈매동과 별내동은 경춘선 한 정거장 사이입니다. 같은 생활권인데 한쪽은 허가를 받아야 하고 한쪽은 그렇지 않습니다. 갈매와 별내 시세를 5년 단위로 비교한 내용은 「갈매동 별내동 아파트 시세 | 5년 전엔 같았는데 지금은 갈매가 덜 빠졌습니다」에 있습니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('구리 토지거래허가, 갈매동에서 달라진 것'))
+A(BR)
+A(P('구리 전역의 아파트는 2027년 12월 31일까지 토지거래허가를 받아야 삽니다. 허가를 받으면 2년 동안 직접 살아야 합니다. 그래서 전세를 끼고 사 두는 방식은 막혔습니다.'))
+A(BR)
+A(P('허가 대상은 아파트, 그리고 아파트가 포함된 연립·다세대입니다(국토교통부 발표 기준). 오피스텔과 지식산업센터는 아파트가 아니어서 이번 허가 대상에 들지 않습니다.'))
+A(BR)
+A(P('규제 내용 전체는 7월에 쓴 「구리 규제지역 지정 | 토지거래허가까지 삼중으로 묶였습니다」에 정리했습니다.'))
+A(BR); A(BR); A(DIV); A(BR)
+
+A(H('함께 보면 좋은 글'))
+A(BR)
+for t in [
+ LK('https://blog.naver.com/jisandream01/224396406790','별내자이 더 스타 이그제큐티브 | 호텔처럼 지었는데 규제는 없습니다','별내역 앞 오피스텔 · 아파트 규제를 받지 않습니다'),
+ LK('https://blog.naver.com/jisandream01/224409047755','별내자이 더 스타 이그제큐티브 | 주차가 실당 1.3대입니다','같은 생활권 오피스텔 760실입니다'),
+ LK('https://blog.naver.com/jisandream01/224404038799','구리 규제지역 지정 | 토지거래허가까지 삼중으로 묶였습니다','7월 지정 때 달라진 대출·세금·거래 조건입니다'),
+ LK('https://blog.naver.com/jisandream01/224416293920','갈매동 별내동 아파트 시세 | 5년 전엔 같았는데 지금은 갈매가 덜 빠졌습니다','한 정거장 사이 두 동네 시세입니다'),
+ LK('https://blog.naver.com/jisandream01/224416320137','갈매역 도보 5분 | 같은 84㎡인데 7.16억과 8.30억입니다','갈매동 84㎡ 가격 차이를 본 글입니다'),
+ LK('https://blog.naver.com/jisandream01/224413756713','하남 구리 남양주 아파트 신고가 | 하남 75%, 왕숙 인접지역은 4%였습니다','규제 전 세 도시 신고가 비율입니다'),
+ LK('https://blog.naver.com/jisandream01/224409313585','구리 아파트 시세 순위 | 같은 1994년인데 평당 1,128만원 차이입니다','구리 단지별 시세입니다'),
+]:
+    A(t); A(BR)
+A(BR)
+A(CAP('거래 건수와 가격은 국토교통부 아파트 매매 실거래 공개자료를 기준으로 했으며 해제된 거래는 뺐습니다. 2026년 8월 계약분은 9월 중순까지 신고된 것이라 이후 늘어날 수 있습니다. 가격 변화는 4~6월과 7~8월에 모두 거래된 같은 단지·같은 전용면적끼리 짝지어 중간값을 비교했습니다. 규제 내용은 국토교통부 2026년 6월 30일 발표와 보도를 기준으로 했고, 대출 한도와 세금은 개인 조건에 따라 다르므로 금융기관과 세무 전문가에게 확인하셔야 합니다.'))
+A(BR)
+A('<p style="font-size:14px;color:#9AA4AE;">지산드림공인중개사사무소 · 대표 김미호 · 등록번호 41310-2022-00061 · 경기도 구리시 갈매동 540-5, 101호</p>')
+A(BR)
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:2px solid #1B7A9E;font-size:1px;line-height:1px;">&nbsp;</td></tr></table>')
+A(BR)
+A('<p style="font-size:19px;font-weight:700;color:#0D3B5C;text-align:center;">지산드림</p>')
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;table-layout:fixed;"><tr>')
+A('<td width="100%" style="border-left:3px solid #0D3B5C;background-color:#F4F6F8;padding:22px 24px;">')
+A('<p style="font-size:15px;color:#1B7A9E;letter-spacing:1px;">JISANDREAM</p>')
+A(BR)
+A('<p style="font-size:21px;font-weight:700;color:#0D3B5C;">구리 갈매동에서 지식산업센터·창고·아파트를 다룹니다</p>')
+A(BR)
+A('<p style="font-size:17px;color:#333;">현장을 직접 보고 실거래를 열어 확인한 것만 씁니다.</p>')
+A('<p style="font-size:17px;color:#333;">되팔 때 걸릴 것까지 미리 말씀드립니다.</p>')
+A(BR)
+A('<p style="height:1px;background-color:#DDD8CE;margin:6px 0 14px 0;"></p>')
+A('<p style="font-size:17px;font-weight:700;"><a href="https://blog.naver.com/jisandream01/224387498556" style="color:#1B7A9E;text-decoration:none;border-bottom:1px solid #9CBBCC;">구리 갈매동 공인중개사 | 지산드림 지식산업센터 공장 창고 전문 ›</a><br>')
+A('<span style="font-size:15px;color:#7A8590;">구리와 남양주, 마곡에서 다루는 물건들입니다</span></p>')
+A('</td></tr></table>')
+A(BR)
+A('<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;">')
+A('<tr><td style="border-left:3px solid #1B7A9E;background-color:#F4F6F8;padding:16px 18px;">')
+A('<span style="font-size:15px;color:#8A8578;">태그</span><br>')
+A('<span style="font-size:17px;color:#555;line-height:1.9;">#구리아파트매매 #구리아파트 #구리아파트시세 #구리규제지역 #구리토지거래허가 #구리갈매아파트 #갈매역아파트 #별내아파트매매 #별내아파트 #지산드림</span>')
+A('</td></tr></table>')
+
+x='\n'.join(A_)+'\n'
+open('/mnt/user-data/outputs/jisandream/jisandream_guri3m_post.html','w',encoding='utf-8').write(x)
+import re
+t=re.sub(r'<[^>]+>',' ',x)
+print('본문',len(re.sub(r'\s','',t)), re.findall(r'\S*(?:갈[라랐렸리]|자리|고요|프리미엄|%p|어요|예요|헷갈|제자리)\S*',t))
