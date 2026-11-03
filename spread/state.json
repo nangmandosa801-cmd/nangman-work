@@ -207,15 +207,9 @@
   "224375632273",
   "224375585302",
   "224453529026",
-  "224461117554",
-  "224462887153"
+  "224461117554"
  ],
  "queue": [
-  {
-   "logNo": "224462887153",
-   "title": "서울 6억대 아파트, 84㎡ 새 아파트는 두 곳뿐",
-   "found": "2026-11-03 21:1x"
-  },
   {
    "logNo": "224453529026",
    "title": "디에이치 반포124 청약, 트리니원은 69점도 떨어졌습니다",
@@ -478,13 +472,7 @@
    "threads": "https://www.threads.com/@kimdongjin24/post/DfQYqQyEoMC"
   },
   "224461117554": {
-   "tistory": "https://talk7921.tistory.com/92",
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/11/84-4-5075_0310767266.html"
-  },
-  "224462887153": {
-   "threads": "예약 11/3 22:00 · request_id 609de72500ea4a7482fe8b2f9b4476fa",
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/11/6-84-2015.html",
-   "tistory": "도우미 EvMAZ5Cua77DXtL8paEKKv · 큐 대기(11/4 07:30) · Aside 발행 대기"
+   "tistory": "도우미 2FVHEVNVrCXixgJP1TzVsp · 큐 대기(11/3 15:00) · Aside 발행 대기"
   }
  },
  "created": "2026-10-25",
@@ -495,5 +483,5 @@
   "index": "서치콘솔 속성은 티스토리 · nangmanreal · nangmanisa만 → 블로거 두 곳은 색인 요청 안 함",
   "centreville_note": "센트레빌 노트(6196333723686795452) 「곧 올라간다」 문장을 원문 링크로 바꿀 것"
  },
- "last_run": "2026-11-03 21:2x"
+ "last_run": "2026-11-02 22:3x"
 }
