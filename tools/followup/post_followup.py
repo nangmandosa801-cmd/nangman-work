@@ -66,9 +66,11 @@ def make_clip(no, title, slug):
     tmp = f'{MP4}/auto_{slug}'; os.makedirs(tmp, exist_ok=True)
     # 소제목과 사진을 문서 순서대로
     items = []
-    for m in re.finditer(r'<h2[^>]*>(.*?)</h2>|<img[^>]*src="data:image/(jpeg|png);base64,([^"]+)"', b):
-        if m.group(1): items.append(('h', m.group(1)))
-        else: items.append(('i', (m.group(2), m.group(3))))
+    for m in re.finditer(r'<h2[^>]*>(.*?)</h2>|<p[^>]*font-size:2\d(?:px)?[^>]*>(.*?)</p>|<img[^>]*src="data:image/(jpeg|png);base64,([^"]+)"', b):
+        hd = m.group(1) or m.group(2)
+        if hd:
+            if re.sub('<[^>]+>', '', hd).strip(): items.append(('h', hd))
+        else: items.append(('i', (m.group(3), m.group(4))))
     heads = [x for k, x in items if k == 'h']
     slides = []; cur = heads[0] if heads else title
     k = 0
@@ -84,9 +86,9 @@ def make_clip(no, title, slug):
         if s_['line'] in seen: continue
         seen.add(s_['line']); pick.append(s_)
     pick = pick[:5]
-    if len(pick) < 3: return 'too_few_photos'
+    if len(pick) < 2: return 'too_few_photos'
     head, _, rest = title.partition(',')
-    spec = {'head': [head.strip(), short(rest or title, 16).replace('\n', ' ')], 'what': head.strip(),
+    spec = {'head': [head.strip()] + short(rest or title, 13).split('\n')[:2], 'what': (head.strip() if len(head.strip()) <= 7 else head.strip().split()[0]),
             'vintro': [{'kicker': head.strip(), 'line': short(rest or title), 'sub': f'문의 {PHONE}'}],
             'slides': pick}
     sp = f'{MP4}/spec_auto_{slug}.json'; json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)

@@ -1,0 +1,27 @@
+{
+ "head": [
+  "보일러 동파 방지 온도",
+  "보일러가 돌아도",
+  "아래 배관은 얼어요"
+ ],
+ "what": "보일러 배관",
+ "vintro": [
+  {
+   "kicker": "보일러 동파 방지 온도",
+   "line": "외출 모드로\n충분할까요",
+   "sub": "아래 배관은 보온재부터"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/auto_dongpa_boiler_ondo/02.jpg",
+   "line": "보일러가 돌아도\n아래 배관은 얼어요",
+   "sub": "집 밖 보일러실"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_dongpa_boiler_ondo/08.jpg",
+   "line": "오래 비울 땐\n배관 물을 뺍니다",
+   "sub": "전원은 뽑아 두고"
+  }
+ ]
+}
