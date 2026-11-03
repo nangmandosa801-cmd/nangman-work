@@ -1,0 +1,37 @@
+{
+ "head": [
+  "도어락 고장",
+  "경보음 · 자동잠금 불량",
+  "· 비밀번호 오류 네"
+ ],
+ "what": "도어락 고장",
+ "vintro": [
+  {
+   "kicker": "도어락 고장",
+   "line": "경보음 · 자동잠금 불량\n· 비밀번호 오류 네",
+   "sub": "문의 010-2882-8165"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/auto_doorlock_gojang/01.jpg",
+   "line": "건전지만 바꾸면 되는\n고장과 바꿔야 하는",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_doorlock_gojang/04.jpg",
+   "line": "자동잠금이 안 되면\n도어락만 문제인가요",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_doorlock_gojang/06.jpg",
+   "line": "비밀번호도 비상전원도 안\n먹히면 어떻게 여나요",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_doorlock_gojang/08.jpg",
+   "line": "바꾸면서 생긴 옛 구멍은\n어떻게 하나요",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  }
+ ]
+}

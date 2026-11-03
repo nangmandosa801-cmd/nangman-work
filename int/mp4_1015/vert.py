@@ -45,7 +45,9 @@ def tslide(kicker,line,sub,out):
         d.text((W//2,y),ln,font=font(FB,62),fill=(220,226,238),anchor='ma'); y+=90
     phone(d)
     bg.save(out,quality=92)
-import sys as _sy; _sy.path.insert(0,'/home/claude/blogkit'); import discount1130 as _D1130   # DISCOUNT1130
+import sys as _sy; _sy.path.insert(0,'/home/claude/blogkit'); 
+try: import discount1130 as _D1130   # DISCOUNT1130 (11/3 끝 화면 할인 문구는 끔 · 모듈이 없어도 돌게)
+except Exception: _D1130 = None
 def ask(out,head,what):
     bg=Image.new('RGB',(W,H),(22,24,30)); d=ImageDraw.Draw(bg)
     d.text((W//2,240),'낭만 인테리어',font=font(FB,64),fill=GOLD,anchor='mm')
