@@ -39,6 +39,14 @@ def find_helper(title):
     if k in H: return H[k]
     for kk, v in H.items():
         if kk[:18] == k[:18]: return v
+    # 이 창에 파일이 없으면 구글 드라이브 「블로그/도우미」에서 받아 온다(11/3)
+    try:
+        r = subprocess.run(['python3', f'{D}/helper_cloud.py', 'get', title[:14]], capture_output=True, text=True, timeout=120).stdout.strip()
+        if r.endswith('.html') and os.path.exists(r):
+            s = open(r, encoding='utf8', errors='ignore').read()
+            m = re.search(r'<div class="t" id="(t\d+)">', s)
+            if m: return (r, m.group(1).replace('t', 'h'))
+    except Exception: pass
     return None
 def body_of(f, hid):
     s = open(f, encoding='utf8', errors='ignore').read()
