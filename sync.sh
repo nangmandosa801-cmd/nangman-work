@@ -3,7 +3,7 @@
 # 그림 · 영상 · 데이터 덩어리(pkl) · 로그인 파일(token/client.json)은 .gitignore로 뺀다. 2MB 넘는 파일도 뺀다.
 # 새 대화에서 쓰기: git clone https://github.com/nangmandosa801-cmd/nangman-work /home/claude/nangman-work && bash /home/claude/nangman-work/restore.sh
 R=/home/claude/nangman-work; cd $R
-for d in tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread gas coffee 텍스트; do
+for d in tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread gas coffee 텍스트 jisan jisan_move; do
   [ -d /home/claude/$d ] || continue
   mkdir -p "$R/$d"
   (cd /home/claude/$d && find . -type f -size -2M \

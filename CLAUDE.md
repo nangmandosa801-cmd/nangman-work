@@ -40,3 +40,9 @@
 - 도우미 html(그림 주소 박힌 큰 파일)은 저장소에 못 담으니 드라이브 「블로그/도우미」에 있다. 목록은 「블로그/장부/도우미_목록.json」 (제목 · 파일 이름 · 드라이브 id).
 - 새 도우미를 만들면 `python3 /home/claude/tools/followup/helper_cloud.py up` 한 번(이미 올린 것은 건너뜀).
 - 이 창에 파일이 없으면 `python3 /home/claude/tools/followup/helper_cloud.py get "<제목 일부>"` → 경로 출력. post_followup.py 는 로컬에 없으면 알아서 받아 온다.
+
+## 지산드림 (jisandream01 · 11/3)
+- 작업 폴더 /home/claude/jisan (원고 · 그림 스크립트 · master/ 겹침 검사 · 장부), /home/claude/jisan_move (발행 글 목록 fetch_list.py).
+- 한 번에: `python3 /home/claude/jisan/make_jisan.py <글.py> <폴더> <slug> <예약일> --helper` → 빌드 · SEO · 금지어 · 겹침 · 원고 txt · 도우미 (JSON 한 줄).
+- 하남 땅값 자료 hanam_land.pkl 은 저장소에 없음 — /mnt/attach/outputs/부동산DB.parquet 에서 다시 만든다(자료=='토지' · 시군구에 하남 · 해제사유발생일 '-').
+- 방향: 하남 토지 집중 · 땅 팔 사람 · 살 사람 둘 다 (프로젝트 문서 claude/지산드림_하남토지_집중_1031.md · claude/지산드림_매물부스팅_마스터.md).
