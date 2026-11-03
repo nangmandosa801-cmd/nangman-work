@@ -58,7 +58,7 @@ def ask(out,head,what):
     d.text((W//2,1290),'010-2882-8165',font=font(FB,112),fill=(22,24,30),anchor='mm')
     d.text((W//2,1480),'전화 · 문자 모두 됩니다',font=font(FB,64),fill=(210,214,222),anchor='mm')
     d.text((W//2,1580),'가까운 시공팀을 연결해 드립니다',font=font(FBo,54),fill=(170,175,185),anchor='mm')
-    if _D1130.ON:   # DISCOUNT1130 (10/19 사용자 · 11/30까지)
+    if False and _D1130.ON:   # 11/3 사용자 「빼」: 클립 끝 화면 할인 문구 제거(연락처만 남김)
         d.text((W//2,1700),_D1130.L1,font=font(FB,60),fill=GOLD,anchor='mm'); d.text((W//2,1785),_D1130.L2,font=font(FB,60),fill=GOLD,anchor='mm')
     bg.save(out,quality=92)
 def build(spec,tag):

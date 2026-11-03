@@ -111,29 +111,6 @@ var ACT = {
     if (it.hasNext()) return {id:repl_(it.next(), blob).getId(), replaced:true};
     return {id:d.createFile(blob).getId(), replaced:false};
   },
-  // 제미나이 리서치: prompt, (save: "블로그/리서치/입주일정", name: "20261103_..._gemini.md"), (model)
-  // 키는 프로젝트 설정 → 스크립트 속성 GEMINI_KEY (사장님이 직접 넣음)
-  gemini: function (q) {
-    var key = PropertiesService.getScriptProperties().getProperty('GEMINI_KEY');
-    if (!key) throw new Error('GEMINI_KEY 없음');
-    var model = q.model || 'gemini-2.5-flash';
-    var body = {contents:[{role:'user', parts:[{text:q.prompt}]}]};
-    if (q.search !== false) body.tools = [{google_search:{}}];
-    var r = UrlFetchApp.fetch('https://generativelanguage.googleapis.com/v1beta/models/' + model + ':generateContent',
-      {method:'post', contentType:'application/json', muteHttpExceptions:true,
-       headers:{'x-goog-api-key': key}, payload: JSON.stringify(body)});
-    var c = r.getResponseCode(), t = r.getContentText();
-    if (c >= 300) throw new Error('gemini ' + c + ' ' + t.slice(0, 300));
-    var j = JSON.parse(t), cand = (j.candidates || [])[0] || {};
-    var text = ((cand.content || {}).parts || []).map(function (p) { return p.text || ''; }).join('');
-    var src = ((cand.groundingMetadata || {}).groundingChunks || []).map(function (g) { return g.web ? g.web.title + ' ' + g.web.uri : ''; }).filter(String);
-    var out = {text:text, sources:src};
-    if (q.save && q.name) {
-      var full = text + (src.length ? '\n\n## 검색 출처\n' + src.map(function (s) { return '- ' + s; }).join('\n') : '');
-      out.file = ACT.fput({path:q.save, name:q.name, text:full});
-    }
-    return out;
-  },
   // 공개 내려받기 주소(영상을 Upload-Post에 넘길 때): id
   flink: function (q) {
     var f = DriveApp.getFileById(q.id);

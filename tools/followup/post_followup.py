@@ -108,12 +108,22 @@ def make_clip(no, title, slug):
     up = drive_put(slug)
     return 'ok' + (' · drive' if up else '')
 def drive_put(slug):
-    """PC 대신 구글 드라이브 「블로그/shorts」에 저장(11/3 사용자 「산출물은 구글 드라이브」). 블로그 우체통 conf 없으면 건너뜀."""
+    """PC 대신 구글 드라이브 「블로그/shorts」에 저장 + info.txt 맨 아래에 다운로드 링크 넣기(11/3 사용자 「다운 받게 만들어야지」)."""
     if not os.path.exists('/home/claude/gas/conf.json'): return False
     sys.path.insert(0, '/home/claude/helper'); from gas import call
-    for ext in ('_clip.mp4', '_clip_cover.jpg', '_clip_info.txt'):
+    links = {}
+    for ext in ('_clip.mp4', '_clip_cover.jpg'):
         f = f'{OUT}/nangman_interior_{slug}{ext}'
-        if os.path.exists(f): call('fput', path='블로그/shorts', name=os.path.basename(f), b64=base64.b64encode(open(f, 'rb').read()).decode())
+        if os.path.exists(f):
+            r = call('fput', path='블로그/shorts', name=os.path.basename(f), b64=base64.b64encode(open(f, 'rb').read()).decode())
+            try: links[ext] = call('flink', id=r['id'])['url']
+            except Exception: pass
+    fi = f'{OUT}/nangman_interior_{slug}_clip_info.txt'
+    if os.path.exists(fi):
+        t = open(fi, encoding='utf8').read().split('\n[ 다운로드 ]')[0].rstrip('\n')
+        t += '\n\n[ 다운로드 ]\n영상: ' + links.get('_clip.mp4', '') + '\n커버: ' + links.get('_clip_cover.jpg', '') + '\n'
+        open(fi, 'w', encoding='utf8').write(t)
+        call('fput', path='블로그/shorts', name=os.path.basename(fi), b64=base64.b64encode(t.encode('utf8')).decode())
     return True
 def slug_of(f):
     b = os.path.basename(f).replace('.html', '')
