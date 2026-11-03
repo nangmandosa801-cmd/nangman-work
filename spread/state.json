@@ -460,8 +460,7 @@
    "threads": "https://www.threads.com/@kimdongjin24/post/DfQX3OWEl5r"
   },
   "224461004062": {
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/11/69.html",
-   "threads": "예약 11/3 22:40 · request_id b0306ff473c54145a1d6b7641402ddf8 · job 18d880b34a2442538b11b0b52439dcda"
+   "blogger": "https://nangman-budongsan.blogspot.com/2026/11/69.html"
   },
   "224461008155": {
    "blogger": "https://nangman-budongsan.blogspot.com/2026/11/84-6-4-1342-171.html",
@@ -473,12 +472,7 @@
    "threads": "https://www.threads.com/@kimdongjin24/post/DfQYqQyEoMC"
   },
   "224461117554": {
-   "tistory": "도우미 2FVHEVNVrCXixgJP1TzVsp · 큐 대기(11/3 15:00) · Aside 발행 대기",
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/11/84-4-5075_01672560308.html",
-   "threads": "예약 11/3 21:20 · fa9bc3aabf0848e2a63956c57f4ba3dd (이전 실행에서 이미 걸림, 중복 안 함)"
-  },
-  "224452256175": {
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/11/17-67.html"
+   "tistory": "도우미 2FVHEVNVrCXixgJP1TzVsp · 큐 대기(11/3 15:00) · Aside 발행 대기"
   }
  },
  "created": "2026-10-25",
@@ -489,5 +483,5 @@
   "index": "서치콘솔 속성은 티스토리 · nangmanreal · nangmanisa만 → 블로거 두 곳은 색인 요청 안 함",
   "centreville_note": "센트레빌 노트(6196333723686795452) 「곧 올라간다」 문장을 원문 링크로 바꿀 것"
  },
- "last_run": "2026-11-03 17:1x"
+ "last_run": "2026-11-02 22:3x"
 }

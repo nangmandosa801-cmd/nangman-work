@@ -59,17 +59,6 @@ def short(t, n=13):
         if len(lines[-1]) + len(x) + 1 > n and lines[-1]: lines.append(x)
         else: lines[-1] = (lines[-1] + ' ' + x).strip()
     return '\n'.join(lines[:2])
-def is_banner(p):
-    """안내 · 할인 · 연락 배너면 True: 가로로 긴 그림(966x330 · 966x380 등) 또는 남색 바탕이 절반 넘는 그림."""
-    try:
-        from PIL import Image
-        im = Image.open(p).convert('RGB'); w, h = im.size
-        if w / h >= 1.9: return True
-        sm = im.resize((60, int(60 * h / w) or 1)); px = list(sm.get_flattened_data() if hasattr(sm, "get_flattened_data") else sm.getdata())
-        navy = sum(1 for r, g, b in px if b > r + 15 and b > g + 5 and r < 70 and g < 80 and b < 130)
-        return navy / len(px) > 0.5
-    except Exception:
-        return False
 def make_clip(no, title, slug):
     h = find_helper(title)
     if not h: return 'helper_not_found'
@@ -90,7 +79,6 @@ def make_clip(no, title, slug):
         ext, data = x; k += 1
         p = f'{tmp}/{k:02d}.{"jpg" if ext == "jpeg" else "png"}'
         open(p, 'wb').write(base64.b64decode(data))
-        if is_banner(p): continue   # 11/3 안내 · 할인 배너(5% · 1% 2% 3% 표 · 연락 그림)는 클립에서 뺀다
         slides.append({'src': p, 'line': short(cur), 'sub': '낭만 인테리어 · 제휴 시공 사례'})
     # 겹치는 소제목은 한 장만, 최대 5장
     seen = set(); pick = []
@@ -140,10 +128,9 @@ def drive_put(slug):
         call('fput', path='블로그/shorts', name=os.path.basename(fi), b64=base64.b64encode(t.encode('utf8')).decode())
     return True
 def slug_of(f):
-    b = os.path.basename(f).replace('.html', '').split('__')[-1]   # 드라이브 사본 이름(폴더__파일)은 원래 이름으로
+    b = os.path.basename(f).replace('.html', '')
     return re.sub(r'[^a-z0-9_]', '', b.lower()) or 'post'
 def main():
-    os.makedirs(OUT, exist_ok=True)
     st = jload(ST, {'done': []}); done = set(st['done'])
     R = recent(); want = set(sys.argv[1:])
     todo = [(no, t) for no, t in R if (no in want) or (not want and no not in done)]
