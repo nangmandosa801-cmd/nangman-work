@@ -89,8 +89,60 @@ var ACT = {
     var f = folder.createFile(Utilities.newBlob(Utilities.base64Decode(q.b64), mime, q.name));
     f.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
     return {id:f.getId(), url:'https://lh3.googleusercontent.com/d/' + f.getId()};
+  },  // ── PC 폴더(C:\블로그)를 구글 드라이브로 동기화해 둔 뒤 쓰는 파일 기능 ──
+  // path 예: "블로그/텍스트/낭만부동산" (첫 칸은 드라이브 어디에 있든 이름으로 찾음)
+  ls: function (q) {
+    var d = folder_(q.path), out = [];
+    var fs = d.getFolders(); while (fs.hasNext()) { var x = fs.next(); out.push({dir:true, name:x.getName(), id:x.getId()}); }
+    var it = d.getFiles(); while (it.hasNext()) { var f = it.next(); out.push({name:f.getName(), id:f.getId(), size:f.getSize(), updated:f.getLastUpdated()}); }
+    return out;
+  },
+  // 파일 받기: id 또는 path+name → b64 (50MB 아래)
+  fget: function (q) {
+    var f = q.id ? DriveApp.getFileById(q.id) : first_(folder_(q.path).getFilesByName(q.name), q.name);
+    return {name:f.getName(), id:f.getId(), b64:Utilities.base64Encode(f.getBlob().getBytes())};
+  },
+  // 파일 넣기: path, name, b64 또는 text → 같은 이름이 있으면 내용 교체
+  fput: function (q) {
+    var d = folder_(q.path, true);
+    var blob = q.b64 != null ? Utilities.newBlob(Utilities.base64Decode(q.b64), q.mime || 'application/octet-stream', q.name)
+                             : Utilities.newBlob(q.text, 'text/plain', q.name);
+    var it = d.getFilesByName(q.name);
+    if (it.hasNext()) return {id:repl_(it.next(), blob).getId(), replaced:true};
+    return {id:d.createFile(blob).getId(), replaced:false};
+  },
+  // 공개 내려받기 주소(영상을 Upload-Post에 넘길 때): id
+  flink: function (q) {
+    var f = DriveApp.getFileById(q.id);
+    f.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+    return {url:'https://drive.google.com/uc?export=download&id=' + f.getId()};
   }
 };
+
+function first_(it, what) { if (!it.hasNext()) throw new Error('없음: ' + what); return it.next(); }
+
+function folder_(path, make) {
+  var parts = String(path || '').split('/').filter(String);
+  if (!parts.length) return DriveApp.getRootFolder();
+  var tops = DriveApp.getFoldersByName(parts[0]), best = null;
+  while (tops.hasNext()) { var t = tops.next(); if (!best || t.getLastUpdated() > best.getLastUpdated()) best = t; }
+  if (!best) { if (!make) throw new Error('폴더 없음: ' + parts[0]); best = DriveApp.createFolder(parts[0]); }
+  var d = best;
+  for (var i = 1; i < parts.length; i++) {
+    var it = d.getFoldersByName(parts[i]);
+    if (it.hasNext()) d = it.next();
+    else if (make) d = d.createFolder(parts[i]);
+    else throw new Error('폴더 없음: ' + parts.slice(0, i + 1).join('/'));
+  }
+  return d;
+}
+
+// 내용 교체: 고급 서비스 없이 — 옛 파일을 휴지통으로 보내고 같은 자리에 새로 만듦(30일 안에 되살릴 수 있음)
+function repl_(f, blob) {
+  var parents = f.getParents(); var d = parents.hasNext() ? parents.next() : DriveApp.getRootFolder();
+  f.setTrashed(true); return d.createFile(blob);
+}
+
 
 // 처음 한 번 ▶실행: 권한 허용 창을 띄우고, 쓸 수 있는 블로그 목록을 로그에 찍습니다.
 function test() {

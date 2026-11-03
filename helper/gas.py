@@ -8,6 +8,7 @@
   python3 gas.py image <파일.png>            → 주소 출력
   python3 gas.py append <blogId> <postId> line.html
   python3 gas.py get <blogId> /2026/11/xxx.html
+  python3 gas.py ls "블로그/shorts" · fget <폴더> <이름> · fput <폴더> <파일> · flink <id>
 파이썬에서: from gas import call; call('post', blogId=..., title=..., html=..., labels=[...])
 """
 import json, sys, os, base64, urllib.request
@@ -38,5 +39,11 @@ if __name__ == '__main__':
     elif a[0] == 'append': r = call('append', blogId=bid(a[1]), postId=a[2], html=open(a[3]).read())
     elif a[0] == 'get': r = call('get', blogId=bid(a[1]), path=a[2]) if a[2].startswith('/') else call('get', blogId=bid(a[1]), postId=a[2])
     elif a[0] == 'list': r = call('list', blogId=bid(a[1]), n=int(a[2]) if len(a) > 2 else 20)
+    elif a[0] == 'ls': r = call('ls', path=a[1])
+    elif a[0] == 'fget':   # gas.py fget "블로그/텍스트/낭만부동산" 파일이름 [저장경로]
+        r = call('fget', path=a[1], name=a[2]); open(a[3] if len(a) > 3 else a[2], 'wb').write(base64.b64decode(r.pop('b64')))
+    elif a[0] == 'fput':   # gas.py fput "블로그/텍스트/낭만부동산" 로컬파일
+        r = call('fput', path=a[1], name=os.path.basename(a[2]), b64=base64.b64encode(open(a[2], 'rb').read()).decode())
+    elif a[0] == 'flink': r = call('flink', id=a[1])
     else: sys.exit('모르는 명령')
     print(json.dumps(r, ensure_ascii=False, indent=1))

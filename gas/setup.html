@@ -31,6 +31,11 @@ code{font-family:var(--mono);background:var(--code);padding:1px 5px;border-radiu
 <li>오른쪽 위 <b>배포 → 새 배포</b> → 톱니에서 <b>웹 앱</b> → 실행 계정 「나」, 액세스 「모든 사용자」 → 배포.</li>
 <li>나온 <b>웹 앱 URL</b>(https://script.google.com/macros/s/…/exec)을 복사해 채팅에 붙여 주세요. 끝입니다.</li>
 </ol>
+<h2 style="margin-top:6px">PC 폴더도 클라우드로 (선택 · 한 번만)</h2><ol start="7">
+<li>PC에 <a href="https://www.google.com/drive/download/" target="_blank" rel="noopener">Google Drive 데스크톱</a>을 설치하고 <b>nangmandosa801</b>로 로그인합니다.</li>
+<li>설정 → 「내 노트북」(또는 「내 컴퓨터」) → <b>폴더 추가</b> → <code>C:\블로그</code> 선택 → 「Google Drive와 동기화」. 폴더 위치는 그대로라 PC 프로그램은 바뀌는 것이 없습니다.</li>
+<li>다 올라가면(처음엔 영상 양에 따라 몇 시간) Claude가 우체통으로 그 폴더를 읽고 씁니다. PC가 꺼져 있어도 됩니다.</li>
+</ol>
 <p class="mut">입주 노트 블로그가 다른 구글 계정에 있으면, 그 블로그 설정 → 권한 → 작성자로 nangmandosa801을 초대해 두면 같이 쓸 수 있습니다. 4번 실행 로그에 쓸 수 있는 블로그 목록이 나옵니다.</p></div>
 <div class="box"><div class="head"><h2>① Code.gs</h2><button id="c1" data-t="t1">코드 복사</button></div><pre id="t1">// 낭만 블로그 우체통 — Claude가 PC 없이 구글 블로그에 글을 올리고 그림을 올리는 통로
 // 이 계정(nangmandosa801)이 글쓴이로 들어가 있는 블로그에만 씁니다.
@@ -123,8 +128,60 @@ var ACT = {
     var f = folder.createFile(Utilities.newBlob(Utilities.base64Decode(q.b64), mime, q.name));
     f.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
     return {id:f.getId(), url:&#x27;https://lh3.googleusercontent.com/d/&#x27; + f.getId()};
+  },  // ── PC 폴더(C:\블로그)를 구글 드라이브로 동기화해 둔 뒤 쓰는 파일 기능 ──
+  // path 예: &quot;블로그/텍스트/낭만부동산&quot; (첫 칸은 드라이브 어디에 있든 이름으로 찾음)
+  ls: function (q) {
+    var d = folder_(q.path), out = [];
+    var fs = d.getFolders(); while (fs.hasNext()) { var x = fs.next(); out.push({dir:true, name:x.getName(), id:x.getId()}); }
+    var it = d.getFiles(); while (it.hasNext()) { var f = it.next(); out.push({name:f.getName(), id:f.getId(), size:f.getSize(), updated:f.getLastUpdated()}); }
+    return out;
+  },
+  // 파일 받기: id 또는 path+name → b64 (50MB 아래)
+  fget: function (q) {
+    var f = q.id ? DriveApp.getFileById(q.id) : first_(folder_(q.path).getFilesByName(q.name), q.name);
+    return {name:f.getName(), id:f.getId(), b64:Utilities.base64Encode(f.getBlob().getBytes())};
+  },
+  // 파일 넣기: path, name, b64 또는 text → 같은 이름이 있으면 내용 교체
+  fput: function (q) {
+    var d = folder_(q.path, true);
+    var blob = q.b64 != null ? Utilities.newBlob(Utilities.base64Decode(q.b64), q.mime || &#x27;application/octet-stream&#x27;, q.name)
+                             : Utilities.newBlob(q.text, &#x27;text/plain&#x27;, q.name);
+    var it = d.getFilesByName(q.name);
+    if (it.hasNext()) return {id:repl_(it.next(), blob).getId(), replaced:true};
+    return {id:d.createFile(blob).getId(), replaced:false};
+  },
+  // 공개 내려받기 주소(영상을 Upload-Post에 넘길 때): id
+  flink: function (q) {
+    var f = DriveApp.getFileById(q.id);
+    f.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+    return {url:&#x27;https://drive.google.com/uc?export=download&amp;id=&#x27; + f.getId()};
   }
 };
+
+function first_(it, what) { if (!it.hasNext()) throw new Error(&#x27;없음: &#x27; + what); return it.next(); }
+
+function folder_(path, make) {
+  var parts = String(path || &#x27;&#x27;).split(&#x27;/&#x27;).filter(String);
+  if (!parts.length) return DriveApp.getRootFolder();
+  var tops = DriveApp.getFoldersByName(parts[0]), best = null;
+  while (tops.hasNext()) { var t = tops.next(); if (!best || t.getLastUpdated() &gt; best.getLastUpdated()) best = t; }
+  if (!best) { if (!make) throw new Error(&#x27;폴더 없음: &#x27; + parts[0]); best = DriveApp.createFolder(parts[0]); }
+  var d = best;
+  for (var i = 1; i &lt; parts.length; i++) {
+    var it = d.getFoldersByName(parts[i]);
+    if (it.hasNext()) d = it.next();
+    else if (make) d = d.createFolder(parts[i]);
+    else throw new Error(&#x27;폴더 없음: &#x27; + parts.slice(0, i + 1).join(&#x27;/&#x27;));
+  }
+  return d;
+}
+
+// 내용 교체: 고급 서비스 없이 — 옛 파일을 휴지통으로 보내고 같은 자리에 새로 만듦(30일 안에 되살릴 수 있음)
+function repl_(f, blob) {
+  var parents = f.getParents(); var d = parents.hasNext() ? parents.next() : DriveApp.getRootFolder();
+  f.setTrashed(true); return d.createFile(blob);
+}
+
 
 // 처음 한 번 ▶실행: 권한 허용 창을 띄우고, 쓸 수 있는 블로그 목록을 로그에 찍습니다.
 function test() {
