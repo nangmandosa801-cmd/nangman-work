@@ -27,6 +27,7 @@
 - **구글 블로그(낭만 부동산 · 낭만 창고 · 입주 노트)**: 「블로그 우체통」(Apps Script 웹 앱). `/home/claude/gas/conf.json`({"url","key"})이 있으면 `python3 /home/claude/helper/gas.py post|append|get|list|image …` (사용법은 파일 맨 위). 없으면 예전처럼 크롬, 크롬도 없으면 원고만 남기고 건너뜀.
 - **PC 폴더 C:\블로그**: 사용자가 Google Drive 데스크톱으로 동기화하면 `gas.py ls|fget|fput|flink "블로그/…"` 로 읽고 씀. 영상은 `flink` 주소를 Upload-Post videoPathOrUrl로.
 - 설정 페이지: https://claude.ai/artifact/6Q9PUosF9n3JCDdpNdGuuw
+- **11/3 10:53 설정 끝 · 작동 확인**(글 초안 · 그림 · 드라이브 폴더). Cloud 프로젝트는 nangman-contacts(87451722112, Blogger API 켬). gas.py 블로그 이름: budongsan · changgo · interior · dosa · bunyang · isa · study. **입주 노트(nangman-ipju)는 nangmandosa801 블로그 목록에 없음** → 다른 계정 블로그라 아직 크롬으로(사용자가 nangmandosa801을 작성자로 초대하면 우체통으로).
 
 ## PC 없이 · 산출물은 구글 드라이브 (11/3 10:04 사용자 「pc 연결 안되어도 워크플로우 타게」 · 「산출물도 피씨에 저장 안하고 구글 드라이브에」)
 - PC(C:\블로그)에 저장하지 않는다. 결과 파일(영상 · 커버 · info · 원고 txt · 그림)은 구글 드라이브 「블로그/…」 폴더에 `python3 /home/claude/helper/gas.py fput "블로그/<폴더>" <파일>` 로 올린다. 영상: 「블로그/shorts」 · 원고: 「블로그/텍스트/<블로그>」.
