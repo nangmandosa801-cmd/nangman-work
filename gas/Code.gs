@@ -4,7 +4,6 @@ var KEY = 'N6GT8sL5X-Ce5dQR9WHos3-7x4UbOsCJ';
 var API = 'https://www.googleapis.com/blogger/v3';
 
 function doPost(e) {
-  if (!e) { test(); return; }
   var q;
   try { q = JSON.parse(e.postData.contents); } catch (err) { return out_({ok:false, error:'json'}); }
   if (!q || q.key !== KEY) return out_({ok:false, error:'key'});
