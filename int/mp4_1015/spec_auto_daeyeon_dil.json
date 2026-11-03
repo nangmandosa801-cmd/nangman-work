@@ -1,0 +1,42 @@
+{
+ "head": [
+  "대연디아이엘 입주장",
+  "입주청소 새집증후군",
+  "날짜부터"
+ ],
+ "what": "입주청소",
+ "vintro": [
+  {
+   "kicker": "대연디아이엘 입주장",
+   "line": "입주청소 새집증후군\n날짜부터",
+   "sub": "문의 010-2882-8165"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/auto_daeyeon_dil/01.jpg",
+   "line": "수납장은 떼어 내고\n속까지 닦습니다",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_daeyeon_dil/02.jpg",
+   "line": "스위치 하나까지\n손으로 닦습니다",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_daeyeon_dil/03.jpg",
+   "line": "창 유리는\n물기 없이 마무리",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_daeyeon_dil/04.jpg",
+   "line": "새집증후군은\n습식으로 3단계",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_daeyeon_dil/05.jpg",
+   "line": "34평은 3명이\n하루 한 집만",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  }
+ ]
+}
