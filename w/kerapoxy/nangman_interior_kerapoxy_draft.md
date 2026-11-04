@@ -2,7 +2,7 @@
 kicker: 낭만 인테리어 · 줄눈
 tags: 케라폭시 줄눈 가격, 케라폭시 가격, 케라폭시 폴리우레아 차이, 케라폭시 단점, 마페이 케라폭시, 케라폭시 줄눈 시공, 줄눈 케라폭시 가격, 거실 줄눈
 
-[감성 1 — 제미나이]
+샤워하고 나와 발밑을 보면 줄눈 선이 까맣게 번져 있습니다. 락스로 닦아도 며칠이면 다시 올라옵니다.
 
 케라폭시 줄눈 가격은 같은 자리라도 폴리우레아보다 1.3~1.7배쯤 비쌉니다. 욕실 바닥은 케라폭시, 현관 · 베란다는 폴리우레아로 나눠 하는 집이 많습니다.
 
@@ -41,11 +41,11 @@ tags: 케라폭시 줄눈 가격, 케라폭시 가격, 케라폭시 폴리우레
 
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_01.jpg
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_02.jpg
-[감성 2 — 제미나이 · 거실]
+누렇던 줄이 타일 색으로 묻히면서 거실 바닥이 한 장처럼 이어져 보입니다.
 
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_03.jpg
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_04.jpg
-[감성 2 — 제미나이 · 욕실]
+물을 뿌려도 줄눈 쪽으로 얼룩이 남지 않습니다. 맨발로 디딜 때 거친 느낌이 없습니다.
 
 ## 시공 사례 2 · 인천 검암 신축 · 늦은 입주 세대
 
@@ -56,12 +56,12 @@ tags: 케라폭시 줄눈 가격, 케라폭시 가격, 케라폭시 폴리우레
 
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_05.jpg
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_06.jpg
-[감성 2 — 제미나이 · 거실]
+창으로 들어온 빛이 줄눈에서 끊기지 않고 바닥 끝까지 이어집니다.
 
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_07.jpg
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_08.jpg
 !=/home/claude/w/kerapoxy/nangman_interior_kerapoxy_09.jpg
-[감성 2 — 제미나이 · 욕실 · 현관]
+현관은 반짝이 없는 연브라운이라 신발을 벗을 때 눈에 거슬리는 선이 없습니다.
 
 ## 어디를 케라폭시로 할지
 
@@ -69,6 +69,6 @@ tags: 케라폭시 줄눈 가격, 케라폭시 가격, 케라폭시 폴리우레
 - 거실 폴리싱 타일: 오래 살 집이면 케라폭시, 몇 년 뒤 이사할 집이면 폴리우레아.
 - 현관 · 베란다 · 세탁실: 폴리우레아로도 충분합니다.
 
-[감성 3 — 제미나이]
+줄눈은 한 번 하면 몇 년을 매일 밟고 지나가는 자리입니다. 우리 집 공간마다 맞는 자재를 고르면 청소하는 시간이 줄어듭니다.
 
 [CALL] 받은 줄눈 견적서 한 장 보내 주시면 같은 범위로 나란히 비교해 드립니다
