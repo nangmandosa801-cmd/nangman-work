@@ -39,6 +39,14 @@ def find_helper(title):
     if k in H: return H[k]
     for kk, v in H.items():
         if kk[:18] == k[:18]: return v
+    # 이 창에 파일이 없으면 구글 드라이브 「블로그/도우미」에서 받아 온다(11/3)
+    try:
+        r = subprocess.run(['python3', f'{D}/helper_cloud.py', 'get', title[:14]], capture_output=True, text=True, timeout=120).stdout.strip()
+        if r.endswith('.html') and os.path.exists(r):
+            s = open(r, encoding='utf8', errors='ignore').read()
+            m = re.search(r'<div class="t" id="(t\d+)">', s)
+            if m: return (r, m.group(1).replace('t', 'h'))
+    except Exception: pass
     return None
 def body_of(f, hid):
     s = open(f, encoding='utf8', errors='ignore').read()
@@ -51,6 +59,17 @@ def short(t, n=13):
         if len(lines[-1]) + len(x) + 1 > n and lines[-1]: lines.append(x)
         else: lines[-1] = (lines[-1] + ' ' + x).strip()
     return '\n'.join(lines[:2])
+def is_banner(p):
+    """안내 · 할인 · 연락 배너면 True: 가로로 긴 그림(966x330 · 966x380 등) 또는 남색 바탕이 절반 넘는 그림."""
+    try:
+        from PIL import Image
+        im = Image.open(p).convert('RGB'); w, h = im.size
+        if w / h >= 1.9: return True
+        sm = im.resize((60, int(60 * h / w) or 1)); px = list(sm.get_flattened_data() if hasattr(sm, "get_flattened_data") else sm.getdata())
+        navy = sum(1 for r, g, b in px if b > r + 15 and b > g + 5 and r < 70 and g < 80 and b < 130)
+        return navy / len(px) > 0.5
+    except Exception:
+        return False
 def make_clip(no, title, slug):
     h = find_helper(title)
     if not h: return 'helper_not_found'
@@ -58,9 +77,11 @@ def make_clip(no, title, slug):
     tmp = f'{MP4}/auto_{slug}'; os.makedirs(tmp, exist_ok=True)
     # 소제목과 사진을 문서 순서대로
     items = []
-    for m in re.finditer(r'<h2[^>]*>(.*?)</h2>|<img[^>]*src="data:image/(jpeg|png);base64,([^"]+)"', b):
-        if m.group(1): items.append(('h', m.group(1)))
-        else: items.append(('i', (m.group(2), m.group(3))))
+    for m in re.finditer(r'<h2[^>]*>(.*?)</h2>|<p[^>]*font-size:2\d(?:px)?[^>]*>(.*?)</p>|<img[^>]*src="data:image/(jpeg|png);base64,([^"]+)"', b):
+        hd = m.group(1) or m.group(2)
+        if hd:
+            if re.sub('<[^>]+>', '', hd).strip(): items.append(('h', hd))
+        else: items.append(('i', (m.group(3), m.group(4))))
     heads = [x for k, x in items if k == 'h']
     slides = []; cur = heads[0] if heads else title
     k = 0
@@ -69,6 +90,7 @@ def make_clip(no, title, slug):
         ext, data = x; k += 1
         p = f'{tmp}/{k:02d}.{"jpg" if ext == "jpeg" else "png"}'
         open(p, 'wb').write(base64.b64decode(data))
+        if is_banner(p): continue   # 11/3 안내 · 할인 배너(5% · 1% 2% 3% 표 · 연락 그림)는 클립에서 뺀다
         slides.append({'src': p, 'line': short(cur), 'sub': '낭만 인테리어 · 제휴 시공 사례'})
     # 겹치는 소제목은 한 장만, 최대 5장
     seen = set(); pick = []
@@ -76,9 +98,9 @@ def make_clip(no, title, slug):
         if s_['line'] in seen: continue
         seen.add(s_['line']); pick.append(s_)
     pick = pick[:5]
-    if len(pick) < 3: return 'too_few_photos'
+    if len(pick) < 2: return 'too_few_photos'
     head, _, rest = title.partition(',')
-    spec = {'head': [head.strip(), short(rest or title, 16).replace('\n', ' ')], 'what': head.strip(),
+    spec = {'head': [head.strip()] + short(rest or title, 13).split('\n')[:2], 'what': (head.strip() if len(head.strip()) <= 7 else head.strip().split()[0]),
             'vintro': [{'kicker': head.strip(), 'line': short(rest or title), 'sub': f'문의 {PHONE}'}],
             'slides': pick}
     sp = f'{MP4}/spec_auto_{slug}.json'; json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
@@ -100,17 +122,28 @@ def make_clip(no, title, slug):
     up = drive_put(slug)
     return 'ok' + (' · drive' if up else '')
 def drive_put(slug):
-    """PC 대신 구글 드라이브 「블로그/shorts」에 저장(11/3 사용자 「산출물은 구글 드라이브」). 블로그 우체통 conf 없으면 건너뜀."""
+    """PC 대신 구글 드라이브 「블로그/shorts」에 저장 + info.txt 맨 아래에 다운로드 링크 넣기(11/3 사용자 「다운 받게 만들어야지」)."""
     if not os.path.exists('/home/claude/gas/conf.json'): return False
     sys.path.insert(0, '/home/claude/helper'); from gas import call
-    for ext in ('_clip.mp4', '_clip_cover.jpg', '_clip_info.txt'):
+    links = {}
+    for ext in ('_clip.mp4', '_clip_cover.jpg'):
         f = f'{OUT}/nangman_interior_{slug}{ext}'
-        if os.path.exists(f): call('fput', path='블로그/shorts', name=os.path.basename(f), b64=base64.b64encode(open(f, 'rb').read()).decode())
+        if os.path.exists(f):
+            r = call('fput', path='블로그/shorts', name=os.path.basename(f), b64=base64.b64encode(open(f, 'rb').read()).decode())
+            try: links[ext] = call('flink', id=r['id'])['url']
+            except Exception: pass
+    fi = f'{OUT}/nangman_interior_{slug}_clip_info.txt'
+    if os.path.exists(fi):
+        t = open(fi, encoding='utf8').read().split('\n[ 다운로드 ]')[0].rstrip('\n')
+        t += '\n\n[ 다운로드 ]\n영상: ' + links.get('_clip.mp4', '') + '\n커버: ' + links.get('_clip_cover.jpg', '') + '\n'
+        open(fi, 'w', encoding='utf8').write(t)
+        call('fput', path='블로그/shorts', name=os.path.basename(fi), b64=base64.b64encode(t.encode('utf8')).decode())
     return True
 def slug_of(f):
-    b = os.path.basename(f).replace('.html', '')
+    b = os.path.basename(f).replace('.html', '').split('__')[-1]   # 드라이브 사본 이름(폴더__파일)은 원래 이름으로
     return re.sub(r'[^a-z0-9_]', '', b.lower()) or 'post'
 def main():
+    os.makedirs(OUT, exist_ok=True)
     st = jload(ST, {'done': []}); done = set(st['done'])
     R = recent(); want = set(sys.argv[1:])
     todo = [(no, t) for no, t in R if (no in want) or (not want and no not in done)]
