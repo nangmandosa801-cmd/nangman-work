@@ -54,4 +54,4 @@
 
 ## 블로그 우체통 열쇠는 저장소에 없음 (11/4 23시 · 저장소가 공개라 열쇠가 드러나 있었음)
 - Code.gs 의 KEY 는 Apps Script 스크립트 속성 KEY 에서 읽는다. gas/conf.json · key.txt · setup.html 은 저장소에서 뺐다(.gitignore).
-- 새 창에서 /home/claude/gas/conf.json 이 없으면 프로젝트 문서 claude/우체통_접속정보.md 를 읽어 {"url","key"} 로 만든다.
+- 새 창에서 /home/claude/gas/conf.json 이 없으면 사용자에게 웹 앱 주소와 열쇠를 받아 {"url","key"} 로 만든다(공개 저장소 · 프로젝트 문서에 적지 않음).
