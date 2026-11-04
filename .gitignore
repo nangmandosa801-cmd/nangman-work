@@ -15,3 +15,9 @@ client.json
 *.bak*
 bak*/
 w/kin*/
+gas/conf.json
+gas/key.txt
+gas/setup.html
+helper/Code.gs
+token.json
+client.json

@@ -1,12 +1,12 @@
 // 낭만 블로그 우체통 — Claude가 PC 없이 구글 블로그에 글을 올리고 그림을 올리는 통로
 // 이 계정(nangmandosa801)이 글쓴이로 들어가 있는 블로그에만 씁니다.
-var KEY = 'N6GT8sL5X-Ce5dQR9WHos3-7x4UbOsCJ';
+var KEY = PropertiesService.getScriptProperties().getProperty('KEY');   // 스크립트 속성 KEY (저장소에 적지 않음 · 11/4)
 var API = 'https://www.googleapis.com/blogger/v3';
 
 function doPost(e) {
   var q;
   try { q = JSON.parse(e.postData.contents); } catch (err) { return out_({ok:false, error:'json'}); }
-  if (!q || q.key !== KEY) return out_({ok:false, error:'key'});
+  if (!q || !KEY || q.key !== KEY) return out_({ok:false, error:'key'});
   var f = ACT[q.action];
   if (!f) return out_({ok:false, error:'action'});
   try { return out_({ok:true, result:f(q)}); }
@@ -14,7 +14,7 @@ function doPost(e) {
 }
 
 function doGet(e) {
-  if (!e || !e.parameter || e.parameter.key !== KEY) return out_({ok:false, error:'key'});
+  if (!e || !e.parameter || e.parameter.key !== KEY || !KEY) return out_({ok:false, error:'key'});
   return out_({ok:true, result:ACT.blogs()});
 }
 
