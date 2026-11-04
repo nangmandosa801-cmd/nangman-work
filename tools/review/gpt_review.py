@@ -3,6 +3,9 @@
 사용:
   python3 gpt_review.py <원고.md> [<원고.md> ...]     지정한 원고만
   python3 gpt_review.py --inbox                         /home/claude/w/review/inbox/*.md 전부(검수 안 된 것만)
+  python3 gpt_review.py --setup     드라이브 「블로그/협업」 폴더 · 10분 검수 · 0_지시/검수_점검표.txt 올림(11/4 23시)
+  python3 gpt_review.py --push      inbox 원고(글자만)를 드라이브 1_검수대기에 넣음 → Apps Script가 10분마다 검수
+  python3 gpt_review.py --pull      드라이브 2_검수결과/*.gpt.json 을 out/ 으로 받아 옴(로컬 금지어 합침)
 하는 일(원고마다, 동시에 4개):
   1) 사진 줄(!=) · 머리말 빼고 글자만 추림
   2) 로컬 금지어 검사(돈 안 듦)
@@ -55,8 +58,34 @@ def passed(md):
     p = f"{OUT}/{os.path.basename(md).rsplit('.', 1)[0]}.gpt.json"
     try: return json.load(open(p)).get('verdict') == '통과'
     except Exception: return False
+def _b64(t): import base64; return base64.b64encode(t.encode('utf8')).decode()
+def setup():
+    from gas import call
+    call('collab'); return call('fput', path='블로그/협업/0_지시', name='검수_점검표.txt', b64=_b64(SYSTEM))
+def push():
+    from gas import call
+    n = 0
+    for f in sorted(glob.glob(f'{INBOX}/*.md')):
+        name = os.path.basename(f)[:-3]
+        if os.path.exists(f'{OUT}/{name}.gpt.json'): continue
+        call('fput', path='블로그/협업/1_검수대기', name=name + '.txt', b64=_b64(text_of(f))); n += 1
+    return n
+def pull():
+    from gas import call
+    os.makedirs(OUT, exist_ok=True); got = []
+    for x in call('ls', path='블로그/협업/2_검수결과'):
+        if not x['name'].endswith('.gpt.json'): continue
+        name = x['name'][:-9]; md = f'{INBOX}/{name}.md'
+        try: import base64; j = json.loads(base64.b64decode(call('fget', id=x['id'])['b64']).decode('utf8'))
+        except Exception: continue
+        j['file'] = md; j['local'] = local(text_of(md)) if os.path.exists(md) else []
+        if j['local'] and j.get('verdict') == '통과': j['verdict'] = '수정 필요'
+        json.dump(j, open(f'{OUT}/{name}.gpt.json', 'w'), ensure_ascii=False, indent=1); got.append((name, j.get('verdict'), len(j.get('fixes', []))))
+    return got
 if __name__ == '__main__':
     a = sys.argv[1:]
+    if a and a[0] in ('--setup', '--push', '--pull'):
+        print(json.dumps({'--setup': setup, '--push': push, '--pull': pull}[a[0]](), ensure_ascii=False)); sys.exit()
     if a == ['--inbox']:
         a = [f for f in sorted(glob.glob(f'{INBOX}/*.md')) if not os.path.exists(f"{OUT}/{os.path.basename(f)[:-3]}.gpt.json")]
     if not a: sys.exit('검수할 원고 없음')
