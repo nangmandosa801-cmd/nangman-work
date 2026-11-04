@@ -1,0 +1,42 @@
+{
+ "head": [
+  "진위역 서희스타힐스",
+  "사전점검 하자",
+  "체크 30가지"
+ ],
+ "what": "사전점검",
+ "vintro": [
+  {
+   "kicker": "진위역 서희스타힐스",
+   "line": "사전점검 하자\n체크 30가지",
+   "sub": "문의 010-2882-8165"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/auto_jinwi_seohui/01.jpg",
+   "line": "바닥 수평은\n레이저로 봅니다",
+   "sub": "낭만 인테리어 · 제휴 점검팀 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_jinwi_seohui/02.jpg",
+   "line": "문틀 찍힘은\n화살표로 표시",
+   "sub": "낭만 인테리어 · 제휴 점검팀 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_jinwi_seohui/03.jpg",
+   "line": "콘센트 들뜸도\n하자로 적습니다",
+   "sub": "낭만 인테리어 · 제휴 점검팀 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_jinwi_seohui/04.jpg",
+   "line": "욕실은 바닥\n물 빠짐부터",
+   "sub": "낭만 인테리어 · 제휴 점검팀 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_jinwi_seohui/05.jpg",
+   "line": "공기질은\n장비로 잽니다",
+   "sub": "낭만 인테리어 · 제휴 점검팀 사례"
+  }
+ ]
+}
