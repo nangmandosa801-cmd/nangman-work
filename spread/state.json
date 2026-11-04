@@ -208,7 +208,10 @@
   "224375585302",
   "224453529026",
   "224461117554",
-  "224462887153"
+  "224462887153",
+  "224461589974",
+  "224461004062",
+  "224461102870"
  ],
  "queue": [
   {
@@ -452,10 +455,12 @@
    "blogger": "https://nangman-budongsan.blogspot.com/2026/10/blog-post_31.html"
   },
   "224460964208": {
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/10/84-11.html"
+   "blogger": "https://nangman-budongsan.blogspot.com/2026/10/84-11.html",
+   "threads": "예약 11/4 22:00 · request_id 14b57be54a884df091524abeb71e894e"
   },
   "224460003121": {
-   "blogger": "https://nangman-budongsan.blogspot.com/2026/10/2-84-2-8-3-7500.html"
+   "blogger": "https://nangman-budongsan.blogspot.com/2026/10/2-84-2-8-3-7500.html",
+   "threads": "예약 11/5 22:00 · request_id 2391826b54ef4f7381c45b1528ec1b45"
   },
   "224461102870": {
    "blogger": "https://nangman-budongsan.blogspot.com/2026/10/3-1-4300.html",
@@ -493,7 +498,8 @@
   "tistory_draft": "상도동 요약은 Browser 3 탭에 작성 끝 · 캡차 대기 (원고 out/sd_tist.js · 운정 out/un_tist.js)",
   "ipju_browser": "nangman-ipju · talk7921 = Browser 3 (3a76e9e9) · nangman-budongsan = Browser 2 (4dc8f8cb) · kimdongjin24 스레드 · X = Browser 1 (71fb172a)",
   "index": "서치콘솔 속성은 티스토리 · nangmanreal · nangmanisa만 → 블로거 두 곳은 색인 요청 안 함",
-  "centreville_note": "센트레빌 노트(6196333723686795452) 「곧 올라간다」 문장을 원문 링크로 바꿀 것"
+  "centreville_note": "센트레빌 노트(6196333723686795452) 「곧 올라간다」 문장을 원문 링크로 바꿀 것",
+  "blogger_gas": "11/4 09:1x 우체통 Apps Script 권한 만료(UrlFetchApp/DriveApp) → 블로거 못 올림. 사용자가 Apps Script에서 재승인 필요. 원고 out/bl_224452232362.html · out/bl_224452256175.html 대기"
  },
- "last_run": "2026-11-03 21:2x"
+ "last_run": "2026-11-04 09:1x"
 }
