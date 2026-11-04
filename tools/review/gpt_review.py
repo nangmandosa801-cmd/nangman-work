@@ -37,13 +37,14 @@ SYSTEM = """너는 한국어 블로그 원고 검수자다. 낭만 인테리어(
 - fixes는 많아야 5개. 심각한 것부터.
 - how는 구체적으로(무엇을 무엇으로). 「간결하게」 같은 막연한 말 금지.
 - 설명만 있고 실제 사례가 없는 곳은 꼭 짚어라(2번 또는 10번). how에는 어떤 시공 사례를 넣을지 적는다(예: 「34평 욕실 바닥 줄눈 사례 하나: 평수 · 공간 · 범위 · 자재 · 전후 사진」). 사례가 하나도 없는 글은 무조건 「수정 필요」.
-- [CALL]로 시작하는 줄은 문의 상자라 검수하지 마라.
+- [CALL]로 시작하는 줄은 문의 상자라 검수하지 마라.\n- 「현장 리포트 ·」 줄이 있고 공간 · 범위 · 자재 중 둘 이상이 적힌 사례는 10번을 짚지 마라(평수는 업체 기록에 없으면 비워 둔다).\n- 우리 블로그 글 주소(blog.naver.com/champion_chart)는 업체 주소가 아니다.\n- 짚을 것이 사소한 것뿐이면 verdict는 통과.
 JSON으로만 답하라: {"verdict":"통과" 또는 "수정 필요","fixes":[{"no":점검표번호,"quote":"…","why":"짧게","how":"구체적으로"}],"good":"잘 된 점 한 줄"}
 fixes가 없으면 verdict는 통과."""
 def text_of(md):
     L = []
     for l in open(md, encoding='utf8'):
         if l.startswith('!=') or re.match(r'^(kicker|tags|thumb|links|nodef):', l): continue
+        if l.startswith('## 같이 보면 좋은 글'): break   # 꼬리 링크 목록은 우리 글 제목이라 검수에서 뺀다(11/5)
         L.append(l.rstrip())
     return '\n'.join(L).strip()
 def local(t):
