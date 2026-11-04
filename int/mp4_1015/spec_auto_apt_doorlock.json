@@ -1,0 +1,47 @@
+{
+ "head": [
+  "아파트 도어락 교체",
+  "지문 · 월패드 · 손잡이",
+  "세 집이 고른 것"
+ ],
+ "what": "도어락",
+ "vintro": [
+  {
+   "kicker": "아파트 도어락 교체",
+   "line": "지문 · 월패드 · 손잡이\n우리 집에 맞는 건",
+   "sub": "문의 010-2882-8165"
+  }
+ ],
+ "slides": [
+  {
+   "src": "/home/claude/int/mp4_1015/auto_apt_doorlock/01.jpg",
+   "line": "DMC 아파트\n비밀번호만 쓰던 옛 도어락",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_apt_doorlock/03.jpg",
+   "line": "지문인식 푸시풀\n월패드 연동까지",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_apt_doorlock/04.jpg",
+   "line": "홍은동 아파트\n레버형 옛 도어락",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_apt_doorlock/06.jpg",
+   "line": "지문 푸시풀로\n어르신도 편하게",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_apt_doorlock/08.jpg",
+   "line": "떼어 낸 자리\n구멍 크기부터 확인",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  },
+  {
+   "src": "/home/claude/int/mp4_1015/auto_apt_doorlock/09.jpg",
+   "line": "돈의문 아파트\n익숙한 레버형 그대로",
+   "sub": "낭만 인테리어 · 제휴 시공 사례"
+  }
+ ]
+}
