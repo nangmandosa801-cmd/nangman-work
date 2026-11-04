@@ -35,18 +35,6 @@ function call_(method, path, body) {
 function slim_(p) { return {id:p.id, url:p.url, title:p.title, status:p.status, published:p.published}; }
 
 var ACT = {
-  // ChatGPT 검수(11/4): 스크립트 속성 OPENAI_KEY 필요 · system, user, model(선택)
-  gpt: function (q) {
-    var k = PropertiesService.getScriptProperties().getProperty('OPENAI_KEY');
-    if (!k) throw new Error('OPENAI_KEY 없음 — 프로젝트 설정 → 스크립트 속성에 넣기');
-    var r = UrlFetchApp.fetch('https://api.openai.com/v1/chat/completions', {method:'post', muteHttpExceptions:true,
-      contentType:'application/json', headers:{Authorization:'Bearer ' + k},
-      payload: JSON.stringify({model: q.model || 'gpt-4o-mini', temperature: 0.2, response_format: {type:'json_object'},
-        messages: [{role:'system', content:q.system}, {role:'user', content:q.user}]})});
-    var c = r.getResponseCode(), t = r.getContentText();
-    if (c >= 300) throw new Error(c + ' ' + t.slice(0, 300));
-    return JSON.parse(t).choices[0].message.content;
-  },
   // 이 계정이 쓸 수 있는 블로그 목록
   blogs: function () {
     var r = call_('get', '/users/self/blogs');
