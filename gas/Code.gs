@@ -1,13 +1,12 @@
 // 낭만 블로그 우체통 — Claude가 PC 없이 구글 블로그에 글을 올리고 그림을 올리는 통로
 // 이 계정(nangmandosa801)이 글쓴이로 들어가 있는 블로그에만 씁니다.
-var KEY = 'N6GT8sL5X-Ce5dQR9WHos3-7x4UbOsCJ';
+var KEY = PropertiesService.getScriptProperties().getProperty('KEY');   // 스크립트 속성 KEY (저장소에 적지 않음 · 11/4)
 var API = 'https://www.googleapis.com/blogger/v3';
 
 function doPost(e) {
-  if (!e) { test(); return; }
   var q;
   try { q = JSON.parse(e.postData.contents); } catch (err) { return out_({ok:false, error:'json'}); }
-  if (!q || q.key !== KEY) return out_({ok:false, error:'key'});
+  if (!q || !KEY || q.key !== KEY) return out_({ok:false, error:'key'});
   var f = ACT[q.action];
   if (!f) return out_({ok:false, error:'action'});
   try { return out_({ok:true, result:f(q)}); }
@@ -15,7 +14,7 @@ function doPost(e) {
 }
 
 function doGet(e) {
-  if (!e || !e.parameter || e.parameter.key !== KEY) return out_({ok:false, error:'key'});
+  if (!e || !e.parameter || e.parameter.key !== KEY || !KEY) return out_({ok:false, error:'key'});
   return out_({ok:true, result:ACT.blogs()});
 }
 
@@ -36,6 +35,18 @@ function call_(method, path, body) {
 function slim_(p) { return {id:p.id, url:p.url, title:p.title, status:p.status, published:p.published}; }
 
 var ACT = {
+  // ChatGPT 검수(11/4): 스크립트 속성 OPENAI_KEY 필요 · system, user, model(선택)
+  gpt: function (q) {
+    var k = PropertiesService.getScriptProperties().getProperty('OPENAI_KEY');
+    if (!k) throw new Error('OPENAI_KEY 없음 — 프로젝트 설정 → 스크립트 속성에 넣기');
+    var r = UrlFetchApp.fetch('https://api.openai.com/v1/chat/completions', {method:'post', muteHttpExceptions:true,
+      contentType:'application/json', headers:{Authorization:'Bearer ' + k},
+      payload: JSON.stringify({model: q.model || 'gpt-4o-mini', temperature: 0.2, response_format: {type:'json_object'},
+        messages: [{role:'system', content:q.system}, {role:'user', content:q.user}]})});
+    var c = r.getResponseCode(), t = r.getContentText();
+    if (c >= 300) throw new Error(c + ' ' + t.slice(0, 300));
+    return JSON.parse(t).choices[0].message.content;
+  },
   // 이 계정이 쓸 수 있는 블로그 목록
   blogs: function () {
     var r = call_('get', '/users/self/blogs');
@@ -112,30 +123,9 @@ var ACT = {
     if (it.hasNext()) return {id:repl_(it.next(), blob).getId(), replaced:true};
     return {id:d.createFile(blob).getId(), replaced:false};
   },
-  // 제미나이 리서치: prompt, (save: "블로그/리서치/입주일정", name: "20261103_..._gemini.md"), (model)
-  // 키는 프로젝트 설정 → 스크립트 속성 GEMINI_KEY (사장님이 직접 넣음)
-  gemini: function (q) {
-    var key = PropertiesService.getScriptProperties().getProperty('GEMINI_KEY');
-    if (!key) throw new Error('GEMINI_KEY 없음');
-    var model = q.model || 'gemini-2.5-flash';
-    var body = {contents:[{role:'user', parts:[{text:q.prompt}]}]};
-    if (q.search !== false) body.tools = [{google_search:{}}];
-    var r = UrlFetchApp.fetch('https://generativelanguage.googleapis.com/v1beta/models/' + model + ':generateContent',
-      {method:'post', contentType:'application/json', muteHttpExceptions:true,
-       headers:{'x-goog-api-key': key}, payload: JSON.stringify(body)});
-    var c = r.getResponseCode(), t = r.getContentText();
-    if (c >= 300) throw new Error('gemini ' + c + ' ' + t.slice(0, 300));
-    var j = JSON.parse(t), cand = (j.candidates || [])[0] || {};
-    var text = ((cand.content || {}).parts || []).map(function (p) { return p.text || ''; }).join('');
-    var src = ((cand.groundingMetadata || {}).groundingChunks || []).map(function (g) { return g.web ? g.web.title + ' ' + g.web.uri : ''; }).filter(String);
-    var out = {text:text, sources:src};
-    if (q.save && q.name) {
-      var full = text + (src.length ? '\n\n## 검색 출처\n' + src.map(function (s) { return '- ' + s; }).join('\n') : '');
-      out.file = ACT.fput({path:q.save, name:q.name, text:full});
-    }
-    return out;
-  },
   // 공개 내려받기 주소(영상을 Upload-Post에 넘길 때): id
+  collab: function (q) { return setupCollab(); },
+  review: function (q) { return reviewInbox(); },
   flink: function (q) {
     var f = DriveApp.getFileById(q.id);
     f.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
@@ -168,8 +158,40 @@ function repl_(f, blob) {
 }
 
 
+// ── 협업 폴더(11/4 23시 · 사용자 「드라이브에서 파일 · 지시 주고받게, 내가 일일이 주고받지 않게」) ──
+// 블로그/협업/0_지시 · 1_검수대기 · 2_검수결과 · 3_검수끝 · 4_어사이드 · 5_보고
+var COLLAB = '블로그/협업';
+var COLLAB_DIRS = ['0_지시', '1_검수대기', '2_검수결과', '3_검수끝', '4_어사이드', '5_보고'];
+function setupCollab() {
+  COLLAB_DIRS.forEach(function (d) { folder_(COLLAB + '/' + d, true); });
+  ScriptApp.getProjectTriggers().forEach(function (t) { if (t.getHandlerFunction() == 'reviewInbox') ScriptApp.deleteTrigger(t); });
+  ScriptApp.newTrigger('reviewInbox').timeBased().everyMinutes(10).create();
+  return 'ok';
+}
+function readText_(dir, name) {
+  var it = folder_(COLLAB + '/' + dir).getFilesByName(name);
+  return it.hasNext() ? it.next().getBlob().getDataAsString('UTF-8') : '';
+}
+// 10분마다: 1_검수대기의 원고 → ChatGPT 검수(점검표는 0_지시/검수_점검표.txt) → 2_검수결과/<이름>.gpt.json · 원고는 3_검수끝으로
+function reviewInbox() {
+  var sys = readText_('0_지시', '검수_점검표.txt'); if (!sys) return 'no checklist';
+  var src = folder_(COLLAB + '/1_검수대기'), out = folder_(COLLAB + '/2_검수결과'), done = folder_(COLLAB + '/3_검수끝');
+  var it = src.getFiles(), n = 0, t0 = Date.now();
+  while (it.hasNext() && Date.now() - t0 < 300000) {
+    var f = it.next(), name = f.getName().replace(/\.(md|txt)$/, '');
+    var res;
+    try { res = ACT.gpt({system: sys, user: '원고:\n' + f.getBlob().getDataAsString('UTF-8').slice(0, 12000)}); }
+    catch (e) { res = JSON.stringify({verdict: '오류', error: String(e)}); }
+    var old = out.getFilesByName(name + '.gpt.json'); while (old.hasNext()) old.next().setTrashed(true);
+    out.createFile(name + '.gpt.json', res, 'application/json');
+    f.moveTo(done); n++;
+  }
+  return n;
+}
+
 // 처음 한 번 ▶실행: 권한 허용 창을 띄우고, 쓸 수 있는 블로그 목록을 로그에 찍습니다.
 function test() {
   Logger.log(JSON.stringify(ACT.blogs()));
   DriveApp.getRootFolder();
+  setupCollab();   // 협업 폴더 만들고 10분마다 검수 돌리기
 }
