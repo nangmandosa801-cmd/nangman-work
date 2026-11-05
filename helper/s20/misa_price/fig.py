@@ -42,7 +42,7 @@ ax.tick_params(labelsize=13,colors='#555')
 for s in ['top','right']: ax.spines[s].set_visible(False)
 for s in ['left','bottom']: ax.spines[s].set_color('#C8D2DE')
 ax.text(350,29.5,'역 700m 안',fontsize=14,color=NAVY,ha='center',fontweight='bold')
-fig.text(0.045,0.03,'국토교통부 아파트 매매 실거래(2025년 · 2026년 각 1~10월 · 하남 망월동 · 풍산동 · 선동 84㎡ · 두 해 모두 3건 넘게 팔린 단지 중 위치 확인한 20곳)',fontsize=12,color='#8A8578')
+fig.text(0.045,0.03,'국토교통부 아파트 매매 실거래(2025년 · 2026년 각 1~10월 · 하남 망월동 · 풍산동 · 선동 84㎡ · 두 해 모두 3건 이상 팔린 단지 중 위치 확인한 20곳)',fontsize=12,color='#8A8578')
 fig.savefig('img/nangman_misa_price_2_dist.png'); plt.close()
 
 from PIL import Image,ImageDraw,ImageFont
