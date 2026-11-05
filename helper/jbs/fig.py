@@ -16,7 +16,7 @@ ax.set_yticks(ys); ax.set_yticklabels([a for a,_ in R],fontsize=16,color='#333')
 for y,(_,v) in zip(ys,R):
     s=f'{v//10000}억 {v%10000:,}만' if v%10000 else f'{v//10000}억'
     ax.text(v+2500,y,s,va='center',fontsize=16,color=NAVY,fontweight='bold')
-ax.axvline(LINE1,color=NAVY,ls='--',lw=1.6); ax.text(LINE1,len(R)-0.35,'한 채 기준선\n시세 약 17억 4천',ha='center',va='bottom',fontsize=13,color=NAVY)
+ax.axvline(LINE1,color=NAVY,ls='--',lw=1.6); ax.text(LINE1+3000,len(R)-0.45,'한 채 기준선\n시세 약 17억 4천',ha='left',va='bottom',fontsize=13,color=NAVY)
 ax.set_xlim(0,290000); ax.set_ylim(-0.6,len(R)+0.4); ax.set_xticks([])
 for s in ['top','right','bottom']: ax.spines[s].set_visible(False)
 ax.spines['left'].set_color('#C8D2DE')
