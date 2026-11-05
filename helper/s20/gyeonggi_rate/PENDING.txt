@@ -26,3 +26,4 @@
 - python3 /home/claude/tools/postkit/html2aside.py /home/claude/helper/s20/gyeonggi_rate nangman_gyeonggi_rate --up
 - python3 /home/claude/tools/postkit/html2aside_html.py /home/claude/helper/s20/gyeonggi_rate nangman_gyeonggi_rate --up (사진 수 같은지)
 - 지시 파일(11/24 11:00 · 낭만 부동산) → 드라이브 「블로그/협업/4_어사이드」 · bash /home/claude/nangman-work/sync.sh
+- 제목 검색어 바꾸기: 「경기도 청약 경쟁률」은 11/5 자동완성 없음 → 채울 때 다시 재고, 없으면 「11월 경기도 청약」으로 앞머리 교체.
