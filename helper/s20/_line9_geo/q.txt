@@ -1,0 +1,9 @@
+[out:json][timeout:90];
+(
+  way["landuse"="residential"]["name"](37.545,127.155,37.590,127.225);
+  relation["landuse"="residential"]["name"](37.545,127.155,37.590,127.225);
+  node["railway"="station"](37.530,127.150,37.600,127.240);
+  way["highway"]["name"~"미사강변대로|미사강변한강로|미사강변중앙로|미사대로|미사강변북로|미사강변남로|미사강변동로|미사강변서로"](37.545,127.170,37.590,127.225);
+  way["amenity"="school"]["name"](37.545,127.155,37.590,127.225);
+);
+out center tags;
