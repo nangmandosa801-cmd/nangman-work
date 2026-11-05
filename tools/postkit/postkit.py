@@ -72,24 +72,16 @@ def parse(path):
     for blk in re.split(r'\n\s*\n',body.strip()):
         for ln in blk.splitlines():
             ln=ln.strip()
-            if ln.startswith('|'):
-                cs=[c.strip() for c in ln.strip('|').split('|')]
-                if not all(re.fullmatch(r':?-{2,}:?',c) for c in cs): tbl.append(cs)
-                continue
+            if ln.startswith('|'): tbl.append([c.strip() for c in ln.strip('|').split('|')]); continue
             flush()
             if ln.startswith('## '): parts.append(f'<h2 style="font-size:22px;color:#1d3d5c;margin:34px 0 10px">{ln[3:]}</h2>')
             elif ln.startswith('!'): r,cap=(ln[1:].split(' ',1)+[''])[:2]; photos.append((cap,photo(r,cap,m.get('title','')))); parts.append(f'<!--IMG{len(photos)-1}-->')
             elif ln=='[CALL]': parts.append(CALL)
-            elif ln.startswith('[CALL] '): parts.append(CALL.replace('<b>사진 한 장이면 됩니다</b>','<b>'+html.escape(ln[7:].strip())+'</b>').replace('문제 생긴 곳 사진 한 장과 사는 동네를 문자로 보내 주세요. 가까운 시공팀을 이어 드립니다.','사는 동네와 함께 문자로 보내 주세요. 가까운 시공팀을 이어 드립니다.'))
-            elif ln.startswith('- '):
-                mm=re.match(r'(.+?) · (https?://\S+)$',ln[2:])
-                parts.append(f'<p>· <a href="{mm.group(2)}" style="color:#2f5d8a;font-weight:700">{html.escape(mm.group(1))}</a></p>' if mm else f'<p>· {LK(ln[2:])}</p>')
             elif ln.startswith('> '): parts.append(f'<div style="background:#f3f6fa;border-left:5px solid #2f5d8a;padding:14px 16px;margin:18px 0">{ln[2:]}</div>')
             elif ln: parts.append(f'<p>{LK(re.sub(r"\*\*(.+?)\*\*",r"<b>\1</b>",ln))}</p>')
         flush()
-    has_tail='같이 보면 좋은 글' in body
-    links=([] if (m.get('nodef') or has_tail) else DEF_LINKS)+[tuple(x.split('=',1)) for x in m.get('links','').split(';') if '=' in x]
-    if links: parts.append('<h3 style="font-size:19px;color:#1d3d5c;margin:30px 0 8px">같이 보면 좋은 글</h3><ul>'+''.join(f'<li><a href="{u.strip()}">{t.strip()}</a></li>' for t,u in links)+'</ul>')
+    links=([] if m.get('nodef') else DEF_LINKS)+[tuple(x.split('=',1)) for x in m.get('links','').split(';') if '=' in x]
+    parts.append('<h3 style="font-size:19px;color:#1d3d5c;margin:30px 0 8px">같이 보면 좋은 글</h3><ul>'+''.join(f'<li><a href="{u.strip()}">{t.strip()}</a></li>' for t,u in links)+'</ul>')
     tags=[t.strip() for t in m.get('tags','').split(',') if t.strip()]
     parts.append('<p style="color:#2f5d8a;font-size:19px">'+' '.join('#'+t for t in tags)+'</p>')
     h=SP.join(parts)
