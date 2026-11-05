@@ -59,11 +59,7 @@ if __name__=='__main__':
     for k in keys:
         pub=fetch(BLOGS[k]); json.dump(pub,open(f'/home/claude/pub/{k}_published.json','w'),ensure_ascii=False)
         dr=drafts(k); got,maybe=match(dr,pub)
-        # 10/5 새 창: 원고 폴더(outputs)가 비어 있으면 맞춘 것이 0이 되어 기록이 지워지던 것 → 앞서 맞춘 것은 남기고 새로 맞춘 것만 더한다
-        try: keep=json.load(open(f'/home/claude/pub/{k}_auto.json'))
-        except Exception: keep={}
-        keep.update({s:list(v) for s,v in got.items()})
-        json.dump(keep,open(f'/home/claude/pub/{k}_auto.json','w'),ensure_ascii=False,indent=0)
+        json.dump({s:list(v) for s,v in got.items()},open(f'/home/claude/pub/{k}_auto.json','w'),ensure_ascii=False,indent=0)
         un={s:v for s,v in dr.items() if s not in got}
         rep[k]=dict(pub=pub,dr=dr,got=got,maybe=maybe,un=un)
         print(f'{NAME[k]}: 발행 {len(pub)}편 · 원고 {len(dr)}편 · 맞춘 것 {len(got)} · 헷갈 {len(maybe)} · 미발행 {len(un)}')

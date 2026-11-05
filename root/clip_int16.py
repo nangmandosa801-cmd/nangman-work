@@ -4,7 +4,7 @@ from PIL import Image
 import os
 exec(open('clip_int2b.py').read().split('# ===== 투명 중문')[0].split('Y=(240,190,40)')[1])
 Y=(240,190,40); BLUEU=(62,80,110)
-PH='010-2882-8165'
+PH='010-7678-9967'
 def endcard(lines,sub):
     im,d=base(NAVY)
     ctext(d,560,lines[0],F(92),(255,255,255)); ctext(d,690,lines[1],F(92),(255,255,255))
