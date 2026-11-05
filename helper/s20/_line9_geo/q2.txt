@@ -1,0 +1,7 @@
+[out:json][timeout:60];
+(
+  way["landuse"="residential"]["name"](37.545,127.155,37.590,127.225);
+  node["railway"="station"](37.530,127.150,37.600,127.240);
+  way["amenity"="school"]["name"~"망월초|미사"](37.545,127.155,37.590,127.225);
+);
+out center tags;
