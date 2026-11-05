@@ -1,0 +1,89 @@
+[네이버 낭만 인테리어(champion_chart) 새 글 20편 · HTML · 11/5 22:50판]
+※ 이 파일이 「지시_인테리어새10편_HTML_1105.txt」를 대신합니다(앞 10편은 본문을 늘려 같은 링크 · 파일로 고침). 낮에 받은 「인테리어10편」 지시와는 별개이고 시각이 안 겹칩니다.
+원고: 화면 링크를 열면 글이 완성된 모습. 같은 파일이 4_어사이드 › 원고 › nangman_interior_<이름>.html, 사진은 원고 › nangman_interior_<이름> 폴더(_01부터, 첫 장 대표).
+방법: 화면에서 제목 · 본문 복사 → 네이버 에디터에 붙여 넣기 → 소제목 · 표 · 사진 위치 확인 → 태그(본문 맨 아래 #태그) → 카테고리 → 아래 시각 예약. HTML 코드를 붙이지 않음.
+속도: 하루 2편까지 · 4시간 넘게 간격(아래 시각이 이미 그렇게 짜여 있음). 카테고리가 없으면 「인테리어 지식」에 넣고 보고에 적기.
+1번(매교역 팰루시드 39타입)은 11/16 입주 전에 떠야 해서 11/7 10:00입니다. 오늘 밤 먼저 예약해 주세요.
+발행 · 예약 뒤 확인: 본문에 ##, **, [CALL], <div 같은 기호가 글자로 보이면 지우기 · 사진 다 보이는지 · 표가 좌우로 꽉 찼는지.
+
+1. 2026-11-07 10:00 · 입주청소 · 매교역 팰루시드 39타입 입주청소, 민간임대 154세대가 볼 것
+   화면: https://claude.ai/artifact/BTLEgfhBbQwUJ4gZ53S6Gn
+   파일: 원고/nangman_interior_maegyo39.html
+
+2. 2026-11-12 10:00 · 입주 단지 · 군산 레이크시티 아이파크 입주일, 84A 줄눈 · 청소 순서
+   화면: https://claude.ai/artifact/MtZ1G6M2h69vjyaNLfybiW
+   파일: 원고/nangman_interior_gunsan.html
+
+3. 2026-11-13 10:00 · 줄눈 · 힐스테이트 등촌역 줄눈, 짐 들어온 뒤에도 하루에 끝내는 법
+   화면: https://claude.ai/artifact/AAk4EDeSQAsGN7ovvSquUJ
+   파일: 원고/nangman_interior_deungchon.html
+
+4. 2026-11-14 14:00 · 줄눈 · 화장실 줄눈 곰팡이 제거, 실리콘 덧바른 빌라를 케라폭시로
+   화면: https://claude.ai/artifact/QssV4YRN3wXAXMpZL2bT88
+   파일: 원고/nangman_interior_julnun_mold.html
+
+5. 2026-11-15 10:00 · 입주청소 · 청주 입주청소 가격, 33평 · 34평 청소만 맡기면 얼마
+   화면: https://claude.ai/artifact/Sbj6XPX5hscj1qA3YVyBbh
+   파일: 원고/nangman_interior_cheongju.html
+
+6. 2026-11-15 14:00 · 중문 · 3연동 중문 부품 명칭, 고장 나는 곳 다섯 군데와 부품값
+   화면: https://claude.ai/artifact/WYZ6aZ9e3a563n4uVgGXax
+   파일: 원고/nangman_interior_jungmun_parts.html
+
+7. 2026-11-17 14:00 · 중문 · 신발장 리폼 중문, 문틀 자리 없을 때 신발장 문 8cm 줄인 집
+   화면: https://claude.ai/artifact/5d7VApnzbKRVaeehgPYgnd
+   파일: 원고/nangman_interior_shoes_reform.html
+
+8. 2026-11-18 14:00 · 결로 · 결로 방지 벽지 시공, 창원 집 벽 3면을 단열재로 다시
+   화면: https://claude.ai/artifact/RvbVs6qgp8SMvR5t4YUDLU
+   파일: 원고/nangman_interior_glass_condense.html
+
+9. 2026-11-19 10:00 · 인테리어 지식 · 변기 물이 안차요, 필밸브 교체 비용과 부속 세트 바꾼 세 집
+   화면: https://claude.ai/artifact/SnZFSWnhewR1FfoCrtpdBs
+   파일: 원고/nangman_interior_toilet_fill.html
+
+10. 2026-11-19 14:00 · 입주 단지 · 더샵 탕정인피니티시티 2차 중문, 70㎡ · 84㎡ 현관 재는 법
+   화면: https://claude.ai/artifact/XBeXu937N469Gfr8DkPyXF
+   파일: 원고/nangman_interior_tangjeong2.html
+
+11. 2026-11-20 10:00 · 인테리어 지식 · 세면대 팝업 교체 비용, 물마개가 안 올라올 때 트랩까지
+   화면: https://claude.ai/artifact/Mkq6LEWregPDM4dyvoWNup
+   파일: 원고/nangman_interior_sink_popup.html
+
+12. 2026-11-20 14:00 · 입주청소 · 배방 필하우스 리버시티 입주청소, 팬트리 · 알파룸까지 견적
+   화면: https://claude.ai/artifact/XUCZPdNMYZ4V4nF7azF9YW
+   파일: 원고/nangman_interior_baebang.html
+
+13. 2026-11-21 10:00 · 줄눈 · 케라폭시 줄눈 가격, 폴리우레아와 차이와 송도 집 공간별 선택
+   화면: https://claude.ai/artifact/PPBmGwm9rTNeaonsQNSpc3
+   파일: 원고/nangman_interior_kerapoxy.html
+
+14. 2026-11-21 14:00 · 사전점검 · 역북 서희스타힐스 프라임시티 사전점검, 912세대 맡길 때 볼 것
+   화면: https://claude.ai/artifact/TfqJJ8btgF92u8fctwhd2s
+   파일: 원고/nangman_interior_yeokbuk.html
+
+15. 2026-11-22 10:00 · 인테리어 지식 · 싱크대 배수구 교체 비용, 냄새 나던 플라스틱을 올스텐으로
+   화면: https://claude.ai/artifact/Mc45ahb42tEYWkAcARtrPK
+   파일: 원고/nangman_interior_sink_drain.html
+
+16. 2026-11-22 14:00 · 중문 · 오피스텔 중문 가격, 입구 좁은 동탄 헤리움에 문틀 없는 3연동
+   화면: https://claude.ai/artifact/NgvHUhTHsvepU91oEw3wuP
+   파일: 원고/nangman_interior_officetel_jungmun.html
+
+17. 2026-11-23 10:00 · 결로 · 벽지 곰팡이 제거, 들뜬 벽지 뒤가 까만 창원 안방
+   화면: https://claude.ai/artifact/EsGtBC78D6ckLLaidQgDqb
+   파일: 원고/nangman_interior_wall_mold.html
+
+18. 2026-11-23 14:00 · 인테리어 지식 · 해바라기 샤워기 교체, 물 새던 수전을 선반형으로 바꾼 집
+   화면: https://claude.ai/artifact/J6kAx7Cgt985oP5F28azkZ
+   파일: 원고/nangman_interior_shower_faucet.html
+
+19. 2026-11-24 10:00 · 인테리어 지식 · 변기 교체 비용, 바닥 누수로 통째로 바꾼 인창포레리움
+   화면: https://claude.ai/artifact/9CMj5oUKwMD4bh1b9F31qy
+   파일: 원고/nangman_interior_toilet_replace.html
+
+20. 2026-11-24 14:00 · 입주 단지 · e편한세상 일산 메이포레 중문, 현관 팬트리 있는 집 원슬라이딩
+   화면: https://claude.ai/artifact/H3CvUFm1rUPmkAWGiDjrg2
+   파일: 원고/nangman_interior_maypore.html
+
+끝나면 5_보고 에 「인테리어새20편_1105_보고」: 번호마다 예약 시각 · 대표 사진 · 못 한 것.
