@@ -1,0 +1,19 @@
+[네이버 낭만 인테리어(champion_chart) 예약 발행 10편 · 11/5]
+
+방법: 네이버 예약 큐 https://claude.ai/artifact/PS11qiW1RWP3mn2KqiZNKQ 의 「대기」 줄 10개(11/7~11/14). 줄마다 도우미 링크를 열고 → 제목 · 본문 · 태그 복사 → 네이버 글쓰기에 붙여 넣기 → 카테고리 → 예약 발행(줄에 적힌 날짜 · 시각).
+- 대표 사진: 본문 첫 사진을 대표로.
+- 사진이 안 보이면 붙여 넣기 뒤 10초 기다렸다가 다시 확인.
+- 본문 · 제목은 고치지 않는다.
+
+1 2026-11-07 10:00 줄눈 · 줄눈 재시공 비용 · https://claude.ai/artifact/HsYCziuVDWADW8zfDo5nkB
+2 2026-11-07 20:00 코킹 · 아파트 외벽 코킹 · https://claude.ai/artifact/6gxa2k5fjJkCngS8oGBHH8
+3 2026-11-08 10:00 입주청소 · 강동역 SK리더스뷰 입주청소 · https://claude.ai/artifact/BBu7ZSkx9ytSFisyq6aUxq
+4 2026-11-09 20:00 도어락 · 대문 도어락 교체 · https://claude.ai/artifact/C9fku6cWDn1X7vkHtdSyCQ
+5 2026-11-10 14:00 인테리어 지식 · 베이크아웃 방법 · https://claude.ai/artifact/NZ1TwQcFqHkWVuRx4JGNnb
+6 2026-11-10 20:00 줄눈 · 현관 줄눈 색상 · https://claude.ai/artifact/DKfq9vKcqn3dSmW5rQmFEE
+7 2026-11-11 20:00 줄눈 · 의왕 센트라인 데시앙 줄눈 · https://claude.ai/artifact/FqCWmQGEDMHBRC94nz3Sa3
+8 2026-11-12 20:00 입주청소 · 평촌어반밸리 입주청소 · https://claude.ai/artifact/ABQPBCUJVzLzgCeUX81gRQ
+9 2026-11-13 20:00 사전점검 · 사전점검 대행 업체 · https://claude.ai/artifact/489sQ5wkFoDx5kxFgeX3LR
+10 2026-11-14 10:00 줄눈 · 매교역 팰루시드 줄눈 · https://claude.ai/artifact/X8kzQbyrRmbrdc17EMWZYf
+
+끝나면 블로그/협업/5_보고 에 「인테리어10편_1105_보고」: 번호마다 예약 완료 여부 · 대표 사진 지정 여부 · 못 한 이유.
