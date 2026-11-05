@@ -3,13 +3,18 @@
 사용: python3 html2aside_html.py <폴더> nangman_<이름> [--up]  → /home/claude/w/aside_out/nangman_<이름>.html"""
 import sys, re, json, glob, subprocess, html as H
 d, name = sys.argv[1], sys.argv[2]
-s = open(f'{d}/post.html', encoding='utf8').read()
+sys.path.insert(0, '/home/claude/tools/postkit'); from vis2img import prep
+s, vm = prep(d)
 urls = json.load(open(f'{d}/urls.json'))
 T = re.search(r"TITLE\s*=\s*['\"](.+?)['\"]", open(f'{d}/mk.py', encoding='utf8').read()).group(1)
 k = [1]
 def lab(m):
-    if 'lh3.googleusercontent' not in m.group(0): return m.group(0)
-    k[0] += 1; return f'<p style="font-size:14px;color:#c00;font-weight:700;">▼ 사진 {k[0]:02d}.jpg</p>' + m.group(0)
+    g = m.group(0)
+    if 'lh3.googleusercontent' not in g and 'vis://' not in g: return g
+    if 'vis://' in g:
+        import base64; u = re.search(r'src="([^"]+)"', g).group(1)
+        g = g.replace(u, 'data:image/png;base64,' + base64.b64encode(open(vm[u], 'rb').read()).decode())
+    k[0] += 1; return f'<p style="font-size:14px;color:#c00;font-weight:700;">▼ 사진 {k[0]:02d}.jpg</p>' + g
 s = re.sub(r'<img[^>]+>', lab, s)
 th = urls.get('thumb', '')
 top = (f'<p style="font-size:14px;color:#c00;font-weight:700;">제목 칸: {H.escape(T)}</p>'
