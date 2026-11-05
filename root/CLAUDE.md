@@ -51,7 +51,3 @@
 - 낭만 인테리어(Upload-Post default · champion_chart) · 낭만 부동산(nangman_budongsan · dong_jin_kim) 틱톡에는 올리지 않는다. 어떤 작업이든 platforms 에 "tiktok" 을 넣지 않는다.
 - 낭만도사(nangman_dosa · hidjkim2000) 틱톡만 계속 쓴다.
 - 계정 삭제는 사용자가 틱톡 앱에서 직접(Claude는 하지 않음).
-
-## 블로그 우체통 열쇠는 저장소에 없음 (11/4 23시 · 저장소가 공개라 열쇠가 드러나 있었음)
-- Code.gs 의 KEY 는 Apps Script 스크립트 속성 KEY 에서 읽는다. gas/conf.json · key.txt · setup.html 은 저장소에서 뺐다(.gitignore).
-- 새 창에서 /home/claude/gas/conf.json 이 없으면 사용자에게 웹 앱 주소와 열쇠를 받아 {"url","key"} 로 만든다(공개 저장소 · 프로젝트 문서에 적지 않음).
