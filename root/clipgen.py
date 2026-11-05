@@ -1,10 +1,11 @@
 import sys; sys.path.insert(0,'/home/claude'); from comic import *
 from assemble import assemble
 from PIL import Image
+_REALP=person
 import os, re
 Y=(240,190,40); WH=(255,255,255); CREAM=(255,243,196); PALE=(210,220,235)
 BRAND={'nm':('낭만 부동산 분석 플랫폼','blog.naver.com/dong_jin_kim','#낭만부동산'),
-       'int':('낭만 인테리어','010-7678-9967','#낭만인테리어'),
+       'int':('낭만 인테리어','010-2882-8165','#낭만인테리어'),
        'js':('지산드림','blog.naver.com/jisandream01','#지산드림')}
 def foot(d,b,c=SAND): ctext(d,1830,BRAND[b][0],F(40,False),c)
 def fit(d,t,size,maxw=940):
@@ -58,12 +59,24 @@ def S_bars(d,b,lines,items,unit='',c=NAVY,size=76):
         else: d.text((100+max(w,14),y+76+bh//2-32),txt,font=F(60),fill=cc)
     yb=y0+n*h
     if yb<1330: person(d,540,yb+110,0.6,face='smile',shirt=MID)
-def S_end(d,b,lines,sub,sub2='블로그에 정리했습니다'):
+CTA=('사진 한 장 보내 주시면','무료로 봐 드립니다')   # 10/12 11:46 사용자 「6번 적용 전번도 공개」 — 인테리어 끝 장면은 문의 창구로
+def S_end(d,b,lines,sub,sub2='블로그에 정리했습니다',tel=None):
+    if b=='int':
+        cap(d,lines,WH,74)
+        cfit(d,430,CTA[0],86,Y); cfit(d,540,CTA[1],96,Y)
+        person(d,540,860,0.7,face='smile',shirt=OK)
+        t=tel or BRAND['int'][1]
+        cfit(d,1180,t,120,WH,maxw=1000)
+        cfit(d,1340,'전화 · 문자 모두 됩니다',58,Y)
+        cfit(d,1460,'두 공정 이상 · 공동구매 최대 3% 할인(일부 협의)',50,WH)   # 10/12 22:50 사용자 (합계 100만 1% · 200만 2% · 300만 3%)
+        cfit(d,1540,'blog.naver.com/champion_chart',42,PALE)
+        return
     cap(d,lines,WH,78); cfit(d,600,sub[0],88,Y)
     if len(sub)>1: cfit(d,730,sub[1],88,Y)
     person(d,540,1060,0.8,face='smile',shirt=OK)
     cfit(d,1400,sub2,52,PALE); cfit(d,1470,'블로그에 정리했습니다',52,PALE)
-    cfit(d,1600,(BRAND[b][0]+' '+BRAND[b][1]) if b=='int' else BRAND[b][1],48,Y if b=='int' else PALE)
+    cfit(d,1600,tel if tel else ((BRAND[b][0]+' '+BRAND[b][1]) if b=='int' else BRAND[b][1]),48,Y if (b=='int' or tel) else PALE)
+    if tel: cfit(d,1670,'blog.naver.com/champion_chart',40,PALE)
 def S_quote(d,b,lines,q,who='',c=NAVY,size=76,face='smile'):
     cap(d,lines,c,size); person(d,300,900,0.9,face=face,shirt=WARN); person(d,780,900,0.9,face='shock',shirt=MID)
     bubble(d,70,1260,940,260,q if isinstance(q,list) else [q],size=58,fill=CREAM)
@@ -77,7 +90,37 @@ def S_steps(d,b,lines,steps,c=NAVY,size=76):
     yb=y0+n*h
     if yb<1330: person(d,540,yb+110,0.6,face='smile',shirt=MID)
 
-TYPES=dict(hook=S_hook,big=S_big,cards=S_cards,vs=S_vs,bars=S_bars,end=S_end,quote=S_quote,steps=S_steps)
+def S_dog(d,b,lines,bub,face='happy',c=NAVY,size=78,slip=False,owner=None,owner_face='worry'):
+    """강아지 캐릭터 장면 (10/9) — 강아지가 말풍선으로 말한다. owner를 주면 보호자가 옆에 선다."""
+    cap(d,lines,c,size)
+    if owner: _REALP(d,250,860,0.95,face=owner_face,shirt=MID); dog(d,700,880,1.15,face=face,slip=slip)
+    else: dog(d,540,860,1.4,face=face,slip=slip)
+    bubble(d,80,1330,920,230,bub,size=60,fill=CREAM)
+def S_comic(d,b,lines,items,c=NAVY,size=78):
+    """만화 장면 (10/9) — items: ('floor',y,kind[,x0,x1]) · ('dog',x,y,s,face,pose) · ('person',x,y,s,face) · ('sofa',x,y,s) · ('box',x,y,s,label)
+    · ('sample',x,y,s) · ('hand',x,y,s) · ('boom',x,y,text,size) · ('speed',x,y,n,ln) · ('text',x,y,txt,size,color) · ('bubble',x,y,w,h,lines,size) · ('star',x,y,r)"""
+    import comic as C
+    cap(d,lines,c,size)
+    for it in items:
+        k=it[0]; a=it[1:]
+        if k=='floor': C.floor(d,a[0],a[1],*(a[2:]))
+        elif k=='cat': C.ccat(d,a[0],a[1],a[2],face=a[3],pose=a[4] if len(a)>4 else 'sit')
+        elif k=='tower': C.tower(d,*a)
+        elif k=='racc': C.racc(d,a[0],a[1],a[2],face=a[3],pose=a[4] if len(a)>4 else 'stand')
+        elif k=='key': C.key(d,*a)
+        elif k=='paper': C.paper(d,*a)
+        elif k=='dog': C.cdog(d,a[0],a[1],a[2],face=a[3],pose=a[4] if len(a)>4 else 'sit')
+        elif k=='person': _REALP(d,a[0],a[1],a[2],face=a[3],shirt=MID)
+        elif k=='sofa': C.sofa(d,*a)
+        elif k=='box': C.box(d,*a)
+        elif k=='sample': C.sample(d,*a)
+        elif k=='hand': C.hand(d,*a)
+        elif k=='boom': C.boom(d,*a)
+        elif k=='speed': C.speed(d,*a)
+        elif k=='star': C.star(d,a[0],a[1],a[2],(240,190,40))
+        elif k=='text': ctext(d,a[1],a[2],F(a[3]),a[4] if len(a)>4 else WARN,a[0])
+        elif k=='bubble': bubble(d,a[0],a[1],a[2],a[3],a[4],size=a[5] if len(a)>5 else 60,fill=CREAM)
+TYPES=dict(comic=S_comic,dog=S_dog,hook=S_hook,big=S_big,cards=S_cards,vs=S_vs,bars=S_bars,end=S_end,quote=S_quote,steps=S_steps)
 
 def make(b,slug,scenes,durs,cover,info,outdir):
     os.makedirs(outdir,exist_ok=True); cwd=os.getcwd(); os.chdir(outdir)
@@ -97,6 +140,9 @@ def make(b,slug,scenes,durs,cover,info,outdir):
     capn=info['cap']; tags=' '.join(info['tags5'])
     captxt=capn+' '+tags
     sc_lines='\n'.join(f'{i+1:<2} {s:<40} {dd:.1f}초' for i,(s,dd) in enumerate(zip(info['scenes'],durs)))
+    TEL=info.get('tel',{'int':'010-2882-8165'}.get(b))   # 10/9 사용자: info에 전화 번호 — 전화가 올 수 있음
+    telc=f"\n\n고정 댓글 (캡션 100자에 안 들어가서 댓글로)\n사진 한 장 보내 주시면 무료로 봐 드립니다 · 전화 · 문자 {TEL} · 사는 지역과 하고 싶은 공사를 말씀해 주세요" if TEL else ''
+    teld=(f"\n\n사진 한 장 보내 주시면 무료로 봐 드립니다.\n전화 · 문자 {TEL}" if b=='int' else f"\n\n전화 문의 {TEL}") if TEL else ''
     txt=f"""{info['name']} 숏폼 · 1080×1920 · {tot:.1f}초
 파일: {mp4}
 =====================================
@@ -112,7 +158,7 @@ def make(b,slug,scenes,durs,cover,info,outdir):
 
 연결할 글
 {info['title']}
-{info.get('url','(발행 뒤 링크)')}
+{info.get('url','(발행 뒤 링크)')}{telc}
 
 
 [ 유튜브 쇼츠 ]
@@ -121,7 +167,7 @@ def make(b,slug,scenes,durs,cover,info,outdir):
 {info['yt']} #shorts
 
 설명
-{info['desc']}
+{info['desc']}{teld}
 
 전체 내용은 블로그에 있습니다.
 {info.get('url','(발행 뒤 링크)')}
