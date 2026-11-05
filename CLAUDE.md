@@ -47,6 +47,11 @@
 - 하남 땅값 자료 hanam_land.pkl 은 저장소에 없음 — /mnt/attach/outputs/부동산DB.parquet 에서 다시 만든다(자료=='토지' · 시군구에 하남 · 해제사유발생일 '-').
 - 방향: 하남 토지 집중 · 땅 팔 사람 · 살 사람 둘 다 (프로젝트 문서 claude/지산드림_하남토지_집중_1031.md · claude/지산드림_매물부스팅_마스터.md).
 
+## SNS 예약: Upload-Post → 자체 프로그램으로 바꾸는 중 (11/6 사용자 「Upload-Post 다음달부터 결재 안 되게」 · 「네가 프로그램 하나 만들어라」)
+- 인스타 · 스레드는 블로그 우체통2 안의 gas/Sns.gs 가 공식 API로 올린다. 예약 = `python3 /home/claude/helper/sns.py add …`(드라이브 「블로그/SNS예약/대기」 json). 유튜브 · 틱톡은 `sns.py yt|tiktok …` → 어사이드 지시 파일.
+- 전환 상태는 프로젝트 문서 claude/UploadPost_해지_전환계획_1106.md 맨 아래 json. phase 가 "live" 가 되기 전까지는 Upload-Post 를 그대로 쓴다(정기 작업 「Upload-Post 만료 전 전환」이 시험 · 전환을 맡음).
+- 새 SNS 일을 만들 때 Upload-Post 프로필을 새로 만들지 않는다(5칸 꽉 참 · 해지 예정).
+
 ## 틱톡 중단 (11/3 22:43 사용자 「낭만도사만 빼고 틱톡 다 죽여」)
 - 낭만 인테리어(Upload-Post default · champion_chart) · 낭만 부동산(nangman_budongsan · dong_jin_kim) 틱톡에는 올리지 않는다. 어떤 작업이든 platforms 에 "tiktok" 을 넣지 않는다.
 - 낭만도사(nangman_dosa · hidjkim2000) 틱톡만 계속 쓴다.
