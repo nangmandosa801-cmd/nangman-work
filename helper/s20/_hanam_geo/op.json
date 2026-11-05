@@ -1,0 +1,9970 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-05T14:37:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5400270994,
+  "lat": 37.5519584,
+  "lon": 127.2036311,
+  "tags": {
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "loc_name": "하남풍산역",
+    "loc_name:en": "Hanam Pungsan Station",
+    "name": "하남풍산",
+    "name:en": "Hanam Pungsan",
+    "name:ja": "ハナムプンサン",
+    "name:ko": "하남풍산",
+    "name:zh": "河南丰山",
+    "operator": "서울교통공사",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2020-08-08",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q65309634",
+    "wikipedia": "ko:하남풍산역"
+  }
+},
+{
+  "type": "node",
+  "id": 5400271007,
+  "lat": 37.5417742,
+  "lon": 127.2067037,
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "820",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "alt_name": "하남시청역;덕풍·신장역",
+    "alt_name:en": "Hanam City Hall Station;Deokpung·Sinjang Station",
+    "alt_name:ko": "하남시청역;덕풍·신장역",
+    "internet_access": "wlan",
+    "name": "하남시청",
+    "name:en": "Hanam City Hall",
+    "name:ja": "河南市庁",
+    "name:ja-Hira": "ハナムシチョン",
+    "name:ko": "하남시청",
+    "operator": "서울교통공사",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2021-03-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q65309617",
+    "wikipedia": "ko:하남시청역"
+  }
+},
+{
+  "type": "node",
+  "id": 5400271021,
+  "lat": 37.5397035,
+  "lon": 127.2235329,
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "100",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "internet_access": "wlan",
+    "name": "하남검단산",
+    "name:en": "Hanam Geomdansan",
+    "name:ja": "河南黔丹山",
+    "name:ja-Hira": "ハナムゴムダンサン",
+    "name:ko": "하남검단산",
+    "operator": "서울교통공사",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2021-03-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q65309604",
+    "wikipedia": "ko:하남검단산역"
+  }
+},
+{
+  "type": "way",
+  "id": 276693221,
+  "center": {
+    "lat": 37.5337720,
+    "lon": 127.1967603
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "한솔리치빌아파트1단지"
+  }
+},
+{
+  "type": "way",
+  "id": 388675828,
+  "center": {
+    "lat": 37.5521740,
+    "lon": 127.2018135
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "58",
+    "building:levels": "10",
+    "height": "29",
+    "name": "203동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675829,
+  "center": {
+    "lat": 37.5516618,
+    "lon": 127.2013953
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29",
+    "name": "204동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675830,
+  "center": {
+    "lat": 37.5516604,
+    "lon": 127.2019004
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "205동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675831,
+  "center": {
+    "lat": 37.5519052,
+    "lon": 127.2024593
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "12",
+    "height": "34.56",
+    "name": "202동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675832,
+  "center": {
+    "lat": 37.5515497,
+    "lon": 127.2030260
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29",
+    "name": "201동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675834,
+  "center": {
+    "lat": 37.5510426,
+    "lon": 127.2026692
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "90",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "209동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675835,
+  "center": {
+    "lat": 37.5511573,
+    "lon": 127.2020706
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "207동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675837,
+  "center": {
+    "lat": 37.5510954,
+    "lon": 127.2016432
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29.33",
+    "name": "206동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388675838,
+  "center": {
+    "lat": 37.5507187,
+    "lon": 127.2020438
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "66",
+    "building:levels": "11",
+    "height": "31.68",
+    "name": "208동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 388784514,
+  "center": {
+    "lat": 37.5514148,
+    "lon": 127.2022680
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "풍산휴먼시아2단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 468412078,
+  "center": {
+    "lat": 37.5363025,
+    "lon": 127.2047362
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "벽산블루밍아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 468591120,
+  "center": {
+    "lat": 37.5409926,
+    "lon": 127.2259949
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "150",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "114동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468591121,
+  "center": {
+    "lat": 37.5405521,
+    "lon": 127.2262970
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "150",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "115동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468591122,
+  "center": {
+    "lat": 37.5397840,
+    "lon": 127.2268565
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "150",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "102동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468591123,
+  "center": {
+    "lat": 37.5395748,
+    "lon": 127.2273883
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "105",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "101동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468591124,
+  "center": {
+    "lat": 37.5400346,
+    "lon": 127.2263311
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "90",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "103동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468591126,
+  "center": {
+    "lat": 37.5400487,
+    "lon": 127.2256948
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "150",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "104동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468591127,
+  "center": {
+    "lat": 37.5401711,
+    "lon": 127.2247567
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "135",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "105동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592833,
+  "center": {
+    "lat": 37.5405399,
+    "lon": 127.2253153
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "부영아파트",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "addr:subdistrict": "창우동",
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "106동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592834,
+  "center": {
+    "lat": 37.5409091,
+    "lon": 127.2246535
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "107동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592835,
+  "center": {
+    "lat": 37.5410525,
+    "lon": 127.2238391
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "부영아파트108동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592836,
+  "center": {
+    "lat": 37.5417113,
+    "lon": 127.2237358
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "165",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "110동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592837,
+  "center": {
+    "lat": 37.5421235,
+    "lon": 127.2239622
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "165",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "111동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592838,
+  "center": {
+    "lat": 37.5418133,
+    "lon": 127.2246902
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "112동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592839,
+  "center": {
+    "lat": 37.5414264,
+    "lon": 127.2245050
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "165",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "109동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468592840,
+  "center": {
+    "lat": 37.5414313,
+    "lon": 127.2253927
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "119",
+    "addr:postcode": "12944",
+    "addr:province": "경기도",
+    "addr:street": "대청로",
+    "building": "apartments",
+    "building:flats": "150",
+    "building:levels": "15",
+    "height": "41.2",
+    "name": "113동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468601772,
+  "center": {
+    "lat": 37.5562792,
+    "lon": 127.1933820
+  },
+  "tags": {
+    "addr:housenumber": "100",
+    "addr:street": "미사강변중앙로",
+    "area": "yes",
+    "landuse": "residential",
+    "name": "미사강변도시26단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 468609477,
+  "center": {
+    "lat": 37.5375643,
+    "lon": 127.2267733
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "417동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468609491,
+  "center": {
+    "lat": 37.5353829,
+    "lon": 127.2248805
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "408동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468609495,
+  "center": {
+    "lat": 37.5357960,
+    "lon": 127.2246079
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "name": "406동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468609497,
+  "center": {
+    "lat": 37.5355891,
+    "lon": 127.2241674
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "407동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468609499,
+  "center": {
+    "lat": 37.5361825,
+    "lon": 127.2249494
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "17",
+    "name": "405동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468609513,
+  "center": {
+    "lat": 37.5379844,
+    "lon": 127.2247374
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "154",
+    "building:levels": "20",
+    "height": "55.6",
+    "name": "101동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 468610844,
+  "center": {
+    "lat": 37.5375083,
+    "lon": 127.2260644
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "416동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 468651512,
+  "center": {
+    "lat": 37.5563926,
+    "lon": 127.1929368
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "20",
+    "height": "57.2",
+    "name": "2603동",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 468651513,
+  "center": {
+    "lat": 37.5567060,
+    "lon": 127.1938232
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "20",
+    "height": "57.2",
+    "name": "2604동",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 468651514,
+  "center": {
+    "lat": 37.5558022,
+    "lon": 127.1928216
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "127",
+    "building:levels": "21",
+    "height": "60.4",
+    "name": "2602동",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 468651515,
+  "center": {
+    "lat": 37.5559927,
+    "lon": 127.1933528
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "97",
+    "building:levels": "21",
+    "height": "60.4",
+    "name": "2601동",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 468651516,
+  "center": {
+    "lat": 37.5563066,
+    "lon": 127.1940954
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "132",
+    "building:levels": "20",
+    "height": "57.2",
+    "name": "2605동",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 468707487,
+  "center": {
+    "lat": 37.5543139,
+    "lon": 127.1976705
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "풍산제일풍경채1단지"
+  }
+},
+{
+  "type": "way",
+  "id": 468707488,
+  "center": {
+    "lat": 37.5527589,
+    "lon": 127.1971724
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "풍산제일풍경채2단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 468707496,
+  "center": {
+    "lat": 37.5525401,
+    "lon": 127.1969768
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "206동"
+  }
+},
+{
+  "type": "way",
+  "id": 468707497,
+  "center": {
+    "lat": 37.5523221,
+    "lon": 127.1973644
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "207동"
+  }
+},
+{
+  "type": "way",
+  "id": 468707499,
+  "center": {
+    "lat": 37.5532906,
+    "lon": 127.1973254
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "201동"
+  }
+},
+{
+  "type": "way",
+  "id": 468707500,
+  "center": {
+    "lat": 37.5525634,
+    "lon": 127.1964564
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "205동"
+  }
+},
+{
+  "type": "way",
+  "id": 468707501,
+  "center": {
+    "lat": 37.5531248,
+    "lon": 127.1976861
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "202동"
+  }
+},
+{
+  "type": "way",
+  "id": 468707502,
+  "center": {
+    "lat": 37.5529483,
+    "lon": 127.1979879
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "203동"
+  }
+},
+{
+  "type": "way",
+  "id": 468715065,
+  "center": {
+    "lat": 37.5515464,
+    "lon": 127.2106816
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "210",
+    "addr:postcode": "12926",
+    "addr:province": "경기도",
+    "addr:street": "덕풍북로",
+    "landuse": "residential",
+    "name": "하남풍산대명세라뷰",
+    "residential": "apartments",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 468715077,
+  "center": {
+    "lat": 37.5525905,
+    "lon": 127.2003835
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산휴먼시아1단지"
+  }
+},
+{
+  "type": "way",
+  "id": 468791518,
+  "center": {
+    "lat": 37.5541572,
+    "lon": 127.1973076
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "103동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791519,
+  "center": {
+    "lat": 37.5539797,
+    "lon": 127.1976854
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "102동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791520,
+  "center": {
+    "lat": 37.5538339,
+    "lon": 127.1981341
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "101동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791521,
+  "center": {
+    "lat": 37.5542988,
+    "lon": 127.1985599
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "107동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791522,
+  "center": {
+    "lat": 37.5544542,
+    "lon": 127.1982172
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "108동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791523,
+  "center": {
+    "lat": 37.5546653,
+    "lon": 127.1978632
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "109동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791524,
+  "center": {
+    "lat": 37.5544339,
+    "lon": 127.1970592
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "105동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791525,
+  "center": {
+    "lat": 37.5547677,
+    "lon": 127.1970934
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.4",
+    "name": "106동"
+  }
+},
+{
+  "type": "way",
+  "id": 468791530,
+  "center": {
+    "lat": 37.5530057,
+    "lon": 127.2004706
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "12",
+    "height": "34.38",
+    "name": "109동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791531,
+  "center": {
+    "lat": 37.5533320,
+    "lon": 127.1999945
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "66",
+    "building:levels": "11",
+    "height": "31.78",
+    "name": "110동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791532,
+  "center": {
+    "lat": 37.5528413,
+    "lon": 127.1997396
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "111동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791533,
+  "center": {
+    "lat": 37.5523150,
+    "lon": 127.1995142
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29.33",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791534,
+  "center": {
+    "lat": 37.5518166,
+    "lon": 127.1994452
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29.18",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791535,
+  "center": {
+    "lat": 37.5517806,
+    "lon": 127.2000731
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29.34",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791536,
+  "center": {
+    "lat": 37.5518430,
+    "lon": 127.2007720
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "10",
+    "height": "29.33",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791537,
+  "center": {
+    "lat": 37.5524259,
+    "lon": 127.2013681
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "10",
+    "height": "29.33",
+    "name": "105동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791538,
+  "center": {
+    "lat": 37.5522394,
+    "lon": 127.2007214
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "106동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791539,
+  "center": {
+    "lat": 37.5527249,
+    "lon": 127.2008936
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "60",
+    "building:levels": "12",
+    "height": "34.33",
+    "name": "107동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 468791540,
+  "center": {
+    "lat": 37.5523429,
+    "lon": 127.2000886
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "108동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 469326681,
+  "center": {
+    "lat": 37.5425145,
+    "lon": 127.2111623
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "신장에코타운2단지",
+    "name:en": "Echo Town APT complex 2",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 469326682,
+  "center": {
+    "lat": 37.5426824,
+    "lon": 127.2145993
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "신장에코타운3단지",
+    "name:en": "Echo Town APT complex 3",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 469430227,
+  "center": {
+    "lat": 37.5414797,
+    "lon": 127.2106558
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "105",
+    "building:levels": "22",
+    "height": "59.7",
+    "name": "104동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 469430232,
+  "center": {
+    "lat": 37.5414002,
+    "lon": 127.2100024
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "101",
+    "building:levels": "22",
+    "height": "59.7",
+    "name": "103동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 469430234,
+  "center": {
+    "lat": 37.5409832,
+    "lon": 127.2100126
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "104",
+    "building:levels": "22",
+    "height": "59.7",
+    "name": "102동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 469662532,
+  "center": {
+    "lat": 37.5411092,
+    "lon": 127.2102571
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "에코타운 1단지",
+    "name:en": "Echo Town APT complex 1",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 469931938,
+  "center": {
+    "lat": 37.5419397,
+    "lon": 127.2177804
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.5",
+    "name": "105동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112145,
+  "center": {
+    "lat": 37.5415842,
+    "lon": 127.2184948
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.5",
+    "name": "108동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112147,
+  "center": {
+    "lat": 37.5416696,
+    "lon": 127.2173541
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "76",
+    "building:levels": "19",
+    "height": "52.3",
+    "name": "106동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112148,
+  "center": {
+    "lat": 37.5414195,
+    "lon": 127.2177441
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.5",
+    "name": "107동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112150,
+  "center": {
+    "lat": 37.5411793,
+    "lon": 127.2174517
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "height": "43.9",
+    "name": "110동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112155,
+  "center": {
+    "lat": 37.5412280,
+    "lon": 127.2180985
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "height": "43.9",
+    "name": "109동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112166,
+  "center": {
+    "lat": 37.5421786,
+    "lon": 127.2173317
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "76",
+    "building:levels": "19",
+    "height": "52.3",
+    "name": "104동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112168,
+  "center": {
+    "lat": 37.5424827,
+    "lon": 127.2177789
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.5",
+    "name": "103동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112171,
+  "center": {
+    "lat": 37.5427235,
+    "lon": 127.2173503
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "76",
+    "building:levels": "19",
+    "height": "52.3",
+    "name": "102동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470112172,
+  "center": {
+    "lat": 37.5430377,
+    "lon": 127.2177531
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "96",
+    "building:levels": "16",
+    "height": "43.9",
+    "name": "101동",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 470164989,
+  "center": {
+    "lat": 37.5412679,
+    "lon": 127.2198448
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "더우개마을동일하이빌아파트",
+    "name:en": "Dong-il HighVille APT"
+  }
+},
+{
+  "type": "way",
+  "id": 470164990,
+  "center": {
+    "lat": 37.5412605,
+    "lon": 127.2194377
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "20",
+    "height": "53.85",
+    "name": "101동",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "way",
+  "id": 470164991,
+  "center": {
+    "lat": 37.5415744,
+    "lon": 127.2199671
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "131",
+    "building:levels": "20",
+    "height": "53.85",
+    "name": "106동",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "way",
+  "id": 470164992,
+  "center": {
+    "lat": 37.5408460,
+    "lon": 127.2198987
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "20",
+    "height": "53.85",
+    "name": "102동",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "way",
+  "id": 470164993,
+  "center": {
+    "lat": 37.5412028,
+    "lon": 127.2202975
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "20",
+    "height": "53.85",
+    "name": "103동",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "way",
+  "id": 470164994,
+  "center": {
+    "lat": 37.5415867,
+    "lon": 127.2203650
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "27",
+    "building:levels": "17",
+    "height": "53.85",
+    "name": "105동",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "way",
+  "id": 470202268,
+  "center": {
+    "lat": 37.5474777,
+    "lon": 127.2064871
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산참아름"
+  }
+},
+{
+  "type": "way",
+  "id": 470202269,
+  "center": {
+    "lat": 37.5471440,
+    "lon": 127.2081919
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산새뜰마을휴먼시아4단지"
+  }
+},
+{
+  "type": "way",
+  "id": 470202270,
+  "center": {
+    "lat": 37.5460369,
+    "lon": 127.2084640
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "풍산아이파크1단지"
+  }
+},
+{
+  "type": "way",
+  "id": 470203378,
+  "center": {
+    "lat": 37.5416017,
+    "lon": 127.2219961
+  },
+  "tags": {
+    "landuse": "residential",
+    "level": "-4",
+    "name": "대명강변아파트",
+    "name:en": "Daemyeong APT"
+  }
+},
+{
+  "type": "way",
+  "id": 470204376,
+  "center": {
+    "lat": 37.5492988,
+    "lon": 127.2084787
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산새뜰마을휴먼시아3단지"
+  }
+},
+{
+  "type": "way",
+  "id": 472435609,
+  "center": {
+    "lat": 37.5389522,
+    "lon": 127.2174304
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "238",
+    "building:levels": "17",
+    "description": "백송한신아파트",
+    "height": "48.8",
+    "name": "103동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 472435613,
+  "center": {
+    "lat": 37.5452379,
+    "lon": 127.2141479
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남UCITY대명루첸리버파크",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 473343828,
+  "center": {
+    "lat": 37.5427133,
+    "lon": 127.2102956
+  },
+  "tags": {
+    "addr:housenumber": "55",
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "202동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 473343829,
+  "center": {
+    "lat": 37.5427518,
+    "lon": 127.2110500
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "125",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "203동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 473343830,
+  "center": {
+    "lat": 37.5427810,
+    "lon": 127.2120408
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "89",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "204동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 473343831,
+  "center": {
+    "lat": 37.5423178,
+    "lon": 127.2114136
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "62",
+    "building:levels": "16",
+    "height": "42.9",
+    "name": "205동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 473343832,
+  "center": {
+    "lat": 37.5421883,
+    "lon": 127.2104806
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "124",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "201동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 537678194,
+  "center": {
+    "lat": 37.5601334,
+    "lon": 127.1961720
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "미사강변 골든센트로",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 537687202,
+  "center": {
+    "lat": 37.5599292,
+    "lon": 127.1951679
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "138",
+    "building:levels": "30",
+    "height": "85.25",
+    "name": "2803동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687205,
+  "center": {
+    "lat": 37.5593929,
+    "lon": 127.1955662
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "121",
+    "building:levels": "26",
+    "height": "74.05",
+    "name": "2805동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687208,
+  "center": {
+    "lat": 37.5587823,
+    "lon": 127.1960045
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "98",
+    "building:levels": "26",
+    "height": "74.05",
+    "name": "2808동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687210,
+  "center": {
+    "lat": 37.5590584,
+    "lon": 127.1965645
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "82",
+    "building:levels": "23",
+    "height": "65.65",
+    "name": "2809동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687213,
+  "center": {
+    "lat": 37.5594907,
+    "lon": 127.1961720
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "26",
+    "height": "74.05",
+    "name": "2806동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687219,
+  "center": {
+    "lat": 37.5598807,
+    "lon": 127.1967635
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "94",
+    "building:levels": "26",
+    "height": "74.05",
+    "name": "2807동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687221,
+  "center": {
+    "lat": 37.5594802,
+    "lon": 127.1971994
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "74",
+    "building:levels": "21",
+    "height": "60.05",
+    "name": "2810동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 537687229,
+  "center": {
+    "lat": 37.5597891,
+    "lon": 127.1977925
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "70",
+    "building:levels": "18",
+    "height": "51.65",
+    "name": "2811동",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "way",
+  "id": 550582552,
+  "center": {
+    "lat": 37.5397856,
+    "lon": 127.2116578
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "110",
+    "building:levels": "21",
+    "height": "64.58",
+    "layer": "2",
+    "name": "101",
+    "start_date": "2010"
+  }
+},
+{
+  "type": "way",
+  "id": 550582553,
+  "center": {
+    "lat": 37.5396254,
+    "lon": 127.2119729
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "110",
+    "building:levels": "21",
+    "height": "64.58",
+    "layer": "2",
+    "name": "102",
+    "start_date": "2010"
+  }
+},
+{
+  "type": "way",
+  "id": 552417218,
+  "center": {
+    "lat": 37.5577474,
+    "lon": 127.1859304
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "미사강변센트럴자이",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 556647925,
+  "center": {
+    "lat": 37.5395393,
+    "lon": 127.2177793
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "216",
+    "building:levels": "18",
+    "description": "백송한신아파트",
+    "height": "48.8",
+    "name": "102동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 556647926,
+  "center": {
+    "lat": 37.5400370,
+    "lon": 127.2179123
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "187",
+    "building:levels": "17",
+    "description": "백송한신아파트",
+    "height": "48.8",
+    "name": "101동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 556647930,
+  "center": {
+    "lat": 37.5376110,
+    "lon": 127.2128632
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "63",
+    "building:levels": "20",
+    "height": "69.5",
+    "level": "2",
+    "name": "하남두산위브파크 101",
+    "start_date": "2010"
+  }
+},
+{
+  "type": "way",
+  "id": 556899917,
+  "center": {
+    "lat": 37.5447926,
+    "lon": 127.2202812
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "94",
+    "building:levels": "25",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "84.15",
+    "name": "102동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 556916056,
+  "center": {
+    "lat": 37.5440365,
+    "lon": 127.2200069
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "91",
+    "building:levels": "23",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "78.15",
+    "name": "101동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 556916059,
+  "center": {
+    "lat": 37.5448387,
+    "lon": 127.2196953
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "25",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "84.15",
+    "name": "103동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 556916065,
+  "center": {
+    "lat": 37.5439891,
+    "lon": 127.2190569
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "90",
+    "building:levels": "23",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "78.15",
+    "name": "108동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 556916071,
+  "center": {
+    "lat": 37.5444164,
+    "lon": 127.2181507
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "91",
+    "building:levels": "23",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "78.15",
+    "name": "106동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 556916091,
+  "center": {
+    "lat": 37.5444875,
+    "lon": 127.2192125
+  },
+  "tags": {
+    "landuse": "residential",
+    "layer": "-2",
+    "name": "하남유니온시티에일린의뜰",
+    "name:en": "Eileen's Garden Hanam Union City Apartments",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 557243612,
+  "center": {
+    "lat": 37.5456308,
+    "lon": 127.2152877
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "118",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "104동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 557243614,
+  "center": {
+    "lat": 37.5447520,
+    "lon": 127.2130484
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "117",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "108동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 557243619,
+  "center": {
+    "lat": 37.5449510,
+    "lon": 127.2138181
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "107동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 557904767,
+  "center": {
+    "lat": 37.5395604,
+    "lon": 127.2187868
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "103동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 557904768,
+  "center": {
+    "lat": 37.5400757,
+    "lon": 127.2186720
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "160",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "105동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 557904769,
+  "center": {
+    "lat": 37.5398894,
+    "lon": 127.2192486
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "106동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 557904770,
+  "center": {
+    "lat": 37.5391231,
+    "lon": 127.2185060
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "160",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "101동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 557904771,
+  "center": {
+    "lat": 37.5392151,
+    "lon": 127.2191647
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "102동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 557904772,
+  "center": {
+    "lat": 37.5394338,
+    "lon": 127.2195437
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "160",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "104동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 557904773,
+  "center": {
+    "lat": 37.5399407,
+    "lon": 127.2197830
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "20",
+    "description": "백조현대아파트",
+    "height": "54",
+    "name": "107동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 558977375,
+  "center": {
+    "lat": 37.5394990,
+    "lon": 127.2175886
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "백송한신아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 559357582,
+  "center": {
+    "lat": 37.5379840,
+    "lon": 127.2126415
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "63",
+    "building:levels": "20",
+    "height": "69.5",
+    "level": "2",
+    "name": "하남두산위브파크 102",
+    "start_date": "2010"
+  }
+},
+{
+  "type": "way",
+  "id": 559357583,
+  "center": {
+    "lat": 37.5383643,
+    "lon": 127.2124036
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "63",
+    "building:levels": "20",
+    "height": "69.5",
+    "level": "2",
+    "name": "하남두산위브파크 103",
+    "start_date": "2010"
+  }
+},
+{
+  "type": "way",
+  "id": 562357701,
+  "center": {
+    "lat": 37.5388887,
+    "lon": 127.2207492
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "41.8",
+    "name": "103동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357702,
+  "center": {
+    "lat": 37.5395092,
+    "lon": 127.2209229
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "description": "은행아파트",
+    "height": "47.4",
+    "name": "102동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357703,
+  "center": {
+    "lat": 37.5388057,
+    "lon": 127.2219161
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "description": "은행아파트",
+    "height": "47.4",
+    "name": "108동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357704,
+  "center": {
+    "lat": 37.5388342,
+    "lon": 127.2213503
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "description": "은행아파트",
+    "height": "41.8",
+    "name": "104동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357705,
+  "center": {
+    "lat": 37.5383020,
+    "lon": 127.2217346
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "107동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357706,
+  "center": {
+    "lat": 37.5383932,
+    "lon": 127.2211292
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "105동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357707,
+  "center": {
+    "lat": 37.5385814,
+    "lon": 127.2225284
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "height": "41.8",
+    "name": "109동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357708,
+  "center": {
+    "lat": 37.5381184,
+    "lon": 127.2230947
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "117동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357709,
+  "center": {
+    "lat": 37.5376481,
+    "lon": 127.2235628
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "description": "은행아파트",
+    "height": "41.8",
+    "name": "119동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357710,
+  "center": {
+    "lat": 37.5381502,
+    "lon": 127.2223633
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "47.4",
+    "name": "116동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357711,
+  "center": {
+    "lat": 37.5378779,
+    "lon": 127.2214849
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "47.4",
+    "name": "106동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357712,
+  "center": {
+    "lat": 37.5394913,
+    "lon": 127.2216042
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "101동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357713,
+  "center": {
+    "lat": 37.5393645,
+    "lon": 127.2223044
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "110동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357714,
+  "center": {
+    "lat": 37.5392219,
+    "lon": 127.2230125
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "111동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357715,
+  "center": {
+    "lat": 37.5390853,
+    "lon": 127.2237056
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "112동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357716,
+  "center": {
+    "lat": 37.5386623,
+    "lon": 127.2233534
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "description": "은행아파트",
+    "height": "41.8",
+    "name": "113동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357717,
+  "center": {
+    "lat": 37.5382239,
+    "lon": 127.2237633
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "description": "은행아파트",
+    "height": "47.4",
+    "name": "115동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357718,
+  "center": {
+    "lat": 37.5386053,
+    "lon": 127.2243481
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "114동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357719,
+  "center": {
+    "lat": 37.5377324,
+    "lon": 127.2229275
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "118동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562357720,
+  "center": {
+    "lat": 37.5372652,
+    "lon": 127.2233164
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "17",
+    "description": "은행아파트",
+    "height": "44.6",
+    "name": "120동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 562405023,
+  "center": {
+    "lat": 37.5385088,
+    "lon": 127.2225081
+  },
+  "tags": {
+    "landuse": "residential",
+    "level": "-4",
+    "name": "은행뉴서울아파트",
+    "name:en": "Eunhaeng APT"
+  }
+},
+{
+  "type": "way",
+  "id": 562405024,
+  "center": {
+    "lat": 37.5405282,
+    "lon": 127.2214380
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "21",
+    "description": "대명강변타운아파트",
+    "height": "55.78",
+    "name": "101동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562405027,
+  "center": {
+    "lat": 37.5407440,
+    "lon": 127.2217718
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "86",
+    "building:levels": "22",
+    "description": "대명강변타운아파트",
+    "height": "61.68",
+    "name": "102동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562405028,
+  "center": {
+    "lat": 37.5404165,
+    "lon": 127.2221312
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "82",
+    "building:levels": "21",
+    "description": "대명강변타운아파트",
+    "height": "55.78",
+    "name": "103동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562405029,
+  "center": {
+    "lat": 37.5407177,
+    "lon": 127.2225885
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "22",
+    "description": "대명강변타운아파트",
+    "height": "61.38",
+    "name": "104동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562405030,
+  "center": {
+    "lat": 37.5411129,
+    "lon": 127.2220861
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "107동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562405031,
+  "center": {
+    "lat": 37.5410521,
+    "lon": 127.2224495
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "106동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562405032,
+  "center": {
+    "lat": 37.5410688,
+    "lon": 127.2227951
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "22",
+    "description": "대명강변타운아파트",
+    "height": "61.38",
+    "name": "105동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667065,
+  "center": {
+    "lat": 37.5412056,
+    "lon": 127.2215389
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "23",
+    "description": "대명강변타운아파트",
+    "height": "61.38",
+    "name": "108동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667066,
+  "center": {
+    "lat": 37.5416245,
+    "lon": 127.2212363
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "18",
+    "description": "대명강변타운아파트\nHalf of building is shorter than other half, giving illusion of not being rectangle from aerial view.",
+    "height": "50.18",
+    "name": "109동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667067,
+  "center": {
+    "lat": 37.5414713,
+    "lon": 127.2223892
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "110동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667068,
+  "center": {
+    "lat": 37.5417248,
+    "lon": 127.2227642
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "111동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667069,
+  "center": {
+    "lat": 37.5418015,
+    "lon": 127.2222788
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "112동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667070,
+  "center": {
+    "lat": 37.5419055,
+    "lon": 127.2216825
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "113동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667071,
+  "center": {
+    "lat": 37.5420036,
+    "lon": 127.2211308
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "20",
+    "description": "대명강변타운아파트",
+    "height": "55.78",
+    "name": "114동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667072,
+  "center": {
+    "lat": 37.5423262,
+    "lon": 127.2214218
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "22",
+    "description": "대명강변타운아파트",
+    "height": "61.38",
+    "name": "115동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667073,
+  "center": {
+    "lat": 37.5426526,
+    "lon": 127.2212435
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "38",
+    "building:levels": "20",
+    "description": "대명강변타운아파트",
+    "height": "55.78",
+    "name": "119동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667074,
+  "center": {
+    "lat": 37.5426111,
+    "lon": 127.2218851
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "90",
+    "building:levels": "25",
+    "description": "대명강변타운아파트\nHalf of building is shorter than other half, giving illusion of not being rectangle from aerial view.",
+    "name": "118동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667075,
+  "center": {
+    "lat": 37.5425172,
+    "lon": 127.2224430
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "117동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 562667076,
+  "center": {
+    "lat": 37.5420539,
+    "lon": 127.2225398
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "98",
+    "building:levels": "25",
+    "description": "대명강변타운아파트",
+    "height": "69.78",
+    "name": "116동",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 563151495,
+  "center": {
+    "lat": 37.5410296,
+    "lon": 127.2253355
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "부영아파트",
+    "name:en": "Buyeong APT"
+  }
+},
+{
+  "type": "way",
+  "id": 576188334,
+  "center": {
+    "lat": 37.5364575,
+    "lon": 127.2118880
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남신장현대홈타운아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12962",
+    "addr:province": "경기도",
+    "addr:street": "신장로76번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "125",
+    "building:levels": "21",
+    "height": "59",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 576188336,
+  "center": {
+    "lat": 37.5365264,
+    "lon": 127.2125943
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남신장현대홈타운아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12962",
+    "addr:province": "경기도",
+    "addr:street": "신장로76번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "87",
+    "building:levels": "22",
+    "height": "62",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 577220447,
+  "center": {
+    "lat": 37.5576625,
+    "lon": 127.1978726
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "1177",
+    "addr:postcode": "12923",
+    "addr:province": "경기도",
+    "addr:street": "미사강변동로",
+    "area": "yes",
+    "landuse": "residential",
+    "name": "미사 레스티아",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 577229430,
+  "center": {
+    "lat": 37.5580877,
+    "lon": 127.1965840
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "72.06",
+    "name": "3110동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229431,
+  "center": {
+    "lat": 37.5584067,
+    "lon": 127.1970564
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "96",
+    "building:levels": "24",
+    "height": "69.21",
+    "name": "3109동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229432,
+  "center": {
+    "lat": 37.5587819,
+    "lon": 127.1976250
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "104",
+    "building:levels": "27",
+    "height": "77.76",
+    "name": "3108동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229434,
+  "center": {
+    "lat": 37.5578212,
+    "lon": 127.1976411
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3101동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229435,
+  "center": {
+    "lat": 37.5583010,
+    "lon": 127.1981090
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3107동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229436,
+  "center": {
+    "lat": 37.5578345,
+    "lon": 127.1984722
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3106동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229437,
+  "center": {
+    "lat": 37.5574900,
+    "lon": 127.1989138
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3105동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229438,
+  "center": {
+    "lat": 37.5571023,
+    "lon": 127.1983048
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3104동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229439,
+  "center": {
+    "lat": 37.5565820,
+    "lon": 127.1978594
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3103동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 577229440,
+  "center": {
+    "lat": 37.5570881,
+    "lon": 127.1974686
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.46",
+    "name": "3102동",
+    "roof:colour": "#7b7561",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 579878121,
+  "center": {
+    "lat": 37.5564710,
+    "lon": 127.1957256
+  },
+  "tags": {
+    "description": "미사강변신안인스빌",
+    "landuse": "residential",
+    "name": "미사강변 신안인스빌",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 579878122,
+  "center": {
+    "lat": 37.5595433,
+    "lon": 127.1929534
+  },
+  "tags": {
+    "addr:housenumber": "47",
+    "addr:postcode": "12920",
+    "addr:street": "미사강변동로",
+    "landuse": "residential",
+    "name": "미사강변 브라운스톤 엔에이치에프",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 584527469,
+  "center": {
+    "lat": 37.5410799,
+    "lon": 127.2107254
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "110",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "105동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 584527472,
+  "center": {
+    "lat": 37.5407326,
+    "lon": 127.2106553
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "105",
+    "building:levels": "22",
+    "height": "59.7",
+    "name": "101동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 584527481,
+  "center": {
+    "lat": 37.5415813,
+    "lon": 127.2058358
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "진모루마을현대아파트",
+    "addr:housenumber": "81",
+    "addr:postcode": "12967",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "112",
+    "building:levels": "25",
+    "height": "69.1",
+    "name": "204동",
+    "source": "도로명주소",
+    "start_date": "2000"
+  }
+},
+{
+  "type": "way",
+  "id": 584527483,
+  "center": {
+    "lat": 37.5410403,
+    "lon": 127.2058970
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "진모루마을현대아파트",
+    "addr:housenumber": "81",
+    "addr:postcode": "12967",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "height": "43.9",
+    "name": "201동",
+    "source": "도로명주소",
+    "start_date": "2000"
+  }
+},
+{
+  "type": "way",
+  "id": 584527485,
+  "center": {
+    "lat": 37.5413307,
+    "lon": 127.2054118
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "진모루마을현대아파트",
+    "addr:housenumber": "81",
+    "addr:postcode": "12967",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "140",
+    "building:levels": "25",
+    "height": "69.1",
+    "name": "203동",
+    "source": "도로명주소",
+    "start_date": "2000"
+  }
+},
+{
+  "type": "way",
+  "id": 587398263,
+  "center": {
+    "lat": 37.5428640,
+    "lon": 127.2133278
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "89",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "302동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 587398264,
+  "center": {
+    "lat": 37.5424177,
+    "lon": 127.2139621
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "74",
+    "building:levels": "19",
+    "height": "51.3",
+    "name": "301동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 587398266,
+  "center": {
+    "lat": 37.5423248,
+    "lon": 127.2148098
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "87",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "307동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 587398267,
+  "center": {
+    "lat": 37.5423342,
+    "lon": 127.2156582
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "306동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 587398269,
+  "center": {
+    "lat": 37.5429116,
+    "lon": 127.2142335
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "303동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 587398270,
+  "center": {
+    "lat": 37.5429341,
+    "lon": 127.2149676
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "87",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "304동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 587398271,
+  "center": {
+    "lat": 37.5429853,
+    "lon": 127.2157260
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "85",
+    "building:levels": "23",
+    "height": "62.5",
+    "name": "305동",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "way",
+  "id": 588274032,
+  "center": {
+    "lat": 37.5524551,
+    "lon": 127.2083887
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "452",
+    "building:levels": "10",
+    "height": "38.7",
+    "name": "하남푸르지오시티",
+    "start_date": "2013"
+  }
+},
+{
+  "type": "way",
+  "id": 588281952,
+  "center": {
+    "lat": 37.5371348,
+    "lon": 127.2103463
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "석바대마을동신아파트",
+    "addr:housenumber": "54",
+    "addr:postcode": "12960",
+    "addr:province": "경기도",
+    "addr:street": "하남대로739번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "149",
+    "building:levels": "20",
+    "height": "55.1",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2001"
+  }
+},
+{
+  "type": "way",
+  "id": 588527253,
+  "center": {
+    "lat": 37.5368002,
+    "lon": 127.2256318
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "꿈동산신안아파트",
+    "name:en": "Kkumdongsan Sinan APT"
+  }
+},
+{
+  "type": "way",
+  "id": 591741559,
+  "center": {
+    "lat": 37.5469914,
+    "lon": 127.2053491
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "10",
+    "height": "26.9",
+    "name": "413동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 591741564,
+  "center": {
+    "lat": 37.5474785,
+    "lon": 127.2055736
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "10",
+    "height": "26.9",
+    "name": "412동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 591741565,
+  "center": {
+    "lat": 37.5478711,
+    "lon": 127.2058514
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "10",
+    "height": "26.9",
+    "name": "411동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 591741566,
+  "center": {
+    "lat": 37.5480458,
+    "lon": 127.2063874
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "10",
+    "height": "26.9",
+    "name": "410동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 591741567,
+  "center": {
+    "lat": 37.5465579,
+    "lon": 127.2054791
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "26.9",
+    "name": "414동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 593638316,
+  "center": {
+    "lat": 37.5467691,
+    "lon": 127.2098830
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638317,
+  "center": {
+    "lat": 37.5463962,
+    "lon": 127.2095866
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638318,
+  "center": {
+    "lat": 37.5460465,
+    "lon": 127.2092384
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "105동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638319,
+  "center": {
+    "lat": 37.5456924,
+    "lon": 127.2088743
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "29.3",
+    "name": "106동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638320,
+  "center": {
+    "lat": 37.5453617,
+    "lon": 127.2085581
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "29.3",
+    "name": "108동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638321,
+  "center": {
+    "lat": 37.5450371,
+    "lon": 127.2082498
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "29.3",
+    "name": "109동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638340,
+  "center": {
+    "lat": 37.5467941,
+    "lon": 127.2091302
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "66",
+    "building:levels": "15",
+    "height": "43.3",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638341,
+  "center": {
+    "lat": 37.5463201,
+    "lon": 127.2087746
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "59",
+    "building:levels": "15",
+    "height": "43.3",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638343,
+  "center": {
+    "lat": 37.5456451,
+    "lon": 127.2081316
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "13",
+    "height": "37.7",
+    "name": "107동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638344,
+  "center": {
+    "lat": 37.5453253,
+    "lon": 127.2077967
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "51",
+    "building:levels": "13",
+    "height": "37.7",
+    "name": "110동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 593638345,
+  "center": {
+    "lat": 37.5456628,
+    "lon": 127.2073083
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "67",
+    "building:levels": "14",
+    "height": "40.5",
+    "name": "111동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080663,
+  "center": {
+    "lat": 37.5461549,
+    "lon": 127.2078668
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "56",
+    "building:levels": "15",
+    "height": "43.3",
+    "name": "114동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080666,
+  "center": {
+    "lat": 37.5461916,
+    "lon": 127.2069923
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "11",
+    "height": "32.1",
+    "name": "112동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080667,
+  "center": {
+    "lat": 37.5465325,
+    "lon": 127.2073333
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "48",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "113동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080668,
+  "center": {
+    "lat": 37.5466573,
+    "lon": 127.2080848
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "13",
+    "height": "36.98",
+    "name": "405동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080670,
+  "center": {
+    "lat": 37.5469308,
+    "lon": 127.2076149
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "34.54",
+    "name": "406동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080671,
+  "center": {
+    "lat": 37.5470634,
+    "lon": 127.2084153
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "13",
+    "height": "36.98",
+    "name": "404동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080673,
+  "center": {
+    "lat": 37.5473407,
+    "lon": 127.2079565
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "38",
+    "building:levels": "12",
+    "height": "34.54",
+    "name": "403동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080674,
+  "center": {
+    "lat": 37.5477297,
+    "lon": 127.2083390
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "34.54",
+    "name": "402동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594080676,
+  "center": {
+    "lat": 37.5475098,
+    "lon": 127.2087303
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "52",
+    "building:levels": "13",
+    "height": "36.98",
+    "name": "401동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 594851334,
+  "center": {
+    "lat": 37.5420605,
+    "lon": 127.2121863
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "동아아파트(가동)"
+  }
+},
+{
+  "type": "way",
+  "id": 594851335,
+  "center": {
+    "lat": 37.5418847,
+    "lon": 127.2123092
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "동아아파트(나동)"
+  }
+},
+{
+  "type": "way",
+  "id": 594863216,
+  "center": {
+    "lat": 37.5530421,
+    "lon": 127.2034862
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산아이파크5단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 600566141,
+  "center": {
+    "lat": 37.5391260,
+    "lon": 127.2029743
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "35",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "58",
+    "building:levels": "15",
+    "building:levels:underground": "3",
+    "height": "43.55",
+    "name": "정목E미지아파트",
+    "source": "도로명주소",
+    "start_date": "2005"
+  }
+},
+{
+  "type": "way",
+  "id": 600576035,
+  "center": {
+    "lat": 37.5359547,
+    "lon": 127.2041927
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "20",
+    "height": "53.6",
+    "name": "103동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576037,
+  "center": {
+    "lat": 37.5365908,
+    "lon": 127.2044034
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "117",
+    "building:levels": "20",
+    "height": "53.76",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576039,
+  "center": {
+    "lat": 37.5371486,
+    "lon": 127.2045356
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "28",
+    "building:levels": "17",
+    "height": "45.3",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576040,
+  "center": {
+    "lat": 37.5368522,
+    "lon": 127.2049469
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "97",
+    "building:levels": "25",
+    "height": "67.7",
+    "name": "108동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576042,
+  "center": {
+    "lat": 37.5361344,
+    "lon": 127.2047008
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "25",
+    "height": "67.7",
+    "name": "106동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576044,
+  "center": {
+    "lat": 37.5355368,
+    "lon": 127.2044838
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "19",
+    "height": "50.8",
+    "name": "104동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576046,
+  "center": {
+    "lat": 37.5357810,
+    "lon": 127.2049660
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "19",
+    "height": "50.8",
+    "name": "105동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576048,
+  "center": {
+    "lat": 37.5364217,
+    "lon": 127.2051848
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "112",
+    "building:levels": "19",
+    "height": "50.8",
+    "name": "107동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 600576050,
+  "center": {
+    "lat": 37.5368879,
+    "lon": 127.2053585
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "벽산블루밍아파트",
+    "addr:housenumber": "36",
+    "addr:postcode": "12965",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "23",
+    "building:levels": "14",
+    "height": "37",
+    "name": "109동",
+    "source": "도로명주소",
+    "start_date": "2007"
+  }
+},
+{
+  "type": "way",
+  "id": 607522813,
+  "center": {
+    "lat": 37.5438894,
+    "lon": 127.2181313
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "91",
+    "building:levels": "23",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "78.15",
+    "name": "107동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 607522814,
+  "center": {
+    "lat": 37.5450475,
+    "lon": 127.2181773
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "25",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "84.15",
+    "name": "105동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 607522815,
+  "center": {
+    "lat": 37.5449249,
+    "lon": 127.2189856
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "25",
+    "description": "하남유니온시티에일린의뜰아파트",
+    "height": "84.15",
+    "name": "104동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 607577203,
+  "center": {
+    "lat": 37.5525237,
+    "lon": 127.2036490
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "13",
+    "height": "37.7",
+    "name": "502동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577204,
+  "center": {
+    "lat": 37.5527663,
+    "lon": 127.2031670
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "13",
+    "height": "37.7",
+    "name": "503동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577205,
+  "center": {
+    "lat": 37.5530343,
+    "lon": 127.2026829
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "504동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577206,
+  "center": {
+    "lat": 37.5533320,
+    "lon": 127.2043134
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "508동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577208,
+  "center": {
+    "lat": 37.5529704,
+    "lon": 127.2037311
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "58",
+    "building:levels": "15",
+    "height": "43.3",
+    "name": "501동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577209,
+  "center": {
+    "lat": 37.5533946,
+    "lon": 127.2029764
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "505동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577210,
+  "center": {
+    "lat": 37.5536111,
+    "lon": 127.2037641
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "48",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "507동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577211,
+  "center": {
+    "lat": 37.5536642,
+    "lon": 127.2032986
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "33",
+    "building:levels": "12",
+    "height": "34.9",
+    "name": "506동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 607577213,
+  "center": {
+    "lat": 37.5522701,
+    "lon": 127.2091549
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "168",
+    "building:levels": "10",
+    "height": "40.1",
+    "name": "메트하임오피스텔",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 607577221,
+  "center": {
+    "lat": 37.5465986,
+    "lon": 127.2063041
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "11",
+    "height": "29.5",
+    "name": "405동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577222,
+  "center": {
+    "lat": 37.5469486,
+    "lon": 127.2059718
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "14",
+    "height": "37.3",
+    "name": "406동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577223,
+  "center": {
+    "lat": 37.5469750,
+    "lon": 127.2066409
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "11",
+    "height": "29.5",
+    "name": "404동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577224,
+  "center": {
+    "lat": 37.5473524,
+    "lon": 127.2069727
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "11",
+    "height": "29.5",
+    "name": "403동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577225,
+  "center": {
+    "lat": 37.5477446,
+    "lon": 127.2073218
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "11",
+    "height": "29.5",
+    "name": "402동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577226,
+  "center": {
+    "lat": 37.5480712,
+    "lon": 127.2076851
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "49",
+    "building:levels": "10",
+    "height": "26.9",
+    "name": "401동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577228,
+  "center": {
+    "lat": 37.5473964,
+    "lon": 127.2061150
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "14",
+    "height": "37.3",
+    "name": "407동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577229,
+  "center": {
+    "lat": 37.5476620,
+    "lon": 127.2066601
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "14",
+    "height": "37.3",
+    "name": "408동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607577230,
+  "center": {
+    "lat": 37.5482662,
+    "lon": 127.2069958
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "82",
+    "building:levels": "14",
+    "height": "37.5",
+    "name": "409동",
+    "start_date": "2009"
+  }
+},
+{
+  "type": "way",
+  "id": 607596344,
+  "center": {
+    "lat": 37.5449842,
+    "lon": 127.2145491
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "106동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 607596345,
+  "center": {
+    "lat": 37.5450063,
+    "lon": 127.2153473
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "107",
+    "building:levels": "25",
+    "height": "62.05",
+    "name": "105동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 607596346,
+  "center": {
+    "lat": 37.5457234,
+    "lon": 127.2144732
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "103동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 607596347,
+  "center": {
+    "lat": 37.5456621,
+    "lon": 127.2129494
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "101동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 607596348,
+  "center": {
+    "lat": 37.5456921,
+    "lon": 127.2137440
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "73.65",
+    "name": "102동",
+    "start_date": "2018-11"
+  }
+},
+{
+  "type": "way",
+  "id": 618443448,
+  "center": {
+    "lat": 37.5377922,
+    "lon": 127.2118696
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "31",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "마동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 618443449,
+  "center": {
+    "lat": 37.5377016,
+    "lon": 127.2119792
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "31",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "바동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 618443450,
+  "center": {
+    "lat": 37.5375344,
+    "lon": 127.2119579
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "31",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "사동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 631224093,
+  "center": {
+    "lat": 37.5549757,
+    "lon": 127.1941672
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "e편한세상미사",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 631224783,
+  "center": {
+    "lat": 37.5577167,
+    "lon": 127.1926483
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "미사강변 아란티움",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 639891608,
+  "center": {
+    "lat": 37.5439593,
+    "lon": 127.2033532
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "70",
+    "building:levels": "18",
+    "height": "51.99",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891609,
+  "center": {
+    "lat": 37.5436516,
+    "lon": 127.2039882
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "69",
+    "building:levels": "18",
+    "height": "51.99",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891610,
+  "center": {
+    "lat": 37.5440304,
+    "lon": 127.2038770
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "66",
+    "building:levels": "19",
+    "height": "54.82",
+    "name": "103동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891611,
+  "center": {
+    "lat": 37.5442105,
+    "lon": 127.2043972
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "33",
+    "building:levels": "19",
+    "height": "54.82",
+    "name": "104동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891612,
+  "center": {
+    "lat": 37.5445653,
+    "lon": 127.2041981
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "69",
+    "building:levels": "18",
+    "height": "51.99",
+    "name": "105동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891613,
+  "center": {
+    "lat": 37.5447627,
+    "lon": 127.2047872
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "55",
+    "building:levels": "16",
+    "height": "46.33",
+    "name": "109동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891614,
+  "center": {
+    "lat": 37.5452393,
+    "lon": 127.2052085
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "14",
+    "height": "40.67",
+    "name": "111동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891615,
+  "center": {
+    "lat": 37.5451236,
+    "lon": 127.2045624
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "18",
+    "height": "51.99",
+    "name": "110동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891616,
+  "center": {
+    "lat": 37.5450020,
+    "lon": 127.2039287
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "65",
+    "building:levels": "18",
+    "height": "51.99",
+    "name": "108동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891617,
+  "center": {
+    "lat": 37.5449257,
+    "lon": 127.2033670
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "18",
+    "height": "51.99",
+    "name": "107동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891618,
+  "center": {
+    "lat": 37.5445303,
+    "lon": 127.2034644
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남더샵센트럴뷰아파트",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "65",
+    "building:levels": "17",
+    "height": "49.16",
+    "name": "106동",
+    "source": "도로명주소",
+    "start_date": "2016"
+  }
+},
+{
+  "type": "way",
+  "id": 639891619,
+  "center": {
+    "lat": 37.5444550,
+    "lon": 127.2004152
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "23",
+    "height": "62.3",
+    "name": "103동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891620,
+  "center": {
+    "lat": 37.5440852,
+    "lon": 127.2007648
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "148",
+    "building:levels": "25",
+    "height": "67.9",
+    "name": "102동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891621,
+  "center": {
+    "lat": 37.5439911,
+    "lon": 127.2013393
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "23",
+    "height": "62.3",
+    "name": "104동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891622,
+  "center": {
+    "lat": 37.5437261,
+    "lon": 127.2011366
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "23",
+    "height": "62.3",
+    "name": "105동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891623,
+  "center": {
+    "lat": 37.5436110,
+    "lon": 127.2006750
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "26",
+    "building:levels": "13",
+    "height": "34.7",
+    "name": "101동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891624,
+  "center": {
+    "lat": 37.5436737,
+    "lon": 127.2015961
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "98",
+    "building:levels": "25",
+    "height": "67.9",
+    "name": "107동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891625,
+  "center": {
+    "lat": 37.5432885,
+    "lon": 127.2013081
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "52",
+    "building:levels": "13",
+    "height": "34.7",
+    "name": "106동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891626,
+  "center": {
+    "lat": 37.5432831,
+    "lon": 127.2018082
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "23",
+    "height": "62.3",
+    "name": "109동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891627,
+  "center": {
+    "lat": 37.5436538,
+    "lon": 127.2020758
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "23",
+    "height": "62.3",
+    "name": "108동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891628,
+  "center": {
+    "lat": 37.5433911,
+    "lon": 127.2021862
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "25",
+    "height": "67.9",
+    "name": "110동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891629,
+  "center": {
+    "lat": 37.5430133,
+    "lon": 127.2019024
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "26",
+    "building:levels": "13",
+    "height": "34.7",
+    "name": "111동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 639891630,
+  "center": {
+    "lat": 37.5449584,
+    "lon": 127.1994291
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "176",
+    "building:levels": "22",
+    "height": "62.75",
+    "name": "101동",
+    "start_date": "1997"
+  }
+},
+{
+  "type": "way",
+  "id": 639891633,
+  "center": {
+    "lat": 37.5445359,
+    "lon": 127.1994148
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "name": "103동",
+    "start_date": "1997"
+  }
+},
+{
+  "type": "way",
+  "id": 668243840,
+  "center": {
+    "lat": 37.5412598,
+    "lon": 127.2055938
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "81",
+    "addr:postcode": "12967",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "진모루마을현대아파트",
+    "name:en": "Jinmoru Hyundai APT",
+    "residential": "apartments",
+    "source": "도로명주소",
+    "start_date": "20001222"
+  }
+},
+{
+  "type": "way",
+  "id": 668243843,
+  "center": {
+    "lat": 37.5409489,
+    "lon": 127.2052556
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "진모루마을현대아파트",
+    "addr:housenumber": "81",
+    "addr:postcode": "12967",
+    "addr:province": "경기도",
+    "addr:street": "신평로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "71",
+    "building:levels": "21",
+    "height": "57.9",
+    "name": "202동",
+    "source": "도로명주소",
+    "start_date": "2000"
+  }
+},
+{
+  "type": "way",
+  "id": 668243846,
+  "center": {
+    "lat": 37.5419796,
+    "lon": 127.2181492
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "해오름한국아파트",
+    "name:en": "Hangguk APT"
+  }
+},
+{
+  "type": "way",
+  "id": 672784459,
+  "center": {
+    "lat": 37.5423542,
+    "lon": 127.1956820
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "83",
+    "building:levels": "22",
+    "height": "62.82",
+    "name": "302동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784460,
+  "center": {
+    "lat": 37.5422932,
+    "lon": 127.1949651
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "79",
+    "building:levels": "18",
+    "height": "51.62",
+    "name": "301동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784461,
+  "center": {
+    "lat": 37.5418602,
+    "lon": 127.1956839
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "87",
+    "building:levels": "22",
+    "height": "62.82",
+    "name": "303동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784462,
+  "center": {
+    "lat": 37.5416699,
+    "lon": 127.1947454
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "20",
+    "height": "57.22",
+    "name": "305동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784463,
+  "center": {
+    "lat": 37.5414468,
+    "lon": 127.1954149
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "31",
+    "building:levels": "17",
+    "height": "48.82",
+    "name": "304동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784464,
+  "center": {
+    "lat": 37.5431508,
+    "lon": 127.1952069
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "32",
+    "building:levels": "16",
+    "height": "46.02",
+    "name": "205동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784465,
+  "center": {
+    "lat": 37.5429567,
+    "lon": 127.1946710
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "22",
+    "height": "62.82",
+    "name": "206동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784466,
+  "center": {
+    "lat": 37.5434190,
+    "lon": 127.1946396
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "22",
+    "height": "62.82",
+    "name": "207동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784467,
+  "center": {
+    "lat": 37.5435219,
+    "lon": 127.1954473
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "61",
+    "building:levels": "17",
+    "height": "48.82",
+    "name": "204동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784468,
+  "center": {
+    "lat": 37.5438588,
+    "lon": 127.1947748
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "82",
+    "building:levels": "22",
+    "height": "62.82",
+    "name": "201동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784469,
+  "center": {
+    "lat": 37.5443126,
+    "lon": 127.1948118
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "20",
+    "height": "57.22",
+    "name": "202동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672784470,
+  "center": {
+    "lat": 37.5439645,
+    "lon": 127.1955601
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "55",
+    "building:levels": "16",
+    "height": "46.02",
+    "name": "203동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 672814454,
+  "center": {
+    "lat": 37.5437763,
+    "lon": 127.2013217
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남한솔솔파크",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 672814455,
+  "center": {
+    "lat": 37.5447698,
+    "lon": 127.1992389
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "라인아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 681548509,
+  "center": {
+    "lat": 37.5458275,
+    "lon": 127.2049451
+  },
+  "tags": {
+    "access": "private",
+    "landuse": "residential",
+    "name": "하남덕풍경기행복주택",
+    "operator": "경기주택도시공사(GH)",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 681556274,
+  "center": {
+    "lat": 37.5535373,
+    "lon": 127.2059536
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "80",
+    "addr:postcode": "12927",
+    "addr:province": "경기도",
+    "addr:street": "덕풍서로",
+    "landuse": "residential",
+    "name": "빌리브하남",
+    "name:ko": "빌리브하남",
+    "opening_date": "2021-02",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 684160934,
+  "center": {
+    "lat": 37.5551200,
+    "lon": 127.1930518
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "136",
+    "building:levels": "29",
+    "height": "83.4",
+    "name": "102동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 684161847,
+  "center": {
+    "lat": 37.5553132,
+    "lon": 127.1937856
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.4",
+    "name": "103동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 684161848,
+  "center": {
+    "lat": 37.5557092,
+    "lon": 127.1944948
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "114",
+    "building:levels": "29",
+    "height": "83.4",
+    "name": "104동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 684161850,
+  "center": {
+    "lat": 37.5552053,
+    "lon": 127.1946397
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "142",
+    "building:levels": "29",
+    "height": "83.4",
+    "name": "105동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 702097612,
+  "center": {
+    "lat": 37.5581666,
+    "lon": 127.1918967
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "140",
+    "building:levels": "28",
+    "height": "79.85",
+    "name": "2501",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 702097613,
+  "center": {
+    "lat": 37.5575997,
+    "lon": 127.1921148
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "140",
+    "building:levels": "28",
+    "height": "79.85",
+    "name": "2502",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 702097614,
+  "center": {
+    "lat": 37.5571257,
+    "lon": 127.1924241
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "145",
+    "building:levels": "29",
+    "height": "82.65",
+    "name": "2503",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 702097615,
+  "center": {
+    "lat": 37.5574089,
+    "lon": 127.1933476
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "136",
+    "building:levels": "29",
+    "height": "82.65",
+    "name": "2504",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 702097616,
+  "center": {
+    "lat": 37.5583103,
+    "lon": 127.1927560
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "127",
+    "building:levels": "29",
+    "height": "82.65",
+    "name": "2505",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 709536281,
+  "center": {
+    "lat": 37.5373142,
+    "lon": 127.2117468
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "32",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "라동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 709536282,
+  "center": {
+    "lat": 37.5374334,
+    "lon": 127.2116674
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "32",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "다동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 709536283,
+  "center": {
+    "lat": 37.5375555,
+    "lon": 127.2115874
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "32",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "나동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 709536284,
+  "center": {
+    "lat": 37.5376754,
+    "lon": 127.2115103
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "장미연립",
+    "addr:housenumber": "32",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:street": "신장1로28번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "name": "가동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 713888094,
+  "center": {
+    "lat": 37.5394808,
+    "lon": 127.2016876
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "232",
+    "building:levels": "15",
+    "height": "43.1",
+    "layer": "1",
+    "name": "대동 피렌체아파트",
+    "start_date": "2005"
+  }
+},
+{
+  "type": "way",
+  "id": 724575220,
+  "center": {
+    "lat": 37.5381199,
+    "lon": 127.2053449
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "596",
+    "building:levels": "20",
+    "building:levels:underground": "8",
+    "height": "78.58",
+    "name": "ICT하남 오피스텔",
+    "start_date": "2021.09"
+  }
+},
+{
+  "type": "way",
+  "id": 759779996,
+  "center": {
+    "lat": 37.5358767,
+    "lon": 127.2100198
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "5-7",
+    "addr:postcode": "12962",
+    "addr:province": "경기도",
+    "addr:street": "신장로64번길",
+    "addr:subdistrict": "천현동",
+    "building": "apartments",
+    "name": "동신빌라",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 774605268,
+  "center": {
+    "lat": 37.5546746,
+    "lon": 127.2039441
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "140",
+    "addr:postcode": "12928",
+    "addr:province": "경기도",
+    "addr:street": "덕풍북로",
+    "landuse": "residential",
+    "name": "하남풍산삼부르네상스",
+    "residential": "apartments",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 774605269,
+  "center": {
+    "lat": 37.5552023,
+    "lon": 127.2023723
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "110",
+    "addr:postcode": "12928",
+    "addr:province": "경기도",
+    "addr:street": "덕풍북로",
+    "landuse": "residential",
+    "name": "하남풍산우남퍼스트빌리젠트",
+    "residential": "apartments",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 810918221,
+  "center": {
+    "lat": 37.5388791,
+    "lon": 127.1967347
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남덕풍역파크어울림아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "22",
+    "height": "62.55",
+    "name": "104동",
+    "source": "도로명주소",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 810918222,
+  "center": {
+    "lat": 37.5383274,
+    "lon": 127.1971121
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남덕풍역파크어울림아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "79",
+    "building:levels": "23",
+    "height": "65.35",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 810918223,
+  "center": {
+    "lat": 37.5380626,
+    "lon": 127.1973947
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남덕풍역파크어울림아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "23",
+    "height": "64.95",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 810918224,
+  "center": {
+    "lat": 37.5386566,
+    "lon": 127.1973473
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남덕풍역파크어울림아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "78",
+    "building:levels": "23",
+    "height": "64.95",
+    "name": "103동",
+    "source": "도로명주소",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 810918225,
+  "center": {
+    "lat": 37.5390564,
+    "lon": 127.1973026
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남덕풍역파크어울림아파트",
+    "addr:housenumber": "50",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "74",
+    "building:levels": "20",
+    "height": "56.55",
+    "name": "105동",
+    "source": "도로명주소",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 810918226,
+  "center": {
+    "lat": 37.5386980,
+    "lon": 127.1970654
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "50",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "하남덕풍역파크어울림아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 810918227,
+  "center": {
+    "lat": 37.5393127,
+    "lon": 127.1959993
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "98",
+    "building:levels": "25",
+    "height": "68.75",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918228,
+  "center": {
+    "lat": 37.5395918,
+    "lon": 127.1967077
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "145",
+    "building:levels": "25",
+    "height": "68.3",
+    "name": "106동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918229,
+  "center": {
+    "lat": 37.5397943,
+    "lon": 127.1959197
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "24",
+    "height": "66.25",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918230,
+  "center": {
+    "lat": 37.5400951,
+    "lon": 127.1962029
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "22",
+    "height": "59.9",
+    "name": "103동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918231,
+  "center": {
+    "lat": 37.5399128,
+    "lon": 127.1969883
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "22",
+    "height": "56.38",
+    "name": "107동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918232,
+  "center": {
+    "lat": 37.5403970,
+    "lon": 127.1967800
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "98",
+    "building:levels": "25",
+    "height": "68.3",
+    "name": "108동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918233,
+  "center": {
+    "lat": 37.5403094,
+    "lon": 127.1974547
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "15",
+    "height": "40.3",
+    "name": "110동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918234,
+  "center": {
+    "lat": 37.5405145,
+    "lon": 127.1961228
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "24",
+    "height": "66.25",
+    "name": "104동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918235,
+  "center": {
+    "lat": 37.5407762,
+    "lon": 127.1963986
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "94",
+    "building:levels": "25",
+    "height": "68.3",
+    "name": "105동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918236,
+  "center": {
+    "lat": 37.5411274,
+    "lon": 127.1968364
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남자이아파트",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "104",
+    "building:levels": "26",
+    "height": "71.1",
+    "name": "109동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 810918237,
+  "center": {
+    "lat": 37.5396226,
+    "lon": 127.2191249
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "백조현대아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 816721551,
+  "center": {
+    "lat": 37.5334843,
+    "lon": 127.1978375
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "96",
+    "building:levels": "25",
+    "height": "67.4",
+    "name": "503동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 816721552,
+  "center": {
+    "lat": 37.5339482,
+    "lon": 127.1974703
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "96",
+    "building:levels": "25",
+    "height": "67.4",
+    "name": "502동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 816721553,
+  "center": {
+    "lat": 37.5343419,
+    "lon": 127.1973900
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "36",
+    "building:levels": "19",
+    "height": "50.6",
+    "name": "501동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 877719801,
+  "center": {
+    "lat": 37.5351453,
+    "lon": 127.1973105
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "67.85",
+    "name": "202동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 877719802,
+  "center": {
+    "lat": 37.5348530,
+    "lon": 127.1970985
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "45",
+    "building:levels": "24",
+    "height": "65.05",
+    "name": "201동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 877719803,
+  "center": {
+    "lat": 37.5348597,
+    "lon": 127.1966906
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "39",
+    "building:levels": "22",
+    "height": "59.45",
+    "name": "203동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 877719804,
+  "center": {
+    "lat": 37.5352370,
+    "lon": 127.1968039
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "138",
+    "building:levels": "25",
+    "height": "67.85",
+    "name": "204동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 877719805,
+  "center": {
+    "lat": 37.5327691,
+    "lon": 127.1985399
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "97",
+    "building:levels": "27",
+    "height": "73.6",
+    "name": "101동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877719806,
+  "center": {
+    "lat": 37.5333047,
+    "lon": 127.1992819
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "27",
+    "height": "73.6",
+    "name": "105동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877719807,
+  "center": {
+    "lat": 37.5326775,
+    "lon": 127.1993784
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "22",
+    "height": "60.8",
+    "name": "103동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877719808,
+  "center": {
+    "lat": 37.5329592,
+    "lon": 127.1988807
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "21",
+    "height": "58",
+    "name": "102동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877719809,
+  "center": {
+    "lat": 37.5334356,
+    "lon": 127.1998015
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "69",
+    "building:levels": "23",
+    "height": "63.6",
+    "name": "106동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877719810,
+  "center": {
+    "lat": 37.5329068,
+    "lon": 127.1996550
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "21",
+    "height": "58",
+    "name": "104동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877721568,
+  "center": {
+    "lat": 37.5331612,
+    "lon": 127.1999617
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "24",
+    "height": "66.4",
+    "name": "107동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877721569,
+  "center": {
+    "lat": 37.5327156,
+    "lon": 127.1998911
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "26",
+    "building:levels": "13",
+    "height": "36",
+    "name": "108동",
+    "start_date": "1998"
+  }
+},
+{
+  "type": "way",
+  "id": 877721574,
+  "center": {
+    "lat": 37.5323266,
+    "lon": 127.2006375
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "16",
+    "height": "43.3",
+    "name": "103동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 884567987,
+  "center": {
+    "lat": 37.5565184,
+    "lon": 127.1951014
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "28",
+    "height": "87.4",
+    "name": "3207동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567988,
+  "center": {
+    "lat": 37.5570592,
+    "lon": 127.1948548
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "92",
+    "building:levels": "24",
+    "height": "75.8",
+    "name": "3208동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567989,
+  "center": {
+    "lat": 37.5560669,
+    "lon": 127.1955125
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "28",
+    "height": "87.4",
+    "name": "3206동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567990,
+  "center": {
+    "lat": 37.5555874,
+    "lon": 127.1958738
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "104",
+    "building:levels": "27",
+    "height": "84.5",
+    "name": "3205동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567991,
+  "center": {
+    "lat": 37.5558640,
+    "lon": 127.1966894
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "82",
+    "building:levels": "28",
+    "height": "82.5",
+    "name": "3204동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567992,
+  "center": {
+    "lat": 37.5563767,
+    "lon": 127.1963052
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "85",
+    "building:levels": "29",
+    "height": "85.4",
+    "name": "3203동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567993,
+  "center": {
+    "lat": 37.5568322,
+    "lon": 127.1961071
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "29",
+    "height": "90.3",
+    "name": "3202동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 884567994,
+  "center": {
+    "lat": 37.5573717,
+    "lon": 127.1955792
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "29",
+    "height": "85.4",
+    "name": "3201동",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 902688502,
+  "center": {
+    "lat": 37.5571405,
+    "lon": 127.1853626
+  },
+  "tags": {
+    "addr:housenumber": "480",
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "103동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 902690877,
+  "center": {
+    "lat": 37.5565495,
+    "lon": 127.1864768
+  },
+  "tags": {
+    "addr:housenumber": "480",
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "104동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 903222213,
+  "center": {
+    "lat": 37.5401211,
+    "lon": 127.1966498
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "38",
+    "addr:postcode": "12973",
+    "addr:province": "경기도",
+    "addr:street": "덕풍공원로",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "하남자이아파트",
+    "name:ko": "하남자이아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 903222214,
+  "center": {
+    "lat": 37.5419513,
+    "lon": 127.1972670
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "30",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "하남KCC스위첸아파트",
+    "name:ko": "하남KCC스위첸아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 910275044,
+  "center": {
+    "lat": 37.5434332,
+    "lon": 127.2056028
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "더샵하남에디피스",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 917406209,
+  "center": {
+    "lat": 37.5544037,
+    "lon": 127.1931240
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "144",
+    "building:levels": "29",
+    "height": "83.4",
+    "name": "101동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 966150544,
+  "center": {
+    "lat": 37.5484559,
+    "lon": 127.2080487
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "29.08",
+    "name": "305동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988164,
+  "center": {
+    "lat": 37.5400509,
+    "lon": 127.2051134
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "한진연립",
+    "addr:housenumber": "3",
+    "addr:postcode": "12968",
+    "addr:province": "경기도",
+    "addr:street": "신평로73번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:levels": "3",
+    "name": "A동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988179,
+  "center": {
+    "lat": 37.5400506,
+    "lon": 127.2056448
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "한진연립",
+    "addr:housenumber": "3",
+    "addr:postcode": "12968",
+    "addr:province": "경기도",
+    "addr:street": "신평로73번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:levels": "3",
+    "name": "D동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988189,
+  "center": {
+    "lat": 37.5379518,
+    "lon": 127.2059203
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "316",
+    "building:levels": "20",
+    "height": "58.8",
+    "name": "하이렉스오피스텔",
+    "start_date": "2015"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988246,
+  "center": {
+    "lat": 37.5411968,
+    "lon": 127.2069994
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "815",
+    "addr:postcode": "12957",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "20",
+    "building:levels:underground": "3",
+    "height": "60.6",
+    "name": "명지캐럿108아파트",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988293,
+  "center": {
+    "lat": 37.5401627,
+    "lon": 127.2054520
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "한진연립",
+    "addr:housenumber": "3",
+    "addr:postcode": "12968",
+    "addr:province": "경기도",
+    "addr:street": "신평로73번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:levels": "3",
+    "name": "B동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988363,
+  "center": {
+    "lat": 37.5390051,
+    "lon": 127.2091722
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "25",
+    "addr:postcode": "12959",
+    "addr:province": "경기도",
+    "addr:street": "하남대로787번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:levels": "5",
+    "height": "14.15",
+    "name": "그린나래",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988386,
+  "center": {
+    "lat": 37.5402681,
+    "lon": 127.2073888
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "8",
+    "name": "하남아파트",
+    "start_date": "1991"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988418,
+  "center": {
+    "lat": 37.5375029,
+    "lon": 127.2069930
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "35",
+    "addr:postcode": "12958",
+    "addr:province": "경기도",
+    "addr:street": "신장1로3번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "61",
+    "building:levels": "19",
+    "building:levels:underground": "1",
+    "height": "59.8",
+    "name": "그린나래아파트",
+    "source": "도로명주소",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988526,
+  "center": {
+    "lat": 37.5390253,
+    "lon": 127.2046050
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "8",
+    "addr:postcode": "12968",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "142",
+    "building:levels": "15",
+    "height": "43",
+    "name": "진도로르빌아파트",
+    "source": "도로명주소",
+    "start_date": "2003"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988692,
+  "center": {
+    "lat": 37.5399316,
+    "lon": 127.2063877
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "99",
+    "building:levels": "20",
+    "height": "68.1",
+    "name": "하남베라시떼아파트",
+    "start_date": "2025"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988721,
+  "center": {
+    "lat": 37.5376323,
+    "lon": 127.2065256
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "104",
+    "addr:postcode": "12958",
+    "addr:province": "경기도",
+    "addr:street": "신장로",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:flats": "234",
+    "building:levels": "18",
+    "building:levels:underground": "2",
+    "height": "49.8",
+    "name": "성원상떼빌아파트",
+    "source": "도로명주소",
+    "start_date": "2003"
+  }
+},
+{
+  "type": "way",
+  "id": 1025988768,
+  "center": {
+    "lat": 37.5399328,
+    "lon": 127.2052738
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "한진연립",
+    "addr:housenumber": "3",
+    "addr:postcode": "12968",
+    "addr:province": "경기도",
+    "addr:street": "신평로73번길",
+    "addr:subdistrict": "신장동",
+    "building": "apartments",
+    "building:levels": "3",
+    "name": "C동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932479,
+  "center": {
+    "lat": 37.5453546,
+    "lon": 127.2106948
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "10",
+    "addr:postcode": "12948",
+    "addr:province": "경기도",
+    "addr:street": "하남유니온로",
+    "check_date": "2021-01-29",
+    "landuse": "residential",
+    "name": "하남호반써밋에듀파크",
+    "opening_date": "2021-08",
+    "residential": "apartments",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932482,
+  "center": {
+    "lat": 37.5453264,
+    "lon": 127.2104207
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "172",
+    "building:levels": "25",
+    "height": "77.6",
+    "name": "103동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932483,
+  "center": {
+    "lat": 37.5457771,
+    "lon": 127.2117958
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "167",
+    "building:levels": "25",
+    "height": "77.6",
+    "name": "101동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932485,
+  "center": {
+    "lat": 37.5448166,
+    "lon": 127.2117893
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "162",
+    "building:levels": "25",
+    "height": "77.6",
+    "name": "106동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932490,
+  "center": {
+    "lat": 37.5447133,
+    "lon": 127.2097868
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "172",
+    "building:levels": "25",
+    "height": "77.6",
+    "name": "104동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932491,
+  "center": {
+    "lat": 37.5459444,
+    "lon": 127.2110148
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "170",
+    "building:levels": "25",
+    "height": "77.6",
+    "name": "102동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1194932492,
+  "center": {
+    "lat": 37.5447250,
+    "lon": 127.2108246
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "156",
+    "building:levels": "25",
+    "height": "77.6",
+    "name": "105동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523053,
+  "center": {
+    "lat": 37.5554480,
+    "lon": 127.2035679
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "36",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523055,
+  "center": {
+    "lat": 37.5551156,
+    "lon": 127.2032610
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "42",
+    "building:levels": "12",
+    "height": "39",
+    "name": "105동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523056,
+  "center": {
+    "lat": 37.5548720,
+    "lon": 127.2038278
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "59",
+    "building:levels": "15",
+    "height": "44.53",
+    "name": "106동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523057,
+  "center": {
+    "lat": 37.5542300,
+    "lon": 127.2033149
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "30",
+    "building:levels": "10",
+    "height": "30.03",
+    "name": "112동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523058,
+  "center": {
+    "lat": 37.5544840,
+    "lon": 127.2027340
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "30",
+    "building:levels": "10",
+    "height": "30.03",
+    "name": "111동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523059,
+  "center": {
+    "lat": 37.5551902,
+    "lon": 127.2040917
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "36",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523060,
+  "center": {
+    "lat": 37.5546167,
+    "lon": 127.2044136
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "59",
+    "building:levels": "15",
+    "height": "44.53",
+    "name": "107동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523061,
+  "center": {
+    "lat": 37.5547344,
+    "lon": 127.2030143
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "36",
+    "name": "110동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523063,
+  "center": {
+    "lat": 37.5541496,
+    "lon": 127.2040754
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "30",
+    "building:levels": "10",
+    "height": "30.03",
+    "name": "113동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523064,
+  "center": {
+    "lat": 37.5545096,
+    "lon": 127.2035829
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "36",
+    "name": "109동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523065,
+  "center": {
+    "lat": 37.5538909,
+    "lon": 127.2046682
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "30",
+    "building:levels": "10",
+    "height": "30.03",
+    "name": "114동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523066,
+  "center": {
+    "lat": 37.5549256,
+    "lon": 127.2046974
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "36",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523067,
+  "center": {
+    "lat": 37.5543529,
+    "lon": 127.2049584
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "47",
+    "building:levels": "12",
+    "height": "35.83",
+    "name": "108동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523068,
+  "center": {
+    "lat": 37.5546672,
+    "lon": 127.2052378
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "36",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523076,
+  "center": {
+    "lat": 37.5512210,
+    "lon": 127.2113876
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "27",
+    "building:levels": "4",
+    "height": "16.42",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523077,
+  "center": {
+    "lat": 37.5516056,
+    "lon": 127.2108755
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "16",
+    "building:levels": "4",
+    "height": "18",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523078,
+  "center": {
+    "lat": 37.5512976,
+    "lon": 127.2104763
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "23",
+    "building:levels": "4",
+    "height": "16.42",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195523079,
+  "center": {
+    "lat": 37.5518167,
+    "lon": 127.2100166
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "31",
+    "building:levels": "4",
+    "height": "16.42",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195950308,
+  "center": {
+    "lat": 37.5550013,
+    "lon": 127.2017418
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "16",
+    "building:levels": "4",
+    "height": "19.12",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195950309,
+  "center": {
+    "lat": 37.5557173,
+    "lon": 127.2028224
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "4",
+    "height": "19.12",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195950310,
+  "center": {
+    "lat": 37.5554923,
+    "lon": 127.2019466
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "16",
+    "building:levels": "4",
+    "height": "19.12",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1195950311,
+  "center": {
+    "lat": 37.5550497,
+    "lon": 127.2025485
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "39",
+    "building:levels": "4",
+    "height": "19.12",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1196007715,
+  "center": {
+    "lat": 37.5546765,
+    "lon": 127.1852665
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "55",
+    "addr:postcode": "12917",
+    "addr:province": "경기도",
+    "addr:street": "미사강변대로",
+    "landuse": "residential",
+    "name": "미사강변더샵센트럴포레",
+    "residential": "apartments",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 1196007718,
+  "center": {
+    "lat": 37.5548282,
+    "lon": 127.1852705
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "116",
+    "building:levels": "29",
+    "height": "83.59",
+    "name": "2303동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1196007721,
+  "center": {
+    "lat": 37.5552650,
+    "lon": 127.1856987
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "110",
+    "building:levels": "29",
+    "height": "83.59",
+    "name": "2302동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257571,
+  "center": {
+    "lat": 37.5597421,
+    "lon": 127.1922996
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "137",
+    "building:levels": "28",
+    "height": "79.75",
+    "name": "2406동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257574,
+  "center": {
+    "lat": 37.5590491,
+    "lon": 127.1916530
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "109",
+    "building:levels": "25",
+    "height": "71.35",
+    "name": "2408동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257576,
+  "center": {
+    "lat": 37.5596008,
+    "lon": 127.1916198
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "96",
+    "building:levels": "26",
+    "height": "74.15",
+    "name": "2407동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257578,
+  "center": {
+    "lat": 37.5591487,
+    "lon": 127.1923731
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "23",
+    "height": "65.75",
+    "name": "2401동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257581,
+  "center": {
+    "lat": 37.5592873,
+    "lon": 127.1931899
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "120",
+    "building:levels": "27",
+    "height": "76.95",
+    "name": "2402동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257582,
+  "center": {
+    "lat": 37.5599887,
+    "lon": 127.1930209
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "112",
+    "building:levels": "28",
+    "height": "79.75",
+    "name": "2405동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196257584,
+  "center": {
+    "lat": 37.5594498,
+    "lon": 127.1939422
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "101",
+    "building:levels": "23",
+    "height": "65.75",
+    "name": "2403동",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1196682420,
+  "center": {
+    "lat": 37.5614664,
+    "lon": 127.1984394
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "326",
+    "addr:postcode": "12921",
+    "addr:province": "경기도",
+    "addr:street": "미사강변한강로",
+    "description": "미사강변효성 해링턴플레이스",
+    "landuse": "residential",
+    "name": "미사강변 효성해링턴플레이스 엔에이치에프",
+    "residential": "apartments",
+    "source": "도로명주소;세움터"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303605,
+  "center": {
+    "lat": 37.5487775,
+    "lon": 127.2078883
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "306동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303606,
+  "center": {
+    "lat": 37.5489947,
+    "lon": 127.2085628
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "29.08",
+    "name": "304동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303607,
+  "center": {
+    "lat": 37.5493378,
+    "lon": 127.2082632
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "88",
+    "building:levels": "15",
+    "height": "42.51",
+    "name": "307동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303608,
+  "center": {
+    "lat": 37.5496107,
+    "lon": 127.2092722
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "10",
+    "height": "29.08",
+    "name": "303동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303609,
+  "center": {
+    "lat": 37.5498263,
+    "lon": 127.2089199
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "45",
+    "building:levels": "10",
+    "height": "29.08",
+    "name": "302동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303610,
+  "center": {
+    "lat": 37.5500451,
+    "lon": 127.2085606
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "10",
+    "height": "29.08",
+    "name": "301동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303622,
+  "center": {
+    "lat": 37.5502013,
+    "lon": 127.2104308
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "14",
+    "height": "40.6",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303623,
+  "center": {
+    "lat": 37.5505510,
+    "lon": 127.2107500
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "23",
+    "building:levels": "12",
+    "height": "35",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303624,
+  "center": {
+    "lat": 37.5505310,
+    "lon": 127.2112237
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "38",
+    "building:levels": "10",
+    "height": "29.4",
+    "name": "105동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303625,
+  "center": {
+    "lat": 37.5505369,
+    "lon": 127.2116739
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "18",
+    "building:levels": "9",
+    "height": "26.6",
+    "name": "106동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303626,
+  "center": {
+    "lat": 37.5501783,
+    "lon": 127.2114148
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "28",
+    "building:levels": "14",
+    "height": "40.6",
+    "name": "107동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303627,
+  "center": {
+    "lat": 37.5499351,
+    "lon": 127.2106821
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "18",
+    "building:levels": "9",
+    "height": "26.6",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303629,
+  "center": {
+    "lat": 37.5498240,
+    "lon": 127.2110448
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "15",
+    "height": "43.4",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303630,
+  "center": {
+    "lat": 37.5507541,
+    "lon": 127.2092184
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "20",
+    "building:levels": "10",
+    "height": "27.65",
+    "name": "105동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303631,
+  "center": {
+    "lat": 37.5506371,
+    "lon": 127.2096542
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "27.65",
+    "name": "104동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303632,
+  "center": {
+    "lat": 37.5504393,
+    "lon": 127.2100204
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "10",
+    "height": "27.65",
+    "name": "103동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303633,
+  "center": {
+    "lat": 37.5508657,
+    "lon": 127.2101438
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "24",
+    "building:levels": "12",
+    "height": "32.95",
+    "name": "102동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1236303634,
+  "center": {
+    "lat": 37.5511152,
+    "lon": 127.2097159
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "44",
+    "building:levels": "12",
+    "height": "32.95",
+    "name": "101동",
+    "start_date": "2008"
+  }
+},
+{
+  "type": "way",
+  "id": 1237257237,
+  "center": {
+    "lat": 37.5458641,
+    "lon": 127.2048985
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "131",
+    "building:levels": "17",
+    "height": "51.9",
+    "name": "101동",
+    "start_date": "2021"
+  }
+},
+{
+  "type": "way",
+  "id": 1237758198,
+  "center": {
+    "lat": 37.5516698,
+    "lon": 127.1984446
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "멘티움(타운하우스)"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627468,
+  "center": {
+    "lat": 37.5443516,
+    "lon": 127.2056791
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "94",
+    "building:levels": "24",
+    "height": "75",
+    "name": "109동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627469,
+  "center": {
+    "lat": 37.5436378,
+    "lon": 127.2052866
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "96",
+    "building:levels": "25",
+    "height": "77.85",
+    "name": "107동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627470,
+  "center": {
+    "lat": 37.5430094,
+    "lon": 127.2053131
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "90",
+    "building:levels": "23",
+    "height": "69.3",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627471,
+  "center": {
+    "lat": 37.5432516,
+    "lon": 127.2059859
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "124",
+    "building:levels": "25",
+    "height": "77.85",
+    "name": "106동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627472,
+  "center": {
+    "lat": 37.5440665,
+    "lon": 127.2052350
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "87",
+    "building:levels": "22",
+    "height": "69.3",
+    "name": "108동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627473,
+  "center": {
+    "lat": 37.5432835,
+    "lon": 127.2046366
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "76",
+    "building:levels": "20",
+    "height": "63.6",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627474,
+  "center": {
+    "lat": 37.5426696,
+    "lon": 127.2059637
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "90",
+    "building:levels": "23",
+    "height": "69.3",
+    "name": "103동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627475,
+  "center": {
+    "lat": 37.5427958,
+    "lon": 127.2065709
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "121",
+    "building:levels": "25",
+    "height": "77.85",
+    "name": "105동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627477,
+  "center": {
+    "lat": 37.5437455,
+    "lon": 127.2060389
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "94",
+    "building:levels": "25",
+    "height": "77.85",
+    "name": "110동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627480,
+  "center": {
+    "lat": 37.5423822,
+    "lon": 127.2066054
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "더샵하남에디피스아파트",
+    "addr:housenumber": "830",
+    "addr:postcode": "12935",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "20",
+    "height": "63.6",
+    "name": "104동",
+    "source": "도로명주소",
+    "start_date": "2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1239627490,
+  "center": {
+    "lat": 37.5444484,
+    "lon": 127.2041890
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "856",
+    "addr:postcode": "12936",
+    "addr:province": "경기도",
+    "addr:street": "하남대로",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "하남더샵센트럴뷰",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156662,
+  "center": {
+    "lat": 37.5570980,
+    "lon": 127.1867429
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "113",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "105동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156663,
+  "center": {
+    "lat": 37.5576731,
+    "lon": 127.1854560
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "113",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "101동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156664,
+  "center": {
+    "lat": 37.5578856,
+    "lon": 127.1859446
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "56",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "102동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156665,
+  "center": {
+    "lat": 37.5584337,
+    "lon": 127.1855772
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "113",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "112동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156666,
+  "center": {
+    "lat": 37.5589677,
+    "lon": 127.1855152
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "114",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "111동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156667,
+  "center": {
+    "lat": 37.5591541,
+    "lon": 127.1859402
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "56",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "110동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156668,
+  "center": {
+    "lat": 37.5593087,
+    "lon": 127.1868205
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "114",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "109동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156669,
+  "center": {
+    "lat": 37.5588257,
+    "lon": 127.1868743
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "113",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "108동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156670,
+  "center": {
+    "lat": 37.5583393,
+    "lon": 127.1869649
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "112",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "107동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1240156671,
+  "center": {
+    "lat": 37.5576640,
+    "lon": 127.1869892
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "114",
+    "building:levels": "29",
+    "height": "84.5",
+    "name": "106동",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1249368478,
+  "center": {
+    "lat": 37.5396807,
+    "lon": 127.2117736
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "벽산블루밍더클래식아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1250806411,
+  "center": {
+    "lat": 37.5509112,
+    "lon": 127.1985561
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "르메디안(다가구주택)"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542703,
+  "center": {
+    "lat": 37.5420320,
+    "lon": 127.1951313
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남힐즈파크푸르지오3단지"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542704,
+  "center": {
+    "lat": 37.5437110,
+    "lon": 127.1951297
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남힐즈파크푸르지오2단지"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542705,
+  "center": {
+    "lat": 37.5438715,
+    "lon": 127.1932037
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남힐즈파크푸르지오1단지"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542708,
+  "center": {
+    "lat": 37.5445249,
+    "lon": 127.1933492
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "68",
+    "building:levels": "19",
+    "height": "51.05",
+    "name": "106동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542709,
+  "center": {
+    "lat": 37.5445352,
+    "lon": 127.1929254
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "57",
+    "building:levels": "20",
+    "height": "53.85",
+    "name": "105동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542710,
+  "center": {
+    "lat": 37.5439569,
+    "lon": 127.1934891
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "84",
+    "building:levels": "22",
+    "height": "59.45",
+    "name": "107동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542711,
+  "center": {
+    "lat": 37.5440150,
+    "lon": 127.1930042
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "48",
+    "building:levels": "17",
+    "height": "45.45",
+    "name": "104동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542712,
+  "center": {
+    "lat": 37.5434314,
+    "lon": 127.1935083
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "57",
+    "building:levels": "20",
+    "height": "53.85",
+    "name": "101동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542713,
+  "center": {
+    "lat": 37.5431442,
+    "lon": 127.1935434
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "54",
+    "building:levels": "19",
+    "height": "51.05",
+    "name": "102동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251542714,
+  "center": {
+    "lat": 37.5434164,
+    "lon": 127.1930483
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "36",
+    "building:levels": "19",
+    "height": "51.05",
+    "name": "103동",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872980,
+  "center": {
+    "lat": 37.5420648,
+    "lon": 127.1968856
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남KCC스위첸아파트",
+    "addr:housenumber": "30",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "25",
+    "height": "68.2",
+    "name": "103동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872981,
+  "center": {
+    "lat": 37.5417987,
+    "lon": 127.1970850
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남KCC스위첸아파트",
+    "addr:housenumber": "30",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "69",
+    "building:levels": "25",
+    "height": "68.2",
+    "name": "104동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872982,
+  "center": {
+    "lat": 37.5422449,
+    "lon": 127.1970509
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남KCC스위첸아파트",
+    "addr:housenumber": "30",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "22",
+    "building:levels": "12",
+    "height": "32.4",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872983,
+  "center": {
+    "lat": 37.5422095,
+    "lon": 127.1973940
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "하남KCC스위첸아파트",
+    "addr:housenumber": "30",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "103",
+    "building:levels": "24",
+    "height": "65.4",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872995,
+  "center": {
+    "lat": 37.5431556,
+    "lon": 127.1973781
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "16",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "덕풍서해아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872996,
+  "center": {
+    "lat": 37.5428909,
+    "lon": 127.1972560
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "덕풍서해아파트",
+    "addr:housenumber": "16",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "138",
+    "building:levels": "18",
+    "name": "102동",
+    "source": "도로명주소",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 1251872997,
+  "center": {
+    "lat": 37.5433418,
+    "lon": 127.1973988
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "덕풍서해아파트",
+    "addr:housenumber": "16",
+    "addr:postcode": "12972",
+    "addr:province": "경기도",
+    "addr:street": "신장로205번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "285",
+    "building:levels": "23",
+    "name": "101동",
+    "source": "도로명주소",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 1251874954,
+  "center": {
+    "lat": 37.5441176,
+    "lon": 127.1976092
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "한승미메이드아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1251874955,
+  "center": {
+    "lat": 37.5444136,
+    "lon": 127.1974000
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "A"
+  }
+},
+{
+  "type": "way",
+  "id": 1251874956,
+  "center": {
+    "lat": 37.5445886,
+    "lon": 127.1974831
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "B"
+  }
+},
+{
+  "type": "way",
+  "id": 1251874958,
+  "center": {
+    "lat": 37.5441085,
+    "lon": 127.1975402
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "46",
+    "building:levels": "14",
+    "height": "40.2",
+    "name": "한승미메이드아파트",
+    "start_date": "2005"
+  }
+},
+{
+  "type": "way",
+  "id": 1251932378,
+  "center": {
+    "lat": 37.5345573,
+    "lon": 127.2235801
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.2",
+    "name": "101동"
+  }
+},
+{
+  "type": "way",
+  "id": 1251932379,
+  "center": {
+    "lat": 37.5344294,
+    "lon": 127.2235856
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.2",
+    "name": "102동"
+  }
+},
+{
+  "type": "way",
+  "id": 1251932380,
+  "center": {
+    "lat": 37.5342926,
+    "lon": 127.2235666
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.2",
+    "name": "103동"
+  }
+},
+{
+  "type": "way",
+  "id": 1251932382,
+  "center": {
+    "lat": 37.5343530,
+    "lon": 127.2239597
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "14.2",
+    "name": "104동"
+  }
+},
+{
+  "type": "way",
+  "id": 1251932383,
+  "center": {
+    "lat": 37.5344312,
+    "lon": 127.2236854
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "630연립주택"
+  }
+},
+{
+  "type": "way",
+  "id": 1252340276,
+  "center": {
+    "lat": 37.5330658,
+    "lon": 127.1991800
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "덕풍쌍용아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1252340294,
+  "center": {
+    "lat": 37.5336135,
+    "lon": 127.1986408
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "28",
+    "building:levels": "12",
+    "height": "36.9",
+    "name": "그린나래",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1252340300,
+  "center": {
+    "lat": 37.5338471,
+    "lon": 127.1976191
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "한솔리치빌아파트5단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1252340301,
+  "center": {
+    "lat": 37.5333434,
+    "lon": 127.1981690
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "22",
+    "height": "59",
+    "name": "504동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362595,
+  "center": {
+    "lat": 37.5352340,
+    "lon": 127.1969157
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "한솔리치빌아파트2단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362596,
+  "center": {
+    "lat": 37.5355575,
+    "lon": 127.1965668
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "25",
+    "building:levels": "14",
+    "height": "37.25",
+    "name": "205동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362609,
+  "center": {
+    "lat": 37.5361478,
+    "lon": 127.1959881
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "한솔리치빌아파트3단지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362610,
+  "center": {
+    "lat": 37.5363865,
+    "lon": 127.1957233
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "109",
+    "building:levels": "25",
+    "height": "67.9",
+    "name": "301동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362611,
+  "center": {
+    "lat": 37.5364053,
+    "lon": 127.1962767
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "112",
+    "building:levels": "25",
+    "height": "67.9",
+    "name": "302동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362612,
+  "center": {
+    "lat": 37.5358461,
+    "lon": 127.1960026
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "62",
+    "building:levels": "23",
+    "height": "62.3",
+    "name": "303동",
+    "start_date": "2006"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362624,
+  "center": {
+    "lat": 37.5328458,
+    "lon": 127.1975185
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "70.33",
+    "name": "102동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362625,
+  "center": {
+    "lat": 37.5333296,
+    "lon": 127.1971103
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "70.33",
+    "name": "104동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362626,
+  "center": {
+    "lat": 37.5338583,
+    "lon": 127.1967002
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "70.33",
+    "name": "106동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362627,
+  "center": {
+    "lat": 37.5343638,
+    "lon": 127.1963152
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "100",
+    "building:levels": "25",
+    "height": "70.33",
+    "name": "108동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362628,
+  "center": {
+    "lat": 37.5348049,
+    "lon": 127.1959571
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "95",
+    "building:levels": "25",
+    "height": "70.33",
+    "name": "110동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362629,
+  "center": {
+    "lat": 37.5344736,
+    "lon": 127.1959055
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "50",
+    "building:levels": "25",
+    "height": "70.33",
+    "name": "109동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362630,
+  "center": {
+    "lat": 37.5339149,
+    "lon": 127.1962633
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "40",
+    "building:levels": "20",
+    "height": "56.33",
+    "name": "107동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362631,
+  "center": {
+    "lat": 37.5335029,
+    "lon": 127.1967251
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "43",
+    "building:levels": "23",
+    "height": "64.73",
+    "name": "105동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362632,
+  "center": {
+    "lat": 37.5324938,
+    "lon": 127.1974165
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "36",
+    "building:levels": "18",
+    "height": "50.73",
+    "name": "101동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362633,
+  "center": {
+    "lat": 37.5328634,
+    "lon": 127.1969368
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "building:flats": "83",
+    "building:levels": "23",
+    "height": "64.73",
+    "name": "103동",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 1252362653,
+  "center": {
+    "lat": 37.5328569,
+    "lon": 127.2010202
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:province": "경기도",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "덕풍현대아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1252829458,
+  "center": {
+    "lat": 37.5344062,
+    "lon": 127.2292590
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남에클라56"
+  }
+},
+{
+  "type": "way",
+  "id": 1253271910,
+  "center": {
+    "lat": 37.5501481,
+    "lon": 127.2109370
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산동원베네스트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1253271911,
+  "center": {
+    "lat": 37.5507523,
+    "lon": 127.2096728
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "하남풍산센트레빌",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755648,
+  "center": {
+    "lat": 37.5380317,
+    "lon": 127.2247409
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "창우마을아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755656,
+  "center": {
+    "lat": 37.5351274,
+    "lon": 127.2256797
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "409동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755657,
+  "center": {
+    "lat": 37.5356577,
+    "lon": 127.2260366
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "411동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755658,
+  "center": {
+    "lat": 37.5376040,
+    "lon": 127.2273158
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "418동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755659,
+  "center": {
+    "lat": 37.5365467,
+    "lon": 127.2262310
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "413동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755660,
+  "center": {
+    "lat": 37.5370341,
+    "lon": 127.2265388
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "415동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755661,
+  "center": {
+    "lat": 37.5356094,
+    "lon": 127.2254590
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "102",
+    "building:levels": "17",
+    "name": "410동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755662,
+  "center": {
+    "lat": 37.5360911,
+    "lon": 127.2258031
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "412동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755663,
+  "center": {
+    "lat": 37.5368740,
+    "lon": 127.2236322
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "401동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755664,
+  "center": {
+    "lat": 37.5363503,
+    "lon": 127.2240450
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "402동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755665,
+  "center": {
+    "lat": 37.5384974,
+    "lon": 127.2269005
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "16",
+    "name": "421동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755666,
+  "center": {
+    "lat": 37.5380538,
+    "lon": 127.2270910
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "419동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256755667,
+  "center": {
+    "lat": 37.5381898,
+    "lon": 127.2276801
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "108",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "420동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256757023,
+  "center": {
+    "lat": 37.5370844,
+    "lon": 127.2257810
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "414동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256758694,
+  "center": {
+    "lat": 37.5367755,
+    "lon": 127.2251959
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "404동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1256758695,
+  "center": {
+    "lat": 37.5367111,
+    "lon": 127.2246794
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "18",
+    "height": "49.6",
+    "name": "403동",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 1279548491,
+  "center": {
+    "lat": 37.5481742,
+    "lon": 127.1850856
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "황산2 제1종지구단위구역"
+  }
+},
+{
+  "type": "way",
+  "id": 1396235671,
+  "center": {
+    "lat": 37.5363357,
+    "lon": 127.2121755
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "50",
+    "addr:postcode": "12962",
+    "addr:province": "경기도",
+    "addr:street": "신장로76번길",
+    "addr:subdistrict": "신장동",
+    "landuse": "residential",
+    "name": "하남신장현대홈타운아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396235675,
+  "center": {
+    "lat": 37.5400346,
+    "lon": 127.2054083
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "3",
+    "addr:postcode": "12968",
+    "addr:province": "경기도",
+    "addr:street": "신평로73번길",
+    "addr:subdistrict": "신장동",
+    "landuse": "residential",
+    "name": "한진연립",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396585386,
+  "center": {
+    "lat": 37.5378946,
+    "lon": 127.2083866
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "55",
+    "addr:postcode": "12959",
+    "addr:province": "경기도",
+    "addr:street": "하남대로787번길",
+    "addr:subdistrict": "신장동",
+    "landuse": "residential",
+    "name": "동부연립",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396585416,
+  "center": {
+    "lat": 37.5371864,
+    "lon": 127.2103275
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "54",
+    "addr:postcode": "12960",
+    "addr:province": "경기도",
+    "addr:street": "하남대로739번길",
+    "addr:subdistrict": "신장동",
+    "landuse": "residential",
+    "name": "석바대마을동신아파트",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396585418,
+  "center": {
+    "lat": 37.5435138,
+    "lon": 127.2080514
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "5",
+    "addr:postcode": "12948",
+    "addr:province": "경기도",
+    "addr:street": "신장동로",
+    "addr:subdistrict": "신장동",
+    "landuse": "residential",
+    "name": "쁘띠린",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396848551,
+  "center": {
+    "lat": 37.5396531,
+    "lon": 127.2029833
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "동아연립",
+    "addr:housenumber": "40",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "라동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396848553,
+  "center": {
+    "lat": 37.5397815,
+    "lon": 127.2030143
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "동아연립",
+    "addr:housenumber": "40",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "다동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396848556,
+  "center": {
+    "lat": 37.5395199,
+    "lon": 127.2029512
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "동아연립",
+    "addr:housenumber": "40",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "마동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396848564,
+  "center": {
+    "lat": 37.5396972,
+    "lon": 127.2031826
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "동아연립",
+    "addr:housenumber": "40",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "가동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396848566,
+  "center": {
+    "lat": 37.5398159,
+    "lon": 127.2032600
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housename": "동아연립",
+    "addr:housenumber": "40",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "building": "apartments",
+    "name": "나동",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1396848572,
+  "center": {
+    "lat": 37.5396881,
+    "lon": 127.2031311
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:housenumber": "40",
+    "addr:postcode": "12969",
+    "addr:province": "경기도",
+    "addr:street": "신평로55번길",
+    "addr:subdistrict": "덕풍동",
+    "landuse": "residential",
+    "name": "동아연립",
+    "residential": "apartments",
+    "source": "도로명주소"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523970,
+  "center": {
+    "lat": 37.5374877,
+    "lon": 127.2173330
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "202동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523971,
+  "center": {
+    "lat": 37.5370807,
+    "lon": 127.2168552
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "203동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523974,
+  "center": {
+    "lat": 37.5368490,
+    "lon": 127.2186636
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "207동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523976,
+  "center": {
+    "lat": 37.5363950,
+    "lon": 127.2185865
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "206동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523977,
+  "center": {
+    "lat": 37.5373446,
+    "lon": 127.2181941
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "210동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523979,
+  "center": {
+    "lat": 37.5364738,
+    "lon": 127.2177723
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "205동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523982,
+  "center": {
+    "lat": 37.5370425,
+    "lon": 127.2174530
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "204동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523983,
+  "center": {
+    "lat": 37.5373630,
+    "lon": 127.2187307
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "209동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523984,
+  "center": {
+    "lat": 37.5369994,
+    "lon": 127.2193028
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "208동"
+  }
+},
+{
+  "type": "way",
+  "id": 1424523985,
+  "center": {
+    "lat": 37.5378757,
+    "lon": 127.2178846
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "201동"
+  }
+},
+{
+  "type": "way",
+  "id": 1434510544,
+  "center": {
+    "lat": 37.5375201,
+    "lon": 127.2047802
+  },
+  "tags": {
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "15",
+    "height": "55.8",
+    "name": "블리스 오피스텔",
+    "start_date": "2019"
+  }
+},
+{
+  "type": "way",
+  "id": 1562496104,
+  "center": {
+    "lat": 37.5430507,
+    "lon": 127.2009857
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "11.6",
+    "name": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1562496105,
+  "center": {
+    "lat": 37.5429190,
+    "lon": 127.2008800
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "11.6",
+    "name": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1562496106,
+  "center": {
+    "lat": 37.5427136,
+    "lon": 127.2009041
+  },
+  "tags": {
+    "building": "apartments",
+    "height": "12.5",
+    "name": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 1562496107,
+  "center": {
+    "lat": 37.5428685,
+    "lon": 127.2009249
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "대웅아트빌리지",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1562496111,
+  "center": {
+    "lat": 37.5424926,
+    "lon": 127.2006876
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "효천수리골마을아파트",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "relation",
+  "id": 19268591,
+  "center": {
+    "lat": 37.5375149,
+    "lon": 127.2117500
+  },
+  "tags": {
+    "addr:city": "하남시",
+    "addr:postcode": "12961",
+    "addr:province": "경기도",
+    "addr:subdistrict": "신장동",
+    "landuse": "residential",
+    "name": "장미연립",
+    "residential": "apartments",
+    "source": "도로명주소",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
