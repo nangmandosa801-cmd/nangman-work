@@ -22,7 +22,7 @@ ax.spines['bottom'].set_color('#C8D2DE')
 fig.text(0.045,0.03,'국토교통부 아파트 전월세 실거래(2026년 2~7월 계약 · 전용 84㎡ · 월세 없는 계약 중앙값) · 1월 1건 · 8~10월 4건은 뺌',fontsize=12.5,color='#8A8578')
 fig.savefig(f'img/{S}1_urbanity.png'); plt.close()
 # 2 84㎡ 분양권 · 매매 · 전세
-R=[('지제역 주변 아파트 15곳\n84㎡ 매매',58000,GRAY),('해링턴플레이스\n84㎡ 분양권',47934,NAVY),('쌍용 더 플래티넘\n84㎡ 분양권',46440,GRAY),('풍경채어바니티\n84㎡ 분양권',44580,GRAY),('지제역 주변 아파트 15곳\n84㎡ 전세',28000,BLUE),('풍경채어바니티\n84㎡ 전세',25000,BLUE)]
+R=[('지제역 주변 아파트\n84㎡ 매매',58000,GRAY),('해링턴플레이스\n84㎡ 분양권',47934,NAVY),('쌍용 더 플래티넘\n84㎡ 분양권',46440,GRAY),('풍경채어바니티\n84㎡ 분양권',44580,GRAY),('지제역 주변 아파트\n84㎡ 전세',28000,BLUE),('풍경채어바니티\n84㎡ 전세',25000,BLUE)]
 fig=plt.figure(figsize=(11.55,7.6),dpi=120); fig.patch.set_facecolor('white')
 fig.text(0.045,0.955,'지제역 반도체밸리 해링턴플레이스와 지제역 주변 · 84㎡ 2026년 중앙값',fontsize=17,color=BLUE,va='top')
 fig.text(0.045,0.905,'분양권 4억 7,934만, 옆 단지 전세 2억 5천',fontsize=28,color=NAVY,fontweight='bold',va='top')
