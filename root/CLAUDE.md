@@ -68,5 +68,5 @@
 - 어사이드 작성 규칙은 드라이브 「블로그/협업/0_지시/어사이드_발행방식_1105.txt」.
 
 ## 낭만 부동산 원고 → 어사이드 (11/5 발행 방식 변경 · 프로젝트 문서 claude/공지_발행방식변경_1105.md)
-- helper 폴더(post.html · urls.json · img/)를 `python3 /home/claude/tools/postkit/html2aside.py <폴더> nangman_<이름> --up` 한 번 → txt + 사진(01 = 대표)을 드라이브 「블로그/협업/4_어사이드/원고」에. 지시 파일만 「4_어사이드」에 따로. 도우미 · 예약 큐 아티팩트는 쓰지 않음.
+- helper 폴더(post.html · urls.json · img/)를 `python3 /home/claude/tools/postkit/html2aside.py <폴더> nangman_<이름> --up` + `html2aside_html.py <폴더> nangman_<이름> --up` → html 원고(모양 그대로 · 「▼ 사진 NN」) + txt + 사진(01 = 대표)을 드라이브 「블로그/협업/4_어사이드/원고」에. 지시 파일만 「4_어사이드」에 따로. 도우미 · 예약 큐 아티팩트는 쓰지 않음.
 - 네이버 하루 2편 · 4시간 넘게 간격(낭만 부동산은 11:00 · 17:00).
