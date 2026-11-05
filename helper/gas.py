@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """낭만 블로그 우체통(Apps Script) 클라이언트 — PC 없이 구글 블로그 쓰기.
 설정: /home/claude/gas/conf.json {"url": "<웹 앱 주소>", "key": "<키>"}
-블로그 ID: budongsan 7361591188244782195 · changgo 3521924271702627135 · myeongham 6881288676569694880(작성자 초대 뒤) · ipju(목록에서 확인)
+블로그 ID: budongsan 7361591188244782195 · changgo 3521924271702627135 · ipju(목록에서 확인)
 사용 예:
   python3 gas.py blogs
   python3 gas.py post <blogId> "제목" body.html "라벨1,라벨2" [draft]
   python3 gas.py image <파일.png>            → 주소 출력
   python3 gas.py append <blogId> <postId> line.html
   python3 gas.py get <blogId> /2026/11/xxx.html
+  python3 gas.py gemini "<리서치 지시>" "블로그/리서치/분양공고" 20261104_분양공고_제목_gemini.md
   python3 gas.py ls "블로그/shorts" · fget <폴더> <이름> · fput <폴더> <파일> · flink <id>
 파이썬에서: from gas import call; call('post', blogId=..., title=..., html=..., labels=[...])
 """
 import json, sys, os, base64, urllib.request
 CONF = os.environ.get('GAS_CONF', '/home/claude/gas/conf.json')
-BLOG = {'budongsan': '7361591188244782195', 'changgo': '3521924271702627135', 'myeongham': '6881288676569694880'}  # myeongham: 명함 블로그에 nangmandosa801을 작성자로 초대해야 씀
+BLOG = {'budongsan': '7361591188244782195', 'changgo': '3521924271702627135', 'interior': '721059683412352295',
+        'dosa': '7985845820612980122', 'bunyang': '2834934300375742982', 'isa': '2364709415225710007', 'study': '2922809504030058068'}
 
 def call(action, **kw):
     c = json.load(open(CONF))
@@ -45,5 +47,9 @@ if __name__ == '__main__':
     elif a[0] == 'fput':   # gas.py fput "블로그/텍스트/낭만부동산" 로컬파일
         r = call('fput', path=a[1], name=os.path.basename(a[2]), b64=base64.b64encode(open(a[2], 'rb').read()).decode())
     elif a[0] == 'flink': r = call('flink', id=a[1])
+    elif a[0] == 'gemini':  # gas.py gemini "<지시>" [저장폴더 파일이름]  → 구글 검색 붙은 제미나이 리서치
+        kw = dict(prompt=a[1])
+        if len(a) > 3: kw.update(save=a[2], name=a[3])
+        r = call('gemini', **kw); r['text'] = r['text'][:4000]
     else: sys.exit('모르는 명령')
     print(json.dumps(r, ensure_ascii=False, indent=1))

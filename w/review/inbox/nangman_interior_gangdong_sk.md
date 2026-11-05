@@ -1,7 +1,7 @@
 # 강동역 SK리더스뷰 입주청소, 서랍 · 배수구 떼어 내고 닦는 순서
-kicker: 입주청소
+kicker: 낭만 인테리어 · 입주청소
 tags: 강동역 SK리더스뷰 입주청소, 강동역 SK리더스뷰, 강동 입주청소, 입주청소 순서, 입주청소 업체
----
+
 입주청소 끝났다고 해서 서랍을 열어 봤는데, 바닥에 톱밥 가루가 그대로 있다면 어떠실까요? 겉면만 닦고 간 경우입니다. 새집인데 첫날부터 다시 걸레를 들게 됩니다.
 
 강동역 SK리더스뷰에서 제휴 청소팀이 어떻게 했는지 순서대로 보여 드리겠습니다.
@@ -10,16 +10,13 @@ tags: 강동역 SK리더스뷰 입주청소, 강동역 SK리더스뷰, 강동 �
 
 손님과 청소팀장, 본사가 한 방에 들어갑니다. 청소 시작부터 끝까지 사진이 실시간으로 올라옵니다. 현장에 못 가셔도 어디까지 했는지 다 보실 수 있습니다.
 
-!=/home/claude/w/int10/img/nangman_interior_gangdong_sk_03.jpg
-!=/home/claude/w/int10/img/nangman_interior_gangdong_sk_04.jpg
-
 ## 떼어 낼 수 있는 건 다 뗍니다
 
 서랍, 선반, 배수구, 싱크대 아래 걸레받이, 환풍구까지 떼어 냅니다. 떼어 내야 그 뒤에 숨은 가루까지 닦을 수 있습니다.
 
 현장 리포트 · 강동역 SK리더스뷰 · 범위: 서랍 · 선반 · 배수구 · 싱크대 아래 걸레받이를 떼고 청소, 유리는 거품 세척 뒤 코팅, 에어컨은 필터를 떼고 스팀 청소, 욕실은 자외선 살균 · 진행: 청소 전부터 끝까지 손님 단톡방에 사진을 올림
-!=/home/claude/w/int10/img/nangman_interior_gangdong_sk_01.jpg
-!=/home/claude/w/int10/img/nangman_interior_gangdong_sk_02.jpg
+!/home/claude/v2src/partners/amrita2580/224451233800/04.jpg 강동역 아파트 서랍을 떼어 낸 모습 (제휴 시공팀 현장 · NI-1572)
+!/home/claude/v2src/partners/amrita2580/224451233800/17.jpg 같은 집 창틀 청소 (제휴 시공팀 현장 · NI-1573)
 
 ## 하자도 같이 찾아 둡니다
 
@@ -32,11 +29,6 @@ tags: 강동역 SK리더스뷰 입주청소, 강동역 SK리더스뷰, 강동 �
 ## 에어컨은 왜 따로 닦나요?
 
 새 에어컨은 한 번도 안 켰어도 공사 가루가 안에 들어가 있습니다. 그대로 켜면 가루가 방으로 날립니다. 그래서 필터를 떼어 스팀과 UV로 살균하고, 커버는 말린 다음 다시 끼웁니다. 욕실도 UV로 살균합니다.
-
-!=/home/claude/w/int10/img/nangman_interior_gangdong_sk_05.jpg
-!=/home/claude/w/int10/img/nangman_interior_gangdong_sk_06.jpg
-
-[CALL] 평형과 열쇠 받는 날만 알려 주시면 청소 날짜를 먼저 잡아 드립니다
 
 ## 마지막은 팀장이 한 번 더 봅니다
 
