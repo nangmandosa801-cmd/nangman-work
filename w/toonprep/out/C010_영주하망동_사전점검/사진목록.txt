@@ -1,0 +1,15 @@
+[사진목록] IT008 · C010 · C010_영주하망동_사전점검
+같은 현장 여부: 원문은 서비스 설명 글이라 사진이 한 세대에서 찍은 것인지 적혀 있지 않음 → 「서비스 설명 사례」로 표시. 보고서 화면에 업체 전화 워터마크가 있음(만화에 옮기지 않기). 「당일 보고서」 보장 문구 넣지 않기. 원문 01(가격 광고) · 02(절차 그림) · 21~26(후기 캡처)은 뺐습니다.
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_점검_대표직접점검.jpg | https://drive.google.com/file/d/1s_EbQogwzYgXefonPYovBpsup32faJj2/view | 점검 | 점검하는 뒷모습(얼굴 안 보임) | 원문 03번
+02_장비_점검장비.jpg | https://drive.google.com/file/d/1wDaGGhJ8c6ZpT7-KID2IKSjvQlZtB7pF/view | 장비 | 레이저 레벨 · 열화상 · 측정기 등 | 원문 04번
+03_장비_레이저수평점검.jpg | https://drive.google.com/file/d/1MpVJppTxknLsBqBJOcu0ieo2SAW0TPOs/view | 장비 | 바닥 · 벽 수평선 | 원문 05번
+04_장비_열화상점검.jpg | https://drive.google.com/file/d/1CNoEm19KCMQ3U2FH39s6HL0zXoIFpJEV/view | 장비 | 열화상 카메라 화면 | 원문 06번
+05_장비_열화상점검.jpg | https://drive.google.com/file/d/1ynKvzusiNrL96XrWu7P4mE-tkuwLUBow/view | 장비 | 천장 쪽 열화상 측정 | 원문 09번
+06_장비_배관내시경.jpg | https://drive.google.com/file/d/1eK5Af4jh2vzm1he8FPaLbMH8EQc37fFl/view | 장비 | 배수구 내시경 점검 | 원문 10번
+07_육안_하자표시스티커.jpg | https://drive.google.com/file/d/1x4ghmXn5tLl-y3JXt-z4MREUJn01rpgL/view | 육안 | 표시 스티커 부착(바닥) | 원문 11번
+08_육안_하자표시스티커.jpg | https://drive.google.com/file/d/1TgVZwXwgoAVfIvhghsk9V0iwJg9rlKXd/view | 육안 | 마루 찍힘 표시 | 원문 13번
+09_육안_하자표시스티커.jpg | https://drive.google.com/file/d/1IQrVmZqCScsv_mkbBJMWZPC2m7dPN_oK/view | 육안 | 창틀 표시 | 원문 14번
+10_보고서_보고서예시(1).jpg | https://drive.google.com/file/d/12Xz056dg0w956DG_zlCLbxxl8cFcqYNs/view | 보고서 | 하자 수량 · 장비 검사 표. 아파트명 · 동호수는 원문에서 이미 가려짐 | 원문 19번
+11_보고서_보고서예시(2).jpg | https://drive.google.com/file/d/142NCatjNT3D1YGRhSl8fW-aelxuUBGsZ/view | 보고서 | 구역별 근거리 · 원거리 사진과 하자 내용 | 원문 20번

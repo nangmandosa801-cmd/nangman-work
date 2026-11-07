@@ -1,0 +1,14 @@
+[사진목록] IT007 · C082 · C082_강서구_쥬리앙아파트
+같은 현장 여부: 같은 세대 창틀 사진이지만 전 · 중 · 후가 정확히 같은 모서리인지는 원문 사진만으로 1:1 확인이 안 됨 → 업체 확인 필요. 누수 완전 해결 단정 금지(원문도 다른 원인 가능성 적음).
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_전_갈라진실리콘.jpg | https://drive.google.com/file/d/1lsX8hzl7IPoNbGeL6DLdt9vabD02dIT5/view | 전 | 창틀 윗모서리 실리콘 갈라짐 · 들뜸 | 원문 05번
+02_전_갈라진실리콘근접.jpg | https://drive.google.com/file/d/10ZriaDo5_EocZhJLOOGPoYLoEVrH-Y80/view | 전 | 창틀 위 실리콘 틈 | 원문 07번
+03_전_갈라진실리콘.jpg | https://drive.google.com/file/d/1VvvZsz-iCk75ncSkQR67nlr_M_rauTGo/view | 전 | 창틀 옆선 기존 실리콘 | 원문 09번
+04_중_로프작업.jpg | https://drive.google.com/file/d/15RqXatO38wwQHWT8nDsy642gSKW56-An/view | 중 | 건물 외벽 로프 작업 모습(7층 1개 동) | 원문 11번
+05_중_기존실리콘제거.jpg | https://drive.google.com/file/d/1nO4zgDePItUcpctwOIc08AF5TcOGPmIj/view | 중 | 창틀 위 실리콘을 걷어 낸 자리 | 원문 14번
+06_중_바탕정리.jpg | https://drive.google.com/file/d/189_4rUmoyOsPnU-msHv4EQve-LgNoYY3/view | 중 | 제거 후 창틀 윗선 | 원문 19번
+07_중_새실리콘전보양.jpg | https://drive.google.com/file/d/14QCDxA4VMpiOXTN3Ma49_C0OVHXthAqq/view | 중 | 창틀 둘레 보양 테이프(주황) | 원문 16번
+08_중_새실리콘전보양.jpg | https://drive.google.com/file/d/1dpxq1lWjdJP7I3MS9XbfIqpDgFKsRjaT/view | 중 | 창틀 옆선 보양 테이프 | 원문 15번
+09_후_새실리콘마감.jpg | https://drive.google.com/file/d/1Ues4clBmCXbSDGpH0G9nNY0OgvsM3lMR/view | 후 | 창틀 둘레 새 실리콘 | 원문 24번
+10_후_새실리콘마감.jpg | https://drive.google.com/file/d/10kRSFzsQTWJfK1Wm2ScCUtVzC2BlQ4Ex/view | 후 | 창틀 윗선 새 실리콘 | 원문 26번

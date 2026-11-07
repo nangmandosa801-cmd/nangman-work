@@ -1,0 +1,13 @@
+[사진목록] IT003 · C061 · C061_강서구등촌동_등촌대림
+같은 현장 여부: 개폐 영상은 원문에 없음(업체에 요청 필요). 「부드러워졌다」는 원문 업체 설명이며 사진으로는 판정하지 않기. 원문 01(제목 카드) · 02(업체 캐릭터 그림)는 뺐습니다.
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_전_교체전3연동중문.jpg | https://drive.google.com/file/d/1mFyq6b0WKMRL6C0Ilr3dX_KzcrIjilBI/view | 전 | 현관 앞 3연동 중문(문 닫힌 모습) | 원문 03번
+02_전_기존하부롤러-레일.jpg | https://drive.google.com/file/d/1hirfzTycVwoqMuRwNs493pnA8RXqob_c/view | 전 | 문짝 아래 호차(롤러)와 하부 레일 | 원문 07번
+03_전_기존상부레일-연동장치.jpg | https://drive.google.com/file/d/1Z1qGTAT2Fp_rgeIzkcAxVHyC4qHhx5w6/view | 전 | 문짝 위 상부 레일과 연동 유닛 | 원문 06번
+04_중_하부레일청소.jpg | https://drive.google.com/file/d/1cTp3A1NTEYhDWyGULNyIyWlO6OXICBKf/view | 중 | 레일에 낀 먼지 · 오염 제거 | 원문 09번
+05_중_교체할새부품.jpg | https://drive.google.com/file/d/1Hc-Iz9Jc7WPQ1DWPiIhy6S51xkBqMsP3/view | 중 | 새 피봇과 호차(롤러) | 원문 12번
+06_중_부품교체.jpg | https://drive.google.com/file/d/1J7fjft6_nwP3_tKobW8hqxgzRH_qGCs9/view | 중 | 문짝 윗면에 새 피봇을 끼운 모습 | 원문 14번
+07_중_부품교체.jpg | https://drive.google.com/file/d/1Sw3C58P8Rf7d-kf95wRyqw4FGzdfT_ez/view | 중 | 새 호차(롤러) 부품 | 원문 15번
+08_후_재설치-조정.jpg | https://drive.google.com/file/d/1oFlq6rO3pcFCOSLz-iUM9eA92D707nmn/view | 후 | 새 연동 레일에 문짝을 다시 건 모습 | 원문 16번
+09_후_완료.jpg | https://drive.google.com/file/d/1Iqz7G6bE1h_mvFaKmIYyt05bwLvxnOSS/view | 후 | 재설치 후 3연동 중문 전체 | 원문 18번

@@ -1,0 +1,14 @@
+[사진목록] IT006 · C006 · C006_포항흥해읍_어머니방단열
+같은 현장 여부: 2026년 4월 사례. 작업 순서: 벽지 제거→항균 코팅→아이소핑크→이음새 폼→방수 테이프→석고보드. 온도 · 난방비 숫자는 원문에 없음. 원문 01(광고 그림)은 뺐습니다.
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_전_시공전방.jpg | https://drive.google.com/file/d/1Rd92eO4eQ61P2IjmUcBtxYXDvyK-E1Lb/view | 전 | 북향 창이 있는 방 전체 | 원문 02번
+02_전_열화상확인.jpg | https://drive.google.com/file/d/1IfKOWesSbw61GLZrD4O14qQCjlic8bzM/view | 전 | 시공 전 열화상 화면(모서리 냉기) | 원문 03번
+03_중_벽지제거.jpg | https://drive.google.com/file/d/1QwTfzzRSyitHMLOlpScVquapAra91YpU/view | 중 | 기존 벽지 걷어 내기 | 원문 04번
+04_중_시멘트벽노출.jpg | https://drive.google.com/file/d/1oFfYmkxShVtNZTy3A-MHdozlg8JJRUGp/view | 중 | 벽지 뗀 뒤 벽면 | 원문 05번
+05_중_항균코팅.jpg | https://drive.google.com/file/d/1M0uSJMXtLCnFQCcjEUgTQIgyjuiorpSd/view | 중 | 곰팡이 방지 코팅(얼굴 가려져 있음) | 원문 06번
+06_중_아이소핑크부착.jpg | https://drive.google.com/file/d/17UZeCECshP-79qJq3clGIfQaFNFGVvgq/view | 중 | 단열재 재단 · 압착 | 원문 07번
+07_중_이음새폼충진.jpg | https://drive.google.com/file/d/1Hcz7w_MWSXJI23lOxVJ82cFRurFXr5B5/view | 중 | 단열재 사이 폼 | 원문 08번
+08_중_방수테이프.jpg | https://drive.google.com/file/d/1XknB0wVwfRRUgygw73p-JSHpT2siD8Pr/view | 중 | 이음새 위 방수 테이프 | 원문 09번
+09_후_석고보드마감.jpg | https://drive.google.com/file/d/1ULint9xGgIHtvN92SnuiiB_Vimyd5wST/view | 후 | 같은 방 석고보드 마감 후 | 원문 10번
+10_후_시공후열화상.jpg | https://drive.google.com/file/d/1CtCqiBz2V9L7MwdG06T6UDjwQ2ZYdyYH/view | 후 | 같은 방 시공 후 열화상 화면 | 원문 11번

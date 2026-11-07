@@ -1,0 +1,12 @@
+[사진목록] IT005 · C075 · C075_평택_푸르지오센터파인
+같은 현장 여부: 원문은 평택푸르지오센터파인 입주 안내 글이지만, 사진이 이 단지 세대에서 찍은 것인지 원문에 적혀 있지 않음 → 업체 확인 필요. 팀장 검수 사진은 원문에 없음. 탈거 부위는 사진에 보이는 서랍 · 배수구 · 선반까지만.
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_전_분진-오염.jpg | https://drive.google.com/file/d/1NyY4XtFj3ht_G9uEH9yrmo2kpO9Sk1f9/view | 전 | 선반 위를 손으로 훑으니 손바닥에 먼지 | 원문 12번
+02_전_서랍청소전.jpg | https://drive.google.com/file/d/1hf9iNt-N3pTZX73D4EzsNS0Ui8Zqv-AR/view | 전 | 서랍 바닥 분진(손바닥) | 원문 26번
+03_전_창틀청소전.jpg | https://drive.google.com/file/d/1nh0ZUpeMouze45oc0rD2PPVKgnUnlVs6/view | 전 | 창틀 홈 분진 | 원문 28번
+04_중_분리청소.jpg | https://drive.google.com/file/d/1zGFnW9t4tQfzwXh723V9qtQaKUYGiLrX/view | 중 | 서랍을 빼낸 수납장 | 원문 11번
+05_중_분리청소.jpg | https://drive.google.com/file/d/1YhSwCBjPsqxKyyPdiKxm9PyDHvJZVoSR/view | 중 | 욕실 배수구 부속을 분리 | 원문 30번
+06_후_서랍청소후.jpg | https://drive.google.com/file/d/1ik5WuOKZN5Rmm3ljeoaD4aq5IpWKBaVg/view | 후 | 같은 서랍 청소 후 | 원문 27번
+07_후_창틀청소후.jpg | https://drive.google.com/file/d/1hHSGR9NJUkpSSaepQsFPe8llZKr3c2PK/view | 후 | 같은 창틀 청소 후 | 원문 29번
+08_후_배수구청소후.jpg | https://drive.google.com/file/d/1KdFDoZNFtLIGuTwi81LMT2YvE7bY-SFQ/view | 후 | 분리한 배수구 부속 청소 후 | 원문 31번

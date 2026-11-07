@@ -1,0 +1,12 @@
+[사진목록] IT002 · C038 · C038_인천마전동_풍림아이원1차
+같은 현장 여부: 안방 욕실 한 곳 사진만 골랐습니다(유리 칸막이 · 꽃무늬 사각 배수구로 같은 욕실 확인). 거실 욕실(둥근 배수구) 사진(원문 22~26 제거 중, 33·35 마감 후)은 섞지 않았습니다. 마감 후 사진도 타일 표면 얼룩은 남아 보임 — 「새 욕실처럼」 표현은 피하기.
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_전_셀프보수흔적.jpg | https://drive.google.com/file/d/1gqpAKddsL18IOyZh5vjUHZX_sIf-K0fB/view | 전 | 안방 욕실(유리 칸막이 · 사각 배수구) 바닥 전체. 줄눈 위에 실리콘 · 백시멘트가 덧발려 얼룩짐 | 원문 06번
+02_전_셀프보수흔적근접.jpg | https://drive.google.com/file/d/1CNOHUtRO7aG8ioa_dmb4rPTh0wTYJN0b/view | 전 | 같은 욕실 배수구 둘레. 덧바른 재료 아래 검게 오염 | 원문 07번
+03_전_시공전바닥.jpg | https://drive.google.com/file/d/1kZo2SHDIY75hAoiIiVBmwoJsPAG4K3A2/view | 전 | 같은 욕실(왼쪽 유리 칸막이) 바닥 줄눈 오염 | 원문 03번
+04_중_기존재료제거.jpg | https://drive.google.com/file/d/16AX4hcZbLK2OmLXVIX_2Lv3AzfxiVv0H/view | 중 | 같은 욕실. 걷어 낸 실리콘 · 백시멘트 조각이 바닥에 흩어짐 | 원문 16번
+05_중_기존재료제거.jpg | https://drive.google.com/file/d/1fVJbOao4TJlHaZW9JG6cyreKjv-CysKU/view | 중 | 같은 욕실 배수구 쪽. 틈의 재료를 파낸 상태 | 원문 17번
+06_중_기존재료제거근접.jpg | https://drive.google.com/file/d/1_lTQ8X4toebFDJFa0R-cj5AzASEMBt14/view | 중 | 같은 배수구 둘레 제거 중 | 원문 18번
+07_후_케라폭시마감후.jpg | https://drive.google.com/file/d/1wGNiatRM6yMfkdq3tQA7hoc9rW2bckZi/view | 후 | 같은 욕실(유리 칸막이 · 사각 배수구) 바닥 줄눈 새로 채움 | 원문 31번
+08_후_케라폭시마감후.jpg | https://drive.google.com/file/d/1HPvCO4PNY9M3zmfHv5euu3mnftsAXZyH/view | 후 | 같은 욕실 배수구 쪽 마감 | 원문 32번

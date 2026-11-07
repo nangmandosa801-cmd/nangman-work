@@ -1,0 +1,18 @@
+[사진목록] IT004 · C022 · C022_구리인창동_인창포레리움
+같은 현장 여부: 원인은 원문도 「필밸브 고장 · 부속 노후 · 급수 연결 문제」 중 하나로만 씀 — 확정하지 않기. 작동 확인 영상은 원문에만 있고 파일은 못 받음(업체에 요청 필요). 원문 01(제목 카드) · 02(아파트 외관)는 뺐습니다.
+
+파일명 | Drive 파일 주소 | 시공 단계 | 사진 설명 | 원문 사진 번호
+01_전_수리전물탱크내부.jpg | https://drive.google.com/file/d/1s8QZR2NoA-YMg_BJeJMhX_VrCh_y9lgG/view | 전 | 기존 부속(필밸브 · 배수 부속)이 달린 물탱크 안 | 원문 03번
+01_전_수리전물탱크내부_crop.jpg | https://drive.google.com/file/d/1ZIDO6N78TYNrH5kvSwWXaReZ7ROya0UM/view | 전 | 기존 부속(필밸브 · 배수 부속)이 달린 물탱크 안 (로고 자른 사본) | 원문 03번
+02_전_기존부속근접.jpg | https://drive.google.com/file/d/12Np3xjxf6cUPYPy8A_RPVQQCjK3KnTbI/view | 전 | 기존 급수 부속 | 원문 04번
+02_전_기존부속근접_crop.jpg | https://drive.google.com/file/d/17nqMrbXGvA02PzZkBUxvjIVnpye8qydz/view | 전 | 기존 급수 부속 (로고 자른 사본) | 원문 04번
+03_중_기존부속철거.jpg | https://drive.google.com/file/d/1_ltlqpgJTXyryZo74TUhkrF3lJ0PkZhG/view | 중 | 떼어 낸 기존 부속 | 원문 05번
+03_중_기존부속철거_crop.jpg | https://drive.google.com/file/d/1aif6zQ7jJKmeeYJWNCQa_Z3wtd9AdhWV/view | 중 | 떼어 낸 기존 부속 (로고 자른 사본) | 원문 05번
+04_중_부속뺀빈물탱크.jpg | https://drive.google.com/file/d/1IMrHih67_ifG0QJ6aUgxRtI41U3IdWXH/view | 중 | 교체 전 비운 물탱크 | 원문 06번
+04_중_부속뺀빈물탱크_crop.jpg | https://drive.google.com/file/d/1WaBkSSJEBVWNqZset1MwdBivA0fiIfOs/view | 중 | 교체 전 비운 물탱크 (로고 자른 사본) | 원문 06번
+05_중_새부속설치.jpg | https://drive.google.com/file/d/1biw0KXxG8Brp8mCT14qhF2gNOI8m3Omn/view | 중 | 새 부속 세트를 넣는 중 | 원문 07번
+05_중_새부속설치_crop.jpg | https://drive.google.com/file/d/1fJNE3lkB_kptPMAuF9WRcWZdiXPRoV8y/view | 중 | 새 부속 세트를 넣는 중 (로고 자른 사본) | 원문 07번
+06_후_새부속설치완료.jpg | https://drive.google.com/file/d/1o5ZjQ6t4Ulm0r-afgyDhhNbYZtHApb6t/view | 후 | 새 급수 · 배수 부속 | 원문 08번
+06_후_새부속설치완료_crop.jpg | https://drive.google.com/file/d/1BdKR1gOWl8QwxvQOtX9h3Lc9d0B6j6hx/view | 후 | 새 급수 · 배수 부속 (로고 자른 사본) | 원문 08번
+07_후_급수확인.jpg | https://drive.google.com/file/d/1LiBS1JyLmpYFuLZFi3m4UX0gI_M9bILm/view | 후 | 새 부속 설치 후 물탱크에 물이 찬 모습 | 원문 09번
+07_후_급수확인_crop.jpg | https://drive.google.com/file/d/145zloXzJqtiM8bHMohvLG7elxK9YkjSt/view | 후 | 새 부속 설치 후 물탱크에 물이 찬 모습 (로고 자른 사본) | 원문 09번
