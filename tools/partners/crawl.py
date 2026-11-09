@@ -37,7 +37,7 @@ def main(n=15):
             for x in re.findall(r'(https://postfiles\.pstatic\.net/[^"\'\s<>?]+)', b):
                 if x not in imgs: imgs.append(x)
             d0 = f'{IMG}/{bid}/{no}'; os.makedirs(d0, exist_ok=True); got = 0
-            for i, u in enumerate(imgs[:30]):
+            for i, u in enumerate([] if NOIMG else imgs[:30]):
                 f = f'{d0}/{i:02d}.jpg'
                 if os.path.exists(f): got += 1; continue
                 try: open(f, 'wb').write(get(u + '?type=w966', HI)); got += 1
@@ -49,4 +49,7 @@ def main(n=15):
     os.makedirs(os.path.dirname(POOL), exist_ok=True)
     json.dump(pool, open(POOL, 'w'), ensure_ascii=False, indent=0)
     print(json.dumps({'new': len(new), 'total': len(pool), 'by_blog': {b: sum(1 for k in new if k.startswith(b + '/')) for b in P}}, ensure_ascii=False))
-if __name__ == '__main__': main(int(sys.argv[1]) if len(sys.argv) > 1 else 15)
+NOIMG = '--noimg' in sys.argv
+if __name__ == '__main__':
+    a = [x for x in sys.argv[1:] if not x.startswith('--')]
+    main(int(a[0]) if a else 15)
