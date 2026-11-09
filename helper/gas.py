@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """낭만 블로그 우체통(Apps Script) 클라이언트 — PC 없이 구글 블로그 쓰기.
 설정: /home/claude/gas/conf.json {"url": "<웹 앱 주소>", "key": "<키>"}
-블로그 ID: budongsan 7361591188244782195 · changgo 3521924271702627135 · myeongham 6881288676569694880(작성자 초대 뒤) · ipju(목록에서 확인)
+블로그 ID: budongsan 7361591188244782195 · changgo 3521924271702627135 · ipju(목록에서 확인)
 사용 예:
   python3 gas.py blogs
   python3 gas.py post <blogId> "제목" body.html "라벨1,라벨2" [draft]
@@ -13,7 +13,7 @@
 """
 import json, sys, os, base64, urllib.request
 CONF = os.environ.get('GAS_CONF', '/home/claude/gas/conf.json')
-BLOG = {'budongsan': '7361591188244782195', 'changgo': '3521924271702627135', 'myeongham': '6881288676569694880'}  # myeongham: 명함 블로그에 nangmandosa801을 작성자로 초대해야 씀
+BLOG = {'budongsan': '7361591188244782195', 'changgo': '3521924271702627135'}
 
 def call(action, **kw):
     c = json.load(open(CONF))

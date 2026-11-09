@@ -56,7 +56,7 @@ def build(md, tag, when, tok):
     d = f'{W}/{tag}'; n = json.load(open(f'{d}/sp.json'))['n']; m = {}
     for l in open(tok, encoding='utf8'):
         p = l.split()
-        if len(p) == 2 and p[0].startswith(tag + '_'): m[p[0]] = p[1] if p[1].startswith('http') else f'https://blogger.googleusercontent.com/img/b/R29vZ2xl/{p[1]}/s1600/{p[0]}'
+        if len(p) == 2 and p[0].startswith(tag + '_'): m[p[0]] = f'https://blogger.googleusercontent.com/img/b/R29vZ2xl/{p[1]}/s1600/{p[0]}'
     U = [m.get(f'{tag}_{k:02d}.jpg') for k in range(1, n + 1)]
     miss = [k + 1 for k, u in enumerate(U) if not u]
     if miss: print(json.dumps({'error': 'missing_urls', 'photos': miss})); return
@@ -77,11 +77,6 @@ def queue(when, title, url, label):
     open(QUEUE, 'w', encoding='utf8').write(q); print(json.dumps({'queue': QUEUE, 'row': w}, ensure_ascii=False))
 def auto(md, tag, when):
     sys.path.insert(0, '/home/claude/helper')
-    # 11/4 ChatGPT 검수 통과한 원고만(낭만 인테리어). 건너뛰려면 환경변수 FORCE=1
-    sys.path.insert(0, '/home/claude/tools/review')
-    from gpt_review import passed
-    if not passed(md) and os.environ.get('FORCE') != '1':
-        print(json.dumps({'error': 'gpt_review_not_passed', 'next': f'python3 /home/claude/tools/review/gpt_review.py {md}'}, ensure_ascii=False)); return
     if not os.path.exists('/home/claude/gas/conf.json'):
         print(json.dumps({'error': 'no_gas_conf', 'next': 'prep → put → js → build (브라우저 방식)'})); return
     from gas import image

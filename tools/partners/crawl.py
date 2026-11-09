@@ -19,14 +19,12 @@ P = {  # 블로그 id: (약자, 종목, 사진 규칙)
 H = {'User-Agent': 'Mozilla/5.0'}; HI = {'User-Agent': 'Mozilla/5.0', 'Referer': 'https://blog.naver.com/'}
 POOL = '/home/claude/w/partners/pool.json'; IMG = '/home/claude/v2src/partners'
 def get(u, h=H): return urllib.request.urlopen(urllib.request.Request(u, headers=h), timeout=20).read()
-def main(n=15, noimg=False):
+def main(n=15):
     pool = json.load(open(POOL)) if os.path.exists(POOL) else {}
     new = []
     for bid, (ab, kind, rule) in P.items():
-        s = ''
-        for pg in range(1, (n + 29) // 30 + 1):
-            try: s += get(f'https://blog.naver.com/PostTitleListAsync.naver?blogId={bid}&currentPage={pg}&countPerPage={min(n, 30)}').decode('utf8', 'ignore')
-            except Exception as e: print(bid, 'list_err', e); break
+        try: s = get(f'https://blog.naver.com/PostTitleListAsync.naver?blogId={bid}&currentPage=1&countPerPage={n}').decode('utf8', 'ignore')
+        except Exception as e: print(bid, 'list_err', e); continue
         for no, t, d in re.findall(r'"logNo":"(\d+)","title":"(.*?)".*?"addDate":"(.*?)"', s):
             k = f'{bid}/{no}'
             if k in pool: continue
@@ -39,16 +37,16 @@ def main(n=15, noimg=False):
             for x in re.findall(r'(https://postfiles\.pstatic\.net/[^"\'\s<>?]+)', b):
                 if x not in imgs: imgs.append(x)
             d0 = f'{IMG}/{bid}/{no}'; os.makedirs(d0, exist_ok=True); got = 0
-            for i, u in enumerate([] if noimg else imgs[:30]):
+            for i, u in enumerate(imgs[:30]):
                 f = f'{d0}/{i:02d}.jpg'
                 if os.path.exists(f): got += 1; continue
                 try: open(f, 'wb').write(get(u + '?type=w966', HI)); got += 1
                 except Exception: pass
             pool[k] = {'blog': bid, 'abbr': ab, 'kind': kind, 'photo_rule': rule, 'logNo': no,
-                       'title': urllib.parse.unquote_plus(t), 'date': d, 'text': txt[:4000], 'imgs': imgs[:30], 'got': got}
+                       'title': urllib.parse.unquote_plus(t), 'date': d, 'text': txt[:2500], 'imgs': imgs[:30], 'got': got}
             new.append(k); time.sleep(0.3)
             os.makedirs(os.path.dirname(POOL), exist_ok=True); json.dump(pool, open(POOL, 'w'), ensure_ascii=False, indent=0)
     os.makedirs(os.path.dirname(POOL), exist_ok=True)
     json.dump(pool, open(POOL, 'w'), ensure_ascii=False, indent=0)
     print(json.dumps({'new': len(new), 'total': len(pool), 'by_blog': {b: sum(1 for k in new if k.startswith(b + '/')) for b in P}}, ensure_ascii=False))
-if __name__ == '__main__': main(int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 15, '--noimg' in sys.argv)
+if __name__ == '__main__': main(int(sys.argv[1]) if len(sys.argv) > 1 else 15)
