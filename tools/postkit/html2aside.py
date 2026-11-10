@@ -6,6 +6,7 @@
 표시: [사진 NN] · [소제목] · [표] 칸 | 칸 … [/표] · 링크는 「글자 (주소)」 · 맨 아래 「태그:」
 """
 import sys, os, re, json, glob, subprocess
+sys.path.insert(0, '/home/claude/tools/postkit')
 from bs4 import BeautifulSoup, NavigableString
 from PIL import Image
 
@@ -17,7 +18,9 @@ u2f = {}
 for k, u in urls.items():
     m = glob.glob(f'{d}/img/*_{k}.png')
     if m: u2f[u] = m[0]
-soup = BeautifulSoup(open(f'{d}/post.html', encoding='utf8').read(), 'html.parser')
+from vis2img import prep
+_h, _vm = prep(d); u2f.update(_vm)
+soup = BeautifulSoup(_h, 'html.parser')
 TITLE = re.search(r"TITLE\s*=\s*['\"](.+?)['\"]", open(f'{d}/mk.py', encoding='utf8').read()).group(1)
 k = 0
 def photo(path):

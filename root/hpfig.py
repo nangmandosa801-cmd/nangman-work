@@ -19,7 +19,7 @@ def frame(src,cap,out):
     y2=y+42; d.line([(m,y2),(W-m,y2)],fill='#DDD8CE',width=2)
     _mark_door(d,m,y2+18,26,36,frame='#FFFFFF')
     d.text((m+48,y2+18),'낭만 인테리어',font=F(26,False,True),fill='#1F3864')
-    t='010-2882-8165'; f=F(24,False,True); tw=d.textlength(t,font=f)
+    t='010-7678-9967'; f=F(24,False,True); tw=d.textlength(t,font=f)
     d.text((W-m-tw,y2+20),t,font=f,fill='#8A8578')
     c.save(out,quality=92)
 P=[('4b7c7be5-image.jpg','복도 쪽에서 본 닫힌 모습 — 큰 문과 작은 문, 어반블루 틀과 브론즈 유리','01_closed'),
