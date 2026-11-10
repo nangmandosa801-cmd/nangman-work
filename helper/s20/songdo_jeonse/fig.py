@@ -57,3 +57,10 @@ d.text((W/2,500),'84㎡ 새 세입자',font=kr(ser,64),fill='#F4F1EA',anchor='mm
 d.text((W/2,605),'4억 1천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'매매 7억 3천의 56%',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_songdo_jeonse_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_songdo_jeonse_1_gongu_v2.png', '3공구는 매매가 가장 높은데 전세는 매매의 49%', [('3공구 인천대입구역|매매', 95250.0, '9억 5,250만', False), ('3공구 인천대입구역|전세 · 매매의 49%', 47000.0, '4억 7,000만', True), ('1공구 센트럴파크|매매', 83000.0, '8억 3,000만', False), ('1공구 센트럴파크|전세 · 매매의 63%', 52000.0, '5억 2,000만', False)], note='송도 전세 시세 · 공구별 84㎡ 새 세입자 전세와 매매 (2026년 1~10월 중앙값)')
+bars('img/nangman_songdo_jeonse_2_pair_v2.png', '2018년 짝: 매매는 6억 7천, 전세는 1억 3천 차이', [('송도더샵파크애비뉴|3공구 · 매매', 131500.0, '13억 1,500만', True), ('e편한세상송도|8공구 · 매매', 64300.0, '6억 4,300만', False), ('송도더샵파크애비뉴|3공구 · 전세', 50500.0, '5억 500만', False), ('e편한세상송도|8공구 · 전세', 37000.0, '3억 7,000만', False)], note='송도 전세 시세 · 비슷한 해에 지은 단지 짝 84㎡ (2026년 1~10월 중앙값)')
+print('v2 ok')

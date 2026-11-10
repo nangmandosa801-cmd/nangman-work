@@ -10,11 +10,12 @@
   "하남 아파트 실거래가",
   "84㎡ 시세"
  ],
- "chars": 1917,
- "chars_sp": 2448,
- "images": 5,
- "drive": "블로그/협업/4_어사이드/티스토리/원고/hanam-pungsan-apt-price",
+ "chars": 2020,
+ "chars_sp": 2571,
+ "images": 4,
+ "drive": null,
  "ban": [],
+ "gblog": null,
  "core": {
   "end": 202610,
   "med84_6m": 123000.0,

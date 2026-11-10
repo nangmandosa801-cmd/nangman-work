@@ -39,3 +39,9 @@ d.text((W/2,610),'강남 32% · 도봉 73%',font=kr(ser,86),fill='#D4B04C',ancho
 d.text((W/2,715),'새 세입자 전세 ÷ 매매 중앙값 · 2026년 1~10월',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_seoul_jeonse_ratio_thumb.png')
 print('ok')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_seoul_jeonse_ratio_1_gu_v2.png', '매매 31억 강남구는 32%, 매매 6억 2천 도봉구는 73%', [('강남구|매매 31억', 32.4, '32.4%', True), ('서초구|매매 29억 5,000만', 38.6, '38.6%', False), ('양천구|매매 11억 9,000만', 58.8, '58.8%', False), ('금천구|매매 7억 2,000만', 67.4, '67.4%', False), ('도봉구|매매 6억 2,000만', 72.6, '72.6%', False)], note='서울 84㎡ 전세가율 · 2026년 1~10월 · 25개 구는 아래 표')
+print('v2 ok')

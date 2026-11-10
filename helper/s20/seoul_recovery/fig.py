@@ -42,3 +42,9 @@ d.text((W/2,605),'4곳',font=kr(ser,120),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'강남 144 · 도봉 93 (2021년 = 100)',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_seoul_recovery_thumb.png')
 print('ok')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_seoul_recovery_1_rec_v2.png', '2021년 고점 넘긴 구 21곳, 못 넘긴 구 4곳', [('강남구', 144.2, '144.2', False), ('서초구', 134.1, '134.1', False), ('마포구', 113.9, '113.9', False), ('강북구', 98.1, '98.1', False), ('도봉구', 93.5, '93.5', True)], note='84㎡ 매매 중앙값 · 2021년 = 100 · 2026년 1~10월')
+print('v2 ok')

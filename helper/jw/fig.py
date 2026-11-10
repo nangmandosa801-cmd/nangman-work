@@ -51,3 +51,10 @@ d.text((W/2,490),'옆 단지 84㎡ 전세',font=kr(ser,62),fill='#F4F1EA',anchor
 d.text((W/2,605),'2억 8천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'2024년 입주 옆 새 아파트 4곳 · 올해 100건 중앙값',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_jinwiseohee_1_segyo_v2.png', '첫 두 달 3억 1천~3억 2천, 셋째 달부터 올랐다', [('3월', 32000.0, '3억 2,000만', False), ('4월', 31000.0, '3억 1,000만', False), ('5월', 35000.0, '3억 5,000만', True), ('7월', 39000.0, '3억 9,000만', False), ('8월', 38000.0, '3억 8,000만', False)], note='오산 세교파라곤(2026년 입주) · 84㎡ 전세 달별 중앙값')
+bars('img/nangman_jinwiseohee_2_compare_v2.png', '59㎡ 분양권 3억 5천, 옆 단지 84㎡ 전세 2억 8천', [('옆 새 아파트 4곳 84㎡ 매매', 47800.0, '4억 7,800만', False), ('옆 새 아파트 4곳 59㎡ 매매', 36550.0, '3억 6,550만', False), ('진위역 서희스타힐스 59㎡ 분양권', 35200.0, '3억 5,200만', True), ('옆 새 아파트 4곳 84㎡ 전세', 28350.0, '2억 8,350만', False), ('옆 새 아파트 4곳 59㎡ 전세', 22050.0, '2억 2,050만', False)], note='진위역 서희스타힐스 분양권과 2024년 입주 옆 새 아파트 4곳(오산 3곳')
+print('v2 ok')

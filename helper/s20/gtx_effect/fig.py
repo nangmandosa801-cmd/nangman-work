@@ -39,3 +39,9 @@ d.text((W/2,500),'동탄역 앞 84㎡ 개통 뒤 1년',font=kr(ser_,56),fill='#F
 d.text((W/2,615),'4% 상승',font=kr(ser_,100),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'운정역 앞은 3% 하락',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_gtx_effect_thumb.png'); print('fig ok')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_gtx_effect_1_line_v2.png', '동탄역 앞 개통 뒤 1년 4% 상승, 운정은 3% 하락', [('동탄 역 앞 500m 안|개통 전 1년', 11.25, '11억 2,500만', False), ('동탄 역 앞 500m 안|개통 뒤 1년', 11.7, '11억 7,000만', True), ('운정 역 앞 700m 안|개통 전 1년', 7.0, '7억', False), ('운정 역 앞 700m 안|개통 뒤 1년', 6.8, '6억 8,000만', False)], note='GTX-A 역 앞 단지 84㎡ 매매 중앙값')
+print('v2 ok')

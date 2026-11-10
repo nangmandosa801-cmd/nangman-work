@@ -484,8 +484,12 @@ def build(key, up=False, gblog=False):
             G.append(H2(f'{nm} 아파트 실거래가 · 이번 달 눈에 띄는 점 {len(INS)}가지'))
             shown = False
             for no, z in zip('①②③④', INS):
-                G.append(H3(f'{no} {z["title"]}')); G.append(P(z['body']))
+                G.append(H3(f'{no} {z["title"]}'))
+                ss = re.split(r'(?<=[다\)]\.) ', z['body'])          # 한 문단 = 한 문장(숫자 한 짝). 세는 방법 문장은 맨 뒤로.
+                if len(ss) > 1 and ss[0].endswith(('비교했습니다.', '기준입니다.', '세웠습니다.', '세었습니다.')): ss = ss[1:] + [ss[0]]
+                for t_ in ss[:1]: G.append(P(t_))
                 if z['fig'] and not shown: G.append(IMG(len(files), files[-1][1])); shown = True
+                for t_ in ss[1:]: G.append(P(t_))
             G.append(P(f'{"동 묶음은 거래 10건 이상" if key == "hanam" else "단지는 매매 5건 이상"}인 곳만 비교했습니다. 건수가 적은 곳은 층 · 향에 따라 가운데 값이 움직입니다.'))
         G += B[3:]
         lk = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gblog_links.json'))).get(key, [])

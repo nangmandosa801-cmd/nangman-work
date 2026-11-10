@@ -10,11 +10,12 @@
   "하남 아파트 실거래가",
   "84㎡ 시세"
  ],
- "chars": 1761,
- "chars_sp": 2280,
- "images": 5,
- "drive": "블로그/협업/4_어사이드/티스토리/원고/gamil-apt-price",
+ "chars": 1873,
+ "chars_sp": 2413,
+ "images": 4,
+ "drive": null,
  "ban": [],
+ "gblog": null,
  "core": {
   "end": 202610,
   "med84_6m": 142000.0,

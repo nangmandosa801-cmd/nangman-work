@@ -55,3 +55,9 @@ d.text((W/2,460),'감일 · 감북 · 미사',font=kr(ser,56),fill='#F4F1EA',anc
 d.text((W/2,595),'다시 3년',font=kr(ser,104),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'2026년 11월 3일 ~ 2029년 11월 2일',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_hanamtoji_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_hanamtoji_2_count_v2.png', '3분기 거래, 1년 전보다 미사 120건 · 감일 56건 적었습니다', [('미사|2025년 3분기', 234.0, '234건', False), ('미사|2026년 3분기', 114.0, '114건', True), ('감일|2025년 3분기', 89.0, '89건', False), ('감일|2026년 3분기', 33.0, '33건', False)], note='하남 감일 · 미사 아파트 84㎡ 매매 건수 (분기별)')
+print('v2 ok')

@@ -55,3 +55,10 @@ d.text((W/2,490),'6억 이하 84㎡',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,605),'2,442곳',font=kr(ser,100),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'그중 서울은 92곳',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_didim_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_didim_1_count_v2.png', '수도권 2,442곳, 서울은 92곳', [('서울|1,603곳 중', 92.0, '92곳', True), ('경기|2,933곳 중', 1906.0, '1,906곳', False), ('인천|553곳 중', 444.0, '444곳', False)], note='84㎡ 매매 중앙값 6억 이하 단지 수')
+bars('img/nangman_didim_2_cash_v2.png', '6억 집은 내 돈 2억 8천이 듭니다', [('집값 4억', 12000.0, '1억 2,000만', False), ('집값 5억', 18000.0, '1억 8,000만', False), ('집값 5억 6,000만', 24000.0, '2억 4,000만', False), ('집값 6억', 28000.0, '2억 8,000만', True)], note='집값별로 드는 내 돈 = 집값 − 디딤돌 대출')
+print('v2 ok')

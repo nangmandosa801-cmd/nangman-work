@@ -62,3 +62,10 @@ d.text((W/2,490),'LH 시행자 지정 뒤',font=kr(ser,60),fill='#F4F1EA',anchor
 d.text((W/2,600),'거래 181건',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'9-2구역 · 11구역 · 2026년 3월~10월',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{P}thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_sanbon_seondo_1_count_v2.png', 'LH 시행자 지정 뒤에도 매달 거래가 이어졌다', [('1월', 52, '52건', False), ('3월|LH 시행자 지정', 18, '18건', False), ('6월', 40, '40건', True), ('9월', 30, '30건', False), ('10월|신고 기한 남음', 14, '14건', False)], note='산본 선도지구 11구역 + 9-2구역 매매 건수 · 2026년')
+bars('img/nangman_sanbon_seondo_2_price_v2.png', '선도지구 9~11% · 밖 구축 6% 올랐다', [('11구역|2025년', 2575.0, '2,575만', False), ('11구역|2026년 1~10월', 2802.0, '2,802만', True), ('선도지구 밖 산본동 구축|2025년', 2139.0, '2,139만', False), ('선도지구 밖 산본동 구축|2026년 1~10월', 2272.0, '2,272만', False)], note='산본 재건축 선도지구 3.3㎡당 매매 중앙값 · 2025년과 2026년 1~10월')
+print('v2 ok')

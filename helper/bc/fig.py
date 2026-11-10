@@ -42,3 +42,10 @@ d.text((W/2,490),'옆 2블록 84㎡ 전세',font=kr(ser,62),fill='#F4F1EA',ancho
 d.text((W/2,605),'2억 4천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'2026년 7~10월 · 38건 중앙값',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_braincity_1_jeonse_v2.png', '7~10월 넉 달, 2억 4천~2억 5천 그대로', [('7월', 24500.0, '2억 4,500만', False), ('8월', 24000.0, '2억 4,000만', False), ('9월', 25000.0, '2억 5,000만', False), ('10월', 25000.0, '2억 5,000만', True)], note='평택 브레인시티 2블록 로제비앙 모아엘가 · 84㎡ 전세 달별 중앙값(2026년)')
+bars('img/nangman_braincity_2_bunyang_v2.png', '분양권 84㎡, 넉 달 사이 7,400만원 내려', [('7월', 52359.0, '5억 2,359만', False), ('8월', 48013.0, '4억 8,013만', False), ('9월', 45512.0, '4억 5,512만', False), ('10월', 44920.0, '4억 4,920만', True)], note='평택 브레인시티 2블록 로제비앙 모아엘가 · 84㎡ 분양권 달별 중앙값(2026년)')
+print('v2 ok')

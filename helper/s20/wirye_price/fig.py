@@ -40,3 +40,10 @@ d.text((W/2,500),'84㎡ 올해 중앙값',font=kr(ser,62),fill='#F4F1EA',anchor=
 d.text((W/2,605),'16억 9천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'지난해 14억 5천에서',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_wirye_price_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_wirye_price_1_city_v2.png', '84㎡ 송파 쪽 20억 6,500만, 성남 쪽 16억', [('송파 위례|2025년', 165000.0, '16억 5,000만', False), ('송파 위례|2026년 (+25%)', 206500.0, '20억 6,500만', True), ('성남 위례|2025년', 144000.0, '14억 4,000만', False), ('성남 위례|2026년 (+11%)', 160000.0, '16억', False)], note='위례 아파트 시세 · 84㎡ 매매 중앙값 · 2025년과 2026년')
+bars('img/nangman_wirye_price_2_pair_v2.png', '같은 2016년 준공, 하남 16억 5천 · 성남 18억 7,500만', [('위례롯데캐슬(하남)|2025년', 130000.0, '13억', False), ('위례롯데캐슬(하남)|2026년 (+27%)', 165000.0, '16억 5,000만', True), ('위례 래미안이편한세상(성남)|2025년', 145000.0, '14억 5,000만', False), ('위례 래미안이편한세상(성남)|2026년 (+29%)', 187500.0, '18억 7,500만', False)], note='위례 아파트 시세 · 단지 짝 84㎡ 매매 중앙값')
+print('v2 ok')

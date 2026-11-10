@@ -59,3 +59,10 @@ d.text((W/2,490),'84㎡ 중앙값',font=kr(ser,60),fill='#F4F1EA',anchor='mm')
 d.text((W/2,600),'5억 7천 그대로',font=kr(ser,92),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'백송 · 후곡마을 · 2025년과 2026년 10월까지',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_ilsan_seondo_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_ilsan_seondo_1_price_v2.png', '선도지구 84㎡ 5억 7,000 → 5억 6,850', [('백송 · 후곡 선도지구|2025년', 57000.0, '5억 7,000만', False), ('백송 · 후곡 선도지구|2026년 1~10월', 56850.0, '5억 6,850만', True), ('선도지구 밖 일산 구축|2025년', 54000.0, '5억 4,000만', False), ('선도지구 밖 일산 구축|2026년 1~10월', 54600.0, '5억 4,600만', False)], note='일산 재건축 선도지구 84㎡ 매매 중앙값 · 2025년과 2026년 1~10월')
+bars('img/nangman_ilsan_seondo_2_count_v2.png', '2026년 6월 31건 · 2025년 이후 가장 많은 달', [('2025년 11월', 21, '21건', False), ('2026년 3월', 19, '19건', False), ('5월', 20, '20건', False), ('6월', 31, '31건', True), ('10월|신고 기한 남음', 8, '8건', False)], note='백송 · 후곡 선도지구 84㎡ 매매 건수')
+print('v2 ok')

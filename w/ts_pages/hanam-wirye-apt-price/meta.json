@@ -10,11 +10,12 @@
   "하남 아파트 실거래가",
   "95~105㎡ 시세"
  ],
- "chars": 1957,
- "chars_sp": 2513,
- "images": 5,
- "drive": "블로그/협업/4_어사이드/티스토리/원고/hanam-wirye-apt-price",
+ "chars": 2025,
+ "chars_sp": 2593,
+ "images": 4,
+ "drive": null,
  "ban": [],
+ "gblog": null,
  "core": {
   "end": 202610,
   "med84_6m": 170000.0,

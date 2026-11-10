@@ -59,3 +59,10 @@ d.text((W/2,490),'시행자 지정 뒤 84㎡',font=kr(ser,60),fill='#F4F1EA',anc
 d.text((W/2,600),'거래 7건',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'시범 · 샛별 · 양지마을 · 2026년 10월까지',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_bundangrecon_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_bundangrecon_1_price_v2.png', '양지마을 18억 5천 → 22억 6,500만', [('양지마을|2025년', 185000.0, '18억 5,000만', False), ('양지마을|2026년 1~10월', 226500.0, '22억 6,500만', True), ('선도지구 밖 분당 구축|2025년', 139000.0, '13억 9,000만', False), ('선도지구 밖 분당 구축|2026년 1~10월', 180000.0, '18억만', False)], note='분당 재건축 선도지구 84㎡ 매매 중앙값 · 2025년과 2026년 1~10월')
+bars('img/nangman_bundangrecon_2_count_v2.png', '시범 · 샛별 4~6월 34건 → 7~10월 4건', [('1~3월', 23, '23건', False), ('4~6월', 34, '34건', False), ('7~10월', 4, '4건', True)], note='시범 현대우성 · 샛별마을 84㎡ 매매 건수 · 2026년')
+print('v2 ok')

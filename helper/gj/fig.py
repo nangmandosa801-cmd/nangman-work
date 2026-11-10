@@ -53,3 +53,9 @@ d.text((W/2,480),'처음 내 지분',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,610),'25%',font=kr(ser,130),fill='#D4B04C',anchor='mm')
 d.text((W/2,725),'나머지 75%는 20년 동안 네 번',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_gwanggyojibun_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_gwanggyojibun_1_share_v2.png', 'GH 지분 75% → 0%, 사용료도 그만큼 줄어든다', [('입주 때', 25.0, '25%', True), ('5년 뒤', 45.0, '45%', False), ('10년 뒤', 65.0, '65%', False), ('15년 뒤', 85.0, '85%', False), ('20년 뒤', 100.0, '100%', False)], note='광교 지분적립형 · 내 지분이 늘어나는 순서')
+print('v2 ok')

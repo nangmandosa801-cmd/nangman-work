@@ -60,3 +60,9 @@ d.text((W/2,370),'미사섬 개발',font=kr(ser,96),fill='#F4F1EA',anchor='mm')
 d.text((W/2,530),'1만 2천 가구',font=kr(ser,104),fill='#D4B04C',anchor='mm')
 d.text((W/2,680),'미사경정공원 옆 · 131만㎡',font=kr(san,38),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_misaseom_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_misaseom_1_price_v2.png', '1년 사이 10억 4,500만 → 12억 9,500만', [('2025년 1월', 9.7, '9억 7,000만', False), ('2025년 10월', 10.45, '10억 4,500만', False), ('2026년 10월', 12.95, '12억 9,500만', True)], note='미사강변도시 84㎡ 월별 매매 중앙값')
+print('v2 ok')

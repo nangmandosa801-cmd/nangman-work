@@ -62,3 +62,9 @@ d.text((W/2,490),'승인 26개 블록',font=kr(ser,66),fill='#F4F1EA',anchor='mm
 d.text((W/2,605),'공고는 1곳',font=kr(ser,92),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'A2 청약 뒤 18개월째 다음 공고 없음',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_gyosan_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_gyosan_1_price_v2.png', '옆 신축 84㎡ 매매 12억~16억 5천, 새 전세 7억~7억 6천', [('위례 하남|매매', 165000.0, '16억 5,000만', False), ('감일|매매', 141000.0, '14억 1,000만', True), ('미사|매매', 120000.0, '12억', False), ('위례 하남|새 세입자 전세', 76000.0, '7억 6,000만', False), ('미사|새 세입자 전세', 70000.0, '7억', False)], note='교산신도시 청약일정을 기다리는 동안 · 하남 새 아파트 84㎡ 올해 실거래')
+print('v2 ok')

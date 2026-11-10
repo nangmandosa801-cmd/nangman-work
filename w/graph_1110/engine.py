@@ -18,6 +18,7 @@ def near(a, b):
 
 def clean_txt(t):
     t = re.sub(r'\s{2,}\(.*?\)\s*$', '', t)      # '144.2  (401건)' → '144.2'
+    t = re.sub(r'\s+\(\d[\d,]*건.*?\)\s*$', '', t)
     t = re.sub(r'\s{2,}', ' ', t).strip()
     return t
 
@@ -26,6 +27,8 @@ def clean_lab(l):
     m = re.match(r'^(.*?)\s*\((.*)\)\s*(.*)$', l)
     if m and '|' not in l:
         return (m.group(1) + (' ' + m.group(3) if m.group(3) else '')).strip() + '|' + m.group(2)
+    m = re.match(r'^(.*\S)\s+(\S+동 · \d{4})$', l)
+    if m: return m.group(1) + '|' + m.group(2)
     return l
 
 def resolve(folder, fname, sp):
@@ -36,6 +39,10 @@ def resolve(folder, fname, sp):
         ft = sorted(g[0]['figtexts'], key=lambda x: -x[1])
         head = head or ft[0][0]
         if note is None and len(ft) > 1: note = ft[1][0]
+    if note:
+        parts = note.replace('\n', ' ').split(' · ')
+        while len(parts) > 1 and len(' · '.join(parts)) > 50: parts.pop()
+        note = ' · '.join(parts)[:60]
     if sp['k'] == 'c':
         return dict(k='c', head=head, cards=sp['cards'], note=note)
     if 'items' in sp:

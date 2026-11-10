@@ -142,7 +142,8 @@ def bars(head, names, values, hi, path, fmt=None, subs=None, note=None):
             h = max(8, 320 * v / vmax)
             _bar(dr, cx - bw / 2, base - h, cx + bw / 2, base, ACC if on else GRAY)
             _text(dr, cx, base - h - 14, fmt(v), fv, ACC if on else INK, 'mb')
-        y = _lines(dr, cx, base + 18, name_ls[i], fn, nsz, INK, 1.25)
+        _lines(dr, cx, base + 18, name_ls[i], fn, nsz, INK, 1.25)
+        y = base + 18 + max(len(l) for l in name_ls) * nsz * 1.25      # 작은 설명은 모두 같은 높이에
         if sub_ls[i]: _lines(dr, cx, y + 6, sub_ls[i], fs, 20, SUB, 1.3)
     dr.line([(x0 - 10) * S, base * S, (x0 + slot * n + 10) * S, base * S], fill=GRAY, width=2 * S)
     _note(dr, note, H - 56)
