@@ -8,19 +8,20 @@ g=pd.read_pickle('g.pkl').sort_values('m26',ascending=False)
 fn='img/nangman_seoul_jeonse_ratio_1_gu.png'
 fig=plt.figure(figsize=(11.55,13.2),dpi=120); fig.patch.set_facecolor('white')
 fig.text(0.045,0.972,'서울 전세가율 · 25개 구 84㎡ · 2026년 1~10월 · 매매 중앙값이 높은 구부터',fontsize=16,color=BLUE,va='top')
-fig.text(0.045,0.942,'비싼 구일수록 전세가율이 낮다 · 강남 32% 도봉 73%',fontsize=27,color=NAVY,fontweight='bold',va='top')
-ax=fig.add_axes([0.27,0.055,0.66,0.85])
+fig.text(0.045,0.942,'매매 31억 강남구는 32%, 매매 6억 2천 도봉구는 73%',fontsize=27,color=NAVY,fontweight='bold',va='top')
+ax=fig.add_axes([0.21,0.07,0.72,0.835])
 ys=list(range(len(g)))[::-1]
 for y,(gu,row) in zip(ys,g.iterrows()):
     col=NAVY if row.m_rank<=5 else (BLUE if row.m_rank>=21 else GRAY)
     ax.barh(y,row.ratio,height=0.62,color=col)
     ax.text(row.ratio+0.8,y,f'{row.ratio:.1f}%',va='center',fontsize=14,color=NAVY if col!=GRAY else '#555',fontweight='bold' if col!=GRAY else 'normal')
-ax.set_yticks(ys); ax.set_yticklabels([f'{gu}  매매 {won(r.m26)} · 전세 {won(r.r26)}' for gu,r in g.iterrows()],fontsize=12.5,color='#333')
+ax.set_yticks(ys); ax.set_yticklabels([f'{gu}  매매 {won(r.m26)}' for gu,r in g.iterrows()],fontsize=13.5,color='#333')
 ax.set_xlim(0,82); ax.set_xticks([])
 for x in (40,50,60,70): ax.axvline(x,color='#E3E8EE',lw=1,zorder=0); ax.text(x,len(g)-0.2,f'{x}%',fontsize=11,color='#8A8578',ha='center',va='bottom')
 for s in ['top','right','bottom']: ax.spines[s].set_visible(False)
 ax.spines['left'].set_color('#C8D2DE')
-fig.text(0.045,0.018,'국토교통부 아파트 실거래 · 전용 83~86㎡ · 매매는 해제 · 직거래 뺀 중앙값, 전세는 월세 없는 신규 계약 보증금 중앙값 · 남색 = 매매 상위 5개 구 · 파랑 = 매매 하위 5개 구',fontsize=11.5,color='#8A8578')
+fig.text(0.045,0.036,'국토교통부 아파트 실거래 · 전용 83~86㎡ · 매매는 해제 · 직거래 뺀 중앙값 · 전세는 월세 없는 신규 계약 보증금 중앙값',fontsize=11.5,color='#8A8578')
+fig.text(0.045,0.014,'남색 = 매매 중앙값 상위 5개 구 · 파랑 = 하위 5개 구 · 막대 = 전세 중앙값 ÷ 매매 중앙값',fontsize=11.5,color='#8A8578')
 fig.savefig(fn); plt.close()
 from PIL import Image,ImageDraw,ImageFont
 def kr(p,s):
