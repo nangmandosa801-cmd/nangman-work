@@ -7,6 +7,9 @@
 자료: /home/claude/rtn  (매매 M_hanam_2014_2026 <2021 · MH2021_2024 · M2025 · M2026 / 전월세 R2026, 하남 행만)
 필터: 해제사유발생일 '-' · 직거래 제외 · 84㎡ = 전용 83~86 · 59㎡ = 전용 58~61 · 중앙값.
 문장은 숫자를 끼우는 틀이다. 매달 같은 명령이면 숫자만 바뀐다.
+  --gblog : 구글 블로그(낭만 부동산 budongsan)용 gblog.html 도 만든다. 그림은 우체통 image 로 올린다(드라이브 원고는 건드리지 않음).
+            맨 위에 「이번 달 눈에 띄는 점 3가지」(insights() 가 다섯 후보 중 점수 높은 셋을 고름) + 그림 1장(마지막 번호),
+            맨 아래 「이 동네 분석 글」(gblog_links.json — 발행된 네이버 글만). 올리기 · 매달 고치기는 gblog_pub.py.
 """
 import sys, os, json, re, base64, html as H, datetime
 import numpy as np, pandas as pd
@@ -85,7 +88,7 @@ def pct(v, sign=True):
     return (f'{v:+.1f}%' if sign else f'{v:.0f}%')
 def josa(w, a, b):
     """받침 있으면 a, 없으면 b. 으로/로는 ㄹ받침도 b."""
-    c = w.strip()[-1]
+    c = (w.strip().rstrip(')] ') or w.strip())[-1]
     if not ('가' <= c <= '힣'):
         return b if c.isdigit() and c in '2459' else (a if c.isalnum() else b)
     jong = (ord(c) - 0xAC00) % 28
@@ -110,8 +113,131 @@ def H3(t): return f'<h3 style="font-size:19px;color:#1F3864;margin:24px 0 6px">{
 def IMG(n, alt): return f'<p style="margin:16px 0;text-align:center"><img src="{{IMG{n:02d}}}" alt="{H.escape(alt)}" style="width:100%;max-width:1200px;height:auto"></p>'
 def NOTE(t): return f'<div style="background:#F4F7FB;border:1px solid #D5DDE8;border-radius:8px;padding:14px 16px;margin:26px 0;font-size:14px;line-height:1.8;color:#4A5A72">{t}</div>'
 
+# ------------------------------------------------------------------ 이번 달 눈에 띄는 점 (구글 블로그용)
+def _span(L):
+    a, b = L[0], L[-1]
+    return f'{a // 100}년 {a % 100}~{b % 100}월' if a // 100 == b // 100 else f'{ymlab(a)} ~ {ymlab(b)}'
+def _eun(w): return w + josa(w, '은', '는')
+def _i(w): return w + josa(w, '이', '가')
+
+def insights(key, m84, r84, end, W, L6, PREV, H21, SA, T, pick=3):
+    """후보 다섯(오른 폭 차이 · 전세가율 · 매매와 전세 엇갈림 · 2021 하반기 대비/순서 · 거래 건수)을 만들고 점수 높은 순으로 pick 개.
+    묶음: hanam 은 동 묶음(GROUP), 나머지는 단지. 건수 문턱: 동 10건 · 단지 5건(전세 3건). 돌려줌: [dict(kind, score, title, body, fig)]"""
+    grp = key == 'hanam'
+    if grp:
+        m = m84.assign(u=m84.dong.map(GROUP)).dropna(subset=['u']); r = r84.assign(u=r84.dong.map(GROUP)).dropna(subset=['u'])
+        NM, NJ, word = 10, 10, '곳'
+    else:
+        m = m84.assign(u=m84.apt); r = r84.assign(u=r84.apt); NM, NJ, word = 5, 3, '단지'
+    def ag(df, L): return df[df.ym.isin(L)].groupby('u').p.agg(['median', 'size'])
+    a6, ap, a21, aj = ag(m, L6), ag(m, PREV), ag(m, H21), ag(r, L6)
+    pc = lambda v: f'{v:+.1f}%'
+    out = []
+    # ① 오른 폭 1위와 꼴찌
+    x = a6.join(ap, rsuffix='_p', how='inner'); x = x[(x['size'] >= NM) & (x['size_p'] >= NM)]
+    if len(x) >= 3:
+        x = x.assign(c=(x['median'] / x['median_p'] - 1) * 100).sort_values('c', ascending=False)
+        t, b = x.index[0], x.index[-1]; gap = x.c.iloc[0] - x.c.iloc[-1]
+        body = (f'앞 {W}개월({_span(PREV)})과 최근 {W}개월({_span(L6)})의 {SA} 매매 가운데 값을 비교했습니다. '
+                f'{_eun(t)} {won(x.loc[t, "median_p"])} → {won(x.loc[t, "median"])}입니다({pc(x.c.iloc[0])}, 최근 {int(x.loc[t, "size"])}건). '
+                f'{_eun(b)} {won(x.loc[b, "median_p"])} → {won(x.loc[b, "median"])}입니다({pc(x.c.iloc[-1])}, 최근 {int(x.loc[b, "size"])}건). '
+                f'두 {word} 차이는 {gap:.1f}%p입니다.')
+        if b == x['median'].idxmax(): body += f' 값이 가장 높은 {_i(b)} 가장 적게 올랐습니다.' if x.c.iloc[-1] >= 0 else f' 값이 가장 높은 {_i(b)} 내렸습니다.'
+        show = x if len(x) <= 8 else pd.concat([x.head(4), x.tail(4)])
+        out.append(dict(kind='rise', score=gap / 5, title=f'최근 {W}개월 {t} {pc(x.c.iloc[0])}, {b} {pc(x.c.iloc[-1])}',
+                        body=body, fig=dict(names=list(show.index), A=show['median_p'].values, B=show['median'].values, la=f'앞 {W}개월', lb=f'최근 {W}개월',
+                                            fmt=None, tags=[pc(v) for v in show.c], hi=[t, b],
+                                            title=f'{SA} 매매 가운데 값 · 앞 {W}개월과 최근 {W}개월', sub=f'{_span(PREV)} → {_span(L6)} · 아래 숫자는 오른 폭')))
+    # ② 전세가율이 가장 높은 곳 · 낮은 곳
+    x = a6.join(aj, rsuffix='_j', how='inner'); x = x[(x['size'] >= NM) & (x['size_j'] >= NJ)]
+    if len(x) >= 3:
+        x = x.assign(jr=x['median_j'] / x['median'] * 100).sort_values('jr', ascending=False)
+        h, l = x.index[0], x.index[-1]; gap = x.jr.iloc[0] - x.jr.iloc[-1]
+        body = (f'최근 {W}개월 {SA} 기준입니다. {_eun(h)} 매매 {won(x.loc[h, "median"])}에 새 전세 {won(x.loc[h, "median_j"])}입니다. '
+                f'둘의 차이는 {won(x.loc[h, "median"] - x.loc[h, "median_j"])}입니다. '
+                f'{_eun(l)} 매매 {won(x.loc[l, "median"])}에 새 전세 {won(x.loc[l, "median_j"])}입니다. '
+                f'차이는 {won(x.loc[l, "median"] - x.loc[l, "median_j"])}입니다. '
+                + (f'두 {word}의 전세 값은 {won(abs(x.loc[l, "median_j"] - x.loc[h, "median_j"]))} 차이인데, 매매 값은 {won(abs(x.loc[l, "median"] - x.loc[h, "median"]))} 차이입니다.'
+                   if abs(x.loc[l, "median_j"] - x.loc[h, "median_j"]) >= 100 else f'두 {word}의 전세 값은 같은데, 매매 값은 {won(abs(x.loc[l, "median"] - x.loc[h, "median"]))} 차이입니다.'))
+        show = x if len(x) <= 8 else pd.concat([x.head(4), x.tail(4)])
+        out.append(dict(kind='jr', score=gap / 10, title=f'전세가율은 {h} {x.jr.iloc[0]:.0f}%, {l} {x.jr.iloc[-1]:.0f}%',
+                        body=body, fig=dict(names=list(show.index), A=show['median'].values, B=show['median_j'].values, la='매매', lb='새 전세',
+                                            fmt=None, tags=[f'{v:.0f}%' for v in show.jr], hi=[h, l],
+                                            title=f'{SA} 매매와 새 전세 가운데 값', sub=f'최근 {W}개월({_span(L6)}) · 아래 숫자는 전세가율')))
+    # ③ 매매와 전세가 다르게 움직인 곳 (전세 자료가 있는 달을 앞 · 뒤 절반으로)
+    JM = [y for y in months_back(end, 24) if y >= int(r84.ym.min())] if len(r84) else []
+    if len(JM) >= 6:
+        hf = len(JM) // 2; A_, B_ = JM[:hf], JM[-hf:]
+        x = ag(m, A_).join(ag(m, B_), rsuffix='_b', how='inner').join(ag(r, A_).add_prefix('j_'), how='inner').join(ag(r, B_).add_prefix('jb_'), how='inner')
+        x = x[(x['size'] >= NM) & (x['size_b'] >= NM) & (x['j_size'] >= max(NJ, 5)) & (x['jb_size'] >= max(NJ, 5))]
+        if len(x) >= 3:
+            x = x.assign(cm=(x['median_b'] / x['median'] - 1) * 100, cj=(x['jb_median'] / x['j_median'] - 1) * 100)
+            x = x.assign(d=x.cj - x.cm).sort_values('d', ascending=False)
+            u1, u2 = x.index[0], x.index[-1]; d1, d2 = x.d.iloc[0], x.d.iloc[-1]
+            if d1 > 0 and d2 < 0:
+                sa, sb = _span(A_), _span(B_); sb = sb.split('년 ')[-1] if A_[0] // 100 == B_[-1] // 100 else sb
+                body = (f'{sa}과 {sb} 두 기간의 {SA} 가운데 값을 비교했습니다. '
+                        f'{u1}의 새 전세는 {won(x.loc[u1, "j_median"])} → {won(x.loc[u1, "jb_median"])}입니다({pc(x.loc[u1, "cj"])}). '
+                        f'같은 기간 매매는 {won(x.loc[u1, "median"])} → {won(x.loc[u1, "median_b"])}입니다({pc(x.loc[u1, "cm"])}). '
+                        f'{_eun(u2)} 반대입니다. 매매가 {won(x.loc[u2, "median"])} → {won(x.loc[u2, "median_b"])}입니다({pc(x.loc[u2, "cm"])}). '
+                        f'새 전세는 {won(x.loc[u2, "j_median"])} → {won(x.loc[u2, "jb_median"])}입니다({pc(x.loc[u2, "cj"])}).')
+                show = x if len(x) <= 8 else pd.concat([x.head(4), x.tail(4)])
+                out.append(dict(kind='cross', score=(d1 - d2) / 5,
+                                title=f'{_eun(u1)} 전세 {pc(x.loc[u1, "cj"])} · 매매 {pc(x.loc[u1, "cm"])}, {_eun(u2)} 반대',
+                                body=body, fig=dict(names=list(show.index), A=show.cm.values, B=show.cj.values, la='매매가 오른 폭', lb='새 전세가 오른 폭',
+                                                    fmt=pc, tags=[('전세 ' if v >= 0 else '매매 ') + f'{abs(v):.1f}%p 더' for v in show.d], hi=[u1, u2],
+                                                    title=f'{SA} · 매매와 새 전세가 오른 폭', sub=f'{sa} → {sb} 가운데 값 비교')))
+    # ④ 2021년 하반기 대비 (동 묶음: 넘은 폭 차이 · 단지: 값 순서가 바뀐 곳)
+    x = a6.join(a21, rsuffix='_o', how='inner'); x = x[(x['size'] >= (NM if grp else 3)) & (x['size_o'] >= (NM if grp else 3))]
+    if len(x) >= 3:
+        x = x.assign(c=(x['median'] / x['median_o'] - 1) * 100)
+        below = int((x.c < 0).sum())
+        tc = T[T.c21.notna()] if len(T) else T
+        tail = ''
+        if grp and len(tc):
+            k = int((tc.c21 < 0).sum())
+            tail = f' 단지로 보면 비교할 수 있는 {len(tc)}개 단지 중 {k}개가 아직 그때 값 아래입니다.' if k else f' 단지로 봐도 비교할 수 있는 {len(tc)}개 단지가 모두 그때 값 이상입니다.'
+        if grp:
+            x = x.sort_values('c', ascending=False); t, b = x.index[0], x.index[-1]
+            head = (f'{len(x)}곳 모두 2021년 7~12월 가운데 값을 넘었습니다. 넘은 폭은 다릅니다. ' if not below
+                    else f'{len(x)}곳 중 {below}곳이 아직 2021년 7~12월 가운데 값 아래입니다. ')
+            body = (head + f'{_eun(t)} {won(x.loc[t, "median_o"])} → {won(x.loc[t, "median"])}입니다({pc(x.c.iloc[0])}). '
+                    f'{_eun(b)} {won(x.loc[b, "median_o"])} → {won(x.loc[b, "median"])}입니다({pc(x.c.iloc[-1])}).' + tail)
+            out.append(dict(kind='h21', score=(x.c.iloc[0] - x.c.iloc[-1]) / 8 + (1 if below else 0),
+                            title=(f'{below}곳이 아직 2021년 하반기 값 아래' if below else f'2021년 하반기보다 {t} {pc(x.c.iloc[0])}, {b} {pc(x.c.iloc[-1])}'),
+                            body=body, fig=dict(names=list(x.index), A=x['median_o'].values, B=x['median'].values, la='2021년 하반기', lb=f'최근 {W}개월',
+                                                fmt=None, tags=[pc(v) for v in x.c], hi=[t, b],
+                                                title=f'{SA} 매매 가운데 값 · 2021년 하반기와 지금', sub=f'2021년 7~12월 → {_span(L6)}')))
+        else:
+            x = x.assign(r0=x['median_o'].rank(ascending=False, method='min').astype(int), r1=x['median'].rank(ascending=False, method='min').astype(int))
+            x = x.assign(j=x.r0 - x.r1).sort_values('j', ascending=False); u, dn = x.index[0], x.index[-1]
+            if x.j.iloc[0] >= 2:
+                body = (f'2021년 7~12월과 최근 {W}개월 모두 {SA} 매매가 3건 이상인 {len(x)}개 단지를 값이 높은 순서로 세웠습니다. '
+                        f'{_eun(u)} {x.loc[u, "r0"]}번째 → {x.loc[u, "r1"]}번째입니다({won(x.loc[u, "median_o"])} → {won(x.loc[u, "median"])}, {pc(x.loc[u, "c"])}).')
+                if x.j.iloc[-1] <= -2:
+                    body += f' {_eun(dn)} {x.loc[dn, "r0"]}번째 → {x.loc[dn, "r1"]}번째입니다({won(x.loc[dn, "median_o"])} → {won(x.loc[dn, "median"])}, {pc(x.loc[dn, "c"])}).'
+                body += (f' {len(x)}개 단지 중 {below}개는 아직 2021년 하반기 값 아래입니다.' if below else f' {len(x)}개 단지 모두 2021년 하반기 값보다는 높습니다.')
+                show = x.sort_values('r1'); show = show if len(show) <= 8 else pd.concat([show[show.index.isin([u, dn])], show[~show.index.isin([u, dn])].head(6)]).sort_values('r1')
+                out.append(dict(kind='rank', score=(x.j.iloc[0] - min(x.j.iloc[-1], 0)) / 4,
+                                title=f'2021년 하반기 {x.loc[u, "r0"]}번째였던 {_i(u)} 지금은 {x.loc[u, "r1"]}번째',
+                                body=body, fig=dict(names=list(show.index), A=show['median_o'].values, B=show['median'].values, la='2021년 하반기', lb=f'최근 {W}개월',
+                                                    fmt=None, tags=[f'{a}번째→{b}번째' for a, b in zip(show.r0, show.r1)], hi=[u, dn],
+                                                    title=f'{SA} 매매 가운데 값 · 2021년 하반기와 지금', sub=f'2021년 7~12월 → {_span(L6)} · 아래는 값 순서')))
+    # ⑤ 거래 건수 (마지막 달은 신고가 덜 끝나 뺀다)
+    full = months_back(end, 7)[:-1]; q0, q1 = full[:3], full[3:]
+    n0, n1 = int(m84.ym.isin(q0).sum()), int(m84.ym.isin(q1).sum())
+    if n0 >= 20 and n1 >= 10:
+        ch = (n1 / n0 - 1) * 100; p0, p1 = m84[m84.ym.isin(q0)].p.median(), m84[m84.ym.isin(q1)].p.median(); cp = (p1 / p0 - 1) * 100
+        body = (f'{ymlab(end)} 계약은 신고 기한이 남아 빼고 세었습니다. {SA} 매매는 {_span(q0)} {n0}건, {_span(q1).split("년 ")[-1]} {n1}건입니다({pc(ch)}). '
+                f'같은 기간 가운데 값은 {won(p0)} → {won(p1)}입니다({pc(cp)}).')
+        if ch < 0 and cp > 0: body += ' 거래는 줄었는데 값은 올랐습니다.'
+        elif ch > 0 and cp < 0: body += ' 거래는 늘었는데 값은 내렸습니다.'
+        out.append(dict(kind='vol', score=abs(ch) / 15, title=f'{SA} 거래 {n0}건 → {n1}건({pc(ch)}), 값은 {pc(cp)}', body=body, fig=None))
+    out.sort(key=lambda z: -z['score'])
+    return out[:pick]
+
 # ------------------------------------------------------------------ 계산
-def build(key, up=False):
+def build(key, up=False, gblog=False):
     R = REG[key]; D = load(); m, r = D['m'], D['r']
     if R['dongs']: m = m[m.dong.isin(R['dongs'])]; r = r[r.dong.isin(R['dongs'])]
     S1, S2 = R.get('S1', S84), R.get('S2', S59); SA, SAP, SB, SBP = S1[0], S1[3], S2[0], S2[3]
@@ -213,7 +339,16 @@ def build(key, up=False):
         Z = [[qq.get((rw, x), np.nan) for x in Q] for rw in rowsB]
         V.bar3d_months(rowsB, [f"{str(x // 10)[2:]}년{x % 10}Q" for x in Q], Z, fig('b.png', f"{R['name']} {SA} 분기별 실거래 중앙값 입체 막대"),
                        f"{R['name']} {'동별' if key == 'hanam' else '단지별f'} {SA} 분기 중앙값", f'최근 8개 분기 · 마지막 분기는 {ymlab(end)}까지 · 빈 칸은 거래 없음')
-    # 번호 붙이기: 01 = 대표, 이후 본문 순서
+    INS = []
+    if gblog:
+        INS = insights(key, m84, r84, end, W, L6, months_back(L6[0] - 1 if L6[0] % 100 != 1 else L6[0] - 89, W), H21, SA, T)
+        fi = next((z for z in INS if z['fig']), None)
+        if fi:
+            f_ = fi['fig']
+            V.twin_bars(f_['names'], f_['A'], f_['B'], fig('x.png', f"{R['name']} {f_['title']}"), f"{R['name']} {f_['title']}", f_['sub'],
+                        f_['la'], f_['lb'], fmt=f_['fmt'], tags=f_['tags'], hi=f_['hi'])
+    n_base = len(imgs) - (1 if gblog and INS and any(z['fig'] for z in INS) else 0)
+    # 번호 붙이기: 01 = 대표, 이후 본문 순서 (눈에 띄는 점 그림은 마지막 번호)
     from PIL import Image
     files = []
     for i, (p, alt) in enumerate(imgs, 1):
@@ -312,16 +447,18 @@ def build(key, up=False):
     tags = [R['kw'], f"{R['name']} 아파트 시세", f"{R['name']} 아파트 매매", f"{R['name']} 아파트 전세", '하남 아파트 실거래가', f'{SA} 시세']
     tags = list(dict.fromkeys(tags))[:6]
 
-    def render(srcmap):
-        b = body
+    def fill(b, srcmap):
         for i in range(2, len(files) + 1): b = b.replace('{IMG%02d}' % i, srcmap[i])
+        return b
+    def render(srcmap):
+        b = fill(body, srcmap)
         return (f'<!DOCTYPE html>\n<html lang="ko"><head><meta charset="utf-8"><title>{H.escape(title)}</title>'
                 f'<meta name="description" content="{H.escape(strip(B[1])[:150])}"></head>\n<body style="max-width:1000px;margin:0 auto;font-family:sans-serif">\n'
                 f'<!-- 제목: {H.escape(title)} -->\n<!-- 태그: {", ".join(tags)} -->\n<!-- 대표 이미지: 01.jpg -->\n{b}\n</body></html>\n')
     local = {i: f'{i:02d}.jpg' for i in range(1, len(files) + 1)}
     open(os.path.join(d, 'local.html'), 'w').write(render(local))
     urls = local
-    if up:
+    if up or gblog:
         sys.path.insert(0, '/home/claude/helper'); from gas import call
         urls = {}
         stamp = today.strftime('%Y%m')
@@ -330,17 +467,40 @@ def build(key, up=False):
             urls[i] = res['url']
     html_out = render(urls)
     open(os.path.join(d, 'index.html'), 'w').write(html_out)
+    gmeta = None
+    if gblog:
+        G = B[:3]
+        if INS:
+            G.append(H2(f'{nm} 아파트 실거래가 · 이번 달 눈에 띄는 점 {len(INS)}가지'))
+            shown = False
+            for no, z in zip('①②③④', INS):
+                G.append(H3(f'{no} {z["title"]}')); G.append(P(z['body']))
+                if z['fig'] and not shown: G.append(IMG(len(files), files[-1][1])); shown = True
+            G.append(P(f'{"동 묶음은 거래 10건 이상" if key == "hanam" else "단지는 매매 5건 이상"}인 곳만 비교했습니다. 건수가 적은 곳은 층 · 향에 따라 가운데 값이 움직입니다.'))
+        G += B[3:]
+        lk = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gblog_links.json'))).get(key, [])
+        if lk:
+            G.append(H2(f'{nm} · 이 동네 분석 글'))
+            G.append(P('낭만 부동산 분석 플랫폼이 네이버 블로그에 쓴 글입니다.'))
+            G.append('<ul style="font-size:17px;line-height:2;color:#22324A;padding-left:20px">' + ''.join(
+                f'<li><a href="https://blog.naver.com/dong_jin_kim/{no}">{H.escape(t)}</a></li>' for no, t in lk) + '</ul>')
+        gb = fill('\n'.join(G), urls)
+        open(os.path.join(d, 'gblog.html'), 'w').write(gb)
+        gt = strip(gb)
+        gmeta = dict(file=os.path.join(d, 'gblog.html'), chars=len(gt.replace(' ', '')), links=len(lk),
+                     insights=[dict(kind=z['kind'], score=round(float(z['score']), 2), title=z['title'], body=z['body']) for z in INS],
+                     ban=[w for w in ['고요', '갈렸', '갈랐', '갈라', '가른', '최고', '분양', '매물', '인테리어', '010-'] if w in gt])
     text = strip(body)
     ban = [w for w in ['고요', '갈렸', '갈랐', '갈라', '최고', '분양', '매물', '인테리어', '010-'] if w in text]
     meta = dict(key=key, slug=R['slug'], title=title, tags=tags, chars=len(text.replace(' ', '')), chars_sp=len(text),
-                images=len(files), drive=f"{DRIVE}/{R['slug']}" if up else None, ban=ban,
+                images=n_base, drive=f"{DRIVE}/{R['slug']}" if up else None, ban=ban, gblog=gmeta,
                 core=dict(end=end, med84_6m=med6, n84_6m=n6, med84_2021h2=med21, chg_vs_2021h2=round(chg, 1) if chg == chg else None,
                           prev6=pmed, jeonse_new=jm6, jeonse_n=jn6, jeonse_ratio=round(jr, 1) if jr == jr else None,
                           med59_6m=med59, n59=n59, apts=len(T),
                           top=(T.iloc[0].apt, T.iloc[0].med) if len(T) else None))
     json.dump(meta, open(os.path.join(d, 'meta.json'), 'w'), ensure_ascii=False, indent=1, default=float)
     if up:
-        for p in [os.path.join(d, 'index.html')] + [f for f, _ in files]:
+        for p in [os.path.join(d, 'index.html')] + [f for f, _ in files[:n_base]]:
             mime = 'text/html' if p.endswith('.html') else 'image/jpeg'
             call('fput', path=f"{DRIVE}/{R['slug']}", name=os.path.basename(p), mime=mime,
                  b64=base64.b64encode(open(p, 'rb').read()).decode())
@@ -350,8 +510,9 @@ def strip(s):
     s = re.sub(r'<[^>]+>', ' ', s); s = H.unescape(s); return re.sub(r'\s+', ' ', s).strip()
 
 if __name__ == '__main__':
-    a = [x for x in sys.argv[1:] if not x.startswith('--')]; up = '--up' in sys.argv
+    a = [x for x in sys.argv[1:] if not x.startswith('--')]; up = '--up' in sys.argv; gb = '--gblog' in sys.argv
     keys = list(REG) if not a or a[0] == 'all' else a
     for k in keys:
-        mt = build(k, up)
+        mt = build(k, up, gb)
         print(json.dumps({x: mt[x] for x in ['key', 'title', 'chars', 'images', 'drive', 'ban']}, ensure_ascii=False))
+        if gb and mt.get('gblog'): print(json.dumps({'gblog': {x: mt['gblog'][x] for x in ['file', 'chars', 'links', 'ban']}, 'insights': [z['title'] for z in mt['gblog']['insights']]}, ensure_ascii=False))

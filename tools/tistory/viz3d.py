@@ -6,6 +6,7 @@
   card_row(cards, path)                               숫자 카드 입체 · 그림자  cards=[(이름, 큰 숫자, 작은 설명)]
   bar3d_months(rows, cols, Z, path, title)            (동/단지 × 기간) 3D 막대  Z[row][col] (없으면 nan)
   thumb(values, path, seed)                           대표 이미지 1200×630 · 글자 없음
+  twin_bars(names, A, B, path, title, sub, la, lb)    이름마다 막대 두 개(입체) · 「눈에 띄는 점」 그림 · 음수 가능
 색: 남색 #1F3864 · #2E5C8A 계열 + 강조 #E8833A. 폭 1200px.
 """
 import numpy as np, matplotlib
@@ -215,6 +216,54 @@ def thumb(values, path, seed=0):
     ax.set_xlim(-1, nc + 0.5); ax.set_ylim(-0.5, nr * 1.1 + 0.5); ax.set_zlim(0, 1.0)
     ax.view_init(elev=24, azim=-60); ax.set_box_aspect((nc, nr * 1.4, 4.6), zoom=1.2)
     fig.savefig(path, dpi=DPI); plt.close(fig)
+    return path
+
+# ---------------------------------------------------------------- 두 막대 짝 (눈에 띄는 점)
+def _wrap(s, w=7):
+    s = s.replace('미사강변', '').strip() or s
+    out = [s[i:i + w] for i in range(0, len(s), w)]
+    return '\n'.join(out[:3])
+
+def twin_bars(names, A, B, path, title='', sub='', la='', lb='', fmt=None, tags=None, hi=None):
+    """이름마다 A(남색) · B(주황) 막대 한 짝. 음수도 그린다. tags: 이름 아래 덧붙일 글자. hi: 강조할 이름들(바탕 띠)."""
+    fmt = fmt or eok; hi = set(hi or [])
+    A = np.array(A, float); B = np.array(B, float); n = len(names)
+    fig = plt.figure(figsize=(12, 8.2), dpi=DPI, facecolor=BG)
+    ax = fig.add_axes([0.05, 0.25, 0.92, 0.50]); ax.axis('off')
+    allv = np.concatenate([A, B]); vmax = max(np.nanmax(allv), 0); vmin = min(np.nanmin(allv), 0)
+    span = (vmax - vmin) or 1.0
+    ax.set_xlim(-0.6, n - 0.4); ax.set_ylim(vmin - span * 0.16, vmax + span * 0.20)
+    bw = 0.27; dx = 0.06; dy = span * 0.03
+    for i, nm in enumerate(names):
+        if nm in hi:
+            ax.add_patch(Rectangle((i - 0.47, vmin - span * 0.14), 0.94, span * 1.32, fc='#FFF3E8', ec='none', zorder=0))
+    ax.plot([-0.6, n - 0.4], [0, 0], color='#8796AD', lw=1.6, zorder=2)
+    for i in range(n):
+        for k, (v, base) in enumerate([(A[i], NAVY), (B[i], ACC)]):
+            if np.isnan(v): continue
+            x0 = i - bw - 0.07 + k * (bw + 0.13)
+            y0, h = (0, v) if v >= 0 else (v, -v)
+            if h < span * 0.004: h = span * 0.004
+            _grad_rect(ax, x0, y0, bw, h, _shade(base, 0.82), _shade(base, 1.25), horiz=False, z=3)
+            ax.add_patch(Polygon([(x0, y0 + h), (x0 + bw, y0 + h), (x0 + bw + dx, y0 + h + dy), (x0 + dx, y0 + h + dy)], fc=_shade(base, 1.55), ec='none', zorder=4))
+            ax.add_patch(Polygon([(x0 + bw, y0), (x0 + bw + dx, y0 + dy), (x0 + bw + dx, y0 + h + dy), (x0 + bw, y0 + h)], fc=_shade(base, 0.6), ec='none', zorder=4))
+            fs = 17 if n <= 6 else 13
+            lift = span * 0.075 if (k == 1 and A[i] == A[i] and A[i] >= 0 and v >= 0 and abs(v - A[i]) < span * 0.09 and v >= A[i]) else 0
+            if k == 0 and B[i] == B[i] and B[i] >= 0 and v >= 0 and abs(v - B[i]) < span * 0.09 and v > B[i]: lift = span * 0.075
+            if v >= 0: ax.text(x0 + bw / 2 + dx / 2, v + dy + span * 0.015 + lift, fmt(v), fontsize=fs, fontweight='bold', color=base, ha='center', va='bottom', zorder=6)
+            else: ax.text(x0 + bw / 2, v - span * 0.02, fmt(v), fontsize=fs, fontweight='bold', color=base, ha='center', va='top', zorder=6)
+    for i, nm in enumerate(names):
+        xf = 0.05 + 0.92 * ((i + 0.6) / n)
+        fig.text(xf, 0.225, _wrap(nm), fontsize=18 if n <= 6 else 14, color=INK, ha='center', va='top', fontweight='bold' if nm in hi else 'normal', linespacing=1.25)
+        if tags is not None and tags[i]:
+            fig.text(xf, 0.062, tags[i], fontsize=17 if n <= 6 else 14, color=ACC if nm in hi else '#4A5A72', ha='center', va='center', fontweight='bold')
+    # 범례
+    lx = fig.add_axes([0.04, 0.775, 0.92, 0.05]); lx.axis('off'); lx.set_xlim(0, 12); lx.set_ylim(0, 1)
+    lx.add_patch(Rectangle((0.0, 0.2), 0.32, 0.6, fc=NAVY, ec='none')); lx.text(0.45, 0.5, la, fontsize=18, color=INK, va='center')
+    off = 0.45 + len(la) * 0.27 + 0.6
+    lx.add_patch(Rectangle((off, 0.2), 0.32, 0.6, fc=ACC, ec='none')); lx.text(off + 0.45, 0.5, lb, fontsize=18, color=INK, va='center')
+    _title(fig, title, sub)
+    fig.savefig(path, dpi=DPI, facecolor=BG); plt.close(fig)
     return path
 
 if __name__ == '__main__':
