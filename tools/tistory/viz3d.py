@@ -5,6 +5,8 @@
   iso_bars(names, values, path, title, hi=None)       가로 등축 입체 막대 · 그림자 · 그라데이션
   card_row(cards, path)                               숫자 카드 입체 · 그림자  cards=[(이름, 큰 숫자, 작은 설명)]
   bar3d_months(rows, cols, Z, path, title)            (동/단지 × 기간) 3D 막대  Z[row][col] (없으면 nan)
+  step3d(steps, path, title, hi, pending)             입체 계단 단계 그림  steps=[(이름, 아래 설명)]
+  iso_cols(labels, panels, path, title)               세로 입체 막대 · 패널 여러 줄 · 0에서 시작  panels=[(이름, 값들, 강조 번호들, {번호: 글})]
   thumb(values, path, seed)                           대표 이미지 1200×630 · 글자 없음
   twin_bars(names, A, B, path, title, sub, la, lb)    이름마다 막대 두 개(입체) · 「눈에 띄는 점」 그림 · 음수 가능
 색: 남색 #1F3864 · #2E5C8A 계열 + 강조 #E8833A. 폭 1200px.
@@ -191,6 +193,65 @@ def bar3d_months(rows, cols, Z, path, title='', sub='', unit_fn=eok):
         a.pane.set_facecolor((0.95, 0.96, 0.98, 1)); a.pane.set_edgecolor(GRID)
         a._axinfo['grid'].update(color=GRID, linewidth=0.8)
     ax.tick_params(axis='y', pad=2); ax.tick_params(axis='x', pad=0); ax.tick_params(axis='z', pad=6)
+    _title(fig, title, sub)
+    fig.savefig(path, dpi=DPI, facecolor=BG); plt.close(fig)
+    return path
+
+# ---------------------------------------------------------------- 입체 계단 단계 그림
+def step3d(steps, path, title='', sub='', hi=None, pending=None, note=None):
+    """steps=[(이름, 아래 설명)] 왼쪽→오른쪽 계단. hi: 강조할 번호(0부터)들, pending: 아직 안 끝난 번호들(옅게)."""
+    hi = set([hi] if isinstance(hi, int) else (hi or [])); pending = set(pending or [])
+    n = len(steps); H = 7.4
+    fig = plt.figure(figsize=(12, H), dpi=DPI, facecolor=BG)
+    ax = fig.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(0, 12); ax.set_ylim(0, H)
+    gap = 0.16; dx, dy = 0.30, 0.22
+    W = (12 - 0.7 - dx - gap * (n - 1)) / n
+    y0 = 1.75; h0 = 1.25 if all('\n' not in st[0] for st in steps) else 1.95; hstep = (H - 1.9 - y0 - h0 - dy) / max(n - 1, 1)
+    for i, st in enumerate(steps):
+        nm, cap = (list(st) + [''])[:2]
+        x0 = 0.35 + i * (W + gap); h = h0 + hstep * i
+        base = ACC if i in hi else (NAVY if i % 2 == 0 else BLUE)
+        if i in pending and i not in hi: base = '#A9B8CC'
+        ax.add_patch(Polygon([(x0 + 0.12, y0 - 0.13), (x0 + W + dx + 0.18, y0 - 0.13), (x0 + W + dx + 0.18, y0 + 0.12), (x0 + 0.12, y0 + 0.12)], fc='black', alpha=0.08, ec='none', zorder=1))
+        _grad_rect(ax, x0, y0, W, h, _shade(base, 0.82), _shade(base, 1.22), horiz=False, z=3)
+        ax.add_patch(Polygon([(x0, y0 + h), (x0 + W, y0 + h), (x0 + W + dx, y0 + h + dy), (x0 + dx, y0 + h + dy)], fc=_shade(base, 1.6), ec='none', zorder=4))
+        ax.add_patch(Polygon([(x0 + W, y0), (x0 + W + dx, y0 + dy), (x0 + W + dx, y0 + h + dy), (x0 + W, y0 + h)], fc=_shade(base, 0.58), ec='none', zorder=4))
+        cx = x0 + W / 2
+        ax.text(cx, y0 + h - 0.42, str(i + 1), fontsize=30, fontweight='bold', color='white', ha='center', va='center', alpha=0.95, zorder=6)
+        lines = nm.split('\n'); fs = 21 if max(len(l) for l in lines) <= 6 else (18 if max(len(l) for l in lines) <= 8 else 15)
+        ax.text(cx, y0 + (h - 0.75) / 2 + 0.02, nm, fontsize=fs, fontweight='bold', color='white', ha='center', va='center', linespacing=1.25, zorder=6)
+        ax.text(cx, y0 - 0.32, cap, fontsize=14.5, color=ACC if i in hi else INK, ha='center', va='top', linespacing=1.35, fontweight='bold' if i in hi else 'normal', zorder=6)
+    if note: fig.text(0.97, 0.03, note, fontsize=14, color='#6B7A90', ha='right')
+    _title(fig, title, sub)
+    fig.savefig(path, dpi=DPI, facecolor=BG); plt.close(fig)
+    return path
+
+# ---------------------------------------------------------------- 세로 입체 막대 (여러 줄 패널)
+def iso_cols(labels, panels, path, title='', sub='', unit_fn=lambda v: f'{int(v):,}', note=None):
+    """panels=[(이름, 값들, 강조 번호들(0부터), {번호: 표시 글})] 위에서 아래로. 0에서 시작하는 세로 입체 막대."""
+    n = len(labels); k = len(panels); ph = 3.9
+    H = 1.75 + k * ph + 0.45
+    fig = plt.figure(figsize=(12, H), dpi=DPI, facecolor=BG)
+    for pi, pn in enumerate(panels):
+        nm, vals, his, marks = (list(pn) + [[], {}])[:4]; his = set(his or []); marks = marks or {}
+        v = np.array(vals, float); vmax = np.nanmax(v)
+        b0 = (0.45 + (k - 1 - pi) * ph + 0.75) / H; hh = (ph - 1.75) / H
+        ax = fig.add_axes([0.05, b0, 0.92, hh]); ax.axis('off')
+        ax.set_xlim(-0.4, n + 0.3); ax.set_ylim(-vmax * 0.02, vmax * 1.42)
+        bw = 0.62; dx = 0.2; dy = vmax * 0.045
+        ax.add_patch(Polygon([(-0.4, 0), (n + 0.1, 0), (n + 0.1 + dx, dy), (-0.4 + dx, dy)], fc='#EEF2F7', ec='none', zorder=1))
+        for i, val in enumerate(v):
+            base = ACC if i in his else (NAVY if pi % 2 == 0 else BLUE)
+            _grad_rect(ax, i, 0, bw, val, _shade(base, 0.85), _shade(base, 1.3), horiz=False, z=3)
+            ax.add_patch(Polygon([(i, val), (i + bw, val), (i + bw + dx, val + dy), (i + dx, val + dy)], fc=_shade(base, 1.6), ec='none', zorder=4))
+            ax.add_patch(Polygon([(i + bw, 0), (i + bw + dx, dy), (i + bw + dx, val + dy), (i + bw, val)], fc=_shade(base, 0.58), ec='none', zorder=4))
+            ax.text(i + bw / 2 + dx / 2, val + dy + vmax * 0.04, unit_fn(val), fontsize=12.5 if n > 14 else 15, color=ACC if i in his else INK,
+                    fontweight='bold' if i in his else 'normal', ha='center', va='bottom', zorder=6)
+            if i in marks:
+                ax.text(i + bw / 2, val + dy + vmax * 0.2, marks[i], fontsize=15, color=ACC, fontweight='bold', ha='center', va='bottom', zorder=7)
+            fig.text(0.05 + 0.92 * ((i + bw / 2 + 0.4) / (n + 0.7)), b0 - 0.30 / H, labels[i], fontsize=12.5 if n > 14 else 15, color=INK, ha='center', va='top')
+        fig.text(0.05, b0 + hh + 0.42 / H, nm, fontsize=20, fontweight='bold', color=NAVY, va='center')
+    if note: fig.text(0.97, 0.12 / H, note, fontsize=14, color='#6B7A90', ha='right')
     _title(fig, title, sub)
     fig.savefig(path, dpi=DPI, facecolor=BG); plt.close(fig)
     return path
