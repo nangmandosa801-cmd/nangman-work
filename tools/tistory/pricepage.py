@@ -83,6 +83,14 @@ def won(v):
 def pct(v, sign=True):
     if v is None or np.isnan(v): return '-'
     return (f'{v:+.1f}%' if sign else f'{v:.0f}%')
+def josa(w, a, b):
+    """받침 있으면 a, 없으면 b. 으로/로는 ㄹ받침도 b."""
+    c = w.strip()[-1]
+    if not ('가' <= c <= '힣'):
+        return b if c.isdigit() and c in '2459' else (a if c.isalnum() else b)
+    jong = (ord(c) - 0xAC00) % 28
+    if a == '으로' and jong == 8: return b
+    return a if jong else b
 def ymlab(ym): return f'{ym // 100}년 {ym % 100}월'
 
 TD = 'border:1px solid #D5DDE8;padding:9px 6px;text-align:center;font-size:15px'
@@ -108,11 +116,18 @@ def build(key, up=False):
     if R['dongs']: m = m[m.dong.isin(R['dongs'])]; r = r[r.dong.isin(R['dongs'])]
     S1, S2 = R.get('S1', S84), R.get('S2', S59); SA, SAP, SB, SBP = S1[0], S1[3], S2[0], S2[3]
     m84, r84, m59, r59 = size(m, S1), size(r, S1), size(m, S2), size(r, S2)
+    endm = int(D['m'].ym.max())
+    def clean_r(rr, mm):
+        ref = mm[mm.ym.isin(months_back(endm, 12))].groupby(['dong', 'apt']).p.median()
+        k = list(zip(rr.dong, rr.apt)); base = np.array([ref.get(x, np.nan) for x in k])
+        keep = ~(base == base) | (rr.p.values >= 0.3 * np.nan_to_num(base))
+        return rr[keep]
+    r84, r59 = clean_r(r84, m84), clean_r(r59, m59)
     end = int(D['m']['ym'].max()); end = min(end, int(D['m'][D['m'].ym <= 209912].ym.max()))
     W = 6 if size(m, S1).ym.isin(months_back(end, 6)).sum() >= 60 else 12   # 거래 적은 곳은 12개월
     L6 = months_back(end, W); L24 = months_back(end, 24); H21 = list(range(202107, 202113))
     today = datetime.date.today()
-    title = f"{R['kw']} · 시세, {SA} 단지별 정리 ({today.year}년 {today.month}월 갱신)"
+    title = f"{R['kw']} · 시세, {SA}{(' · ' + SB) if SA != '84㎡' else ''} 단지별 정리 ({today.year}년 {today.month}월 갱신)"
     if key == 'hanam': title = f"{R['kw']} · 시세, 동별 {SA} 비교 ({today.year}년 {today.month}월 갱신)"
     d = os.path.join(OUT, R['slug']); os.makedirs(d, exist_ok=True)
     for f in os.listdir(d):
@@ -166,7 +181,7 @@ def build(key, up=False):
     imgs = []  # (파일, alt)
     def fig(name, alt): p = os.path.join(d, name); imgs.append((p, alt)); return p
     V.thumb(monv[okm] if okm.sum() >= 6 else np.linspace(1, 2, 12), fig('t.png', f"{R['name']} 아파트 실거래가 대표 그림"), seed=len(key))
-    V.card_row([(f'최근 {W}개월 {SA} 매매', V.eok(med6, 2) if n6 else '-', f'중앙값 · {n6}건'),
+    V.card_row([(f'{SA} 매매 · 최근 {W}개월', V.eok(med6, 2) if n6 else '-', f'중앙값 · {n6}건'),
                 ('2021년 하반기 대비', pct(chg), f'{V.eok(med21, 2)} → {V.eok(med6, 2)}' if n6 and med21 == med21 else ''),
                 ('새 세입자 전세', V.eok(jm6, 2) if jn6 else '-', f'{SA} 중앙값 · {jn6}건'),
                 ('전세가율', pct(jr, False), '전세 ÷ 매매', 1)],
@@ -178,7 +193,7 @@ def build(key, up=False):
         gg = G[G.ym.isin(L6)].groupby('grp').p.agg(['median', 'size']).sort_values('median', ascending=False)
         V.iso_bars([f'{i} ({int(n)}건)' for i, n in gg['size'].items()], gg['median'].values, fig('i.png', f'하남 동별 {SA} 실거래 중앙값'),
                    f'하남 동별 {SA} 매매 중앙값', f'최근 {W}개월 ({ymlab(L6[0])} ~ {ymlab(L6[-1])})', hi=f"{gg.index[0]} ({int(gg['size'].iloc[0])}건)")
-        rowsB = list(gg.index)
+        rowsB = list(gg.index)[::-1]   # 낮은 곳이 앞줄
         q = G.assign(q=(G.ym // 100) * 10 + ((G.ym % 100) - 1) // 3 + 1)
     else:
         top = T.sort_values('n', ascending=False).head(12).sort_values('med', ascending=False) if len(T) else T
@@ -209,7 +224,7 @@ def build(key, up=False):
     B.append(f'<p style="font-size:14px;color:#6B7A90;margin:0 0 6px">갱신 {today.year}.{today.month:02d}.{today.day:02d} · 자료 {ymlab(L6[0])} ~ {ymlab(end)} 계약분 · 국토교통부 실거래</p>')
     B.append(P(f'{nm} 아파트 {SA}{SAP} 실거래가를 단지별로 모았습니다. 숫자는 매달 새로 바꿉니다.'))
     B.append(P(f'최근 {W}개월 {nm} {SA} 매매는 {n6}건입니다. 가운데 값은 <b>{won(med6)}</b>입니다.'
-               + (f' 바로 앞 {W}개월은 {won(pmed)}였습니다({pct(chg6)}).' if chg6 == chg6 else '')))
+               + (f' 바로 앞 {W}개월은 {won(pmed)}이었습니다({pct(chg6)}).' if chg6 == chg6 else '')))
     B.append(IMG(2, files[1][1]))
     B.append(H2(f'{nm} 아파트 실거래가 · 월별 흐름'))
     B.append(IMG(3, files[2][1]))
@@ -231,7 +246,7 @@ def build(key, up=False):
                           pct(xj.p.median() / x6.p.median() * 100, False) if len(xj) else '-'])
         B.append(table(['동', f'{SA} 매매 중앙값', '건수', '2021 하반기 대비', '새 전세 중앙값', '전세가율'], rowsG))
         g0, g1 = gg.index[0], gg.index[-1]
-        B.append(P(f'최근 {W}개월 가운데 값은 {g0}가 {won(gg.loc[g0, "median"])}로 가장 높습니다. {g1}는 {won(gg.loc[g1, "median"])}입니다. '
+        B.append(P(f'최근 {W}개월 가운데 값은 {g0}{josa(g0, '이', '가')} {won(gg.loc[g0, "median"])}으로 가장 높습니다. {g1}{josa(g1, '은', '는')} {won(gg.loc[g1, "median"])}입니다. '
                    f'두 곳 차이는 {won(gg.loc[g0, "median"] - gg.loc[g1, "median"])}입니다.'))
         B.append(H2('하남 아파트 시세 · 분기별 입체 그림'))
         B.append(IMG(5, files[4][1]))
@@ -250,7 +265,7 @@ def build(key, up=False):
         B.append(P(f'가장 높은 단지는 {t0.apt}({won(t0.med)})입니다. 표의 마지막은 {t1.apt}({won(t1.med)})입니다. '
                    f'두 단지 차이는 {won(t0.med - t1.med)}입니다.'))
         busy = T.sort_values('n', ascending=False).iloc[0]
-        B.append(P(f'거래가 가장 많았던 단지는 {busy.apt}로 {busy.n}건입니다.'))
+        B.append(P(f'거래가 가장 많았던 단지는 {busy.apt}{josa(busy.apt, '으로', '로')} {busy.n}건입니다.'))
         if key != 'hanam':
             B.append(IMG(4, files[3][1]))
             if len(files) > 4:
@@ -274,8 +289,8 @@ def build(key, up=False):
     B.append(P(f'최근 {W}개월 {n6}건의 가운데 값은 {won(med6)}입니다.' + (f' 단지별로는 {won(T.med.min())} ~ {won(T.med.max())}입니다.' if len(T) else '')))
     B.append(H3('2021년 하반기보다 올랐나요?'))
     if chg == chg:
-        B.append(P(f'2021년 7~12월 {nm} {SA} 가운데 값은 {won(med21)}였습니다. 지금은 {won(med6)}입니다. '
-                   + (f'{pct(chg)} 높습니다.' if chg >= 0 else f'{pct(chg)}, 아직 그때보다 낮습니다.')))
+        B.append(P(f'2021년 7~12월 {nm} {SA} 가운데 값은 {won(med21)}이었습니다. 지금은 {won(med6)}입니다. '
+                   + (f'{abs(chg):.1f}% 높습니다.' if chg >= 0 else f'{abs(chg):.1f}% 낮습니다. 아직 그때 값에 못 미칩니다.')))
         if len(T) and T.c21.notna().sum():
             n_up = int((T.c21 >= 0).sum()); tot = int(T.c21.notna().sum())
             B.append(P(f'비교할 수 있는 {tot}개 단지 중 {n_up}개가 그때 값 이상입니다.'))
@@ -290,7 +305,7 @@ def build(key, up=False):
                   f'· 지역: {H.escape(R["define"])}<br>'
                   '· 뺀 거래: 계약이 취소된 거래(해제), 중개사 없이 한 직거래.<br>'
                   f'· {SA} = 전용면적 {S1[1]}~{S1[2]}㎡, {SB} = 전용면적 {S2[1]}~{S2[2]}㎡. 값은 모두 중앙값입니다.<br>'
-                  '· 전세: 신규 계약만. 갱신 계약 · 월세는 넣지 않았습니다. 전세 자료는 2026년 1월 계약분부터 씁니다.<br>'
+                  '· 전세: 신규 계약만. 갱신 계약 · 월세는 넣지 않았습니다. 같은 단지 매매 가운데 값의 30%가 안 되는 보증금(임대 단지 등)도 뺐습니다. 전세 자료는 2026년 1월 계약분부터 씁니다.<br>'
                   + (f'· 이 지역은 거래가 적어 최근 12개월로 셉니다. 전세는 2026년 1월 이후만 들어갑니다.<br>' if W == 12 else '')
                   + f'· 단지 표는 최근 {W}개월 {nmin}건 이상인 단지만 넣었습니다({SB} 표는 2건 이상). 단지 이름은 국토교통부 표기 그대로입니다.'))
     body = '\n'.join(B)

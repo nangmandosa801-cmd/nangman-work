@@ -157,7 +157,7 @@ def card_row(cards, path, title=''):
             ax.add_patch(Rectangle((x0 + 0.04, y0 + ch * (0.5 + j * 0.04)), W - 0.08, ch * 0.04, fc='white', alpha=0.012 * j, ec='none', zorder=4))
         ax.plot([x0 + 0.25, x0 + W - 0.25], [y0 + ch - 0.05, y0 + ch - 0.05], color='white', alpha=0.35, lw=2, zorder=5)
         cx = x0 + W / 2
-        ax.text(cx, y0 + ch - 0.42, lab, fontsize=18, color='white', ha='center', va='center', alpha=0.92, zorder=5)
+        ax.text(cx, y0 + ch - 0.42, lab, fontsize=18 if len(lab) <= 13 else 15, color='white', ha='center', va='center', alpha=0.92, zorder=5)
         fs = 38 if len(big) <= 7 else (32 if len(big) <= 9 else 26)
         ax.text(cx, y0 + ch / 2 - 0.05, big, fontsize=fs, fontweight='bold', color='white', ha='center', va='center', zorder=5)
         ax.text(cx, y0 + 0.38, small, fontsize=15, color='white', ha='center', va='center', alpha=0.85, zorder=5)

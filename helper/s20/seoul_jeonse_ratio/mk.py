@@ -1,6 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
-TITLE='서울 전세가율, 비싼 동네일수록 낮을까 강남 32% 도봉 73%'
+TITLE='서울 전세가율, 비싼 동네일수록 낮을까 강남구 32%'
 N='https://blog.naver.com/dong_jin_kim/'
 T486='서울 전세가율, 486개 단지 중 80% 초과 단 1곳'
 TNDG='노도강 아파트 시세, 전세가율 67%인데 왜 아직 2021년 고점 아래일까'
