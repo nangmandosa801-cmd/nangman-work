@@ -5,7 +5,7 @@ spec.json:
  {"logNo":"2244…","slug":"uidong",
   "scenes":[["hook",{"lines":["…","…"],"bub":["…","…"]}],
             ["big",{"lines":[…],"num":"11억 4천","sub1":"…","sub2":"…","c":"WARN"}],
-            ["bars",{"lines":[…],"items":[["단지",18.7,"WARN","18억 7천"],…],"note":"…"}],   # 막대 5개 이하 · 핵심만 WARN
+            ["bars",{"lines":[…],"items":[["단지",18.7,"WARN","18억 7천"],…],"note":"…"}],   # 막대 4개까지(큰 글자) · 핵심만 WARN · 한 줄 14자 안팎
             ["vs",{"lines":[…],"L":["왼쪽","18~29%",""],"R":["오른쪽","1~7%",""],"bottom":["…"]}],
             ["end",{"lines":["검색어"],"sub":["써먹을 한 가지","…"],"sub2":"단지별 표는 블로그에"}]],
   "durs":[3.0,3.8,4.4,3.8,3.0],
@@ -16,8 +16,8 @@ spec.json:
 --up: 드라이브 「블로그/shorts/부동산」 + 「블로그/협업/4_어사이드/원고/nangman_clip_<logNo>/」(clip.mp4 · cover.jpg · caption.txt) → 장부 clip 칸 기록.
 """
 import json, os, sys, subprocess
-sys.path.insert(0, '/home/claude'); sys.path.insert(0, '/home/claude/helper')
-import clipgen2  # noqa: bars note 등 장면 확장
+sys.path.insert(0, '/home/claude'); sys.path.insert(0, '/home/claude/helper'); sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import clipgen_bd  # noqa: 큰 글자판(11/10 「폰트 작아지지 않게」)
 from clipgen import make, NAVY, WARN, MID
 from PIL import Image
 C = {'NAVY': NAVY, 'WARN': WARN, 'MID': MID}
