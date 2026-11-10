@@ -1,0 +1,4440 @@
+{
+ "기준": "11/10 사용자: 2D 막대 5개까지 · 막대 위 숫자 · 강조 1개 · 그림 위 결론 한 줄 · 5개 넘으면 표나 숫자 카드 3개 · 3D · 겹침 · 장식 금지",
+ "메모": [
+  "3D 그래프는 네이버 원고 코드에 없음(전부 2D)",
+  "발행 글은 최근 30편만 점검 · 그 앞 글은 「발행_미점검」 목록",
+  "seoul_jeonse_ratio 는 자료 파일(g.pkl)이 없어 fig.py 코드로 막대 25개 확인"
+ ],
+ "요약": {
+  "점검한_그림": 176,
+  "위반": 119,
+  "위반_발행": 38,
+  "위반_미발행": 81,
+  "도식_그대로": 10,
+  "새그림_만든_수": 91,
+  "다음차례_그림": 43,
+  "다음차례_글": [
+   "jj",
+   "s20/banpo124",
+   "s20/banpo_school",
+   "s20/bundang_school",
+   "s20/cheolsan12vs13",
+   "s20/cheolsan13_iju",
+   "s20/cheolsan13_imdae",
+   "s20/daechi_price",
+   "s20/gambuk_redev",
+   "s20/gamil_hanra",
+   "s20/gwanggyo_school",
+   "s20/hagam_apt",
+   "s20/hakgun_ep1",
+   "s20/hanam7_family",
+   "s20/hanam_bunyang",
+   "s20/hanam_forecast_check",
+   "s20/hanam_jeonse3",
+   "s20/hanam_redev",
+   "s20/hanam_school",
+   "s20/hanam_station",
+   "s20/jije_rate",
+   "s20/junggye_school",
+   "s20/misa13",
+   "s20/misa8",
+   "s20/misa_history",
+   "s20/misa_peak",
+   "s20/misa_vs_gamil",
+   "s20/mokdong_school",
+   "s20/nov27",
+   "s20/pyeongchon_school"
+  ]
+ },
+ "그림": [
+  {
+   "slug": "s20/banbae_jeonse",
+   "제목": "디에이치 방배 전세, 옆 방배그랑자이 84㎡ 14억 1,500만",
+   "그림": "nangman_banbae_jeonse_1_near.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-22 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/banbae_jeonse/img/nangman_banbae_jeonse_1_near_v2.png"
+  },
+  {
+   "slug": "s20/banbae_jeonse",
+   "제목": "디에이치 방배 전세, 옆 방배그랑자이 84㎡ 14억 1,500만",
+   "그림": "nangman_banbae_jeonse_2_period.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 3,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-22 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/banbae_jeonse/img/nangman_banbae_jeonse_2_period_v2.png"
+  },
+  {
+   "slug": "s20/banpo124",
+   "제목": "디에이치 반포124 청약일정, 12월 8일 1순위 84㎡ 분양가 ○억",
+   "그림": "nangman_banpo124_1_count.png",
+   "위반": [
+    "막대 13개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 13,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/banpo_school",
+   "제목": "반포 아파트 시세, 래미안원베일리 84㎡ 58억 7,500에 전세는 21억",
+   "그림": "nangman_banpo_school_1_price.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-15 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/banpo_school",
+   "제목": "반포 아파트 시세, 래미안원베일리 84㎡ 58억 7,500에 전세는 21억",
+   "그림": "nangman_banpo_school_2_year.png",
+   "위반": [
+    "선 4개(2개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 4,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-15 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/bundang_school",
+   "제목": "분당 아파트 시세, 소형 평당 1억 1,100만은 큰 평형의 2배",
+   "그림": "nangman_bundang_school_1_bin.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-17 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/bundang_school",
+   "제목": "분당 아파트 시세, 소형 평당 1억 1,100만은 큰 평형의 2배",
+   "그림": "nangman_bundang_school_2_year.png",
+   "위반": [
+    "선 5개(2개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 5,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-17 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/cheolsan12vs13",
+   "제목": "철산주공 12단지 재건축, 13단지와 84㎡ 차이 1,000만에서 6,750만",
+   "그림": "nangman_cheolsan12vs13_1_count.png",
+   "위반": [
+    "막대 41개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 41,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-07 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/cheolsan13",
+   "제목": "철산주공13단지 재건축, 새 84㎡ 조합원 분양가 11억 2천",
+   "그림": "nangman_cheolsan13_1_count.png",
+   "위반": [
+    "막대 20개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 20,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-22 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/cheolsan13/img/nangman_cheolsan13_1_count_v2.png"
+  },
+  {
+   "slug": "s20/cheolsan13_ep3",
+   "제목": "철산주공 13단지 분담금, 감정가 70%면 새 84㎡는 1억 3,798만",
+   "그림": "nangman_cheolsan13_ep3_1_bundam.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-30 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/cheolsan13_ep3/img/nangman_cheolsan13_ep3_1_bundam_v2.png"
+  },
+  {
+   "slug": "s20/cheolsan13_iju",
+   "제목": "재건축 이주, 철산주공13단지 2,460가구는 새 전세 18개월치",
+   "그림": "nangman_cheolsan13_iju_1_month.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-21 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/cheolsan13_iju",
+   "제목": "재건축 이주, 철산주공13단지 2,460가구는 새 전세 18개월치",
+   "그림": "nangman_cheolsan13_iju_2_budget.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-21 17:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/cheolsan13_imdae",
+   "제목": "재건축 비례율, 철산주공13단지 일반분양 100가구 줄면 105.7%",
+   "그림": "nangman_cheolsan13_imdae_1_ratio.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-28 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/daechi_price",
+   "제목": "대치동 아파트 시세, 84㎡ 매매 중앙값 37억",
+   "그림": "nangman_daechi_price_1_pair.png",
+   "위반": [
+    "막대 18개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 18,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-13 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/daechi_price",
+   "제목": "대치동 아파트 시세, 84㎡ 매매 중앙값 37억",
+   "그림": "nangman_daechi_price_2_rent.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-13 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/dangwang_ipju",
+   "제목": "안성 당왕 경남아너스빌 입주, 옆 단지 84㎡ 전세 2억 5천",
+   "그림": "nangman_dangwang_ipju_1_bunyang.png",
+   "위반": [
+    "막대 11개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 11,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-27 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/dangwang_ipju/img/nangman_dangwang_ipju_1_bunyang_v2.png"
+  },
+  {
+   "slug": "s20/dangwang_ipju",
+   "제목": "안성 당왕 경남아너스빌 입주, 옆 단지 84㎡ 전세 2억 5천",
+   "그림": "nangman_dangwang_ipju_2_wolse.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-27 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/dangwang_ipju/img/nangman_dangwang_ipju_2_wolse_v2.png"
+  },
+  {
+   "slug": "s20/dongtan_jeonse",
+   "제목": "동탄 아파트 전세, 역 앞 6억 5천 · 외곽 4억 3천",
+   "그림": "nangman_dongtan_jeonse_1_pair.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-23 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/dongtan_jeonse/img/nangman_dongtan_jeonse_1_pair_v2.png"
+  },
+  {
+   "slug": "s20/dongtan_jeonse",
+   "제목": "동탄 아파트 전세, 역 앞 6억 5천 · 외곽 4억 3천",
+   "그림": "nangman_dongtan_jeonse_2_road.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-23 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/dongtan_jeonse/img/nangman_dongtan_jeonse_2_road_v2.png"
+  },
+  {
+   "slug": "s20/gambuk_redev",
+   "제목": "감북동 재개발, 정비구역은 없고 8·13 뒤 빌라 20건",
+   "그림": "nangman_gambuk_redev_1_month.png",
+   "위반": [
+    "막대 21개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 21,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-05 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gambuk_redev",
+   "제목": "감북동 재개발, 정비구역은 없고 8·13 뒤 빌라 20건",
+   "그림": "nangman_gambuk_redev_2_sqm.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-05 11:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gamil_hanra",
+   "제목": "감일한라비발디 시세, 84㎡ 올해 13억 6,250만원",
+   "그림": "nangman_gamil_hanra_1_month.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-06 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gamil_hanra",
+   "제목": "감일한라비발디 시세, 84㎡ 올해 13억 6,250만원",
+   "그림": "nangman_gamil_hanra_2_pair.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-06 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/godeok_price",
+   "제목": "고덕국제신도시 아파트 시세, 84㎡ 10곳 중 6곳이 올랐습니다",
+   "그림": "nangman_godeok_price_1_pair.png",
+   "위반": [
+    "막대 18개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 18,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-26 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/godeok_price/img/nangman_godeok_price_1_pair_v2.png"
+  },
+  {
+   "slug": "s20/gtx_effect",
+   "제목": "GTX 개통, 동탄역 앞 84㎡ 개통 뒤 1년 4% 상승 · 운정 3% 하락",
+   "그림": "nangman_gtx_effect_1_line.png",
+   "위반": [
+    "선 6개(2개 넘음)",
+    "칸 3개로 나뉨"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 6,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-18 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/gtx_effect/img/nangman_gtx_effect_1_line_v2.png"
+  },
+  {
+   "slug": "s20/gwanggyo_rate",
+   "제목": "광교 자연앤센트레빌 청약, 59㎡ 경쟁률 ○대 1",
+   "그림": "nangman_gwanggyo_rate_1_price.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gwanggyo_rate",
+   "제목": "광교 자연앤센트레빌 청약, 59㎡ 경쟁률 ○대 1",
+   "그림": "nangman_gwanggyo_rate_2_deposit.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gwanggyo_school",
+   "제목": "광교 자연앤힐스테이트, 84㎡ 18억 7천은 2021년보다 23% 위",
+   "그림": "nangman_gwanggyo_school_1_dan.png",
+   "위반": [
+    "막대 24개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 24,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-19 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gwanggyo_school",
+   "제목": "광교 자연앤힐스테이트, 84㎡ 18억 7천은 2021년보다 23% 위",
+   "그림": "nangman_gwanggyo_school_2_year.png",
+   "위반": [
+    "선 5개(2개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 5,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-19 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gyeonggi_rate",
+   "제목": "경기도 청약 경쟁률, 11월 1순위 5곳 분양가 차이 최대 4억",
+   "그림": "nangman_gyeonggi_rate_1_gap.png",
+   "위반": [],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/gyosan_minbun",
+   "제목": "교산신도시 민간분양, 84㎡ 평당 3,200만원이면 10억 8천",
+   "그림": "nangman_gyosan_minbun_1_price.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-19 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/gyosan_minbun/img/nangman_gyosan_minbun_1_price_v2.png"
+  },
+  {
+   "slug": "s20/hagam_apt",
+   "제목": "학암동 아파트, 10년 된 단지가 새 단지보다 1억 2천 높습니다",
+   "그림": "nangman_hagam_apt_1_danji.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-08 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hagam_apt",
+   "제목": "학암동 아파트, 10년 된 단지가 새 단지보다 1억 2천 높습니다",
+   "그림": "nangman_hagam_apt_2_84.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-08 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hakgun_ep1",
+   "제목": "학군지 아파트, 2021 고점 대비 덜 빠진 곳은 넷 중 둘",
+   "그림": "nangman_hakgun_ep1_1_movein.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-12 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hakgun_ep1",
+   "제목": "학군지 아파트, 2021 고점 대비 덜 빠진 곳은 넷 중 둘",
+   "그림": "nangman_hakgun_ep1_2_feb.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-12 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam7_family",
+   "제목": "하남 신혼부부 아파트, 7억으로 사는 84㎡는 덕풍뿐입니다",
+   "그림": "nangman_hanam7_family_1_three.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-01 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_bunyang",
+   "제목": "하남 분양 예정 아파트, 2027년 일정이 나온 곳은 교산 2곳",
+   "그림": "nangman_hanam_bunyang_1_84.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-11 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_bunyang",
+   "제목": "하남 분양 예정 아파트, 2027년 일정이 나온 곳은 교산 2곳",
+   "그림": "nangman_hanam_bunyang_2_59.png",
+   "위반": [],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-11 11:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_forecast_check",
+   "제목": "하남 부동산 전망, 두 달 전 17%는 17.9%가 됐습니다",
+   "그림": "nangman_hanam_forecast_check_1_monthly.png",
+   "위반": [
+    "막대 22개(5개 넘음)",
+    "글자 겹침 7곳"
+   ],
+   "셈": {
+    "bars": 22,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-07 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_forecast_check",
+   "제목": "하남 부동산 전망, 두 달 전 17%는 17.9%가 됐습니다",
+   "그림": "nangman_hanam_forecast_check_2_score.png",
+   "위반": [
+    "막대 14개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 14,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-07 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_jeonse3",
+   "제목": "하남 전세 3억, 새 세입자 1,714건 중 44건뿐입니다",
+   "그림": "nangman_hanam_jeonse3_1_band.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-07 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_jeonse3",
+   "제목": "하남 전세 3억, 새 세입자 1,714건 중 44건뿐입니다",
+   "그림": "nangman_hanam_jeonse3_2_month.png",
+   "위반": [
+    "막대 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 9,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-07 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_line9_map",
+   "제목": "하남 9호선 연장 노선도, 신미사역 500m 안 84㎡는 12억 6천",
+   "그림": "nangman_hanam_line9_map_1_map.png",
+   "위반": [
+    "선 949개(2개 넘음)",
+    "칸 2개로 나뉨",
+    "글자 겹침 1곳"
+   ],
+   "셈": {
+    "bars": 1,
+    "lines": 949,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-03 17:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_redev",
+   "제목": "하남 재개발, 다 지은 C구역 84㎡는 14억 500만원",
+   "그림": "nangman_hanam_redev_1_ladder.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-03 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_redev",
+   "제목": "하남 재개발, 다 지은 C구역 84㎡는 14억 500만원",
+   "그림": "nangman_hanam_redev_2_steps.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-03 11:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_school",
+   "제목": "하남 학군 비교, 위례 하남은 중학교 1곳에 1,369명",
+   "그림": "nangman_hanam_school_1_area.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-09 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_school",
+   "제목": "하남 학군 비교, 위례 하남은 중학교 1곳에 1,369명",
+   "그림": "nangman_hanam_school_2_map.png",
+   "위반": [
+    "점 24개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 24
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-09 11:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_station",
+   "제목": "하남시청역 아파트, 5호선 500m 안 84㎡ 8억 9천 · 밖 7억 2천",
+   "그림": "nangman_hanam_station_1_pair.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-10 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/hanam_station",
+   "제목": "하남시청역 아파트, 5호선 500m 안 84㎡ 8억 9천 · 밖 7억 2천",
+   "그림": "nangman_hanam_station_2_year.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-10 11:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/ilsan_seondo",
+   "제목": "일산 재건축 선도지구, 84㎡ 중앙값 5억 7천 그대로",
+   "그림": "nangman_ilsan_seondo_1_price.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-21 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/ilsan_seondo/img/nangman_ilsan_seondo_1_price_v2.png"
+  },
+  {
+   "slug": "s20/ilsan_seondo",
+   "제목": "일산 재건축 선도지구, 84㎡ 중앙값 5억 7천 그대로",
+   "그림": "nangman_ilsan_seondo_2_count.png",
+   "위반": [
+    "막대 44개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 44,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-21 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/ilsan_seondo/img/nangman_ilsan_seondo_2_count_v2.png"
+  },
+  {
+   "slug": "s20/jije_rate",
+   "제목": "한화포레나 지제역 청약, 84㎡ 경쟁률 ○대 1",
+   "그림": "nangman_jije_rate_1_sise.png",
+   "위반": [
+    "막대 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 9,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/jije_rate",
+   "제목": "한화포레나 지제역 청약, 84㎡ 경쟁률 ○대 1",
+   "그림": "nangman_jije_rate_2_month.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 2,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/jongbuse_napbu",
+   "제목": "종부세 납부기간, 12월 15일까지 300만원 넘으면 나눠 냅니다",
+   "그림": "nangman_jongbuse_napbu_1_bunnap.png",
+   "위반": [
+    "막대 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 9,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-25 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/jongbuse_napbu/img/nangman_jongbuse_napbu_1_bunnap_v2.png"
+  },
+  {
+   "slug": "s20/junggye_school",
+   "제목": "중계동 아파트 시세, 을지초 배정 청구3차 84㎡ 13억 6,000만",
+   "그림": "nangman_junggye_school_1_ladder.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-16 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/junggye_school",
+   "제목": "중계동 아파트 시세, 을지초 배정 청구3차 84㎡ 13억 6,000만",
+   "그림": "nangman_junggye_school_2_year.png",
+   "위반": [
+    "선 4개(2개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 4,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-16 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/medialle_jeonse",
+   "제목": "힐스테이트 메디알레 전세, 59㎡ 5억 중반 · 옆 단지 6억 5천",
+   "그림": "nangman_medialle_jeonse_1_59.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-16 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/medialle_jeonse/img/nangman_medialle_jeonse_1_59_v2.png"
+  },
+  {
+   "slug": "s20/medialle_jeonse",
+   "제목": "힐스테이트 메디알레 전세, 59㎡ 5억 중반 · 옆 단지 6억 5천",
+   "그림": "nangman_medialle_jeonse_2_84.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-16 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/medialle_jeonse/img/nangman_medialle_jeonse_2_84_v2.png"
+  },
+  {
+   "slug": "s20/misa13",
+   "제목": "미사강변도시 13단지 임대, 37㎡ 보증금 2,317만원에 월 25만원",
+   "그림": "nangman_misa13_1_combo.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-02 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa13",
+   "제목": "미사강변도시 13단지 임대, 37㎡ 보증금 2,317만원에 월 25만원",
+   "그림": "nangman_misa13_2_rent.png",
+   "위반": [],
+   "셈": {
+    "bars": 3,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-02 11:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa8",
+   "제목": "미사강변도시 8단지 매매, 스타힐스 84㎡ 1년 새 27% 올랐습니다",
+   "그림": "nangman_misa8_1_size.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-04 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa8",
+   "제목": "미사강변도시 8단지 매매, 스타힐스 84㎡ 1년 새 27% 올랐습니다",
+   "그림": "nangman_misa8_2_pair.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-04 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa_history",
+   "제목": "하남 미사지구 개발, 분양가 3억 4,700만이 12년 만에 12억",
+   "그림": "nangman_misa_history_1_yearly.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-06 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa_history",
+   "제목": "하남 미사지구 개발, 분양가 3억 4,700만이 12년 만에 12억",
+   "그림": "nangman_misa_history_2_timeline.png",
+   "위반": [
+    "점 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 9
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-06 17:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa_peak",
+   "제목": "미사 집값, 2021년 고점 84㎡ 20곳 중 17곳이 올해 고점을 넘었습니다",
+   "그림": "nangman_misa_peak_1_monthly.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 1,
+    "points": 4
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-02 17:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa_peak",
+   "제목": "미사 집값, 2021년 고점 84㎡ 20곳 중 17곳이 올해 고점을 넘었습니다",
+   "그림": "nangman_misa_peak_2_cx.png",
+   "위반": [
+    "막대 20개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 20,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-02 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa_price",
+   "제목": "미사 아파트 시세, 84㎡ 중앙값 1년 새 10억에서 12억",
+   "그림": "nangman_misa_price_1_pairs.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "11/25 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/misa_price/img/nangman_misa_price_1_pairs_v2.png"
+  },
+  {
+   "slug": "s20/misa_price",
+   "제목": "미사 아파트 시세, 84㎡ 중앙값 1년 새 10억에서 12억",
+   "그림": "nangman_misa_price_2_dist.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 1,
+    "lines": 0,
+    "points": 20
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "11/25 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/misa_price/img/nangman_misa_price_2_dist_v2.png"
+  },
+  {
+   "slug": "s20/misa_vs_gamil",
+   "제목": "미사 감일 비교, 12억 안팎 거래가 미사 174건 감일 7건",
+   "그림": "nangman_misa_vs_gamil_1_band.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-05 17:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/misa_vs_gamil",
+   "제목": "미사 감일 비교, 12억 안팎 거래가 미사 174건 감일 7건",
+   "그림": "nangman_misa_vs_gamil_2_six.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-05 17:00",
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s20/mokdong_jeonse",
+   "제목": "목동 전세 시세, 84㎡ 새 세입자 7억 5천",
+   "그림": "nangman_mokdong_jeonse_1_danji.png",
+   "위반": [
+    "막대 14개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 14,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-19 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/mokdong_jeonse/img/nangman_mokdong_jeonse_1_danji_v2.png"
+  },
+  {
+   "slug": "s20/mokdong_jeonse",
+   "제목": "목동 전세 시세, 84㎡ 새 세입자 7억 5천",
+   "그림": "nangman_mokdong_jeonse_2_month.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-19 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/mokdong_jeonse/img/nangman_mokdong_jeonse_2_month_v2.png"
+  },
+  {
+   "slug": "s20/mokdong_school",
+   "제목": "목동 아파트 시세, 앞단지 뒷단지 차이 1억 8,500만",
+   "그림": "nangman_mokdong_school_1_dan.png",
+   "위반": [
+    "막대 27개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 27,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-14 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/mokdong_school",
+   "제목": "목동 아파트 시세, 앞단지 뒷단지 차이 1억 8,500만",
+   "그림": "nangman_mokdong_school_2_year.png",
+   "위반": [
+    "선 3개(2개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 3,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-14 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/nov27",
+   "제목": "한국 기준금리 발표일 11월 26일, 4억 빌린 집 월 이자 163만원",
+   "그림": "nangman_nov27_1_interest.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/pyeongchon_school",
+   "제목": "평촌 학원가 아파트, 같은 현대홈타운인데 차이 6억 8,500만",
+   "그림": "nangman_pyeongchon_school_1_pair.png",
+   "위반": [
+    "막대 18개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 18,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-18 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/pyeongchon_school",
+   "제목": "평촌 학원가 아파트, 같은 현대홈타운인데 차이 6억 8,500만",
+   "그림": "nangman_pyeongchon_school_2_rate.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-12-18 11:00",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "s20/pyeongchon_seondo",
+   "제목": "평촌 재건축 선도지구, 시행자 고시 뒤 꿈마을 거래 13건",
+   "그림": "nangman_pyeongchon_seondo_1_price.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-23 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/pyeongchon_seondo/img/nangman_pyeongchon_seondo_1_price_v2.png"
+  },
+  {
+   "slug": "s20/pyeongchon_seondo",
+   "제목": "평촌 재건축 선도지구, 시행자 고시 뒤 꿈마을 거래 13건",
+   "그림": "nangman_pyeongchon_seondo_2_count.png",
+   "위반": [
+    "막대 19개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 19,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-23 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/pyeongchon_seondo/img/nangman_pyeongchon_seondo_2_count_v2.png"
+  },
+  {
+   "slug": "s20/sanbon_seondo",
+   "제목": "산본 재건축 선도지구, LH 시행자 지정 뒤 거래 181건",
+   "그림": "nangman_sanbon_seondo_1_count.png",
+   "위반": [
+    "막대 20개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 20,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-17 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/sanbon_seondo/img/nangman_sanbon_seondo_1_count_v2.png"
+  },
+  {
+   "slug": "s20/sanbon_seondo",
+   "제목": "산본 재건축 선도지구, LH 시행자 지정 뒤 거래 181건",
+   "그림": "nangman_sanbon_seondo_2_price.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-17 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/sanbon_seondo/img/nangman_sanbon_seondo_2_price_v2.png"
+  },
+  {
+   "slug": "s20/seoul_jeonse_ratio",
+   "제목": "서울 전세가율, 비싼 동네일수록 낮을까 강남구 32%",
+   "그림": "nangman_seoul_jeonse_ratio_1_gu.png",
+   "위반": [
+    "막대 25개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 25,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-24 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/seoul_jeonse_ratio/img/nangman_seoul_jeonse_ratio_1_gu_v2.png"
+  },
+  {
+   "slug": "s20/seoul_recovery",
+   "제목": "서울 구별 아파트 가격, 2021년 고점 못 넘긴 구 4곳",
+   "그림": "nangman_seoul_recovery_1_rec.png",
+   "위반": [
+    "막대 25개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 25,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-18 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/seoul_recovery/img/nangman_seoul_recovery_1_rec_v2.png"
+  },
+  {
+   "slug": "s20/songdo_jeonse",
+   "제목": "송도 전세 시세, 84㎡ 새 세입자 4억 1천",
+   "그림": "nangman_songdo_jeonse_1_gongu.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-20 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/songdo_jeonse/img/nangman_songdo_jeonse_1_gongu_v2.png"
+  },
+  {
+   "slug": "s20/songdo_jeonse",
+   "제목": "송도 전세 시세, 84㎡ 새 세입자 4억 1천",
+   "그림": "nangman_songdo_jeonse_2_pair.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-20 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/songdo_jeonse/img/nangman_songdo_jeonse_2_pair_v2.png"
+  },
+  {
+   "slug": "s20/songpahanam_route",
+   "제목": "송파하남선 노선도, 감일역 500m 안 84㎡ 1억 1천 더 높습니다",
+   "그림": "nangman_songpahanam_route_1_route.png",
+   "위반": [],
+   "셈": {
+    "bars": 3,
+    "lines": 0,
+    "points": 7
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-21 17:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "s20/songpahanam_route",
+   "제목": "송파하남선 노선도, 감일역 500m 안 84㎡ 1억 1천 더 높습니다",
+   "그림": "nangman_songpahanam_route_2_pair.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-21 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/songpahanam_route/img/nangman_songpahanam_route_2_pair_v2.png"
+  },
+  {
+   "slug": "s20/toheo_dec",
+   "제목": "토지거래허가구역 해제 경기도, 84㎡ 9월 거래 1년 새 3분의 1",
+   "그림": "nangman_toheo_dec_1_count.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 2,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-28 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/toheo_dec/img/nangman_toheo_dec_1_count_v2.png"
+  },
+  {
+   "slug": "s20/toheo_dec",
+   "제목": "토지거래허가구역 해제 경기도, 84㎡ 9월 거래 1년 새 3분의 1",
+   "그림": "nangman_toheo_dec_2_region.png",
+   "위반": [
+    "막대 24개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 24,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-28 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/toheo_dec/img/nangman_toheo_dec_2_region_v2.png"
+  },
+  {
+   "slug": "s20/wirye_price",
+   "제목": "위례 아파트 시세, 84㎡ 올해 16억 9천",
+   "그림": "nangman_wirye_price_1_city.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-24 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/wirye_price/img/nangman_wirye_price_1_city_v2.png"
+  },
+  {
+   "slug": "s20/wirye_price",
+   "제목": "위례 아파트 시세, 84㎡ 올해 16억 9천",
+   "그림": "nangman_wirye_price_2_pair.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-24 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/wirye_price/img/nangman_wirye_price_2_pair_v2.png"
+  },
+  {
+   "slug": "s20/yeokbuk_ipju",
+   "제목": "역북 서희스타힐스 프라임시티 입주, 옆 단지 84㎡ 전세 3억 6천",
+   "그림": "nangman_yeokbuk_ipju_1_bunyang59.png",
+   "위반": [
+    "막대 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 9,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-26 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/yeokbuk_ipju/img/nangman_yeokbuk_ipju_1_bunyang59_v2.png"
+  },
+  {
+   "slug": "s20/yeokbuk_ipju",
+   "제목": "역북 서희스타힐스 프라임시티 입주, 옆 단지 84㎡ 전세 3억 6천",
+   "그림": "nangman_yeokbuk_ipju_2_compare.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-26 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/yeokbuk_ipju/img/nangman_yeokbuk_ipju_2_compare_v2.png"
+  },
+  {
+   "slug": "s20/yeongtong_remodel",
+   "제목": "영통 리모델링 현황, 3개 단지 5,006가구 이주 일정",
+   "그림": "nangman_yeongtong_remodel_1_rise.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-20 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "s20/yeongtong_remodel/img/nangman_yeongtong_remodel_1_rise_v2.png"
+  },
+  {
+   "slug": "s20/yeongtong_remodel",
+   "제목": "영통 리모델링 현황, 3개 단지 5,006가구 이주 일정",
+   "그림": "nangman_yeongtong_remodel_2_ijoo.png",
+   "위반": [],
+   "셈": {
+    "bars": 3,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-20 11:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "jw",
+   "제목": "진위역 서희스타힐스 사전점검, 옆 단지 84㎡ 전세 2억 8천",
+   "그림": "nangman_jinwiseohee_1_segyo.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-12 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "jw/img/nangman_jinwiseohee_1_segyo_v2.png"
+  },
+  {
+   "slug": "jw",
+   "제목": "진위역 서희스타힐스 사전점검, 옆 단지 84㎡ 전세 2억 8천",
+   "그림": "nangman_jinwiseohee_2_compare.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-12 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "jw/img/nangman_jinwiseohee_2_compare_v2.png"
+  },
+  {
+   "slug": "bc",
+   "제목": "브레인시티 중흥S클래스 사전점검, 옆 단지 84㎡ 전세 2억 4천",
+   "그림": "nangman_braincity_1_jeonse.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-14 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "bc/img/nangman_braincity_1_jeonse_v2.png"
+  },
+  {
+   "slug": "bc",
+   "제목": "브레인시티 중흥S클래스 사전점검, 옆 단지 84㎡ 전세 2억 4천",
+   "그림": "nangman_braincity_2_bunyang.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-14 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "bc/img/nangman_braincity_2_bunyang_v2.png"
+  },
+  {
+   "slug": "hr",
+   "제목": "지제역 반도체밸리 해링턴플레이스, 옆 단지 전세 2억 5천",
+   "그림": "nangman_jijeharrington_1_urbanity.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-15 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "hr/img/nangman_jijeharrington_1_urbanity_v2.png"
+  },
+  {
+   "slug": "hr",
+   "제목": "지제역 반도체밸리 해링턴플레이스, 옆 단지 전세 2억 5천",
+   "그림": "nangman_jijeharrington_2_compare.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-15 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "hr/img/nangman_jijeharrington_2_compare_v2.png"
+  },
+  {
+   "slug": "gd4",
+   "제목": "검단 제일풍경채 4차 입주, 불로동 84㎡ 전세 3억 3천",
+   "그림": "nangman_geomdan4_1_newapt.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-13 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "gd4/img/nangman_geomdan4_1_newapt_v2.png"
+  },
+  {
+   "slug": "gd4",
+   "제목": "검단 제일풍경채 4차 입주, 불로동 84㎡ 전세 3억 3천",
+   "그림": "nangman_geomdan4_2_size.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-13 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "gd4/img/nangman_geomdan4_2_size_v2.png"
+  },
+  {
+   "slug": "os",
+   "제목": "오산 세교 힐데스하임 전세, 옆 단지 84㎡ 3억 5천",
+   "그림": "nangman_osanhildes_1_paragon.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-16 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "os/img/nangman_osanhildes_1_paragon_v2.png"
+  },
+  {
+   "slug": "os",
+   "제목": "오산 세교 힐데스하임 전세, 옆 단지 84㎡ 3억 5천",
+   "그림": "nangman_osanhildes_2_compare.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-16 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "os/img/nangman_osanhildes_2_compare_v2.png"
+  },
+  {
+   "slug": "tj",
+   "제목": "탕정 더샵 2차 입주, 옆 새 아파트 84㎡ 전세 3억 7천",
+   "그림": "nangman_tangjeong2_1_centum.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-17 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "tj/img/nangman_tangjeong2_1_centum_v2.png"
+  },
+  {
+   "slug": "tj",
+   "제목": "탕정 더샵 2차 입주, 옆 새 아파트 84㎡ 전세 3억 7천",
+   "그림": "nangman_tangjeong2_2_compare.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-17 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "tj/img/nangman_tangjeong2_2_compare_v2.png"
+  },
+  {
+   "slug": "jbs",
+   "제목": "종부세 대상, 하남 84㎡도 두 채면 기준 9억을 넘습니다",
+   "그림": "nangman_jongbuse_1_median.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-12 17:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "jbs/img/nangman_jongbuse_1_median_v2.png"
+  },
+  {
+   "slug": "bdr",
+   "제목": "분당 재건축 선도지구, 시행자 지정 뒤 84㎡ 거래 7건",
+   "그림": "nangman_bundangrecon_1_price.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-13 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "bdr/img/nangman_bundangrecon_1_price_v2.png"
+  },
+  {
+   "slug": "bdr",
+   "제목": "분당 재건축 선도지구, 시행자 지정 뒤 84㎡ 거래 7건",
+   "그림": "nangman_bundangrecon_2_count.png",
+   "위반": [
+    "막대 18개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 18,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-13 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "bdr/img/nangman_bundangrecon_2_count_v2.png"
+  },
+  {
+   "slug": "gs",
+   "제목": "교산신도시 청약일정, 26개 블록 승인했는데 공고는 1곳",
+   "그림": "nangman_gyosan_1_price.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-14 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "gs/img/nangman_gyosan_1_price_v2.png"
+  },
+  {
+   "slug": "gs",
+   "제목": "교산신도시 청약일정, 26개 블록 승인했는데 공고는 1곳",
+   "그림": "nangman_gyosan_2_block.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-14 11:00",
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "bun12",
+   "제목": "경기도 분양 예정 아파트, 11월 경기 1만 1,275가구",
+   "그림": "nangman_bunyang12_1_price.png",
+   "위반": [
+    "기준은 맞음 · 새 모양(색 · 글꼴)으로만 바꿈"
+   ],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "2026-11-15 11:00",
+   "처리": "새 그림 반영 · 드라이브 원고 덮어씀",
+   "새그림": "bun12/img/nangman_bunyang12_1_price_v2.png"
+  },
+  {
+   "slug": "jj",
+   "제목": "한화포레나 지제역 분양가, 84㎡ 7억 2,450만은 지제역 자이보다 750만 위",
+   "그림": "nangman_hanwhajije_1_sise.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "미발행",
+   "logNo": null,
+   "발행일": null,
+   "예약": "? ?",
+   "처리": "다음 차례",
+   "새그림": null
+  },
+  {
+   "slug": "sd",
+   "제목": "송도 8공구 아파트 매매가, 84㎡ 6억 5천",
+   "그림": "nangman_songdo8_1_trend.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 2,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464141540",
+   "발행일": "4시간 전",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "sd",
+   "제목": "송도 8공구 아파트 매매가, 84㎡ 6억 5천",
+   "그림": "nangman_songdo8_2_danji.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464141540",
+   "발행일": "4시간 전",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "sd/img/nangman_songdo8_2_danji_v2.png"
+  },
+  {
+   "slug": "gi",
+   "제목": "감일동 아파트 시세, 84㎡ 1년 새 2억 3천 올랐습니다",
+   "그림": "nangman_gamilsise_1_flow.png",
+   "위반": [
+    "막대 22개(5개 넘음)",
+    "칸 2개로 나뉨"
+   ],
+   "셈": {
+    "bars": 22,
+    "lines": 1,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464141062",
+   "발행일": "9시간 전",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gi/img/nangman_gamilsise_1_flow_v2.png"
+  },
+  {
+   "slug": "gi",
+   "제목": "감일동 아파트 시세, 84㎡ 1년 새 2억 3천 올랐습니다",
+   "그림": "nangman_gamilsise_2_danji.png",
+   "위반": [
+    "막대 18개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 18,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464141062",
+   "발행일": "9시간 전",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gi/img/nangman_gamilsise_2_danji_v2.png"
+  },
+  {
+   "slug": "ms",
+   "제목": "미사섬 개발, 경정공원 옆에 1만 2천 가구",
+   "그림": "nangman_misaseom_1_price.png",
+   "위반": [
+    "막대 22개(5개 넘음)",
+    "칸 2개로 나뉨"
+   ],
+   "셈": {
+    "bars": 22,
+    "lines": 1,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464140561",
+   "발행일": "23시간 전",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ms/img/nangman_misaseom_1_price_v2.png"
+  },
+  {
+   "slug": "ms",
+   "제목": "미사섬 개발, 경정공원 옆에 1만 2천 가구",
+   "그림": "nangman_misaseom_2_schedule.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 5
+   },
+   "발행": "발행",
+   "logNo": "224464140561",
+   "발행일": "23시간 전",
+   "예약": null,
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "sh",
+   "제목": "엘리프 시흥 더프라임 분양가, 84㎡ 5억 9,930만원까지",
+   "그림": "nangman_siheung_1_price.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464036910",
+   "발행일": "2026. 11. 9.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "sh/img/nangman_siheung_1_price_v2.png"
+  },
+  {
+   "slug": "sh",
+   "제목": "엘리프 시흥 더프라임 분양가, 84㎡ 5억 9,930만원까지",
+   "그림": "nangman_siheung_2_danji.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464036910",
+   "발행일": "2026. 11. 9.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "sh/img/nangman_siheung_2_danji_v2.png"
+  },
+  {
+   "slug": "gs/_old_guseong_1103",
+   "제목": "중앙하이츠 구성 플랫폼시티 분양가, 84㎡ 8억 5,210만원",
+   "그림": "nangman_guseong_1_price.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464036028",
+   "발행일": "2026. 11. 8.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gs/_old_guseong_1103/img/nangman_guseong_1_price_v2.png"
+  },
+  {
+   "slug": "gs/_old_guseong_1103",
+   "제목": "중앙하이츠 구성 플랫폼시티 분양가, 84㎡ 8억 5,210만원",
+   "그림": "nangman_guseong_2_count.png",
+   "위반": [
+    "막대 10개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464036028",
+   "발행일": "2026. 11. 8.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gs/_old_guseong_1103/img/nangman_guseong_2_count_v2.png"
+  },
+  {
+   "slug": "gw",
+   "제목": "고덕 우미린 더 프리미어 분양가, 84㎡ 5억 9,130만원",
+   "그림": "nangman_godeokwoomi_1_price.png",
+   "위반": [
+    "막대 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 9,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464139141",
+   "발행일": "2026. 11. 8.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gw/img/nangman_godeokwoomi_1_price_v2.png"
+  },
+  {
+   "slug": "gw",
+   "제목": "고덕 우미린 더 프리미어 분양가, 84㎡ 5억 9,130만원",
+   "그림": "nangman_godeokwoomi_2_floor.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464139141",
+   "발행일": "2026. 11. 8.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gw/img/nangman_godeokwoomi_2_floor_v2.png"
+  },
+  {
+   "slug": "gm",
+   "제목": "구리갈매역세권 신안인스빌 분양가, 84㎡ 7억 8,500만",
+   "그림": "nangman_galmae_1_price.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464035147",
+   "발행일": "2026. 11. 8.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gm/img/nangman_galmae_1_price_v2.png"
+  },
+  {
+   "slug": "gj",
+   "제목": "광교 지분적립형, 처음 내 지분 25%",
+   "그림": "nangman_gwanggyojibun_1_share.png",
+   "위반": [
+    "막대 9개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 9,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464138305",
+   "발행일": "2026. 11. 7.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gj/img/nangman_gwanggyojibun_1_share_v2.png"
+  },
+  {
+   "slug": "gj",
+   "제목": "광교 지분적립형, 처음 내 지분 25%",
+   "그림": "nangman_gwanggyojibun_2_first.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464138305",
+   "발행일": "2026. 11. 7.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "g2",
+   "제목": "하남감일2지구 위치, 서하남IC에서 감일역까지 860m",
+   "그림": "nangman_gamil2_1_price.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464034261",
+   "발행일": "2026. 11. 7.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "g2",
+   "제목": "하남감일2지구 위치, 서하남IC에서 감일역까지 860m",
+   "그림": "nangman_gamil2_2_steps.png",
+   "위반": [
+    "점 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 6
+   },
+   "발행": "발행",
+   "logNo": "224464034261",
+   "발행일": "2026. 11. 7.",
+   "예약": null,
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "ht",
+   "제목": "하남 토지거래허가구역, 11월 3일부터 다시 3년",
+   "그림": "nangman_hanamtoji_1_price.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 2,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464137103",
+   "발행일": "2026. 11. 6.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "ht",
+   "제목": "하남 토지거래허가구역, 11월 3일부터 다시 3년",
+   "그림": "nangman_hanamtoji_2_count.png",
+   "위반": [
+    "막대 14개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 14,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464137103",
+   "발행일": "2026. 11. 6.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ht/img/nangman_hanamtoji_2_count_v2.png"
+  },
+  {
+   "slug": "gg",
+   "제목": "광교 자연앤 센트레빌 분양가, 59㎡ 6억 8,590만원",
+   "그림": "nangman_gwanggyo_1_price.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464033367",
+   "발행일": "2026. 11. 6.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "gg",
+   "제목": "광교 자연앤 센트레빌 분양가, 59㎡ 6억 8,590만원",
+   "그림": "nangman_gwanggyo_2_share.png",
+   "위반": [],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464033367",
+   "발행일": "2026. 11. 6.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s7",
+   "제목": "서울 7억대 아파트, 2010년 이후 84㎡는 23곳",
+   "그림": "nangman_seoul7eok_1_year.png",
+   "위반": [
+    "막대 10개(5개 넘음)",
+    "칸 2개로 나뉨"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462895487",
+   "발행일": "2026. 11. 6.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "s7/img/nangman_seoul7eok_1_year_v2.png"
+  },
+  {
+   "slug": "s7",
+   "제목": "서울 7억대 아파트, 2010년 이후 84㎡는 23곳",
+   "그림": "nangman_seoul7eok_2_three.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462895487",
+   "발행일": "2026. 11. 6.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "s7/img/nangman_seoul7eok_2_three_v2.png"
+  },
+  {
+   "slug": "ij",
+   "제목": "재개발 이주비대출, 6억으로 노량진 84㎡ 전세는 10건 중 1건",
+   "그림": "nangman_ijubi_1_jeonse.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462895038",
+   "발행일": "2026. 11. 5.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ij/img/nangman_ijubi_1_jeonse_v2.png"
+  },
+  {
+   "slug": "ij",
+   "제목": "재개발 이주비대출, 6억으로 노량진 84㎡ 전세는 10건 중 1건",
+   "그림": "nangman_ijubi_2_share.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462895038",
+   "발행일": "2026. 11. 5.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ij/img/nangman_ijubi_2_share_v2.png"
+  },
+  {
+   "slug": "es",
+   "제목": "디에이치 신반포 에스테라 분양가, 84㎡ 입찰 40억부터",
+   "그림": "nangman_estera_1_price.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464031660",
+   "발행일": "2026. 11. 5.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "es/img/nangman_estera_1_price_v2.png"
+  },
+  {
+   "slug": "dd",
+   "제목": "신혼부부 디딤돌대출, 6억 이하 수도권 84㎡ 2,442곳",
+   "그림": "nangman_didim_1_count.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462894471",
+   "발행일": "2026. 11. 5.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "dd/img/nangman_didim_1_count_v2.png"
+  },
+  {
+   "slug": "dd",
+   "제목": "신혼부부 디딤돌대출, 6억 이하 수도권 84㎡ 2,442곳",
+   "그림": "nangman_didim_2_cash.png",
+   "위반": [
+    "막대 8개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462894471",
+   "발행일": "2026. 11. 5.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "dd/img/nangman_didim_2_cash_v2.png"
+  },
+  {
+   "slug": "dc",
+   "제목": "디에이치 클래스트 청약, 옆 새 아파트 84㎡보다 17억 낮습니다",
+   "그림": "nangman_classt_1_price.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462893483",
+   "발행일": "2026. 11. 4.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "dc/img/nangman_classt_1_price_v2.png"
+  },
+  {
+   "slug": "dc",
+   "제목": "디에이치 클래스트 청약, 옆 새 아파트 84㎡보다 17억 낮습니다",
+   "그림": "nangman_classt_2_cash.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462893483",
+   "발행일": "2026. 11. 4.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "gd",
+   "제목": "37회 공인중개사 가답안, 이의제기는 11월 6일 18시까지",
+   "그림": "nangman_gadap_1_passrate.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224464030876",
+   "발행일": "2026. 11. 4.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "pg",
+   "제목": "동탄 파라곤 3차 임대료, 82㎡ 보증금 4억 4천",
+   "그림": "nangman_paragon3_1_jeonse.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462888236",
+   "발행일": "2026. 11. 4.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "s6",
+   "제목": "서울 6억대 아파트, 84㎡ 새 아파트는 두 곳뿐",
+   "그림": "nangman_seoul6eok_1_year.png",
+   "위반": [
+    "막대 10개(5개 넘음)",
+    "칸 2개로 나뉨"
+   ],
+   "셈": {
+    "bars": 10,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462887153",
+   "발행일": "2026. 11. 3.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "s6/img/nangman_seoul6eok_1_year_v2.png"
+  },
+  {
+   "slug": "s6",
+   "제목": "서울 6억대 아파트, 84㎡ 새 아파트는 두 곳뿐",
+   "그림": "nangman_seoul6eok_2_three.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224462887153",
+   "발행일": "2026. 11. 3.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "s6/img/nangman_seoul6eok_2_three_v2.png"
+  },
+  {
+   "slug": "ss",
+   "제목": "서신더샵에피트 입주, 84㎡ 전세 기준은 옆 단지 4억 5천",
+   "그림": "nangman_seosin_1_jeonse.png",
+   "위반": [],
+   "셈": {
+    "bars": 5,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461117554",
+   "발행일": "2026. 11. 3.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "ss",
+   "제목": "서신더샵에피트 입주, 84㎡ 전세 기준은 옆 단지 4억 5천",
+   "그림": "nangman_seosin_2_ratio.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461117554",
+   "발행일": "2026. 11. 3.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "mp",
+   "제목": "일산 메이포레 입주, 84㎡ 분양권 6억 4천만원대",
+   "그림": "nangman_maypore_1_price.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461008155",
+   "발행일": "2026. 11. 2.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "gr",
+   "제목": "주민공람 공고일, 이날 뒤에 생긴 집 · 나무 · 가게는 보상에서 빠집니다",
+   "그림": "nangman_gongram_1_steps.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 4
+   },
+   "발행": "발행",
+   "logNo": "224461589974",
+   "발행일": "2026. 11. 2.",
+   "예약": null,
+   "처리": "도식(지도 · 일정 · 단계 그림 — 막대 기준 밖, 그대로 둠)",
+   "새그림": null
+  },
+  {
+   "slug": "hn1",
+   "제목": "하남 신규택지, 교산 때 미사 아파트는 석 달 6.9% 내렸습니다",
+   "그림": "nangman_hanamtaekji_1_3m.png",
+   "위반": [
+    "막대 8개(5개 넘음)",
+    "칸 2개로 나뉨"
+   ],
+   "셈": {
+    "bars": 8,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461004062",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "hn1/img/nangman_hanamtaekji_1_3m_v2.png"
+  },
+  {
+   "slug": "hn1",
+   "제목": "하남 신규택지, 교산 때 미사 아파트는 석 달 6.9% 내렸습니다",
+   "그림": "nangman_hanamtaekji_2_count.png",
+   "위반": [
+    "막대 18개(5개 넘음)",
+    "글자 겹침 3곳"
+   ],
+   "셈": {
+    "bars": 18,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461004062",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "hn1/img/nangman_hanamtaekji_2_count_v2.png"
+  },
+  {
+   "slug": "hc",
+   "제목": "회천중앙역 로제비앙 그랜드센텀 잔금, 전세 3억이면 1억 4천",
+   "그림": "nangman_hoecheon_1_jangeum.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461102870",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "hc/img/nangman_hoecheon_1_jangeum_v2.png"
+  },
+  {
+   "slug": "hc",
+   "제목": "회천중앙역 로제비앙 그랜드센텀 잔금, 전세 3억이면 1억 4천",
+   "그림": "nangman_hoecheon_2_price.png",
+   "위반": [
+    "막대 6개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 6,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224461102870",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "hc/img/nangman_hoecheon_2_price_v2.png"
+  },
+  {
+   "slug": "lc",
+   "제목": "라첼스 전세, 2027년 3월 입주 때 84㎡는 옆 마포 새 아파트 11억이 기준입니다",
+   "그림": "nangman_rachels_1_jeonse.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224460964208",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "lc/img/nangman_rachels_1_jeonse_v2.png"
+  },
+  {
+   "slug": "lc",
+   "제목": "라첼스 전세, 2027년 3월 입주 때 84㎡는 옆 마포 새 아파트 11억이 기준입니다",
+   "그림": "nangman_rachels_2_ratio.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224460964208",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "pt",
+   "제목": "평택 아파트 전세, 고덕 새 아파트는 2년 만에 34% 올랐고 서정동은 그대로였습니다",
+   "그림": "nangman_pyeongtaek_1_2024.png",
+   "위반": [
+    "점 14개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 14
+   },
+   "발행": "발행",
+   "logNo": "224460003121",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "pt/img/nangman_pyeongtaek_1_2024_v2.png"
+  },
+  {
+   "slug": "pt",
+   "제목": "평택 아파트 전세, 고덕 새 아파트는 2년 만에 34% 올랐고 서정동은 그대로였습니다",
+   "그림": "nangman_pyeongtaek_2_ipju.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224460003121",
+   "발행일": "2026. 11. 1.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "pt/img/nangman_pyeongtaek_2_ipju_v2.png"
+  },
+  {
+   "slug": "jj1",
+   "제목": "줍줍 청약 일정, 11월 2일 무순위 4곳 중 옆 새 아파트보다 싼 곳은 수원 한 곳입니다",
+   "그림": "nangman_jupjup1102_1_compare.png",
+   "위반": [
+    "칸 4개로 나뉨"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 4
+   },
+   "발행": "발행",
+   "logNo": "224460042775",
+   "발행일": "2026. 10. 31.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "jj1/img/nangman_jupjup1102_1_compare_v2.png"
+  },
+  {
+   "slug": "sin2",
+   "제목": "신축아파트 2년후, 2024년 입주 아파트 올해 계약 절반은 새 세입자였습니다",
+   "그림": "nangman_sinchuk2_1_split.png",
+   "위반": [],
+   "셈": {
+    "bars": 3,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224459997546",
+   "발행일": "2026. 10. 31.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "sin2",
+   "제목": "신축아파트 2년후, 2024년 입주 아파트 올해 계약 절반은 새 세입자였습니다",
+   "그림": "nangman_sinchuk2_2_money.png",
+   "위반": [],
+   "셈": {
+    "bars": 3,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224459997546",
+   "발행일": "2026. 10. 31.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "sin2",
+   "제목": "신축아파트 2년후, 2024년 입주 아파트 올해 계약 절반은 새 세입자였습니다",
+   "그림": "nangman_sinchuk2_3_sido.png",
+   "위반": [
+    "막대 15개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 15,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224459997546",
+   "발행일": "2026. 10. 31.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "sin2/img/nangman_sinchuk2_3_sido_v2.png"
+  },
+  {
+   "slug": "sin2",
+   "제목": "신축아파트 2년후, 2024년 입주 아파트 올해 계약 절반은 새 세입자였습니다",
+   "그림": "nangman_sinchuk2_4_haja.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224459997546",
+   "발행일": "2026. 10. 31.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "gm/_old_geupmae",
+   "제목": "입주장 전세급매 잡는법, 큰 단지는 둘째 달 급매가 평소의 1.6배였습니다",
+   "그림": "nangman_geupmae_1_big.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 2,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457266231",
+   "발행일": "2026. 10. 30.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "gm/_old_geupmae",
+   "제목": "입주장 전세급매 잡는법, 큰 단지는 둘째 달 급매가 평소의 1.6배였습니다",
+   "그림": "nangman_geupmae_2_month.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457266231",
+   "발행일": "2026. 10. 30.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "gm/_old_geupmae/img/nangman_geupmae_2_month_v2.png"
+  },
+  {
+   "slug": "ipjj",
+   "제목": "입주장 전세, 새 아파트 50곳은 첫 석 달 그대로였고 넷째 달부터 올랐습니다",
+   "그림": "nangman_ipjujang_jeonse_1_month.png",
+   "위반": [],
+   "셈": {
+    "bars": 1,
+    "lines": 1,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457234936",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "ipjj",
+   "제목": "입주장 전세, 새 아파트 50곳은 첫 석 달 그대로였고 넷째 달부터 올랐습니다",
+   "그림": "nangman_ipjujang_jeonse_2_sigi.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457234936",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ipjj/img/nangman_ipjujang_jeonse_2_sigi_v2.png"
+  },
+  {
+   "slug": "ipjj",
+   "제목": "입주장 전세, 새 아파트 50곳은 첫 석 달 그대로였고 넷째 달부터 올랐습니다",
+   "그림": "nangman_ipjujang_jeonse_3_geupmae.png",
+   "위반": [
+    "막대 7개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 7,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457234936",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ipjj/img/nangman_ipjujang_jeonse_3_geupmae_v2.png"
+  },
+  {
+   "slug": "ipjj",
+   "제목": "입주장 전세, 새 아파트 50곳은 첫 석 달 그대로였고 넷째 달부터 올랐습니다",
+   "그림": "nangman_ipjujang_jeonse_4_wolse.png",
+   "위반": [
+    "막대 12개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 12,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457234936",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "ipjj/img/nangman_ipjujang_jeonse_4_wolse_v2.png"
+  },
+  {
+   "slug": "ipjj",
+   "제목": "입주장 전세, 새 아파트 50곳은 첫 석 달 그대로였고 넷째 달부터 올랐습니다",
+   "그림": "nangman_ipjujang_jeonse_5_segyo.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 1,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457234936",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "ipjj",
+   "제목": "입주장 전세, 새 아파트 50곳은 첫 석 달 그대로였고 넷째 달부터 올랐습니다",
+   "그림": "nangman_ipjujang_jeonse_6_danji.png",
+   "위반": [],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457234936",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  },
+  {
+   "slug": "osan",
+   "제목": "오산역 금강펜테리움 전세, 2년 전 오산 입주장은 갱신 5% 신규 24% 올랐습니다",
+   "그림": "nangman_osan_jeonse_1_osan.png",
+   "위반": [
+    "점 30개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 0,
+    "lines": 0,
+    "points": 30
+   },
+   "발행": "발행",
+   "logNo": "224457240998",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "osan/img/nangman_osan_jeonse_1_osan_v2.png"
+  },
+  {
+   "slug": "osan",
+   "제목": "오산역 금강펜테리움 전세, 2년 전 오산 입주장은 갱신 5% 신규 24% 올랐습니다",
+   "그림": "nangman_osan_jeonse_2_sido.png",
+   "위반": [
+    "막대 13개(5개 넘음)"
+   ],
+   "셈": {
+    "bars": 13,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457240998",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "새 그림 올림 · 어사이드 교체 지시",
+   "새그림": "osan/img/nangman_osan_jeonse_2_sido_v2.png"
+  },
+  {
+   "slug": "osan",
+   "제목": "오산역 금강펜테리움 전세, 2년 전 오산 입주장은 갱신 5% 신규 24% 올랐습니다",
+   "그림": "nangman_osan_jeonse_3_segyo.png",
+   "위반": [],
+   "셈": {
+    "bars": 4,
+    "lines": 0,
+    "points": 0
+   },
+   "발행": "발행",
+   "logNo": "224457240998",
+   "발행일": "2026. 10. 29.",
+   "예약": null,
+   "처리": "기준 맞음",
+   "새그림": null
+  }
+ ],
+ "발행_미점검": [
+  {
+   "logNo": "224457240998",
+   "제목": "오산역 금강펜테리움 전세, 2년 전 오산 입주장 신규 24%·갱신 5% 상승",
+   "발행일": "2026. 10. 29."
+  },
+  {
+   "logNo": "224453459855",
+   "제목": "둔산동 아파트 매매, 거래량 46% 증가·가격 17% 상승…서구 2위",
+   "발행일": "2026. 10. 29."
+  },
+  {
+   "logNo": "224453457912",
+   "제목": "중계동 아파트 매매, 소형 35% 급등·대형 1.5% 상승…왜 차이 날까?",
+   "발행일": "2026. 10. 29."
+  },
+  {
+   "logNo": "224452256175",
+   "제목": "인후동 아파트 시세, 거래량 17% 감소에도 가격은 6.7% 상승",
+   "발행일": "2026. 10. 28."
+  },
+  {
+   "logNo": "224452232362",
+   "제목": "검단호수공원역 풍경채 어바니티 분양가, 옆 호반써밋 84㎡ 매매와 같은 5억대",
+   "발행일": "2026. 10. 28."
+  },
+  {
+   "logNo": "224453442756",
+   "제목": "복대동 아파트 시세, 지웰시티는 1년 새 39% 올랐고 2004년 이전 구축은 1.5% 내렸습니다",
+   "발행일": "2026. 10. 28."
+  },
+  {
+   "logNo": "224452211673",
+   "제목": "e편한세상 신곡 시그니처뷰 분양가, 59A 분양권은 3천만원 넘게 붙었습니다",
+   "발행일": "2026. 10. 28."
+  },
+  {
+   "logNo": "224452210650",
+   "제목": "은계에피트 분양가, 59㎡ 4억 6,700만원은 옆 단지보다 9,800만원 쌉니다",
+   "발행일": "2026. 10. 27."
+  },
+  {
+   "logNo": "224452263312",
+   "제목": "재송동 아파트 시세, 같은 85㎡가 1억과 11억이고 센텀 단지는 1년 새 7.6% 올랐습니다",
+   "발행일": "2026. 10. 27."
+  },
+  {
+   "logNo": "224452209457",
+   "제목": "흑석동 아파트 시세, 리버파크자이 84㎡와 2011년 센트레빌이 같은 23억대",
+   "발행일": "2026. 10. 27."
+  },
+  {
+   "logNo": "224452204949",
+   "제목": "개포주공6단지 이주, 5억 이하 개포동 전세는 대부분 52㎡ 아래",
+   "발행일": "2026. 10. 26."
+  },
+  {
+   "logNo": "224453456272",
+   "제목": "교산신도시 입주일정, A2블록 2029년 6월로 27개월 지연…공정률 11%",
+   "발행일": "2026. 10. 26."
+  },
+  {
+   "logNo": "224453454809",
+   "제목": "화명동 아파트 매매, 대림타운 60㎡ 전세가율 94%…매매·전세 차이 1,300만원",
+   "발행일": "2026. 10. 26."
+  },
+  {
+   "logNo": "224453520267",
+   "제목": "고덕강일3단지 청약, 59㎡ 3억 9천에 땅값 월 51만원",
+   "발행일": "2026. 10. 25."
+  },
+  {
+   "logNo": "224451833467",
+   "제목": "이천 금성백조 예미지 분양가, 옆 우미린 84㎡ 매매보다 1천만원 낮습니다",
+   "발행일": "2026. 10. 25."
+  },
+  {
+   "logNo": "224452184979",
+   "제목": "행신동 아파트 시세, 거래는 1년 새 24% 늘었는데 같은 단지 가격은 1% 올랐습니다",
+   "발행일": "2026. 10. 25."
+  },
+  {
+   "logNo": "224451832221",
+   "제목": "상도동 아파트 전세, 새 아파트 입주 때는 옆 단지보다 1억 낮았습니다",
+   "발행일": "2026. 10. 25."
+  },
+  {
+   "logNo": "224452201756",
+   "제목": "운정중앙역 제일풍경채 분양가, 옆 우미린 매매보다 3,800만원 낮습니다",
+   "발행일": "2026. 10. 24."
+  },
+  {
+   "logNo": "224452203567",
+   "제목": "방학동 아파트 시세, 거래량 50% 증가에도 가격 상승률은 4.9%",
+   "발행일": "2026. 10. 24."
+  },
+  {
+   "logNo": "224452202728",
+   "제목": "수진1구역 이주, 8월 예정이 이주비 대출에 막혀 4분기로 밀렸습니다",
+   "발행일": "2026. 10. 24."
+  },
+  {
+   "logNo": "224445773255",
+   "제목": "광명시흥 토지보상, 보상금 15조원을 1만 3천명이 나누고 협의는 연말까지입니다",
+   "발행일": "2026. 10. 24."
+  },
+  {
+   "logNo": "224451824958",
+   "제목": "신검단중앙역 센트레빌 전세, 같은 역 새 아파트 입주 때 84㎡는 3억이었습니다",
+   "발행일": "2026. 10. 24."
+  },
+  {
+   "logNo": "224451684611",
+   "제목": "신축아파트 입주비용, 6억 집은 취득세 660만원에 청소 · 새집증후군 71만원",
+   "발행일": "2026. 10. 23."
+  },
+  {
+   "logNo": "224445751886",
+   "제목": "수원 아파트 시세, 이의동 14% 상승·호매실동 1.6%…약 9배 차이",
+   "발행일": "2026. 10. 23."
+  },
+  {
+   "logNo": "224445709091",
+   "제목": "서울 구축 아파트 시세, 성동 · 광진 · 강동은 30년 넘은 집이 1년에 30% 넘게 올랐습니다",
+   "발행일": "2026. 10. 23."
+  },
+  {
+   "logNo": "224445706131",
+   "제목": "마포 아파트 시세, 2000년 앞뒤 구축 71곳 가운데 53곳이 이제 15억원을 넘습니다",
+   "발행일": "2026. 10. 23."
+  },
+  {
+   "logNo": "224445766643",
+   "제목": "여의도 대교아파트 이주, 옮길 구축 전세는 125건",
+   "발행일": "2026. 10. 22."
+  },
+  {
+   "logNo": "224445692011",
+   "제목": "디에이치 반포124 분양가, 84㎡ 30억 예상인데 옆 원베일리는 58.75억입니다",
+   "발행일": "2026. 10. 22."
+  },
+  {
+   "logNo": "224445653832",
+   "제목": "서울 한강뷰 아파트 시세, 올해 1년만 보면 압구정은 3.9% 내렸고 같은 강남구 자곡동은 23.5% 올랐습니다",
+   "발행일": "2026. 10. 22."
+  },
+  {
+   "logNo": "224445644847",
+   "제목": "성수동 아파트 시세, 올해 1~8월 130건만 팔렸는데 51쌍 가운데 49쌍이 비싸게 팔렸습니다",
+   "발행일": "2026. 10. 22."
+  },
+  {
+   "logNo": "224449575744",
+   "제목": "부동산 홍보방법, 입주 단지 중개사무소를 찾아가 인터뷰하고 그 단지 글마다 사무소를 무료로 소개합니다",
+   "발행일": "2026. 10. 22."
+  },
+  {
+   "logNo": "224445610279",
+   "제목": "경기남부광역철도 노선 50.7km·22개 정거장, 성복역 롯데캐슬 1년 새 25% 상승",
+   "발행일": "2026. 10. 21."
+  },
+  {
+   "logNo": "224445489682",
+   "제목": "서울 아파트 거래량 9월, 1년 전 절반인데 노원 · 도봉은 줄지 않았습니다",
+   "발행일": "2026. 10. 21."
+  },
+  {
+   "logNo": "224445386926",
+   "제목": "5차 국가철도망 발표일, 공청회가 11월로 밀리면 연내 고시는 연말에 겨우 맞춥니다",
+   "발행일": "2026. 10. 21."
+  },
+  {
+   "logNo": "224448347577",
+   "제목": "부동산 블로그 대행, 맡기기 전에 글 한 편으로 확인할 다섯 가지",
+   "발행일": "2026. 10. 21."
+  },
+  {
+   "logNo": "224445375638",
+   "제목": "토지거래허가구역 해제 시기, 12월 31일 만료 앞두고 집값 17.3% 상승",
+   "발행일": "2026. 10. 20."
+  },
+  {
+   "logNo": "224445372570",
+   "제목": "종부세 고지서 발송일 11월 말, 공시가 12억 넘는 집이 48만 7천 가구로 53% 늘었는데 경기 84㎡는 63개 단지뿐입니다",
+   "발행일": "2026. 10. 20."
+  },
+  {
+   "logNo": "224445368911",
+   "제목": "위례선 트램 개통, 정거장 앞 단지는 37% 먼 단지는 42% 올랐습니다",
+   "발행일": "2026. 10. 20."
+  },
+  {
+   "logNo": "224445363456",
+   "제목": "3기 신도시 청약 일정, 올해 남은 곳은 부천대장 548가구와 왕숙 379가구입니다",
+   "발행일": "2026. 10. 19."
+  },
+  {
+   "logNo": "224445222282",
+   "제목": "힐스테이트 등촌역 분양가, 84㎡ 14억은 77가구가 남았는데 지금은 강서힐스테이트보다 1억 넘게 쌉니다",
+   "발행일": "2026. 10. 19."
+  },
+  {
+   "logNo": "224445173212",
+   "제목": "상계2구역 관리처분인가, 10월에 인가가 나면 그 뒤에 산 빌라로는 조합원이 될 수 없습니다",
+   "발행일": "2026. 10. 19."
+  },
+  {
+   "logNo": "224445639177",
+   "제목": "디딤돌대출 아파트 기준, 서울 84㎡ 5억 이하 단 8곳…6억 이하는 42곳",
+   "발행일": "2026. 10. 18."
+  },
+  {
+   "logNo": "224445220011",
+   "제목": "기준금리 발표일 10월 22일, 주담대 4.66%에서 0.25%포인트 더 오르면 4억 빌린 집은 월 6만원 더 냅니다",
+   "발행일": "2026. 10. 18."
+  },
+  {
+   "logNo": "224445218837",
+   "제목": "더 리치먼드 미아 분양가, 미아동 꿈의숲한신더휴 59㎡ 중앙값 7억 8천만원과 같은 수준입니다",
+   "발행일": "2026. 10. 18."
+  },
+  {
+   "logNo": "224445171360",
+   "제목": "용인 반도체 국가산단 보상금, 임시거주 주택 87호",
+   "발행일": "2026. 10. 18."
+  },
+  {
+   "logNo": "224444775233",
+   "제목": "송도 8공구 지하철 연장, 예타 경제성이 0.9에서 0.3으로 떨어졌습니다",
+   "발행일": "2026. 10. 17."
+  },
+  {
+   "logNo": "224444328965",
+   "제목": "감일 3호선 착공, 감일 구간 시공사가 10월 27일 정해집니다",
+   "발행일": "2026. 10. 17."
+  },
+  {
+   "logNo": "224442038155",
+   "제목": "시티오씨엘 9단지 분양가, 무순위 75㎡ 68가구 5억 6,920만~6억 90만원은 6단지 같은 면적 분양권 5억 9,220만원과 거의 같습니다",
+   "발행일": "2026. 10. 16."
+  },
+  {
+   "logNo": "224442008413",
+   "제목": "산곡역 자이 힐스테이트 분양가, 59㎡ 최고 실거래가 웃돌고 84㎡는 저층 집중",
+   "발행일": "2026. 10. 16."
+  },
+  {
+   "logNo": "224442006954",
+   "제목": "고덕 자연앤하우스디 줍줍, 98㎡ 분양가 5억대…옆 단지보다 2억 저렴",
+   "발행일": "2026. 10. 16."
+  },
+  {
+   "logNo": "224442003124",
+   "제목": "인천계양 A17 본청약, 55㎡ 분양가 5억…전용 대출 의무와 시세차익 공유",
+   "발행일": "2026. 10. 15."
+  },
+  {
+   "logNo": "224441368891",
+   "제목": "서울 전세가율, 486개 단지 중 80% 초과 단 1곳…금천·도봉 61% 최고",
+   "발행일": "2026. 10. 15."
+  },
+  {
+   "logNo": "224441669861",
+   "제목": "시티오씨엘 9단지 무순위 68가구, 분양가 5억 6,920만원부터",
+   "발행일": "2026. 10. 15."
+  },
+  {
+   "logNo": "224441349807",
+   "제목": "서울 도로 지분 거래, 전체 토지 거래의 절반…10월 17일부터 허가제",
+   "발행일": "2026. 10. 14."
+  },
+  {
+   "logNo": "224441340271",
+   "제목": "공공재개발 현금청산, 신설1구역 37필지 보상조서 열람·이의신청",
+   "발행일": "2026. 10. 14."
+  },
+  {
+   "logNo": "224441165381",
+   "제목": "서울 토지거래허가구역 1년, 성동구는 거래가 60% 줄고 27% 올랐습니다",
+   "발행일": "2026. 10. 14."
+  },
+  {
+   "logNo": "224434641149",
+   "제목": "과천갈현 대토보상 신청, 상가·업무용지 3필지…최소 3억 8,940만원",
+   "발행일": "2026. 10. 12."
+  },
+  {
+   "logNo": "224424081802",
+   "제목": "영통 아파트 시세, 1997년 영통지구가 1년 새 11.6% 올라 광교만큼 뛰었습니다",
+   "발행일": "2026. 10. 11."
+  },
+  {
+   "logNo": "224431190490",
+   "제목": "하남 토지, 땅의 71%가 그린벨트인 도시에서 2025년에 통째로 팔린 녹지 땅은 206건이고 도로 붙은 밭 값은 13년 사이 2.3배가 됐습니다",
+   "발행일": "2026. 10. 11."
+  },
+  {
+   "logNo": "224428859145",
+   "제목": "송도 아파트 시세, 같은 단지 86쌍 중앙값은 아직 2021년 고점보다 15.3% 낮습니다",
+   "발행일": "2026. 10. 10."
+  },
+  {
+   "logNo": "224423117923",
+   "제목": "3기 신도시 분양가 비교, 왕숙은 다산보다 2~3억 싸고 창릉은 원흥과 비슷합니다",
+   "발행일": "2026. 10. 10."
+  },
+  {
+   "logNo": "224436171130",
+   "제목": "영통 아파트 매매, 벽적골 8단지 리모델링 이주…59㎡ 실입주 6억 2천만원",
+   "발행일": "2026. 10. 9."
+  },
+  {
+   "logNo": "224422986873",
+   "제목": "중동 재건축, 특별정비구역 은하마을만 2021년 하반기 가격을 넘었습니다",
+   "발행일": "2026. 10. 9."
+  },
+  {
+   "logNo": "224434633597",
+   "제목": "쌍용 더 플래티넘 한강 분양가, 84㎡ 양평 최고가 웃돌아…양수역 280m",
+   "발행일": "2026. 10. 9."
+  },
+  {
+   "logNo": "224434613491",
+   "제목": "향남역 그로브 스위첸 분양가, 84㎡ 최고 5억 5,970만원…933세대 일반분양",
+   "발행일": "2026. 10. 9."
+  },
+  {
+   "logNo": "224425257137",
+   "제목": "광명 재개발, 다 지은 뉴타운보다 1986년 철산주공이 비쌉니다",
+   "발행일": "2026. 10. 8."
+  },
+  {
+   "logNo": "224425295914",
+   "제목": "여의도 재건축, 1971년 시범이 2005년 주상복합보다 평당 30% 비쌉니다",
+   "발행일": "2026. 10. 8."
+  },
+  {
+   "logNo": "224434565245",
+   "제목": "상동역 롯데캐슬 시그니처 무순위, 84㎡ 784세대 남아…분양가 14억부터",
+   "발행일": "2026. 10. 8."
+  },
+  {
+   "logNo": "224434552062",
+   "제목": "힐스테이트 메디알레 분양가, 분양 때는 옆 새 아파트보다 5천만원 비쌌는데 지금은 1억 7천만원 쌉니다",
+   "발행일": "2026. 10. 7."
+  },
+  {
+   "logNo": "224416485865",
+   "제목": "교산신도시 AI 클러스터, 3조원이라는데 토지 계약이 아직 없습니다",
+   "발행일": "2026. 10. 7."
+  },
+  {
+   "logNo": "224425123484",
+   "제목": "토지보상 이의신청 방법, 공탁금 수령 전 꼭 확인할 사항",
+   "발행일": "2026. 10. 7."
+  },
+  {
+   "logNo": "224423521312",
+   "제목": "송도 아파트 시세, 2020년 신축 6·8공구가 2005년 구축과 같은 6억대입니다",
+   "발행일": "2026. 10. 6."
+  },
+  {
+   "logNo": "224422471172",
+   "제목": "초이IC, 하남 초이동은 역보다 도로가 먼저 열렸습니다",
+   "발행일": "2026. 10. 6."
+  },
+  {
+   "logNo": "224424095820",
+   "제목": "동탄 줍줍, 294만명 몰린 동탄역 롯데캐슬 84㎡에서 22억대 거래가 나왔습니다",
+   "발행일": "2026. 10. 6."
+  },
+  {
+   "logNo": "224431011121",
+   "제목": "GTX-A 삼성역 개통 언제? 동탄 아파트 17% 상승·운정 3% 하락",
+   "발행일": "2026. 10. 5."
+  },
+  {
+   "logNo": "224430981573",
+   "제목": "15억 이하 대출 한도, 10억 아래 집 무주택자는 그대로입니다",
+   "발행일": "2026. 10. 5."
+  },
+  {
+   "logNo": "224431553935",
+   "제목": "힐스테이트 금오 더퍼스트 임의공급, 84㎡ 5억 4,590만~5억 8,950만원은 같은 단지 5월 실거래 5억 3천보다 높고 계약 뒤 90일 안에 잔금 90%를 냅니다",
+   "발행일": "2026. 10. 5."
+  },
+  {
+   "logNo": "224431548418",
+   "제목": "더샵 분당센트로 줍줍, 5차 84㎡ 1가구에 104명이 넣었는데 6차에 또 나왔고 분양가 20억 5,900만원은 올해 구미동에서 가장 비싸게 팔린 84㎡보다 1억 2천 높습니다",
+   "발행일": "2026. 10. 5."
+  },
+  {
+   "logNo": "224431526825",
+   "제목": "충정로역 자이르네 줍줍, 84㎡ 35가구 중 21가구는 올해 중구에서 가장 비싸게 팔린 22억 9천만원보다 비싸고 강변역 줍줍과 같이 넣을 수 없습니다",
+   "발행일": "2026. 10. 5."
+  },
+  {
+   "logNo": "224417184079",
+   "제목": "경기도 아파트 실거래, 2022년에 산 사람 77.6%가 손해 보고 팔았습니다",
+   "발행일": "2026. 10. 4."
+  },
+  {
+   "logNo": "224431122476",
+   "제목": "고양 장항 아테라 줍줍, 84㎡ 6가구 분양가 6억대는 장항동 1994년 아파트 가격이고 고양 사는 무주택 세대주만 10월 7·8일에 넣습니다",
+   "발행일": "2026. 10. 4."
+  },
+  {
+   "logNo": "224423363985",
+   "제목": "임대 아파트 비율 17% 센트라스, 옆 텐즈힐보다 1억 5천만원 비쌉니다",
+   "발행일": "2026. 10. 4."
+  },
+  {
+   "logNo": "224430977217",
+   "제목": "서울 줍줍, 강변역 센트럴아이파크 84㎡ 12.2억 1가구는 옆 광진그랜드파크 21억의 58%이고 10월 6일 접수입니다",
+   "발행일": "2026. 10. 4."
+  },
+  {
+   "logNo": "224423155571",
+   "제목": "과천 로또 청약, 1순위 미달 써밋도 415대 1 라비엔오도 13억 올랐습니다",
+   "발행일": "2026. 10. 4."
+  },
+  {
+   "logNo": "224430648714",
+   "제목": "시흥정왕 공공주택지구 보상, 정왕동 123필지·11월 이후 보상협의",
+   "발행일": "2026. 10. 3."
+  },
+  {
+   "logNo": "224428872404",
+   "제목": "인천발 KTX 개통 연기, 송도역 옥련동 아파트는 1년 새 1.2% 내렸습니다",
+   "발행일": "2026. 10. 3."
+  },
+  {
+   "logNo": "224422576182",
+   "제목": "자기자본수익률 계산, 10년 기출 네 문제는 가격상승분을 넣어야 풀립니다",
+   "발행일": "2026. 10. 3."
+  },
+  {
+   "logNo": "224422635652",
+   "제목": "원리금균등상환 계산, 10년 기출 일곱 문제는 몇 회차인지만 맞히면 풀립니다",
+   "발행일": "2026. 10. 3."
+  },
+  {
+   "logNo": "224423346736",
+   "제목": "광명 아파트 시세, 철산주공 13단지 84㎡ 13억 9,392만원은 광명역 2018년 새 아파트보다 높습니다",
+   "발행일": "2026. 10. 3."
+  },
+  {
+   "logNo": "224423322072",
+   "제목": "줍줍 청약 조건, 민영 무순위는 1주택자도 안 됩니다",
+   "발행일": "2026. 10. 2."
+  },
+  {
+   "logNo": "224427576499",
+   "제목": "토지보상 이의신청, 30일보다 먼저 볼 건 이의유보입니다",
+   "발행일": "2026. 10. 2."
+  },
+  {
+   "logNo": "224427547691",
+   "제목": "하남 부동산 전망, 가격 17% 올랐고 다음 변수는 10월 신규택지 발표입니다",
+   "발행일": "2026. 10. 2."
+  },
+  {
+   "logNo": "224423110207",
+   "제목": "미사 감일 아파트 비교, 둘 다 분양가보다 10억 올랐는데 감일은 8년, 미사는 13년 걸렸습니다",
+   "발행일": "2026. 10. 1."
+  },
+  {
+   "logNo": "224425308314",
+   "제목": "그린벨트 해제, 후보지는 안 나왔는데 503㎢ 거래부터 묶였습니다",
+   "발행일": "2026. 10. 1."
+  },
+  {
+   "logNo": "224427544220",
+   "제목": "하남 집값, 올해 17% 올랐는데 5억 이하 집은 7%뿐입니다",
+   "발행일": "2026. 10. 1."
+  },
+  {
+   "logNo": "224426447098",
+   "제목": "분당 선도지구 3차, 2027년 1만 가구를 뽑고 2028~2030년 1만 5천 가구는 미리 정합니다",
+   "발행일": "2026. 9. 30."
+  },
+  {
+   "logNo": "224426361340",
+   "제목": "하남 교산신도시 청약 일정과 분양가, 첫 분양 5억 6,800만원 옆 아파트는 지금 10억 9천입니다",
+   "발행일": "2026. 9. 30."
+  },
+  {
+   "logNo": "224426412712",
+   "제목": "그린벨트 해제 후보지, 추가 7.3만호는 안 나왔는데 503㎢ 거래부터 묶였습니다",
+   "발행일": "2026. 9. 30."
+  },
+  {
+   "logNo": "224426423870",
+   "제목": "분당 재건축 2차 발표, 5곳 1만 3,429가구 선정인데 가장 많이 오른 효자촌은 빠졌습니다",
+   "발행일": "2026. 9. 29."
+  },
+  {
+   "logNo": "224422463981",
+   "제목": "초이동 개발 계획, 확정된 것은 교산 기업이전단지 하나이고 나머지는 건의 단계입니다",
+   "발행일": "2026. 9. 29."
+  },
+  {
+   "logNo": "224425144688",
+   "제목": "서울 5억대 아파트, 같은 5억 5천으로 금천은 85㎡ 송파는 32㎡입니다",
+   "발행일": "2026. 9. 29."
+  },
+  {
+   "logNo": "224425288775",
+   "제목": "하남 토지거래허가, 8월 13일 발표 뒤 닷새 동안 녹지 땅 계약이 44건이었습니다",
+   "발행일": "2026. 9. 29."
+  },
+  {
+   "logNo": "224422009186",
+   "제목": "운정 아파트 시세, GTX-A 개통 1년 반 만에 5.3% 낮아졌습니다",
+   "발행일": "2026. 9. 28."
+  },
+  {
+   "logNo": "224422338298",
+   "제목": "정비기반시설과 공동이용시설, 공원은 정비기반시설이고 놀이터는 공동이용시설입니다",
+   "발행일": "2026. 9. 28."
+  },
+  {
+   "logNo": "224422140276",
+   "제목": "평촌 아파트 시세, 2021년 하반기보다 선도지구는 16.3% 높고 나머지 구축은 4.5% 높습니다",
+   "발행일": "2026. 9. 28."
+  },
+  {
+   "logNo": "224422066734",
+   "제목": "일산 아파트 시세, 선도지구 단지는 버텼고 나머지는 5.1% 내렸습니다",
+   "발행일": "2026. 9. 27."
+  },
+  {
+   "logNo": "224422350601",
+   "제목": "토지등소유자 뜻, 재개발은 땅이나 건물 주인이고 재건축은 둘 다 가진 사람입니다",
+   "발행일": "2026. 9. 27."
+  },
+  {
+   "logNo": "224416484050",
+   "제목": "교산신도시, 선호도 1위인데 입주는 3기 신도시 중 꼴찌입니다",
+   "발행일": "2026. 9. 27."
+  },
+  {
+   "logNo": "224423406304",
+   "제목": "임대동 확인 방법, 서울 14개 단지에서 임대동 후보 옆 동은 싸지 않았습니다",
+   "발행일": "2026. 9. 26."
+  },
+  {
+   "logNo": "224423295333",
+   "제목": "구축 아파트 인테리어, 샷시·중문·결로부터 정해야 돈이 두 번 안 듭니다",
+   "발행일": "2026. 9. 26."
+  },
+  {
+   "logNo": "224417043722",
+   "제목": "양주 아파트 시세, GTX-C 오는 덕정동이 2021년보다 28.9% 낮습니다",
+   "발행일": "2026. 9. 26."
+  },
+  {
+   "logNo": "224422958913",
+   "제목": "인천계양 a6 청약, 84㎡ 7억은 계양 신축보다 1억 비싸고 대장보다 1억 쌉니다",
+   "발행일": "2026. 9. 26."
+  },
+  {
+   "logNo": "224422778105",
+   "제목": "동탄 광교 집값 비교, 둘 다 분양가 4억대였고 지금 19억인데 동탄은 8년 걸렸습니다",
+   "발행일": "2026. 9. 26."
+  },
+  {
+   "logNo": "224417170873",
+   "제목": "화성 아파트 시세, 거래 45%가 동탄2인데 회복률은 꼴찌입니다",
+   "발행일": "2026. 9. 25."
+  },
+  {
+   "logNo": "224422187601",
+   "제목": "정비사업 종류, 재건축과 재개발은 조합원이 되는 방법부터 다릅니다",
+   "발행일": "2026. 9. 25."
+  },
+  {
+   "logNo": "224421990760",
+   "제목": "분당 재건축 2차 유력, 선도지구 탈락 단지가 1년 반 만에 따라잡았습니다",
+   "발행일": "2026. 9. 25."
+  },
+  {
+   "logNo": "224416473291",
+   "제목": "3기 신도시 비교, 계양 대장 창릉 왕숙 교산, 항목별로 나란히 놓았습니다",
+   "발행일": "2026. 9. 24."
+  },
+  {
+   "logNo": "224416465303",
+   "제목": "하남 초이동 땅값, 같은 산인데 통째로 사면 100만원, 쪼개면 431만원입니다",
+   "발행일": "2026. 9. 24."
+  },
+  {
+   "logNo": "224417236360",
+   "제목": "개발밀도관리구역 뜻, 용적률 최대한도의 50%를 깎는 곳입니다",
+   "발행일": "2026. 9. 23."
+  },
+  {
+   "logNo": "224415206586",
+   "제목": "동북권 아파트 시세, 광진 낡은 집은 새 집과 같고, 동대문은 절반입니다",
+   "발행일": "2026. 9. 23."
+  },
+  {
+   "logNo": "224415218796",
+   "제목": "아파트 세대수, 1,000세대라서 비싼 게 아니라 브랜드라서 비쌌습니다",
+   "발행일": "2026. 9. 22."
+  },
+  {
+   "logNo": "224417206389",
+   "제목": "개발행위허가 제한, 3년에 2년을 더해 최장 5년입니다",
+   "발행일": "2026. 9. 22."
+  },
+  {
+   "logNo": "224415184061",
+   "제목": "화성국제테마파크, 착공 기한을 2년 넘겼고 배상금 120억원이 확정됐습니다",
+   "발행일": "2026. 9. 22."
+  },
+  {
+   "logNo": "224413658396",
+   "제목": "성장관리계획구역 건폐율, 50%에 용적률 125%까지 풀어줍니다",
+   "발행일": "2026. 9. 21."
+  },
+  {
+   "logNo": "224414054216",
+   "제목": "서울 원룸 월세, 보증금 4,000만원을 더 내면 어느 구나 월세 20만원이 줄었습니다",
+   "발행일": "2026. 9. 21."
+  },
+  {
+   "logNo": "224413642108",
+   "제목": "개발행위허가 기준, 다섯 가지이고 규모는 1만·3만·5천입니다",
+   "발행일": "2026. 9. 20."
+  },
+  {
+   "logNo": "224414230923",
+   "제목": "노도강 아파트 시세, 전세가율 67%인데 왜 아직 2021년 고점 아래일까",
+   "발행일": "2026. 9. 20."
+  },
+  {
+   "logNo": "224416816936",
+   "제목": "부동산학개론 계산문제, 36회는 11문제, 유형은 일곱 개뿐입니다",
+   "발행일": "2026. 9. 19."
+  },
+  {
+   "logNo": "224413837854",
+   "제목": "목동 재건축, 28.9억 9단지가 평당 꼴찌, 20.75억 4단지는 1위였습니다",
+   "발행일": "2026. 9. 19."
+  },
+  {
+   "logNo": "224413601591",
+   "제목": "개발행위허가, 변경허가는 경미한 변경만 신고합니다",
+   "발행일": "2026. 9. 18."
+  },
+  {
+   "logNo": "224410297285",
+   "제목": "마용성 아파트, 성동 18.06억이 용산 18.62억을 0.56억까지 좁혔습니다",
+   "발행일": "2026. 9. 18."
+  },
+  {
+   "logNo": "224410036610",
+   "제목": "지구단위계획 지정, 필수 지정은 두 가지만 외우면 됩니다",
+   "발행일": "2026. 9. 17."
+  },
+  {
+   "logNo": "224413735935",
+   "제목": "압구정 재건축, 84㎡가 196㎡보다 평당 36% 비싼 이유",
+   "발행일": "2026. 9. 17."
+  },
+  {
+   "logNo": "224413595031",
+   "제목": "동탄 규제, 두 달 만에 매매는 바로 멈췄고 전세는 천천히 움직였습니다",
+   "발행일": "2026. 9. 17."
+  },
+  {
+   "logNo": "224413688238",
+   "제목": "미국 기준금리, 3.50~3.75%에서 9개월째, 17일 새벽에 점도표가 나옵니다",
+   "발행일": "2026. 9. 16."
+  },
+  {
+   "logNo": "224413580367",
+   "제목": "동탄 전세, 호수권 갭 2.9억, 역권 3.8억, 7월 5일부터 구조가 바뀌었습니다",
+   "발행일": "2026. 9. 16."
+  },
+  {
+   "logNo": "224410258088",
+   "제목": "개발행위허가 대상, 다섯 가지뿐입니다",
+   "발행일": "2026. 9. 16."
+  },
+  {
+   "logNo": "224413536755",
+   "제목": "대치동 전세, 개포 입주 때는 내렸는데 은마 이주는 반대입니다",
+   "발행일": "2026. 9. 16."
+  },
+  {
+   "logNo": "224410235752",
+   "제목": "감일 힐스테이트 스타힐스 센트레빌 시세, 비슷한 새 아파트인데 왜 3.61억 차이날까",
+   "발행일": "2026. 9. 16."
+  },
+  {
+   "logNo": "224409575947",
+   "제목": "공인중개사 공법, 지정시행자는 3분의 2와 2분의 1을 채워야 합니다",
+   "발행일": "2026. 9. 15."
+  },
+  {
+   "logNo": "224412341795",
+   "제목": "은마아파트 재건축, 인가는 났는데 상가와 세입자가 남았습니다",
+   "발행일": "2026. 9. 15."
+  },
+  {
+   "logNo": "224409734321",
+   "제목": "강남 3구 아파트, 매매 29.4억인데 전세는 9.25억입니다",
+   "발행일": "2026. 9. 15."
+  },
+  {
+   "logNo": "224411802216",
+   "제목": "1기 신도시 재건축, 산본은 시공사를 뽑고, 분당 6.6만 가구는 순서를 기다립니다",
+   "발행일": "2026. 9. 15."
+  },
+  {
+   "logNo": "224411589685",
+   "제목": "창동 아파트 시세, 서울아레나 온다는데 2021년보다 3.2% 낮습니다",
+   "발행일": "2026. 9. 14."
+  },
+  {
+   "logNo": "224407725817",
+   "제목": "시가화조정구역 행위제한, 33㎡와 100㎡만 허가됩니다",
+   "발행일": "2026. 9. 14."
+  },
+  {
+   "logNo": "224409663188",
+   "제목": "동탄역 아파트 시세, 역 주변 13.9억, 외곽 7.1억, 회복 속도도 달랐습니다",
+   "발행일": "2026. 9. 14."
+  },
+  {
+   "logNo": "224409052077",
+   "제목": "종부세 기준, 내가 살면 20억, 전세 주면 9억으로 줄어듭니다",
+   "발행일": "2026. 9. 13."
+  },
+  {
+   "logNo": "224409353359",
+   "제목": "도시군계획시설, 20년과 10년만 외우면 됩니다",
+   "발행일": "2026. 9. 13."
+  },
+  {
+   "logNo": "224409921697",
+   "제목": "동탄 산척동, 반송동과 비교하니 2007년 구축이 2018년 신축을 넘어섰습니다",
+   "발행일": "2026. 9. 13."
+  },
+  {
+   "logNo": "224409413552",
+   "제목": "하남 K-스타월드, 70개 기업이 왔지만 공모기간이 연장됐습니다",
+   "발행일": "2026. 9. 13."
+  },
+  {
+   "logNo": "224409418404",
+   "제목": "도시계획시설 실효, 20년이 되는 날이 아니라 다음 날입니다",
+   "발행일": "2026. 9. 12."
+  },
+  {
+   "logNo": "224409105216",
+   "제목": "경기도 오피스텔, 전용 28평은 거래의 7.9%뿐입니다",
+   "발행일": "2026. 9. 12."
+  },
+  {
+   "logNo": "224404086943",
+   "제목": "지식산업센터 가격, 291㎡에서 60㎡로 작아졌는데 작을수록 손해였습니다",
+   "발행일": "2026. 9. 12."
+  },
+  {
+   "logNo": "224407704417",
+   "제목": "위례신도시, 하남시청 가려면 서울을 거쳐야 합니다",
+   "발행일": "2026. 9. 11."
+  },
+  {
+   "logNo": "224407723149",
+   "제목": "도시군관리계획 입안제안, 동의요건은 5분의 4와 3분의 2입니다",
+   "발행일": "2026. 9. 11."
+  },
+  {
+   "logNo": "224407752910",
+   "제목": "지식산업센터, 최근 3년 공실률 43.5%에 대책이 나왔습니다",
+   "발행일": "2026. 9. 11."
+  },
+  {
+   "logNo": "224407728195",
+   "제목": "도시계획 기초조사 생략 요건, 2%와 12미터가 기준입니다",
+   "발행일": "2026. 9. 11."
+  },
+  {
+   "logNo": "224402025001",
+   "제목": "금 투자, 금시세 3년치를 아파트 실거래와 나란히 놓았습니다",
+   "발행일": "2026. 9. 10."
+  },
+  {
+   "logNo": "224401861420",
+   "제목": "미사 아파트 시세, 퍼센트로는 같이 올랐는데 격차는 두 배가 됐습니다",
+   "발행일": "2026. 9. 10."
+  },
+  {
+   "logNo": "224401854235",
+   "제목": "경기도 아파트 시세, 31개 시군 84㎡ 가격을 한 줄로 세웠습니다",
+   "발행일": "2026. 9. 9."
+  },
+  {
+   "logNo": "224387854858",
+   "제목": "동탄 아파트, 삼성전자 주가는 4배 올랐는데 아파트 가격은 왜 6%일까",
+   "발행일": "2026. 9. 9."
+  },
+  {
+   "logNo": "224401817897",
+   "제목": "경기도 전세, 31개 시군 전세가율과 갭투자 필요 금액을 세웠습니다",
+   "발행일": "2026. 9. 8."
+  },
+  {
+   "logNo": "224395251884",
+   "제목": "용인 처인구 땅값, 부지 옆은 2~5배, 밖은 그대로입니다",
+   "발행일": "2026. 9. 8."
+  },
+  {
+   "logNo": "224394589041",
+   "제목": "용인 처인구 아파트 시세,  같은 산단 안인데 1위와 꼴찌가 함께 있습니다",
+   "발행일": "2026. 9. 7."
+  },
+  {
+   "logNo": "224387699365",
+   "제목": "부동산학개론 요약노트, 36회 40문항을 A4 세 장에 담았습니다",
+   "발행일": "2026. 9. 7."
+  },
+  {
+   "logNo": "224394543980",
+   "제목": "그린벨트 토지, 같은 그린벨트인데 6배 차이입니다",
+   "발행일": "2026. 9. 6."
+  },
+  {
+   "logNo": "224386659251",
+   "제목": "지식산업센터, 경기도는 광명만 거래가 늘었는데 가격은 반토막입니다",
+   "발행일": "2026. 9. 6."
+  },
+  {
+   "logNo": "224401883335",
+   "제목": "7호선 옥정 연장, 사업성 점수가 0.43에서 1.03까지 올랐습니다",
+   "발행일": "2026. 9. 5."
+  },
+  {
+   "logNo": "224401277281",
+   "제목": "서울 아파트 순위, 수익률로 재면 2017년 도봉구가 2021년 강남구보다 나았습니다",
+   "발행일": "2026. 9. 5."
+  },
+  {
+   "logNo": "224387435999",
+   "제목": "다산 아파트 시세, 별내 갈매와 비교하니 별내선 개통 2년에 2억 벌어졌습니다",
+   "발행일": "2026. 9. 5."
+  },
+  {
+   "logNo": "224386738180",
+   "제목": "9호선 미사 연장 노선도,  2031년 개통 가능할까요",
+   "발행일": "2026. 9. 4."
+  },
+  {
+   "logNo": "224394209728",
+   "제목": "고급 오피스텔, 9년 중 7년은 벌었습니다",
+   "발행일": "2026. 9. 3."
+  },
+  {
+   "logNo": "224381568145",
+   "제목": "부동산학개론 감정평가론 기출, 이름이 비슷한 여섯 방법에서 다 틀렸습니다 (36회)",
+   "발행일": "2026. 9. 2."
+  },
+  {
+   "logNo": "224397832357",
+   "제목": "오를까요 내릴까요, 예측을 그만두기로 했습니다",
+   "발행일": "2026. 9. 2."
+  },
+  {
+   "logNo": "224381460159",
+   "제목": "하남 교산신도시, 분양권은 언제부터인지 미사 4,133건으로 봤습니다",
+   "발행일": "2026. 9. 2."
+  },
+  {
+   "logNo": "224393474806",
+   "제목": "하남 9호선 연장, 지적받고 다시 세어보니 미사가 제일 적게 올랐습니다",
+   "발행일": "2026. 9. 1."
+  },
+  {
+   "logNo": "224390827296",
+   "제목": "구리 토평2 공공주택지구, 3기 신도시가 아닙니다, 그래서 다릅니다",
+   "발행일": "2026. 9. 1."
+  },
+  {
+   "logNo": "224387377168",
+   "제목": "감일스타힐스, 감일파크센트레빌과 4~7% 차이 나는 이유",
+   "발행일": "2026. 8. 31."
+  },
+  {
+   "logNo": "224381189036",
+   "제목": "하남 구축 아파트, 1994년 단지가 2006년 단지보다 1억 비쌉니다",
+   "발행일": "2026. 8. 31."
+  },
+  {
+   "logNo": "224387680189",
+   "제목": "민법 물권법 기출, 열두 문항 중 다섯 개를 틀렸습니다 (36회)",
+   "발행일": "2026. 8. 30."
+  },
+  {
+   "logNo": "224394470241",
+   "제목": "위례 아파트 시세, 송파가 하남보다 평당 33% 비쌉니다",
+   "발행일": "2026. 8. 30."
+  },
+  {
+   "logNo": "224387395754",
+   "제목": "부동산학개론 효율적 시장, 약성 준강성 강성 차이와 할당효율성",
+   "발행일": "2026. 8. 29."
+  },
+  {
+   "logNo": "224393784666",
+   "제목": "망월동 아파트, 역세권 신축 둘이 제일 적게 올랐습니다",
+   "발행일": "2026. 8. 29."
+  },
+  {
+   "logNo": "224387820020",
+   "제목": "동탄 아파트 시세, 호수를 보고 산 곳과 역을 보고 산 곳이 갈렸습니다",
+   "발행일": "2026. 8. 29."
+  },
+  {
+   "logNo": "224387757184",
+   "제목": "공인중개사 민사특별법 기출 | 여섯 문항 중 네 개를 틀렸습니다 (36회)",
+   "발행일": "2026. 8. 28."
+  },
+  {
+   "logNo": "224386457960",
+   "제목": "하남 지하철 노선도, 5호선 9호선 3호선 어디가 오를까",
+   "발행일": "2026. 8. 28."
+  },
+  {
+   "logNo": "224381048475",
+   "제목": "부동산학 개론 기출, 원금균등 vs 원리금균등 상환 방식 비교 (36회 32번)",
+   "발행일": "2026. 8. 27."
+  },
+  {
+   "logNo": "224381016272",
+   "제목": "공인중개사 부동산학개론 금융론 기출, 저당상수를 몰라 계산 두 문제를 틀렸습니다 (36회)",
+   "발행일": "2026. 8. 27."
+  },
+  {
+   "logNo": "224390742319",
+   "제목": "하남 GTX-D, 아직 확정 아닙니다, 지금은 계획 단계입니다",
+   "발행일": "2026. 8. 26."
+  },
+  {
+   "logNo": "224387737189",
+   "제목": "공인중개사 민법 계약법 기출 | 열 문항 중 세 개를 틀렸습니다 (36회)",
+   "발행일": "2026. 8. 26."
+  },
+  {
+   "logNo": "224386383560",
+   "제목": "하남 감북동 초이동 토지, 올해 들어 거래가 뒤집혔습니다",
+   "발행일": "2026. 8. 26."
+  },
+  {
+   "logNo": "224387344111",
+   "제목": "부동산학개론 토지의 특성, 부동성 부증성 영속성 개별성",
+   "발행일": "2026. 8. 25."
+  },
+  {
+   "logNo": "224380603429",
+   "제목": "하남 감일지구 아파트 평형별 시세 | 84㎡와 99㎡, 어느 쪽이 더 올랐나",
+   "발행일": "2026. 8. 25."
+  },
+  {
+   "logNo": "224380666261",
+   "제목": "부동산학개론 수요량과 공급량, 최대일까 최소일까 (공인중개사 36회)",
+   "발행일": "2026. 8. 24."
+  },
+  {
+   "logNo": "224387479639",
+   "제목": "하남 감북동 그린벨트 해제 | 땅값은 6배 올랐고 지분거래가 85%입니다",
+   "발행일": "2026. 8. 24."
+  },
+  {
+   "logNo": "224387960518",
+   "제목": "3호선 감일 연장,  101정거장은 단샘초 삼거리, 개통은 2032년입니다",
+   "발행일": "2026. 8. 24."
+  },
+  {
+   "logNo": "224387903951",
+   "제목": "종부세 개편안, 경기도에서 대상은 몇 채나 될까 (8월 23일 당정 논의 반영)",
+   "발행일": "2026. 8. 24."
+  },
+  {
+   "logNo": "224386114863",
+   "제목": "하남 오피스텔 시세, 소형만 값이 빠졌습니다",
+   "발행일": "2026. 8. 23."
+  },
+  {
+   "logNo": "224386843606",
+   "제목": "훼손지 정비사업, 그린벨트에 창고를 짓는 다른 방법",
+   "발행일": "2026. 8. 23."
+  },
+  {
+   "logNo": "224386181571",
+   "제목": "하남 그린벨트 해제, 감북동은 2010년에도 후보였습니다",
+   "발행일": "2026. 8. 22."
+  },
+  {
+   "logNo": "224383649942",
+   "제목": "하남 땅값, 아홉 권역에서 아파트는 2배, 땅은 15배 벌어집니다",
+   "발행일": "2026. 8. 22."
+  },
+  {
+   "logNo": "224380650666",
+   "제목": "부동산학개론 유량과 저량, 통화량은 왜 저량일까 (공인중개사 1차)",
+   "발행일": "2026. 8. 21."
+  },
+  {
+   "logNo": "224383525900",
+   "제목": "하남 아파트 시세, 67주 연속 상승이라는데 실거래로는 일곱 번 내렸습니다",
+   "발행일": "2026. 8. 20."
+  },
+  {
+   "logNo": "224380529482",
+   "제목": "하남 감일지구 아파트 시세, 반년 만에 2억 올랐는데 3호선 때문일까요",
+   "발행일": "2026. 8. 19."
+  },
+  {
+   "logNo": "224380473733",
+   "제목": "하남 미사 아파트 시세 비교, 20개 단지 점수를 가른 건 역까지 거리였습니다",
+   "발행일": "2026. 8. 17."
+  },
+  {
+   "logNo": "224380441191",
+   "제목": "부동산학개론 투자론 기출, 계산 셋이 다 틀렸습니다(36회)",
+   "발행일": "2026. 8. 16."
+  },
+  {
+   "logNo": "224379405608",
+   "제목": "부동산학개론 정책론 기출, 6문항 중 3개를 맞혔습니다 (36회)",
+   "발행일": "2026. 8. 15."
+  },
+  {
+   "logNo": "224377948847",
+   "제목": "부동산학개론 경제론 기출, 6문항 중 4개를 틀렸습니다 (36회)",
+   "발행일": "2026. 8. 14."
+  },
+  {
+   "logNo": "224377990326",
+   "제목": "부동산 데이터 분석, 답이 아니라 방법을 씁니다",
+   "발행일": "2026. 8. 14."
+  },
+  {
+   "logNo": "224375656790",
+   "제목": "부동산중개사 개론 기출문제부터 열었습니다",
+   "발행일": "2026. 8. 13."
+  },
+  {
+   "logNo": "224375632273",
+   "제목": "하남 아파트 시세 순위, 실거래 4만 건으로 단지 점수표를 만들었습니다",
+   "발행일": "2026. 8. 12."
+  },
+  {
+   "logNo": "224375585302",
+   "제목": "이제야 제 이름을 걸고 씁니다.",
+   "발행일": "2026. 8. 11."
+  },
+  {
+   "logNo": "224375656790",
+   "제목": "부동산중개사 개론 기출문제부터 열었습니다",
+   "발행일": "2026. 8. 13."
+  },
+  {
+   "logNo": "224375632273",
+   "제목": "하남 아파트 시세 순위, 실거래 4만 건으로 단지 점수표를 만들었습니다",
+   "발행일": "2026. 8. 12."
+  },
+  {
+   "logNo": "224375585302",
+   "제목": "이제야 제 이름을 걸고 씁니다.",
+   "발행일": "2026. 8. 11."
+  },
+  {
+   "logNo": "224375656790",
+   "제목": "부동산중개사 개론 기출문제부터 열었습니다",
+   "발행일": "2026. 8. 13."
+  },
+  {
+   "logNo": "224375632273",
+   "제목": "하남 아파트 시세 순위, 실거래 4만 건으로 단지 점수표를 만들었습니다",
+   "발행일": "2026. 8. 12."
+  },
+  {
+   "logNo": "224375585302",
+   "제목": "이제야 제 이름을 걸고 씁니다.",
+   "발행일": "2026. 8. 11."
+  },
+  {
+   "logNo": "224375656790",
+   "제목": "부동산중개사 개론 기출문제부터 열었습니다",
+   "발행일": "2026. 8. 13."
+  },
+  {
+   "logNo": "224375632273",
+   "제목": "하남 아파트 시세 순위, 실거래 4만 건으로 단지 점수표를 만들었습니다",
+   "발행일": "2026. 8. 12."
+  },
+  {
+   "logNo": "224375585302",
+   "제목": "이제야 제 이름을 걸고 씁니다.",
+   "발행일": "2026. 8. 11."
+  }
+ ]
+}

@@ -36,11 +36,11 @@ o.append(P('이름이 비슷해서 같이 찾는 분이 많습니다. 민간분�
 o.append(H('교산신도시 민간분양 분양가, 84㎡는 얼마일까요?'))
 o.append(P('하남일보와 하남 Times는 민간분양 단가를 3.3㎡당 2,000만~3,200만원으로 보도했습니다. 업계 전망입니다. 블록 위치와 건설사 이름에 따라 차이가 크다는 설명이 붙었습니다.'))
 o.append(P('84㎡ 아파트는 보통 34평형입니다. 34를 곱하면 가장 낮은 단가는 6억 8천만원, 가장 높은 단가는 10억 8,800만원입니다. 실제 분양가는 모집공고가 나와야 정해집니다.'))
-o.append(IMG('nangman_gyosan_minbun_1_price.png','교산신도시 민간분양 · 보도 단가를 84㎡로 바꿔 감일 실거래와 나란히'))
+o.append(IMG('nangman_gyosan_minbun_1_price_v2.png','교산신도시 민간분양 · 보도 단가를 84㎡로 바꿔 감일 실거래와 나란히'))
 o.append(VS(('교산 민간분양 84㎡','보도 단가 × 34평 (공고 전)',['평당 2,000만원 → 6억 8천만원','평당 3,200만원 → 10억 8,800만원','브랜드 · 블록마다 다름'],D),('감일 84㎡ 지금','2026년 1~10월 실거래',['매매 중앙값 14억 1,000만원','평당으로 바꾸면 약 4,150만원','새 세입자 전세 7억 2,000만원'],A)))
 o.append(P(f'감일 매매 중앙값을 34평으로 나누면 평당 약 4,150만원입니다. 보도된 민간분양 단가의 가장 높은 쪽보다 950만원 높습니다. 84㎡ 한 채로는 {HL("3억 2천만원 차이")}입니다.'))
 o.append(P('공공분양 단가 전망은 3.3㎡당 2,000만~2,200만원입니다. 첫 분양 A2는 59㎡ 이하만 있었습니다. 59㎡ 가장 높은 분양가가 5억 7,167만원이었습니다.'))
-o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">분양 받은 뒤 옵션 고를 때 → '+LK(C+'224456963914','입주박람회 장점 단점, 옵션 중문 121만원 vs 따로 달면 65만원')+'</span></td></tr></table>\n<p><br></p>\n')
+# 11/10 낭만 인테리어 링크 금지 — 뺌: o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">분양 받은 뒤 옵션 고를 때 → '+LK(C+'224456963914','입주박람회 장점 단점, 옵션 중문 121만원 vs 따로 달면 65만원')+'</span></td></tr></table>\n<p><br></p>\n')
 
 o.append(H('교산신도시 민간분양 청약, 공공분양과 무엇이 다른가요?'))
 o.append(P('뽑는 방식이 다릅니다. 공공분양 일반공급은 청약통장에 넣은 돈이 많은 순서로 뽑습니다. 민간분양은 가점제와 추첨제를 섞어 뽑습니다. 하남일보 보도 내용입니다.'))
