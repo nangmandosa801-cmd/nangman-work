@@ -15,7 +15,7 @@
     --top           유형별 후보 수(기본 20)
     --out           결과 JSON 파일(없으면 화면에)
 유형:
-  A 같은 단지 · 같은 면적 · 같은 달 · 층 차이 3층 안인데 다른 거래들 중앙값보다 2억 넘게(그리고 15% 넘게) 싼 거래
+  A 같은 단지 · 같은 면적 · 같은 달(견줄 거래가 2건이 안 되면 앞뒤 한 달) · 층 차이 3층 안인데 다른 거래들 중앙값보다 2억 넘게(그리고 15% 넘게) 싼 거래
     → 직거래 여부 · 해제 여부 · 층 · 견준 거래 수를 함께 적는다. 1~2층은 뺀다(저층 값 차이와 섞이지 않게).
   B 같은 날 · 같은 단지 · 같은 금액으로 3채 넘게 신고된 거래(해제 안 된 것)
   C 그때까지 그 단지 · 그 면적에서 가장 높은 값(신고가)으로 신고됐다가 해제된 거래가 몰린 단지
@@ -95,18 +95,23 @@ def pref_rank(sgg, prefer):
 
 
 def type_a(d, top, prefer, gap_min=20000, pct_min=0.15, floor_gap=3):
+    """같은 달에 견줄 중개거래가 2건 넘게 있으면 그 달끼리, 없으면 앞뒤 한 달까지 넓혀 견준다(견준범위에 적음)."""
     out = []
-    v = d[~d['해제']]
-    for (key, mk, ym), g in v.groupby(['key', '면k', '계약년월']):
+    v = d[~d['해제']].copy()
+    v['mi'] = v['계약년월'].str[:4].astype(int) * 12 + v['계약년월'].str[4:].astype(int)
+    for (key, mk), g in v.groupby(['key', '면k']):
         if len(g) < 3: continue
         for i, r in g.iterrows():
             if pd.isna(r['층n']) or r['층n'] <= 2: continue
             o = g.drop(i)
             o = o[(~o['직']) & ((o['층n'] - r['층n']).abs() <= floor_gap) & (o['층n'] > 2)]
+            same = o[o['mi'] == r['mi']]; rng = '같은 달'
+            if len(same) >= 2: o = same
+            else: o = o[(o['mi'] - r['mi']).abs() <= 1]; rng = '앞뒤 한 달'
             if len(o) < 2: continue
             med = float(o['금'].median()); gap = med - r['금']
             if gap >= gap_min and gap / med >= pct_min:
-                out.append({'시군구': r['시군구'], '단지': r['단지명'], '면적': mk, '계약월': ym, '싼거래': rec(r),
+                out.append({'시군구': r['시군구'], '단지': r['단지명'], '면적': int(mk), '계약월': r['계약년월'], '싼거래': rec(r), '견준범위': rng,
                             '견준거래수': int(len(o)), '견준중앙값': int(med), '견준최저': int(o['금'].min()), '견준층': sorted(o['층'].tolist(), key=int),
                             '차이': int(gap), '차이율': round(gap / med * 100, 1), '직거래': bool(r['직'])})
     out.sort(key=lambda x: (pref_rank(x['시군구'], prefer), -x['차이율']))
@@ -120,7 +125,7 @@ def type_b(d, top, prefer, n_min=3):
         if len(g) < n_min: continue
         r = g.iloc[0]
         out.append({'시군구': r['시군구'], '단지': r['단지명'], '계약일': day, '금액': int(amt), '채': int(len(g)),
-                    '면적': sorted({round(float(a), 2) for a in g['면']}), '층': sorted(g['층'].tolist(), key=lambda s: int(s) if s.lstrip('-').isdigit() else 0),
+                    '면적': sorted({round(float(a), 2) for a in g['면']}), '층': f"{int(g['층n'].min())}~{int(g['층n'].max())}층",
                     '직거래': int(g['직'].sum()), '건축년도': str(r.get('건축년도', ''))})
     out.sort(key=lambda x: (pref_rank(x['시군구'], prefer), -x['채'], -x['금액']))
     return out[:top], len(out)
