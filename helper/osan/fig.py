@@ -60,10 +60,3 @@ ax.text(3.1,4.3,'6~8월 계약 세입자',ha='center',fontsize=21,color=NAVY,fon
 fig.text(0.045,0.035,'2~4월 · 6~8월 신규 전세 중앙값 · 2년 뒤는 갱신요구권으로 5% 올린 금액 · 국토교통부 전월세 실거래',fontsize=15,color='#8A8578')
 fig.savefig('img/nangman_osan_jeonse_3_segyo.png'); plt.close()
 print('ok')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-cards3('img/nangman_osan_jeonse_1_osan_v2.png', '갱신은 5%, 새 세입자는 24% 높았습니다', [('+5%', '올해 갱신', False, '2년 전 금액보다'), ('+24%', '올해 새 세입자', True, '2년 전 금액보다'), ('9곳', '비교한 단지 · 면적', False, '오산 2024년 입주')], note='오산 2024년 입주 단지 · 단지별 숫자는 본문 표')
-bars('img/nangman_osan_jeonse_2_sido_v2.png', '같은 단지 같은 면적, 갱신과 신규 전세 차이', [('서울', 16231.0, '16,231만', False), ('부산', 9162.0, '9,162만', False), ('경기', 7399.0, '7,399만', True), ('대구', 4286.0, '4,286만', False), ('강원', 468.0, '468만', False)], note='전세 갱신요구권 · 2024년 입주 단지 259곳')
-print('v2 ok')

@@ -57,10 +57,3 @@ d.text((W/2,490),'2010년 이후 84㎡',font=kr(ser,64),fill='#F4F1EA',anchor='m
 d.text((W/2,600),'3곳 → 23곳',font=kr(ser,84),fill='#D4B04C',anchor='mm')
 d.text((W/2,712),'6억대보다 1억 더 쓰면 · 2026년 실거래',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_seoul7eok_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_seoul7eok_1_year_v2.png', '1억 더 쓰면 2010년 이후 84㎡가 3곳에서 23곳', [('6억대|2010년 이후 지은 84㎡', 3, '3곳', False), ('7억대|2010년 이후 지은 84㎡', 23, '23곳', True)], note='서울 84㎡ 매매 중앙값 6억대 · 7억대 단지')
-cards3('img/nangman_seoul7eok_2_three_v2.png', '서울 2010년대 84㎡ · 서울 새 59㎡ · 경기 새 84㎡', [('7억 8,000만', '서울 2010년대 84㎡', True, '천왕연지타운2단지 2014'), ('7억 8,200만', '서울 새 59㎡', False, 'e편한세상독산더타워 2019'), ('7억 9,000만', '경기 새 84㎡', False, '수원 하늘채더퍼스트1단지 2022')], note='같은 7억대로 고를 수 있는 세 가지 · 단지 목록은 본문 표')
-print('v2 ok')

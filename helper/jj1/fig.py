@@ -40,9 +40,3 @@ d.text((W/2,500),'옆 단지보다 싼 곳은',font=kr(ser,64),fill='#F4F1EA',an
 d.text((W/2,590),'수원 한 곳',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,700),'분당 · 화서역 · 숭의역 · 수원 당수',font=kr(san,36),fill='#D4B04C',anchor='mm')
 im.save('img/nangman_jupjup1102_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-cards3('img/nangman_jupjup1102_1_compare_v2.png', '옆 새 아파트보다 싼 곳은 수원 한 곳', [('7.1억~8억', '엘리프 한신더휴 수원 84㎡', True, '무순위 분양가'), ('9.4억', '호반써밋 수원 (2017)', False, '옆 단지 실거래'), ('4곳 중 1곳', '옆 새 아파트보다 싼 곳', False, '')], note='11월 2일 무순위 4곳 · 분양가와 옆 단지 실거래')
-print('v2 ok')

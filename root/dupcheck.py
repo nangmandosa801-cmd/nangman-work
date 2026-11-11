@@ -37,7 +37,7 @@ else:
     print('겹치는 쌍',len(seen))
 # 이미 쓴 업체 사례 번호
 used={}
-for f in glob.glob('/home/claude/int/*.py'):
+for f in glob.glob('/home/claude/int/**/*.py',recursive=True):
     s=open(f,errors='ignore').read()
     for n in set(re.findall(r"22[34]\d{9}",s)):
         if n not in {p[0] for p in P}: used.setdefault(n,set()).add(os.path.basename(f))
