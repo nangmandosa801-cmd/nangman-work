@@ -10,7 +10,9 @@ for k,v in u.items():
     if 'PENDING' in v:
         f=glob.glob(f'img/*_{k}.png')[0]
         r=subprocess.run(['python3','/home/claude/helper/gas.py','image',f],capture_output=True,text=True)
-        url=r.stdout.strip().split()[-1] if r.returncode==0 and r.stdout.strip() else ''
+        try:
+            j=json.loads(r.stdout); url=j if isinstance(j,str) else (j.get('url') or j.get('lh3') or next((x for x in j.values() if isinstance(x,str) and x.startswith('http')),''))
+        except Exception: url=''
         if not url.startswith('http'): sys.exit('gas image 실패: '+r.stderr[-200:])
         u[k]=url
 json.dump(u,open('urls.json','w'),ensure_ascii=False,indent=1)
