@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'junggye_school')
 TITLE='중계동 아파트 시세, 을지초 배정 청구3차 84㎡ 13억 6,000만'
 N='https://blog.naver.com/dong_jin_kim/'; C='https://blog.naver.com/champion_chart/'
 def FAQ(head,items):

@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'hakgun_ep1')
 TITLE='학군지 아파트, 2021 고점 대비 덜 빠진 곳은 넷 중 둘'
 N='https://blog.naver.com/dong_jin_kim/'; C='https://blog.naver.com/champion_chart/'
 def FAQ(head,items):

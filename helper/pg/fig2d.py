@@ -53,3 +53,13 @@ if __name__ == '__main__':
            [('144.2', '강남구 84㎡', True, '2021년 = 100'), ('4곳', '2021년 고점 못 넘긴 구', False), ('5.0배', '강남 · 도봉 84㎡ 차이', False)],
            note='서울 25개 구 · 84㎡ 매매 중앙값')
     print('ok')
+
+
+def table(out, headline, header, rows, hl=None, note=None, widths=None):
+    """본문 표 → 그림(행 8개까지 · 좌우 꽉 차게). hl = 강조 행 번호 목록."""
+    return _v.table(headline, header, rows, out, hl=hl, note=note, widths=widths)
+
+
+def one(out, headline, line, note=None):
+    """「이것만 보세요」 카드 — 써먹을 한 가지 한 줄."""
+    return _v.one(headline, line, out, note=note)

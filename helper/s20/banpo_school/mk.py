@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'banpo_school')
 TITLE='반포 아파트 시세, 래미안원베일리 84㎡ 58억 7,500에 전세는 21억'
 N='https://blog.naver.com/dong_jin_kim/'; C='https://blog.naver.com/champion_chart/'
 B124='「디에이치 반포124 청약일정」'

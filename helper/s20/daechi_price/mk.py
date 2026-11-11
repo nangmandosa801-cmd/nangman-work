@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'daechi_price')
 TITLE='대치동 아파트 시세, 84㎡ 매매 중앙값 37억'
 N='https://blog.naver.com/dong_jin_kim/'; C='https://blog.naver.com/champion_chart/'
 def FAQ(head,items):

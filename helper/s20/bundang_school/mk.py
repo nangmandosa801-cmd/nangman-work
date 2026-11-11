@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'bundang_school')
 import json
 J=json.load(open('ana.json'))
 TITLE='분당 아파트 시세, 소형 평당 1억 1,100만은 큰 평형의 2배'

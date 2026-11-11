@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'mokdong_school')
 TITLE='목동 아파트 시세, 앞단지 뒷단지 차이 1억 8,500만'
 N='https://blog.naver.com/dong_jin_kim/'; C='https://blog.naver.com/champion_chart/'
 MJ='「목동 전세 시세, 84㎡ 새 세입자 7억 5천」'

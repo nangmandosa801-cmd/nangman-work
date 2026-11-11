@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'detective_01')
 TITLE='하남 부영아파트 매매, 9월 두 건 차이가 2억 9천'
 N='https://blog.naver.com/dong_jin_kim/'
 def FAQ(head,items):

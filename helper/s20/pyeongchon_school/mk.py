@@ -1,5 +1,6 @@
 from kit import *
 from tails import interview,related,platform,side,tags,save
+import sys as _s; _s.path.insert(0,'/home/claude/helper/pg'); import tabimg; TABLE=tabimg.wrap(TABLE,IMG,'pyeongchon_school')
 TITLE='평촌 학원가 아파트, 같은 현대홈타운인데 차이 6억 8,500만'
 N='https://blog.naver.com/dong_jin_kim/'; C='https://blog.naver.com/champion_chart/'
 SD='「평촌 재건축 선도지구, 시행자 고시 뒤 꿈마을 거래 13건」'
