@@ -5,3 +5,11 @@
 4. 글 끝(인터뷰 상자 앞) 「연재 순서」 표 17화(자기 화 굵게, 지난 화는 제목 글자만: 1화 「학군지 아파트, 2021 고점 대비 덜 빠진 곳은 넷 중 둘」 · 2화 「대치동 아파트 시세, 84㎡ 매매 중앙값 37억」 · 3화 「목동 아파트 시세, 앞단지 뒷단지 차이 1억 8,500만」 · 4화 「반포 아파트 시세, 래미안원베일리 84㎡ 58억 7,500에 전세는 21억」, 그 뒤 화는 예정 글자) + 「다음 화는 12월 ○일, …」. 전체 순서와 날짜는 BRIEF_1105_add.md 의 17화 줄(12/12 1화 … 매일 11:00).
 5. 만들기: fig.py → `python3 /home/claude/helper/gas.py image <png>` → urls.json → mk.py(TITLE=) → `python3 /home/claude/helper/make_helper.py . --skip-fig` 금지어 0 → `python3 /home/claude/tools/postkit/html2aside.py <폴더> nangman_<slug> --up` 와 `python3 /home/claude/tools/postkit/html2aside_html.py <폴더> nangman_<slug> --up` → 만화_콘티.md(6컷+7컷 링크 카드, 본보기 그대로) → `bash /home/claude/nangman-work/sync.sh`. 지시 파일은 만들지 않는다(주 대화가 만든다).
 6. 쉬운 말 · 2,000자 넘게 · 지어내지 않기 · 매물 광고 없음 · 연락처는 kit 의 것만 · 본문 2,000자 넘게. 끝나면 JSON 몇 줄만: slug · 제목 · 금지어 · 드라이브(html txt 사진 수) · 못 한 것.
+
+# 11/12 추가 규칙 (9~17화 · 위 내용보다 우선)
+- 본보기 폴더는 /home/claude/helper/s20/gwanggyo_school (8화). tails.py 는 /home/claude/helper/pg/tails.py 최신판(낭만 인테리어 상자 · 링크 없음). mk.py 에 champion_chart 링크 · #낭만인테리어 태그를 쓰지 않는다.
+- 그림: /home/claude/helper/pg/fig2d.py(bars · cards3 — /home/claude/tools/tistory/viz2d.py 를 부름)만 쓴다. 3D · 겹침 · 장식 금지, 2D 막대 최대 5개 + 막대 위 숫자 + 강조 1개만 파랑 + 그림 맨 위 결론 한 줄. 비교가 5개 넘으면 본문 표 + 숫자 카드 3개. 선 그래프 쓰지 않는다. 글마다 그림 2장 + thumb(썸네일은 본보기 fig.py 의 thumb 방식 그대로).
+- 글: 첫 문장은 뜻밖의 사실 하나(숫자). 「그래서 집 사려는 · 전세 구하는 사람에게 무슨 일인가」를 먼저. 숫자는 한 문단에 하나, 비교는 둘만 짝으로. 끝은 요약 대신 써먹을 한 가지. 제도 · 학군 소개 나열 문단은 쓰지 않는다. 본문 2,000~3,000자. 제목은 「자동완성 검색어, 숫자 하나」 한 줄(괄호 · 가운뎃점 나열 없음).
+- 지방 · 인천 · 경기 실거래: rt.molit 에서 받는다. 본보기 스크립트 /home/claude/rtn/dl_bundang.py · dl_gtx.py (sidoNm · srhSidoCd · sggNm · srhSggCd 는 rt.molit 시군구 목록에서 실측 확인). 매매 2021~2026(1~10월), 전월세 2024~2026 을 /home/claude/rtn/rawG/ 에 받고 pkl 은 /home/claude/rtn/ (저장소 밖). 2025 · 2026 이 /home/claude/rtn/M2025.pkl · M2026.pkl · R2026.pkl 에 그 지역 행으로 이미 있으면 그것을 쓴다(없으면 받는다).
+- 연재 순서 표의 지난 화 제목: 5화 「중계동 아파트 시세, 을지초 배정 청구3차 84㎡ 13억 6,000만」 · 6화 「분당 아파트 시세, 소형 평당 1억 1,100만은 큰 평형의 2배」 · 7화 「평촌 학원가 아파트, 같은 현대홈타운인데 차이 6억 8,500만」 · 8화 「광교 자연앤힐스테이트, 84㎡ 18억 7천은 2021년보다 23% 위」. 9화 뒤 화는 「예정」 글자.
+- 여러 에이전트가 동시에 돈다: 자기 폴더와 자기 지역 파일만 건드리고, sync.sh 가 충돌하면 30초 뒤 한 번 더.

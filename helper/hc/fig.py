@@ -44,3 +44,10 @@ d.text((W/2,450),'그랜드센텀 잔금',font=kr(ser,74),fill='#F4F1EA',anchor=
 d.text((W/2,580),'전세 3억이면 1억 4천',font=kr(ser,58),fill='#F4F1EA',anchor='mm')
 d.text((W/2,700),'입주 날 필요한 돈 계산서',font=kr(san,36),fill='#D4B04C',anchor='mm')
 im.save('img/nangman_hoecheon_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_hoecheon_1_jangeum_v2.png', '입주 날 갚고 낼 돈 4억 3,740만원', [('중도금 대출 상환', 29160, '2억 9,160만', False), ('잔금', 14580, '1억 4,580만', False), ('전세 보증금|받는 돈', 30000, '3억', False), ('내 돈|전세 3억일 때', 13740, '1억 3,740만', True)], note='회천중앙역 로제비앙 그랜드센텀 84㎡ · 입주 날 필요한 돈')
+bars('img/nangman_hoecheon_2_price_v2.png', '분양가가 옆 새 아파트 매매값과 같은 4억 후반', [('회천중앙역 로제비앙 그랜드센텀 분양가', 4.86, '4.86억', True), ('양주회천신도시디에트르센트럴시티|2022', 5.13, '5.13억', False), ('회천대광로제비앙더센트럴|2023', 4.79, '4.79억', False), ('회천파밀리에더퍼스트|2024', 4.705, '4.71억', False), ('회천베네스트하우스|2023', 4.6, '4.6억', False)], note='회천중앙역 로제비앙 그랜드센텀 · 84㎡ 분양가와 옆 회천 새 아파트 84㎡ 올해 매매')
+print('v2 ok')

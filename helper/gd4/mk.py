@@ -18,7 +18,7 @@ o.append(TABLE(['주택형','세대'],rows,["50%","50%"],hl=[0,5]))
 o.append(P('84㎡가 770세대로 전체의 73%입니다. 110㎡도 278세대나 됩니다. 검단 새 아파트는 84㎡ 위주라 110㎡ 물건은 많지 않습니다. 그래서 아래 숫자는 84㎡와 110㎡를 따로 모았습니다.'))
 o.append(NOTE('자료: 비즈워치 · 머니투데이방송(2023년 11월 29일) 분양 보도의 블록 · 세대 · 주택형 · 분양가 · 입주 시기 · 위키트리(2026년 9월 14일) 무순위 공급 보도의 위치 · 동 수 · 층수 · 110㎡B 분양가'))
 o.append(P('사전점검 날에는 하자만 보지 않습니다. 현관 폭과 높이를 재 두면 중문을 입주 전에 달 수 있습니다. 창틀 레일 · 서랍 레일 · 욕실 유리를 사진으로 남기면 입주청소 범위를 미리 맞출 수 있습니다.'))
-o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">검단 새 아파트 입주청소, 먼지가 남는 곳 → '+LK(C+'224442911876','검단 입주청소, 10월 신검단중앙역 센트레빌과 풍경채 어바니티 1,834세대가 들어가고 분진은 서랍 레일과 창틀 레일에 남습니다')+'</span></td></tr></table>\n<p><br></p>\n')
+# 11/10 낭만 인테리어 링크 금지 — 뺌: o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">검단 새 아파트 입주청소, 먼지가 남는 곳 → '+LK(C+'224442911876','검단 입주청소, 10월 신검단중앙역 센트레빌과 풍경채 어바니티 1,834세대가 들어가고 분진은 서랍 레일과 창틀 레일에 남습니다')+'</span></td></tr></table>\n<p><br></p>\n')
 
 o.append(H('검단 제일풍경채 4차 전세, 올해 입주한 옆 단지는 얼마였나요?'))
 o.append(P('올해 검단에는 새 아파트 5곳이 먼저 들어왔습니다. 84㎡ 월세 없는 전세 중앙값은 3억원부터 4억 3,000만원까지였습니다. 같은 해 입주인데 1억 3,000만원 차이가 납니다.'))

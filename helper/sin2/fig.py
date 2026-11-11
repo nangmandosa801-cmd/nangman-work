@@ -51,3 +51,9 @@ ax.set_xlim(0,1); ax.set_ylim(-0.1,4)
 fig.text(0.045,0.035,'공동주택관리법 시행령 별표 4 하자담보책임기간 · 공용부분은 사용검사일부터',fontsize=15,color='#8A8578')
 fig.savefig('img/nangman_sinchuk2_4_haja.png'); plt.close()
 print('ok')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_sinchuk2_3_sido_v2.png', '새 세입자 비중, 대구 82% · 서울 40%', [('대구', 82.0, '82%', False), ('강원', 77.0, '77%', False), ('인천', 57.0, '57%', False), ('서울', 40.0, '40%', True), ('전북', 23.0, '23%', False)], note='신축아파트 2년후 · 2024년에 지은 아파트 · 2026년 계약')
+print('v2 ok')
