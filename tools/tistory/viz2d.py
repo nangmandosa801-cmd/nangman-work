@@ -255,7 +255,8 @@ def table(head, header, rows, path, hl=None, note=None, widths=None):
         if on: dr.rectangle([X0 * S, y * S, (X0 + TW) * S, (y + rh) * S], fill=CARD)
         for j, l in enumerate(ls):
             col = (ACC if on else INK) if j == 0 else INK
-            if j == 0: _lines(dr, xs[j] + 16, y + 15, l, f, bs, col, 1.32, 'lt')
+            num = bool(_re.match(r'^[\d+\-−~.,]', rows[i][j])) or rows[i][j] in ('-', '—')
+            if j == 0 or not num: _lines(dr, xs[j] + 16, y + 15, l, f, bs, col, 1.32, 'lt')
             else: _lines(dr, xs[j] + cw[j] - 16, y + 15, l, f, bs, col, 1.32, 'rt')
         y += rh
         dr.line([X0 * S, y * S, (X0 + TW) * S, y * S], fill=LINE, width=2 * S)
