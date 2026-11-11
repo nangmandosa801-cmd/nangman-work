@@ -71,3 +71,16 @@ json.dump(J, open('ana.json', 'w'), ensure_ascii=False, indent=1, default=str)
 print(json.dumps({k: v for k, v in J.items() if k not in ('cand', 'by_dong', 'by_area')}, ensure_ascii=False))
 for c in J['cand']: print(c)
 print(json.dumps(J['by_area'], ensure_ascii=False)[:1500])
+# 상반기 · 하반기 안 쓴 계약 · 쓴 계약 비율
+for lab, a, z in (('m1_4', '202601', '202604'), ('m5_11', '202605', '202611')):
+    x = j[(j['계약년월'].astype(str) >= a) & (j['계약년월'].astype(str) <= z)]
+    J[lab] = {'n': int(len(x)), 'use_share': round(x['쓴'].mean() * 100, 1), 'nouse': st(x[~x['쓴']])}
+# 위례롯데캐슬 84.98 2026 전체
+w = j[j['k'] == '경기도 하남시 학암동|위례롯데캐슬|85']; wn = n[n['k'] == '경기도 하남시 학암동|위례롯데캐슬|85']
+J['wirye'] = {'use': st(w[w['쓴']]), 'nouse': st(w[~w['쓴']]), 'new_n': int(len(wn)), 'new_med': int(wn['보증금(만원)'].median()),
+              'new_oct_med': int(wn[wn['계약년월'].astype(str) == '202610']['보증금(만원)'].median()), 'new_oct_n': int((wn['계약년월'].astype(str) == '202610').sum())}
+json.dump(J, open('ana.json', 'w'), ensure_ascii=False, indent=1, default=str)
+print(J['m1_4']['n'], J['m1_4']['use_share'], J['m1_4']['nouse']['med_pct'], J['m1_4']['nouse']['over5_pct'])
+print(J['m5_11']['n'], J['m5_11']['use_share'], J['m5_11']['nouse']['med_pct'], J['m5_11']['nouse']['over5_pct'])
+print(json.dumps(J['wirye'], ensure_ascii=False))
+print(json.dumps(J['by_area']['84㎡ 안팎']['nouse'], ensure_ascii=False))

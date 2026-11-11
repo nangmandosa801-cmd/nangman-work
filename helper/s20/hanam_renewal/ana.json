@@ -633,5 +633,95 @@
    "new_med": 68500,
    "new_n": 12
   }
- ]
+ ],
+ "m1_4": {
+  "n": 1033,
+  "use_share": 64.1,
+  "nouse": {
+   "n": 371,
+   "med_pct": 5.45,
+   "mean_pct": 10.79,
+   "med_won": 3500,
+   "up": 329,
+   "same": 39,
+   "down": 3,
+   "over5": 193,
+   "eq5": 136,
+   "over10": 137,
+   "over20": 63,
+   "up_pct": 88.7,
+   "same_pct": 10.5,
+   "down_pct": 0.8,
+   "over5_pct": 52.0,
+   "med_old": 51000,
+   "med_new": 57750
+  }
+ },
+ "m5_11": {
+  "n": 1404,
+  "use_share": 65.8,
+  "nouse": {
+   "n": 480,
+   "med_pct": 9.09,
+   "mean_pct": 14.35,
+   "med_won": 5000,
+   "up": 420,
+   "same": 57,
+   "down": 3,
+   "over5": 271,
+   "eq5": 149,
+   "over10": 230,
+   "over20": 130,
+   "up_pct": 87.5,
+   "same_pct": 11.9,
+   "down_pct": 0.6,
+   "over5_pct": 56.5,
+   "med_old": 51000,
+   "med_new": 60000
+  }
+ },
+ "wirye": {
+  "use": {
+   "n": 42,
+   "med_pct": 5.0,
+   "mean_pct": 4.62,
+   "med_won": 3000,
+   "up": 40,
+   "same": 2,
+   "down": 0,
+   "over5": 0,
+   "eq5": 40,
+   "over10": 0,
+   "over20": 0,
+   "up_pct": 95.2,
+   "same_pct": 4.8,
+   "down_pct": 0.0,
+   "over5_pct": 0.0,
+   "med_old": 62000,
+   "med_new": 64025
+  },
+  "nouse": {
+   "n": 27,
+   "med_pct": 12.31,
+   "mean_pct": 13.67,
+   "med_won": 8000,
+   "up": 27,
+   "same": 0,
+   "down": 0,
+   "over5": 22,
+   "eq5": 5,
+   "over10": 16,
+   "over20": 4,
+   "up_pct": 100.0,
+   "same_pct": 0.0,
+   "down_pct": 0.0,
+   "over5_pct": 81.5,
+   "med_old": 64000,
+   "med_new": 73000
+  },
+  "new_n": 55,
+  "new_med": 77000,
+  "new_oct_med": 80000,
+  "new_oct_n": 3
+ }
 }
