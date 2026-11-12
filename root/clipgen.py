@@ -4,7 +4,7 @@ from PIL import Image
 import os, re
 Y=(240,190,40); WH=(255,255,255); CREAM=(255,243,196); PALE=(210,220,235)
 BRAND={'nm':('낭만 부동산 분석 플랫폼','blog.naver.com/dong_jin_kim','#낭만부동산'),
-       'int':('낭만 인테리어','010-7678-9967','#낭만인테리어'),
+       'int':('낭만 인테리어','010-2882-8165','#낭만인테리어'),
        'js':('지산드림','blog.naver.com/jisandream01','#지산드림')}
 def foot(d,b,c=SAND): ctext(d,1830,BRAND[b][0],F(40,False),c)
 def fit(d,t,size,maxw=940):

@@ -43,3 +43,9 @@ d.text((W/2,495),'300만원 넘으면',font=kr(ser,70),fill='#F4F1EA',anchor='mm
 d.text((W/2,610),'6월까지 나눠 냄',font=kr(ser,86),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'납부는 12월 15일 · 이자 없음',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_jongbuse_napbu_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_jongbuse_napbu_1_bunnap_v2.png', '300만원 넘는 부분은 6월 15일까지 미뤄 냅니다', [('고지서 250만원', 0, '0원', False), ('고지서 400만원', 100, '100만원', False), ('고지서 600만원', 300, '300만원', True), ('고지서 800만원', 400, '400만원', False), ('고지서 1,200만원', 600, '600만원', False)], note='이듬해 6월 15일까지 미뤄 낼 수 있는 돈 · 가장 많이 미룰 때')
+print('v2 ok')

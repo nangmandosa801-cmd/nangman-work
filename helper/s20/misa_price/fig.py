@@ -60,3 +60,10 @@ d.text((W/2,500),'84㎡ 1년 새',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,605),'10억 → 12억',font=kr(ser,88),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'망월동 · 풍산동 · 선동 1~10월 중앙값',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_misa_price_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_misa_price_1_pairs_v2.png', '다섯 짝 중 세 짝은 미사역에서 먼 단지가 더 올랐습니다', [('미사강변브라운스톤|역까지 380m', 12.4, '+12.4%', False), ('미사강변동일하이빌|역까지 942m', 22.7, '+22.7%', False), ('미사강변효성해링턴플레이스|역까지 539m', 10.8, '+10.8%', False), ('미사강변더샵센트럴포레|역까지 1,170m', 23.6, '+23.6%', True)], note='미사 아파트 시세 · 같은 해 지은 84㎡ 단지 짝, 1년 전보다 오른 비율')
+cards3('img/nangman_misa_price_2_dist_v2.png', '역 700m 안 두 단지는 11~12% 오르는 데 그쳤습니다', [('+10.8%', '미사역까지 539m', True, ''), ('+12.4%', '미사역까지 380m', False, ''), ('+27.4%', '미사역까지 691m', False, '700m 안에서 가장 많이 오른 단지')], note='미사 84㎡ 1년 상승률 · 20개 단지 중 역 700m 안')
+print('v2 ok')

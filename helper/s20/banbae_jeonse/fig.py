@@ -53,3 +53,10 @@ d.text((W/2,500),'옆 방배그랑자이 84㎡',font=kr(ser,60),fill='#F4F1EA',a
 d.text((W/2,610),'14억 1,500만',font=kr(ser,84),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'3,064세대 · 9월 1일 입주 시작',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_banbae_jeonse_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_banbae_jeonse_1_near_v2.png', '방배그랑자이 84㎡ 14억 1,500만원', [('방배그랑자이 84㎡|2021년 · 8건', 141500.0, '14억 1,500만', True), ('방배동 2018년 이후 아파트 84㎡|18건', 129500.0, '12억 9,500만', False), ('방배 서리풀 그랑블 84㎡|2019년 · 8건', 109500.0, '10억 9,500만', False), ('방배동 아파트 전체 84㎡|131건', 92000.0, '9억 2,000만', False)], note='디에이치 방배 전세 · 옆 방배동 단지 84㎡ 새 세입자 전세 중앙값')
+bars('img/nangman_banbae_jeonse_2_period_v2.png', '입주 뒤 석 달, 옆 단지 전세는 10억', [('1~6월|73건', 94000.0, '9억 4,000만', False), ('7~8월|29건', 90000.0, '9억', False), ('9월~11월 5일|29건', 100000.0, '10억', True)], note='디에이치 방배 입주 시작(9월 1일) 앞뒤 · 방배동 아파트 84㎡ 새 세입자 전세 중앙값')
+print('v2 ok')

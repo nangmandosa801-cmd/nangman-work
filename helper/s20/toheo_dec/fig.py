@@ -53,3 +53,10 @@ d.text((W/2,480),'84㎡ 9월 거래',font=kr(ser,60),fill='#F4F1EA',anchor='mm')
 d.text((W/2,610),'1,819 → 598건',font=kr(ser,100),fill='#D4B04C',anchor='mm')
 d.text((W/2,718),'같은 단지 값은 1년 새 21% 올랐습니다',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_toheo_dec_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_toheo_dec_1_count_v2.png', '묶인 12곳 9월 거래 598건, 1년 전 1,819건의 3분의 1', [('2025년 9월|지정 직전', 1819, '1,819건', False), ('2026년 9월|만료 석 달 앞', 598, '598건', True)], note='경기 토지거래허가구역 12곳 · 84㎡ 한 달 거래')
+bars('img/nangman_toheo_dec_2_region_v2.png', '분당은 213건에서 33건, 수원 장안은 71건에서 68건', [('분당|2025년 9월', 213.0, '213건', False), ('분당|2026년 9월', 33.0, '33건', True), ('수원 장안|2025년 9월', 71.0, '71건', False), ('수원 장안|2026년 9월', 68.0, '68건', False)], note='경기도 토지거래허가구역 12곳 · 84㎡ 9월 거래 건수')
+print('v2 ok')

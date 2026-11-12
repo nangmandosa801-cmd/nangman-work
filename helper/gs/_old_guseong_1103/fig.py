@@ -46,3 +46,10 @@ d.text((W/2,465),'84㎡ 분양가',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,590),'8억 5,210만',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,712),'마북동 84㎡ 올해 중앙값 7억 2,600만',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_guseong_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_guseong_1_price_v2.png', '84㎡ 8억 5,210만, 마북동 중앙값보다 1억 2,610만 높다', [('e편한세상 구성역 플랫폼시티|2024년 · 마북동', 147500.0, '14억 7,500만', False), ('보정동 84㎡|199건', 95800.0, '9억 5,800만', False), ('중앙하이츠 구성 플랫폼시티 84㎡ 분양가', 85210.0, '8억 5,210만', True), ('마북동 84㎡|294건', 72600.0, '7억 2,600만', False), ('청덕동 84㎡|82건', 41250.0, '4억 1,250만', False)], note='중앙하이츠 구성 플랫폼시티 분양가 · 구성역 주변 84㎡ 올해 매매 중앙값과 나란히')
+bars('img/nangman_guseong_2_count_v2.png', '7월 5일 토지거래허가 뒤 한 달 39~58건', [('6월', 293.0, '293건', False), ('7월', 41.0, '41건', True), ('8월', 55.0, '55건', False), ('9월', 58.0, '58건', False), ('10월', 39.0, '39건', False)], note='구성역 주변 4개 동(마북 · 언남 · 청덕 · 보정) 아파트 매매 건수 · 2026년')
+print('v2 ok')

@@ -53,3 +53,9 @@ d.text((W/2,500),'3개 단지 이주',font=kr(ser,64),fill='#F4F1EA',anchor='mm'
 d.text((W/2,610),'5,006가구',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'벽적골 8단지부터 2027년 9월까지',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/'+S+'thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_yeongtong_remodel_1_rise_v2.png', '이주 중인 단지 +11%, 리모델링 안 하는 옆 단지 +39~45%', [('벽적골 8단지 두산·우성·한신|이주 중', 10.9, '+10.9%', True), ('벽적골주공 8단지|2027년 5~9월 이주 예정', 31.1, '+31.1%', False), ('청명마을 주공|리모델링 안 함', 39.1, '+39.1%', False), ('벽적골 9단지 주공|리모델링 안 함', 42.9, '+42.9%', False), ('황골마을 주공1단지|리모델링 안 함', 45.4, '+45.4%', False)], note='영통 리모델링 현황 · 영통동 59㎡ 2025년 중앙값 → 2026년 7~10월 중앙값')
+print('v2 ok')

@@ -51,3 +51,10 @@ d.text((W/2,535),'옆 단지 84㎡ 전세',font=kr(ser,46),fill='#AFC0D8',anchor
 d.text((W/2,640),'3억 6천',font=kr(ser,104),fill='#D4B04C',anchor='mm')
 d.text((W/2,735),'2023~2024년 입주 옆 새 아파트 3곳 · 올해 25건 중앙값',font=kr(san,32),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_yeokbuk_ipju_1_bunyang59_v2.png', '9건 모두 무순위 공급가 4억 5,700만원보다 낮았다', [('가장 낮은 신고|8월 5일', 34607, '3억 4,607만', False), ('가장 높은 신고|9월 14일', 43251, '4억 3,251만', False), ('무순위 공급가', 45700, '4억 5,700만', True)], note='역북 서희스타힐스 프라임시티 · 59㎡ 분양권 2026년 신고 9건')
+bars('img/nangman_yeokbuk_ipju_2_compare_v2.png', '84㎡ 분양권 6억, 옆 단지 84㎡ 전세 3억 6천', [('옆 새 아파트 3곳 84㎡ 매매', 55000.0, '5억 5,000만', False), ('프라임시티 84㎡ 분양권|10월', 60550.0, '6억 550만', True), ('옆 새 아파트 3곳 84㎡ 전세', 36000.0, '3억 6,000만', False), ('프라임시티 59㎡ 분양권 중앙값', 35527.0, '3억 5,527만', False), ('옆 새 아파트 3곳 59㎡ 전세', 26250.0, '2억 6,250만', False)], note='프라임시티 분양권과 2023~2024년 입주 옆 새 아파트 3곳(역북동 · 김량장동')
+print('v2 ok')
