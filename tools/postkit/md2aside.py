@@ -6,6 +6,8 @@
   01.jpg 썸네일(대표) · 02.jpg~ 본문 사진과 표 그림을 나오는 순서대로 · <이름>.html(모양 그대로 · 「▼ 사진 NN.jpg」 표시)
 --up : 드라이브 「블로그/협업/4_어사이드/원고/<이름>/」에 폴더째 올림(같은 이름은 바꿔 끼움)"""
 import sys, os, re, shutil, subprocess, base64, html as H, json
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from tailrule import short
+in_tail = [False, 0]
 md = sys.argv[1]; name = os.path.splitext(os.path.basename(md))[0]
 OUT = f'/home/claude/w/aside_pkg/{name}'; shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
 raw = open(md, encoding='utf8').read(); head, body = raw.split('\n---\n', 1); m = {}
@@ -52,6 +54,15 @@ def table_img(rows):
     Image.open(png).convert('RGB').save(f'{OUT}/{k:02d}.jpg', quality=92); os.remove(png); os.remove(hp)
     # 표 그림 + 같은 내용 표(글자로도 남김 · 어사이드가 그림을 넣고 아래 표는 지우거나 둘 다 둠)
     return mark(k, ' (표 그림)') + f'<img src="{b64(f"{OUT}/{k:02d}.jpg")}" style="max-width:100%">'
+# 11/12 배너 빠짐 방지: [CALL] 줄이 없으면 자동으로 넣는다(중간 = 둘째 소제목 위 · 끝 = 같이 보면 좋은 글 위)
+if not re.search(r'^\[CALL\] ', body, re.M):
+    hs = [mm.start() for mm in re.finditer(r'^## (?!같이 보면)', body, re.M)]
+    at = hs[1] if len(hs) > 1 else (hs[0] if hs else len(body))
+    body = body[:at] + '[CALL] ' + (m.get('call') or '사진 한 장 보내 주시면 어디부터 볼지 알려 드려요') + '\n\n' + body[at:]
+if not re.search(r'^\[CALL\]\s*$', body, re.M):
+    mm = re.search(r'^## 같이 보면', body, re.M)
+    at = mm.start() if mm else len(body)
+    body = body[:at] + '\n[CALL]\n\n' + body[at:]
 tbl = []
 def flush():
     if tbl: parts.append(table_img(tbl)); tbl.clear()
@@ -63,7 +74,10 @@ for blk in re.split(r'\n\s*\n', body.strip()):
             if not all(re.fullmatch(r':?-{2,}:?', c) for c in cs): tbl.append(cs)
             continue
         flush()
-        if ln.startswith('## '): parts.append(f'<h2 style="font-size:22px;color:#1d3d5c;margin:30px 0 10px">{inline(ln[3:])}</h2>')
+        if ln.startswith('## '):
+            in_tail[0] = ln[3:].strip().startswith(('같이 보면', '함께 보면'))
+            if in_tail[0]: parts.append('<p><b>같이 보면 좋은 글</b></p>' + GAP)
+            else: parts.append(f'<h2 style="font-size:22px;color:#1d3d5c;margin:30px 0 10px">{inline(ln[3:])}</h2>')
         elif ln.startswith('!='):
             n[0] += 1; shutil.copy(ln[2:].strip(), f'{OUT}/{n[0]:02d}.jpg')
             parts.append(mark(n[0]) + f'<img src="{b64(f"{OUT}/{n[0]:02d}.jpg")}" style="max-width:100%">')
@@ -72,7 +86,11 @@ for blk in re.split(r'\n\s*\n', body.strip()):
             ncall[0] += 1; parts.append(banner('banner_mid.png' if ncall[0] == 1 else f'banner_mid{ncall[0]}.png', ln[7:].strip()))
         elif ln.startswith('- '):
             mm = re.match(r'(.+?) · (https?://\S+)$', ln[2:])
-            parts.append(f'<p>· <a href="{mm.group(2)}">{H.escape(mm.group(1))}</a></p>' if mm else f'<p>· {inline(ln[2:])}</p>')
+            if mm and in_tail[0]:
+                in_tail[1] += 1
+                if in_tail[1] <= 3: parts.append(f'<p>▶ <a href="{mm.group(2)}">{H.escape(short(mm.group(1)))}</a></p>' + GAP)
+            else:
+                parts.append(f'<p>· <a href="{mm.group(2)}">{H.escape(mm.group(1))}</a></p>' if mm else f'<p>· {inline(ln[2:])}</p>')
         elif ln: parts.append(f'<p>{inline(ln)}</p>')
     flush()
     if parts and parts[-1].startswith('<p') and '▼' not in parts[-1][:80]: parts.append(GAP)
@@ -81,7 +99,8 @@ parts.append('<p style="color:#2f5d8a">' + ' '.join('#' + x.replace(' ', '') for
 doc = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{H.escape(T)}</title></head>'
        f'<body style="max-width:760px;margin:20px auto;padding:0 16px;font-size:18px;line-height:1.85;color:#222;font-family:sans-serif">' + '\n'.join(parts) + '</body></html>')
 open(f'{OUT}/{name}.html', 'w', encoding='utf8').write(doc)
-res = {'name': name, 'photos': n[0], 'dir': OUT}
+res = {'name': name, 'photos': n[0], 'dir': OUT, 'tail_links': in_tail[1]}
+if in_tail[1] != 3: res['warn'] = '같이 보면 좋은 글 링크는 딱 3개(지금 %d개 · 4개째부터 뺐음)' % in_tail[1]
 if '--up' in sys.argv:
     sys.path.insert(0, '/home/claude/helper'); from gas import call
     for f in sorted(os.listdir(OUT)):
