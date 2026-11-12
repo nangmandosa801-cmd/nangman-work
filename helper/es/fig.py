@@ -39,9 +39,3 @@ d.text((W/2,500),'청약통장 없이',font=kr(ser,92),fill='#D4B04C',anchor='mm
 d.text((W/2,610),'입찰로 삽니다',font=kr(ser,72),fill='#F4F1EA',anchor='mm')
 d.text((W/2,715),'84㎡ 28세대 · 입찰 기준가 40억 900만원부터',font=kr(san,32),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_estera_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_estera_1_price_v2.png', '입찰 시작 40억 900만, 잠원동 중앙값보다 7억 4천 낮습니다', [('반포 · 잠원 2015년 이후 84㎡ 올해 매매 중앙값', 508000.0, '50억 8천', False), ('잠원동 2015년 이후 84㎡ 올해 매매 중앙값', 475000.0, '47억 5천', False), ('디에이치 신반포 에스테라 입찰 기준가 가장 높은 세대', 439800.0, '43억 9,800만', False), ('디에이치 신반포 에스테라 입찰 기준가 가장 낮은 세대', 400900.0, '40억 900만', True), ('디에이치 클래스트 84㎡ 예상 분양가 높은 쪽|반포124', 338000.0, '33억 8천', False)], note='디에이치 신반포 에스테라 분양가 · 84㎡ 입찰 기준가와 옆 새 아파트 매매')
-print('v2 ok')

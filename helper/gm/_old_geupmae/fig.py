@@ -36,9 +36,3 @@ ax.set_ylim(0,1.9); ax.set_yticks([]); ax.set_xticks(range(7)); ax.set_xticklabe
 fig.text(0.045,0.035,'같은 단지 같은 면적 전세 가운데 가장 싸게 계약된 10%가 그달에 나온 비율 ÷ 그달 전체 계약 비율 · 국토교통부 전월세 실거래',fontsize=15,color='#8A8578')
 fig.savefig('img/nangman_geupmae_2_month.png'); plt.close()
 print('ok')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_geupmae_2_month_v2.png', '가장 싼 전세는 둘째 달에 1.6배 몰렸습니다', [('첫 달', 0.68, '0.7배', False), ('둘째 달', 1.58, '1.6배', True), ('셋째 달', 0.95, '0.9배', False), ('넷째 달', 1.35, '1.4배', False), ('일곱째 달', 0.1, '0.1배', False)], note='입주장 전세급매 · 큰 단지 21곳')
-print('v2 ok')
