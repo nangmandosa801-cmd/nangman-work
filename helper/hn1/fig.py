@@ -48,3 +48,10 @@ d.text((W/2,500),'2018년 교산 때 미사는',font=kr(ser,60),fill='#F4F1EA',a
 d.text((W/2,590),'석 달 6.9% 내렸다',font=kr(ser,60),fill='#F4F1EA',anchor='mm')
 d.text((W/2,700),'택지 발표 두 번, 옆 아파트 실거래',font=kr(san,36),fill='#D4B04C',anchor='mm')
 im.save('img/nangman_hanamtaekji_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+cards3('img/nangman_hanamtaekji_1_3m_v2.png', '2018년 교산 때는 미사가 가장 많이 내렸습니다', [('-6.9%', '하남 미사', True, ''), ('-2.2%', '하남 구도심', False, ''), ('-1.1%', '경기 전체', False, '')], note='2018년 교산 발표 뒤 석 달 · 같은 단지 같은 면적 매매값')
+bars('img/nangman_hanamtaekji_2_count_v2.png', '발표 앞뒤 넉 달은 한 달 60건 안팎', [('2018년 8월', 498.0, '498건', False), ('10월', 137.0, '137건', False), ('11월', 55.0, '55건', True), ('2019년 2월', 59.0, '59건', False), ('5월', 144.0, '144건', False)], note='하남 신규택지 · 하남 아파트 매매 거래 수 (2018년 7월 ~ 2019년 12월)')
+print('v2 ok')

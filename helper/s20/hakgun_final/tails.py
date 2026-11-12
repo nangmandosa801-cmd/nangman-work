@@ -11,9 +11,9 @@ def interview(head,body):
 <p><br></p>
 '''
 def related(items):
-    """11/12 사용자 규칙: 글당 하나 · 글 맨 끝 · 3~5개 · 「▶ 제목」 한 줄씩(30자 이내) · 번호 · 표 · 카드 · 설명 줄 없음.
+    """11/12 사용자 규칙: 글당 하나 · 글 맨 끝 · 딱 3개 · 「▶ 제목」 한 줄씩(30자 이내) · 번호 · 표 · 카드 · 설명 줄 없음.
     save() 가 이 블록을 글 맨 끝으로 옮긴다. items: (제목, 주소[, 설명은 무시])"""
-    items=[i for i in items if i[1]][:5]
+    items=[i for i in items if i[1]][:3]  # 11/12 18:17 「링크는 딱 세개만」
     if len(items)<3: print('[같이 보면 좋은 글] 링크가', len(items), '개 · 3개 이상 필요')
     if any('champion_chart' in i[1] or 'nangmaninterior' in i[1] for i in items): raise SystemExit('낭만 인테리어 링크 금지')
     o='<!--REL-->\n<p style="font-size:24px;font-weight:700;color:'+D+';">같이 보면 좋은 글</p>\n<p><br></p>\n'

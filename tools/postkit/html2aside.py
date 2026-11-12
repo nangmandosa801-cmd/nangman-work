@@ -84,6 +84,12 @@ def walk(nodes):
 walk(soup.children)
 if tags: out += ['', f'태그: {tags}']
 s = re.sub(r'\n{3,}', '\n\n', '\n'.join(out)).strip() + '\n'
+# 11/12 같이 보면 좋은 글: [같이 보면 좋은 글] 표식 · 「▶ 제목 | 주소」 · 태그보다 뒤(글 맨 끝)
+m = re.search(r'\[소제목\] 같이 보면 좋은 글\n(.*?)(?=\n\n태그:|\Z)', s, re.S)
+if m:
+    lines = [f'▶ {a.strip()} | {b}' for a, b in re.findall(r'▶ (.+?) \((https?://[^)]+)\)', m.group(1))]
+    s = s.replace(m.group(0), '').rstrip() + '\n\n[같이 보면 좋은 글]\n' + '\n'.join(lines) + '\n'
+    s = re.sub(r'\n{3,}', '\n\n', s)
 open(f'{O}.txt', 'w', encoding='utf8').write(s)
 bad = re.findall(r'##|\*\*|<div|<p|\[CALL\]', s)
 print(json.dumps({'name': name, 'photos': k, 'chars': len(s), 'bad': bad}, ensure_ascii=False))

@@ -18,7 +18,7 @@ o.append(TABLE(['주택형','세대'],rows,["50%","50%"],hl=[2,5]))
 o.append(P('84㎡가 1,412세대로 전체의 71%입니다. 84㎡A 한 타입만 1,051세대입니다. 입주 뒤 전세 · 월세 물건도 대부분 84㎡로 나옵니다. 그래서 아래 숫자는 84㎡ 기준으로 모았습니다.'))
 o.append(NOTE('자료: 스마트투데이(2023년 12월 15일) 견본주택 개관 보도의 블록 · 규모 · 주택형별 세대수 · 입주 예정 시기'))
 o.append(P('사전점검 날에는 하자만 보지 않습니다. 현관 폭과 높이를 재 두면 중문을 입주 전에 달 수 있습니다. 84㎡A는 같은 구조가 1,051세대라 같은 날 공사 일정이 몰립니다. 욕실 유리 · 창틀 레일 · 베란다 바닥을 사진으로 남기면 입주청소 범위를 미리 맞출 수 있습니다.'))
-o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">같은 브레인시티 사전점검 날 현관 재는 순서 → '+LK(C+'224453190862','브레인시티 대광로제비앙 사전점검, 중문 치수 재는 법')+'</span></td></tr></table>\n<p><br></p>\n')
+# 11/10 낭만 인테리어 링크 금지 — 뺌: o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">같은 브레인시티 사전점검 날 현관 재는 순서 → '+LK(C+'224453190862','브레인시티 대광로제비앙 사전점검, 중문 치수 재는 법')+'</span></td></tr></table>\n<p><br></p>\n')
 
 o.append(H('브레인시티 중흥S클래스 입주 전세, 옆 2블록은 얼마였나요?'))
 o.append(P('옆 2블록 로제비앙 모아엘가는 1,700세대입니다. 올해 6월에 첫 전월세 신고가 나왔습니다. 10월까지 141건이 신고됐습니다. 전부 새 계약이었습니다.'))
