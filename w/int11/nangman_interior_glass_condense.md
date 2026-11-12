@@ -73,6 +73,8 @@ thumb: 결로 · 곰팡이 | 결로 방지 | 벽지 시공 | 벽지만 바꾸면
 **도배는 누가 하나요?**
 단열재 시공팀이 도배까지 하는 곳도 있고, 도배를 따로 불러야 하는 곳도 있습니다. 견적 때 도배 포함 여부를 꼭 물어보세요.
 
+[CALL]
+
 ## 같이 보면 좋은 글
 
 - 대구 단열 시공, 1헤베 10만원 선 · https://blog.naver.com/champion_chart/224456973595
@@ -80,6 +82,3 @@ thumb: 결로 · 곰팡이 | 결로 방지 | 벽지 시공 | 벽지만 바꾸면
 - 결로 페인트 시공, 곰팡이는 늦춰도 차가운 벽은 못 고칩니다 · https://blog.naver.com/champion_chart/224444946484
 - 결로현상 해결, 습도 60% 아래인데도 맺히면 단열 · https://blog.naver.com/champion_chart/224423069167
 - 이중창 결로, 두 창 사이에 고인 물과 안쪽 창에 맺힌 물은 원인이 다릅니다 · https://blog.naver.com/champion_chart/224444840593
-- 벽지 곰팡이 원인, 창가와 모서리부터 피면 결로 · https://blog.naver.com/champion_chart/224438517059
-
-[CALL]

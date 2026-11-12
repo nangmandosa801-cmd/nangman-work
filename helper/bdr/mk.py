@@ -44,7 +44,7 @@ o.append(NOTE('자료: 서울신문(2026년 6월 29일, 성남시 안내) · 10.
 o.append(H('분당 재건축 이주, 세입자와 집주인은 무엇부터 챙기나요?'))
 o.append(P('이주는 빨라도 2028년 하반기입니다. 아직 2년 가까이 남았습니다. 다만 선도지구 네 곳에 지금 사는 집만 1만 2천 가구가 넘습니다. 정부도 이주할 집이 부족해 관리처분 인가 물량을 나눠서 내주겠다고 했습니다.'))
 o.append(P('같은 성남 수진1구역은 8월 예정이던 이주가 이주비 대출 문제로 4분기로 밀렸습니다. 이주 날짜는 계획보다 늦어지는 일이 흔합니다. 이사 날짜를 정할 때는 고시가 난 뒤에 확정하는 편이 안전합니다.'))
-# 11/10 낭만 인테리어 링크 금지 — 뺌: o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">재건축 이주 날짜가 잡히면 → '+LK(C+'224454764408','재개발 이주, 노량진 3구역은 1구역과 넉 달이 겹쳐 보관이사와 이사청소 날짜부터 잡습니다')+'</span></td></tr></table>\n<p><br></p>\n')
+o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">재건축 이주 날짜가 잡히면 → '+LK(C+'224454764408','재개발 이주, 노량진 3구역은 1구역과 넉 달이 겹쳐 보관이사와 이사청소 날짜부터 잡습니다')+'</span></td></tr></table>\n<p><br></p>\n')
 o.append(P('이주 때 전세 흐름은 「'+LK(N+'224413536755','대치동 전세, 개포 입주 때는 내렸는데 은마 이주는 반대입니다')+'」에 숫자로 정리했습니다.'))
 o.append(NOTE('자료: 뉴시스(2025년 9월 26일, 국토교통부 점검 결과) · 경기일보(2026년 7월 1일) · 이주 날짜와 이주비 조건은 관리처분계획 인가 때 정해짐'))
 o.append(interview('분당 수내 · 서현 · 분당동 중개사무소 인터뷰를 받습니다','선도지구 매물 · 문의 분위기와 이주 전세 이야기를 들려주시면 블로그에 무료로 소개합니다.'))

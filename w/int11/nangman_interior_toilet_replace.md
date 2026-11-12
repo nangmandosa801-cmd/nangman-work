@@ -77,6 +77,8 @@ thumb: 욕실 설비 | 변기 교체 | 비용 | 변기 포함 교체 | 30만원�
 **변기 교체 뒤 냄새가 나면요?**
 바닥 패킹이 제자리에 안 앉았거나 수평이 틀어진 경우입니다. 시공팀에 바로 다시 봐 달라고 하세요.
 
+[CALL]
+
 ## 같이 보면 좋은 글
 
 - 아파트 누수 보험, 아랫집 피해는 일상배상으로 · https://blog.naver.com/champion_chart/224445085557
@@ -84,6 +86,3 @@ thumb: 욕실 설비 | 변기 교체 | 비용 | 변기 포함 교체 | 30만원�
 - 하남 누수탐지 가격, 가스 가압으로 찾아간 과정 · https://blog.naver.com/champion_chart/224454638516
 - 구축 아파트 인테리어 순서, 안 뜯는 집은 누수부터 · https://blog.naver.com/champion_chart/224453417329
 - 줄눈 시공 가격 34평, 욕실 2곳과 현관 · https://blog.naver.com/champion_chart/224453266232
-- 수도계량기 동파, 유리가 깨지면 수도사업소에 알립니다 · https://blog.naver.com/champion_chart/224462855339
-
-[CALL]
