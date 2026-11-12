@@ -11,11 +11,18 @@ def interview(head,body):
 <p><br></p>
 '''
 def related(items):
-    o=f'<p style="font-size:27px;font-weight:700;color:{D};">함께 보면 좋은 글</p>\n<p><br></p>\n'
-    for t,u,s in items:
-        tt=LK(u,t) if u else f'<span style="color:{A};">{t}</span>'
-        o+=f'<p style="font-size:19px;font-weight:700;">{tt}<br>\n<span style="font-size:17px;color:#7A8590;">{s}</span></p>\n<p><br></p>\n'
-    return o
+    """11/12 사용자 규칙: 글당 하나 · 글 맨 끝 · 3~5개 · 「▶ 제목」 한 줄씩(30자 이내) · 번호 · 표 · 카드 · 설명 줄 없음.
+    save() 가 이 블록을 글 맨 끝으로 옮긴다. items: (제목, 주소[, 설명은 무시])"""
+    items=[i for i in items if i[1]][:5]
+    if len(items)<3: print('[같이 보면 좋은 글] 링크가', len(items), '개 · 3개 이상 필요')
+    if any('champion_chart' in i[1] or 'nangmaninterior' in i[1] for i in items): raise SystemExit('낭만 인테리어 링크 금지')
+    o='<!--REL-->\n<p style="font-size:24px;font-weight:700;color:'+D+';">같이 보면 좋은 글</p>\n<p><br></p>\n'
+    for i in items:
+        t=_short(i[0]); o+=f'<p style="font-size:19px;font-weight:700;">▶ {LK(i[1],t)}</p>\n<p><br></p>\n'
+    return o+'<!--/REL-->\n'
+def _short(t):
+    t=t.split(',')[0].strip() if len(t)>30 else t
+    return t if len(t)<=30 else t[:30].rstrip()
 def platform():
     return f'''<p><br></p>
 <table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr>
@@ -49,6 +56,14 @@ def tags(t):
     return f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;">\n<tr><td style="background-color:#F4F6F9;border-left:3px solid {A};padding:16px 18px;">\n<span style="font-size:16px;color:#8A8578;">태그</span><br>\n<span style="font-size:18px;color:#555;line-height:1.9;">{t}</span>\n</td></tr>\n</table>\n'
 def save(TITLE,o):
     import re,html as _h
-    H_=''.join(o); open('post.html','w').write(H_)
+    H_=''.join(o)
+    blocks=re.findall(r'<!--REL-->.*?<!--/REL-->\n?',H_,flags=re.S)
+    if len(blocks)>1: raise SystemExit('같이 보면 좋은 글 블록이 2개 이상 · 하나만')
+    rel=blocks[0] if blocks else ''
+    H_=H_.replace(rel,'')
+    if rel: H_=H_.rstrip('\n')+'\n<p><br></p>\n'+rel
+    open('post.html','w').write(H_)
     txt=re.sub(r'<p><br></p>','',H_); txt=re.sub(r'</p>|<br>|</tr>','\n',txt); txt=re.sub(r'<[^>]+>','',txt); txt=_h.unescape(re.sub(r'\n{3,}','\n\n',txt))
+    if rel:
+        txt=txt.split('같이 보면 좋은 글')[0].rstrip()+'\n\n[같이 보면 좋은 글]\n'+'\n'.join(f'▶ {_h.unescape(t)} | {u}' for u,t in re.findall(r'href="([^"]+)"[^>]*>([^<]+)</a>',rel))+'\n'
     open('post.txt','w').write('[제목]\n'+TITLE+'\n\n'+txt)

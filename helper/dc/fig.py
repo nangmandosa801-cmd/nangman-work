@@ -44,3 +44,9 @@ d.text((W/2,500),'84㎡ 옆 새 아파트보다',font=kr(ser,60),fill='#F4F1EA',
 d.text((W/2,610),'17억 낮다',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'반포 · 잠원 새 아파트 84㎡ 올해 중앙값 50억 8천',font=kr(san,32),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_classt_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_classt_1_price_v2.png', '84㎡ 예상 분양가, 옆 새 아파트보다 17억~20억 8천 낮다', [('래미안원베일리 84㎡|18건', 587500.0, '58억 7,500만', False), ('아크로리버파크 84㎡|11건', 555000.0, '55억 5,000만', False), ('반포 · 잠원 새 아파트 84㎡ 전체|71건', 508000.0, '50억 8,000만', False), ('디에이치 클래스트 84㎡ 예상 분양가|높은 쪽', 338000.0, '33억 8,000만', True), ('디에이치 클래스트 84㎡ 예상 분양가|낮은 쪽', 300000.0, '30억', False)], note='디에이치 클래스트 청약 · 반포 · 잠원 2015년 이후 아파트 올해 매매와 나란히')
+print('v2 ok')

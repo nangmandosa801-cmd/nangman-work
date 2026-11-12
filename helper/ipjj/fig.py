@@ -90,3 +90,11 @@ ax.set_xlim(0,1); ax.set_ylim(0.4,n+0.6)
 fig.text(0.045,0.035,'처음 = 첫 계약 무렵 전세 중앙값 · 최근 = 가장 최근 달 중앙값 · 국토교통부 전월세 실거래 2026년',fontsize=15,color='#8A8578')
 fig.savefig('img/nangman_ipjujang_jeonse_6_danji.png'); plt.close()
 print('ok')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_ipjujang_jeonse_2_sigi_v2.png', '계약 10건 중 6건이 첫 넉 달에 몰립니다', [('첫 달', 12.0, '12%', False), ('둘째 달', 14.0, '14%', False), ('셋째 달', 19.0, '19%', True), ('넷째 달', 19.0, '19%', False), ('일곱째 달', 7.0, '7%', False)], note='입주장 시기 · 계약 4,533건이 나온 달')
+bars('img/nangman_ipjujang_jeonse_3_geupmae_v2.png', '싼 전세와 비싼 전세 차이가 넷째 달부터 벌어집니다', [('첫 달', 2500.0, '2,500만', False), ('셋째 달', 4300.0, '4,300만', False), ('넷째 달', 5000.0, '5,000만', True), ('다섯째 달', 7100.0, '7,100만', False), ('일곱째 달', 9000.0, '9,000만', False)], note='입주장 전세급매 · 같은 단지 같은 면적 같은 달')
+bars('img/nangman_ipjujang_jeonse_4_wolse_v2.png', '입주장 끝 무렵에는 월세 계약이 늘어납니다', [('첫 달', 83.0, '83%', False), ('셋째 달', 69.0, '69%', False), ('넷째 달', 68.0, '68%', False), ('다섯째 달', 63.0, '63%', False), ('여섯째 달', 56.0, '56%', True)], note='전세 계약 비중 · 나머지는 월세')
+print('v2 ok')

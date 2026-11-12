@@ -14,7 +14,6 @@ import sys, os, json, re
 sys.path.insert(0, '/home/claude/helper'); sys.path.insert(0, '/home/claude/tools/partners')
 from gas import call
 MAP = '/home/claude/w/partners/toon_map.json'; CARDS = '/home/claude/w/partners/cards.json'
-WEB = '/home/claude/w/partners/web_stories.json'
 def load(p, d):
     try: return json.load(open(p))
     except Exception: return d
@@ -35,13 +34,9 @@ def scan(m):
                 except Exception: memo = ''
                 memo = memo if isinstance(memo, str) else memo.get('text', '')
                 src = re.search(r'[a-z0-9_-]+/\d{9,}', memo); cid = re.search(r'C\d{3}', memo)
-                kw = re.search(r'검색어\s*[:：]\s*(.+)', memo); wid = re.search(r'\bW\d{2}\b', memo)
+                kw = re.search(r'검색어\s*[:：]\s*(.+)', memo)
                 row.update({'card': cid.group(0) if cid else '', 'src': src.group(0) if src else '', 'search': kw.group(1).strip() if kw else ''})
                 c = cards.get(row['src'], {})
-                if wid:  # 11/11 인터넷 소재(web_stories.json W01~) — 네이버 글이 아직 없어도 검색어로 추적, 나중에 link 가 이어 줌
-                    w = load(WEB, {}).get(wid.group(0), {}); row['web'] = wid.group(0)
-                    c = {'naver': w.get('naver', []), 'naver_need': w.get('naver_need', True)}
-                    if not row['search']: row['search'] = (w.get('keywords') or [''])[0]
                 row['naver'] = c.get('naver', []); row['naver_need'] = bool(c.get('naver_need', not c.get('naver')))
                 add.append(ep)
             m[ep] = row

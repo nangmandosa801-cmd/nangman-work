@@ -26,18 +26,7 @@ subprocess.run(cmd, check=True, capture_output=True)
 parts.append(f'<p style="font-size:15px;color:#c00;font-weight:700">제목 칸: {H.escape(T)}</p>' + mark(1, ' (대표 · 썸네일)') + f'<img src="{b64(th)}" width="420"><hr>')
 def inline(x):
     x = H.escape(x); return re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', x)
-BAN = ('<div style="width:872px;background:#eaf2fb;border-left:10px solid #1f5fa8;padding:30px 34px 34px;font-family:\'Noto Sans CJK KR\',sans-serif">'
-       '<div style="font-size:40px;font-weight:900;color:#123d6b;line-height:1.35">{}</div>'
-       '<div style="font-size:27px;color:#2b3a4a;margin-top:16px;line-height:1.5">사는 동네와 함께 문자로 보내 주세요. 가까운 시공팀을 이어 드립니다.</div>'
-       '<div style="display:inline-block;margin-top:24px;background:#1f6fd1;color:#fff;font-size:30px;font-weight:800;padding:16px 38px;border-radius:999px">문자 · 전화 010-2882-8165</div></div>')
-def banner(fname, text):
-    hp = f'{OUT}/_b.html'
-    open(hp, 'w', encoding='utf8').write(f'<html><head><meta charset="utf-8"></head><body style="margin:0;padding:0;background:#fff;width:920px">{BAN.format(H.escape(text))}</body></html>')
-    subprocess.run(['wkhtmltoimage', '-q', '--width', '920', '--enable-local-file-access', hp, f'{OUT}/{fname}'], check=True); os.remove(hp)
-    return (f'<p style="font-size:15px;color:#c00;font-weight:700;margin:18px 0 4px">▼ 배너 {fname}</p>'
-            f'<img src="{b64(f"{OUT}/{fname}", "image/png")}" style="max-width:100%">')
-GAP = '<p><br></p>'
-ncall = [0]
+CALL = '<div style="background:#f3f6fa;border-left:5px solid #2f5d8a;padding:14px 16px;margin:18px 0"><b>{}</b><br>사는 동네와 함께 문자로 보내 주세요. 가까운 시공팀을 이어 드립니다.<br><b>문자 · 전화 010-2882-8165</b></div>'
 TS = 'width:100%;border-collapse:collapse;font-size:23px;'
 def table_img(rows):
     n[0] += 1; k = n[0]
@@ -54,15 +43,6 @@ def table_img(rows):
     Image.open(png).convert('RGB').save(f'{OUT}/{k:02d}.jpg', quality=92); os.remove(png); os.remove(hp)
     # 표 그림 + 같은 내용 표(글자로도 남김 · 어사이드가 그림을 넣고 아래 표는 지우거나 둘 다 둠)
     return mark(k, ' (표 그림)') + f'<img src="{b64(f"{OUT}/{k:02d}.jpg")}" style="max-width:100%">'
-# 11/12 배너 빠짐 방지: [CALL] 줄이 없으면 자동으로 넣는다(중간 = 둘째 소제목 위 · 끝 = 같이 보면 좋은 글 위)
-if not re.search(r'^\[CALL\] ', body, re.M):
-    hs = [mm.start() for mm in re.finditer(r'^## (?!같이 보면)', body, re.M)]
-    at = hs[1] if len(hs) > 1 else (hs[0] if hs else len(body))
-    body = body[:at] + '[CALL] ' + (m.get('call') or '사진 한 장 보내 주시면 어디부터 볼지 알려 드려요') + '\n\n' + body[at:]
-if not re.search(r'^\[CALL\]\s*$', body, re.M):
-    mm = re.search(r'^## 같이 보면', body, re.M)
-    at = mm.start() if mm else len(body)
-    body = body[:at] + '\n[CALL]\n\n' + body[at:]
 tbl = []
 def flush():
     if tbl: parts.append(table_img(tbl)); tbl.clear()
@@ -81,9 +61,8 @@ for blk in re.split(r'\n\s*\n', body.strip()):
         elif ln.startswith('!='):
             n[0] += 1; shutil.copy(ln[2:].strip(), f'{OUT}/{n[0]:02d}.jpg')
             parts.append(mark(n[0]) + f'<img src="{b64(f"{OUT}/{n[0]:02d}.jpg")}" style="max-width:100%">')
-        elif ln == '[CALL]': parts.append(banner('banner_end.png', '사진 한 장이면 됩니다'))
-        elif ln.startswith('[CALL] '):
-            ncall[0] += 1; parts.append(banner('banner_mid.png' if ncall[0] == 1 else f'banner_mid{ncall[0]}.png', ln[7:].strip()))
+        elif ln == '[CALL]': parts.append(CALL.format('사진 한 장이면 됩니다'))
+        elif ln.startswith('[CALL] '): parts.append(CALL.format(H.escape(ln[7:].strip())))
         elif ln.startswith('- '):
             mm = re.match(r'(.+?) · (https?://\S+)$', ln[2:])
             if mm and in_tail[0]:
@@ -93,7 +72,6 @@ for blk in re.split(r'\n\s*\n', body.strip()):
                 parts.append(f'<p>· <a href="{mm.group(2)}">{H.escape(mm.group(1))}</a></p>' if mm else f'<p>· {inline(ln[2:])}</p>')
         elif ln: parts.append(f'<p>{inline(ln)}</p>')
     flush()
-    if parts and parts[-1].startswith('<p') and '▼' not in parts[-1][:80]: parts.append(GAP)
 tags = [x.strip() for x in m.get('tags', '').split(',') if x.strip()]
 parts.append('<p style="color:#2f5d8a">' + ' '.join('#' + x.replace(' ', '') for x in tags) + '</p>')
 doc = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{H.escape(T)}</title></head>'
@@ -104,7 +82,7 @@ if not 3 <= in_tail[1] <= 5: res['warn'] = '같이 보면 좋은 글 링크는 3
 if '--up' in sys.argv:
     sys.path.insert(0, '/home/claude/helper'); from gas import call
     for f in sorted(os.listdir(OUT)):
-        p = f'{OUT}/{f}'; mime = 'text/html' if f.endswith('.html') else ('image/png' if f.endswith('.png') else 'image/jpeg')
+        p = f'{OUT}/{f}'; mime = 'text/html' if f.endswith('.html') else 'image/jpeg'
         call('fput', path=f'블로그/협업/4_어사이드/원고/{name}', name=f, b64=base64.b64encode(open(p, 'rb').read()).decode(), mime=mime)
     res['uploaded'] = len(os.listdir(OUT))
 print(json.dumps(res, ensure_ascii=False))

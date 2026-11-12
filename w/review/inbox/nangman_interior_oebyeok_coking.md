@@ -1,7 +1,7 @@
 # 아파트 외벽 코킹, 덧방 말고 올제거하는 이유
-kicker: 코킹
+kicker: 낭만 인테리어 · 코킹
 tags: 아파트 외벽 코킹, 외벽 코킹, 외벽 코킹 비용, 외벽 코킹 실리콘, 창틀 누수, 외벽 크랙
----
+
 비 온 다음 날 창 아래 벽지가 누렇게 들떠 있으면 철렁하시죠? 바깥 창틀 실리콘부터 의심해 보셔야 합니다. 실리콘도 해와 비를 십 년 넘게 맞으면 굳고 갈라집니다. 한 번 바르면 끝이 아니라 닳는 재료입니다.
 
 아파트 외벽 코킹은 두 가지 방식이 있습니다. 낡은 실리콘 위에 새 실리콘을 덧바르는 「덧방」, 그리고 옛 실리콘을 다 걷어 내고 새로 바르는 「올제거」입니다.
@@ -43,13 +43,8 @@ tags: 아파트 외벽 코킹, 외벽 코킹, 외벽 코킹 비용, 외벽 코�
 ## 화성 병점 솔뫼마을, 거실창만 엉성하던 집
 5월에 집을 사서 이사 온 뒤 창틀에서 물이 샌 집입니다. 거실창만 누가 한 번 손댄 흔적이 있었고 마감이 고르지 않았습니다. 나머지 창은 준공 때 바른 실리콘이 햇빛과 비에 갈라져 벌어져 있었습니다. 눈에 보이는 틈만 메우지 않고 집 전체 창의 옛 실리콘을 다 걷어 낸 뒤 새로 발랐습니다.
 현장 리포트 · 화성 병점 솔뫼마을 한승미메이드2차 · 공간: 거실창과 나머지 바깥 창 전체 · 범위: 옛 실리콘 전부 제거 후 재시공 · 원인: 거실창 엉성한 보수 · 다른 창 준공 실리콘 노후
-!=/home/claude/w/int10/img/nangman_interior_oebyeok_coking_01.jpg
-!=/home/claude/w/int10/img/nangman_interior_oebyeok_coking_02.jpg
-!=/home/claude/w/int10/img/nangman_interior_oebyeok_coking_03.jpg
-!=/home/claude/w/int10/img/nangman_interior_oebyeok_coking_04.jpg
-!=/home/claude/w/int10/img/nangman_interior_oebyeok_coking_05.jpg
-
-[CALL] 샌 자리 사진 한 장이면 코킹으로 막히는지 먼저 봐 드립니다
+!/home/claude/v2src/partners/specialcoking/224463655974/07.jpg 화성 병점 아파트 창틀 옛 실리콘 (제휴 시공팀 현장 · NI-1570)
+!/home/claude/v2src/partners/specialcoking/224463655974/13.jpg 같은 집 창틀 실리콘을 걷어 낸 자리 (제휴 시공팀 현장 · NI-1571)
 
 ## 같이 보면 좋은 글
 

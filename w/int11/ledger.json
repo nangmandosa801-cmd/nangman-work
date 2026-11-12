@@ -1,127 +1,102 @@
 {
- "jungmun_parts": {
-  "when": "2026-11-15 14:00",
-  "cat": "중문",
-  "url": "https://claude.ai/artifact/WYZ6aZ9e3a563n4uVgGXax"
- },
- "shoes_reform": {
-  "when": "2026-11-17 14:00",
-  "cat": "중문",
-  "url": "https://claude.ai/artifact/5d7VApnzbKRVaeehgPYgnd"
- },
- "toilet_fill": {
-  "when": "2026-11-19 10:00",
-  "cat": "인테리어 지식",
-  "url": "https://claude.ai/artifact/SnZFSWnhewR1FfoCrtpdBs"
- },
- "sink_popup": {
-  "when": "2026-11-20 10:00",
-  "cat": "인테리어 지식",
-  "url": "https://claude.ai/artifact/Mkq6LEWregPDM4dyvoWNup"
- },
- "sink_drain": {
-  "when": "2026-11-22 10:00",
-  "cat": "인테리어 지식",
-  "url": "https://claude.ai/artifact/Mc45ahb42tEYWkAcARtrPK"
- },
- "toilet_replace": {
-  "when": "2026-11-24 10:00",
-  "cat": "인테리어 지식",
-  "url": "https://claude.ai/artifact/9CMj5oUKwMD4bh1b9F31qy"
- },
- "julnun_mold": {
-  "when": "2026-11-14 14:00",
-  "cat": "줄눈",
-  "url": "https://claude.ai/artifact/QssV4YRN3wXAXMpZL2bT88"
- },
- "kerapoxy": {
-  "when": "2026-11-21 10:00",
-  "cat": "줄눈",
-  "url": "https://claude.ai/artifact/PPBmGwm9rTNeaonsQNSpc3"
- },
- "officetel_jungmun": {
-  "when": "2026-11-22 14:00",
-  "cat": "중문",
-  "url": "https://claude.ai/artifact/NgvHUhTHsvepU91oEw3wuP"
- },
- "shower_faucet": {
-  "when": "2026-11-23 14:00",
-  "cat": "인테리어 지식",
-  "url": "https://claude.ai/artifact/J6kAx7Cgt985oP5F28azkZ"
- },
- "maegyo39": {
-  "when": "2026-11-07 10:00",
-  "cat": "입주청소",
-  "url": "https://claude.ai/artifact/BTLEgfhBbQwUJ4gZ53S6Gn"
- },
- "gunsan": {
-  "when": "2026-11-12 10:00",
-  "cat": "입주 단지",
-  "url": "https://claude.ai/artifact/MtZ1G6M2h69vjyaNLfybiW"
- },
- "deungchon": {
-  "when": "2026-11-13 10:00",
-  "cat": "줄눈",
-  "url": "https://claude.ai/artifact/AAk4EDeSQAsGN7ovvSquUJ"
- },
- "cheongju": {
-  "when": "2026-11-15 10:00",
-  "cat": "입주청소",
-  "url": "https://claude.ai/artifact/Sbj6XPX5hscj1qA3YVyBbh"
- },
- "glass_condense": {
-  "when": "2026-11-18 14:00",
-  "cat": "결로",
-  "url": "https://claude.ai/artifact/RvbVs6qgp8SMvR5t4YUDLU"
- },
- "tangjeong2": {
-  "when": "2026-11-19 14:00",
-  "cat": "입주 단지",
-  "url": "https://claude.ai/artifact/XBeXu937N469Gfr8DkPyXF"
- },
- "baebang": {
-  "when": "2026-11-20 14:00",
-  "cat": "입주청소",
-  "url": "https://claude.ai/artifact/XUCZPdNMYZ4V4nF7azF9YW"
- },
- "yeokbuk": {
-  "when": "2026-11-21 14:00",
-  "cat": "사전점검",
-  "url": "https://claude.ai/artifact/TfqJJ8btgF92u8fctwhd2s"
- },
- "wall_mold": {
-  "when": "2026-11-23 10:00",
-  "cat": "결로",
-  "url": "https://claude.ai/artifact/EsGtBC78D6ckLLaidQgDqb"
- },
- "maypore": {
-  "when": "2026-11-24 14:00",
-  "cat": "입주 단지",
-  "url": "https://claude.ai/artifact/H3CvUFm1rUPmkAWGiDjrg2"
- },
- "restaurant_mirror": {
-  "when": "2026-11-10 10:00",
-  "cat": "인테리어 지식",
-  "url": "drive:4_어사이드/원고/nangman_interior_restaurant_mirror"
- },
- "tile_kkaejim": {
-  "when": "2026-11-13 15:00",
-  "cat": "인테리어 지식",
-  "url": "drive:4_어사이드/원고/nangman_interior_tile_kkaejim"
- },
- "julnun_eollug": {
-  "when": "2026-11-14 10:00",
-  "cat": "인테리어 지식",
-  "url": "drive:4_어사이드/원고/nangman_interior_julnun_eollug"
- },
- "wolse_wonsang": {
-  "when": "2026-11-16 10:00",
-  "cat": "인테리어 지식",
-  "url": "drive:4_어사이드/원고/nangman_interior_wolse_wonsang"
- },
- "pet_byeokji": {
-  "when": "2026-11-17 10:00",
-  "cat": "인테리어 지식",
-  "url": "drive:4_어사이드/원고/nangman_interior_pet_byeokji"
- }
+"jungmun_parts": {
+"when": "2026-11-15 14:00",
+"cat": "중문",
+"url": "https://claude.ai/artifact/WYZ6aZ9e3a563n4uVgGXax"
+},
+"shoes_reform": {
+"when": "2026-11-17 14:00",
+"cat": "중문",
+"url": "https://claude.ai/artifact/5d7VApnzbKRVaeehgPYgnd"
+},
+"toilet_fill": {
+"when": "2026-11-19 10:00",
+"cat": "인테리어 지식",
+"url": "https://claude.ai/artifact/SnZFSWnhewR1FfoCrtpdBs"
+},
+"sink_popup": {
+"when": "2026-11-20 10:00",
+"cat": "인테리어 지식",
+"url": "https://claude.ai/artifact/Mkq6LEWregPDM4dyvoWNup"
+},
+"sink_drain": {
+"when": "2026-11-22 10:00",
+"cat": "인테리어 지식",
+"url": "https://claude.ai/artifact/Mc45ahb42tEYWkAcARtrPK"
+},
+"toilet_replace": {
+"when": "2026-11-24 10:00",
+"cat": "인테리어 지식",
+"url": "https://claude.ai/artifact/9CMj5oUKwMD4bh1b9F31qy"
+},
+"julnun_mold": {
+"when": "2026-11-14 14:00",
+"cat": "줄눈",
+"url": "https://claude.ai/artifact/QssV4YRN3wXAXMpZL2bT88"
+},
+"kerapoxy": {
+"when": "2026-11-21 10:00",
+"cat": "줄눈",
+"url": "https://claude.ai/artifact/PPBmGwm9rTNeaonsQNSpc3"
+},
+"officetel_jungmun": {
+"when": "2026-11-22 14:00",
+"cat": "중문",
+"url": "https://claude.ai/artifact/NgvHUhTHsvepU91oEw3wuP"
+},
+"shower_faucet": {
+"when": "2026-11-23 14:00",
+"cat": "인테리어 지식",
+"url": "https://claude.ai/artifact/J6kAx7Cgt985oP5F28azkZ"
+},
+"maegyo39": {
+"when": "2026-11-07 10:00",
+"cat": "입주청소",
+"url": "https://claude.ai/artifact/BTLEgfhBbQwUJ4gZ53S6Gn"
+},
+"gunsan": {
+"when": "2026-11-12 10:00",
+"cat": "입주 단지",
+"url": "https://claude.ai/artifact/MtZ1G6M2h69vjyaNLfybiW"
+},
+"deungchon": {
+"when": "2026-11-13 10:00",
+"cat": "줄눈",
+"url": "https://claude.ai/artifact/AAk4EDeSQAsGN7ovvSquUJ"
+},
+"cheongju": {
+"when": "2026-11-15 10:00",
+"cat": "입주청소",
+"url": "https://claude.ai/artifact/Sbj6XPX5hscj1qA3YVyBbh"
+},
+"glass_condense": {
+"when": "2026-11-18 14:00",
+"cat": "결로",
+"url": "https://claude.ai/artifact/RvbVs6qgp8SMvR5t4YUDLU"
+},
+"tangjeong2": {
+"when": "2026-11-19 14:00",
+"cat": "입주 단지",
+"url": "https://claude.ai/artifact/XBeXu937N469Gfr8DkPyXF"
+},
+"baebang": {
+"when": "2026-11-20 14:00",
+"cat": "입주청소",
+"url": "https://claude.ai/artifact/XUCZPdNMYZ4V4nF7azF9YW"
+},
+"yeokbuk": {
+"when": "2026-11-21 14:00",
+"cat": "사전점검",
+"url": "https://claude.ai/artifact/TfqJJ8btgF92u8fctwhd2s"
+},
+"wall_mold": {
+"when": "2026-11-23 10:00",
+"cat": "결로",
+"url": "https://claude.ai/artifact/EsGtBC78D6ckLLaidQgDqb"
+},
+"maypore": {
+"when": "2026-11-24 14:00",
+"cat": "입주 단지",
+"url": "https://claude.ai/artifact/H3CvUFm1rUPmkAWGiDjrg2"
+}
 }
