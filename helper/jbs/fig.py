@@ -38,9 +38,3 @@ d.text((W/2,485),'하남 84㎡ 두 채면',font=kr(ser,62),fill='#F4F1EA',anchor
 d.text((W/2,605),'기준 9억',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'한 채 기준은 12억 · 하남 84㎡ 중앙값 11억 2천',font=kr(san,32),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_jongbuse_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_jongbuse_1_median_v2.png', '한 채로 기준선을 넘는 곳은 과천 · 분당', [('과천시', 238250.0, '23억 8,250만', False), ('성남 분당구', 177000.0, '17억 7,000만', False), ('성남 수정구', 122800.0, '12억 2,800만', False), ('하남시', 112300.0, '11억 2,300만', True), ('광주시', 41500.0, '4억 1,500만', False)], note='종부세 대상 · 경기 동남부 84㎡ 올해 실거래 중앙값')
-print('v2 ok')

@@ -61,10 +61,3 @@ d.text((W/2,490),'시행자 고시 뒤 꿈마을',font=kr(ser,60),fill='#F4F1EA'
 d.text((W/2,600),'거래 13건',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'귀인 · 민백블록 · 2026년 4월 27일~10월',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_pyeongchon_seondo_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_pyeongchon_seondo_1_price_v2.png', '선도지구 10~16% · 밖 구축 21% 올랐다', [('꿈마을 귀인블록|2025년', 4347.0, '4,347만', False), ('꿈마을 귀인블록|2026년 1~10월', 4790.0, '4,790만', False), ('선도지구 밖 동안구 구축|2025년', 3360.0, '3,360만', False), ('선도지구 밖 동안구 구축|2026년 1~10월', 4052.0, '4,052만', True)], note='평촌 재건축 선도지구 3.3㎡당 매매 중앙값 · 2025년과 2026년 1~10월')
-bars('img/nangman_pyeongchon_seondo_2_count_v2.png', '꿈마을 1~3월 39건 → 시행자 고시 뒤 13건', [('꿈마을 1~3월', 39, '39건', False), ('꿈마을 5~10월|시행자 고시 뒤', 13, '13건', True)], note='평촌 선도지구 꿈마을(귀인 · 민백블록) 매매 건수 · 2026년')
-print('v2 ok')

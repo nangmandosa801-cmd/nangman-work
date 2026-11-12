@@ -33,9 +33,3 @@ d.text((W/2,495),'84㎡ 평당 3,200만원이면',font=kr(ser,58),fill='#F4F1EA'
 d.text((W/2,605),'10억 8천',font=kr(ser,92),fill='#D4B04C',anchor='mm')
 d.text((W/2,712),'옆 감일 84㎡ 올해 매매 중앙값 14억 1천',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_gyosan_minbun_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_gyosan_minbun_1_price_v2.png', '평당 3,200만원이어도 감일 매매보다 3억 2천 낮음', [('감일 84㎡ 올해 매매 중앙값', 141000.0, '14억 1,000만', False), ('교산 민간분양 84㎡ 평당 3,200만원 × 34평', 108800.0, '10억 8,800만', True), ('감일 84㎡ 새 세입자 전세', 72000.0, '7억 2,000만', False), ('교산 민간분양 84㎡ 평당 2,000만원 × 34평', 68000.0, '6억 8,000만', False)], note='교산신도시 민간분양 · 보도된 평당 단가를 84㎡로 바꿔 감일 실거래와 나란히')
-print('v2 ok')

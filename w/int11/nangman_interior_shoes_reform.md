@@ -90,8 +90,6 @@ thumb: 중문 시공 | 신발장 리폼 | 스윙도어 중문 | 문틀 자리 �
 **리폼한 신발장도 나중에 원래대로 되돌릴 수 있나요?**
 잘라 낸 문은 되돌리기 어렵습니다. 세 들어 사는 집이라면 집주인 동의를 먼저 받으세요.
 
-[CALL]
-
 ## 같이 보면 좋은 글
 
 - 현관 신발장, 중문을 달 거면 같이 정해야 합니다 · https://blog.naver.com/champion_chart/224422168377
@@ -99,3 +97,6 @@ thumb: 중문 시공 | 신발장 리폼 | 스윙도어 중문 | 문틀 자리 �
 - 비대칭 중문 단점, 별내 포스코더샵은 망입유리와 하부고시로 · https://blog.naver.com/champion_chart/224423485097
 - 현관 가벽 중문 설치, 수원 구축 아파트에 초슬림 3연동 · https://blog.naver.com/champion_chart/224430320746
 - 무타공 중문, 구멍 대신 천장과 바닥을 눌러서 버팁니다 · https://blog.naver.com/champion_chart/224424176442
+- 신축아파트 중문, 3연동 65만원 · 원슬라이딩 55만원부터 · https://blog.naver.com/champion_chart/224462081523
+
+[CALL]

@@ -38,10 +38,10 @@ def platform():
 <p style="font-size:19px;font-weight:700;">{LK('https://blog.naver.com/dong_jin_kim/224377990326','부동산을 데이터로 읽고, 공부한 것을 기록합니다 ›')}</p>
 </td></tr></table>
 <p><br></p>
+<p style="font-size:19px;text-align:center;">▶ <a href="https://blog.naver.com/champion_chart" style="font-weight:700;color:{A};text-decoration:none;border-bottom:1px solid #C7D6E6;">낭만 인테리어 바로 가기 blog.naver.com/champion_chart</a></p>
+<p><br></p>
 '''
 def side(head,items):
-    return ''  # 11/10 사용자 「앞으로 인테리어 링크는 올리면 안됨」 — 낭만 인테리어 상자 · 링크 없음
-def _side_old(head,items):
     o=f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="background-color:#F4F6F9;border-left:4px solid {A};padding:18px 20px;">\n<span style="font-size:16px;color:#7A8590;letter-spacing:1px;">옆 블로그 · 낭만 인테리어</span><br>\n<span style="font-size:19px;font-weight:700;color:{D};">{head}</span><br><br>\n'
     for t,u,s in items: o+=f'<a href="{u}" style="font-size:19px;font-weight:700;color:{A};text-decoration:none;border-bottom:1px solid #C7D6E6;">{t}</a><br>\n<span style="font-size:16px;color:#7A8590;">{s}</span><br><br>\n'
     return o+'</td></tr></table>\n<p><br></p>\n'

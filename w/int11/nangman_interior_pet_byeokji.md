@@ -77,8 +77,6 @@ thumb: 벽지 복구 | 강아지 · 고양이 | 벽지 망가졌을 때 | 다시
 **바닥도 긁혔는데 같이 볼 수 있나요?**
 바닥 긁힘은 매트를 깔아 막는 방법도 있습니다. 반려동물 매트 글을 같이 보세요.
 
-[CALL]
-
 ## 같이 보면 좋은 글
 
 - 고양이 매트 두께, 세 집은 모두 2.2cm를 골랐습니다 · https://blog.naver.com/champion_chart/224444731622
@@ -86,3 +84,6 @@ thumb: 벽지 복구 | 강아지 · 고양이 | 벽지 망가졌을 때 | 다시
 - 강아지 매트 추천, 같은 2.2cm라도 샘플을 눌러 보고 고릅니다 · https://blog.naver.com/champion_chart/224437536765
 - 전세 원상복구, 살면서 낡은 건 세입자 몫이 아닙니다 · https://blog.naver.com/champion_chart/224435839462
 - 벽지 곰팡이 원인, 창가와 모서리면 결로 · https://blog.naver.com/champion_chart/224438517059
+
+[CALL]
+

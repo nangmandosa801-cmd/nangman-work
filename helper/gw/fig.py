@@ -47,10 +47,3 @@ d.text((W/2,465),'84㎡ 분양가',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,590),'5억 9,130만',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,712),'고덕동 84㎡ 올해 중앙값 5억 6,900만',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_godeokwoomi_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_godeokwoomi_1_price_v2.png', '84A 5억 9,130만, 고덕동 중앙값보다 2,230만 높다', [('힐스테이트고덕센트럴|2024년 · 4건', 86000.0, '8억 6,000만', False), ('제일풍경채 2차 에듀|2023년 · 42건', 69000.0, '6억 9,000만', False), ('고덕 우미린 더 프리미어 84A 기준층 분양가', 59130.0, '5억 9,130만', True), ('고덕동 84㎡ 전체|401건', 56900.0, '5억 6,900만', False), ('리슈빌레이크파크|2021년 · 48건', 52350.0, '5억 2,350만', False)], note='고덕 우미린 더 프리미어 분양가 · 고덕동 84㎡ 올해 매매 중앙값과 나란히')
-bars('img/nangman_godeokwoomi_2_floor_v2.png', '4층까지는 고덕동 중앙값 5억 6,900만보다 낮다', [('1층|9세대', 53210, '5억 3,210만', False), ('4층|17세대', 56760, '5억 6,760만', False), ('고덕동 84㎡ 중앙값', 56900, '5억 6,900만', True), ('5~9층|95세대', 57940, '5억 7,940만', False), ('기준층|168세대', 59130, '5억 9,130만', False)], note='고덕 우미린 더 프리미어 84A(309세대) 층별 분양가 · 고덕동 84㎡ 올해 중앙값')
-print('v2 ok')

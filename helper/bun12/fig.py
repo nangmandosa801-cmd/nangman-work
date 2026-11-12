@@ -33,9 +33,3 @@ d.text((W/2,480),'11월 경기',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,600),'1만 1,275가구',font=kr(ser,92),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'평택 고덕 · 의정부 · 안산 · 왕숙 · 부천대장',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_bunyang12_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_bunyang12_1_price_v2.png', '같은 84㎡라도 동네마다 4억 6천~9억 2천', [('남양주 다산동|왕숙 옆', 91950.0, '9억 1,950만', True), ('의정부 의정부동|의정부역 펠리스타워', 84000.0, '8억 4,000만', False), ('안산 상록구|아르뮤제자이', 65000.0, '6억 5,000만', False), ('평택 고덕동|고덕 2곳', 57400.0, '5억 7,400만', False), ('남양주 진접읍|왕숙 옆', 46000.0, '4억 6,000만', False)], note='경기도 분양 예정 아파트 · 그 동네 2020년 이후 지은 84㎡ 올해 매매 중앙값')
-print('v2 ok')

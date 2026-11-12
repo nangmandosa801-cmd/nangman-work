@@ -39,9 +39,3 @@ d.text((W/2,490),'같은 단지 1년 전보다',font=kr(ser,60),fill='#F4F1EA',a
 d.text((W/2,610),'10곳 중 6곳 올랐다',font=kr(ser,84),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'삼성 캠퍼스 0.6km 단지는 그대로',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_godeok_price_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_godeok_price_1_pair_v2.png', '84㎡ 10곳 중 6곳이 올랐습니다', [('리슈빌레이크파크|2025년 7~10월', 53000.0, '5억 3,000만', False), ('리슈빌레이크파크|2026년 7~10월 · 그대로', 53000.0, '5억 3,000만', False), ('호반써밋고덕신도시|2025년 7~10월', 59750.0, '5억 9,750만', False), ('호반써밋고덕신도시|2026년 7~10월 · +12.8%', 67400.0, '6억 7,400만', True)], note='고덕국제신도시 84㎡ 매매 중앙값 · 단지별 숫자는 아래 표')
-print('v2 ok')

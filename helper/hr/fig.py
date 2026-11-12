@@ -52,10 +52,3 @@ d.text((W/2,530),'옆 단지 84㎡ 전세',font=kr(ser,54),fill='#F4F1EA',anchor
 d.text((W/2,640),'2억 5천',font=kr(ser,104),fill='#D4B04C',anchor='mm')
 d.text((W/2,735),'풍경채어바니티 · 올해 72건 중앙값',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_jijeharrington_1_urbanity_v2.png', '입주 뒤 여섯 달, 전세는 2억 5천~2억 6천', [('2월', 25000.0, '2억 5,000만', False), ('3월', 25000.0, '2억 5,000만', False), ('4월', 25000.0, '2억 5,000만', False), ('5월', 26000.0, '2억 6,000만', False), ('7월', 26000.0, '2억 6,000만', True)], note='평택 가재동 지제역반도체밸리풍경채어바니티 · 84㎡ 전세 달별 중앙값(2026년)')
-bars('img/nangman_jijeharrington_2_compare_v2.png', '분양권 4억 7,934만, 옆 단지 전세 2억 5천', [('지제역 주변 아파트 84㎡ 매매', 58000.0, '5억 8,000만', False), ('해링턴플레이스 84㎡ 분양권', 47934.0, '4억 7,934만', True), ('쌍용 더 플래티넘 84㎡ 분양권', 46440.0, '4억 6,440만', False), ('지제역 주변 아파트 84㎡ 전세', 28000.0, '2억 8,000만', False), ('풍경채어바니티 84㎡ 전세', 25000.0, '2억 5,000만', False)], note='지제역 반도체밸리 해링턴플레이스와 지제역 주변 · 84㎡ 2026년 중앙값')
-print('v2 ok')

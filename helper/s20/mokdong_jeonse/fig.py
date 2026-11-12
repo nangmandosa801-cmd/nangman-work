@@ -56,10 +56,3 @@ d.text((W/2,500),'84㎡ 새 세입자',font=kr(ser,64),fill='#F4F1EA',anchor='mm
 d.text((W/2,610),'7억 5천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'대치동 10억보다 2억 5천 낮게',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_mokdong_jeonse_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_mokdong_jeonse_1_danji_v2.png', '같은 84㎡, 4억 9천부터 11억 2,500만까지', [('아이파크|신정동 · 2002', 112500.0, '11억 2,500만', True), ('목동힐스테이트|2016', 98350.0, '9억 8,350만', False), ('롯데캐슬위너|2005', 81500.0, '8억 1,500만', False), ('목동우성2|2000', 55000.0, '5억 5,000만', False), ('푸른마을4|2002', 49000.0, '4억 9,000만', False)], note='목동 전세 시세 · 단지별 84㎡ 새 세입자 전세 중앙값 · 2026년 1~10월')
-bars('img/nangman_mokdong_jeonse_2_month_v2.png', '1월 512건, 2~8월 평균의 1.3배', [('1월', 512.0, '512건', True), ('2월', 382.0, '382건', False), ('5월', 410.0, '410건', False), ('8월', 328.0, '328건', False), ('10월', 238.0, '238건', False)], note='목동 · 신정동 아파트 전세 계약 건수 · 2026년 1~10월')
-print('v2 ok')

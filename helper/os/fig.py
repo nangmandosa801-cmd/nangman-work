@@ -51,10 +51,3 @@ d.text((W/2,490),'옆 단지 84㎡ 전세',font=kr(ser,62),fill='#F4F1EA',anchor
 d.text((W/2,605),'3억 5천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'세교 일대 새 아파트 10곳 · 올해 129건 중앙값',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_osanhildes_1_paragon_v2.png', '첫 두 달 3억 1천~3억 2천, 7월 3억 9천', [('3월', 32000.0, '3억 2,000만', False), ('4월', 31000.0, '3억 1,000만', False), ('5월', 35000.0, '3억 5,000만', False), ('7월', 39000.0, '3억 9,000만', True), ('8월', 38000.0, '3억 8,000만', False)], note='오산 궐동 세교파라곤 · 84㎡ 전세 달별 중앙값(2026년)')
-bars('img/nangman_osanhildes_2_compare_v2.png', '세교 84㎡ 전세 3억 5천, 매매 5억 2천', [('오산 2019년 이후 아파트 84㎡ 매매', 51000.0, '5억 1,000만', False), ('세교 일대 새 아파트 84㎡ 매매', 52350.0, '5억 2,350만', False), ('오산 2019년 이후 아파트 84㎡ 전세', 34000.0, '3억 4,000만', False), ('세교 일대 새 아파트 84㎡ 전세', 35000.0, '3억 5,000만', True)], note='오산 세교 힐데스하임 옆 새 아파트 10곳 · 오산 전체와 나란히')
-print('v2 ok')

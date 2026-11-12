@@ -82,8 +82,6 @@ thumb: 결로 · 곰팡이 | 벽지 곰팡이 | 제거 | 들뜬 벽지 뒤가 | 
 **곰팡이 제거는 얼마나 걸리나요?**
 방 하나는 약을 바르고 말리는 시간까지 보통 하루 안팎입니다. 도배는 벽이 다 마른 뒤에 합니다.
 
-[CALL]
-
 ## 같이 보면 좋은 글
 
 - 벽지 곰팡이 원인, 창가와 모서리부터 피면 결로이고 아래쪽 한 줄이면 누수 · https://blog.naver.com/champion_chart/224438517059
@@ -91,3 +89,6 @@ thumb: 결로 · 곰팡이 | 벽지 곰팡이 | 제거 | 들뜬 벽지 뒤가 | 
 - 군포 곰팡이 제거, 장 뒤 벽까지 이보드 단열 · https://blog.naver.com/champion_chart/224452126321
 - 드레스룸 곰팡이, 제습기로 안 되면 단열재부터 · https://blog.naver.com/champion_chart/224435659453
 - 대구 단열 시공, 1헤베 10만원 선 · https://blog.naver.com/champion_chart/224456973595
+- 결로방지 페인트, 칠해도 곰팡이가 다시 피는 집 · https://blog.naver.com/champion_chart/224436506476
+
+[CALL]

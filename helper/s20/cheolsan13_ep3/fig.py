@@ -42,9 +42,3 @@ d.text((W/2,465),'73㎡ 조합원이 새 84㎡로 갈 때',font=kr(ser,52),fill=
 d.text((W/2,600),'감정가 60 · 70 · 80%',font=kr(ser,86),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'2억 7,827만부터 돌려받는 경우까지 · 예시 계산서',font=kr(san,32),fill='#AFC0D8',anchor='mm')
 im.save('img/'+S+'thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_cheolsan13_ep3_1_bundam_v2.png', '새 84㎡ 분담금, 감정가 70%면 1억 3,798만', [('감정가 60%|7억 6,800만', 2.783, '2억 7,827만', False), ('감정가 70%|8억 9,600만', 1.38, '1억 3,798만', True), ('감정가 80%|10억 2,400만', 0, '230만 돌려받음', False)], note='철산주공13단지 새 84㎡ · 조합원 분양가 11억 2,000만')
-print('v2 ok')

@@ -66,9 +66,3 @@ d.text((W/2,500),'84㎡ 올해 매매',font=kr(ser,64),fill='#F4F1EA',anchor='mm
 d.text((W/2,605),'6억 5천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'송도동 전체 84㎡는 7억 3천',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_songdo8_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_songdo8_2_danji_v2.png', '송도SKVIEW만 7억대, 나머지 다섯 곳은 6억대', [('송도오션파크베르디움', 6.2, '6.20억', False), ('랜드마크시티센트럴더샵', 6.4, '6.40억', False), ('e편한세상송도', 6.43, '6.43억', False), ('더샵송도마리나베이', 6.5, '6.50억', False), ('송도SKVIEW', 7.195, '7.20억', True)], note='송도 8공구 84㎡ 단지별 매매 중앙값 · 2026년 1~10월')
-print('v2 ok')

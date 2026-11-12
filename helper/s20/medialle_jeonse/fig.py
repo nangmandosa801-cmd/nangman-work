@@ -65,10 +65,3 @@ d.text((W/2,480),'59㎡ 전세',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,600),'5억 중반',font=kr(ser,110),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'옆 새 아파트 59㎡ 새 세입자 6억 5천',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{P}thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_medialle_jeonse_1_59_v2.png', '옆 새 아파트 6억 3천~6억 5천 · 메디알레 5억 중반', [('녹번역 e편한세상캐슬|2021', 65000.0, '6억 5천', False), ('힐스테이트 녹번|2019', 63500.0, '6억 3,500', False), ('DMC 아트포레자이|2026', 64000.0, '6억 4천', True), ('DMC 파인시티자이|2025', 65000.0, '6억 5천', False), ('DMC SK뷰 아이파크포레|2025', 63000.0, '6억 3천', False)], note='힐스테이트 메디알레 전세 · 은평구 새 아파트 59㎡ 새 세입자 전세 중앙값')
-bars('img/nangman_medialle_jeonse_2_84_v2.png', '메디알레 84㎡ 호가 7억~9억 · 옆 단지 계약 7억~8억', [('녹번역 e편한세상캐슬', 80000.0, '8억', False), ('힐스테이트 녹번역', 79000.0, '7억 9천', False), ('DMC 아트포레자이', 76000.0, '7억 6천', False), ('DMC SK뷰 아이파크포레', 70000.0, '7억', False), ('센트레빌 아스테리움 시그니처', 59500.0, '5억 9,500', True)], note='힐스테이트 메디알레 전세 · 은평구 새 아파트 84㎡ 새 세입자 전세 중앙값')
-print('v2 ok')

@@ -64,10 +64,3 @@ d.text((W/2,490),'동탄역 앞 시범단지',font=kr(ser,60),fill='#F4F1EA',anc
 d.text((W/2,605),'6억 5천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'외곽 순환대로 쪽은 4억 3천',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_dongtan_jeonse_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_dongtan_jeonse_1_pair_v2.png', '같은 이름 단지, 역 앞과 외곽은 1억 6,500만~2억 3,500만 차이', [('호반써밋|역 앞 · 시범', 64500.0, '6억 4,500만', False), ('호반써밋|외곽 · 순환대로', 48000.0, '4억 8,000만', False), ('반도유보라 아이비파크|역 앞 · 시범 1.0', 68500.0, '6억 8,500만', True), ('반도유보라 아이비파크|외곽 · 순환대로 2.0', 45000.0, '4억 5,000만', False)], note='동탄 아파트 전세 시세 · 84㎡ 새 세입자 전세 중앙값 · 2026년 1~10월')
-bars('img/nangman_dongtan_jeonse_2_road_v2.png', '매매는 5억 4천 차이, 전세는 2억 2천 차이', [('동탄역 앞|매매', 125000.0, '12억 5,000만', False), ('외곽 순환|매매', 70800.0, '7억 800만', False), ('동탄역 앞|새 세입자 전세', 65000.0, '6억 5,000만', True), ('외곽 순환|새 세입자 전세', 43000.0, '4억 3,000만', False)], note='동탄2 도로별 84㎡ 새 세입자 전세와 매매 · 2026년 1~10월 중앙값')
-print('v2 ok')

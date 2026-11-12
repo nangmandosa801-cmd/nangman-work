@@ -34,9 +34,3 @@ d.text((W/2,490),'새 84㎡ 조합원 분양가',font=kr(ser,60),fill='#F4F1EA',
 d.text((W/2,605),'11억 2천',font=kr(ser,100),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'조합 추정 · 지금 84㎡ 거래는 15억 3천',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/'+S+'thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_cheolsan13_1_count_v2.png', '2026년 1~4월 46건, 조합설립인가(4월 29일) 뒤 13건', [('2026년 1~4월|조합설립인가 전', 46, '46건', False), ('인가 뒤 ~ 9월|4월 29일 인가', 13, '13건', True)], note='철산주공13단지 매매 건수')
-print('v2 ok')

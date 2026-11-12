@@ -65,10 +65,3 @@ d.text((W/2,495),'84㎡ 1년 새',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,605),'+2억 3천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'중앙값 11억 8천 → 14억 1천',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_gamilsise_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-cards3('img/nangman_gamilsise_1_flow_v2.png', '값은 11억대에서 14억대로, 거래는 한 달 10건 안팎으로', [('11.3억', '2025년 1월', False, '84㎡ 매매 중앙값'), ('14.3억', '2026년 10월', True, '84㎡ 매매 중앙값'), ('4건', '2026년 10월 거래', False, '2025년 9월은 58건')], note='감일동 84㎡ 매매 · 월별 중앙값과 거래 건수')
-bars('img/nangman_gamilsise_2_danji_v2.png', '아홉 단지 모두 올랐고 오른 폭은 2억 2천~3억', [('힐스테이트포웰시티|2025년', 13.125, '13.1억', False), ('힐스테이트포웰시티|2026년 · +3.0억', 16.15, '16.1억', True), ('감일푸르지오마크베르|2025년', 11.5, '11.5억', False), ('감일푸르지오마크베르|2026년 · +2.2억', 13.7, '13.7억', False)], note='감일동 단지별 84㎡ 매매 중앙값 · 아홉 단지는 본문 표')
-print('v2 ok')

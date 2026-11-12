@@ -61,9 +61,3 @@ d.text((W/2,495),'감일역 500m 안 84㎡',font=kr(ser,62),fill='#F4F1EA',ancho
 d.text((W/2,605),'1억 1천 더',font=kr(ser,92),fill='#D4B04C',anchor='mm')
 d.text((W/2,712),'500m 안 14억 7천 · 바깥 13억 6천',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_songpahanam_route_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_songpahanam_route_2_pair_v2.png', '감일은 3천만~3억 1,500만, 하남시청역은 1억 3,700만~2억 8,500만', [('힐스테이트포웰시티|감일 · 역까지 180m', 161500.0, '16억 1,500만', True), ('감일센트레빌|감일 · 역까지 980m', 130000.0, '13억', False), ('에코타운(B블럭)|하남시청역 420m', 99000.0, '9억 9,000만', False), ('한솔리치빌(1단지)|하남시청역 1.2km', 70500.0, '7억 500만', False)], note='송파하남선 역 500m 안과 바깥 · 비슷한 해에 지은 단지끼리 84㎡ 올해 매매 중앙값')
-print('v2 ok')

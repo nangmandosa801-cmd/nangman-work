@@ -52,10 +52,3 @@ d.text((W/2,490),'옆 새 아파트 84㎡ 전세',font=kr(ser,60),fill='#F4F1EA'
 d.text((W/2,605),'3억 7천',font=kr(ser,96),fill='#D4B04C',anchor='mm')
 d.text((W/2,715),'탕정 · 배방 새 아파트 올해 296건 중앙값',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_tangjeong2_1_centum_v2.png', '1~3월 3억 5천~3억 6천, 4월 4억', [('1월', 35000.0, '3억 5,000만', False), ('2월', 35000.0, '3억 5,000만', False), ('3월', 36000.0, '3억 6,000만', False), ('4월', 40000.0, '4억', True)], note='아산 배방읍 세교리 힐스테이트자이아산센텀 · 84㎡ 전세 달별 중앙값(2026년)')
-bars('img/nangman_tangjeong2_2_compare_v2.png', '84㎡ 전세 3억 7천, 70㎡대 전세 2억 8천', [('84㎡ 분양가|더샵 탕정인피니티시티 2차', 49000.0, '4억 7,110만~4억 9,000만', False), ('탕정 · 배방 새 아파트 84㎡ 매매', 57400.0, '5억 7,400만', False), ('탕정 · 배방 새 아파트 84㎡ 전세', 37000.0, '3억 7,000만', True), ('70㎡ 분양가|더샵 탕정인피니티시티 2차', 41200.0, '4억 100만~4억 1,200만', False), ('탕정 · 배방 새 아파트 70㎡대 전세', 28000.0, '2억 8,000만', False)], note='더샵 탕정인피니티시티 2차 분양가와 옆 새 아파트 올해 실거래 중앙값')
-print('v2 ok')

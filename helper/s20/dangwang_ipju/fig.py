@@ -51,10 +51,3 @@ d.text((W/2,535),'옆 단지 84㎡ 전세',font=kr(ser,46),fill='#AFC0D8',anchor
 d.text((W/2,640),'2억 5천',font=kr(ser,104),fill='#D4B04C',anchor='mm')
 d.text((W/2,735),'2023~2024년 입주 옆 새 아파트 4곳 · 올해 86건 중앙값',font=kr(san,32),fill='#AFC0D8',anchor='mm')
 im.save(f'img/{S}thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_dangwang_ipju_1_bunyang_v2.png', '2년 넘게 4억 6천~4억 8천 안에서 신고됐다', [('2024년 8월', 46800.0, '4억 6,800만', False), ('2025년 6월', 47790.0, '4억 7,790만', False), ('2026년 2월', 48780.0, '4억 8,780만', True), ('2026년 8월', 46350.0, '4억 6,350만', False), ('2026년 11월', 46800.0, '4억 6,800만', False)], note='안성당왕 경남아너스빌 하이스트 · 84㎡ 분양권 신고 11건(해제 없음)')
-bars('img/nangman_dangwang_ipju_2_wolse_v2.png', '올해 입주한 단지는 10건 중 7~8건이 월세', [('올해 입주한 새 아파트 2곳|공도 진사리 · 양기리', 75.5, '76%', True), ('2023~2024년 입주 4곳 합계|당왕 · 아양 · 공도', 45.1, '45%', False), ('e편한세상안성그랑루체|당왕동 · 2024년', 71.1, '71%', False), ('쌍용더플래티넘프리미어|공도 승두리 · 2023년', 38.7, '39%', False)], note='안성 새 아파트 2026년 임대 계약 중 월세 비율')
-print('v2 ok')
