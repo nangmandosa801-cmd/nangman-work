@@ -1,42 +1,15 @@
-import matplotlib; matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-plt.rcParams['font.family']='Noto Sans CJK KR'
-NAVY='#1F3864'; BLUE='#2E5C8A'; GRAY='#A9B4C2'
+import sys
+sys.path.insert(0,'/home/claude/helper/pg')
+from fig2d import bars, cards3
 S='nangman_hakgun_ep1_'
-# 그림 1: 대치동 84㎡ 새 세입자 전세 · 입주 달별 건수 (2024~2025년 계약 605건)
-M=['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월']
-V=[58,140,46,20,26,39,55,53,41,37,26,64]
-fig=plt.figure(figsize=(11.55,7.6),dpi=120); fig.patch.set_facecolor('white')
-fig.text(0.045,0.955,'대치동 84㎡ 새 세입자 전세 605건 · 입주 달별 건수 · 2024~2025년 계약',fontsize=16,color=BLUE,va='top')
-fig.text(0.045,0.905,'2월 입주 140건, 넷 중 하나',fontsize=28,color=NAVY,fontweight='bold',va='top')
-ax=fig.add_axes([0.07,0.13,0.9,0.66])
-cols=[GRAY,NAVY]+[GRAY]*10
-ax.bar(range(12),V,color=cols,width=0.62)
-for i,v in enumerate(V): ax.text(i,v+2.5,f'{v}',ha='center',fontsize=15,color=NAVY,fontweight='bold')
-ax.set_xticks(range(12)); ax.set_xticklabels(M,fontsize=14,color='#333')
-ax.set_ylim(0,160); ax.set_yticks([])
-for s in ['top','right','left']: ax.spines[s].set_visible(False)
-ax.spines['bottom'].set_color('#C8D2DE')
-ax.text(1,150,'새 학기 전 입주',ha='center',fontsize=14,color=NAVY)
-fig.text(0.045,0.03,'국토교통부 아파트 전월세 실거래(서울 강남구 대치동 · 전용 83~86㎡ · 월세 없는 새 세입자 계약 · 입주 달은 신고서의 계약 기간 시작 달)',fontsize=12,color='#8A8578')
-fig.savefig('img/'+S+'1_movein.png'); plt.close()
-
-# 그림 2: 2월 입주 몫 · 학군 동과 같은 구 비학군 동
-R=[('대치동',23.1,True),('세곡 · 자곡 · 율현',8.8,False),('중계동',18.0,True),('하계동',13.7,False),('반포동',16.4,True),('방배동',12.7,False),('목동',15.0,True),('신월동',11.0,False)]
-fig=plt.figure(figsize=(11.55,8.2),dpi=120); fig.patch.set_facecolor('white')
-fig.text(0.045,0.96,'84㎡ 새 세입자 전세 가운데 2월에 입주한 계약의 몫 · 2024~2025년 계약',fontsize=16,color=BLUE,va='top')
-fig.text(0.045,0.915,'학군 동 15~23%, 같은 구 비학군 동 9~14%',fontsize=28,color=NAVY,fontweight='bold',va='top')
-ax=fig.add_axes([0.26,0.08,0.68,0.76])
-ys=list(range(len(R)))[::-1]
-ax.barh(ys,[v for _,v,_ in R],color=[NAVY if s else GRAY for _,_,s in R],height=0.62)
-ax.set_yticks(ys); ax.set_yticklabels([a for a,_,_ in R],fontsize=15,color='#333')
-for y,(_,v,s) in zip(ys,R): ax.text(v+0.4,y,f'{v}%',va='center',fontsize=15,color=NAVY if s else '#555',fontweight='bold')
-ax.set_xlim(0,27); ax.set_xticks([])
-for s in ['top','right','bottom']: ax.spines[s].set_visible(False)
-ax.spines['left'].set_color('#C8D2DE')
-fig.text(0.045,0.025,'국토교통부 아파트 전월세 실거래 · 전용 83~86㎡ · 월세 없는 새 세입자 계약 · 남색은 학군 동, 회색은 같은 구 안 비학군 동 · 목동 신시가지는 84㎡가 없어 빠짐',fontsize=12,color='#8A8578')
-fig.savefig('img/'+S+'2_feb.png'); plt.close()
-
+# 그림 1: 대치동 84㎡ 새 세입자 전세 · 입주 달별 건수(605건 가운데 겨울~봄 다섯 달 · 열두 달 전체는 본문)
+bars('img/'+S+'1_movein.png','대치동 전세 넷 중 하나는 2월에 입주했습니다',
+     [('12월',64,'64건',False),('1월',58,'58건',False),('2월',140,'140건',True),('3월',46,'46건',False),('4월',20,'20건',False)],
+     note='대치동 84㎡ 새 세입자 전세 605건 · 2024~2025년 계약 · 입주 달 = 계약 기간 시작 달 · 국토교통부 전월세 실거래')
+# 그림 2: 2월 입주 몫 · 학군 동과 같은 구 비학군 동(목동 · 신월동은 본문 표)
+cards3('img/'+S+'2_feb.png','2월 입주 몫, 학군 동이 같은 구 다른 동보다 높았습니다',
+     [('23.1%','대치동',True,'세곡 · 자곡 · 율현동 8.8%'),('18.0%','중계동',False,'하계동 13.7%'),('16.4%','반포동',False,'방배동 12.7%')],
+     note='84㎡ 새 세입자 전세 가운데 2월에 입주한 계약 · 2024~2025년 계약 · 국토교통부 전월세 실거래')
 from PIL import Image,ImageDraw,ImageFont
 def kr(p,s):
     for i in range(10):

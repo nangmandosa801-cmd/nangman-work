@@ -40,3 +40,10 @@ for i,(m,nm,v) in enumerate(R):
 ax.set_xlim(0,2500); ax.set_ylim(0.3,n+0.6)
 fig.text(0.045,0.035,'남색은 1,000세대 넘는 큰 단지 · 입주 시작 달은 청약홈 · 모집공고 기준 · 실제 입주지정기간은 단지 공지 확인',fontsize=14,color='#8A8578')
 fig.savefig('img/nangman_pyeongtaek_2_ipju.png'); plt.close()
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_pyeongtaek_1_2024_v2.png', '고덕은 2년 만에 30% 넘게, 서정동은 그대로', [('고덕 힐스테이트 고덕스카이시티 84㎡|2년 전 입주장', 2.8, '2억 8,000만', False), ('고덕 힐스테이트 고덕스카이시티 84㎡|올해 새 세입자', 3.75, '3억 7,500만', True), ('서정동 힐스테이트 평택 더퍼스트 84㎡|2년 전 입주장', 2.8, '2억 8,000만', False), ('서정동 힐스테이트 평택 더퍼스트 84㎡|올해 새 세입자', 2.8, '2억 8,000만', False)], note='평택 2024년 입주 단지 전세 · 다른 단지는 본문 표')
+bars('img/nangman_pyeongtaek_2_ipju_v2.png', '넉 달 동안 약 9천 세대가 열쇠를 받습니다', [('2026년 11월|2곳', 1604, '1,604세대', False), ('2027년 1월|2곳', 2522, '2,522세대', False), ('2027년 2월|3곳', 4848, '4,848세대', True)], note='평택 입주 시작 단지 7곳')
+print('v2 ok')

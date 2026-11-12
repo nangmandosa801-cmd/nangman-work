@@ -9,7 +9,7 @@ def H(t): return (f'<table width="693" style="width:100%;min-width:693px;border-
 import json as _j
 _U=_j.load(open('urls.json')) if __import__('os').path.exists('urls.json') else {}
 def IMG(fn,cap):
-    k=fn.replace('nangman_guseong_','').replace('.png','')
+    k=fn.replace('nangman_gyosan_','').replace('.png','')
     if k not in _U: return f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border:1px dashed #9FB3C8;padding:14px;text-align:center;"><span style="font-size:17px;color:#1F3864;">[그림] {fn} — {cap}</span></td></tr></table>\n<p><br></p>\n'
     return f'<p style="text-align:center;"><img src="{_U[k]}" alt="{cap}" width="693" style="width:100%;max-width:693px;"></p>\n<p style="font-size:17px;color:#7A8590;text-align:center;">{cap}</p>\n<p><br></p>\n'
 def NOTE(t): return f'<p style="font-size:18px;color:#8A8578;">{t}</p>\n<p><br></p>\n'

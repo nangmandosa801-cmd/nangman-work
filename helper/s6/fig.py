@@ -54,3 +54,10 @@ d.text((W/2,500),'84㎡ 137곳 중',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,590),'새 아파트는 두 곳',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,700),'2026년 실거래 · 서울과 고양 비교',font=kr(san,36),fill='#D4B04C',anchor='mm')
 im.save('img/nangman_seoul6eok_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_seoul6eok_1_year_v2.png', '137곳 가운데 2015년 이후는 두 곳', [('1989년 전', 6.0, '6곳', False), ('1990년대', 51.0, '51곳', False), ('2000년대', 77.0, '77곳', False), ('2010~14년', 1.0, '1곳', False), ('2015년 이후', 2.0, '2곳', True)], note='서울 84㎡ 매매 중앙값 6억대 단지 · 지은 해별')
+cards3('img/nangman_seoul6eok_2_three_v2.png', '서울 새 59㎡ · 서울 오래된 84㎡ · 고양 새 84㎡', [('6.5억', '서울 새 59㎡', False, '홍은동 HDX휴팰리스 2018'), ('6.1억', '서울 오래된 84㎡', False, '도봉동 한신 1995'), ('6.38억', '고양 새 84㎡', True, '중산동 일산센트럴아이파크 2018')], note='같은 6억대로 고를 수 있는 세 가지 · 단지 목록은 본문 표')
+print('v2 ok')
