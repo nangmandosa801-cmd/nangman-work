@@ -11,12 +11,10 @@ def interview(head,body):
 <p><br></p>
 '''
 def related(items):
-    # 11/12 규칙: 「같이 보면 좋은 글」 한 블록 · 글 맨 끝 · 3~5개 · 「▶ 제목」(첫 구절 30자 안) · 줄 사이 빈 줄 · 설명 줄 · 번호 · 표 없음
-    import sys, os; sys.path.insert(0, '/home/claude/tools/postkit'); from tailrule import short
-    items = [x for x in items if x and x[1]][:5]
-    o=f'<p style="font-size:24px;font-weight:700;color:{D};">같이 보면 좋은 글</p>\n<p><br></p>\n'
-    for t,u,*_ in items:
-        o+=f'<p style="font-size:19px;">▶ {LK(u, short(t))}</p>\n<p><br></p>\n'
+    o=f'<p style="font-size:27px;font-weight:700;color:{D};">함께 보면 좋은 글</p>\n<p><br></p>\n'
+    for t,u,s in items:
+        tt=LK(u,t) if u else f'<span style="color:{A};">{t}</span>'
+        o+=f'<p style="font-size:19px;font-weight:700;">{tt}<br>\n<span style="font-size:17px;color:#7A8590;">{s}</span></p>\n<p><br></p>\n'
     return o
 def platform():
     return f'''<p><br></p>
