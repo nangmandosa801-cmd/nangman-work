@@ -37,8 +37,8 @@ rows=[('평택 고덕동','11곳 · 308건','5억 7,400만','고덕엘리스트 
       ('부천 오정구','4곳 · 5건','5억','부천대장 하우스토리 디센트')]
 o.append(TABLE(['동네','단지 · 거래','84㎡ 중앙값','분양 예정 단지'],rows,["24%","20%","22%","34%"]))
 o.append(NOTE('자료: 국토교통부 아파트 매매 실거래(2026년 1~10월 계약 · 전용 83~86㎡ · 2020년 이후 지은 아파트 · 해제 거래 뺌) · 중앙값은 거래를 값 순서로 세웠을 때 한가운데 값'))
-o.append(P('분양 계약 때는 중문 · 발코니 같은 옵션도 같이 고릅니다. 옵션으로 넣는 값과 입주 뒤 따로 다는 값은 차이가 납니다.'))
-# 11/10 낭만 인테리어 링크 금지 — 뺌: o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">분양 계약 때 고르는 옵션 → '+LK(C+'224456963914','입주박람회 장점 단점, 옵션 중문 121만원 vs 따로 달면 65만원')+'</span></td></tr></table>\n<p><br></p>\n')
+o.append(P('분양 계약 때는 중문 · 발코니 같은 옵션도 같이 고릅니다. 옵션으로 넣는 값과 입주 뒤 따로 다는 값은 차이가 납니다. 같은 중문을 두고 비교한 숫자는 낭만 인테리어에 있습니다.'))
+o.append(f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-top:1px solid #C7D6E6;border-bottom:1px solid #C7D6E6;padding:14px 18px;"><span style="font-size:19px;color:{D};">분양 계약 때 고르는 옵션 → '+LK(C+'224456963914','입주박람회 장점 단점, 옵션 중문 121만원 vs 따로 달면 65만원')+'</span></td></tr></table>\n<p><br></p>\n')
 
 o.append(H('평택 고덕 분양, 옆 새 아파트는 얼마인가요?'))
 o.append(P(f'고덕동 새 아파트 84㎡ 올해 중앙값은 {B("5억 7,400만원")}입니다. 거래가 많은 단지는 대광로제비앙THEART 50건 5억 2,500만원, 리슈빌레이크파크 48건 5억 2,350만원입니다. 2024년 지은 힐스테이트고덕센트럴은 4건 8억 6,000만원입니다.'))

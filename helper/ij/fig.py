@@ -61,10 +61,3 @@ d.text((W/2,500),'한도',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,610),'6억',font=kr(ser,120),fill='#D4B04C',anchor='mm')
 d.text((W/2,720),'노량진 84㎡ 새 전세는 7억 9천',font=kr(san,36),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_ijubi_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_ijubi_1_jeonse_v2.png', '6억으로 84㎡를 구하는 곳은 방화3구역 근처뿐', [('노량진3구역 근처 84㎡', 79000.0, '7억 9,000만', False), ('북아현2구역 근처 84㎡', 97000.0, '9억 7,000만', False), ('방화3구역 근처 84㎡', 50000.0, '5억', True)], note='재개발 이주비대출 한도 6억 · 구역 근처 아파트 올해 새 전세 중앙값')
-bars('img/nangman_ijubi_2_share_v2.png', '노량진 · 북아현은 10건 중 1건 정도', [('노량진3구역 근처|345건 중 39건', 11.304, '11%', False), ('북아현2구역 근처|176건 중 15건', 8.523, '9%', False), ('방화3구역 근처|63건 중 57건', 90.476, '90%', True)], note='재개발 이주비 6억 · 근처 84㎡ 올해 새 전세 가운데 6억 이하 계약')
-print('v2 ok')

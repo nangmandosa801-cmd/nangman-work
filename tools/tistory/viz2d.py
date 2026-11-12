@@ -222,64 +222,6 @@ def thumb(path, values=None, hi=-1):
     return path
 
 
-# ------------------------------------------------------------------ 표 그림 (11/12)
-def table(head, header, rows, path, hl=None, note=None, widths=None):
-    """본문 표를 그림으로 · 좌우 꽉 차게(폭 1200) · 행 8개까지.
-    header=[칸 이름] · rows=[[칸 …]] · hl=강조할 행 번호 목록(첫 칸 파랑 굵게 · 옅은 회색 면) · widths=칸 비율 목록"""
-    import re as _re
-    clean = lambda t: _re.sub(r'<[^>]+>', '', _re.sub(r'<br\s*/?>', '\n', str(t))).replace('&nbsp;', ' ').replace('&amp;', '&').strip()
-    header = [clean(h) for h in header]; rows = [[clean(c) for c in r] for r in rows]
-    if len(rows) > 8: raise ValueError('표 그림은 8행까지')
-    nc = len(header); hl = set(hl or [])
-    ws = [float(str(w).rstrip('%')) for w in widths] if widths and len(widths) == nc else [1.0] * nc
-    tot = sum(ws); X0 = 40; TW = W - 80; cw = [TW * w / tot for w in ws]
-    xs = [X0 + sum(cw[:i]) for i in range(nc)]
-    im, dr = _canvas(10); top = _head(dr, head)
-    hs = 22; fh = _f(hs, True); bs = 24 if nc <= 4 else 22
-    def lay(r, f, sz):
-        ls = [_wrap(dr, c, f, cw[j] - 28) for j, c in enumerate(r)]
-        return ls, max(len(l) for l in ls) * sz * 1.32 + 30
-    hl_, hh = lay(header, fh, hs)
-    body = []
-    for i, r in enumerate(rows):
-        f = _f(bs, True) if i in hl else _f(bs, False)
-        body.append(lay(r, f, bs) + (f,))
-    y0 = top + 44; H = y0 + hh + sum(b[1] for b in body) + (96 if note else 56)
-    im, dr = _canvas(H); _head(dr, head)
-    dr.rectangle([X0 * S, y0 * S, (X0 + TW) * S, (y0 + hh) * S], fill=INK)
-    for j, l in enumerate(hl_):
-        _lines(dr, xs[j] + cw[j] / 2, y0 + 15, l, fh, hs, BG, 1.32)
-    y = y0 + hh
-    for i, (ls, rh, f) in enumerate(body):
-        on = i in hl
-        if on: dr.rectangle([X0 * S, y * S, (X0 + TW) * S, (y + rh) * S], fill=CARD)
-        for j, l in enumerate(ls):
-            col = (ACC if on else INK) if j == 0 else INK
-            num = bool(_re.match(r'^[\d+\-−~.,]', rows[i][j])) or rows[i][j] in ('-', '—')
-            if j == 0 or not num: _lines(dr, xs[j] + 16, y + 15, l, f, bs, col, 1.32, 'lt')
-            else: _lines(dr, xs[j] + cw[j] - 16, y + 15, l, f, bs, col, 1.32, 'rt')
-        y += rh
-        dr.line([X0 * S, y * S, (X0 + TW) * S, y * S], fill=LINE, width=2 * S)
-    dr.line([X0 * S, y * S, (X0 + TW) * S, y * S], fill=GRAY, width=3 * S)
-    _note(dr, note, H - 64)
-    return _save(im, path)
-
-
-# ------------------------------------------------------------------ 이것만 보세요 카드 (11/12)
-def one(head, line, path, label='이것만 보세요', note=None):
-    """써먹을 한 가지 한 줄 카드. head=결론 한 줄 · line=본문 문장(두세 줄까지)"""
-    im, dr = _canvas(10); top = _head(dr, head)
-    f, ls, sz = _fit(dr, line, W - 240, [40, 36, 32, 30], True, 4)
-    bh = 110 + len(ls) * sz * 1.4 + 50; y0 = top + 44; H = y0 + bh + (96 if note else 56)
-    im, dr = _canvas(H); _head(dr, head)
-    dr.rounded_rectangle([60 * S, y0 * S, (W - 60) * S, (y0 + bh) * S], radius=20 * S, fill=CARD)
-    dr.rectangle([60 * S, (y0 + 30) * S, 68 * S, (y0 + bh - 30) * S], fill=ACC)
-    _text(dr, 110, y0 + 44, label, _f(26, True), ACC, 'lt')
-    _lines(dr, 110, y0 + 104, ls, f, sz, INK, 1.4, 'lt')
-    _note(dr, note, H - 64)
-    return _save(im, path)
-
-
 if __name__ == '__main__':
     import os
     d = '/tmp/viz2d_test'; os.makedirs(d, exist_ok=True)

@@ -4,7 +4,7 @@ import sys,os,re,glob
 sys.path.insert(0,'/home/claude/tools/postkit')
 from vary import vary
 LED='/home/claude/낭만인테리어_사진번호.md'; IMG='/home/claude/w/int11/img'; os.makedirs(IMG,exist_ok=True)
-NAME={'door-diy777':'펠리체 중문','flowhc':'플로우홈케어 설비','lmg4455':'엘엠지 줄눈','specialcoking':'스페셜코킹','febric_cleaning':'패브릭클리닝','amrita2580':'오렌지 입주청소','dd2homecare':'단디홈케어'}
+NAME={'user':'낭만 인테리어 현장','door-diy777':'펠리체 중문','flowhc':'플로우홈케어 설비','lmg4455':'엘엠지 줄눈','specialcoking':'스페셜코킹','febric_cleaning':'패브릭클리닝','amrita2580':'오렌지 입주청소','dd2homecare':'단디홈케어'}
 from PIL import Image
 def crop_logo(path,blog):
     # 플로우홈케어 사진은 오른쪽 아래 로고를 잘라 냄
