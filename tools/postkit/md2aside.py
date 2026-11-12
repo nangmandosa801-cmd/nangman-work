@@ -6,6 +6,8 @@
   01.jpg 썸네일(대표) · 02.jpg~ 본문 사진과 표 그림을 나오는 순서대로 · <이름>.html(모양 그대로 · 「▼ 사진 NN.jpg」 표시)
 --up : 드라이브 「블로그/협업/4_어사이드/원고/<이름>/」에 폴더째 올림(같은 이름은 바꿔 끼움)"""
 import sys, os, re, shutil, subprocess, base64, html as H, json
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from tailrule import short
+in_tail = [False, 0]
 md = sys.argv[1]; name = os.path.splitext(os.path.basename(md))[0]
 OUT = f'/home/claude/w/aside_pkg/{name}'; shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
 raw = open(md, encoding='utf8').read(); head, body = raw.split('\n---\n', 1); m = {}
@@ -72,7 +74,10 @@ for blk in re.split(r'\n\s*\n', body.strip()):
             if not all(re.fullmatch(r':?-{2,}:?', c) for c in cs): tbl.append(cs)
             continue
         flush()
-        if ln.startswith('## '): parts.append(f'<h2 style="font-size:22px;color:#1d3d5c;margin:30px 0 10px">{inline(ln[3:])}</h2>')
+        if ln.startswith('## '):
+            in_tail[0] = ln[3:].strip().startswith(('같이 보면', '함께 보면'))
+            if in_tail[0]: parts.append('<p><b>같이 보면 좋은 글</b></p>' + GAP)
+            else: parts.append(f'<h2 style="font-size:22px;color:#1d3d5c;margin:30px 0 10px">{inline(ln[3:])}</h2>')
         elif ln.startswith('!='):
             n[0] += 1; shutil.copy(ln[2:].strip(), f'{OUT}/{n[0]:02d}.jpg')
             parts.append(mark(n[0]) + f'<img src="{b64(f"{OUT}/{n[0]:02d}.jpg")}" style="max-width:100%">')
@@ -81,7 +86,11 @@ for blk in re.split(r'\n\s*\n', body.strip()):
             ncall[0] += 1; parts.append(banner('banner_mid.png' if ncall[0] == 1 else f'banner_mid{ncall[0]}.png', ln[7:].strip()))
         elif ln.startswith('- '):
             mm = re.match(r'(.+?) · (https?://\S+)$', ln[2:])
-            parts.append(f'<p>· <a href="{mm.group(2)}">{H.escape(mm.group(1))}</a></p>' if mm else f'<p>· {inline(ln[2:])}</p>')
+            if mm and in_tail[0]:
+                in_tail[1] += 1
+                if in_tail[1] <= 5: parts.append(f'<p>▶ <a href="{mm.group(2)}">{H.escape(short(mm.group(1)))}</a></p>' + GAP)
+            else:
+                parts.append(f'<p>· <a href="{mm.group(2)}">{H.escape(mm.group(1))}</a></p>' if mm else f'<p>· {inline(ln[2:])}</p>')
         elif ln: parts.append(f'<p>{inline(ln)}</p>')
     flush()
     if parts and parts[-1].startswith('<p') and '▼' not in parts[-1][:80]: parts.append(GAP)
@@ -90,7 +99,8 @@ parts.append('<p style="color:#2f5d8a">' + ' '.join('#' + x.replace(' ', '') for
 doc = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{H.escape(T)}</title></head>'
        f'<body style="max-width:760px;margin:20px auto;padding:0 16px;font-size:18px;line-height:1.85;color:#222;font-family:sans-serif">' + '\n'.join(parts) + '</body></html>')
 open(f'{OUT}/{name}.html', 'w', encoding='utf8').write(doc)
-res = {'name': name, 'photos': n[0], 'dir': OUT}
+res = {'name': name, 'photos': n[0], 'dir': OUT, 'tail_links': in_tail[1]}
+if not 3 <= in_tail[1] <= 5: res['warn'] = '같이 보면 좋은 글 링크는 3~5개(지금 %d개 · 6개째부터 뺐음)' % in_tail[1]
 if '--up' in sys.argv:
     sys.path.insert(0, '/home/claude/helper'); from gas import call
     for f in sorted(os.listdir(OUT)):
