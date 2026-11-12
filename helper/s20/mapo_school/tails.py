@@ -2,6 +2,8 @@
 D='#1F3864'; A='#2E5C8A'
 def LK(u,t): return f'<a href="{u}" style="color:{A};text-decoration:none;border-bottom:1px solid #C7D6E6;">{t}</a>'
 def interview(head,body):
+    return ''  # 11/12 22:03 사용자 「앞으로 이런거 다 빼라고」 — 인터뷰 모집 상자 없음
+def _interview_old(head,body):
     return f'''<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-left:5px solid {A};background-color:#F4F6F9;padding:20px 22px;"><p style="font-size:21px;font-weight:700;color:{A};">{head}</p>
 <p><br></p>
 <p style="font-size:20px;color:#333;line-height:1.7;">{body} 원고는 올리기 전에 먼저 보여 드립니다.</p>
@@ -24,6 +26,8 @@ def _short(t):
     t=t.split(',')[0].strip() if len(t)>30 else t
     return t if len(t)<=30 else t[:30].rstrip()
 def platform():
+    return ''  # 11/12 22:03 사용자 — 플랫폼 소개 · 블로그 대행 상자 없음(글 끝은 「같이 보면 좋은 글」만)
+def _platform_old():
     return f'''<p><br></p>
 <table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr>
 <td style="border-left:3px solid {D};background-color:#F4F6F9;padding:22px 24px;">
