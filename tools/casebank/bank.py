@@ -118,13 +118,21 @@ def upload():
         rel = os.path.relpath(f, OUT); key = rel + ':' + str(int(os.path.getmtime(f)))
         if st.get(rel) == key: continue
         jobs.append((os.path.dirname(rel), f, rel, key))
-    with open('/tmp/bank_jobs.txt', 'w') as fp:
-        for dr, f, rel, key in jobs: fp.write(f'블로그/협업/시공사례_은행/{dr}\t{f}\n')
-    subprocess.run("cat /tmp/bank_jobs.txt | xargs -P 8 -d '\\n' -I{} bash -c 'IFS=$\"\\t\" read d f <<< \"{}\"; timeout 120 python3 /home/claude/helper/gas.py fput \"$d\" \"$f\" >/dev/null'", shell=True)
-    for dr, f, rel, key in jobs: st[rel] = key
-    for f in ['목록.json', '목록.txt', '쓰는법.txt', '배정표.txt']:
-        if os.path.exists(f'{OUT}/{f}'): subprocess.run(['timeout', '100', 'python3', '/home/claude/helper/gas.py', 'fput', '블로그/협업/시공사례_은행', f'{OUT}/{f}'], capture_output=True)
-    json.dump(st, open(st_p, 'w'), ensure_ascii=False); return len(jobs)
+    from concurrent.futures import ThreadPoolExecutor
+    def put_group(group):   # 한 폴더 안 파일은 순서대로(동시에 같은 폴더를 만들면 폴더가 둘로 갈라짐)
+        res = []
+        for dr, f, rel, key in group:
+            r = subprocess.run(['timeout', '150', 'python3', '/home/claude/helper/gas.py', 'fput', f'블로그/협업/시공사례_은행/{dr}', f], capture_output=True, text=True)
+            res.append(((dr, f, rel, key), r.returncode == 0 and '"id"' in r.stdout))
+        return res
+    groups = {}
+    for j in jobs: groups.setdefault(j[0].split('/')[0] + '/' + (j[0].split('/')[1] if '/' in j[0] else ''), []).append(j)
+    ok = 0
+    with ThreadPoolExecutor(6) as ex:
+        for res in ex.map(put_group, groups.values()):
+            for (dr, f, rel, key), good in res:
+                if good: st[rel] = key; ok += 1
+    json.dump(st, open(st_p, 'w'), ensure_ascii=False); return {'try': len(jobs), 'ok': ok}
 if __name__ == '__main__':
     a = argparse.ArgumentParser(); a.add_argument('--per', type=int, default=5); a.add_argument('--blog', nargs='*'); a.add_argument('--up', action='store_true'); a.add_argument('--ids', nargs='*')
     v = a.parse_args(); p = json.load(open(POOL)); items = list(p.values()); res = []
