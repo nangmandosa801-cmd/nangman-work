@@ -17,7 +17,7 @@ cards3('img/' + S + '1_cards.png', f"연봉 1억, 고르는 금리에 따라 한
        note=COND + ' · 셋 다 한도 6억원에 못 미침')
 # 2. 6억을 다 빌리는 데 필요한 연봉
 C = J['cap_income']
-cards3('img/' + S + '2_cap.png', '6억을 다 빌리려면 연봉 1억 450만원부터입니다',
+cards3('img/' + S + '2_cap.png', '6억을 다 빌리는 연봉, 5년 주기형도 1억 450만원부터',
        [(uk(C['주기형']), '5년 주기형', True, '연봉의 5.7배까지'),
         (uk(C['혼합형']), '혼합형', False, '연봉의 5.1배까지'),
         (uk(C['변동형']), '변동형', False, '연봉의 4.8배까지')],
@@ -59,5 +59,5 @@ def make(path, top, l1, l2, big, sub):
     d.text((W/2,605),big,font=kr(SE,100),fill='#D4B04C',anchor='mm')
     d.text((W/2,715),sub,font=kr(SA,32),fill='#AFC0D8',anchor='mm')
     im.save(path)
-make('img/' + S + 'thumb.png', '낭만 부동산 · 이 돈이면 어디 · 연봉 편', '연봉별 대출한도', '연봉 1억이 빌리는 돈', uk(r10['주기형']), '가장 넉넉한 대출로도 한도 6억을 못 채웁니다')
+make('img/' + S + 'thumb.png', '낭만 부동산 · 이 돈이면 어디 · 연봉 편', '연봉별 대출한도', '연봉 1억도 변동금리면', uk(r10['변동형']), f"주기형이면 {uk(r10['주기형'])} · 연 4.5% · 30년 기준")
 print('thumb ok')
