@@ -16,7 +16,7 @@
 # 커밋 글 끝에 붙일 줄이 있으면 환경 변수 SYNC_TRAILER 에.
 import os, sys, subprocess, hashlib, json, time, shutil, tempfile
 
-R = '/home/claude/nangman-work'; H = '/home/claude'
+R = os.environ.get('SYNC_REPO', '/home/claude/nangman-work'); H = os.environ.get('SYNC_HOME', '/home/claude')   # 시험할 때만 바꿈
 DIRS = 'tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread gas coffee 텍스트 jisan jisan_move'.split()
 BASE = H + '/.sync_base.json'
 BAK = H + '/.stale_bak/' + time.strftime('%m%d_%H%M%S')
@@ -122,8 +122,8 @@ def run(mode, dry):
         except Exception: base = {}
     if not dry:
         if mode == 'sync' and git('status', '--porcelain').stdout.strip():      # 저장소 폴더에서 바로 고친 것(CLAUDE.md 등)
-            git('add', '-A'); git(*ID, 'commit', '-qm', '저장소에서 바로 고친 것 ' + time.strftime('%m%d_%H%M'))
-        p = git('pull', '-q', '--rebase', '-X', 'theirs', 'origin', 'main')
+            git('add', '-A'); git(*ID, 'commit', '-qm', '저장소에서 바로 고친 것 ' + time.strftime('%m%d_%H%M') + ('\n\n' + os.environ['SYNC_TRAILER'] if os.environ.get('SYNC_TRAILER') else ''))
+        p = git('pull', '-q', '--rebase', '--autostash', '-X', 'theirs', 'origin', 'main')
         if p.returncode:
             git('rebase', '--abort')
             msg = (p.stderr or p.stdout or '').strip().split('\n')[-1][:200]
