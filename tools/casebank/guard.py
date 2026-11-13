@@ -22,6 +22,7 @@ def check():
         if m and no not in used: used[no] = {'상태': '블로그에 있음(인스타 사용 가능)', '글': m[0][1].split('?')[0], '제목': m[0][0][:40]}; hit += 1
     json.dump(used, open(U, 'w'), ensure_ascii=False, indent=1); return hit
 def top(f, c): return '줄눈' if '줄눈' in c else f.split('_')[0]
+T1 = ['결로·단열·곰팡이', '코킹·창틀누수', '중문_설치']   # 11/14 매출 전략: 건당 수수료 큰 종목 먼저 · 하루 3편 중 주력 2~3편 · 이틀에 한 번 셋째 칸만 그 밖 종목
 def queue(n=7):
     good = lambda f, c: os.path.exists(f'{B}/{f}/{c}/이야기.txt') or '상태: 좋음' in open(f'{B}/{f}/{c}/사례.txt', encoding='utf8').read()
     free = [(f, c) for f, c in cases() if good(f, c) and used.get(c.split('_')[0], {}).get('상태') != '인스타 사용함' and not re.search(r'공동|혜택|예약하기|안내', c)]   # 홍보 · 안내 글은 이야기가 약해 뺌
@@ -32,10 +33,13 @@ def queue(n=7):
         recent = {top(f, c) for f, c in order[-2:]}   # 인스타 하루 3편 → 연속 3칸 안에 같은 주제 없게   # 같은 주제(중문 설치 · 수리 = 중문) 7칸 안에 한 번
         cand = [f for f in by if by[f] and top(f, by[f][0]) not in recent]
         if not cand: break
-        f = sorted(cand, key=lambda f: (not os.path.exists(f'{B}/{f}/{by[f][0]}/이야기.txt'), -len(by[f])))[0]
+        i = len(order); rest = i % 3 == 2 and (i // 3) % 2 == 1
+        pool = [f for f in cand if (f not in T1) == rest] or cand
+        f = sorted(pool, key=lambda f: (not os.path.exists(f'{B}/{f}/{by[f][0]}/이야기.txt'), T1.index(f) if f in T1 else 9, -len(by[f])))[0]
         order.append((f, by[f].pop(0)))
     txt = ['[배정표] 낭만 인테리어 인스타 시공 스토리 · Claude가 중복 관리 · ChatGPT는 이 순서대로 1번부터 씀',
-           '규칙: 여기 없는 사례는 쓰지 않는다 · 한 사례 한 글 · 쓰면 교신에 「사용함 <사례ID> → <글 주소 또는 예약 시각>」 · 인스타 하루 3편(사장님 11/13) · 같은 날 같은 주제 2편 금지. 「블로그에 있음」 사례도 인스타에는 써도 됨(블로그 글 주소를 캡션 링크로). 네이버 블로그 홀딩(하루 1편)과는 별개.', '']
+           '규칙: 여기 없는 사례는 쓰지 않는다 · 한 사례 한 글 · 쓰면 교신에 「사용함 <사례ID> → <글 주소 또는 예약 시각>」 · 인스타 하루 3편(사장님 11/13) · 같은 날 같은 주제 2편 금지. 「블로그에 있음」 사례도 인스타에는 써도 됨(블로그 글 주소를 캡션 링크로). 네이버 블로그 홀딩(하루 1편)과는 별개.',
+           '순서 기준(11/14 매출 전략): 결로 · 단열 → 창틀 누수 · 코킹 → 중문 설치를 먼저, 이틀에 한 번 셋째 칸만 그 밖 종목(중문 수리 · 줄눈 · 청소 · 설비).', '']
     for i, (f, c) in enumerate(order, 1):
         st = '이야기.txt 있음' if os.path.exists(f'{B}/{f}/{c}/이야기.txt') else '뼈대만 · 쓰기 전 원문 확인'
         txt.append(f'{i}. {f} | {c} | {st}')
