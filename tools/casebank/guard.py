@@ -26,7 +26,7 @@ def queue(n=7):
     good = lambda f, c: os.path.exists(f'{B}/{f}/{c}/이야기.txt') or '상태: 좋음' in open(f'{B}/{f}/{c}/사례.txt', encoding='utf8').read()
     free = [(f, c) for f, c in cases() if good(f, c) and used.get(c.split('_')[0], {}).get('상태') != '인스타 사용함' and not re.search(r'공동|혜택|예약하기|안내', c)]   # 홍보 · 안내 글은 이야기가 약해 뺌
     by = {}
-    for f, c in sorted(free, key=lambda x: not os.path.exists(f'{B}/{x[0]}/{x[1]}/이야기.txt')): by.setdefault(f, []).append(c)
+    for f, c in sorted(free, key=lambda x: (not os.path.exists(f'{B}/{x[0]}/{x[1]}/이야기.txt'), -int(x[1].split('_')[0]))): by.setdefault(f, []).append(c)   # 이야기 있는 것 → 최신 글 순
     order = []
     while len(order) < n:
         recent = {top(f, c) for f, c in order[-2:]}   # 인스타 하루 3편 → 연속 3칸 안에 같은 주제 없게   # 같은 주제(중문 설치 · 수리 = 중문) 7칸 안에 한 번
