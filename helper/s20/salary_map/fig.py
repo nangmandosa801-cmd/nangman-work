@@ -1,4 +1,5 @@
-import sys, json
+import sys, json, os
+os.makedirs('img', exist_ok=True)   # 그림 폴더는 저장소에 없다(새 창에서 다시 그림)
 sys.path.insert(0, '/home/claude/helper/pg'); sys.path.insert(0, '/home/claude/tools/tistory')
 from fig2d import bars, cards3
 S = 'nangman_salary_map_'
@@ -39,9 +40,14 @@ print('fig ok')
 # 대표 사진(01) — C형 썸네일
 from PIL import Image, ImageDraw, ImageFont
 def kr(p, s):
-    for i in range(10):
-        f = ImageFont.truetype(p, s, index=i)
-        if 'KR' in ' '.join(f.getname()): return f
+    for q in (p, '/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc', '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'):
+        if not os.path.exists(q): continue
+        for i in range(10):
+            try: f = ImageFont.truetype(q, s, index=i)
+            except Exception: break
+            if 'KR' in ' '.join(f.getname()): return f
+    pre = '/home/claude/tools/tistory/fonts/Pretendard-Bold.otf'   # 노토가 없는 창
+    return ImageFont.truetype(pre, s) if os.path.exists(pre) else ImageFont.load_default()
 SE='/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc'; SA='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
 def make(path, top, l1, l2, big, sub):
     W=1000; im=Image.new('RGB',(W,W),'#203864'); d=ImageDraw.Draw(im)
