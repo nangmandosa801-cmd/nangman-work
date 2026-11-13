@@ -74,15 +74,16 @@ def index():
     for f in sorted(glob.glob(f'{OUT}/*/*/사례.txt')):
         L = open(f, encoding='utf8').read().split('\n'); fld, cid = f.split('/')[-3:-1]
         rows.append({'분야': fld, '사례': cid, '출처': L[1].split(' ')[1], '조건': L[3][7:], '사진': L[4].split('장')[0][4:],
-                     '전후짝': L[5].split(': ',1)[1][:24], '사용': (lambda u: (u.get(f.split('/')[-2].split('_')[0],{}).get('상태','') + ' ' + u.get(f.split('/')[-2].split('_')[0],{}).get('글','')).strip() or '안 씀')(json.load(open(f'{OUT}/used.json')) if os.path.exists(f'{OUT}/used.json') else {}), '이야기': '정리됨' if os.path.exists(f.replace('사례.txt', '이야기.txt')) else '뼈대만'})
+                     '전후짝': next((l.split(': ',1)[1][:24] for l in L if l.startswith('전후 짝:')), ''), '보정': '보정본' if any(l.startswith('보정:') for l in L) else '', '사용': (lambda u: (u.get(f.split('/')[-2].split('_')[0],{}).get('상태','') + ' ' + u.get(f.split('/')[-2].split('_')[0],{}).get('글','')).strip() or '안 씀')(json.load(open(f'{OUT}/used.json')) if os.path.exists(f'{OUT}/used.json') else {}), '이야기': '정리됨' if os.path.exists(f.replace('사례.txt', '이야기.txt')) else '뼈대만'})
     json.dump(rows, open(f'{OUT}/목록.json', 'w'), ensure_ascii=False, indent=1)
     txt = ['시공 사례 은행 목록 — 분야 · 사례 폴더 · 사진 수 · 전후 짝 · 이야기(정리됨 = Claude가 원문 대조해 쓴 이야기.txt 있음)', '']
-    for r in rows: txt.append(f"{r['분야']} | {r['사례']} | 사진 {r['사진']} | {r['전후짝']} | {r['이야기']} | 사용: {r['사용']} | {r['출처']}")
+    for r in rows: txt.append(f"{r['분야']} | {r['사례']} | 사진 {r['사진']} | {r['전후짝']} | {r['보정']} | {r['이야기']} | 사용: {r['사용']} | {r['출처']}")
     open(f'{OUT}/목록.txt', 'w', encoding='utf8').write('\n'.join(txt)); return len(rows)
 def upload():
     st_p = f'{OUT}/bank_state.json'; st = json.load(open(st_p)) if os.path.exists(st_p) else {}
     jobs = []
-    for f in sorted(glob.glob(f'{OUT}/*/*/*')):
+    for f in sorted(glob.glob(f'{OUT}/*/*/*') + glob.glob(f'{OUT}/*/*/보정본/*')):
+        if os.path.isdir(f) or '/_원본/' in f or '/제외/' in f: continue
         rel = os.path.relpath(f, OUT); key = rel + ':' + str(int(os.path.getmtime(f)))
         if st.get(rel) == key: continue
         jobs.append((os.path.dirname(rel), f, rel, key))
