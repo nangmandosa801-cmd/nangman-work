@@ -55,7 +55,9 @@ def table_img(rows):
     # 표 그림 + 같은 내용 표(글자로도 남김 · 어사이드가 그림을 넣고 아래 표는 지우거나 둘 다 둠)
     return mark(k, ' (표 그림)') + f'<img src="{b64(f"{OUT}/{k:02d}.jpg")}" style="max-width:100%">'
 # 11/12 배너 빠짐 방지: [CALL] 줄이 없으면 자동으로 넣는다(중간 = 둘째 소제목 위 · 끝 = 같이 보면 좋은 글 위)
-if not re.search(r'^\[CALL\] ', body, re.M):
+MID_BANNER = False   # 11/13 사용자 홀딩: 전화번호 배너는 글 끝 1장만(중간 배너 끔)
+if not MID_BANNER: body = re.sub(r'^\[CALL\] .*\n?', '', body, flags=re.M)
+if MID_BANNER and not re.search(r'^\[CALL\] ', body, re.M):
     hs = [mm.start() for mm in re.finditer(r'^## (?!같이 보면)', body, re.M)]
     at = hs[1] if len(hs) > 1 else (hs[0] if hs else len(body))
     body = body[:at] + '[CALL] ' + (m.get('call') or '사진 한 장 보내 주시면 어디부터 볼지 알려 드려요') + '\n\n' + body[at:]
