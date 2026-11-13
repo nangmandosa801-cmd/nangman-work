@@ -23,7 +23,8 @@ def check():
     json.dump(used, open(U, 'w'), ensure_ascii=False, indent=1); return hit
 def top(f, c): return '줄눈' if '줄눈' in c else f.split('_')[0]
 def queue(n=7):
-    free = [(f, c) for f, c in cases() if c.split('_')[0] not in used and not re.search(r'공동|혜택|예약하기|안내', c)]   # 홍보 · 안내 글은 이야기가 약해 뺌
+    good = lambda f, c: os.path.exists(f'{B}/{f}/{c}/이야기.txt') or '상태: 좋음' in open(f'{B}/{f}/{c}/사례.txt', encoding='utf8').read()
+    free = [(f, c) for f, c in cases() if good(f, c) and c.split('_')[0] not in used and not re.search(r'공동|혜택|예약하기|안내', c)]   # 홍보 · 안내 글은 이야기가 약해 뺌
     by = {}
     for f, c in sorted(free, key=lambda x: not os.path.exists(f'{B}/{x[0]}/{x[1]}/이야기.txt')): by.setdefault(f, []).append(c)
     order = []
