@@ -1,8 +1,4 @@
 #!/bin/bash
-# 새 대화(빈 /home/claude)에서 저장소 파일을 원래 자리로 되돌린다. 이미 있는 파일은 덮어쓰지 않는다.
-R=/home/claude/nangman-work
-for d in tools ipjuhub watch int/mp4_1015 w helper gcontacts kit spread gas coffee 텍스트 jisan jisan_move; do
-  [ -d $R/$d ] || continue; mkdir -p /home/claude/$d; cp -rn $R/$d/. /home/claude/$d/
-done
-cp -n $R/root/* /home/claude/ 2>/dev/null
-echo restored
+# 저장소 파일을 이 창(/home/claude)으로. 없는 파일은 가져오고, 이 창이 안 고친 낡은 파일은 새것으로 바꾼다(옛 파일은 /home/claude/.stale_bak).
+# 이 창이 고친 파일은 건드리지 않는다. 규칙 전문은 sync.py 맨 위.
+python3 /home/claude/nangman-work/sync.py restore "$@" && echo restored

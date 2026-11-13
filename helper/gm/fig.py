@@ -37,3 +37,9 @@ d.text((W/2,490),'84㎡ 분양가',font=kr(ser,64),fill='#F4F1EA',anchor='mm')
 d.text((W/2,600),'7억 8,500만',font=kr(ser,90),fill='#D4B04C',anchor='mm')
 d.text((W/2,710),'갈매동 84㎡ 올해 매매 중앙값 7억 6천',font=kr(san,34),fill='#AFC0D8',anchor='mm')
 im.save('img/nangman_galmae_thumb.png')
+
+# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
+import sys; sys.path.insert(0, '/home/claude/helper/pg')
+from fig2d import bars, cards3
+bars('img/nangman_galmae_1_price_v2.png', '84㎡ 7억 8,500만, 갈매동 중앙값보다 2,500만원 높다', [('갈매역아이파크|2018', 85000.0, '8억 5,000만', False), ('신안인스빌 디센트 84㎡ 분양가 상단', 78500.0, '7억 8,500만', True), ('갈매동 84㎡ 전체 올해 중앙값', 76000.0, '7억 6,000만', False), ('갈매더샵나인힐스|2016', 73300.0, '7억 3,300만', False), ('신안인스빌 디센트 84㎡ 분양가 하단', 72090.0, '7억 2,090만', False)], note='구리갈매역세권 신안인스빌 분양가 · 갈매동 84㎡ 올해 매매 중앙값과 나란히')
+print('v2 ok')
