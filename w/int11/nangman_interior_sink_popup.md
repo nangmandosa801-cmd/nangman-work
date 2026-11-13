@@ -84,6 +84,8 @@ thumb: 욕실 설비 | 세면대 팝업 | 교체 비용 | 출장 교체 | 6만�
 **팝업을 바꾸면 세면대 아래 냄새도 줄어드나요?**
 트랩까지 같이 바꾸면 꺾인 관에 물이 제대로 고여 하수 냄새가 덜 올라옵니다.
 
+[CALL]
+
 ## 같이 보면 좋은 글
 
 - 수도계량기 동파, 유리가 깨지면 수도사업소에 알립니다 · https://blog.naver.com/champion_chart/224462855339
@@ -91,6 +93,3 @@ thumb: 욕실 설비 | 세면대 팝업 | 교체 비용 | 출장 교체 | 6만�
 - 줄눈 시공 가격 34평, 욕실 2곳과 현관 · https://blog.naver.com/champion_chart/224453266232
 - 윗집 누수 대응방법, 천장 물자국 사진부터 · https://blog.naver.com/champion_chart/224454716866
 - 구축 아파트 인테리어 순서, 안 뜯는 집은 누수부터 · https://blog.naver.com/champion_chart/224453417329
-- 힐스테이트 동작 시그니처 줄눈, 욕실 하나 35만원부터 · https://blog.naver.com/champion_chart/224451700722
-
-[CALL]

@@ -2,8 +2,6 @@
 D='#1F3864'; A='#2E5C8A'
 def LK(u,t): return f'<a href="{u}" style="color:{A};text-decoration:none;border-bottom:1px solid #C7D6E6;">{t}</a>'
 def interview(head,body):
-    return ''  # 11/12 22:03 사용자 「앞으로 이런거 다 빼라고」 — 인터뷰 모집 상자 없음
-def _interview_old(head,body):
     return f'''<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="border-left:5px solid {A};background-color:#F4F6F9;padding:20px 22px;"><p style="font-size:21px;font-weight:700;color:{A};">{head}</p>
 <p><br></p>
 <p style="font-size:20px;color:#333;line-height:1.7;">{body} 원고는 올리기 전에 먼저 보여 드립니다.</p>
@@ -13,21 +11,14 @@ def _interview_old(head,body):
 <p><br></p>
 '''
 def related(items):
-    """11/12 사용자 규칙: 글당 하나 · 글 맨 끝 · 딱 3개 · 「▶ 제목」 한 줄씩(30자 이내) · 번호 · 표 · 카드 · 설명 줄 없음.
-    save() 가 이 블록을 글 맨 끝으로 옮긴다. items: (제목, 주소[, 설명은 무시])"""
-    items=[i for i in items if i[1]][:3]  # 11/12 18:17 「링크는 딱 세개만」
-    if len(items)<3: print('[같이 보면 좋은 글] 링크가', len(items), '개 · 3개 이상 필요')
-    if any('champion_chart' in i[1] or 'nangmaninterior' in i[1] for i in items): raise SystemExit('낭만 인테리어 링크 금지')
-    o='<!--REL-->\n<p style="font-size:24px;font-weight:700;color:'+D+';">같이 보면 좋은 글</p>\n<p><br></p>\n'
-    for i in items:
-        t=_short(i[0]); o+=f'<p style="font-size:19px;font-weight:700;">▶ {LK(i[1],t)}</p>\n<p><br></p>\n'
-    return o+'<!--/REL-->\n'
-def _short(t):
-    t=t.split(',')[0].strip() if len(t)>30 else t
-    return t if len(t)<=30 else t[:30].rstrip()
+    # 11/12 규칙: 「같이 보면 좋은 글」 한 블록 · 글 맨 끝 · 3~5개 · 「▶ 제목」(첫 구절 30자 안) · 줄 사이 빈 줄 · 설명 줄 · 번호 · 표 없음
+    import sys, os; sys.path.insert(0, '/home/claude/tools/postkit'); from tailrule import short
+    items = [x for x in items if x and x[1]][:5]
+    o=f'<p style="font-size:24px;font-weight:700;color:{D};">같이 보면 좋은 글</p>\n<p><br></p>\n'
+    for t,u,*_ in items:
+        o+=f'<p style="font-size:19px;">▶ {LK(u, short(t))}</p>\n<p><br></p>\n'
+    return o
 def platform():
-    return ''  # 11/12 22:03 사용자 — 플랫폼 소개 · 블로그 대행 상자 없음(글 끝은 「같이 보면 좋은 글」만)
-def _platform_old():
     return f'''<p><br></p>
 <table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr>
 <td style="border-left:3px solid {D};background-color:#F4F6F9;padding:22px 24px;">
@@ -49,10 +40,10 @@ def _platform_old():
 <p style="font-size:19px;font-weight:700;">{LK('https://blog.naver.com/dong_jin_kim/224377990326','부동산을 데이터로 읽고, 공부한 것을 기록합니다 ›')}</p>
 </td></tr></table>
 <p><br></p>
+<p style="font-size:19px;text-align:center;">▶ <a href="https://blog.naver.com/champion_chart" style="font-weight:700;color:{A};text-decoration:none;border-bottom:1px solid #C7D6E6;">낭만 인테리어 바로 가기 blog.naver.com/champion_chart</a></p>
+<p><br></p>
 '''
 def side(head,items):
-    return ''  # 11/10 사용자 「앞으로 인테리어 링크는 올리면 안됨」 — 낭만 인테리어 상자 · 링크 없음
-def _side_old(head,items):
     o=f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;"><tr><td style="background-color:#F4F6F9;border-left:4px solid {A};padding:18px 20px;">\n<span style="font-size:16px;color:#7A8590;letter-spacing:1px;">옆 블로그 · 낭만 인테리어</span><br>\n<span style="font-size:19px;font-weight:700;color:{D};">{head}</span><br><br>\n'
     for t,u,s in items: o+=f'<a href="{u}" style="font-size:19px;font-weight:700;color:{A};text-decoration:none;border-bottom:1px solid #C7D6E6;">{t}</a><br>\n<span style="font-size:16px;color:#7A8590;">{s}</span><br><br>\n'
     return o+'</td></tr></table>\n<p><br></p>\n'
@@ -60,14 +51,6 @@ def tags(t):
     return f'<table width="693" style="width:100%;min-width:693px;border-collapse:collapse;">\n<tr><td style="background-color:#F4F6F9;border-left:3px solid {A};padding:16px 18px;">\n<span style="font-size:16px;color:#8A8578;">태그</span><br>\n<span style="font-size:18px;color:#555;line-height:1.9;">{t}</span>\n</td></tr>\n</table>\n'
 def save(TITLE,o):
     import re,html as _h
-    H_=''.join(o)
-    blocks=re.findall(r'<!--REL-->.*?<!--/REL-->\n?',H_,flags=re.S)
-    if len(blocks)>1: raise SystemExit('같이 보면 좋은 글 블록이 2개 이상 · 하나만')
-    rel=blocks[0] if blocks else ''
-    H_=H_.replace(rel,'')
-    if rel: H_=H_.rstrip('\n')+'\n<p><br></p>\n'+rel
-    open('post.html','w').write(H_)
+    H_=''.join(o); open('post.html','w').write(H_)
     txt=re.sub(r'<p><br></p>','',H_); txt=re.sub(r'</p>|<br>|</tr>','\n',txt); txt=re.sub(r'<[^>]+>','',txt); txt=_h.unescape(re.sub(r'\n{3,}','\n\n',txt))
-    if rel:
-        txt=txt.split('같이 보면 좋은 글')[0].rstrip()+'\n\n[같이 보면 좋은 글]\n'+'\n'.join(f'▶ {_h.unescape(t)} | {u}' for u,t in re.findall(r'href="([^"]+)"[^>]*>([^<]+)</a>',rel))+'\n'
     open('post.txt','w').write('[제목]\n'+TITLE+'\n\n'+txt)

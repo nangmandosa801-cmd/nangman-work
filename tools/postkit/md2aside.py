@@ -88,7 +88,7 @@ for blk in re.split(r'\n\s*\n', body.strip()):
             mm = re.match(r'(.+?) · (https?://\S+)$', ln[2:])
             if mm and in_tail[0]:
                 in_tail[1] += 1
-                if in_tail[1] <= 3: parts.append(f'<p>▶ <a href="{mm.group(2)}">{H.escape(short(mm.group(1)))}</a></p>' + GAP)
+                if in_tail[1] <= 5: parts.append(f'<p>▶ <a href="{mm.group(2)}">{H.escape(short(mm.group(1)))}</a></p>' + GAP)
             else:
                 parts.append(f'<p>· <a href="{mm.group(2)}">{H.escape(mm.group(1))}</a></p>' if mm else f'<p>· {inline(ln[2:])}</p>')
         elif ln: parts.append(f'<p>{inline(ln)}</p>')
@@ -100,7 +100,7 @@ doc = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{H.es
        f'<body style="max-width:760px;margin:20px auto;padding:0 16px;font-size:18px;line-height:1.85;color:#222;font-family:sans-serif">' + '\n'.join(parts) + '</body></html>')
 open(f'{OUT}/{name}.html', 'w', encoding='utf8').write(doc)
 res = {'name': name, 'photos': n[0], 'dir': OUT, 'tail_links': in_tail[1]}
-if in_tail[1] != 3: res['warn'] = '같이 보면 좋은 글 링크는 딱 3개(지금 %d개 · 4개째부터 뺐음)' % in_tail[1]
+if not 3 <= in_tail[1] <= 5: res['warn'] = '같이 보면 좋은 글 링크는 3~5개(지금 %d개 · 6개째부터 뺐음)' % in_tail[1]
 if '--up' in sys.argv:
     sys.path.insert(0, '/home/claude/helper'); from gas import call
     for f in sorted(os.listdir(OUT)):

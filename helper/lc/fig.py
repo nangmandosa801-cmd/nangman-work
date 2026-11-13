@@ -44,9 +44,3 @@ d.text((W/2,500),'84㎡는 옆 새 아파트',font=kr(ser,62),fill='#F4F1EA',anc
 d.text((W/2,590),'11억이 기준',font=kr(ser,62),fill='#F4F1EA',anchor='mm')
 d.text((W/2,700),'마포 새 아파트 7곳 올해 실거래',font=kr(san,36),fill='#D4B04C',anchor='mm')
 im.save('img/nangman_rachels_thumb.png')
-
-# ==== 11/10 새 기준(2D · 막대 5개 이하 · 결론 한 줄) — fig2d ====
-import sys; sys.path.insert(0, '/home/claude/helper/pg')
-from fig2d import bars, cards3
-bars('img/nangman_rachels_1_jeonse_v2.png', '2020년 뒤 지은 다섯 곳은 10억 5천~12억 5천', [('마포프레스티지자이|2021', 12.5, '12.5억', True), ('공덕SK리더스뷰|2021', 12.4, '12.4억', False), ('마포그랑자이|2020', 11.0, '11억', False), ('더클래시|2022', 10.95, '10.95억', False), ('마포자이더센트리지|2022', 10.5, '10.5억', False)], note='라첼스 전세 · 옆 마포 새 아파트 84㎡ 올해 새 세입자 전세')
-print('v2 ok')
