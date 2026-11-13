@@ -71,6 +71,7 @@ def build(i):
     if len(keep) < 3: subprocess.run(['rm', '-rf', d]); return fld, cid, 'too_few'
     sheet(keep, f'{d}/sheet.jpg')
     t = clean(i['text']); sk = skeleton(t); rule = i['photo_rule']; q = quality(keep, sk)
+    if (fld == '중문_설치' or '리모델링' in i['title']) and q['등급'] != '보류': q['등급'] = '보류(인테리어 · 사진 고르기 전)'
     use = ('가공본만 들어 있음 · 원본 요청 금지 · 업체명 · 연락처 본문 노출 금지' if '가공' in rule else
            '사진 안에 작게 업체 이름 표기하고 사용' if '이름 표기' in rule else '사용 허락 받음 · 업체명 · 연락처 본문 노출 금지')
     card = [f"[시공 사례 카드] {fld} · {cid}", f"출처: https://blog.naver.com/{i['blog']}/{i['logNo']} ({i['date']}) · 제휴 {i['abbr']}",
