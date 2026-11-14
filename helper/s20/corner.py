@@ -256,8 +256,9 @@ def cmd_ready(slug, when=None):
         if not os.path.exists(p): J({'ok': False, 'why': '지시 파일 없음 → block 먼저'}); sys.exit(1)
     s = open(p, encoding='utf8').read()
     if when: s = re.sub(r'^예약: .*$', '예약: ' + when, s, count=1, flags=re.M)
-    if '상태: 대기' in s or '상태: 완료' in s: J({'ok': True, 'state': '이미 대기 · 완료 — 아무것도 안 함'}); return
-    s = s.replace('상태: 검수중', '상태: 대기', 1); open(p, 'w', encoding='utf8').write(s)
+    st = re.search(r'^상태: *(\S+)', s, re.M)   # 줄 맨 앞 「상태:」만 본다(설명 문장 속 글자는 무시)
+    if st and st.group(1) in ('대기', '완료'): J({'ok': True, 'state': '이미 대기 · 완료 — 아무것도 안 함'}); return
+    s = re.sub(r'^상태: *검수중', '상태: 대기', s, count=1, flags=re.M); open(p, 'w', encoding='utf8').write(s)
     ok, o = gas('fput', DRV, p)
     w = re.search(r'^예약: (.*)$', s, re.M).group(1); t = re.search(r'^제목: (.*)$', s, re.M).group(1)
     g = os.path.join(WORK, f"교신_어사이드_클로드_{time.strftime('%Y%m%d-%H%M')}_부동산 코너 글 예약 {slug}.txt")
