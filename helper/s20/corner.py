@@ -44,8 +44,19 @@ def plan_load(): return json.load(open(PLAN, encoding='utf8')) if os.path.exists
 def plan_save(p): json.dump(p, open(PLAN, 'w', encoding='utf8'), ensure_ascii=False, indent=1)
 def plan_set(slug, **kw):
     p = plan_load(); e = next((x for x in p['posts'] if x.get('slug') == slug), None)
-    if e is None: e = {'slug': slug}; p['posts'].append(e)
-    e.update(kw); plan_save(p); return e
+    if e is None:
+        # 예약일(when)이 장부의 빈 todo 칸 날짜와 같으면 그 칸에 붙인다(같은 글이 두 줄로 생기지 않게)
+        m = re.match(r'(\d{4}-\d{2}-\d{2})', kw.get('when') or '')
+        e = next((x for x in p['posts'] if m and x.get('date') == m.group(1) and not x.get('slug')), None)
+        if e is None: e = {}; p['posts'].append(e)
+        e['slug'] = slug
+    e.update(kw)
+    m = re.match(r'(\d{4}-\d{2}-\d{2})', e.get('when') or '')
+    if m and not e.get('date'):   # submit 이 먼저 만든 날짜 없는 줄 → 같은 날짜 todo 칸과 합친다
+        t = next((x for x in p['posts'] if x.get('date') == m.group(1) and not x.get('slug')), None)
+        if t is not None:
+            t.update({k: v for k, v in e.items() if k not in ('date', 'time', 'corner')}); t.pop('note', None); p['posts'].remove(e); e = t
+    plan_save(p); return e
 
 
 def folder(slug):
