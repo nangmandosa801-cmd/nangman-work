@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """실거래 탐정 3화 · 동대문구 휘경동 하루 313건 — 숫자 재기.
 자료: python3 /home/claude/tools/postkit/odd_deals.py --from 202609 --to 202611 --fetch --out odd.json (2026-11-16 05시 받음 · 파일 이름은 _1115)
-묶음 = 같은 날 · 같은 단지에서 직거래가 10건 넘게 신고된 것(해제 뺌). ana.json 은 받은 날 값 그대로 둔다(다시 받으면 숫자가 바뀜)."""
+묶음 = 같은 날 · 같은 단지에서 직거래가 10건 이상 계약된 것(해제 뺌). ana.json 은 받은 날 값 그대로 둔다(다시 받으면 숫자가 바뀜)."""
 import sys, glob, json, pandas as pd
 sys.path.insert(0, '/home/claude/tools/postkit')
 import odd_deals as o
