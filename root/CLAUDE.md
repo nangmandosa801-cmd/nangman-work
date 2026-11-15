@@ -269,3 +269,7 @@
 - 구글 표 페이지 「연봉별 주택담보대출 한도표」(tools/tistory/gblog_pages.json 의 salary_table · 11/16 09:00 예약)는 매달 1일 또는 금리 · 스트레스 금리가 바뀐 날 `python3 gblog.py --pub` 로 고친다. 네이버 글 주소가 나오면 gblog.py 의 NAVER 에 넣고 다시.
 - 부동산 새 원고도 ChatGPT 자연스러움 검수를 거친다: txt 를 「검수_자연스러움/대기」에 nangman_<slug>.txt 로 · 지시 블록 「상태: 검수중」 → 반영 뒤 「대기」. 1차 QA 는 selfqa.py(드라이브 「블로그/dosa/_tools/dasi/dasi_kit.tgz」를 /home/claude/kit_dasi 에 풀어 씀 · 저장소에는 넣지 않음) + helper/s20/_ban_check.py. selfqa 의 「생일」 모순은 사주 글용이라 부동산 글에서는 무시.
 - 수요일 「이 돈이면 어디」는 연봉 시리즈(11/25 연봉5천 대출가능금액 → 12/2 연봉 8천 주담대 한도 → 12/9 신용대출 dsr → 12/16 4억 아파트 대출 한도). 매주 원고를 쓰는 정기 작업은 11/14 만듦(아래 「요일 코너 원고 정기 작업」). 어사이드는 매주 월요일 5_보고 「부동산_주간통계.txt」(교신 11/13).
+
+## 구글 연락처 API (11/15 다시 연결)
+- `python3 /home/claude/gcontacts/gcon.py list [찾을말]` · `rename <번호> <이름> [메모]`. 열쇠(client.json · token.json)는 이 창에만 있음(저장소 · 드라이브에 두지 않음) → 새 창에서 없으면 Chrome으로 Cloud 콘솔(프로젝트 nangman-contacts · 데스크톱 클라이언트 1)에서 보안 비밀번호 추가 → OAuth(리디렉션 http://localhost:8765, 사용자가 주소창 주소 붙여 줌).
+- 제휴 이름 규칙: 「제휴_인테리어_종목_업체_지역」 · 수수료 미정은 「후보_」.
