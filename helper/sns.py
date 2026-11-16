@@ -24,6 +24,7 @@ MEDIA = '블로그/SNS예약/미디어'
 ASIDE = '블로그/협업/4_어사이드'
 # Upload-Post 프로필 → 새 장부 계정 (11/6 기준 연결 상태)
 PROFILE = {
+    # 11/16 인스타 · 스레드 아이디가 nangman.interior 로 바뀜. 아래 'kimdongjin24' 는 스크립트 속성 열쇠 이름(TOK_IG_kimdongjin24)이라 그대로 둔다.
     'default': {'instagram': 'kimdongjin24', 'threads': 'kimdongjin24', 'youtube': '낭만 인테리어 (@nangman_interior)'},
     'nangman_budongsan': {'instagram': 'dong.jin.kim.nangman', 'threads': 'dong.jin.kim.nangman', 'youtube': '낭만 부동산 (@nangman.budongsan)'},
     'life_webtoon': {'instagram': 'nowand1969', 'threads': 'nowand1969'},

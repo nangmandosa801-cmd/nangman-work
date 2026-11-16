@@ -281,3 +281,4 @@
 ## 낭만 인테리어 인스타 · 스레드 아이디 바뀜 (11/16 08:35 사용자)
 - kimdongjin24 → **nangman.interior** (인스타 · 스레드 같이). 새 주소 https://www.instagram.com/nangman.interior · https://www.threads.com/@nangman.interior. 위 줄들의 「kimdongjin24」는 이 계정을 뜻한다(Upload-Post 프로필은 그대로 default).
 - 앞으로 쓰는 원고 · 캡션 · 문자 · 소개 글의 인스타/스레드 주소는 새 아이디로. 이미 발행된 글은 한꺼번에 고치지 않는다.
+- 11/16 08:41 사용자 「낭만 인테리어 네이버 홀딩 풀렸어」 → 위 「낭만 인테리어 홀딩(11/27까지)」 절은 끝. 발행 글 수정은 하루 2~3편부터.

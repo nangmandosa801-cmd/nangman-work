@@ -278,3 +278,6 @@
 - 위의 「같이 보면 좋은 글」 3개 · 꼬리 링크 줄들보다 이 줄이 우선: 네이버 블로그(dong_jin_kim · champion_chart · jisandream01 · give_me_travel) 새 글에는 「같이 보면 좋은 글」 블록도, 본문 속 링크도 넣지 않는다(다른 네이버 글 · 티스토리 · 구글 블로그 · 외부 주소 모두).
 - 도구: helper/pg/tails.py · 글 폴더마다 있는 tails.py 사본(123개) 의 related() · tailrule.pick/txt_block 은 빈 값 · md2aside.py 와 html2aside.py 는 블록을 뺀다 · corner.py build 는 글 안 blog.naver.com 이 0이어야 ok. 지산드림 개별 스크립트 · 낭만도사 dasi_kit build.py 는 아직 블록을 만들 수 있으니 어사이드가 발행 직전에 지운다(교신 1116).
 - 이미 발행된 글은 한꺼번에 고치지 않는다. 발행 글을 3개 링크로 다시 맞추던 「같이보면좋은글_정리」 작업은 멈춤. SNS(인스타 · 스레드) 캡션 · 첫 댓글의 네이버 링크는 이 규칙 밖(그대로).
+## 낭만 인테리어 인스타 · 스레드 아이디 바뀜 (11/16 08:35 사용자)
+- kimdongjin24 → **nangman.interior** (인스타 · 스레드 같이). 새 주소 https://www.instagram.com/nangman.interior · https://www.threads.com/@nangman.interior. 위 줄들의 「kimdongjin24」는 이 계정을 뜻한다(Upload-Post 프로필은 그대로 default).
+- 앞으로 쓰는 원고 · 캡션 · 문자 · 소개 글의 인스타/스레드 주소는 새 아이디로. 이미 발행된 글은 한꺼번에 고치지 않는다.
