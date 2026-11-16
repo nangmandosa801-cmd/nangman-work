@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+                    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=1280">
+
+<title>팜스테이</title>
+
+<meta name="description" content="농협과 함께하는 농촌여행, 마을정보, 농촌체험, 숙박, 축제, 관광지 정보제공">
+<meta name="keywords" content="농협, 농촌여행, 농촌체험, 농촌숙박, 축제, 관광지, 팜스테이">
+<meta name="classification" content="">
+
+<meta name="naver-site-verification" content="fd41cbe7b08ab65c59de1b1663d8f4bcbd9fe4fd" />
+
+<link rel="canonical" href="//www.farmstay.co.kr">
+
+<link href="https://www.farmstay.co.kr/assets/js/admin/plugins/select2/select2.min.css" rel="stylesheet" type="text/css">
+<link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="https://www.farmstay.co.kr/assets/css/desktop.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/farmstay.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/farmstay_sub.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/member.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/info.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/custom.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/override.css?ver=20170801" rel="stylesheet" type="text/css" />
+
+<link href="https://www.farmstay.co.kr/assets/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/js/popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/nigran.datepicker.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+
+<link href="https://www.farmstay.co.kr/assets/app/plugins/ngProgress.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/app/plugins/datepicker/angular-datepicker.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery-ui-1.10.1.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/se/js/service/HuskyEZCreator.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/farmstay.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/js-cookie.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/selectivizr-min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/admin/plugins/select2/select2.full.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-resource.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-cookies.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/plugins/ngprogress.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/plugins/datepicker/angular-datepicker.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/client.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/sso_module.js?v=20261116123623" charset="utf-8"></script>
+<script>
+    $.datepicker.setDefaults({
+        dateFormat: 'yy-mm-dd',
+        prevText: '이전 달',
+        nextText: '다음 달',
+        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+        showMonthAfterYear: true,
+        yearSuffix: '년'
+    });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('click', "#infotab > ul > li", function (e) {
+			e.preventDefault();
+			$("#infotab > ul > li").removeClass("on");
+			$(this).addClass("on");
+			$(".content_info_view > .tabinfo ").removeClass("active");
+			$(".content_info_view > .tabinfo").eq($(this).index()).addClass("active");
+		});
+		$(document).on('click', "#infotab > ul > li", function (e) {
+			e.preventDefault();
+			$("#infotab > ul > li").removeClass("on");
+			$(this).addClass("on");
+			$(".info_p03 .tabinfo ").removeClass("active");
+			$(".info_p03 .tabinfo").eq($(this).index()).addClass("active");
+		});
+	})
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#tabss > dt").click(function(e){
+			e.preventDefault();
+			$("#tabss > dt a").removeClass("on");
+			$(this).find("a").addClass("on");
+			$("#tabss dl.tab > dd").removeClass("active");
+			$("#tabss dl.tab > dd").eq($(this).index()).addClass("active");
+			});
+		});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.title').click(function(){
+			if($(this).hasClass('on') == false){
+				$('.title').removeClass("on");
+				$('.title > ul.dep01').slideUp();
+				$(this).addClass('on');
+				$(this).children('ul').slideDown();
+			}
+		})
+	})
+</script>
+
+
+<!-- 스크롤높이조정 -->
+<script>
+	$(document).ready(function(){
+		var listHeight = $(".left").height();
+		var searchHeight = $(".search_a").height();
+		var resetHeight = listHeight-searchHeight;
+		$(".info_wrap ").css("height", resetHeight-21);
+	});
+</script>
+
+<!-- 스마트 에디터 -->
+<script type="text/javascript">
+	var se_editors = [];
+	var se_editor_ids = [];
+	var sLang = "ko_KR";
+    function setSEEditor(placeholder){
+		nhn.husky.EZCreator.createInIFrame({
+            oAppRef: se_editors,
+            elPlaceHolder: placeholder,
+            sSkinURI: "/assets/js/se/SmartEditor2Skin.html",	
+            htParams : {
+                bUseToolbar : true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
+                bUseVerticalResizer : true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
+                bUseModeChanger : true,			// 모드 탭(Editor | HTML | TEXT) 사용 여부 (true:사용/ false:사용하지 않음)
+                I18N_LOCALE : sLang
+            }, //boolean
+            fCreator: "createSEditor2"
+        });
+		se_editor_ids.push(placeholder);
+	}
+    function formSubmit(frm){
+        $.each(se_editor_ids, function( index, value ) {
+            se_editors.getById[value].exec("UPDATE_CONTENTS_FIELD", []);
+        });
+    }
+</script>
+
+<!-- 네이버 애널리틱스-->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "3c622ddb09f028";
+wcs_do();
+</script>    
+    <meta property="og:title" content="진원반디길마을" />
+    <meta property="og:description" content="무주군 남쪽에 자리한 진원반디길마을은 사방이 산으로 둘러싸인 전형적인 산촌마을입니다. 첨마, 오미자, 태양고추, 무농약 쌀, 산채 등을 재배하는데 일찍부터 친환경 농업을 시작해 반딧불이, 수달, 해오라기 등을 볼 수 있는 청정 마을입니다." />
+    <meta property="og:image"
+        content="https://www.farmstay.co.kr/storage/upload/NFGxHcQ6G6wcvlhZHumvAFMZqE12zXkznJyfOg5X.jpeg">
+
+    <meta name="csrf-token" content="B8vnEiMCNxFy0V6XQPYEMLkbbNJtjS6j7zoW5LLw">
+    <style>
+        /*#fancybox-img {*/
+        /*width: 800px;*/
+        /*height:600px;*/
+        /*display: block;*/
+        /*}*/
+    </style>
+</head>
+
+<body ng-app="myApp">
+    <div class="wrapper">
+        
+                    <section id="header">
+    <!--상단메뉴-->
+    <div class="top_menu">
+        <div class="top_menu_wrap">
+            
+        </div>
+    </div>
+    <!--GNB-->
+    <div class="gnb">
+        <div class="gnb_wrap">
+            <a href="https://www.farmstay.co.kr/home">
+                <h1 class="main_logo"><img src="https://www.farmstay.co.kr/assets/img/farm_logo.jpg"></h1>
+            </a>
+            <ul>
+                <li><a href="https://www.farmstay.co.kr/search?search_type=recommend&category=village">추천팜</a></li>
+                <li><a href="https://www.farmstay.co.kr/search?search_type=theme&category=exp">테마팜</a></li>
+                <li><a href="https://www.farmstay.co.kr/search">팜스테이 찾기</a></li>
+                <li><a href="https://www.farmstay.co.kr/articles">팜스테이 소식</a></li>
+                <li><a href="https://www.farmstay.co.kr/aboutFarmstay">팜스테이란?</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+        
+        
+    <div class="top_img sub_visual"
+    style="background-image: url(https://www.farmstay.co.kr/storage/upload/NFGxHcQ6G6wcvlhZHumvAFMZqE12zXkznJyfOg5X.jpeg)">
+    <div class="visual_inner">
+        <div class="visual_mainInfo">
+            <span class="spotName">전라북도 무주군</span>
+            <p class="text02">자연을 머금은 진원반디길마을은  바람조차도 머물다가는 자연의마을입니다.</p>
+            <p class="text01">진원반디길마을</p>
+            <p class="text03">무주군 남쪽에 자리한 진원반디길마을은 사방이 산으로 둘러싸인 전형적인 산촌마을입니다. 첨마, 오미자, 태양고추, 무농약 쌀, 산채 등을 재배하는데 일찍부터 친환경 농업을 시작해 반딧불이, 수달, 해오라기 등을 볼 수 있는 청정 마을입니다.</p>
+            
+            <!-- End weather -->
+        </div><!-- End visual_mainInfo -->
+        <div class="sns" id="villageSns">
+            <a href="#" class="btn_fb" title="페이스북에 공유하기">페이스북</a>
+            <a href="#" class="btn_twt" title="트위터에 공유하기">트위터</a>
+            <a href="#" class="btn_like "
+                title="즐겨찾기클릭시 '마이페이지'와 메인화면 '즐겨찾기 팜스테이'에 해당 마을이 표시됩니다.">즐겨찾기</a>
+        </div>
+    </div><!-- End visual_inner -->
+</div><!--End top_img sub_visual -->
+<div class="clear"></div>
+<div id="submenuWrap">
+    <div class="sub_menu">
+        <ul>
+    <li class="on"><a
+            href="https://www.farmstay.co.kr/village/A10002">마을정보</a></li>
+    <li class="">
+        <a href="https://www.farmstay.co.kr/village/A10002/experiences">팜PLAY</a>
+    </li>
+    <li
+        class="">
+        <a href="https://www.farmstay.co.kr/village/A10002/festivals">축제/관광지</a>
+    </li>
+    <li class="">
+        <a href="https://www.farmstay.co.kr/village/A10002/accommodations">숙박</a>
+    </li>
+    <li class=""><a
+            href="https://www.farmstay.co.kr/village/A10002/products">특산물</a></li>
+    <li class=""><a
+            href="https://www.farmstay.co.kr/village/A10002/news">마을후기</a></li>
+    
+    
+</ul>
+    </div>
+</div>
+
+<script>
+    $(function() {
+        $('#villageSns .btn_fb').on('click', function(e) {
+            e.preventDefault();
+            window.open('https://www.facebook.com/sharer/sharer.php?p[url]=' + window.location.href,
+                'Farmstay Facebook Share', 'width=500,height=300');
+        });
+
+
+        $('#villageSns .btn_twt').on('click', function(e) {
+            e.preventDefault();
+            window.open('https://www.twitter.com/share?url=' + window.location.href,
+                'Farmstay Twitter Share', 'width=500,height=300');
+        });
+
+        $('#villageSns .btn_like').on('click', function(e) {
+            e.preventDefault();
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.ajax({
+                url: 'https://www.farmstay.co.kr/village/A10002/like',
+                type: 'POST',
+                data: null,
+                dataType: 'json',
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    console.log('성공 - ', data);
+                    alert('즐겨찾기에 추가되었습니다.\n' +
+                        '마이페이지와 즐겨찾기 팜스테이에서 확인할 수 있습니다.');
+                    $('#villageSns .btn_like').toggleClass('liked');
+                },
+                error: function(xhr) {
+                    console.log('실패 - ', xhr);
+                    alert('로그인을 해주세요!');
+                }
+            });
+        });
+        
+    });
+</script>
+
+    <div id="contentWrap">
+        <div class="content_info_view">
+                            <div class="extra_top">
+                    <p><br></p>
+                </div>
+                        <div class="con_tab" id="infotab">
+                <ul>
+                    <li class="on"><a href="#">마을소개</a></li>
+                    <li><a href="#">마을안내</a></li>
+                    <li><a href="#">둘러보기</a></li>
+                </ul>
+            </div>
+            <div class="tabinfo tab01 active">
+
+
+                <div class="info-sub">
+                    <h4>마을소개</h4>
+                    <div><p><br></p><p><img src=" http://www.farmstay.co.kr/storage/upload/20241223091538692565944.jpg">&nbsp;</p><p><br></p><p><b><span style="font-family: 돋움, Dotum; font-size: 9pt;">​땅</span><span style="color: rgb(8, 33, 8); font-family: 함초롬돋움; font-size: 14.6667px;"><span style="font-family: 돋움, Dotum; font-size: 9pt;">과 생명이 살아 숨쉬는 친환경농업마을 만들기에 앞장서는 마을</span></span><span style="font-family: 돋움, Dotum; font-size: 9pt;">&nbsp;</span></b></p><div id="hwpEditorBoardContent" class="hwp_editor_board_content" data-hjsonver="1.0" data-jsonlen="9689"><!--[data-hwpjson]{
+"documentPr": {
+"di": "",
+"dp": {
+"dn": "test.hwp",
+"ta": 1,
+"d1": 5,
+"d2": 1,
+"dv": 0,
+"dr": 1,
+"do": 1,
+"vj": "1.1",
+"an": "Hancom Office Hangul",
+"av": "11, 0, 0, 2129",
+"ao": "WIN",
+"ab": "32",
+"ar": "LE",
+"as": "Windows_8"
+},
+"dis": false,
+"ds": {
+"ti": "",
+"la": "ko",
+"cr": "",
+"su": "",
+"de": "",
+"cd": "2024-12-23T09:37:40.558Z",
+"md": "1601-01-01T09:00:00.000Z",
+"pd": "1601-01-01T09:00:00.000Z",
+"ke": ""
+}
+},
+"dh": {
+"do": {
+"pa": 1,
+"fo": 1,
+"en": 1,
+"pi": 1,
+"tb": 1,
+"eq": 1
+},
+"fo": [ ],
+"cd": {
+"tp": 0,
+"lc": {
+"af": false,
+"ui": false,
+"fu": false,
+"dn": false,
+"ul": false,
+"el": false,
+"at": false,
+"tq": false,
+"da": false,
+"dw": false,
+"dj": false,
+"bc": false,
+"bu": false,
+"al": false,
+"ab": false,
+"ap": false,
+"an": false,
+"aa": false,
+"ds": false,
+"de": false,
+"as": false,
+"cp": false,
+"ao": false,
+"et": false,
+"ay": false,
+"am": false,
+"a1": false,
+"bt": false,
+"av": false,
+"dh": false,
+"dp": false,
+"d1": false,
+"mf": false,
+"bl": false,
+"ag": false,
+"dg": false,
+"ae": false,
+"df": false,
+"do": false,
+"dl": false,
+"di": false,
+"d2": false,
+"d3": false,
+"ob": false,
+"d4": false,
+"ev": false,
+"d5": false,
+"d6": false,
+"a2": false,
+"dc": false
+}
+},
+"ld": {
+"pa": "",
+"pi": true,
+"fo": false
+}
+},
+"bf": {
+"01DB54D2DF8EE1B000000024": {
+"id": 1,
+"td": false,
+"sh": false,
+"st": 0,
+"sc": 0,
+"si": false,
+"bt": 0,
+"bi": false,
+"cl": 0,
+"bc": false,
+"lt": 0,
+"lw": 0,
+"lc": 0,
+"rt": 0,
+"rw": 0,
+"rc": 0,
+"tt": 0,
+"tw": 0,
+"tc": 0,
+"bbt": 0,
+"bbw": 0,
+"bbc": 0,
+"dt": 1,
+"dw": 0,
+"dc": 0,
+"fi": { }
+},
+"01DB54D2DF8EE1B000000025": {
+"id": 2,
+"td": false,
+"sh": false,
+"st": 0,
+"sc": 0,
+"si": false,
+"bt": 0,
+"bi": false,
+"cl": 0,
+"bc": false,
+"lt": 0,
+"lw": 0,
+"lc": 0,
+"rt": 0,
+"rw": 0,
+"rc": 0,
+"tt": 0,
+"tw": 0,
+"tc": 0,
+"bbt": 0,
+"bbw": 0,
+"bbc": 0,
+"dt": 1,
+"dw": 0,
+"dc": 0,
+"fi": {
+"wb": {
+"fc": 4294967295,
+"hc": 0,
+"al": 0,
+"hs": -1
+}
+}
+}
+},
+"cp": {
+"01DB54D2DF8EE1B000000026": {
+"id": 0,
+"he": 1000,
+"tc": 0,
+"sc": 4294967295,
+"uf": false,
+"uk": false,
+"sm": 0,
+"bf": "01DB54D2DF8EE1B000000024",
+"f1": "한컴바탕",
+"t1": 1,
+"f2": "한컴바탕",
+"t2": 1,
+"f3": "함초롬바탕",
+"t3": 1,
+"f4": "한컴바탕",
+"t4": 1,
+"f5": "한컴바탕",
+"t5": 1,
+"f6": "한컴바탕",
+"t6": 1,
+"f7": "한컴바탕",
+"t7": 1,
+"r1": 100,
+"r2": 100,
+"r3": 100,
+"r4": 100,
+"r5": 100,
+"r6": 100,
+"r7": 100,
+"s1": 0,
+"s2": 0,
+"s3": 0,
+"s4": 0,
+"s5": 0,
+"s6": 0,
+"s7": 0,
+"e1": 100,
+"e2": 100,
+"e3": 100,
+"e4": 100,
+"e5": 100,
+"e6": 100,
+"e7": 100,
+"o1": 0,
+"o2": 0,
+"o3": 0,
+"o4": 0,
+"o5": 0,
+"o6": 0,
+"o7": 0,
+"it": false,
+"bo": false,
+"ut": 0,
+"us": 1,
+"uc": 0,
+"st": false,
+"ss": 1,
+"so": 0,
+"ot": 0,
+"ht": 0,
+"hc": 0,
+"hx": 0,
+"hy": 0,
+"em": false,
+"en": false,
+"su": false,
+"sb": false
+},
+"01DB54D2DF8EE1B000000027": {
+"id": 1,
+"he": 1100,
+"tc": 532744,
+"sc": 4294967295,
+"uf": false,
+"uk": false,
+"sm": 0,
+"bf": "01DB54D2DF8EE1B000000025",
+"f1": "함초롬돋움",
+"t1": 1,
+"f2": "함초롬돋움",
+"t2": 1,
+"f3": "함초롬돋움",
+"t3": 1,
+"f4": "함초롬돋움",
+"t4": 1,
+"f5": "함초롬돋움",
+"t5": 1,
+"f6": "함초롬돋움",
+"t6": 1,
+"f7": "함초롬돋움",
+"t7": 1,
+"r1": 100,
+"r2": 100,
+"r3": 100,
+"r4": 100,
+"r5": 100,
+"r6": 100,
+"r7": 100,
+"s1": 0,
+"s2": 0,
+"s3": 0,
+"s4": 0,
+"s5": 0,
+"s6": 0,
+"s7": 0,
+"e1": 100,
+"e2": 100,
+"e3": 100,
+"e4": 100,
+"e5": 100,
+"e6": 100,
+"e7": 100,
+"o1": 0,
+"o2": 0,
+"o3": 0,
+"o4": 0,
+"o5": 0,
+"o6": 0,
+"o7": 0,
+"it": false,
+"bo": false,
+"ut": 1,
+"us": 1,
+"uc": 0,
+"st": false,
+"ss": 1,
+"so": 0,
+"ot": 0,
+"ht": 0,
+"hc": 0,
+"hx": 0,
+"hy": 0,
+"em": false,
+"en": false,
+"su": false,
+"sb": false
+},
+"01DB54D2DF8EE1B000000028": {
+"id": 2,
+"he": 1000,
+"tc": 0,
+"sc": 4294967295,
+"uf": false,
+"uk": false,
+"sm": 0,
+"bf": "01DB54D2DF8EE1B000000025",
+"f1": "바탕",
+"t1": 1,
+"f2": "바탕",
+"t2": 1,
+"f3": "바탕",
+"t3": 1,
+"f4": "바탕",
+"t4": 1,
+"f5": "바탕",
+"t5": 1,
+"f6": "바탕",
+"t6": 1,
+"f7": "바탕",
+"t7": 1,
+"r1": 100,
+"r2": 100,
+"r3": 100,
+"r4": 100,
+"r5": 100,
+"r6": 100,
+"r7": 100,
+"s1": 0,
+"s2": 0,
+"s3": 0,
+"s4": 0,
+"s5": 0,
+"s6": 0,
+"s7": 0,
+"e1": 100,
+"e2": 100,
+"e3": 100,
+"e4": 100,
+"e5": 100,
+"e6": 100,
+"e7": 100,
+"o1": 0,
+"o2": 0,
+"o3": 0,
+"o4": 0,
+"o5": 0,
+"o6": 0,
+"o7": 0,
+"it": false,
+"bo": false,
+"ut": 0,
+"us": 1,
+"uc": 0,
+"st": false,
+"ss": 1,
+"so": 0,
+"ot": 0,
+"ht": 0,
+"hc": 0,
+"hx": 0,
+"hy": 0,
+"em": false,
+"en": false,
+"su": false,
+"sb": false
+},
+"01DB54D2DF8EE1B000000029": {
+"id": 3,
+"he": 850,
+"tc": 0,
+"sc": 4294967295,
+"uf": false,
+"uk": false,
+"sm": 0,
+"bf": "01DB54D2DF8EE1B000000024",
+"f1": "나눔고딕",
+"t1": 5,
+"f2": "나눔고딕",
+"t2": 5,
+"f3": "나눔고딕",
+"t3": 5,
+"f4": "나눔고딕",
+"t4": 5,
+"f5": "나눔고딕",
+"t5": 5,
+"f6": "나눔고딕",
+"t6": 5,
+"f7": "나눔고딕",
+"t7": 5,
+"r1": 100,
+"r2": 100,
+"r3": 100,
+"r4": 100,
+"r5": 100,
+"r6": 100,
+"r7": 100,
+"s1": 0,
+"s2": 0,
+"s3": 0,
+"s4": 0,
+"s5": 0,
+"s6": 0,
+"s7": 0,
+"e1": 100,
+"e2": 100,
+"e3": 100,
+"e4": 100,
+"e5": 100,
+"e6": 100,
+"e7": 100,
+"o1": 0,
+"o2": 0,
+"o3": 0,
+"o4": 0,
+"o5": 0,
+"o6": 0,
+"o7": 0,
+"it": false,
+"bo": false,
+"ut": 0,
+"us": 1,
+"uc": 0,
+"st": false,
+"ss": 1,
+"so": 0,
+"ot": 0,
+"ht": 0,
+"hc": 0,
+"hx": 0,
+"hy": 0,
+"em": false,
+"en": false,
+"su": false,
+"sb": false
+}
+},
+"tp": {
+"01DB54D2DF8EE1B00000002A": {
+"id": 0,
+"al": false,
+"ar": false,
+"tp": [ ]
+}
+},
+"nu": { },
+"bu": { },
+"pp": {
+"01DB54D2DF8EE1B00000002B": {
+"id": 0,
+"ah": 0,
+"av": 0,
+"ht": 0,
+"hi": "",
+"hl": 0,
+"tp": "01DB54D2DF8EE1B00000002A",
+"kb": 0,
+"kn": true,
+"ko": false,
+"kk": false,
+"kl": false,
+"kp": false,
+"kw": 0,
+"co": 0,
+"fl": false,
+"st": true,
+"sl": false,
+"ae": false,
+"aa": false,
+"mi": 0,
+"ml": 0,
+"mr": 0,
+"mp": 0,
+"mn": 0,
+"lt": 0,
+"lv": 160,
+"bf": "01DB54D2DF8EE1B000000024",
+"bl": 0,
+"br": 0,
+"bt": 0,
+"bb": 0,
+"bc": false,
+"bi": false
+},
+"01DB54D2DF8EE1B00000002C": {
+"id": 1,
+"ah": 0,
+"av": 0,
+"ht": 0,
+"hi": "",
+"hl": 0,
+"tp": "01DB54D2DF8EE1B00000002A",
+"kb": 0,
+"kn": true,
+"ko": false,
+"kk": false,
+"kl": false,
+"kp": false,
+"kw": 0,
+"co": 0,
+"fl": false,
+"st": true,
+"sl": false,
+"ae": false,
+"aa": false,
+"mi": 0,
+"ml": -800,
+"mr": 0,
+"mp": 0,
+"mn": 0,
+"lt": 0,
+"lv": 160,
+"bf": "01DB54D2DF8EE1B000000024",
+"bl": 0,
+"br": 0,
+"bt": 0,
+"bb": 0,
+"bc": false,
+"bi": false
+},
+"01DB54D2DF8EE1B00000002D": {
+"id": 2,
+"ah": 0,
+"av": 0,
+"ht": 0,
+"hi": "",
+"hl": 0,
+"tp": "01DB54D2DF8EE1B00000002A",
+"kb": 0,
+"kn": true,
+"ko": false,
+"kk": false,
+"kl": false,
+"kp": false,
+"kw": 0,
+"co": 0,
+"fl": false,
+"st": false,
+"sl": false,
+"ae": false,
+"aa": false,
+"mi": 0,
+"ml": 0,
+"mr": 0,
+"mp": 0,
+"mn": 0,
+"lt": 0,
+"lv": 160,
+"bf": "01DB54D2DF8EE1B000000025",
+"bl": 0,
+"br": 0,
+"bt": 0,
+"bb": 0,
+"bc": false,
+"bi": false
+},
+"01DB54D2DF8EE1B00000002E": {
+"id": 3,
+"ah": 0,
+"av": 0,
+"ht": 0,
+"hi": "",
+"hl": 0,
+"tp": "01DB54D2DF8EE1B00000002A",
+"kb": 0,
+"kn": true,
+"ko": false,
+"kk": false,
+"kl": false,
+"kp": false,
+"kw": 0,
+"co": 0,
+"fl": false,
+"st": true,
+"sl": false,
+"ae": false,
+"aa": false,
+"mi": 0,
+"ml": 0,
+"mr": 0,
+"mp": 0,
+"mn": 0,
+"lt": 0,
+"lv": 160,
+"bf": "01DB54D2DF8EE1B000000024",
+"bl": 0,
+"br": 0,
+"bt": 0,
+"bb": 0,
+"bc": false,
+"bi": false
+}
+},
+"st": {
+"01DB54D2DF8EE1B00000002F": {
+"id": 0,
+"ty": 0,
+"na": "바탕글",
+"en": "Normal",
+"pp": "01DB54D2DF8EE1B00000002D",
+"cp": "01DB54D2DF8EE1B000000028",
+"ns": "01DB54D2DF8EE1B00000002F",
+"li": 1042,
+"lf": false
+},
+"01DB54D2DF8EE1B000000030": {
+"id": 1,
+"ty": 0,
+"na": "표내용",
+"en": "Outline 4",
+"pp": "01DB54D2DF8EE1B00000002E",
+"cp": "01DB54D2DF8EE1B000000029",
+"ns": "01DB54D2DF8EE1B000000030",
+"li": 1042,
+"lf": false
+}
+},
+"mp": { },
+"ro": {
+"hp": "01DB54D2DF8EE1B000000022",
+"01DB54D2DF8EE1B000000022": {
+"np": "01DB54D2DF8EE1B000000023",
+"id": 0,
+"pp": "01DB54D2DF8EE1B00000002C",
+"si": "01DB54D2DF8EE1B000000030",
+"bf": 3,
+"ru": [
+{
+"cp": "01DB54D2DF8EE1B000000027",
+"ch": [
+{
+"cc": 2,
+"ci": 1936024420,
+"co": "01DB54D2DF8EE1B000000020"
+}
+,
+{
+"cc": 2,
+"ci": 1668246628,
+"co": "01DB54D2DF8EE1B000000021"
+}
+,
+{
+"t": "땅과 생명이 살아 숨쉬는 친환경농업마을 만들기에 앞장서는 마을"
+}
+]
+}
+]
+},
+"01DB54D2DF8EE1B000000023": {
+"np": "",
+"id": -2147483648,
+"pp": "01DB54D2DF8EE1B00000002B",
+"si": "01DB54D2DF8EE1B00000002F",
+"bf": 0,
+"ru": [
+{
+"cp": "01DB54D2DF8EE1B000000026",
+"ch": [
+{
+"t": ""
+}
+]
+}
+]
+}
+},
+"sl": { },
+"cs": {
+"01DB54D2DF8EE1B000000020": {
+"cc": 2,
+"ci": 1936024420,
+"td": 0,
+"tv": false,
+"sc": 1134,
+"ts": 8000,
+"ms": "",
+"os": "",
+"gl": 0,
+"gc": 0,
+"gw": false,
+"ns": 0,
+"np": 0,
+"ni": 0,
+"nt": 0,
+"ne": 0,
+"hh": false,
+"hf": false,
+"hm": false,
+"fb": false,
+"hb": false,
+"fi": false,
+"hi": false,
+"hp": false,
+"he": false,
+"sl": false,
+"lr": 0,
+"lc": 0,
+"ld": 0,
+"ls": 0,
+"pp": {
+"ls": false,
+"wi": 59528,
+"he": 84188,
+"gt": 0,
+"ml": 8504,
+"mr": 8504,
+"mt": 5668,
+"mb": 4252,
+"mh": 4252,
+"mf": 4252,
+"mg": 0
+},
+"fn": {
+"at": 0,
+"au": "",
+"ap": "",
+"ac": ")",
+"as": false,
+"ll": -1,
+"lt": 1,
+"lw": 1,
+"lc": 0,
+"sa": 850,
+"sb": 567,
+"st": 283
+,
+"nt": 0,
+"nn": 1,
+"pp": 0,
+"pb": false
+},
+"en": {
+"at": 0,
+"au": "",
+"ap": "",
+"ac": ")",
+"as": false,
+"ll": -4,
+"lt": 1,
+"lw": 1,
+"lc": 0,
+"sa": 850,
+"sb": 567,
+"st": 0
+,
+"nt": 0,
+"nn": 1,
+"pp": 0,
+"pb": false
+},
+"pb": [
+{
+"ty": 0,
+"bf": "01DB54D2DF8EE1B000000024",
+"tb": true,
+"hi": false,
+"fi": false,
+"fa": 0,
+"ol": 1417,
+"or": 1417,
+"ot": 1417,
+"ob": 1417
+},
+{
+"ty": 1,
+"bf": "01DB54D2DF8EE1B000000024",
+"tb": true,
+"hi": false,
+"fi": false,
+"fa": 0,
+"ol": 1417,
+"or": 1417,
+"ot": 1417,
+"ob": 1417
+},
+{
+"ty": 2,
+"bf": "01DB54D2DF8EE1B000000024",
+"tb": true,
+"hi": false,
+"fi": false,
+"fa": 0,
+"ol": 1417,
+"or": 1417,
+"ot": 1417,
+"ob": 1417
+}
+],
+"mp": [ ]
+}
+,
+"01DB54D2DF8EE1B000000021": {
+"cc": 2,
+"ci": 1668246628,
+"ty": 0,
+"la": 0,
+"co": 1,
+"ss": true,
+"sg": 0,
+"lt": 0,
+"lw": 0,
+"lc": 0,
+"cs": [ ]
+}
+},
+"bi": [ ],
+"bidt": { }
+}--></div><p class="0" style="layout-grid-mode:both;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><br></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">무주군 안성면 진도리 진원반디길마을은</span></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">무주군의 남부에 자리 잡고 있으며</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">무주</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">진안</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">장수군의 중간에 위치한 인심이 살아 있는&nbsp;</span><span style="font-family: 함초롬돋움; font-size: 11pt; color: rgb(8, 33, 8);">신촌마을입니다</span><span lang="EN-US" style="font-family: 함초롬돋움; letter-spacing: 0pt; font-size: 11pt; color: rgb(8, 33, 8);">.</span></p></div>
+                </div>
+                <div class="info-sub">
+                    <!--<h4>마을유래</h4> 20170727_임시로 마을유래 기타정보 히든처리_관리자하고 연동 안되어있음-->
+                    <div><p><img src=" http://www.farmstay.co.kr/storage/upload/202412230916561047478820.jpg">&nbsp;</p><p><br></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">역사</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">문화자원으로 정이천 정명도 사당</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">(</span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">별묘</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">)</span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">를 비롯 항일 독립군운동의 주 이동로에 위치해&nbsp;</span><span style="font-family: 함초롬돋움; font-size: 11pt; color: rgb(8, 33, 8);">있습니다</span><span lang="EN-US" style="font-family: 함초롬돋움; letter-spacing: 0pt; font-size: 11pt; color: rgb(8, 33, 8);">.</span></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family: 함초롬돋움; font-size: 11pt; color: rgb(8, 33, 8);">최근 친환경농업과 농어촌 휴양관계로 많은 관광객이 찾아오고 있는 지역이지요.</span></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family: 함초롬돋움; font-size: 11pt; color: rgb(8, 33, 8);"><br></span></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">전형적인 산촌마을로서 천마</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:-0.4pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">오미자</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:-0.4pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">태양고추</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:-0.4pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">무농약쌀</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:-0.4pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">산채</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:-0.4pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">(</span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">고사리</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:-0.4pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">) </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;letter-spacing:-0.4pt;font-size:11.0pt;color:#082108;">등을 비롯한 친환경농업을</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;"> </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">하고 있으며</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">,</span></p><p class="1" style="margin-left:-4.0pt;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;"><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">무엇보다 덕유산과 리조트 등 관광</span><span lang="EN-US" style="mso-fareast-font-family:함초롬돋움;font-family:함초롬돋움;mso-ascii-font-family:함초롬돋움;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;font-size:11.0pt;color:#082108;">, </span><span style="font-family:함초롬돋움;mso-fareast-font-family:함초롬돋움;font-size:11.0pt;color:#082108;">자연자원이 우수한 곳으로 농촌체험&nbsp;</span><span style="font-family: 함초롬돋움; font-size: 11pt; color: rgb(8, 33, 8);">관광객들이 증가하고 있는 살맛나는 농촌마을입니다</span><span lang="EN-US" style="font-family: 함초롬돋움; letter-spacing: 0pt; font-size: 11pt; color: rgb(8, 33, 8);">.</span></p></div>
+                </div>
+                <div class="info-sub">
+                    <!--<h4>기타정보</h4> 20170727_임시로 마을유래 기타정보 히든처리_관리자하고 연동 안되어있음-->
+                    <div><p><span style="font-size: 18pt;"><b>주요 프로그램</b></span></p><p><br></p><p><span style="font-size: 11pt;">ㅁ <span style="color: rgb(255, 0, 0);"><b>고추장/청국장만들기</b></span></span></p><p><span style="font-size: 11pt;"><span style="color: rgb(255, 0, 0);"><b><br></b></span></span></p><p><span style="font-size: 11pt;"><span style="color: rgb(255, 0, 0);"><b><img src=" http://www.farmstay.co.kr/storage/upload/20241223091754501945572.jpg"><br style="clear:both">&nbsp;</b></span></span></p><p><span style="font-size: 11pt;"><span style="color: rgb(255, 0, 0);"><b><br></b></span></span></p><p><span style="font-size: 14.6667px;">ㅁ&nbsp;</span><span style="color: rgb(255, 0, 0);"><b>김장체험</b></span></p><p><span style="color: rgb(255, 0, 0);"><b><br></b></span></p><p><span style="color: rgb(255, 0, 0);"><b><img src=" http://www.farmstay.co.kr/storage/upload/202412230918011443113386.jpg"><br style="clear:both"><img src=" http://www.farmstay.co.kr/storage/upload/20241223091801502507491.jpg"><br style="clear:both"><img src=" http://www.farmstay.co.kr/storage/upload/20241223091801288328924.jpg"><br style="clear:both">&nbsp;</b></span></p></div>
+                </div>
+            </div>
+            <div class="tabinfo tab02">
+                <div id="map" class="map" data-lat="35.86416300" data-lng="127.62971724">
+                </div>
+                <div class="map_info">
+                    <div class="info-sub">
+                        <h4>이용안내</h4>
+                        <p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;"><br></p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;">[축제]</p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;">* 무주반딧불축제 매년 실시(반딧불이와 함께하는 생태탐험</p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;"><br></p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;">[볼거리]</p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;">* 진원반디길마을 → (7.7km, 12분) → 두문마을 → (7.3km, 10분) → 칠연의총 → (0.1km, 1분) → 덕유산</p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;">&nbsp;</p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;"><strong style="box-sizing: border-box;">* TIP</strong></p><p nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="" style="margin-top: 20px; margin-bottom: 10px; box-sizing: border-box;">1. 진원반디길마을에는 황토펜션 ‘반디머물촌’이 있답니다. 가격은 저렴하지만 환경은 최고!<br style="box-sizing: border-box;">2. 반디머물촌에서 바비큐를 한다면 채소는 바비큐장 옆 텃밭에서 공짜!<br style="box-sizing: border-box;">3. 매년 8월에 열리는 두문마을의 ‘무주전통 불꽃축제’에서 낙화놀이를 즐길 수 있답니다.</p></p>
+                    </div>
+                    <div class="info-sub">
+                        <h4>찾아오는 길</h4>
+                        <p><p style="box-sizing: border-box; margin-top: 20px; margin-bottom: 10px; font-family: " nanum="" gothic";="" color:="" rgb(51,="" 51,="" 51);="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"=""><br></p><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;"><b style="box-sizing: border-box;">- 주소 : 전라북도 무주군 안성면 진성로 2416-4</b></div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;"><b style="box-sizing: border-box;">- 위치문의 :&nbsp;063-323-0300</b></div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;">&nbsp;</div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;"><b style="box-sizing: border-box;"><span style="color: rgb(0, 0, 0);">▶ 오</span>시는 길(가) : 대중교통 이용 길</b><br style="box-sizing: border-box;">○ 서울에서 출발: 남부터미널에서 무주, 장수행 버스 → 안성</div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;">○ 전주에서 출발: 금암동 시외버스터미널 또는 안골 시외버스터미널에서 안성행버스 또는 장계행버스(안성행버스로 환승) → 안성면 → 택시로 5분 거리</div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;"><br></div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;"><b style="box-sizing: border-box;"><span style="color: rgb(0, 0, 0);">▶ 오</span>시는 길(나) : 승용차 이용 길</b><br style="box-sizing: border-box;">○ 서울권에서 출발: 경부고속도로 하행선 → 대전(터널)지나 → 대전, 통영간고속도로 → 덕유산IC → 안성</div><div helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" 18px;="" rgb(250,="" 250,="" 250);"="" style="color: rgb(51, 51, 51); box-sizing: border-box;">○ 부산권에서 출발: 남해고속도로 → 진주JC → 대전방면 → 덕유산IC → 안성</div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="">○ 중부권에서 출발: 88고속도로 장수IC → 장계 → 안성</div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="">○ 전주에서 출발: 진안, 무주 → 죽도 → 동향 → 안성</div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"=""><br></div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"=""><b style="box-sizing: border-box;"><span style="color: rgb(0, 0, 0);">▶ 오</span>시는 길(다) : 철도 이용 길</b><br style="box-sizing: border-box;">○ 경부선철도: 영동역에서 하차 → 무주(안성행버스로 환승) → 안성</div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="">○ 부산권에서 출발: 남해고속도로 → 진주JC → 대전방면 → 덕유산IC → 안성</div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="">○ 중부권에서 출발: 88고속도로 장수IC → 장계 →안성</div><div class="바탕글" style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: " helvetica="" neue",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 18px;="" background-color:="" rgb(250,="" 250,="" 250);"="">○ 전주: 진안,무주 → 죽도 → 동향 → 안성</div></p>
+                    </div>
+                    <div class="info-sub">
+                        <h4>기타</h4>
+                        <p><p><br></p><div style="color: rgb(51, 51, 51); box-sizing: border-box;"><b>예약 안내</b></div><div style="color: rgb(51, 51, 51); box-sizing: border-box;"><b><br></b></div><div style="color: rgb(51, 51, 51); box-sizing: border-box;">- 홈페이지 :&nbsp;<a href="http://www.bandigil.co.kr">http://www.bandigil.co.kr</a></div><div style="color: rgb(51, 51, 51); box-sizing: border-box;">- 주소 : 전라북도 무주군 안성면 진성로 2416-4</div><div style="color: rgb(51, 51, 51); box-sizing: border-box;">- 전화예약 및 문의 : 063-323-0300</div></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tabinfo tab03">
+                <div class="village_screenshots clearfix" id="screenshots">
+                                                                        <div class="screenshot_item">
+                                <a href="http://www.welchon.com/upload/2013/03/21/79869678866463853904_thumbnail1.JPG" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(http://www.welchon.com/upload/2013/03/21/79869678866463853904_thumbnail1.JPG)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="http://www.welchon.com/upload/2013/03/21/79869678856567147723_thumbnail1.JPG" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(http://www.welchon.com/upload/2013/03/21/79869678856567147723_thumbnail1.JPG)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="http://www.welchon.com/upload/2013/03/21/79869678855491118707_thumbnail1.JPG" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(http://www.welchon.com/upload/2013/03/21/79869678855491118707_thumbnail1.JPG)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/vZnuTo13Fy9M8Hc0ikNOafVcTmhblPX4mxXNUdml.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/vZnuTo13Fy9M8Hc0ikNOafVcTmhblPX4mxXNUdml.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/gWSzTFRq3r5yEk49eXIrVJ4uORBrq2dVzB7xuu3q.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/gWSzTFRq3r5yEk49eXIrVJ4uORBrq2dVzB7xuu3q.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/UjbbT44Fj2wJK4C9pJgPTPxvCqGqms5wvuOGxmrT.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/UjbbT44Fj2wJK4C9pJgPTPxvCqGqms5wvuOGxmrT.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/uK5vcNLFi6u0hvrgIaBb9e9WogXwLsy6uPufKFms.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/uK5vcNLFi6u0hvrgIaBb9e9WogXwLsy6uPufKFms.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/op9jop2Z0gpI0mllL4FdYaT4d3bm4EpyTW6AJz9k.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/op9jop2Z0gpI0mllL4FdYaT4d3bm4EpyTW6AJz9k.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/rthqBbX0uQ3XQ3F7EWPWdbCQKgCs8MlzBMwpnuQu.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/rthqBbX0uQ3XQ3F7EWPWdbCQKgCs8MlzBMwpnuQu.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/MWvKTMItIJQanv2CLjkPHxskF1fhLNZsf1AzG0Bw.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/MWvKTMItIJQanv2CLjkPHxskF1fhLNZsf1AzG0Bw.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/6gZe2XSyuuEk4ALUnQw19XT8O4wv94sGRtR8WnIw.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/6gZe2XSyuuEk4ALUnQw19XT8O4wv94sGRtR8WnIw.jpeg)"></div>
+                                </a>
+                            </div>
+                                                    <div class="screenshot_item">
+                                <a href="/storage/upload/xYcnsACnOtkREE5umzG3ktccp6hF1hzde4DYezWE.jpeg" class="fancybox" rel="group" title="">
+                                    <div class="img" style="background-image:url(/storage/upload/xYcnsACnOtkREE5umzG3ktccp6hF1hzde4DYezWE.jpeg)"></div>
+                                </a>
+                            </div>
+                                                            </div>
+
+            </div>
+
+        </div><!-- End content_list_farm -->
+
+        <div class="side_bar">
+            <div class="side_top"><span>마을 기본정보</span></div>
+<div class="side_contents">
+    
+        
+        
+        
+        
+        
+    
+    <div class="village_meta">
+        <dl>
+            <dt>주소</dt>
+            <dd>전라북도 무주군 안성면 진성로 2416-4</dd>
+        </dl>
+        <dl>
+            <dt>대표자</dt>
+            <dd>김강엽</dd>
+        </dl>
+        <dl>
+            <dt>전화문의</dt>
+            <dd>010-3100-1085</dd>
+        </dl>
+        <dl>
+            <dt>홈페이지</dt>
+            <dd><a href="http://www.bandigil.co.kr" target="_blank">http://www.bandigil.co.kr</a></dd>
+        </dl>
+    </div>
+
+</div>            <div class="side_tab"><a href="https://www.farmstay.co.kr/village/A10002/experiences"><span>팜PLAY</span></a></div>
+<div class="side_contents">
+    <div class="list_f01">
+                <ul>
+                        <li>
+                <a href="https://www.farmstay.co.kr/village/A10002/experiences/277">
+                    <div class="pic"><img src="/storage/upload/KPHIa2tOXL0CYjjS0gxSxVFncOlpNGpZ0DeGaNvo.jpeg" alt="" /></div>
+                    <div class="info">
+                        <p class="title">고추장만들기</p>
+                        <p class="price" style="color:#f28d01;"><strong>15,000</strong>원 ~</p>
+                    </div>
+                </a>
+            </li>
+                        <li>
+                <a href="https://www.farmstay.co.kr/village/A10002/experiences/276">
+                    <div class="pic"><img src="/storage/upload/MvTMe0VjGWwA6vbt2UjdbLxvGAEBMQtGwjJF8Dk8.jpeg" alt="" /></div>
+                    <div class="info">
+                        <p class="title">청국장 만들기체험</p>
+                        <p class="price" style="color:#f28d01;"><strong>10,000</strong>원 ~</p>
+                    </div>
+                </a>
+            </li>
+                    </ul>
+            </div><!-- End list_f01 -->
+</div>            <div class="side_tab"><a href="https://www.farmstay.co.kr/village/A10002/accommodations"><span>숙박</span></a></div>
+<div class="side_contents">
+    <div class="list_f01">
+                <ul>
+                        <li>
+                <a href="https://www.farmstay.co.kr/village/A10002/accommodations/133">
+                    <div class="pic"><img src="/storage/upload/TjvK3XhyGprlDgr7M6562z6xPudxODkYowh0qE4y.jpeg" alt="" /></div>
+                    <div class="info">
+                        <p class="title">반디길머물촌</p>
+                        <p class="price"><strong>60,000</strong>원~</p>
+                    </div>
+                </a>
+            </li>
+                    </ul>
+            </div><!-- End list_f01 -->
+</div>            <div class="side_tab"><a href="https://www.farmstay.co.kr/village/A10002/places"><span>주변관광지</span></a></div>
+    <div class="side_contents">
+        <div class="list_f01">
+            <ul>
+                                <li>
+                    <a href="https://www.farmstay.co.kr/village/A10002/places/7767">
+                        <div class="pic"><img src="https://www.farmstay.co.kr/assets/img/static/noimg05.jpg" alt="" /></div>
+                        <div class="info">
+                            <p class="title">죽계서원</p>
+                            <p class="place">전라북도 무주군 안성면 평장길 79</p>
+                            <p class="distance">마을로부터 거리 : 1.50km</p>
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.farmstay.co.kr/village/A10002/places/7952">
+                        <div class="pic"><img src="https://www.farmstay.co.kr/assets/img/static/noimg05.jpg" alt="" /></div>
+                        <div class="info">
+                            <p class="title">진안 능길마을</p>
+                            <p class="place">전라북도 진안군 동향면 능금로 193</p>
+                            <p class="distance">마을로부터 거리 : 2.17km</p>
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.farmstay.co.kr/village/A10002/places/2615">
+                        <div class="pic"><img src="https://www.farmstay.co.kr/assets/img/static/noimg05.jpg" alt="" /></div>
+                        <div class="info">
+                            <p class="title">도산서원</p>
+                            <p class="place">전라북도 무주군 안성면 사전1길 24-13</p>
+                            <p class="distance">마을로부터 거리 : 2.23km</p>
+                        </div>
+                    </a>
+                </li>
+                            </ul>
+        </div><!-- End list_f01 -->
+    </div>                    </div><!-- End side_bar -->
+    </div>
+
+
+    <script type="text/javascript"
+        src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=478b795223b2e75274d6fb047a2d0461&libraries=drawing">
+    </script>
+    <script>
+        $(function() {
+
+            function createMap() {
+                var lat = parseFloat($('#map').data('lat'));
+                var lng = parseFloat($('#map').data('lng'));
+
+
+                var container = $('#map')[0];
+
+                var center = new kakao.maps.LatLng(lat, lng);
+
+                var options = {
+                    center: center,
+                    level: 8
+                };
+
+                var map = new kakao.maps.Map(container, options);
+
+                var marker = new kakao.maps.Marker({
+                    position: center
+                });
+
+                marker.setMap(map);
+
+                map.setLevel(12);
+                map.panTo(center);
+            }
+
+            $("#screenshots a.fancybox").fancybox({
+                'autoScale': false,
+                'padding': 0,
+                'titleShow': false,
+                'changeSpeed': 1,
+                'speedIn': 1,
+                'speedOut': 1,
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'onComplete': function() {
+                    if ($('#fancybox-content').width() < 800) {
+                        $('#fancybox-content').removeAttr('style').css({
+                            width: 800,
+                            height: 600
+                        });
+                        $('#fancybox-wrap').removeAttr('style').css({
+                            width: 800,
+                            height: 600
+                        }).show();
+                        $.fancybox.resize();
+                        $.fancybox.center();
+                    }
+
+                }
+            });
+
+
+            $("#infotab > ul > li").click(function(e) {
+                e.preventDefault();
+                if ($(".content_info_view > .tabinfo").eq($(this).index()).find('#map').length > 0) {
+                    setTimeout(function() {
+                        createMap();
+                    }, 500);
+                }
+
+
+            });
+
+        });
+    </script>
+    <script>
+
+
+    $(function(){
+        if ( $('.grid').length > 0) {
+            var $grid = $('.grid').imagesLoaded( function() {
+                // init Masonry after all images have loaded
+                $grid.masonry({
+                    itemSelector: '.grid-item',
+                });
+            });
+        }
+
+        if ($('.specialty_wrap.active').length > 0 ) {
+            $('body').addClass('modal-opened');
+        }
+
+
+        $(document).on('click', '.specialty_wrap .btn_close', function(e){
+            e.preventDefault();
+            $('body').removeClass('modal-opened');
+            $(this).closest('.specialty_wrap').remove();
+        });
+
+        $(document).on('click', '.specialty_wrap', function(e){
+            if ( e.target == this) {
+                $('.btn_close', this).trigger('click');
+            }
+        })
+    });
+</script>
+                    <section id="footer">
+    <div class="footer">
+        <div class="footer_wrap">
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="https://www.farmstay.co.kr/aboutFarmstay">팜스테이 소개</a></li>
+                    <li class="bar">|</li>
+                    <li style="font-weight: bold; font-size:14px"><a href="https://www.farmstay.co.kr/privacy">개인정보 취급방침</a></li>
+                    <li class="bar">|</li>
+                    <li><a href="https://www.farmstay.co.kr/agreement">이용약관</a></li>
+                    <li class="bar">|</li>
+                    <li><a href="https://www.farmstay.co.kr/email-policy">이메일무단수집거부</a></li>
+                    <!-- <li class="bar">|</li>
+     <li><a href="#">고객센터</a></li> -->
+                </ul>
+                <div class="footer_info_wrap clearfix">
+                    <div class="footer-logo">
+                        <!-- <a href="#" onClick="javascript:window.open('https://naver.me/GUUPUIkZ','popup','width=800px, height=1500px')"><img src="https://www.farmstay.co.kr/assets/img/footer-logo.png" alt="농협 팜스테이"></a> -->
+                        <img src="https://www.farmstay.co.kr/assets/img/footer-logo.png" alt="농협 팜스테이">
+                    </div>
+                    <div class="footer-info">
+                        <p>
+                            <strong>농업협동조합중앙회</strong> 서울시 중구 새문안로 16<br>
+                            사업자등록번호 104-82-07072<br>
+                            대표전화 02-2080-5114
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p>&copy; 2026 <strong>FARMSTAY</strong>. ALL RIGHTS RESERVED.</p>
+    </div>
+</section>
+            </div>
+</body>
+
+</html>

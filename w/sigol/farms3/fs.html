@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    	        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=1280">
+
+<title>팜스테이</title>
+
+<meta name="description" content="농협과 함께하는 농촌여행, 마을정보, 농촌체험, 숙박, 축제, 관광지 정보제공">
+<meta name="keywords" content="농협, 농촌여행, 농촌체험, 농촌숙박, 축제, 관광지, 팜스테이">
+<meta name="classification" content="">
+
+<meta name="naver-site-verification" content="fd41cbe7b08ab65c59de1b1663d8f4bcbd9fe4fd" />
+
+<link rel="canonical" href="//www.farmstay.co.kr">
+
+<link href="https://www.farmstay.co.kr/assets/js/admin/plugins/select2/select2.min.css" rel="stylesheet" type="text/css">
+<link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="https://www.farmstay.co.kr/assets/css/desktop.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/farmstay.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/farmstay_sub.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/member.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/info.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/custom.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/override.css?ver=20170801" rel="stylesheet" type="text/css" />
+
+<link href="https://www.farmstay.co.kr/assets/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/js/popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/nigran.datepicker.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+
+<link href="https://www.farmstay.co.kr/assets/app/plugins/ngProgress.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/app/plugins/datepicker/angular-datepicker.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery-ui-1.10.1.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/se/js/service/HuskyEZCreator.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/farmstay.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/js-cookie.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/selectivizr-min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/admin/plugins/select2/select2.full.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-resource.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-cookies.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/plugins/ngprogress.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/plugins/datepicker/angular-datepicker.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/client.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/sso_module.js?v=20261116123617" charset="utf-8"></script>
+<script>
+    $.datepicker.setDefaults({
+        dateFormat: 'yy-mm-dd',
+        prevText: '이전 달',
+        nextText: '다음 달',
+        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+        showMonthAfterYear: true,
+        yearSuffix: '년'
+    });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('click', "#infotab > ul > li", function (e) {
+			e.preventDefault();
+			$("#infotab > ul > li").removeClass("on");
+			$(this).addClass("on");
+			$(".content_info_view > .tabinfo ").removeClass("active");
+			$(".content_info_view > .tabinfo").eq($(this).index()).addClass("active");
+		});
+		$(document).on('click', "#infotab > ul > li", function (e) {
+			e.preventDefault();
+			$("#infotab > ul > li").removeClass("on");
+			$(this).addClass("on");
+			$(".info_p03 .tabinfo ").removeClass("active");
+			$(".info_p03 .tabinfo").eq($(this).index()).addClass("active");
+		});
+	})
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#tabss > dt").click(function(e){
+			e.preventDefault();
+			$("#tabss > dt a").removeClass("on");
+			$(this).find("a").addClass("on");
+			$("#tabss dl.tab > dd").removeClass("active");
+			$("#tabss dl.tab > dd").eq($(this).index()).addClass("active");
+			});
+		});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.title').click(function(){
+			if($(this).hasClass('on') == false){
+				$('.title').removeClass("on");
+				$('.title > ul.dep01').slideUp();
+				$(this).addClass('on');
+				$(this).children('ul').slideDown();
+			}
+		})
+	})
+</script>
+
+
+<!-- 스크롤높이조정 -->
+<script>
+	$(document).ready(function(){
+		var listHeight = $(".left").height();
+		var searchHeight = $(".search_a").height();
+		var resetHeight = listHeight-searchHeight;
+		$(".info_wrap ").css("height", resetHeight-21);
+	});
+</script>
+
+<!-- 스마트 에디터 -->
+<script type="text/javascript">
+	var se_editors = [];
+	var se_editor_ids = [];
+	var sLang = "ko_KR";
+    function setSEEditor(placeholder){
+		nhn.husky.EZCreator.createInIFrame({
+            oAppRef: se_editors,
+            elPlaceHolder: placeholder,
+            sSkinURI: "/assets/js/se/SmartEditor2Skin.html",	
+            htParams : {
+                bUseToolbar : true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
+                bUseVerticalResizer : true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
+                bUseModeChanger : true,			// 모드 탭(Editor | HTML | TEXT) 사용 여부 (true:사용/ false:사용하지 않음)
+                I18N_LOCALE : sLang
+            }, //boolean
+            fCreator: "createSEditor2"
+        });
+		se_editor_ids.push(placeholder);
+	}
+    function formSubmit(frm){
+        $.each(se_editor_ids, function( index, value ) {
+            se_editors.getById[value].exec("UPDATE_CONTENTS_FIELD", []);
+        });
+    }
+</script>
+
+<!-- 네이버 애널리틱스-->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "3c622ddb09f028";
+wcs_do();
+</script>    
+</head>
+
+<body ng-app="myApp">
+    <div class="wrapper">
+        
+                    <section id="header">
+    <!--상단메뉴-->
+    <div class="top_menu">
+        <div class="top_menu_wrap">
+            
+        </div>
+    </div>
+    <!--GNB-->
+    <div class="gnb">
+        <div class="gnb_wrap">
+            <a href="https://www.farmstay.co.kr/home">
+                <h1 class="main_logo"><img src="https://www.farmstay.co.kr/assets/img/farm_logo.jpg"></h1>
+            </a>
+            <ul>
+                <li><a href="https://www.farmstay.co.kr/search?search_type=recommend&category=village">추천팜</a></li>
+                <li><a href="https://www.farmstay.co.kr/search?search_type=theme&category=exp">테마팜</a></li>
+                <li><a href="https://www.farmstay.co.kr/search">팜스테이 찾기</a></li>
+                <li><a href="https://www.farmstay.co.kr/articles">팜스테이 소식</a></li>
+                <li><a href="https://www.farmstay.co.kr/aboutFarmstay">팜스테이란?</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+        
+        
+	<div class="contents_wrap">
+		<div class="visual_wrap">
+											<div class="visual_inner" style="background-image: url(/storage/upload/Hjo9OqcUw20Lm1T9fR6XdrtFSaDSKWsG9gdT8hCY.jpeg)">
+				   <div style="width: 1152px; margin: 63px auto 0;">
+					   <a href="//www.farmstay.co.kr/articles/131" target="_blank"><img src="/storage/upload/GerD6cBqflkk1Pud44Ayvre2w2ftGu1VP8jNjDFY.png"></a>
+				   </div>
+				</div><!-- End visual_inner -->
+				
+					<!--<div class="visual_inner" style="background-image: url(https://www.farmstay.co.kr/storage/upload/Hjo9OqcUw20Lm1T9fR6XdrtFSaDSKWsG9gdT8hCY.jpeg)">
+						<div class="visual_mainInfo">
+							<a href="//www.farmstay.co.kr/articles/131">
+								<span class="spotName"></span>
+								<p class="text02"></p>
+								<p class="text01"></p>
+								<p class="text03"></p>
+							</a>
+							<div class="weather">
+								<div class="w_inner">
+									<span class="icon"><img id="weather_icon_21" src="" alt="" /></span>
+									<p id="weather_temp_21" class="temp"></p>
+									<p id="weather_info_21" class="info"></p>
+								</div>
+							</div>
+						</div>
+						<div class="visual_list">
+							<ul>
+																	<li class="list">
+										<a href="#">
+											<div class="infotext">체험1</div>
+											<img src="https://www.farmstay.co.kr/assets/img/test05.png" alt="" />
+										</a>
+									</li>
+									<li class="list">
+										<a href="#">
+											<div class="infotext">체험1</div>
+											<img src="https://www.farmstay.co.kr/assets/img/test05.png" alt="" />
+										</a>
+									</li>
+									<li class="list">
+										<a href="#">
+											<div class="infotext">체험1</div>
+											<img src="https://www.farmstay.co.kr/assets/img/test05.png" alt="" />
+										</a>
+									</li>
+									<li class="list">
+										<a href="#">
+											<div class="infotext">체험1</div>
+											<img src="https://www.farmstay.co.kr/assets/img/test05.png" alt="" />
+										</a>
+									</li>
+									<li class="list">
+										<a href="#">
+											<div class="infotext">체험1</div>
+											<img src="https://www.farmstay.co.kr/assets/img/test05.png" alt="" />
+										</a>
+									</li>
+									<li class="list">
+										<a href="#">
+											<div class="infotext">체험1</div>
+											<img src="https://www.farmstay.co.kr/assets/img/test05.png" alt="" />
+										</a>
+									</li>
+															</ul>
+						</div>
+					</div>End visual_inner -->
+									</div><!--End visual_wrap -->
+		<!-- 검색박스 시작 -->
+		<form action="https://www.farmstay.co.kr/search" method="get" id="mainSearchForm">
+			<fieldset>
+				<legend>지역선택영역</legend>
+				<div class="search_area">
+					<div class="search_inner">
+						<div class="search_tab">
+							<label><input type="radio" name="search_tab" value="keyword" checked> <span>키워드로 검색</span></label>
+							<label><input type="radio" name="search_tab" value="theme"> <span>테마로 검색</span></label>
+							<label><input type="radio" name="search_tab" value="area"> <span>방문일자로 검색</span></label>
+							
+							
+						</div>
+
+						<div class="search_fields">
+							<div class="select_a field_province field_item active">
+								<label>지역</label>
+								<select id="select_province" name="province_id" class="select_common">
+									<option value="" name="province">지역선택</option>
+								</select>
+							</div>
+							<div class="select_a field_city field_item active">
+								<select id="select_city" name="city_id" class="select_common">
+									<option value="">시군구 선택</option>
+								</select>
+							</div>
+
+							<div class="select_a field_date field_item active">
+								<label>방문일</label>
+								<input type="text" readonly id="reservation_date" name="reservation_date" class="select_common" placeholder="방문일을 선택해 주세요.">
+							</div>
+
+
+							<div class="select_a field_keyword field_item">
+								<label>키워드</label>
+								<input type="text" class="" name="keyword" placeholder="마을/체험/숙박/특산품 이름을 입력해 주세요.">
+							</div>
+
+							<button type="submit" class="btn_search" onclick="searchByLocationFilters()"><img src="https://www.farmstay.co.kr/assets/img/btn_search.png" alt="검색버튼" /></button>
+
+
+							<div id="themes" class="field_item field_themes">
+								<h3>테마</h3>
+								<div class="theme-list"></div>
+							</div>
+						</div>
+
+					</div><!-- search_innder -->
+				</div><!-- End search_area -->
+
+
+			</fieldset>
+		</form>
+
+		<script>
+            $(function(){
+                $('input#reservation_date').datepicker({
+                    inline: true,
+                    showOtherMonths: true,
+                    dateFormat: 'yy-mm-dd'
+                }).datepicker('widget').wrap('<div class="width-345 ll-skin-nigran"/>');
+
+                // 카테고리 가져오기
+                $.get('https://www.farmstay.co.kr/search/themes', function(res){
+                    $(res.themes).each(function(){
+                        console.log(this);
+                        var themeName = this.name;
+                        var  themeId = this.id;
+                        var subThemes = this.sub_themes;
+                        var themeGroup = $('<div class="theme-group"></div>').appendTo('#mainSearchForm #themes .theme-list');
+                        themeGroup.attr('id', themeId);
+                        $('<h3 class="theme-name"></h3>').html(themeName).appendTo(themeGroup);
+                        var subThemeGroup = $('<div class="sub-themes"></div>').appendTo(themeGroup);
+
+                        $('<label><input type="checkbox"> 모두선택</label>').appendTo(subThemeGroup).on('change', function(e){
+
+                            if ($('input', this).is(':checked')) {
+                                $(this).siblings().find('input').prop('checked', 'checked');
+                            } else {
+                                $(this).siblings().find('input').removeProp('checked');
+                            }
+                        });
+
+                        $(subThemes).each(function(){
+                            var subThemeId = this.id;
+                            var subThemeName = this.name;
+                            $('<label><input type="checkbox" name="theme" value="' + subThemeId + '"> ' + subThemeName + '</label>').appendTo(subThemeGroup);
+                        });
+                    })
+                });
+
+
+                $('#mainSearchForm input[name="search_tab"]').on('change', function(){
+
+                    var searchType = $('#mainSearchForm input[name="search_tab"]:checked').val();
+
+                    $('#mainSearchForm .field_item.field_keyword').removeClass('active');
+                    $('#mainSearchForm .field_item.field_themes').removeClass('active');
+                    $('#mainSearchForm .field_item.field_date').removeClass('active');
+                    
+
+                    if ( searchType == 'area') {
+                        $('#mainSearchForm .field_item.field_date').addClass('active');
+                    } else if ( searchType == 'theme') {
+                        $('#mainSearchForm .field_item.field_date').addClass('active');
+                        $('#mainSearchForm .field_item.field_themes').addClass('active');
+                    } else if ( searchType == 'keyword') {
+                        $('#mainSearchForm .field_item.field_keyword').addClass('active');
+                    }
+				
+					
+                });
+
+                $('#mainSearchForm input[name="search_tab"]:checked').trigger('change');
+
+            })
+
+
+		</script>
+		<!-- 검색박스 끝 -->
+
+
+		<div class="banners">
+			<div id="bannerSlider">
+														<a href="http://www.farmstay.co.kr" class="banner"><img src="/storage/upload/e9rlRndaKaYISnT6u5HydYP1TQ9EV2xrm2tHii3L.jpeg"></a>
+												</div>
+		</div>
+
+
+		<div class="con_part01_wrap">
+			<div class="part01_inner">
+				<h3 class="title">이달의 추천 팜스테이 마을</h3>
+				<p class="subtext">농협이 자신있게 추천하는 이달의 지역별, 테마별 팜스테이 마을입니다.</p>
+				<div class="tab mb20" id="tab_recomm">
+					<ul>
+						<li class="mr"><a href="#tab_recomm_location" class="on">지역별 추천여행</a></li>
+						<li><a href="#tab_recomm_theme">테마별 추천여행</a></li>
+					</ul>
+				</div>
+                <div class="tab_contents mt20" id="tab_recomm_content">
+                    <div class="tab_content" id="tab_recomm_location">
+						<div class="controls">
+							<a href="#" class="btn-prev">&lsaquo;</a>
+							<a href="#" class="btn-next">&rsaquo;</a>
+						</div>
+                        <div id="recom_location_slider" class="bx-slider">
+                                                                                                                                <div class="group"><ul>
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40017">
+                                            <div class="spot_area">
+                                                <p>경기 포천시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/pjcVeIuiGOgnNYhUtDiSI1ekH2eB43LkNv1wX3jj.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">교동장독대마을</p>
+                                                <p class="infotext">삶 속에 학습이있고 학습속에 삶이있는 마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A20217">
+                                            <div class="spot_area">
+                                                <p>경기 안성시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/pywuWPtgffYFQdYLHfPt6fRAuZI8AfkKw6KigM7d.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">유별난마을</p>
+                                                <p class="infotext">또 가보고 싶은 농촌마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40131">
+                                            <div class="spot_area">
+                                                <p>강원특별자치도 양양군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/YouttARPVaHj6egsOTr4fFVtIUktfLL8ZjRrKHS2.png)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">황룡마을</p>
+                                                <p class="infotext">깊은계곡,원시림이 살이있는 아름다운 마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00034">
+                                            <div class="spot_area">
+                                                <p>강원특별자치도 영월군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/2ZitYx29jhZcghRhoYwGc6GfhFqosizYriH33evF.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">운학삼돌이마을</p>
+                                                <p class="infotext">구름과 학과  사람이 쉬어가는  청정산골마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00006">
+                                            <div class="spot_area">
+                                                <p>강원특별자치도 원주시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/MTwEl1rKhdE0pe76n24NNMKGE7LFPvYZm6RlXxwX.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">섬강매향골체험휴양마을</p>
+                                                <p class="infotext">정, 바람, 매화향기 가득한 원주 매화마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40033">
+                                            <div class="spot_area">
+                                                <p>충청북도 괴산군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/Uy4hCBUmNxpAc6EIxoCA3gtB9NZlzr82bXuksLGn.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">둔율올갱이마을</p>
+                                                <p class="infotext">일곱가지 체험의 즐거움이 있는 곳</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    </ul></div>
+                                                                    <div class="group"><ul>
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10019">
+                                            <div class="spot_area">
+                                                <p>충청북도 단양군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/knamzSHS0Nnqztb6Vc7CO7uszQxZQhFl6AiCo5Kg.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">한드미마을</p>
+                                                <p class="infotext">자연과 조화를 이룬 최고의 예술품  한드미마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A100072">
+                                            <div class="spot_area">
+                                                <p>충청남도 공주시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/mEO6OJcXEwbcAs6fqLXARumsE9zwdextGokE6DJH.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">꽃내미풀꽃이랑마을</p>
+                                                <p class="infotext">맑고 밝고 향기롭게 텅 비어있는 여유</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10119">
+                                            <div class="spot_area">
+                                                <p>충남 아산시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/fAIX85jrXZLRGCzYyO6HC6o3TdU14oOU4ahtvUFn.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">외암마을</p>
+                                                <p class="infotext">600년 전으로 돌아가는 살아있는 민속박물관</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10434">
+                                            <div class="spot_area">
+                                                <p>전북 남원시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/YgpR5nlRt3D5UmiQu2nTVO7ZOT6AHZicQimTSr01.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">남원달오름마을</p>
+                                                <p class="infotext">지리산 자락 맑은 공기와 물, 달빛의 밝은 기운이 가득한 달오름마을로 놀러오세요!</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10002">
+                                            <div class="spot_area">
+                                                <p>전라북도 무주군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/ViDXadk24gHXZYnsFhWfa3IJmocMpuzQyxFPDPos.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">진원반디길마을</p>
+                                                <p class="infotext">자연을 머금은 진원반디길마을은  바람조차도 머물다가는 자연의마을입니다.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40779">
+                                            <div class="spot_area">
+                                                <p>전라남도 나주시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/DgbxhcTfdPkaAGOitLlyZTDIzmnUluJygftnk7qg.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">홍련마을</p>
+                                                <p class="infotext">연꽃의 향기가 심신과 마을을 힐링하는 곳, 화지홍련마을입니다.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    </ul></div>
+                                                                    <div class="group"><ul>
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40476">
+                                            <div class="spot_area">
+                                                <p>전라남도 여수시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(https://www.farmstay.co.kr/storage/upload/79869589886486177259_thumbnail12.jpg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">여수갯벌노을마을(장척마을)</p>
+                                                <p class="infotext">마음을 적시는 파도의 노래와 백사장이 만난 곳~</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40074">
+                                            <div class="spot_area">
+                                                <p>경상북도 경주시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/wi39OlAngSUL7HWyWioUYJ3wj5H5cJiiXkIw71kK.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">세심마을</p>
+                                                <p class="infotext">옥산서원과 독락당과 함께하는 문화체험</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10047">
+                                            <div class="spot_area">
+                                                <p>경상북도 고령군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/ZiNFtQHdJeUXFG0JfOPeDykFcAXfyK4awa80ATPz.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">개실마을</p>
+                                                <p class="infotext">전통이 살아있는 마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A41079">
+                                            <div class="spot_area">
+                                                <p>경상남도 밀양시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/2cJBfSzQDWUASXI9d8Tnd27ckYdwYxgiKLO5DUrm.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">밀양꽃새미마을</p>
+                                                <p class="infotext">다락마다 색색의 옷을 갈아입는 농촌전통 테마마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A100101">
+                                            <div class="spot_area">
+                                                <p>경상남도 창원시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/OQoVk9vZqyQ7CY1kLp94vcl4TVbOg3vvuzg9IorQ.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">빗돌배기마을</p>
+                                                <p class="infotext">농업의 비전과 우리농산물의 세계화 그리고  자연과 사람이 공존하는 빗돌배기 마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A41318">
+                                            <div class="spot_area">
+                                                <p>인천광역시 강화군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/ZC3YP3bC2dgSR5nLudFNBr0vEaTOzYZzHTgypCAP.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">도래미마을</p>
+                                                <p class="infotext">아름다워서 또 오게 되는 섬 이라는 뜻을 가진 도래미 마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    </ul></div>
+                                                                                                                    </div>
+
+                    </div>
+                    <div class="tab_content" id="tab_recomm_theme">
+						<div class="controls">
+							<a href="#" class="btn-prev">&lsaquo;</a>
+							<a href="#" class="btn-next">&rsaquo;</a>
+						</div>
+                        <div id="recom_theme_slider" class="bx-slider">
+
+                                                                                                                                <div class="group"><ul>
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40110">
+                                            <div class="spot_area">
+                                                <p>경기도 가평군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/JoMUYiYQJNPpcwb8tvvbX6TuBPxqq85srZjCydel.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">초롱이둥지마을</p>
+                                                <p class="infotext">청정자연 건강한 마을 &quot;초롱이둥지마을&quot;</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10991">
+                                            <div class="spot_area">
+                                                <p>경기 양평군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/JjUJ58qzMakSxp6xHTGuN36CFe7BTdkappLWrwL6.png)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">보릿고개마을</p>
+                                                <p class="infotext">사람이 아름다운 마을!</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A41316">
+                                            <div class="spot_area">
+                                                <p>경기도 양평군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/97U1TwBItnRtuTh9TE5woDWAkRuzSpQMff5k8m44.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">여물리체험마을</p>
+                                                <p class="infotext">도시와 농촌의 행복이 여무는 여물리 체험마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10161">
+                                            <div class="spot_area">
+                                                <p>강원 강릉시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/GCLutpHPqKYkNfMW11fvXc809r5SWoUVQdEBGucF.png)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">대기리마을</p>
+                                                <p class="infotext">상쾌한 공기, 싱그러운 햇살, 숲 속 야생화가 있는 마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A20233">
+                                            <div class="spot_area">
+                                                <p>강원특별자치도 철원군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/usshuLTPKLb7msj7rrKbBSObXDeEarVVRhNxSmwT.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">두루미평화마을</p>
+                                                <p class="infotext">평화의 길</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A40047">
+                                            <div class="spot_area">
+                                                <p>충북 단양군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/5QDrlax3HiRO9MQa6iAePmsfbHL4TergkDHipjCo.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">단양방곡도깨비마을</p>
+                                                <p class="infotext">신선처럼 쉬었다가는 청정산골 단양 도깨비마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    </ul></div>
+                                                                    <div class="group"><ul>
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00044">
+                                            <div class="spot_area">
+                                                <p>충북 보은군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/Rnfph9pPYi3r43s5quDi0OHtHSnF1Rj4O8PIXPh4.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">구병리마을</p>
+                                                <p class="infotext">&#039;충북의 알프스&#039; 구병산 자락의 산촌마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10443">
+                                            <div class="spot_area">
+                                                <p>충청북도 영동군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/vm9Kwf9yXoTnz10CSVAO84fRveoZ6SRod1gYPpgm.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">금강모치마을</p>
+                                                <p class="infotext">깨끗하고 달콤한 포도의 고장</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A100084">
+                                            <div class="spot_area">
+                                                <p>충청남도 부여군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/ga14OlOxbB7ASKheT8CwlmoSAa8bN2IN6fjNhxEr.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">부여기와마을</p>
+                                                <p class="infotext">백제역사와 농촌문화가공존하는 문화복합공간</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00002">
+                                            <div class="spot_area">
+                                                <p>충남 서산시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/i8gLpVh1WUoN0zIczVHmoXzFNbdVjzjQ6sFyo1Ca.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">오학리별마을</p>
+                                                <p class="infotext">작은별 미니천문대와 옛 정취가 물씬 풍기는</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A41212">
+                                            <div class="spot_area">
+                                                <p>전북 완주군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/sfp1EyXpDevRhqVMKZGKBq5M7BvE0LrwVYeDQitR.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">인덕마을</p>
+                                                <p class="infotext">참 살기 좋은 마을기업</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A20293">
+                                            <div class="spot_area">
+                                                <p>전북특별자치도 익산시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/5aUi9QvztkFOYs2REnDRE5GzE7VRthQQcw3YaRMR.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">성당포구마을</p>
+                                                <p class="infotext">금강 물줄기가 흐르는 성당포구마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    </ul></div>
+                                                                    <div class="group"><ul>
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10149">
+                                            <div class="spot_area">
+                                                <p>전북특별자치도 임실군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/1D2yVoNzZnInPs5PiNVeajpfPSLJX4wjq4RPLgXD.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">임실치즈마을</p>
+                                                <p class="infotext">사람이 꽃보다 아름다운 치즈마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00079">
+                                            <div class="spot_area">
+                                                <p>전남 강진군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/WIw6QLQfM4wTUiZQYcMTNERmqpioKk2NvnuzEBBo.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">엄지마을</p>
+                                                <p class="infotext">넉넉한 시골 인심을 그대로 간직한 향토마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00092">
+                                            <div class="spot_area">
+                                                <p>경북 봉화군</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg01.jpg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">비나리마을</p>
+                                                <p class="infotext"></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/NH00094">
+                                            <div class="spot_area">
+                                                <p>경북 상주시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/8O4BSUrR3HJDENq51HZ5cqlbim7Z7ZTPEtH2sdni.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">봉강마을</p>
+                                                <p class="infotext">다시 오고 싶고 머물고 싶은고향마을 만들기</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A10189">
+                                            <div class="spot_area">
+                                                <p>경상남도 사천시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/vGCE0Dm1SKm5zeHMjmhqd8wp6QiHoXg2CF6EhCEz.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">상정비봉내마을</p>
+                                                <p class="infotext">비봉내체험휴양마을</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                                                    
+                                    <li class="list">
+                                        <a href="https://www.farmstay.co.kr/village/A100099">
+                                            <div class="spot_area">
+                                                <p>경상남도 진주시</p>
+                                                                                                    <!-- 농협요청에 의해 임시로 뱃지 이름 수정. 2017.07.28 디오
+                                                    <span class="bg_green">신규마을</span>
+                                                    -->
+                                                    <span class="bg_green">추천 마을</span>
+                                                                                            </div>
+                                            <div class="pic"><div class="img" style="background-image:url(/storage/upload/kpgWz3BZdV62wLvH7ZBE0M73WeNz4wUV5wj5ylIX.jpeg)"></div></div>
+                                            <div class="info">
+                                                <p class="village_name">가뫼골마을</p>
+                                                <p class="infotext">추억과 낭만이 숨쉬는 가뫼골에서 동심의 세계로 떠나 볼까요</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    </ul></div>
+                                                                                                                    </div>
+                    </div>
+                </div>
+
+
+			</div><!-- End part01_inner -->
+		</div><!-- End con_part01_wrap -->
+
+        <!-- nh여행 농촌관광 상품 일시 비노출 nh 천홍준계장, 21.04.16 -->
+        <!-- 복귀시 index210422 참조 -->
+
+        
+
+
+		
+			
+				
+				
+				
+					
+						
+							
+							
+								
+								
+							
+						
+					
+					
+						
+							
+							
+								
+								
+							
+						
+					
+					
+						
+							
+							
+								
+								
+							
+						
+					
+				
+			
+		
+
+				<div class="part05_wrap">
+			<div class="part05_inner">
+				<div class="left_notice">
+					<div class="noti_title"><h3>공지사항</h3><a href="https://www.farmstay.co.kr/articles" class="btn_more">+ 더보기</a></div>
+					<ul class="noti_list">
+																					<li><a href="https://www.farmstay.co.kr/articles/155"><span class="sort">[커뮤니티]</span><p>개인정보의 이용·제공내역 통지 실시 안내</p><span class="date">2024-04-17</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/153"><span class="sort">[커뮤니티]</span><p>[신문기사/동아일보]휴가 갈 수 있는 팜스테이 마을 2...</p><span class="date">2023-09-06</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/152"><span class="sort">[커뮤니티]</span><p>[신문기사/세계일보]농촌에 활력, 도시엔 힐링···&#039;팜...</p><span class="date">2023-09-06</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/151"><span class="sort">[커뮤니티]</span><p>[신문기사/한국경제]천연비누 만들까 생활도자기 빚어...</p><span class="date">2023-09-04</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/150"><span class="sort">[커뮤니티]</span><p>[신문기사/한국경제]마을 휘감아 도는 내성천 ··· 육...</p><span class="date">2023-09-04</span></a></li>
+																		</ul>
+				</div><!-- End left_notice -->
+				<div class="right_news">
+					<div class="noti_title"><h3>이벤트 & 홍보자료</h3><a href="https://www.farmstay.co.kr/articles" class="btn_more">+ 더보기</a></div>
+					<ul class="noti_list">
+																					<li><a href="https://www.farmstay.co.kr/articles/131"><p>[2023-2024 한국관광 100선 속 팜스테이마을]</p><span class="date">2023-02-14</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/130"><p>[2023-2024 한국관광 100선 속 팜스테이마을] 서울</p><span class="date">2023-02-14</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/129"><p>[2023-2024 한국관광 100선 속 팜스테이마을] 경기 인...</p><span class="date">2023-02-14</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/128"><p>[2023-2024 한국관광 100선 속 팜스테이마을] 강원도</p><span class="date">2023-02-14</span></a></li>
+															<li><a href="https://www.farmstay.co.kr/articles/127"><p>[2023-2024 한국관광 100선 속 팜스테이마을] 충북 세...</p><span class="date">2023-02-14</span></a></li>
+																		</ul>
+				</div>
+			</div><!-- End right-news -->
+		</div>
+	
+	</div><!-- End contents_wrap -->
+
+	<script type="text/javascript">
+
+        $(function(){
+
+            $('.visual_wrap').bxSlider({
+                responsive:true,
+                speed:1000,
+                pause:5000, /*7000, 복귀요청들어오면 삭제 2017.07.30*/
+                auto: true
+            });
+            var recomSliders = [];
+
+            $('#tab_recomm_content .bx-slider').each(function(){
+                var slider = $(this).bxSlider({
+                    speed:1000,
+                    pause:5000, /* 고객사요청에 의해 박스도 슬라이드 처리 2017.07.30*/
+                    auto: true,
+                    responsive:true,
+                    adaptiveHeight: true,
+                    controls:false,
+                    pager:true
+                });
+                this.slider = slider;
+                recomSliders.push(slider);
+
+                var controls = $(this).closest('.tab_content').find('.controls');
+                $('.btn-prev', controls).on('click', function(e){
+                    e.preventDefault();
+                    slider.goToPrevSlide();
+                });
+                $('.btn-next', controls).on('click', function(e){
+                    e.preventDefault();
+                    slider.goToNextSlide();
+                });
+            });
+
+
+
+
+            //이달의 추천
+            $("#tab_recomm a").click(function (e) {
+                e.preventDefault();
+
+                $(this).addClass('on').parent().siblings().find('a').removeClass('on');
+                var target = $(this).attr('href');
+                $('#tab_recomm_content ' + target).addClass('active').siblings().removeClass('active');
+
+                if ($('#tab_recomm_content ' + target).find('.bx-slider').length > 0 ) {
+
+
+                    var slider = $(target).find('.bx-slider')[0].slider;
+                    slider.redrawSlider();
+                }
+
+            }).first().trigger('click');
+
+
+            //검색탭
+            $("#tabs > dt").click(function(e){
+                e.preventDefault();
+                $("#tabs > dt a").removeClass("on");
+                $(this).find("a").addClass("on");
+
+                $("#tabs dl.tab > dd").removeClass("active");
+                $("#tabs dl.tab > dd").eq($(this).index()).addClass("active");
+            });
+
+            //이달의 체험상품
+            $("#tab2 > ul > li").click(function (e) {
+                e.preventDefault();
+                $("#tab2 > ul > li > a").removeClass("on");
+                $(this).find("a").addClass("on");
+
+                $("#tabInfo > .tabview").removeClass("active");
+                $("#tabInfo > .tabview").eq($(this).index()+1).addClass("active");
+            });
+
+
+
+
+
+
+            $('#bannerSlider').bxSlider({
+                speed:1000,
+                pause:5000, /*7000*/
+                auto: true,
+                responsive:true,
+                adaptiveHeight: true,
+                controls:false,
+                pager:true
+            });
+        });
+
+
+
+
+	</script>
+
+	<script type="text/javascript">
+	
+	$(function () {
+		initializeSelectProvince();
+		ajaxProvinces();
+	});
+	
+	function initializeSelectProvince() {
+		$('#select_province').change(function () {
+			ajaxCities($(this).val());
+		});
+	}
+	
+	function ajaxProvinces() {
+		
+		var select_province = $('#select_province');
+		var select_city = $('#select_city');
+		
+		$.ajax({
+		    url: 'https://www.farmstay.co.kr/search/provinces',
+		    type: 'GET',
+		    data: null,
+		    dataType: 'json',
+		    success: function(data) {
+			    
+
+			    
+			    var provinces = data['provinces'];
+			    
+				$.each(provinces, function (i, province) {
+					select_province.append('<option value="'+province['id']+'">'+province['name']+'</option>');
+				});
+
+				if ( window.default_province_id ) {
+                    $('#select_province option[value="' + window.default_province_id + '"]').prop('selected', 'selected');
+                    $('#select_province').trigger('change');
+                }
+		    },
+		    error: function(xhr) {
+		      console.log('실패 - ', xhr);
+		    }
+		});
+	}
+	
+	function ajaxCities(province_id) {
+		
+		var select_city = $('#select_city');
+		
+		var query = {
+			province_id: province_id,	
+		};
+		
+		$.ajax({
+		    url: 'https://www.farmstay.co.kr/search/cities',
+		    type: 'GET',
+		    data: query,
+		    dataType: 'json',
+		    success: function(data) {
+			    
+			    var cities = data['cities'];
+			    
+			    select_city.children().remove();
+			    
+			    select_city.append('<option value="">시군구 선택</option>');
+			    
+				$.each(cities, function (i, city) {
+					select_city.append('<option value="'+city['id']+'">'+city['name']+'</option>');
+				});
+
+                if ( window.default_city_id ) {
+                    $('#select_city option[value="' + window.default_city_id + '"]').prop('selected', 'selected');
+                    $('#select_city').trigger('change');
+                }
+		    },
+		    error: function(xhr) {
+		      console.log('실패 - ', xhr);
+		    }
+		});
+	}
+</script>	<script type="text/javascript">
+
+//    $(function(){
+//       $('.list viewdetail')
+//    });
+//
+    $(document).ready(function(){
+        $('a.viewdetail').click(function(e){
+            e.preventDefault();
+            var id = $(this).attr('data-id');
+            console.log(id);
+
+            window.showVillageInMap(id);
+//            $(this).parents('.list').children('.more_info_wrap').toggle();
+        })
+    })
+
+</script>
+	<!-- <div class="popup2" id="popup_02">
+		<div class="popup-content">
+			<a href="//card.nonghyup.com/index_cardEvent.html?SERVICE_ID=IPCI2002R&EVENT_NO=2969" target="_blank"><img src="https://www.farmstay.co.kr/assets/img/popup20211108.png"></a>
+		</div>
+		<div class="popup-footer">
+			<div class="clearfix">
+				<div class="pull-left">
+					<label><input type="checkbox" name="expire"> 오늘하루 이창을 열지 않습니다.</label>
+				</div>
+				<div class="pull-right">
+					<a href="#" class="btn-close">닫기</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<script>
+        $(function(){
+            function setCookie(name, value, expiredays) {
+                var todayDate = new Date();
+                todayDate.setDate(todayDate.getDate()+expiredays);
+                document.cookie = name+"="+escape(value)+"; path=/; expires="+todayDate.toGMTString() +";"
+            }
+
+            function closeWin(popupId) {
+                if($('.popup#' + popupId + ' input[name="expire"]').is(':checked')) {
+                    setCookie(popupId,"done",1);
+                }
+
+                $('.popup#' + popupId).remove();
+            }
+
+            function getCookie(name) {
+                var nameOfCookie = name +"=";
+                var x = 0;
+                while(x <= document.cookie.length)
+                {
+                    var y = (x+nameOfCookie.length);
+                    if(document.cookie.substring(x,y)==nameOfCookie){
+                        if((endOfCookie=document.cookie.indexOf(";",y))== -1)
+                            endOfCookie = document.cookie.length;
+                        return unescape(document.cookie.substring(y,endOfCookie));
+                    }
+                    x = document.cookie.indexOf(" ",x)+1;
+                    if(x==0) break;
+                }
+                return "";
+            }
+
+            function openPopup(popupId) {
+                if(getCookie(popupId) != "done"){
+                    $('.popup#' + popupId).addClass('active');
+                } else {
+                    $('.popup#' + popupId).remove();
+				}
+            }
+
+
+
+            $(".popup .btn-close").on('click', function(e){
+                e.preventDefault();
+                var popup = $(this).closest('.popup');
+                var popupId = popup.attr('id');
+                closeWin(popupId);
+            });
+
+
+            openPopup('popup_01');
+
+        });
+
+	</script> <!-- 팝업1 스크립트 끝 -->
+
+			<script>
+	        $(function(){
+	            function setCookie(name, value, expiredays) {
+	                var todayDate = new Date();
+	                todayDate.setDate(todayDate.getDate()+expiredays);
+	                document.cookie = name+"="+escape(value)+"; path=/; expires="+todayDate.toGMTString() +";"
+	            }
+
+	            function closeWin(popupId) {
+	                if($('.popup2#' + popupId + ' input[name="expire"]').is(':checked')) {
+	                    setCookie(popupId,"done",1);
+	                }
+
+	                $('.popup2#' + popupId).remove();
+	            }
+
+	            function getCookie(name) {
+	                var nameOfCookie = name +"=";
+	                var x = 0;
+	                while(x <= document.cookie.length)
+	                {
+	                    var y = (x+nameOfCookie.length);
+	                    if(document.cookie.substring(x,y)==nameOfCookie){
+	                        if((endOfCookie=document.cookie.indexOf(";",y))== -1)
+	                            endOfCookie = document.cookie.length;
+	                        return unescape(document.cookie.substring(y,endOfCookie));
+	                    }
+	                    x = document.cookie.indexOf(" ",x)+1;
+	                    if(x==0) break;
+	                }
+	                return "";
+	            }
+
+	            function openPopup(popupId) {
+	                if(getCookie(popupId) != "done"){
+	                    $('.popup2#' + popupId).addClass('active');
+	                } else {
+	                    $('.popup2#' + popupId).remove();
+					}
+	            }
+
+
+
+	            $(".popup2 .btn-close").on('click', function(e){
+	                e.preventDefault();
+	                var popup = $(this).closest('.popup2');
+	                var popupId = popup.attr('id');
+	                closeWin(popupId);
+	            });
+
+
+	            openPopup('popup_02');
+
+	        });
+		</script> <!--  팝업2 스크립트 끝-->
+
+                    <section id="footer">
+    <div class="footer">
+        <div class="footer_wrap">
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="https://www.farmstay.co.kr/aboutFarmstay">팜스테이 소개</a></li>
+                    <li class="bar">|</li>
+                    <li style="font-weight: bold; font-size:14px"><a href="https://www.farmstay.co.kr/privacy">개인정보 취급방침</a></li>
+                    <li class="bar">|</li>
+                    <li><a href="https://www.farmstay.co.kr/agreement">이용약관</a></li>
+                    <li class="bar">|</li>
+                    <li><a href="https://www.farmstay.co.kr/email-policy">이메일무단수집거부</a></li>
+                    <!-- <li class="bar">|</li>
+     <li><a href="#">고객센터</a></li> -->
+                </ul>
+                <div class="footer_info_wrap clearfix">
+                    <div class="footer-logo">
+                        <!-- <a href="#" onClick="javascript:window.open('https://naver.me/GUUPUIkZ','popup','width=800px, height=1500px')"><img src="https://www.farmstay.co.kr/assets/img/footer-logo.png" alt="농협 팜스테이"></a> -->
+                        <img src="https://www.farmstay.co.kr/assets/img/footer-logo.png" alt="농협 팜스테이">
+                    </div>
+                    <div class="footer-info">
+                        <p>
+                            <strong>농업협동조합중앙회</strong> 서울시 중구 새문안로 16<br>
+                            사업자등록번호 104-82-07072<br>
+                            대표전화 02-2080-5114
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p>&copy; 2026 <strong>FARMSTAY</strong>. ALL RIGHTS RESERVED.</p>
+    </div>
+</section>
+            </div>
+</body>
+
+</html>

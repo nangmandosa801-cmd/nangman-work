@@ -1,0 +1,21 @@
+[지시] 인스타 · 스레드 아이디 바뀜 → 링크 교체 (11/16 08:35 사장님)
+
+바뀐 것
+- kimdongjin24 → nangman.interior (인스타 · 스레드 같이)
+- 새 주소: https://www.instagram.com/nangman.interior
+           https://www.threads.com/@nangman.interior
+- 옛 주소(kimdongjin24)는 이제 열리지 않습니다.
+
+Claude가 이미 한 것
+- 구글 블로그 낭만 인테리어 6편 교체 끝(2026/11 84a-280 두 편 · 2026/10 네 편). 구글 블로그는 건드리지 마세요.
+
+어사이드가 할 일 (순서대로)
+1. 프로필 · 소개 칸 먼저(오늘): 네이버 블로그 4곳(champion_chart · dong_jin_kim · jisandream01 · give_me_travel) 프로필 소개 · 외부 링크 위젯, 티스토리 3곳(nangmaninterior · talk7921 · nangman-dosa) 소개 · 사이드바, 당근 비즈프로필 소개, 유튜브 · 틱톡 · 네이버 클립 소개에 kimdongjin24 가 있으면 nangman.interior 로.
+2. 티스토리 nangmaninterior · talk7921 글: 관리 화면 글 검색에 kimdongjin24 → 나온 글만, 하루 6편까지. 본문에서 그 주소 · 아이디 글자만 바꾸고 다른 곳은 손대지 않기.
+3. 네이버 dong_jin_kim · jisandream01 · give_me_travel 글: 블로그 안 검색 kimdongjin24 → 나온 글만, 블로그마다 하루 6편까지(진행 중인 링크 정리와 합쳐서 6편).
+4. 네이버 champion_chart(낭만 인테리어) 글: 홀딩 풀림(11/16 08:41 사장님). 오늘부터 시작, 하루 2~3편.
+
+공통
+- 주소와 아이디 글자만 바꿉니다. 제목 · 사진 · 다른 문장은 그대로.
+- 발행 뒤 본문에 ##, **, [CALL], <div 같은 기호가 글자로 보이면 지우기.
+- 한 날 고친 글 주소를 5_보고 「인스타아이디_교체_현황.txt」에 한 줄씩(날짜 · 블로그 · 주소).

@@ -1,0 +1,2177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+                <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=1280">
+
+<title>팜스테이</title>
+
+<meta name="description" content="농협과 함께하는 농촌여행, 마을정보, 농촌체험, 숙박, 축제, 관광지 정보제공">
+<meta name="keywords" content="농협, 농촌여행, 농촌체험, 농촌숙박, 축제, 관광지, 팜스테이">
+<meta name="classification" content="">
+
+<meta name="naver-site-verification" content="fd41cbe7b08ab65c59de1b1663d8f4bcbd9fe4fd" />
+
+<link rel="canonical" href="//www.farmstay.co.kr">
+
+<link href="https://www.farmstay.co.kr/assets/js/admin/plugins/select2/select2.min.css" rel="stylesheet" type="text/css">
+<link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="https://www.farmstay.co.kr/assets/css/desktop.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/farmstay.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/farmstay_sub.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/member.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/info.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/custom.css?ver=20170801" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/override.css?ver=20170801" rel="stylesheet" type="text/css" />
+
+<link href="https://www.farmstay.co.kr/assets/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/js/popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/nigran.datepicker.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+
+<link href="https://www.farmstay.co.kr/assets/app/plugins/ngProgress.css" rel="stylesheet" type="text/css" />
+<link href="https://www.farmstay.co.kr/assets/app/plugins/datepicker/angular-datepicker.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery-ui-1.10.1.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/se/js/service/HuskyEZCreator.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/farmstay.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/js-cookie.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/selectivizr-min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/admin/plugins/select2/select2.full.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-resource.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/angular-cookies.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/plugins/ngprogress.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/plugins/datepicker/angular-datepicker.min.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/app/client.js"></script>
+<script type="text/javascript" src="https://www.farmstay.co.kr/assets/js/sso_module.js?v=20261116123626" charset="utf-8"></script>
+<script>
+    $.datepicker.setDefaults({
+        dateFormat: 'yy-mm-dd',
+        prevText: '이전 달',
+        nextText: '다음 달',
+        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+        showMonthAfterYear: true,
+        yearSuffix: '년'
+    });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('click', "#infotab > ul > li", function (e) {
+			e.preventDefault();
+			$("#infotab > ul > li").removeClass("on");
+			$(this).addClass("on");
+			$(".content_info_view > .tabinfo ").removeClass("active");
+			$(".content_info_view > .tabinfo").eq($(this).index()).addClass("active");
+		});
+		$(document).on('click', "#infotab > ul > li", function (e) {
+			e.preventDefault();
+			$("#infotab > ul > li").removeClass("on");
+			$(this).addClass("on");
+			$(".info_p03 .tabinfo ").removeClass("active");
+			$(".info_p03 .tabinfo").eq($(this).index()).addClass("active");
+		});
+	})
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#tabss > dt").click(function(e){
+			e.preventDefault();
+			$("#tabss > dt a").removeClass("on");
+			$(this).find("a").addClass("on");
+			$("#tabss dl.tab > dd").removeClass("active");
+			$("#tabss dl.tab > dd").eq($(this).index()).addClass("active");
+			});
+		});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.title').click(function(){
+			if($(this).hasClass('on') == false){
+				$('.title').removeClass("on");
+				$('.title > ul.dep01').slideUp();
+				$(this).addClass('on');
+				$(this).children('ul').slideDown();
+			}
+		})
+	})
+</script>
+
+
+<!-- 스크롤높이조정 -->
+<script>
+	$(document).ready(function(){
+		var listHeight = $(".left").height();
+		var searchHeight = $(".search_a").height();
+		var resetHeight = listHeight-searchHeight;
+		$(".info_wrap ").css("height", resetHeight-21);
+	});
+</script>
+
+<!-- 스마트 에디터 -->
+<script type="text/javascript">
+	var se_editors = [];
+	var se_editor_ids = [];
+	var sLang = "ko_KR";
+    function setSEEditor(placeholder){
+		nhn.husky.EZCreator.createInIFrame({
+            oAppRef: se_editors,
+            elPlaceHolder: placeholder,
+            sSkinURI: "/assets/js/se/SmartEditor2Skin.html",	
+            htParams : {
+                bUseToolbar : true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
+                bUseVerticalResizer : true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
+                bUseModeChanger : true,			// 모드 탭(Editor | HTML | TEXT) 사용 여부 (true:사용/ false:사용하지 않음)
+                I18N_LOCALE : sLang
+            }, //boolean
+            fCreator: "createSEditor2"
+        });
+		se_editor_ids.push(placeholder);
+	}
+    function formSubmit(frm){
+        $.each(se_editor_ids, function( index, value ) {
+            se_editors.getById[value].exec("UPDATE_CONTENTS_FIELD", []);
+        });
+    }
+</script>
+
+<!-- 네이버 애널리틱스-->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "3c622ddb09f028";
+wcs_do();
+</script>    
+    <link href="https://www.farmstay.co.kr/assets/css/search.css" rel="stylesheet" type="text/css" />
+    <style>
+        .map-marker {
+            padding: 8px 8px 10px 8px;
+
+        }
+
+        .map-marker .map-marker-header {
+            text-align: right;
+            margin-bottom: 5px;
+        }
+
+        .map-marker .btn-hide-marker {
+            color: #666;
+            font-size: 20px;
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            line-height: 20px;
+            height: 20px;
+        }
+
+        .map-marker .map-marker-body {
+            position: relative;
+            width: 150px;
+        }
+
+        .map-marker .map-marker-body .img {
+
+            width: 150px;
+            height: 100px;
+            background: 50% 50% no-repeat;
+            background-size: cover;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .map-marker .map-marker-body h5 {
+            margin-bottom: 2px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .map-marker .map-marker-body p {
+            font-size: 11px;
+            opacity: .6;
+            margin-bottom: 10px;
+        }
+
+        .map-marker .map-marker-footer {
+            text-align: right;
+            margin-bottom: 5px;
+        }
+
+        .map-marker .btn-go {
+            color: #666;
+            border: 1px solid #eee;
+            display: inline-block;
+            font-size: 11px;
+            padding: 4px;
+        }
+
+
+        #searchedList .searched-list-title {
+            background: #f2f2f2;
+            padding: 10px;
+            /* font-size: 13px; */
+            font-weight: 500;
+            border-left: 1px solid #ddd
+        }
+
+        #searchedList .searched-list-title span.search-result-number {
+            color: #f28d01;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body ng-app="myApp">
+    <div class="wrapper">
+        
+            <div class="sub_wrap" id="fixed_layout">
+        <div class="sub_header">
+            <div class="header_inner">
+                <a href="https://www.farmstay.co.kr/home">
+                    <h1 class="main_logo"><img src="https://www.farmstay.co.kr/assets/img/sub_logo.png"></h1>
+                </a>
+                <div class="top_menu_wrap">
+                    
+                </div><!--End top_menu_wrap -->
+            </div><!--End header_inner -->
+        </div><!--End sub_header -->
+    
+                <div class="sub_contents">
+            <div class="left">
+
+                <div class="top">
+                    <div class="search_a search_area  pbn pn">
+                        <div class="search_inner">
+                            <!-- 검색박스 시작 -->
+                            <form action="https://www.farmstay.co.kr/search" method="get" id="mainSearchForm">
+                                <fieldset>
+                                    <legend>지역선택영역</legend>
+                                    <div class="search_area">
+                                        <div class="search_inner">
+                                            <div class="search_tab">
+                                                <label><input type="radio" name="search_tab" value="keyword" checked>
+                                                    <span>키워드로 검색</span></label>
+                                                <label><input type="radio" name="search_tab" value="theme"> <span>테마로
+                                                        검색</span></label>
+                                                <label><input type="radio" name="search_tab" value="area"> <span>방문일자로
+                                                        검색</span></label>
+
+
+                                            </div>
+
+                                            <div class="search_fields">
+                                                <div class="select_a field_province field_item active">
+                                                    <label>지역</label>
+                                                    <select id="select_province" name="province_id" class="select_common">
+                                                        <option value="" name="province">지역선택</option>
+                                                    </select>
+                                                </div>
+                                                <div class="select_a field_city field_item active">
+                                                    <select id="select_city" name="city_id" class="select_common">
+                                                        <option value="">시군구 선택</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="select_a field_date field_item active">
+                                                    <label>방문일</label>
+                                                    <input type="text" readonly id="reservation_date"
+                                                        name="reservation_date" class="select_common"
+                                                        placeholder="방문일을 선택해 주세요.">
+                                                </div>
+
+
+                                                <div class="select_a field_keyword field_item">
+                                                    <label>키워드</label>
+                                                    <input type="text" class="" name="keyword"
+                                                        placeholder="마을/체험/숙박/특산품 입력">
+                                                </div>
+
+                                                <button type="submit" class="btn_search"><img
+                                                        src="https://www.farmstay.co.kr/assets/img/btn_search.png"
+                                                        alt="검색버튼" /></button>
+
+
+                                                <div id="themes" class="field_item field_themes">
+                                                    <div class="theme-list-header clearfix">
+                                                        <h3>테마</h3>
+                                                        <a href="#" class="btn-toggle">옵션 <span
+                                                                class="closed">열기</span> <span class="opened">닫기</span></a>
+                                                    </div>
+                                                    <div class="theme-list"></div>
+                                                </div>
+                                            </div>
+
+                                        </div><!-- search_innder -->
+                                    </div><!-- End search_area -->
+
+
+                                </fieldset>
+                            </form>
+
+                            <!-- 검색박스 끝 -->
+                        </div>
+
+                    </div><!-- End search_a -->
+                </div>
+
+                <div class="bottom">
+                    <div class="bottom-inner">
+                        <div class="sub_gnb">
+                            <ul class="dep00" id="menu">
+                                <li class="title" id="menuRecommend"><a href="#">추천팜<span class="ddown"><img
+                                                src="https://www.farmstay.co.kr/assets/img/btn_dropdown1.png"
+                                                alt="하위메뉴보기"></span></a>
+                                    <ul class="dep01">
+                                        <li data-category="village"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=recommend&category=village">추천마을</a>
+                                        </li>
+                                        <li data-category="exp"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=recommend&category=exp">추천체험</a>
+                                        </li>
+                                        <li data-category="accomm"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=recommend&category=accomm">추천숙박</a>
+                                        </li>
+                                        <li data-category="product"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=recommend&category=product">추천특산물</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="title " id="menuTheme"><a href="#">테마팜 <span class="ddown"><img
+                                                src="https://www.farmstay.co.kr/assets/img/btn_dropdown1.png"
+                                                alt="하위메뉴보기"></span></a>
+                                    <ul class="dep01">
+                                        <li data-category="exp"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=theme&category=exp">체험팜</a></li>
+                                        <li data-category="nature"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=theme&category=nature">자연팜</a>
+                                        </li>
+                                        <li data-category="traditional"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=theme&category=traditional">전통팜</a>
+                                        </li>
+                                        <li data-category="wellbeing"><a
+                                                href="https://www.farmstay.co.kr/search?search_type=theme&category=wellbeing">웰빙팜</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="title"><a href="https://www.farmstay.co.kr/search">팜스테이 찾기</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="title"><a href="https://www.farmstay.co.kr/articles">팜스테이 소식</a></li>
+                                <li class="title"><a href="https://www.farmstay.co.kr/aboutFarmstay">팜스테이란?</a></li>
+
+                            </ul>
+                        </div><!-- End sub_gnb -->
+                        <div class="info_wrap sub01">
+                            <div class="p03" id="searchedList">
+                                <h1 class="searched-list-title">팜스테이 마을 :<span class="search-result-number">
+                                        251</span> 건 중에 <span
+                                        class="search-result-number">20</span>건</h1>
+                                                                                                            <div class="list" data-unique-code="A41423"
+                                            data-latitude="36.82270756"
+                                            data-longitude="126.70053585" data-id="4"
+                                            data-thumbnail="/storage/upload/PvQN4p1wlapXJclWycp2oWxZD1BiBfYILl9FjzHb.png">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A41423">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/PvQN4p1wlapXJclWycp2oWxZD1BiBfYILl9FjzHb.png)"><img
+                                                            src="/storage/upload/PvQN4p1wlapXJclWycp2oWxZD1BiBfYILl9FjzHb.png" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A41423">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">백석올미마을</strong>
+                                                            <span
+                                                                class="short-address">충남 당진시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">같이의 가치를 실현하는 할매들</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="4">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="4">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A41316"
+                                            data-latitude="37.55342956"
+                                            data-longitude="127.70598795" data-id="11"
+                                            data-thumbnail="/storage/upload/97U1TwBItnRtuTh9TE5woDWAkRuzSpQMff5k8m44.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A41316">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/97U1TwBItnRtuTh9TE5woDWAkRuzSpQMff5k8m44.jpeg)"><img
+                                                            src="/storage/upload/97U1TwBItnRtuTh9TE5woDWAkRuzSpQMff5k8m44.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A41316">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">여물리체험마을</strong>
+                                                            <span
+                                                                class="short-address">경기도 양평군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">도시와 농촌의 행복이 여무는 여물리 체험마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="11">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="11">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A41316/experiences/80">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/I0Y4Uc2ZbKTOe8KAh3hrWaUCiwI72bBrCoZnBQSE.jpeg)">
+                                                                            <img src="/storage/upload/I0Y4Uc2ZbKTOe8KAh3hrWaUCiwI72bBrCoZnBQSE.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>여물리 여름 당일체험..</p><span
+                                                                                class="price">25,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A41316/experiences/335">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/gUYg9LH77tsZFKYlfgkCV6sXJtni2WUzIfXPGKbo.jpeg)">
+                                                                            <img src="/storage/upload/gUYg9LH77tsZFKYlfgkCV6sXJtni2WUzIfXPGKbo.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>양평 끝자락~ 물 많고 곡식이 잘 죄는 여물리마을로 오세요~~</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A41212"
+                                            data-latitude="35.87679700"
+                                            data-longitude="127.22838907" data-id="21"
+                                            data-thumbnail="/storage/upload/sfp1EyXpDevRhqVMKZGKBq5M7BvE0LrwVYeDQitR.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A41212">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/sfp1EyXpDevRhqVMKZGKBq5M7BvE0LrwVYeDQitR.jpeg)"><img
+                                                            src="/storage/upload/sfp1EyXpDevRhqVMKZGKBq5M7BvE0LrwVYeDQitR.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A41212">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">인덕마을</strong>
+                                                            <span
+                                                                class="short-address">전북 완주군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">참 살기 좋은 마을기업</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="21">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="21">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A41212/experiences/150">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/zsxEVQVfRmKpp6jetAK3DRS7ieRyaOKGKOrFeMwo.jpeg)">
+                                                                            <img src="/storage/upload/zsxEVQVfRmKpp6jetAK3DRS7ieRyaOKGKOrFeMwo.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>참나물건강피자</p><span
+                                                                                class="price">8,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A41212/experiences/151">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/GBqRWrU3yFeu8u0pWKnHQvhtFH5lc2gpJX5aBB4C.jpeg)">
+                                                                            <img src="/storage/upload/GBqRWrU3yFeu8u0pWKnHQvhtFH5lc2gpJX5aBB4C.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>참나물수제버거 만들기체험</p><span
+                                                                                class="price">8,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A41212/experiences/135">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/DRpwRjctO9ZSzow0ol2u7hfzGEoFOZFfk16XFbI5.jpeg)">
+                                                                            <img src="/storage/upload/DRpwRjctO9ZSzow0ol2u7hfzGEoFOZFfk16XFbI5.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>농산물 수확체험</p><span
+                                                                                class="price">5,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A41079"
+                                            data-latitude="35.45327272"
+                                            data-longitude="128.70676344" data-id="23"
+                                            data-thumbnail="/storage/upload/2cJBfSzQDWUASXI9d8Tnd27ckYdwYxgiKLO5DUrm.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A41079">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/2cJBfSzQDWUASXI9d8Tnd27ckYdwYxgiKLO5DUrm.jpeg)"><img
+                                                            src="/storage/upload/2cJBfSzQDWUASXI9d8Tnd27ckYdwYxgiKLO5DUrm.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A41079">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">밀양꽃새미마을</strong>
+                                                            <span
+                                                                class="short-address">경상남도 밀양시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">다락마다 색색의 옷을 갈아입는 농촌전통 테마마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="23">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="23">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A41079/experiences/353">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/ApA5VrbCYWQtBB5I7VwwiFpbIc72mis6ba7aht1j.jpeg)">
+                                                                            <img src="/storage/upload/ApA5VrbCYWQtBB5I7VwwiFpbIc72mis6ba7aht1j.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>다락마다 색색의 옷을 갈아입는 농촌전통 테마마을</p><span
+                                                                                class="price">30,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40984"
+                                            data-latitude="36.88657697"
+                                            data-longitude="127.75182710" data-id="26"
+                                            data-thumbnail="/storage/upload/0peo0vyGMLOlOBHfrBaT0Z9fPqfLfCpouJlfh6jZ.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40984">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/0peo0vyGMLOlOBHfrBaT0Z9fPqfLfCpouJlfh6jZ.jpeg)"><img
+                                                            src="/storage/upload/0peo0vyGMLOlOBHfrBaT0Z9fPqfLfCpouJlfh6jZ.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40984">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">체리마을</strong>
+                                                            <span
+                                                                class="short-address">충북 음성군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">도시와 농촌이 상생하는 체리마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="26">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="26">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40893"
+                                            data-latitude="35.57493198"
+                                            data-longitude="128.43727585" data-id="30"
+                                            data-thumbnail="http://www.welchon.com/upload/2014/06/02/79859397859962519898_thumbnail1.jpg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40893">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(http://www.welchon.com/upload/2014/06/02/79859397859962519898_thumbnail1.jpg)"><img
+                                                            src="http://www.welchon.com/upload/2014/06/02/79859397859962519898_thumbnail1.jpg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40893">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">우포가시연꽃마을</strong>
+                                                            <span
+                                                                class="short-address">경상남도 창녕군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">사람도 자연의 일부가 되는 우포늪에 오실 땐 맨발로 오세요!</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="30">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="30">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40880"
+                                            data-latitude="35.03375765"
+                                            data-longitude="128.11739438" data-id="31"
+                                            data-thumbnail="http://www.welchon.com/upload/2012/12/16/79878783826295682923_thumbnail1.jpg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40880">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(http://www.welchon.com/upload/2012/12/16/79878783826295682923_thumbnail1.jpg)"><img
+                                                            src="http://www.welchon.com/upload/2012/12/16/79878783826295682923_thumbnail1.jpg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40880">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">우천바리안마을</strong>
+                                                            <span
+                                                                class="short-address">경상남도 사천시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">농산물의 맛이 좋기로 인근에 소문난 마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="31">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="31">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40798"
+                                            data-latitude="35.09211717"
+                                            data-longitude="127.20222445" data-id="36"
+                                            data-thumbnail="/storage/upload/FHhHhpOaQemOYhOaMubitbGYAFUZd9iK47HNZKJd.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40798">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/FHhHhpOaQemOYhOaMubitbGYAFUZd9iK47HNZKJd.jpeg)"><img
+                                                            src="/storage/upload/FHhHhpOaQemOYhOaMubitbGYAFUZd9iK47HNZKJd.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40798">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">순천용오름마을</strong>
+                                                            <span
+                                                                class="short-address">전남 순천시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">용이 구름을 안고 등천하는 인심이 살아있는 곳</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="36">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="36">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40664"
+                                            data-latitude="38.18908999"
+                                            data-longitude="127.90942161" data-id="50"
+                                            data-thumbnail="/storage/upload/DQGW0rmcSeCeo8mud9i4Q7aao0HtZGTvhkUEep5r.png">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40664">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/DQGW0rmcSeCeo8mud9i4Q7aao0HtZGTvhkUEep5r.png)"><img
+                                                            src="/storage/upload/DQGW0rmcSeCeo8mud9i4Q7aao0HtZGTvhkUEep5r.png" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40664">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">오미마을</strong>
+                                                            <span
+                                                                class="short-address">강원 양구군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">다섯가지 맛과 다섯가지 아름다움을 간직한 오미마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="50">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="50">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40664/experiences/677">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg03.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/static/noimg03.jpg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>아스파라거스 수확</p><span
+                                                                                class="price">1,500원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40608"
+                                            data-latitude="36.10374273"
+                                            data-longitude="126.92142191" data-id="54"
+                                            data-thumbnail="/storage/upload/Xmn1CpSYfrkbRFclwG4P05NG8HPxY4Eqd5eWNv42.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40608">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/Xmn1CpSYfrkbRFclwG4P05NG8HPxY4Eqd5eWNv42.jpeg)"><img
+                                                            src="/storage/upload/Xmn1CpSYfrkbRFclwG4P05NG8HPxY4Eqd5eWNv42.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40608">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">두동편백마을</strong>
+                                                            <span
+                                                                class="short-address">전북특별자치도 익산시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">두동편백마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="54">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="54">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40562"
+                                            data-latitude="35.96006194"
+                                            data-longitude="127.83977257" data-id="55"
+                                            data-thumbnail="/storage/upload/70xAeLjx2cHzvx9HDOhirPOHwRMOmcz2B8FSGQAx.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40562">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/70xAeLjx2cHzvx9HDOhirPOHwRMOmcz2B8FSGQAx.jpeg)"><img
+                                                            src="/storage/upload/70xAeLjx2cHzvx9HDOhirPOHwRMOmcz2B8FSGQAx.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40562">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">무풍승지마을</strong>
+                                                            <span
+                                                                class="short-address">전라북도 무주군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">자연과 사람의 休무풍</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="55">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="55">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40562/experiences/615">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/0neHS0UBJEv2MdgDv4ScGEMvzHKxqtH7OHffZCnk.jpeg)">
+                                                                            <img src="/storage/upload/0neHS0UBJEv2MdgDv4ScGEMvzHKxqtH7OHffZCnk.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>사과호두피자만들기체험</p><span
+                                                                                class="price">7원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40562/experiences/619">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/RammaZ9KMB29qwkWz7fxM7qghWRV5Sl2m9GH1WdL.jpeg)">
+                                                                            <img src="/storage/upload/RammaZ9KMB29qwkWz7fxM7qghWRV5Sl2m9GH1WdL.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>친환경두부만들기체험</p><span
+                                                                                class="price">12원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40562/experiences/620">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/jROqwKc8idFfcmBqnVmkRf1BCNXfmr5ovQct2Ssv.jpeg)">
+                                                                            <img src="/storage/upload/jROqwKc8idFfcmBqnVmkRf1BCNXfmr5ovQct2Ssv.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>친환경사과따기체험</p><span
+                                                                                class="price">12원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40562/accommodations/273">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(/storage/upload/N9eEcN43D2WNlUs2jgA5MUhCSLLhwonlSxTMlEJo.jpeg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>황토방</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40562/accommodations/272">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(/storage/upload/Vs2PpngpEnHlaThqg0JOiZFGDI3jvyxT6Y004e4H.jpeg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>야생화펜션</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40470"
+                                            data-latitude="34.60499613"
+                                            data-longitude="127.78766567" data-id="57"
+                                            data-thumbnail="http://www.welchon.com/upload/2014/04/21/79859578819297215880_thumbnail1.jpg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40470">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(http://www.welchon.com/upload/2014/04/21/79859578819297215880_thumbnail1.jpg)"><img
+                                                            src="http://www.welchon.com/upload/2014/04/21/79859578819297215880_thumbnail1.jpg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40470">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">돌산갓장터마을</strong>
+                                                            <span
+                                                                class="short-address">전라남도 여수시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">자연의 맛을 느낄 수 있는 돌산갓장터마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="57">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="57">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40470/experiences/455">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg03.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/static/noimg03.jpg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>바위게간장게장체험</p><span
+                                                                                class="price">8,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40470/experiences/576">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/HOLuZycApE2cC24oR2cuUzxX2uMKJBTa57snYCvF.jpeg)">
+                                                                            <img src="/storage/upload/HOLuZycApE2cC24oR2cuUzxX2uMKJBTa57snYCvF.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>돌산갓김치담그기체험</p><span
+                                                                                class="price">10,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40470/experiences/457">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg03.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/static/noimg03.jpg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>돌산 갓김치담그기체험</p><span
+                                                                                class="price">10,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40470/accommodations/203">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(https://www.farmstay.co.kr/assets/img/static/noimg02.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>광훈민박</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40470/accommodations/205">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(/storage/upload/BfRQjuqrEyKLQCmvg2tMWXk4768VcKsSJeUlnSKt.jpeg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>농부민박</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40470/accommodations/204">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(https://www.farmstay.co.kr/assets/img/static/noimg02.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>바닷가민박</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40421"
+                                            data-latitude="36.52062168"
+                                            data-longitude="126.79911886" data-id="60"
+                                            data-thumbnail="/storage/upload/GCxoVBO3eb9ESQtrBFkstX2LpE4FNicHL2rvGmed.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40421">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/GCxoVBO3eb9ESQtrBFkstX2LpE4FNicHL2rvGmed.jpeg)"><img
+                                                            src="/storage/upload/GCxoVBO3eb9ESQtrBFkstX2LpE4FNicHL2rvGmed.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40421">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">은골구기자마을</strong>
+                                                            <span
+                                                                class="short-address">충남 청양군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">충남 청양의 &#039;에코 파라다이스&#039; 은골 마을입니다.</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="60">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="60">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40299"
+                                            data-latitude="34.83881602"
+                                            data-longitude="128.65413687" data-id="72"
+                                            data-thumbnail="/storage/upload/OEF3oEUeiRUDQbF9OIzZFaVeDn7x6LmalUtkn7Gi.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40299">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/OEF3oEUeiRUDQbF9OIzZFaVeDn7x6LmalUtkn7Gi.jpeg)"><img
+                                                            src="/storage/upload/OEF3oEUeiRUDQbF9OIzZFaVeDn7x6LmalUtkn7Gi.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40299">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">삼거동  청사초롱 체험마을</strong>
+                                                            <span
+                                                                class="short-address">경남 거제시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">사람과 자연이 하나되어 전통을 이어가는 삼거동청사초롱체험마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="72">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="72">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40299/experiences/413">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/fbJQpVUuQiGXIRMfEYTP2HJUASM6fETPE6clFs3b.jpeg)">
+                                                                            <img src="/storage/upload/fbJQpVUuQiGXIRMfEYTP2HJUASM6fETPE6clFs3b.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>포트모내기 심기</p><span
+                                                                                class="price">6,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40299/experiences/372">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/0Rud5tRHTIMd4jF36hwaKVoXP4n47FhYch13cC5c.jpeg)">
+                                                                            <img src="/storage/upload/0Rud5tRHTIMd4jF36hwaKVoXP4n47FhYch13cC5c.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>표고버섯 소시지만들기</p><span
+                                                                                class="price">10,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40299/experiences/534">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/9w0QymRtgztRUId74yv4U3O3UzAboo4CcJOO6Zzf.jpeg)">
+                                                                            <img src="/storage/upload/9w0QymRtgztRUId74yv4U3O3UzAboo4CcJOO6Zzf.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>하천생태체험</p><span
+                                                                                class="price">10,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40299/accommodations/181">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(/storage/upload/ff8hFcB8g8wsMYrg8GVvA8gj2G6ibWyMHcmt1sqg.jpeg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>힐링하우스</p><span
+                                                                                class="price">100,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40299/accommodations/180">
+                                                                        <div class="viewPic"
+                                                                            style="background-image: url(/storage/upload/WjqallWWuvHOJrFg5iyAizB3stV4XPfHMbPUGV5N.jpeg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/test01.png"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>한옥체험관</p><span
+                                                                                class="price">200,000원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40276"
+                                            data-latitude="35.10683737"
+                                            data-longitude="127.91322347" data-id="80"
+                                            data-thumbnail="http://www.welchon.com/upload/board/2016/05/24/1464075091469_640_thumbnail1.jpg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40276">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(http://www.welchon.com/upload/board/2016/05/24/1464075091469_640_thumbnail1.jpg)"><img
+                                                            src="http://www.welchon.com/upload/board/2016/05/24/1464075091469_640_thumbnail1.jpg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40276">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">초량골마을</strong>
+                                                            <span
+                                                                class="short-address">경남 사천시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">다~슬기로운 사람들이 모여사는 마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="80">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="80">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40165"
+                                            data-latitude="36.71224060"
+                                            data-longitude="128.38850015" data-id="91"
+                                            data-thumbnail="http://www.welchon.com/upload/2012/11/24/79878875899387145991_thumbnail1.jpg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40165">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(http://www.welchon.com/upload/2012/11/24/79878875899387145991_thumbnail1.jpg)"><img
+                                                            src="http://www.welchon.com/upload/2012/11/24/79878875899387145991_thumbnail1.jpg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40165">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">출렁다리마을</strong>
+                                                            <span
+                                                                class="short-address">경북 예천군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">꿈이 자라는 자연놀이터</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="91">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="91">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40121"
+                                            data-latitude="37.01083071"
+                                            data-longitude="128.21467538" data-id="96"
+                                            data-thumbnail="/storage/upload/BiDPst4CWibLLlCEaq7f0DJjRxGmrSdXO93iPmdb.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40121">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/BiDPst4CWibLLlCEaq7f0DJjRxGmrSdXO93iPmdb.jpeg)"><img
+                                                            src="/storage/upload/BiDPst4CWibLLlCEaq7f0DJjRxGmrSdXO93iPmdb.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40121">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">학현아름마을</strong>
+                                                            <span
+                                                                class="short-address">충청북도 제천시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">청풍명월의 고장</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="96">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="96">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40116"
+                                            data-latitude="37.08707446"
+                                            data-longitude="127.38138235" data-id="97"
+                                            data-thumbnail="/storage/upload/SR2LZ6jsZshdoNTTu5CRD7Gtc5cMa2v2GYX5nJBf.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40116">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/SR2LZ6jsZshdoNTTu5CRD7Gtc5cMa2v2GYX5nJBf.jpeg)"><img
+                                                            src="/storage/upload/SR2LZ6jsZshdoNTTu5CRD7Gtc5cMa2v2GYX5nJBf.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40116">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">풍산개마을</strong>
+                                                            <span
+                                                                class="short-address">경기도 안성시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">풍산개마을</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="97">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="97">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40116/experiences/632">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg03.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/static/noimg03.jpg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>천연 비누 만들기</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40116/experiences/631">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg03.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/static/noimg03.jpg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>두부 만들기</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40116/experiences/633">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(https://www.farmstay.co.kr/assets/img/static/noimg03.jpg)">
+                                                                            <img src="https://www.farmstay.co.kr/assets/img/static/noimg03.jpg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>쌀보리 강정 만들기</p><span
+                                                                                class="price">0원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40110"
+                                            data-latitude="37.60312055"
+                                            data-longitude="127.52485495" data-id="98"
+                                            data-thumbnail="/storage/upload/JoMUYiYQJNPpcwb8tvvbX6TuBPxqq85srZjCydel.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40110">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/JoMUYiYQJNPpcwb8tvvbX6TuBPxqq85srZjCydel.jpeg)"><img
+                                                            src="/storage/upload/JoMUYiYQJNPpcwb8tvvbX6TuBPxqq85srZjCydel.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40110">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">초롱이둥지마을</strong>
+                                                            <span
+                                                                class="short-address">경기도 가평군</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">청정자연 건강한 마을 &quot;초롱이둥지마을&quot;</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="98">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="98">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="lists clearfix">
+                                                                                                                            <div class="list">
+                                                                    <a
+                                                                        href="https://www.farmstay.co.kr/village/A40110/experiences/351">
+                                                                        <div class="viewPic"
+                                                                            style="background-image:url(/storage/upload/Swe5CtzIqon6BLcje3a75C1qsegK7AM6EWjDuZyZ.jpeg)">
+                                                                            <img src="/storage/upload/Swe5CtzIqon6BLcje3a75C1qsegK7AM6EWjDuZyZ.jpeg"
+                                                                                alt="" />
+                                                                        </div>
+                                                                        <div class="text_a">
+                                                                            <p>나도 농사꾼/ 나는야 요리사/ 누가누가 잘하나~/농촌에서 같이 놀자</p><span
+                                                                                class="price">8원~</span>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                                                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                            <div class="list" data-unique-code="A40096"
+                                            data-latitude="36.94438818"
+                                            data-longitude="127.26962114" data-id="101"
+                                            data-thumbnail="/storage/upload/X3Hhw0Rs9nRB0xRKJazuQ6SChxNNCIndtITsueST.jpeg">
+                                            <div class="list_inner">
+                                                <a
+                                                    href="https://www.farmstay.co.kr/village/A40096">
+                                                    <div class="pic_a"
+                                                        style="background-image:url(/storage/upload/X3Hhw0Rs9nRB0xRKJazuQ6SChxNNCIndtITsueST.jpeg)"><img
+                                                            src="/storage/upload/X3Hhw0Rs9nRB0xRKJazuQ6SChxNNCIndtITsueST.jpeg" style="display:none;"></div>
+                                                </a>
+                                                <div class="info">
+                                                    <a
+                                                        href="https://www.farmstay.co.kr/village/A40096">
+                                                        <h3 class="villageName">
+                                                            <strong class="village-name">인처골마을</strong>
+                                                            <span
+                                                                class="short-address">경기 안성시</span>
+                                                        </h3>
+                                                        <div class="text01 slogan">백년포도 주렁주렁~</div>
+                                                    </a>
+                                                    
+                                                    <div class="info-btns">
+                                                        <a href="#" class="viewrecommend"
+                                                            data-id="101">추천상품보기</a>
+                                                        <a href="#" class="viewdetail"
+                                                            data-id="101">자세히보기</a>
+                                                    </div>
+
+                                                </div><!-- End info -->
+                                            </div><!-- End list_inner -->
+
+                                            <div class="more_info_wrap">
+                                                <div class="more_view exp_a">
+                                                    <h3>추천체험</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 체험이 없습니다.
+                                                        </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="more_view stay_a">
+                                                    <h3>추천숙박</h3>
+                                                                                                            <div class="no-data">
+                                                            등록된 숙박이 없습니다.
+                                                        </div>
+                                                    
+
+                                                </div>
+                                            </div><!-- End more_info_wrap -->
+                                        </div>
+                                                                                                </div><!--End p03 -->
+                            <ul class="pagination">
+        
+                    <li class="disabled"><span>&laquo;</span></li>
+        
+        
+                    
+            
+            
+                                                                        <li class="active"><span>1</span></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=2">2</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=3">3</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=4">4</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=5">5</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=6">6</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=7">7</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=8">8</a></li>
+                                                                    
+                            <li class="disabled"><span>...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li><a href="https://www.farmstay.co.kr/search?page=12">12</a></li>
+                                                                                <li><a href="https://www.farmstay.co.kr/search?page=13">13</a></li>
+                                                        
+        
+                    <li><a href="https://www.farmstay.co.kr/search?page=2" rel="next">&raquo;</a></li>
+            </ul>
+
+                        </div>
+                        <div class="dep01"></div>
+                    </div>
+                </div>
+            </div><!-- End left -->
+            <div id="map" class="right">
+
+            </div><!-- End right -->
+        </div>
+    </div>
+    <script type="text/javascript">
+	
+	$(function () {
+		initializeSelectProvince();
+		ajaxProvinces();
+	});
+	
+	function initializeSelectProvince() {
+		$('#select_province').change(function () {
+			ajaxCities($(this).val());
+		});
+	}
+	
+	function ajaxProvinces() {
+		
+		var select_province = $('#select_province');
+		var select_city = $('#select_city');
+		
+		$.ajax({
+		    url: 'https://www.farmstay.co.kr/search/provinces',
+		    type: 'GET',
+		    data: null,
+		    dataType: 'json',
+		    success: function(data) {
+			    
+
+			    
+			    var provinces = data['provinces'];
+			    
+				$.each(provinces, function (i, province) {
+					select_province.append('<option value="'+province['id']+'">'+province['name']+'</option>');
+				});
+
+				if ( window.default_province_id ) {
+                    $('#select_province option[value="' + window.default_province_id + '"]').prop('selected', 'selected');
+                    $('#select_province').trigger('change');
+                }
+		    },
+		    error: function(xhr) {
+		      console.log('실패 - ', xhr);
+		    }
+		});
+	}
+	
+	function ajaxCities(province_id) {
+		
+		var select_city = $('#select_city');
+		
+		var query = {
+			province_id: province_id,	
+		};
+		
+		$.ajax({
+		    url: 'https://www.farmstay.co.kr/search/cities',
+		    type: 'GET',
+		    data: query,
+		    dataType: 'json',
+		    success: function(data) {
+			    
+			    var cities = data['cities'];
+			    
+			    select_city.children().remove();
+			    
+			    select_city.append('<option value="">시군구 선택</option>');
+			    
+				$.each(cities, function (i, city) {
+					select_city.append('<option value="'+city['id']+'">'+city['name']+'</option>');
+				});
+
+                if ( window.default_city_id ) {
+                    $('#select_city option[value="' + window.default_city_id + '"]').prop('selected', 'selected');
+                    $('#select_city').trigger('change');
+                }
+		    },
+		    error: function(xhr) {
+		      console.log('실패 - ', xhr);
+		    }
+		});
+	}
+</script>
+    <script type="text/javascript"
+        src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=478b795223b2e75274d6fb047a2d0461&libraries=drawing">
+    </script>
+    <script>
+        $(function() {
+
+            var infowindow = null;
+            var map;
+            var villages;
+            var markers = [];
+
+            var container = document.getElementById('map');
+            var options = {
+                center: new kakao.maps.LatLng(36, 127),
+                level: 12
+            };
+
+            map = new kakao.maps.Map(container, options);
+
+            function overlayMarkers() {
+                var imageSrc = 'https://www.farmstay.co.kr/assets/img/map/map_pin_farmstay.png';
+
+                var bounds = new kakao.maps.LatLngBounds();
+                $('#searchedList .list').each(function() {
+
+                    if ($(this).data('longitude') == undefined || $(this).data('latitude') == undefined) {
+                        return true;
+                    }
+
+                    var title = $('.village-name', this).html();
+                    var slogan = $('.slogan', this).html();
+                    var unique_code = $(this).data('unique-code');
+                    var latitude = $(this).data('latitude');
+                    var longitude = $(this).data('longitude');
+                    var id = $(this).data('id');
+                    var thumbnail = $(this).data('thumbnail');
+                    var latlng = new kakao.maps.LatLng(latitude, longitude);
+                    var imageSize = new kakao.maps.Size(40, 40);
+                    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
+                    var marker = new kakao.maps.Marker({
+                        map: map,
+                        position: latlng,
+                        clickable: true,
+                        title: title,
+                        image: markerImage
+                    });
+
+                    marker.info = {
+                        title: title,
+                        slogan: slogan,
+                        thumbnail: thumbnail,
+                        unique_code: unique_code,
+                        latlng: latlng
+                    };
+
+                    kakao.maps.event.addListener(marker, 'click', makeInfoWindow(map, marker));
+
+                    this.marker = marker;
+                    markers.push(marker);
+
+                    console.log(latlng);
+
+                    // Fa, Ga 호출시 에러발생 ==> console.log확인시 La, Ma로 찍힘 수정함 21.01.07
+                    // if ( latlng.Fa > 120 || latlng.Ga > 30 ) {
+                    if (latlng.La > 120 || latlng.Ma > 30) {
+                        bounds.extend(latlng);
+                    }
+                });
+
+                map.setLevel(12);
+                map.panTo(new kakao.maps.LatLng(36, 127));
+
+                if (markers.length > 0) {
+                    setTimeout(function() {
+                        map.setBounds(bounds);
+                    }, 500);
+                }
+
+            }
+
+            function makeInfoWindow(map, marker) {
+                return function() {
+                    if (infowindow != null) {
+                        infowindow.close();
+                        infowindow = null;
+                    }
+                    showInfowWindow(map, marker);
+                }
+            }
+
+            function showInfowWindow(map, marker) {
+                var info = marker.info;
+                infowindow = new kakao.maps.InfoWindow({
+                    content: '<div class="map-marker"><div class="map-marker-header"><a class="btn-hide-marker" href="#">&times;</a></div><div class="map-marker-body"><div class="img" style="background-image:url(' +
+                        info.thumbnail + ')"></div><h5>' + info.title + '</h5><p>' + info.slogan +
+                        '</p></div><div class="map-marker-footer"><a href="/village/' + info.unique_code +
+                        '" class="btn-go">상세보기</a></div></div>',
+
+                });
+                infowindow.open(map, marker);
+            }
+
+            $(document).on('click', 'a.btn-hide-marker', function(e) {
+                if (infowindow != null) {
+                    infowindow.close();
+                    infowindow = null;
+                }
+            });
+
+
+            $(document).on('click', 'a.viewdetail', function(e) {
+                e.preventDefault();
+                var list = $(this).closest('.list')[0];
+                var marker = list.marker;
+
+                if (infowindow != null) {
+                    infowindow.close();
+                }
+
+                showInfowWindow(map, marker);
+                map.setLevel(6);
+                map.panTo(marker.info.latlng);
+            });
+
+
+            $(document).on('click', 'a.viewrecommend', function(e) {
+                e.preventDefault();
+                var list = $(this).closest('.list')[0];
+                //            $('.more_info_wrap').hide();
+                $('.more_info_wrap', list).toggleClass('active');
+
+            });
+
+            $('input#reservation_date').datepicker({
+                inline: true,
+                showOtherMonths: true,
+                dateFormat: 'yy-mm-dd'
+            }).datepicker('widget').wrap('<div class="width-345 ll-skin-nigran"/>');
+
+            // 카테고리 가져오기
+            $.get('https://www.farmstay.co.kr/search/themes', function(res) {
+                $(res.themes).each(function() {
+                    console.log(this);
+                    var themeName = this.name;
+                    var themeId = this.id;
+                    var subThemes = this.sub_themes;
+                    var themeGroup = $('<div class="theme-group"></div>').appendTo(
+                        '#mainSearchForm #themes .theme-list');
+                    themeGroup.attr('id', themeId);
+                    $('<h3 class="theme-name"></h3>').html(themeName).appendTo(themeGroup);
+                    var subThemeGroup = $('<div class="sub-themes"></div>').appendTo(themeGroup);
+
+                    $('<label><input type="checkbox"> 모두선택</label>').appendTo(subThemeGroup).on(
+                        'change',
+                        function(e) {
+
+                            if ($('input', this).is(':checked')) {
+                                $(this).siblings().find('input').prop('checked', 'checked');
+                            } else {
+                                $(this).siblings().find('input').removeProp('checked');
+                            }
+                        });
+
+                    $(subThemes).each(function() {
+                        var subThemeId = this.id;
+                        var subThemeName = this.name;
+                        var label = $('<label><input type="checkbox" name="theme" value="' +
+                            subThemeId + '"> ' + subThemeName + '</label>').appendTo(
+                            subThemeGroup);
+                        if (window.default_sub_theme_ids.indexOf(String(subThemeId)) != -
+                            1) {
+                            label.find('input').prop('checked', 'checked');
+                        }
+                    });
+                })
+            });
+
+
+            $('#mainSearchForm input[name="search_tab"]').on('change', function() {
+
+                var searchType = $('#mainSearchForm input[name="search_tab"]:checked').val();
+
+                $('#mainSearchForm .field_item.field_date').removeClass('active');
+                $('#mainSearchForm .field_item.field_themes').removeClass('active');
+                $('#mainSearchForm .field_item.field_keyword').removeClass('active');
+
+                if (searchType == 'area') {
+                    $('#mainSearchForm .field_item.field_date').addClass('active');
+                } else if (searchType == 'theme') {
+                    $('#mainSearchForm .field_item.field_date').addClass('active');
+                    $('#mainSearchForm .field_item.field_themes').addClass('active');
+                } else if (searchType == 'keyword') {
+                    $('#mainSearchForm .field_item.field_keyword').addClass('active');
+                }
+            })
+
+
+
+
+            function start() {
+                var search_type = getQueryVariable('search_type');
+                var category = getQueryVariable('category');
+                var province_id = getQueryVariable('province_id');
+                var city_id = getQueryVariable('city_id');
+                var reservation_date = getQueryVariable('reservation_date');
+                var keyword = getQueryVariable('keyword');
+                var sub_theme_ids = getQueryVariable('theme');
+
+                if (search_type == 'recommend') {
+                    $('#menuRecommend').addClass('on');
+                    $('#menuRecommend > ul').addClass('active');
+                    $('#menuRecommend > ul > li[data-category="' + category + '"]').addClass('active');
+                }
+
+                if (search_type == 'theme') {
+                    $('#menuTheme').addClass('on');
+                    $('#menuTheme > ul').addClass('active');
+                    $('#menuTheme > ul > li[data-category="' + category + '"]').addClass('active');
+                }
+
+                var search_tab = getQueryVariable('search_tab');
+                if (search_tab && search_tab != '') {
+                    $('#mainSearchForm input[name="search_tab"]').removeProp('checked');
+                    $('#mainSearchForm input[name="search_tab"][value="' + search_tab + '"]').prop('checked',
+                        'checked');
+                }
+
+                $('#mainSearchForm input[name="search_tab"]:checked').trigger('change');
+
+                $('#mainSearchForm input[name="reservation_date"]').val(reservation_date);
+                $('#mainSearchForm input[name="keyword"]').val(keyword);
+
+                window.default_sub_theme_ids = sub_theme_ids.split(',');
+                window.default_province_id = province_id;
+                window.default_city_id = city_id;
+
+                overlayMarkers();
+
+            }
+
+            start();
+        });
+
+
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split('&');
+            var result = [];
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+                if (decodeURIComponent(pair[0]) == variable) {
+                    result.push(decodeURIComponent(pair[1]));
+                }
+            }
+
+            return result.join(',');
+
+        }
+
+
+        $("#themes .btn-toggle").on('click', function(e) {
+            e.preventDefault();
+            $("#themes").toggleClass('opened');
+        })
+    </script>
+
+
+            </div>
+</body>
+
+</html>
