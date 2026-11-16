@@ -147,7 +147,7 @@ def cmd_build(slug, refig=False):
     for links in [re.findall(r'https?://[^\s|]+', t)]:
         if any('champion_chart' in l or 'nangmaninterior' in l for l in links): res['ban'].append('인테리어 링크')
     rel = t.split('[같이 보면 좋은 글]')[-1] if '[같이 보면 좋은 글]' in t else ''
-    res['related'] = rel.count('▶')
+    res['related'] = rel.count('▶') + len(re.findall(r'blog\.naver\.com', t))  # 11/16: 글 안 네이버 링크는 0이어야 ok
     for tool in ('html2aside.py', 'html2aside_html.py'):
         rc, o = sh('python3', os.path.join(PK, tool), d, f'nangman_{slug}')
         if rc: J({'ok': False, 'why': tool + ' 실패', 'tail': o[-400:]}); sys.exit(1)
@@ -160,7 +160,7 @@ def cmd_build(slug, refig=False):
         except Exception: res['selfqa_fail'] = ['selfqa 읽기 실패']
     else: res['selfqa_fail'] = ['selfqa 없음(드라이브 블로그/dosa/_tools/dasi/dasi_kit.tgz 를 /home/claude/kit_dasi 에 풀기)']
     res['title'] = title_of(d); res['note'] = note
-    res['ok'] = not res['ban'] and res['related'] == 3 and res['photos'] >= 2 and 'thumb' in imgs
+    res['ok'] = not res['ban'] and res['related'] == 0 and res['photos'] >= 2 and 'thumb' in imgs
     J(res)
 
 

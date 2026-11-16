@@ -91,7 +91,7 @@ s = re.sub(r'\n{3,}', '\n\n', '\n'.join(out)).strip() + '\n'
 m = re.search(r'\[소제목\] 같이 보면 좋은 글\n(.*?)(?=\n\n태그:|\Z)', s, re.S)
 if m:
     lines = [f'▶ {a.strip()} | {b}' for a, b in re.findall(r'▶ (.+?) \((https?://[^)]+)\)', m.group(1))]
-    s = s.replace(m.group(0), '').rstrip() + '\n\n[같이 보면 좋은 글]\n' + '\n'.join(lines) + '\n'
+    s = s.replace(m.group(0), '').rstrip() + '\n'  # 11/16 사용자: 네이버 글 안 링크 없음 → 블록째 뺀다
     s = re.sub(r'\n{3,}', '\n\n', s)
 open(f'{O}.txt', 'w', encoding='utf8').write(s)
 bad = re.findall(r'##|\*\*|<div|<p|\[CALL\]', s)

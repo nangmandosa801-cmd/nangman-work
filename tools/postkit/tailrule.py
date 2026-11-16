@@ -7,10 +7,12 @@ def short(t, n=30):
     cut = head[:n]; sp = cut.rfind(' ')
     return cut[:sp] if sp > 10 else cut
 def pick(items, lo=3, hi=3):
+    return []  # 11/16 사용자: 네이버 글 안 링크 없음
     items = [x for x in items if x]
     if len(items) < lo: raise SystemExit(f'같이 보면 좋은 글 {len(items)}개 — 3개 이상 필요(같은 단지 · 지역 · 주제)')
     items = items[:hi]
     if any('champion_chart' in str(x) or 'nangmaninterior' in str(x) for x in items): raise SystemExit('낭만 인테리어로 가는 링크 금지')
     return items
 def txt_block(items):
+    return ''  # 11/16 사용자: 네이버 글 안 링크 없음
     return '[같이 보면 좋은 글]\n' + '\n'.join(f'▶ {short(t)} | {u}' for t, u in pick(items))

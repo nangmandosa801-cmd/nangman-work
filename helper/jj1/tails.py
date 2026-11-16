@@ -11,6 +11,7 @@ def interview(head,body):
 <p><br></p>
 '''
 def related(items):
+    return ''  # 11/16 09:47 사용자 「네이버 블로그 글 안에 있는 링크를 뺀다」
     o=f'<p style="font-size:27px;font-weight:700;color:{D};">함께 보면 좋은 글</p>\n<p><br></p>\n'
     for t,u,s in items:
         tt=LK(u,t) if u else f'<span style="color:{A};">{t}</span>'
