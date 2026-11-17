@@ -10,8 +10,8 @@ sys.path.insert(0, '/home/claude/helper')
 D = os.path.dirname(os.path.abspath(__file__))
 J = json.load(open(os.path.join(D, 'ana.json'))); R = {r['inc']: r for r in J['rows']}
 BASE, STRESS, DSR, CAP, N = J['base'], J['stress'], J['dsr'], J['cap'], J['years'] * 12
-NAVER = 'https://blog.naver.com/dong_jin_kim'          # 네이버 원문이 발행되면 글 주소로 바꾼다
-NAVER_T = '낭만 부동산 분석 플랫폼 네이버 블로그'
+NAVER = 'https://blog.naver.com/dong_jin_kim/224479679345'          # 네이버 원문이 발행되면 글 주소로 바꾼다
+NAVER_T = '네이버 글 「연봉별 대출한도, 연봉 1억도 변동금리면 4억 7천」'
 TITLE = '연봉별 주택담보대출 한도표, 2026년 11월 수도권 기준'
 RATE_NOTE = '5대 은행 주택담보대출 금리는 2026년 11월 10일 기준 고정형 연 4.41~6.39%, 변동형 연 4.42~6.48%입니다.'
 def pv(pm, rate):
