@@ -7,29 +7,30 @@ sys.path.insert(0, '/home/claude/tools/postkit'); from vis2img import prep
 s, vm = prep(d)
 urls = json.load(open(f'{d}/urls.json'))
 T = re.search(r"TITLE\s*=\s*['\"](.+?)['\"]", open(f'{d}/mk.py', encoding='utf8').read()).group(1)
-k = [1]
-KW = T.split(',')[0].strip()   # 11/18 사용자: 사진 설명 칸 = 사진 제목 · 검색 단어, 썸네일 = 핵심 검색어
-CAP = lambda c: f'<p style="font-size:14px;color:#0a58ca;font-weight:700;">사진 설명 칸: {H.escape(c[:60])}</p>'
+k = [1]; KW = re.split(r'[,，|]', T)[0].strip(); CAP = [f'01.jpg\t{KW}']
+CS = 'font-size:13px;color:#0a6;font-weight:700;'
 def lab(m):
     g = m.group(0)
     if 'lh3.googleusercontent' not in g and 'vis://' not in g: return g
     if 'vis://' in g:
         import base64; u = re.search(r'src="([^"]+)"', g).group(1)
         g = g.replace(u, 'data:image/png;base64,' + base64.b64encode(open(vm[u], 'rb').read()).decode())
-    k[0] += 1
-    alt = (re.search(r'alt="([^"]*)"', g) or [None, ''])[1].strip()
-    if not alt or re.fullmatch(r'(시각화|그림|image|img)\s*\d*', alt):   # 이름 없는 그림은 바로 위 소제목으로
+    k[0] += 1; a = re.search(r'alt="([^"]*)"', g); cap = (a.group(1).strip() if a and a.group(1).strip() else '')
+    if not cap or re.fullmatch(r'(시각화|그림|image|img)\s*\d*', cap):   # 이름 없는 그림은 바로 위 소제목으로(11/18 합침)
         hs = re.findall(r'<h[23][^>]*>(.*?)</h[23]>', SRC[:m.start()], re.S)
-        alt = re.sub(r'<[^>]+>|[?？]', '', hs[-1]).strip() if hs else '핵심 숫자 요약'
-    cap = alt if alt and KW.split()[0] in alt else ' '.join(x for x in [KW, alt] if x)
-    return f'<p style="font-size:14px;color:#c00;font-weight:700;">▼ 사진 {k[0]:02d}.jpg</p>' + CAP(cap) + g
+        cap = re.sub(r'<[^>]+>|[?？]', '', hs[-1]).strip() if hs else '핵심 숫자 요약'
+    cap = cap if KW in cap else (f'{KW} {cap}'.strip()); CAP.append(f'{k[0]:02d}.jpg\t{cap}')
+    return f'<p style="font-size:14px;color:#c00;font-weight:700;">▼ 사진 {k[0]:02d}.jpg</p><p style="{CS}">└ 사진 설명 칸: {H.escape(cap)}</p>' + g
 SRC = s
 s = re.sub(r'<img[^>]+>', lab, s)
 th = urls.get('thumb', '')
 top = (f'<p style="font-size:14px;color:#c00;font-weight:700;">제목 칸: {H.escape(T)}</p>'
-       f'<p style="font-size:14px;color:#c00;font-weight:700;">▼ 사진 01.jpg (대표 사진)</p>' + CAP(KW) + f'<img src="{th}" width="400"><hr>') if th else ''
+       f'<p style="font-size:14px;color:#c00;font-weight:700;">▼ 사진 01.jpg (대표 사진)</p><p style="{CS}">└ 사진 설명 칸: {H.escape(KW)}</p><img src="{th}" width="400"><hr>') if th else ''
 doc = f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{H.escape(T)}</title></head><body style="max-width:760px;margin:20px auto;padding:0 16px;">{top}{s}</body></html>'
 out = f'/home/claude/w/aside_out/{name}.html'; open(out, 'w', encoding='utf8').write(doc)
+s_cap = '파일\t사진 설명 칸에 넣을 말(01 = 썸네일 · 핵심 검색어)\n' + '\n'.join(CAP) + '\n'
+cap_out = f'/home/claude/w/aside_out/{name}_사진설명.txt'; open(cap_out, 'w', encoding='utf8').write(s_cap)
 print(name, 'photos', k[0])
 if '--up' in sys.argv:
-    subprocess.run(['python3', '/home/claude/helper/gas.py', 'fput', '블로그/협업/4_어사이드/원고', out], check=True, capture_output=True); print('uploaded')
+    for f in (out, cap_out): subprocess.run(['python3', '/home/claude/helper/gas.py', 'fput', '블로그/협업/4_어사이드/원고', f], check=True, capture_output=True)
+    print('uploaded')

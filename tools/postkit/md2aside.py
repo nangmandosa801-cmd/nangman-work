@@ -15,24 +15,22 @@ for ln in head.splitlines():
     if ln.startswith('# '): m['title'] = ln[2:].strip()
     elif ':' in ln: k, v = ln.split(':', 1); m[k.strip()] = v.strip()
 T = m['title']; n = [1]; parts = []
-KW = (m.get('kw') or T.split(',')[0]).strip()   # 핵심 검색어(머리말 kw: 가 없으면 제목 쉼표 앞)
 def b64(p, mime='image/jpeg'): return f'data:{mime};base64,' + base64.b64encode(open(p, 'rb').read()).decode()
-def mark(k, note='', cap=''):
-    # 11/18 사용자: 네이버에 사진 올릴 때 사진 아래 「사진 설명」 칸에 그 사진의 제목 · 검색 단어를 넣는다(썸네일은 핵심 검색어)
-    c = f'<p style="font-size:15px;color:#0a58ca;font-weight:700;margin:0 0 6px">사진 설명 칸: {H.escape(cap)}</p>' if cap else ''
-    return f'<p style="font-size:15px;color:#c00;font-weight:700;margin:18px 0 4px">▼ 사진 {k:02d}.jpg{note}</p>' + c
-CUR_H = ['']
-def cap_of(extra=''):
-    kw = KW; h = re.sub(r'[?？]$', '', CUR_H[0]).strip()
-    c = ' '.join(x for x in [kw, h if h and kw not in h else '', extra] if x)
-    return c[:60]
+# 11/18 23:01 사용자: 사진마다 「사진 설명」 칸에 그 사진의 제목 · 낱말 · 썸네일 설명 칸에는 핵심 검색 키워드
+KW = (m.get('kw') or re.split(r'[,，|]', m['title'])[0]).strip()
+CAP = []; HEAD = [KW]
+def mark(k, note='', cap=None):
+    cap = (cap or (KW if k == 1 else f'{KW} {HEAD[0]}' if HEAD[0] != KW else KW)).strip()
+    CAP.append(f'{k:02d}.jpg\t{cap}')
+    return (f'<p style="font-size:15px;color:#c00;font-weight:700;margin:18px 0 4px">▼ 사진 {k:02d}.jpg{note}</p>'
+            f'<p style="font-size:14px;color:#0a6;font-weight:700;margin:0 0 6px">└ 사진 설명 칸: {H.escape(cap)}</p>')
 # 01 썸네일
 t = [a.strip() for a in m.get('thumb', '').split('|')]
 th = f'{OUT}/01.jpg'
 cmd = ['python3', '/home/claude/tools/ipju_thumb.py', '--tag', t[0], '--name', t[1] + '|' + t[2], '--lead', t[3], '--key', t[4], '--out', th]
 if len(t) > 5 and t[5]: cmd += ['--sub', t[5]]
 subprocess.run(cmd, check=True, capture_output=True)
-parts.append(f'<p style="font-size:15px;color:#c00;font-weight:700">제목 칸: {H.escape(T)}</p>' + mark(1, ' (대표 · 썸네일)', KW) + f'<img src="{b64(th)}" width="420"><hr>')
+parts.append(f'<p style="font-size:15px;color:#c00;font-weight:700">제목 칸: {H.escape(T)}</p>' + mark(1, ' (대표 · 썸네일)') + f'<img src="{b64(th)}" width="420"><hr>')
 def inline(x):
     x = H.escape(x); return re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', x)
 BAN = ('<div style="width:872px;background:#eaf2fb;border-left:10px solid #1f5fa8;padding:30px 34px 34px;font-family:\'Noto Sans CJK KR\',sans-serif">'
@@ -62,7 +60,7 @@ def table_img(rows):
     from PIL import Image
     Image.open(png).convert('RGB').save(f'{OUT}/{k:02d}.jpg', quality=92); os.remove(png); os.remove(hp)
     # 표 그림 + 같은 내용 표(글자로도 남김 · 어사이드가 그림을 넣고 아래 표는 지우거나 둘 다 둠)
-    return mark(k, ' (표 그림)', cap_of('표')) + f'<img src="{b64(f"{OUT}/{k:02d}.jpg")}" style="max-width:100%">'
+    return mark(k, ' (표 그림)', f'{KW} {HEAD[0]} 표' if HEAD[0] != KW else f'{KW} 표') + f'<img src="{b64(f"{OUT}/{k:02d}.jpg")}" style="max-width:100%">'
 # 11/12 배너 빠짐 방지: [CALL] 줄이 없으면 자동으로 넣는다(중간 = 둘째 소제목 위 · 끝 = 같이 보면 좋은 글 위)
 MID_BANNER = False   # 11/13 사용자 홀딩: 전화번호 배너는 글 끝 1장만(중간 배너 끔)
 if not MID_BANNER: body = re.sub(r'^\[CALL\] .*\n?', '', body, flags=re.M)
@@ -89,11 +87,11 @@ for blk in re.split(r'\n\s*\n', body.strip()):
             in_tail[0] = ln[3:].strip().startswith(('같이 보면', '함께 보면'))
             if in_tail[0]: pass  # 11/16 사용자: 네이버 글 안 링크 없음 → 블록 머리도 넣지 않는다
             else:
-                CUR_H[0] = ln[3:].strip()
+                HEAD[0] = re.sub(r'[?？!.]+$', '', ln[3:].replace('**', '').strip())
                 parts.append(f'<h2 style="font-size:22px;color:#1d3d5c;margin:30px 0 10px">{inline(ln[3:])}</h2>')
         elif ln.startswith('!='):
-            src, _, ex = ln[2:].partition('|'); n[0] += 1; shutil.copy(src.strip(), f'{OUT}/{n[0]:02d}.jpg')
-            parts.append(mark(n[0], '', (KW + ' ' + ex.strip()) if ex.strip() else cap_of()) + f'<img src="{b64(f"{OUT}/{n[0]:02d}.jpg")}" style="max-width:100%">')
+            n[0] += 1; src, _, cap = ln[2:].partition('|'); shutil.copy(src.strip(), f'{OUT}/{n[0]:02d}.jpg')
+            parts.append(mark(n[0], '', (f'{KW} {cap.strip()}' if cap.strip() and KW not in cap else cap.strip()) or None) + f'<img src="{b64(f"{OUT}/{n[0]:02d}.jpg")}" style="max-width:100%">')
         elif ln == '[CALL]': parts.append(banner('banner_end.png', '사진 한 장이면 됩니다'))
         elif ln.startswith('[CALL] '):
             ncall[0] += 1; parts.append(banner('banner_mid.png' if ncall[0] == 1 else f'banner_mid{ncall[0]}.png', ln[7:].strip()))
@@ -112,6 +110,7 @@ parts.append('<p style="color:#2f5d8a">' + ' '.join('#' + x.replace(' ', '') for
 doc = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{H.escape(T)}</title></head>'
        f'<body style="max-width:760px;margin:20px auto;padding:0 16px;font-size:18px;line-height:1.85;color:#222;font-family:sans-serif">' + '\n'.join(parts) + '</body></html>')
 open(f'{OUT}/{name}.html', 'w', encoding='utf8').write(doc)
+open(f'{OUT}/사진설명.txt', 'w', encoding='utf8').write('파일\t사진 설명 칸에 넣을 말(01 = 썸네일 · 핵심 검색어)\n' + '\n'.join(CAP) + '\n')
 res = {'name': name, 'photos': n[0], 'dir': OUT, 'tail_links': in_tail[1]}
 if in_tail[1]: res['note'] = '같이 보면 좋은 글 링크 %d개를 뺐음(11/16 네이버 글 안 링크 없음)' % in_tail[1]
 if '--up' in sys.argv:
