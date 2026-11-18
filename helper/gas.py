@@ -15,7 +15,7 @@
 import json, sys, os, base64, urllib.request
 CONF = os.environ.get('GAS_CONF', '/home/claude/gas/conf.json')
 BLOG = {'budongsan': '7361591188244782195', 'changgo': '3521924271702627135', 'interior': '721059683412352295',
-        'dosa': '7985845820612980122', 'bunyang': '2834934300375742982', 'isa': '2364709415225710007', 'study': '2922809504030058068',
+        'dosa': '7985845820612980122', 'bunyang': '2834934300375742982', 'isa': '2364709415225710007', 'study': '2922809504030058068', 'noah': '46327455241640532',
         'myeongham': '6881288676569694880'}  # myeongham: 명함 블로그에 nangmandosa801을 작성자로 초대해야 씀
 
 def call(action, **kw):
