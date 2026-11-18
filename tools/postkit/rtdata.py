@@ -44,7 +44,12 @@ def fetch(sido, sgg, ym_from, ym_to, rent=False):
     S.post(B + '/pt/xls/ptXlsDownDataCheck.do', data=d, headers=h, timeout=120)
     r = S.post(B + '/pt/xls/ptXlsCSVDown.do', data=d, headers=h, timeout=600)
     if r.status_code != 200 or b'"NO"' not in r.content[:20000]: return None
-    open(out, 'wb').write(r.content); return out
+    c = r.content
+    # 11/18: 기간이 길면 사이트가 단독주택 머리줄 + 0 바이트로 채운 깨진 파일을 줄 때가 있다 → 버린다(달 하나씩 받기)
+    if b'\x00' in c: return None
+    head = c[:20000].decode('cp949', 'replace')
+    if '단지명' not in head: return None
+    open(out, 'wb').write(c); return out
 
 
 def main():
