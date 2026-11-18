@@ -1,11 +1,11 @@
-import sys,json,html
+import sys,json,html,re
 sys.path.insert(0,'.'); from posts import P,I
 B='<div class="post-geo" style="font-size:16px;line-height:1.85;color:#3f4a3a">'
 def mk(p):
     h=[B,f'<p><img src="{I[p["img"]]}" alt="{html.escape(p["kw"].split(" · ")[0])} 노아의숲" style="width:100%;border-radius:12px"></p>',
        f'<p><b>{p["intro"]}</b></p>']
     for q,ps in p['sec']:
-        h.append(f'<h2 style="font-size:20px;color:#3d5a3a;margin-top:32px">{q}</h2>'); h+= [f'<p>{x}</p>' for x in ps]
+        h.append(f'<h2 style="font-size:20px;color:#3d5a3a;margin-top:32px">{q}</h2>'); h+= [x if x.startswith('<div') else f'<p>{x}</p>' for x in ps]
     if p.get('faq'):
         h.append('<h2 style="font-size:20px;color:#3d5a3a;margin-top:32px">자주 묻는 질문</h2>')
         for q,a in p['faq']: h.append(f'<p><b>Q. {q}</b><br>{a}</p>')
@@ -16,11 +16,11 @@ def mk(p):
         h.append('<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False)+'</script>')
     return '\n'.join(h)
 out={}
-txt=['[노아의숲 홈페이지 글 원고 검수본 · 클로드 1119 · 13편]','']
+txt=['[노아의숲 홈페이지 글 원고 검수본 v2 · 클로드 1119 04:10 · 13편 · 영상 자막 22개 · 기사 원문 대조 반영]','']
 for p in P:
     out[p['slug']]=dict(title=p['title'],label=p['label'],html=mk(p))
     txt+=[f'■ {p["slug"]} | 라벨 {p["label"]} | 자동완성 확인 검색어: {p["kw"]}',f'제목: {p["title"]}','',p['intro'],'']
-    for q,ps in p['sec']: txt+=['[소제목] '+q]+ps+['']
+    for q,ps in p['sec']: txt+=['[소제목] '+q]+[('[영상 '+re.search(r'embed/([\w-]+)',x).group(1)+']') if x.startswith('<div') else x for x in ps]+['']
     if p.get('faq'):
         txt.append('[자주 묻는 질문]'); txt+=[f'Q. {q}\nA. {a}' for q,a in p['faq']]; txt.append('')
     txt+=['출처: '+' · '.join(p['src']),'','─'*30,'']
