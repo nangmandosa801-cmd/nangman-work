@@ -1,7 +1,8 @@
 """농장 글 썸네일 · 소개 카드 (실사 + 정감 있는 글씨) — Playwright로 HTML을 그림으로.
 글꼴: Noto Sans CJK KR(시스템 고딕 · 11/18 팜 에디터 첫 썸네일과 같은 글꼴). 사장님 11/19 「폰트체 바꾸지마 어제꺼로」
 python3 card.py thumb <사진> <out.jpg> "<작은말>" "<큰 제목 · |로 줄바꿈>" "<아래 이름>"
-python3 card.py intro <사진> <out.jpg> "<제목>" "<줄1>|<줄2>|..." "<아래>"
+python3 card.py intro <사진> <out.jpg> "<제목>" "<줄1>|<줄2>|..." "<아래>" ["<위 작은말>"]
+썸네일 4:5(인스타 묶음용): thumb … "<이름>" 1350
 """
 import sys, base64, pathlib
 from playwright.sync_api import sync_playwright
@@ -16,10 +17,11 @@ def css():
 def img64(p):
     return 'data:image/jpeg;base64,' + base64.b64encode(open(p, 'rb').read()).decode()
 BASE = """<meta charset="utf-8"><style>{css}*{{margin:0;box-sizing:border-box}}body{{width:{w}px;height:{h}px;background:#F6F1E4}}</style>"""
-def thumb(photo, out, small, big, name):
+def thumb(photo, out, small, big, name, h=1080):
+    h=int(h)
     parts = big.split('|'); big = parts[0]; sub = '<br>'.join(parts[1:])
-    html = BASE.format(css=css(), w=1080, h=1080) + f"""
-<div style="position:relative;width:1080px;height:1080px;overflow:hidden">
+    html = BASE.format(css=css(), w=1080, h=h) + f"""
+<div style="position:relative;width:1080px;height:{h}px;overflow:hidden">
  <img src="{img64(photo)}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
  <div style="position:absolute;left:0;right:0;bottom:0;height:62%;background:linear-gradient(to bottom,rgba(246,241,228,0) 0%,rgba(246,241,228,.92) 38%,#F6F1E4 60%)"></div>
  <div style="position:absolute;left:70px;right:70px;bottom:70px;color:#3F4A36">
@@ -31,13 +33,13 @@ def thumb(photo, out, small, big, name):
  </div>
  <div style="position:absolute;top:44px;left:50px;font-family:'Noto Sans CJK KR';font-size:30px;color:#fff;background:rgba(63,74,54,.55);padding:10px 22px;border-radius:30px">팜 에디터</div>
 </div>"""
-    shot(html, out, 1080, 1080)
-def intro(photo, out, title, lines, foot):
+    shot(html, out, 1080, h)
+def intro(photo, out, title, lines, foot, kicker="농장을 소개합니다"):
     lis = ''.join(f'<li style="margin:14px 0">{x}</li>' for x in lines.split('|'))
     html = BASE.format(css=css(), w=1080, h=1350) + f"""
 <div style="width:1080px;height:1350px;background:#F6F1E4;padding:60px;display:flex;flex-direction:column;gap:36px">
  <img src="{img64(photo)}" style="width:960px;height:560px;object-fit:cover;border-radius:28px">
- <div style="font-family:'Noto Sans CJK KR';font-weight:500;font-size:58px;color:#7E9470;line-height:1">농장을 소개합니다</div>
+ <div style="font-family:'Noto Sans CJK KR';font-weight:500;font-size:58px;color:#7E9470;line-height:1">{kicker}</div>
  <div style="font-family:'Noto Sans CJK KR';font-weight:700;font-size:74px;color:#3F4A36;line-height:1.1;margin-top:-14px">{title}</div>
  <ul style="font-family:'Noto Sans CJK KR';font-size:38px;color:#55594F;line-height:1.45;padding-left:40px;margin:0">{lis}</ul>
  <div style="margin-top:auto;font-family:'Noto Sans CJK KR';font-size:30px;color:#8A8270;border-top:2px solid #E2D8C2;padding-top:22px">{foot}</div>
