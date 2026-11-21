@@ -492,7 +492,7 @@ def build(key, up=False, gblog=False):
                 for t_ in ss[1:]: G.append(P(t_))
             G.append(P(f'{"동 묶음은 거래 10건 이상" if key == "hanam" else "단지는 매매 5건 이상"}인 곳만 비교했습니다. 건수가 적은 곳은 층 · 향에 따라 가운데 값이 움직입니다.'))
         G += B[3:]
-        lk = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gblog_links.json'))).get(key, [])
+        lk = []   # 11/21 사용자 「앞으로 부동산 글에 링크 달지마」: 네이버 분석 글 링크 목록을 넣지 않는다(gblog_links.json 은 쓰지 않음)
         if lk:
             G.append(H2(f'{nm} · 이 동네 분석 글'))
             G.append(P('낭만 부동산 분석 플랫폼이 네이버 블로그에 쓴 글입니다.'))
