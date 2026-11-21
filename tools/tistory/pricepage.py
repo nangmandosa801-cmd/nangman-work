@@ -468,7 +468,7 @@ def build(key, up=False, gblog=False):
     local = {i: f'{i:02d}.jpg' for i in range(1, len(files) + 1)}
     open(os.path.join(d, 'local.html'), 'w').write(render(local))
     urls = local
-    if up or gblog:
+    if (up or gblog) and not os.environ.get('NOUP'):   # 11/21 NOUP=1: 우체통이 막혔을 때 그림 주소 대신 01.jpg 상대경로로 gblog.html
         sys.path.insert(0, '/home/claude/helper'); from gas import call
         urls = {}
         stamp = today.strftime('%Y%m')
