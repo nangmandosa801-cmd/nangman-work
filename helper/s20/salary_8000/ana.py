@@ -8,7 +8,7 @@ def pv(pm, rate): r = rate / 100 / 12; return pm * (1 - (1 + r) ** -N) / r
 def pay(loan, rate): r = rate / 100 / 12; return loan * r / (1 - (1 + r) ** -N)
 def loan(inc, ratio, base=BASE, burden=0): return min(math.floor(pv((inc * DSR - burden) / 12, base + STRESS * ratio) / 10) * 10, CAP)
 REG = {'과천시', '광명시', '성남시 분당구', '성남시 수정구', '성남시 중원구', '수원시 영통구', '수원시 장안구', '수원시 팔달구', '안양시 동안구', '용인시 수지구', '의왕시', '하남시', '화성시 동탄구', '용인시 기흥구', '구리시'}
-d = pd.read_pickle('/home/claude/rtn/M_budget_sudo.pkl')
+d = pd.read_pickle('/home/claude/rtn/M_latest.pkl')   # 11/24 재집계: rt_refresh 로 받은 수도권 매매(2026-11-24 내려받음)
 d = d[(d['해제사유발생일'] == '-') & (d['거래유형'] != '직거래')].copy()
 d['amt'] = d['거래금액(만원)'].astype(str).str.replace(',', '').astype(int); d['a'] = d['전용면적(㎡)'].astype(float); d['ym'] = d['계약년월'].astype(int)
 d = d[d.ym.between(202608, 202610)]
@@ -20,8 +20,9 @@ d['sgg'] = d['시군구'].map(sgg); d['sido'] = d['시군구'].str[:2]; d['yr'] 
 d['reg'] = d.apply(lambda r: r.sido == '서울' or r.sgg in REG, axis=1)
 m84 = d[d.a.between(83, 86)]; m59 = d[d.a.between(58, 60)]
 L = {'변동형': loan(INC, 1.0), '혼합형': loan(INC, 0.8), '주기형': loan(INC, 0.4)}
-best = L['주기형']; price = math.floor(best / 0.7 / 100) * 100; own = price - best
-J = dict(inc=INC, loan=L, gap=L['주기형'] - L['변동형'], price=price, own=own, pay=round(pay(best, BASE), 1), pay_share=round(pay(best, BASE) / (INC / 12) * 100, 1),
+best = L['주기형']; price = math.floor(best / 0.7 / 100) * 100
+used = min(best, math.floor(price * 0.7 / 10) * 10); own = price - used   # 11/24 사실검수: 집값의 70%까지만 빌리므로 실제 빌리는 돈(used)과 내 돈을 맞춤
+J = dict(inc=INC, used=used, loan=L, gap=L['주기형'] - L['변동형'], price=price, own=own, pay=round(pay(best, BASE), 1), pay_share=round(pay(best, BASE) / (INC / 12) * 100, 1),
          month_gross=round(INC / 12, 1), n84=len(m84), n59=len(m59))
 def reach(m, p): return int((m.amt <= p).sum()), round(float((m.amt <= p).mean()) * 100, 1)
 J['k84'], J['s84'] = reach(m84, price); J['k59'], J['s59'] = reach(m59, price)
@@ -37,7 +38,7 @@ J['top84'] = top(r84, m84); J['top59'] = top(r59, m59)
 own_rows = []
 for o in (10000, 13000, 16000, own):
     p = price if o == own else min(math.floor(o / 0.3 / 100) * 100, price); k, s = reach(m84, p); k5, s5 = reach(m59, p)
-    own_rows.append(dict(own=o, price=p, loan=p - o if p < price else best, k84=k, s84=s, k59=k5, s59=s5))
+    own_rows.append(dict(own=o, price=p, loan=p - o, k84=k, s84=s, k59=k5, s59=s5))
 J['own_rows'] = own_rows
 # 신용대출 3,000만원(연 6% · DSR 은 5년에 나눠 갚는 것으로 봄)
 b = 3000 / 5 + 3000 * 0.06; J['credit'] = dict(amount=3000, burden=b, loan=loan(INC, 0.4, burden=b)); J['credit']['cut'] = best - J['credit']['loan']
@@ -52,9 +53,10 @@ reg = {}
 for name, ratio in (('first70', 0.7), ('sm60', 0.6), ('base40', 0.4)):
     p = min(math.floor(own / (1 - ratio) / 100) * 100, price) if ratio < 0.7 else price
     if ratio == 0.6: p = min(p, 80000)
-    reg[name] = dict(price=p, loan=p - own if ratio < 0.7 else best, k=int((R.amt <= p).sum()), s=round(float((R.amt <= p).mean()) * 100, 1), seoul=int((RS.amt <= p).sum()))
+    reg[name] = dict(price=p, loan=p - own, k=int((R.amt <= p).sum()), s=round(float((R.amt <= p).mean()) * 100, 1), seoul=int((RS.amt <= p).sum()))
 reg['n'] = len(R); reg['n_seoul'] = len(RS); J['reg'] = reg
 rs = RS[RS.amt <= price].copy(); J['seoul_gu'] = rs.groupby('sgg').size().sort_values(ascending=False).head(6).to_dict()
+J['_note']='11/24 재집계(국토부 2026-11-24 내려받음 · 8~10월 계약 · 해제 · 직거래 뺌)'
 json.dump(J, open('ana.json', 'w'), ensure_ascii=False, indent=1)
 print({k: v for k, v in J.items() if k not in ('top84', 'top59', 'ex84', 'ex59', 'own_rows')})
 print('top84', [(t['sgg'], t['k'], t['share']) for t in J['top84']]); print('top59', [(t['sgg'], t['k'], t['share']) for t in J['top59']])

@@ -12,7 +12,7 @@ L = J['loan']; R = J['reg']
 cards3('img/' + S + '1_loan.png', f"연봉 8천, 주택담보대출은 {uk(L['주기형'])}원까지 나옵니다",
        [(uk(L['변동형']), '변동형', False, '6개월마다 금리가 바뀜'), (uk(L['혼합형']), '혼합형', False, '5년 고정 뒤 변동'), (uk(L['주기형']), '5년 주기형', True, '5년마다 금리를 새로 정함')],
        note=COND + f" · 변동형은 {uk(J['gap'])}원이 적음")
-bars('img/' + S + '2_seoul.png', f"내 돈 {uk(J['own'])}원, 서울 84㎡는 생애최초만 {R['first70']['seoul']}건",
+bars('img/' + S + '2_seoul.png', f"내 돈 {uk(J['own'])}원, 생애최초면 서울 84㎡ {R['first70']['seoul']}건",
      [(f"생애최초 70%|집값 {uk(R['first70']['price'])}까지", R['first70']['seoul'], f"{R['first70']['seoul']}건", True),
       (f"서민 · 실수요자 60%|집값 {uk(R['sm60']['price'])}까지", R['sm60']['seoul'], f"{R['sm60']['seoul']}건", False),
       (f"그 밖 무주택 40%|집값 {uk(R['base40']['price'])}까지", R['base40']['seoul'], f"{R['base40']['seoul']}건", False)],
