@@ -1,6 +1,6 @@
-# 보도 뒤집기 · 월세 상승률 — 서울 아파트 월세 갱신 계약을 실거래로 다시 센다(2026-11-24 받은 R_latest 그대로 · 다시 계산하지 않는다)
+# 보도 뒤집기 · 월세 상승률 — 서울 아파트 월세 갱신 계약을 실거래로 다시 센다(2026-11-25 받은 R_latest 그대로 · 다시 계산하지 않는다)
 import pandas as pd, numpy as np, json, os
-SRC = '/home/claude/rtn/keep/R_latest_1124.pkl'
+SRC = '/home/claude/rtn/keep/R_latest_1125.pkl'
 R = pd.read_pickle(SRC)
 n = lambda s: pd.to_numeric(s.astype(str).str.replace(',', '').str.strip(), errors='coerce')
 R['dep'] = n(R['보증금(만원)']); R['mon'] = n(R['월세금(만원)']).fillna(0)
@@ -27,7 +27,7 @@ J['renew_wol'] = {'n': int(len(A)), 'use': int(A.use.sum()), 'same_dep': int(len
 U = A[A.use]
 def conv(d, rate):
     x = ((d.dep + d.mon * 12 / rate) / (d.pd + d.pm * 12 / rate) - 1) * 100
-    return {'n': int(len(d)), 'le5': pct((x <= 5.1).mean()), 'med': round(float(x.median()), 2)}
+    return {'n': int(len(d)), 'le50_n': int((x <= 5.0001).sum()), 'le50': pct((x <= 5.0001).mean()), 'b5051_n': int(((x > 5.0001) & (x <= 5.1)).sum()), 'gt51_n': int((x > 5.1).sum()), 'le5': pct((x <= 5.1).mean()), 'med': round(float(x.median()), 2)}
 J['conv_use'] = {'r45': conv(U, 0.045), 'r50': conv(U, 0.05)}
 J['conv_use_same'] = {'r45': conv(E[E.use], 0.045), 'r50': conv(E[E.use], 0.05)}
 # 전세 → 전세 갱신
